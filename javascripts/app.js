@@ -1,0 +1,127 @@
+(function($){
+  
+  
+  $(function(){
+    $(document).foundationMediaQueryViewer();
+    
+    $(document).foundationAlerts();
+    
+    $(document).foundationAccordion();
+    
+    $(document).tooltips();
+    
+    $('input, textarea').placeholder();
+    
+    $(document).foundationButtons();
+    
+    $(document).foundationNavigation();
+    
+    $(document).foundationCustomForms();
+      
+    $(document).foundationTabs({callback:$.foundation.customForms.appendCustomMarkup});
+      
+    $("#featured").orbit();
+    
+       
+    // UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids
+    // $('.block-grid.two-up>li:nth-child(2n+1)').css({clear: 'left'});
+    // $('.block-grid.three-up>li:nth-child(3n+1)').css({clear: 'left'});
+    // $('.block-grid.four-up>li:nth-child(4n+1)').css({clear: 'left'});
+    // $('.block-grid.five-up>li:nth-child(5n+1)').css({clear: 'left'});
+    
+    
+
+  });
+  
+      //Dropdown
+     
+      $(function() {
+	   
+        // Create the dropdown base
+        $("<select />").appendTo("nav");
+        
+        // Create default option "Go to..."
+        $("<option />", {
+           "selected": "selected",
+           "value"   : "",
+           "text"    : "Recent projects..."
+        }).appendTo("nav select");
+        
+        // Populate dropdown with menu items
+        $("nav a").each(function() {
+         var el = $(this);
+         $("<option />", {
+             "value"   : el.attr("href"),
+             "text"    : el.text()
+         }).appendTo("nav select");
+        });
+        
+        // To make dropdown actually work
+        // To make more unobtrusive: http://css-tricks.com/4064-unobtrusive-page-changer/
+        $("nav select").change(function() {
+          window.location = $(this).find("option:selected").val();
+        });
+	 
+      });
+    
+    //End Dropdown    
+         
+	 
+	 
+  //$(window).bind('resize', function() {
+  //   location.reload();
+  //});
+  
+
+  		//My Loader
+                // Wait for window load
+		$(window).load(function() {
+			// Animate loader
+                        $('.loading').fadeOut();
+			$('#loader').delay(500).fadeOut('slow');
+		});
+
+  
+
+
+
+//Rotator
+//http://archive.plugins.jquery.com/project/RotationalStringObfuscator
+//http://www.josephfinsterwald.com/UI/Pages/Email-Obfuscation-with-JQuery.aspx
+//Not compatible with jQuery 1.7.x?
+
+$(function() {
+    $.rotate = function(s) {
+        return $.rotate13($.rotate5(s));
+    }
+
+    $.rotate5 = function(s) {
+        var b = [],c,i = s.length,a = '0'.charCodeAt(),z = a + 10;
+        while (i--) { 
+            c = s.charCodeAt(i);
+            if (c >= a && c < z) { b[i] = String.fromCharCode(((c - a + 5) % (10)) + a); }
+            else { b[i] = s.charAt(i); }
+        }
+        return b.join('');
+    };
+
+    $.rotate13 = function(s) {
+        var b = [],c,i = s.length,a = 'a'.charCodeAt(),z = a + 26,A = 'A'.charCodeAt(),Z = A + 26;
+        while (i--) {
+            c = s.charCodeAt(i);
+            if (c >= a && c < z) { b[i] = String.fromCharCode(((c - a + 13) % (26)) + a); }
+            else if (c >= A && c < Z) { b[i] = String.fromCharCode(((c - A + 13) % (26)) + A); }
+            else { b[i] = s.charAt(i); }
+        }
+        return b.join('');
+    };
+  });
+
+
+
+//after all scripts
+})(jQuery);
+
+
+
+/*! A fix for the iOS orientationchange zoom bug. Script by @scottjehl, rebound by @wilto.MIT / GPLv2 License.*/(function(a){function m(){d.setAttribute("content",g),h=!0}function n(){d.setAttribute("content",f),h=!1}function o(b){l=b.accelerationIncludingGravity,i=Math.abs(l.x),j=Math.abs(l.y),k=Math.abs(l.z),(!a.orientation||a.orientation===180)&&(i>7||(k>6&&j<8||k<8&&j>6)&&i>5)?h&&n():h||m()}var b=navigator.userAgent;if(!(/iPhone|iPad|iPod/.test(navigator.platform)&&/OS [1-5]_[0-9_]* like Mac OS X/i.test(b)&&b.indexOf("AppleWebKit")>-1))return;var c=a.document;if(!c.querySelector)return;var d=c.querySelector("meta[name=viewport]"),e=d&&d.getAttribute("content"),f=e+",maximum-scale=1",g=e+",maximum-scale=10",h=!0,i,j,k,l;if(!d)return;a.addEventListener("orientationchange",m,!1),a.addEventListener("devicemotion",o,!1)})(this); 

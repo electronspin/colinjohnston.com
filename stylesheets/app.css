@@ -1,0 +1,341 @@
+/* electronspin.com */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+/*Reset Grid from 940 to 960*/
+/*.row { width: 940px; max-width: 100%; min-width: 768px; margin: 0 auto; }*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body { background-color: #fafafa; font-family: 'Lato', sans-serif; font-weight: 300; color: #777; }
+
+h2 { font-family: inherit; font-weight: 400; font-size: 2em; }
+h3 { font-family: inherit; font-weight: 300; font-size: 1.5em; }
+h4 { font-family: inherit; font-weight: 400; font-size: 1.25em; }
+
+div.panel h5 { font-family: inherit; font-weight: 400; font-size: 1.25em; }
+
+#topbar {margin: 0 0 30px 0;}
+
+#branding { margin: 2px 0; }
+
+h1#logo { margin: 0;}
+
+#content { }
+
+div.imagebox div.orbit { margin-bottom: 0px; }
+
+/*START sliding captions*/
+
+figure { display: block; position: relative; overflow: hidden; }
+
+figcaption {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: .75em;
+    position: absolute;
+    background: #333;
+    background: rgba(0,0,0,0.75);
+    color: white;
+    padding: 20px 20px;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    bottom: -30%;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition:    all 0.6s ease;
+    -o-transition:      all 0.6s ease;   
+}
+
+figure:hover figcaption { opacity: 1; bottom: 0; }
+
+/*figure:before { 
+  content: "?"; 
+  position: absolute;
+  bottom: 10px; left: 10px;
+  background: rgba(255,255,255,0.75); 
+  color: black;
+  width: 24px;
+  height: 24px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius:    12px;
+  border-radius:         12px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  opacity: 0.75;	
+}
+
+figure:hover:before {
+  opacity: 0;
+}*/
+
+/*END sliding captions*/
+
+
+.imagebox {
+    display: block;
+    margin: 0 0 2em 0;
+    border:1px solid #ccc;
+    line-height: 0;
+    -moz-box-shadow:    -2px 3px 5px 0px #ccc;
+    -webkit-box-shadow: -2px 3px 5px 0px #ccc;
+    box-shadow:         -2px 3px 5px 0px #ccc;
+}
+
+
+a { color: #000;
+    /*color: #ce222b;*/ 
+}
+
+a:hover { color: #777;
+    /*background-color: #d1cfcb;*/
+}
+
+
+
+p { font-family: 'Lato', sans-serif; font-weight: 300; font-size: 1.1em; line-height: 1.8em; }
+
+p.intro { margin: 1.5em 0 3px 0; }
+
+p.tagline { font-weight: 400; margin: 1.5em 0 3px 0; }
+
+.side-nav li
+{ font-family: 'Lato', sans-serif; color: #777; font-weight: 300; font-size: 1.1em; line-height: 1.8em; }
+
+.side-nav li a
+{ color: #777; font-weight: 400;
+    /*padding-left: 3px;*/
+    -ms-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+/*p { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; line-height: 1.8em; -webkit-font-smoothing: subpixel-antialiased;}
+.side-nav li { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #777; font-weight: normal; font-size: 1em; line-height: 1.8em; -webkit-font-smoothing: subpixel-antialiased;}
+p.intro { font-family: 'HelveticaNeue-Light', Helvetica, Arial, sans-serif; font-size: 1em; line-height: 1.8em; -webkit-font-smoothing: subpixel-antialiased;margin: 1.5em 0 3px 0; }*/
+
+/*font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 15px;*/
+
+ul.side-nav li.active a, .side-nav li a:hover { color: #000; font-weight: 400 !important; }
+
+ul.side-nav { padding: 18px 0 0 0; }
+
+ul.side-nav.topnav { padding: 15px 0 0 0; }
+
+ul.side-nav li { margin: 0px; }
+
+
+/*Services Box*/
+
+.panel {
+background: #F2F2F2;
+border: solid 1px #E6E6E6;
+margin: 5px 0 22px 0;
+padding: 20px;
+}
+
+/* Services Box Lists ---------------------- */
+ul.services, ol.services { font-size: 14px; line-height: 1.6; margin-bottom: 3px; list-style-position: outside; margin-left: 17px;}
+ul.services > ul, ul.services > ol { margin-left: 17px; margin-bottom: 0 !important; list-style-position: outside; }
+ul.services > ul ul, ul.services > ul ul { margin-bottom: 0px; }
+    
+    /*Copy of foundation.css*/ 
+    ul li ul, ul li ol { margin-left: 20px; margin-bottom: 0; }
+    ul.square, ul.circle, ul.disc { margin-left: 17px; }
+    ul.square { list-style-type: square; }
+    ul.square li ul { list-style: inherit; }
+    ul.circle { list-style-type: circle; }
+    ul.circle li ul { list-style: inherit; }
+    ul.disc { list-style-type: disc; }
+    ul.disc li ul { list-style: inherit; }
+    ul.no-bullet { list-style: none; }
+    ul.large li { line-height: 21px; }
+    
+    ol li ul, ol li ol { margin-left: 20px; margin-bottom: 0; }
+
+.label.services { display: inline-block; margin-top: 17px; padding: 4px 4px 4px; font-family: inherit; background-color: #fafafa; color: #999; }
+
+ul.services .has-tip {
+border-bottom: dotted 1px #555;
+cursor: help;
+font-weight: normal;
+color: #999 !important;
+}
+
+/*Contact Button*/
+
+.contact-button { margin: 3em 0 3em 0; }
+
+.contact-email {
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 1em 1.25em;
+    background-color: #999;
+    -border-radius: 9px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    -ms-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.contact-email:hover { color: #ffffff; background-color: #333; }
+
+/*End Contact Button*/
+
+/* -----------------------------------------
+   Page Bottom
+----------------------------------------- */
+
+#pagebottom {
+    /*background-color: #333;*/
+    margin-top: 44px;
+    padding: 14px 0;
+}
+
+p.copyright { font-size: .75em; color: #777;}
+p.copyright a { color: #777; font-weight: 400; }
+p.copyright a:hover { color: #000; font-weight: 400 !important; }
+
+/*A little jack to keep footer background to bottom on portrait tablets*/
+/*@media screen and (orientation: portrait) and (max-width: 768px) and (min-width: 480px) { #pagebottom { height: 300px; } } */
+
+/*Keep for dark footer TBD*/
+/*#copyright p { font-size: .75em; color: #FAFAFA;}
+#copyright p a { color: #999; }
+#copyright p a:hover { color: #FAFAFA; }*/
+
+/*Email Code Direction*/
+
+a.codedirection {
+unicode-bidi: bidi-override;
+direction: rtl;
+}
+
+/* -----------------------------------------
+   Dropdown
+----------------------------------------- */
+
+    nav {
+      display: block;
+    }
+    
+    nav li, nav a {
+      display: inline-block;
+    }
+    
+    nav select {
+      display: none;
+    }
+    
+    @media (max-width: 767px) {
+      nav ul.side-nav     { display: none; }
+      
+      nav select {
+        /*essential*/
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        display: inline-block;
+        font-size: 1em;
+        font-family: 'Lato', sans-serif;
+        line-height: 1.5em;
+        
+        /*optional*/
+        /*float: right;
+        width: 64%;
+        background: none;
+        background-color: #ccc;
+        background-image: url();
+        border: none;
+        padding: 12px;
+        height: 3.25em;
+        margin-top: 2.125em;
+        color: #fff;
+        font-weight: 400;
+        -border-radius: 9px;
+        -moz-border-radius: 9px;
+        -webkit-border-radius: 9px;
+        border-radius: 9px;*/
+        }
+
+        /*You need to add -webkit-appearance: none; and a height value for Chrome and Safari.*/
+    }
+
+
+/* -----------------------------------------
+   Type
+----------------------------------------- */
+
+/*@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../type/bebas-neue/BebasNeue-webfont.eot');
+    src: url('../type/bebas-neue/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../type/bebas-neue/BebasNeue-webfont.woff') format('woff'),
+         url('../type/bebas-neue/BebasNeue-webfont.ttf') format('truetype'),
+         url('../type/bebas-neue/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+
+
+/* -----------------------------------------
+   Loader
+----------------------------------------- */
+
+.no-js #loader { display: none;  }
+/*.js #loader { z-index: 666999; width: 100%; height: 100%; display: block; position: absolute; left: 0; top: 0; background: url('../images/ajax-loader.gif') #fafafa center no-repeat;}*/
+.js #loader { z-index: 666999; width: 100%; height: 100%; display: block; position: absolute; left: 0; top: -10px; background-color: #fafafa;}
+.loading { position: absolute; left: 47.5%; top: 180px; }
+
+
+/* -----------------------------------------
+   Mobile & Tablet Adjustments
+----------------------------------------- */
+
+
+@media (max-width: 480px) {
+    p.tagline, p.intro, .side-nav li {font-size: 1em !important;}
+    .contact-email {display: block; width: 100% !important;}
+    .contact-button { text-align: center; margin: 0 0 1.5em 0; }
+}
+
+@media (max-width: 768px) {
+    p.tagline, p.intro, .side-nav li {font-size: .75em;}
+    #topbar {margin: 0 0 5px 0;}
+}
+
+@media only screen and (min-width: 768px) {
+    #branding {width: 86%;}
+    p.intro {padding-right: 2em;}
+}
+
+/*Temporary hack to keep logo aligning with images on tablets*/
+@media screen and (max-width: 768px) and (min-width: 480px) { #branding { margin-top: -12px; } }
+
+
+/*Override decimal thirds to fix image sizing issue in eight-column content area*/
+.four, .row .four { width: 33%; }
+.eight, .row .eight { width: 67%; }
