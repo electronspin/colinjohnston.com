@@ -27,7 +27,7 @@
             <img src="/images/therealsftour-home.jpg" alt="" />
           </div>
           <h2>The Real SF Tour Website</h2>
-          <p><a href="http://therealsftour.com/" name="" target="_blank">therealsftour.com</a></p>
+          <p><a href="http://rsft.electronspin.com/" name="" target="_blank">therealsftour.com</a></p>
           
           <?php //include('overview.php') ?>
           

@@ -1,9 +1,12 @@
+<?php $dir = ($_SERVER['DOCUMENT_ROOT'].'/'); ?>
+
 <div id="pagebottom">
     <div>
       <div class="row">
         <div class="nine columns">
         <p class="contact-button show-for-small"><a class="contact-email" href="/connect-and-collaborate">Connect</a></p>
-        <p class="copyright">&copy; 2012-2013 Colin Johnston. Built with HTML5 / CSS3 / PHP / jQuery. An <a href="http://electronspin.com" title="Electron Spin">Electron Spin</a> production. Updated 2013-03-10</p>
+        <p class="copyright">&copy; 2012-2015 Colin Johnston. Hand-coded in Sublime Text using Foundation / Sass / PHP / jQuery. An <a href="http://electronspin.com" title="Electron Spin">Electron Spin</a> production. Updated 
+        <?php echo date ('F d Y', filemtime($dir));  ?>
         </div>
         <div class="three columns" style="text-align: right;">
         

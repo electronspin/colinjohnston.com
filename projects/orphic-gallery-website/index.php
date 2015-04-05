@@ -2,7 +2,7 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?> 
 
-<title>Orphic Gallery Website | Recent Projects | Colin Johnston</title>
+<title>Orphic Gallery Website | Colin Johnston</title>
 </head>
 
 <body>
@@ -24,10 +24,9 @@
       <div class="row">
         <div class="twelve columns">
           <div class="imagebox">
-            <a href="http://www.orphicgallery.com" name="" target="_blank"><img src="/images/orphic-exhibitions-598.png" alt="" /></a>
+            <a href="http://orphic.electronspin.com" name="" target="_blank"><img src="/images/orphic-exhibitions-598.png" alt="" /></a>
           </div>
           <h2>Orphic Gallery Website</h2>
-          <!--<p><a href="http://www.orphicgallery.com" name="" target="_blank">www.orphicgallery.com</a></p>-->
           
           <?php include('overview.php') ?>
           

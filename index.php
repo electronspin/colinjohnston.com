@@ -2,7 +2,7 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?>
 
-<title>Colin Johnston | Design for Web, Print, and Mobile | San Francisco, CA</title>
+<title>Colin Johnston | Visual / UX / Product Designer | San Francisco, CA</title>
 </head>
 
 <body>
@@ -42,13 +42,13 @@
 
       <div class="row rowpad">
         <div class="six columns">
-          <a href="/projects/mplus1-investment-newsletter-website">
-          <div class="imagebox" ><figure>
-            <img src="images/mplus1-home-new-598.jpg" alt="" />
-            <figcaption>(m+) Investment Newsletter Website</figcaption>
+          <a href="/projects/paul-saffo-website">
+          <div class="imagebox"><figure>
+            <img src="images/saffo-journal-598.jpg" alt="" />
+            <figcaption>Paul Saffo's Website</figcaption>
           </figure></div>
           </a>
-        </div>        
+        </div>       
         <div class="six columns">
           <a href="/projects/orphic-gallery-website">
           <div class="imagebox"><figure>
@@ -69,51 +69,8 @@
           </a>
         </div>
         <div class="six columns">
-          <a href="/projects/the-park-gym-website">
-          <div class="imagebox" ><figure>
-            <img src="images/the-park-gym-home-598.jpg" alt="" />
-            <figcaption>The Park Gym Website</figcaption>
-          </figure></div>
-          </a>
+
         </div>
-      </div>
-      
-      <div class="row rowpad">
-        <div class="six columns">
-          <a href="/projects/discern-analytics-website">
-          <div class="imagebox"><figure>
-            <img src="images/discern-home-orig-598.png" alt="" />
-            <figcaption>DISCERN Analytics Website</figcaption>
-          </figure></div>
-          </a>
-        </div>
-        <div class="six columns">
-          <a href="/projects/paul-saffo-website">
-          <div class="imagebox"><figure>
-            <img src="images/saffo-journal-598.jpg" alt="" />
-            <figcaption>Paul Saffo's Website</figcaption>
-          </figure></div>
-          </a>
-        </div>
-      </div>
-      
-      <div class="row rowpad">
-         <div class="six columns">
-          <a href="/projects/simo-the-band-single-packaging">
-          <div class="imagebox"><figure>
-            <img src="images/simo-single-598.jpg" alt="" />
-            <figcaption>SIMO 7" Single Packaging</figcaption>
-          </figure></div>
-          </a>
-        </div>
-        <div class="six columns">
-          <a href="/projects/recent-logos">
-          <div class="imagebox"><figure>
-            <img src="images/logos-recent-598.png" alt="" />
-            <figcaption>Recent Logos</figcaption>
-          </figure></div>
-          </a>
-        </div>        
       </div>
           
   </div> <!--end eight column content area-->
