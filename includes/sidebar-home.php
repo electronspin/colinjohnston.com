@@ -13,6 +13,6 @@
     </ul> -->
     </nav>
   
-    <!-- <p class="contact-button"><a class="contact-email" href="/connect-and-collaborate">Connect</a></p> -->
+    <p class="contact-button hide-for-small"><a class="contact-email" href="/connect-and-collaborate">Connect</a></p>
         
     </div> <!--end four columns sidebar-->
