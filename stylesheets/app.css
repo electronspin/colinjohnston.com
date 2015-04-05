@@ -215,8 +215,8 @@ color: #999 !important;
     padding: 14px 0;
 }
 
-p.copyright { font-size: .75em; color: #777;}
-p.copyright a { color: #777; font-weight: 400; }
+p.copyright { font-size: .9em; color: #999;}
+p.copyright a { color: #999; font-weight: 400; }
 p.copyright a:hover { color: #000; font-weight: 400 !important; }
 
 /*A little jack to keep footer background to bottom on portrait tablets*/
