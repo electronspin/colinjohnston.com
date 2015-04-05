@@ -4,7 +4,15 @@
     <div>
       <div class="row">
         <div class="twelve columns">
-        <p class="contact-button show-for-small"><a class="contact-email" href="/connect-and-collaborate">Connect</a></p>
+        
+        <?php 
+        $parentdir = dirname($_SERVER['PHP_SELF']);
+        if ($parentdir == '/connect-and-collaborate') {
+          echo null;
+        } else {
+          echo '<p class="contact-button show-for-small"><a class="contact-email" href="/connect-and-collaborate">Connect</a></p>';
+        } ?>
+
         <p class="copyright">&copy; 2012-2015 Colin Johnston. Hand-coded in Sublime Text using Foundation / Sass / PHP / jQuery. 
             <!-- An <a href="http://electronspin.com" title="Electron Spin">Electron Spin</a> production. --> 
             Updated 
