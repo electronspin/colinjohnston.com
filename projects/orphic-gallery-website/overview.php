@@ -39,6 +39,6 @@
               <h4><?php echo $overview_section_c; ?></h4>
               <p>The site successfully presents the gallery's offerings and captures the atmosphere of the gallery itself.
 </p>
-              <p><a href="http://www.orphicgallery.com" name="" target="_blank">www.orphicgallery.com</a></p>
+              <p><a href="http://orphic.electronspin.com" name="" target="_blank">www.orphicgallery.com</a></p>
             </div>
 </div>
