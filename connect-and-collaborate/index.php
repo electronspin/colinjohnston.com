@@ -23,7 +23,7 @@
       <div class="row">
         <div class="twelve columns">
           <div class="imagebox">
-            <img src="/images/laptop-connect-598.jpg">
+            <img src="/images/connect-colin-598.jpg">
           </div>
           <h2>Connect</h2>
           <p>Do you have a project you'd like to to start? Let's connect and see how I can help.</p>
