@@ -15,7 +15,7 @@
   
 <div id="page" class="row">
     
-<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar-home.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
     
   <div id="content" class="eight columns">
       
