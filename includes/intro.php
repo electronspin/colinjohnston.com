@@ -1,0 +1,1 @@
+I'm a Visual / UX / Product Designer living in San Francisco, California. I create for web, print, and mobile, with a focus on great typography and clear, consistent user experiences. 
