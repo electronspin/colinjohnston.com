@@ -7,11 +7,11 @@
 
 <body>
     
-  <div id="pagetop" class="row" >
+<!--   <div id="pagetop" class="row" >
     <div id="topbar" class="twelve columns">
       <p></p>
     </div>
-  </div>
+  </div> -->
   
 <div id="page" class="row">
 
@@ -24,7 +24,7 @@
       <div class="row">
         <div class="twelve columns">
           <div class="imagebox">
-            <a href="http://rsft.electronspin.com/" name="" target="_blank"><img src="/images/therealsftour-home.jpg" alt="" /></div>
+            <a href="http://rsft.electronspin.com/" name="" target="_blank"><img src="/images/therealsftour-home.jpg" alt="" />
           </div>
           <h2>The Real SF Tour Website</h2>
           <p><a href="http://rsft.electronspin.com/" name="" target="_blank">therealsftour.com</a></p>

@@ -32,39 +32,40 @@
     
 
   });
-  
-//Dropdown
+
+
+// //Dropdown
      
-$(function() {
+// $(function() {
 
-  // Create the dropdown base
-  $("<select />").appendTo("nav");
+//   // Create the dropdown base
+//   $("<select />").appendTo("nav");
   
-  // Create default option "Go to..."
-  $("<option />", {
-     "selected": "selected",
-     "value"   : "",
-     "text"    : "Recent projects..."
-  }).appendTo("nav select");
+//   // Create default option "Go to..."
+//   $("<option />", {
+//      "selected": "selected",
+//      "value"   : "",
+//      "text"    : "Recent projects..."
+//   }).appendTo("nav select");
   
-  // Populate dropdown with menu items
-  $("nav a").each(function() {
-   var el = $(this);
-   $("<option />", {
-       "value"   : el.attr("href"),
-       "text"    : el.text()
-   }).appendTo("nav select");
-  });
+//   // Populate dropdown with menu items
+//   $("nav a").each(function() {
+//    var el = $(this);
+//    $("<option />", {
+//        "value"   : el.attr("href"),
+//        "text"    : el.text()
+//    }).appendTo("nav select");
+//   });
   
-  // To make dropdown actually work
-  // To make more unobtrusive: http://css-tricks.com/4064-unobtrusive-page-changer/
-  $("nav select").change(function() {
-    window.location = $(this).find("option:selected").val();
-  });
+//   // To make dropdown actually work
+//   // To make more unobtrusive: http://css-tricks.com/4064-unobtrusive-page-changer/
+//   $("nav select").change(function() {
+//     window.location = $(this).find("option:selected").val();
+//   });
 
-});
+// });
     
-//End Dropdown    
+// //End Dropdown    
          
 	 
 	 
@@ -116,6 +117,21 @@ $(function() {
         return b.join('');
     };
   });
+
+
+// Offcanvas
+
+$(".open-panel").click(function(){
+  
+  $("html").addClass("openNav");
+  
+});
+  
+$(".close-panel, #content").click(function(){
+  
+$("html").removeClass("openNav");
+  
+});
 
 
 

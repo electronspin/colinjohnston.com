@@ -7,11 +7,11 @@
 
 <body>
   
-  <div id="pagetop" class="row" >
+<!--   <div id="pagetop" class="row" >
     <div id="topbar" class="twelve columns">
       <p></p>
     </div>
-  </div>
+  </div> -->
   
 <div id="page" class="row">
     
