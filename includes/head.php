@@ -10,8 +10,11 @@
   <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
   <link rel="stylesheet" href="/stylesheets/foundation.min.css">
   <link rel="stylesheet" href="/stylesheets/open-iconic-foundation.min.css">
-  <link rel="stylesheet" href="/stylesheets/app.css">
+  <link rel="stylesheet" href="/stylesheets/app.min.css">
   <script src="/javascripts/modernizr.foundation.js"></script>
+  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.0/picturefill.min.js"></script> -->
+  <script src="/javascripts/picturefill.min.js"></script>
+  
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

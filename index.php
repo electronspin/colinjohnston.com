@@ -23,18 +23,43 @@
       
       <div class="row rowpad">
         <div class="six columns">
+          <a href="/projects/moovweb-control-center">
+            <div class="imagebox">
+              <figure>
+                <img src="images/moovweb-control-center-main_lg.jpg" alt="Moovweb Control Center">
+                <figcaption>Moovweb Control Center</figcaption>
+              </figure>
+            </div>
+          </a>
+        </div>
+        <div class="six columns">
+          <a href="/projects/moovweb-dev-center">
+            <div class="imagebox">
+              <figure>
+                <img src="images/moovweb-dev-center-home_lg.jpg" alt="Moovweb Developer Center">
+                <figcaption>Moovweb Developer Center</figcaption>
+              </figure>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row rowpad">
+        <div class="six columns">
+          <a href="/projects/libsass-com">
+            <div class="imagebox">
+              <figure>
+                <img src="images/libsass-com_lg.jpg" alt="Libsass Website homepage">
+                <figcaption>Libsass Website &amp; Logo</figcaption>
+              </figure>
+            </div>
+          </a>
+        </div>        
+        <div class="six columns">
           <a href="/projects/get-what-he-said-website">
           <div class="imagebox" ><figure>
             <img src="images/getwhathesaid-home.jpg" alt="" />
             <figcaption>Get What He Said Website</figcaption>
-          </figure></div>
-          </a>
-        </div>        
-        <div class="six columns">
-          <a href="/projects/the-real-sf-tour-website">
-          <div class="imagebox"><figure>
-            <img src="images/therealsftour-home.jpg" alt="" />
-            <figcaption>The Real SF Tour Website</figcaption>
           </figure></div>
           </a>
         </div>
@@ -42,13 +67,24 @@
 
       <div class="row rowpad">
         <div class="six columns">
+          <a href="/projects/the-real-sf-tour-website">
+          <div class="imagebox"><figure>
+            <img src="images/therealsftour-home.jpg" alt="" />
+            <figcaption>The Real SF Tour Website</figcaption>
+          </figure></div>
+          </a>
+        </div>       
+        <div class="six columns">
           <a href="/projects/paul-saffo-website">
           <div class="imagebox"><figure>
             <img src="images/saffo-journal-598.jpg" alt="" />
             <figcaption>Paul Saffo's Website</figcaption>
           </figure></div>
           </a>
-        </div>       
+        </div>
+      </div>
+      
+      <div class="row rowpad">
         <div class="six columns">
           <a href="/projects/orphic-gallery-website">
           <div class="imagebox"><figure>
@@ -57,9 +93,6 @@
           </figure></div>
           </a>
         </div>
-      </div>
-      
-      <div class="row rowpad">
         <div class="six columns">
           <a href="/projects/sensible-sitters-blog">
             <div class="imagebox"><figure>
@@ -67,9 +100,6 @@
             <figcaption>Sensible Sitters Blog</figcaption>
           </figure></div>
           </a>
-        </div>
-        <div class="six columns">
-
         </div>
       </div>
           

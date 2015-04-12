@@ -508,7 +508,7 @@ a.close-panel {
     ul.side-nav {
         width: 100%;
         padding: 0;
-        margin-top: 4.75em;
+        margin-top: 6em;
         border-top: 1px solid #888;
     }
     ul.side-nav li {
@@ -522,7 +522,7 @@ a.close-panel {
         box-sizing: border-box;
         width: 100%;
         margin: 0;
-        padding: .5em 1em;
+        padding: .5em 1.5em;
         list-style-type: none;
         text-align: left;
         color: #fff;
@@ -546,20 +546,20 @@ a.close-panel {
         color: #FFF;
         font-size: 1.25em;
         position: relative;
-        top: 1.5em;
+        top: 2em;
         right: 1.5em;
         float: right;
     }
     a.open-panel {
         display: inline;
-        /*margin-top: 1.125em;*/
+        margin-top: 6px;
         position: relative;
         float: right;
         color: #777;
     }
     a.open-panel span {
         position: absolute;
-        top: -3px;
+        top: -2px;
         left: -22px;
     }
     .icon-2x {
