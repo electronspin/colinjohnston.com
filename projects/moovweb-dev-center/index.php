@@ -6,12 +6,6 @@
 </head>
 
 <body>
-    
-  <!-- <div id="pagetop" class="row" >
-    <div id="topbar" class="twelve columns">
-      <p></p>
-    </div>
-  </div> -->
   
 <div id="page" class="row">
 
@@ -24,10 +18,13 @@
       <div class="row">
         <div class="twelve columns">
           <div class="imagebox">
-            <img 
-            src="/images/moovweb-dev-center-home_lg.jpg" 
-            srcset="/images/moovweb-dev-center-home_lg.jpg 1x, /images/moovweb-dev-center-home_lg@2x.jpg 2x"
-            alt="Moovweb Developer Center" />
+            <img
+                srcset="/images/moovweb-dev-center-home_small.jpg 400w,
+                        /images/moovweb-dev-center-home_medium.jpg 800w,
+                        /images/moovweb-dev-center-home_large.jpg 1200w"
+                sizes="(min-width: 48em) 66.6vw, 100vw"
+                src="/images/moovweb-dev-center-home_small.jpg"
+                alt="Moovweb Developer Center">
           </div>
           <h2>Moovweb Developer Center</h2>
           <p><a href="http://developer.moovweb.com/" name="" target="_blank">developer.moovweb.com</a></p>

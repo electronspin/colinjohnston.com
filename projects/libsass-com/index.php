@@ -6,12 +6,6 @@
 </head>
 
 <body>
-    
-  <!-- <div id="pagetop" class="row" >
-    <div id="topbar" class="twelve columns">
-      <p></p>
-    </div>
-  </div> -->
   
 <div id="page" class="row">
 
@@ -24,10 +18,13 @@
       <div class="row">
         <div class="twelve columns">
           <div class="imagebox">
-            <img 
-            src="/images/libsass-com_lg.jpg" 
-            srcset="/images/libsass-com_lg.jpg 1x, /images/libsass-com_lg@2x.jpg 2x"
-            alt="Libsass.com Website homepage" />
+            <img
+                srcset="/images/libsass-com_small.jpg 400w,
+                        /images/libsass-com_medium.jpg 800w,
+                        /images/libsass-com_large.jpg 1200w"
+                sizes="(min-width: 48em) 66.6vw, 100vw"
+                src="/images/libsass-com_small.jpg"
+                alt="Libsass.com Website homepage">
           </div>
           <h2>Libsass Website &amp; Logo</h2>
           <p><a href="http://libsass.com/" name="" target="_blank">libsass.com</a></p>

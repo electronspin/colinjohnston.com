@@ -24,9 +24,21 @@
       <div class="row rowpad">
         <div class="six columns">
           <a href="/projects/moovweb-control-center">
-            <div class="imagebox">
+            <!-- <div class="imagebox">
               <figure>
                 <img src="images/moovweb-control-center-main_lg.jpg" alt="Moovweb Control Center">
+                <figcaption>Moovweb Control Center</figcaption>
+              </figure>
+            </div> -->
+            <div class="imagebox">
+              <figure>
+                <img
+                srcset="images/moovweb-control-center-main_small.jpg 400w,
+                        images/moovweb-control-center-main_medium.jpg 800w,
+                        images/moovweb-control-center-main_large.jpg 1200w"
+                sizes="(min-width: 48em) 33.3vw, 100vw"
+                src="images/moovweb-control-center-main_small.jpg"
+                alt="Moovweb Control Center">
                 <figcaption>Moovweb Control Center</figcaption>
               </figure>
             </div>
@@ -36,7 +48,13 @@
           <a href="/projects/moovweb-dev-center">
             <div class="imagebox">
               <figure>
-                <img src="images/moovweb-dev-center-home_lg.jpg" alt="Moovweb Developer Center">
+                <img
+                srcset="images/moovweb-dev-center-home_small.jpg 400w,
+                        images/moovweb-dev-center-home_medium.jpg 800w,
+                        images/moovweb-dev-center-home_large.jpg 1200w"
+                sizes="(min-width: 48em) 33.3vw, 100vw"
+                src="images/moovweb-dev-center-home_small.jpg"
+                alt="Moovweb Developer Center">
                 <figcaption>Moovweb Developer Center</figcaption>
               </figure>
             </div>
@@ -49,7 +67,13 @@
           <a href="/projects/libsass-com">
             <div class="imagebox">
               <figure>
-                <img src="images/libsass-com_lg.jpg" alt="Libsass Website homepage">
+                <img
+                srcset="images/libsass-com_small.jpg 400w,
+                        images/libsass-com_medium.jpg 800w,
+                        images/libsass-com_large.jpg 1200w"
+                sizes="(min-width: 48em) 33.3vw, 100vw"
+                src="images/libsass-com_small.jpg"
+                alt="Libsass Website &amp; Logo">
                 <figcaption>Libsass Website &amp; Logo</figcaption>
               </figure>
             </div>
