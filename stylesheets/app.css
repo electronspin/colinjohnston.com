@@ -437,6 +437,14 @@ a.codedirection {
     p.intro {
         padding-right: 2em;
     }
+    
+    li.nav-list-title {
+        padding-top: 1.5em;
+    }
+
+    li.nav-list-title:first-child {
+        padding-top: 0;
+    }
 }
 /*Temporary hack to keep logo aligning with images on tablets*/
 
@@ -592,3 +600,4 @@ a.close-panel {
         transition: transform 500ms ease;
     }
 }
+

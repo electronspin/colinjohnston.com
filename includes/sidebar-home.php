@@ -11,11 +11,8 @@
     <nav>
         <a href="#" class="close-panel"><i class="fi-circle-x"></i></a>
     <ul class="side-nav">
-        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/recent-projects.php') ?>
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/nav-projects.php') ?>
     </ul>
-    <!-- <ul class="side-nav topnav bottomnav">
-      <li><a href="/work-in-progress">What I'm working on now</a></li>
-    </ul> -->
     </nav>
   
     <p class="contact-button hide-for-small"><a class="contact-email" href="/connect-and-collaborate">Connect</a></p>
