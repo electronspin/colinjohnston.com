@@ -2,7 +2,7 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?> 
 
-<title>Moovweb Control Center | Recent Projects | Colin Johnston</title>
+<title><?php echo $mwcc ?> | Recent Projects | Colin Johnston</title>
 </head>
 
 <body>
@@ -24,12 +24,13 @@
                         /images/moovweb-control-center-main_large.jpg 1200w"
                 sizes="(min-width: 48em) 66.6vw, 100vw"
                 src="/images/moovweb-control-center-main_small.jpg"
-                alt="Moovweb Control Center">
+                alt="<?php echo $mwcc ?>">
           </div>
-          <h2>Moovweb Control Center</h2>
-          <p><a href="http://console.moovweb.com/" name="" target="_blank">console.moovweb.com</a></p>
+          <h2><?php echo $mwcc ?></h2>
           
-          <?php //include('overview.php') ?>
+          <?php include('overview.php') ?>
+
+          <p>To view the <?php echo $mwcc ?> go to <a href="http://console.moovweb.com/downloads" name="" target="_blank">console.moovweb.com</a> and create a free account. You can view demo projects under the account 'Moovweb Demos' to see the interface live.</p>
           
           <p></p>
         </div>
@@ -39,6 +40,9 @@
   </div> <!--end eight column content area-->
 
 </div> <!--end main row-->
+
+<!-- overview-modals -->
+<?php include('modals.php') ?>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
  

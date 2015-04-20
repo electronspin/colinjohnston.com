@@ -2,7 +2,7 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?> 
 
-<title>Moovweb Developer Center | Recent Projects | Colin Johnston</title>
+<title><?php echo $mwdc ?> | Recent Projects | Colin Johnston</title>
 </head>
 
 <body>
@@ -19,17 +19,17 @@
         <div class="twelve columns">
           <div class="imagebox">
             <img
-                srcset="/images/moovweb-dev-center-home_small.jpg 400w,
-                        /images/moovweb-dev-center-home_medium.jpg 800w,
-                        /images/moovweb-dev-center-home_large.jpg 1200w"
+                srcset="/images/moovweb-dev-center-downloads_small.jpg 400w,
+                        /images/moovweb-dev-center-downloads_medium.jpg 800w,
+                        /images/moovweb-dev-center-downloads_large.jpg 1200w"
                 sizes="(min-width: 48em) 66.6vw, 100vw"
-                src="/images/moovweb-dev-center-home_small.jpg"
-                alt="Moovweb Developer Center">
+                src="/images/moovweb-dev-center-downloads_small.jpg"
+                alt="<?php echo $mwdc ?>">
           </div>
-          <h2>Moovweb Developer Center</h2>
-          <p><a href="http://developer.moovweb.com/" name="" target="_blank">developer.moovweb.com</a></p>
-          
-          <?php //include('overview.php') ?>
+          <h2><?php echo $mwdc ?></h2>
+          <?php include('overview.php') ?>
+
+          <p>View the Developer Center at <a href="http://developer.moovweb.com/" name="" target="_blank">developer.moovweb.com</a></p>
           
           <p></p>
         </div>
@@ -39,6 +39,9 @@
   </div> <!--end eight column content area-->
 
 </div> <!--end main row-->
+
+<!-- overview-modals -->
+<?php include('modals.php') ?>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
  
