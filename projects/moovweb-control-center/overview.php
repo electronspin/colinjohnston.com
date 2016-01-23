@@ -8,8 +8,8 @@
                     <li>Information Architecture</a></li>
                     <li>UX + Interface Design</li>
                     <ul>
-                      <li><a href="#wf-v5">Wireframes</a></li>
-                      <li><a href="#mockups">Mockups</a></li>
+                      <li>Wireframes</li>
+                      <li>Mockups</li>
                       <ul>
                       <li>Page Layouts</li>
                       <li>Typography</li>
@@ -38,90 +38,5 @@
               <p>While the Control Center remains in continuous development, the foundation for consistent visual design, the well-structured information architecture, and the clear user flows and interfaces I built with the the Moovweb team helped the company provide better tools that sit at the core of their business.
               </p>
               <div class="panel radius"><p>One of the key accomplishments of the Moovweb 4 redesign was the creation of <?php echo $moovui ?>, a modular pattern library and styleguide built with Sass. This allowed us to quickly iterate on the styling of UI components and critical interaction patterns, as well as greatly increased the speed by which developers could integrate new features. It was initially included as a Git submodule on Moovweb v4, and has now been packaged as a Ruby Gem for Moovweb v5.</p></div>
-              <h3><?php echo $casetitle1 ?></h3>
-              <p><?php echo $casesub1 ?></p>
-              <p>Please note that there are artifacts for both v4 and v5 of the Moovweb Control Center below, and they are not presented exactly in the sequence they were produced.</p>
-              <a name="mockups"></a>
-              <h4>Mockups - Moovweb v4</h4>
-              <p>For the earliest iterations of the v4 interfaces I worked first with low-fidelity mockups, enhancing detail progressively until we developed a prototype. We had not yet created the MoovUI style guide. (By the time we began work on v5 I had adjusted our process to include iterations of wireframes before producing refined mockups, or, ideally, MoovUI-based prototypes.</p>
-              <div class="imagebox">
-              <img
-                  srcset="/images/cc-v4-r2-projects-list-mockup_small.png 400w,
-                          /images/cc-v4-r2-projects-list-mockup_medium.png 800w,
-                          /images/cc-v4-r2-projects-list-mockup_large.png 1200w"
-                  sizes="(min-width: 48em) 66.6vw, 100vw"
-                  src="/images/cc-v4-r2-projects-list-mockup_small.png"
-                  alt="Control Center v4 Project Page Mockup - Early Stages">
-              </div>
-              <p class="hide-for-small case-caption">Control Center v4 Project Page Mockup - Early Round 2 Design | <a href="#" data-reveal-id="cc-v4-r2-projects-list-mockup">View Larger</a></p>
-
-              <div class="imagebox">
-              <img
-                  srcset="/images/cc-v4-r5-projects-list-mockup_small.png 400w,
-                          /images/cc-v4-r5-projects-list-mockup_medium.png 800w,
-                          /images/cc-v4-r5-projects-list-mockup_large.png 1200w"
-                  sizes="(min-width: 48em) 66.6vw, 100vw"
-                  src="/images/cc-v4-r5-projects-list-mockup_small.png"
-                  alt="Moovweb Control Center v4 Project Page Mockup">
-              </div>
-              <p class="hide-for-small case-caption">Control Center v4 Project Page Mockup - Early Round 5 Design | <a href="#" data-reveal-id="cc-v4-r5-projects-list-mockup">View Larger</a></p>
-
-              <a name="v4"></a>
-              <h4>Prototype - Moovweb 4</h4>
-              <p>Using the first production release of <?php echo $moovui ?>.</p>
-              <div class="imagebox">
-              <img
-                  srcset="/images/cc-v4-project-page_small.png 400w,
-                          /images/cc-v4-project-page_medium.png 800w,
-                          /images/cc-v4-project-page_large.png 1200w"
-                  sizes="(min-width: 48em) 66.6vw, 100vw"
-                  src="/images/cc-v4-project-page_small.png"
-                  alt="Moovweb Control Center v4 Project Page">
-              </div>
-              <p class="hide-for-small case-caption">Final Prototype Control Center v4 Project Page Interface | <a href="#" data-reveal-id="cc-v4-project-page">View Larger</a></p>
-
-              <a name="wf-v5"></a>
-              <h4>Wireframes - Moovweb 5</h4>
-              <p>Initial wireframes of the new Modes Routing interface.</p>
-              <div class="row"><div class="six columns"> <!-- half-width -->
-              <div class="imagebox">
-              <img
-                  srcset="/images/cc-v5-r1-wireframe-modes-p4_small.png 400w,
-                          /images/cc-v5-r1-wireframe-modes-p4_medium.png 800w,
-                          /images/cc-v5-r1-wireframe-modes-p4_large.png 1200w"
-                  sizes="(min-width: 48em) 66.6vw, 100vw"
-                  src="/images/cc-v5-r1-wireframe-modes-p4_small.png"
-                  alt="Moovweb Control Center v5 Wireframes Modes Routing 1">
-              </div>
-              <p class="hide-for-small case-caption">Wireframe of 'Add Rule' screen for Modes Routing rule configuration | <a href="#" data-reveal-id="cc-v5-r1-wireframe-modes-p4">View Larger</a></p>
-              </div><div class="six columns"> <!-- half-width -->
-              <div class="imagebox">
-              <img
-                  srcset="/images/cc-v5-r1-wireframe-modes-p5_small.png 400w,
-                          /images/cc-v5-r1-wireframe-modes-p5_medium.png 800w,
-                          /images/cc-v5-r1-wireframe-modes-p5_large.png 1200w"
-                  sizes="(min-width: 48em) 66.6vw, 100vw"
-                  src="/images/cc-v5-r1-wireframe-modes-p5_small.png"
-                  alt="Moovweb Control Center v5 Wireframes Modes Routing 2">
-              </div>
-              <p class="hide-for-small case-caption">Wireframe of 'Rules Overview' screen in Modes Routing rule management | <a href="#" data-reveal-id="cc-v5-r1-wireframe-modes-p5">View Larger</a></p>
-              </div>
-              </div>
-
-              <a name="v5"></a>
-              <h4>Final Design - Moovweb 5</h4>
-              <p>The initial release of the new Modes Routing tools.</p>
-              <div class="imagebox">
-              <img
-                  srcset="/images/cc-v5-modes-add-rule_small.png 400w,
-                          /images/cc-v5-modes-add-rule_medium.png 800w,
-                          /images/cc-v5-modes-add-rule_large.png 1200w"
-                  sizes="(min-width: 48em) 66.6vw, 100vw"
-                  src="/images/cc-v5-modes-add-rule_small.png"
-                  alt="Moovweb Control Center v5 Modes Routing Screen">
-              </div>
-              <p class="hide-for-small case-caption">Final Design of the new Modes Routing interface for Control Center v5 | <a href="#" data-reveal-id="cc-v5-modes-add-rule">View Larger</a></p>
-
-
             </div>      
           </div>

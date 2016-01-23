@@ -5,12 +5,12 @@
                 <h5> <?php echo $overview_sidebar_heading; ?></h5>
                   <ul class="services">
                     <li>Content Development</li>
-                    <li><a href="#information-architecture">Information Architecture</a></li>
+                    <li>Information Architecture</li>
                     <li>UX + Interface Design</li>
                     <ul>
-                      <li><a href="#user-flows">User Flows</a></li>
+                      <li>User Flows</li>
                       <li>Wireframes</li>
-                      <li><a href="#mockups">Mockups</a></li>
+                      <li>Mockups</li>
                       <ul>
                       <li>Page Layouts</li>
                       <li>Typography</li>
@@ -39,61 +39,6 @@
               <h4><?php echo $overview_section_c; ?></h4>
               <p>The design and creation of the Developer Center allowed Moovweb to clearly separate the content <em>about</em> the platform tools from the tools themselves, and allowed product management to take advantage of the flexibility of a stand-alone property for delivering developer-oriented content in a more appropriate format. 
               </p>
-              <h3><?php echo $casetitle1 ?></h3>
-              <p><?php echo $casesub1 ?></p>
-              <a name="information-architecture"></a>
-              <h4>Information Architecture</h4>
-              <div class="imagebox">
-              <img
-                  srcset="/images/dev-center-ai-overview_small.png 400w,
-                          /images/dev-center-ai-overview_medium.png 800w,
-                          /images/dev-center-ai-overview_large.png 1200w"
-                  sizes="(min-width: 48em) 66.6vw, 100vw"
-                  src="/images/dev-center-ai-overview_small.png"
-                  alt="Developer Center Information Architecture Overview">
-              </div>
-              <p class="hide-for-small case-caption"><a href="#" data-reveal-id="dev-center-ai-overview">View Full Size</a></p>
-
-              <a name="user-flows"></a>
-              <h4>User Flows</h4>
-              <div class="row"><div class="six columns"> <!-- half-width -->
-              <div class="imagebox">
-              <img
-                  srcset="/images/dc-v4-onboarding-userflow_small.png 400w,
-                          /images/dc-v4-onboarding-userflow_medium.png 800w,
-                          /images/dc-v4-onboarding-userflow_large.png 1200w"
-                  sizes="(min-width: 48em) 66.6vw, 100vw"
-                  src="/images/dc-v4-onboarding-userflow_small.png"
-                  alt="Developer Center New User Onboarding Flow">
-              </div>
-              <p class="hide-for-small case-caption"><a href="#" data-reveal-id="dc-v4-onboarding-userflow">View Full Size</a></p>
-              </div></div> <!-- end half-width -->
-              
-              <a name="mockups"></a>
-              <h4>Mockups</h4>
-              <!-- <div class="row"><div class="six columns"> --> <!-- half-width -->
-              <div class="imagebox">
-              <img
-                  srcset="/images/dc-v1-docs-landing-developer-mockup_small.png 400w,
-                          /images/dc-v1-docs-landing-developer-mockup_medium.png 800w,
-                          /images/dc-v1-docs-landing-developer-mockup_large.png 1200w"
-                  sizes="(min-width: 48em) 66.6vw, 100vw"
-                  src="/images/dc-v1-docs-landing-developer-mockup_small.png"
-                  alt="Developer Center Early Mockups - 'Developer' Edition">
-              </div>
-              <p class="hide-for-small case-caption">Early Mockups of Developer Center Documentation landing page - 'Developer' Edition | <a href="#" data-reveal-id="dc-v1-docs-landing-developer-mockup">View Larger</a></p>
-              <!-- </div><div class="six columns"> --> <!-- half-width -->
-              <div class="imagebox">
-              <img
-                  srcset="/images/dc-v1-docs-landing-enterprise-mockup_small.png 400w,
-                          /images/dc-v1-docs-landing-enterprise-mockup_medium.png 800w,
-                          /images/dc-v1-docs-landing-enterprise-mockup_large.png 1200w"
-                  sizes="(min-width: 48em) 66.6vw, 100vw"
-                  src="/images/dc-v1-docs-landing-enterprise-mockup_small.png"
-                  alt="Developer Center Early Mockups - 'Enterprise' Edition">
-              </div>
-              <p class="hide-for-small case-caption">Early Mockups of Developer Center Documentation landing page - 'Enterprise' Edition | <a href="#" data-reveal-id="dc-v1-docs-landing-enterprise-mockup">View Larger</a></p>
-              <!-- </div></div> -->
             </div>      
           </div>
 

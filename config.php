@@ -22,6 +22,6 @@ $overview_section_c = 'Results'; //Solution
 $casetitle1 = 'Selected Artifacts of the Design Process';
 $casesub1   = 'Below is an incomplete selection of deliverables that were presented during the product design process.';
 
-$overview_sidebar_heading = 'Deliverables Overview'; //What I Did
+$overview_sidebar_heading = 'What I Did'; //What I Did
 
 ?>
