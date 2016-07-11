@@ -39,5 +39,8 @@ Thumbs.db
 
 # Electron Spin Projects
 /alpha
-*.sublime-project
-*.sublime-workspace
+devlog.md
+
+# NPM
+node_modules
+node_modules/*

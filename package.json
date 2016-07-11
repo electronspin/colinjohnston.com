@@ -1,0 +1,18 @@
+{
+  "name": "colinjohnston",
+  "version": "1.6.0",
+  "description": "Personal Website and Professional Portfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://neoterica@bitbucket.org/neoterica/colinjohnston.com.git"
+  },
+  "author": "neoterica@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7"
+  }
+}
