@@ -1,30 +1,32 @@
-/* File: gulpfil.js */
+// File: gulpfile.js 
 
 var gulp          = require('gulp'),
     gutil         = require('gulp-util'),
     sass          = require('gulp-sass'),
     autoprefixer  = require('gulp-autoprefixer'),
     sourcemaps    = require('gulp-sourcemaps');
+    browserSync   = require('browser-sync').create();
 
 
-/* default 'test' task */
+// ### Sass 
 
-gulp.task('default', function() {
-  return gutil.log('Gulp is running!')
-});
-
-/* basic watch task with sass processing */
-
-gulp.task('build-css', function() {
+gulp.task('sass', function() {
   return gulp.src('stylesheets/scss/**/*.scss')
     .pipe(sourcemaps.init())  // Process the original sources
       .pipe(sass())
     .pipe(sourcemaps.write()) // Add the map to modified source
-    .pipe(gulp.dest('stylesheets/css'));
+    .pipe(gulp.dest('stylesheets/css'))
+    .pipe(browserSync.stream()); // auto-inject into browsers
 });
 
-/* watch task */
+// ### Watch
+// 'gulp watch' uses browsersync to check for changes to .php and .scss 
 
 gulp.task('watch', function() {
-  gulp.watch('stylesheets/scss/**/*.scss', ['build-css']);
+  browserSync.init({
+    //files: ['/**/*.php', '*.php'],
+    proxy: 'colinjohnston.dev'
+  });
+  gulp.watch('stylesheets/scss/**/*.scss', ['sass']);
+  gulp.watch(['./*/**/*.php', '*.php']).on('change', browserSync.reload);
 });
