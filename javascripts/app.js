@@ -69,18 +69,18 @@
          
 	 
 	 
-  //$(window).bind('resize', function() {
-  //   location.reload();
-  //});
-  
+//$(window).bind('resize', function() {
+//   location.reload();
+//});
 
-  		//My Loader
-                // Wait for window load
-		$(window).load(function() {
-			// Animate loader
-                        $('.loading').fadeOut();
-			$('#loader').delay(500).fadeOut('slow');
-		});
+
+// My Loader
+// Wait for window load
+$(window).load(function() {
+// Animate loader
+  $('.loading').fadeOut();
+  $('#loader').delay(500).fadeOut('slow');
+});
 
   
 
