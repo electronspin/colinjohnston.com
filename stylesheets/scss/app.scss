@@ -18,7 +18,7 @@ ul.square li ul {
 }
 
 body {
-    background-color: #fafafa;
+    background-color: #fefefe;
     font-family: Lato, sans-serif;
     color: #777;
 }
@@ -191,13 +191,14 @@ p.tagline {
 .side-nav li a {
     color: #777;
     font-weight: 400;
-    transition: all .25s ease
+    //transition: all .25s ease
 }
 
 .side-nav li a:hover,
 ul.side-nav li.active a {
     color: #000;
-    font-weight: 400!important
+    font-weight: 400 !important;
+    transition: all .25s ease;
 }
 
 ul.side-nav {

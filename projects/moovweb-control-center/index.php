@@ -13,7 +13,7 @@
     
   <div id="content" class="eight columns">
       
-    <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div>
+    <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
      
       <div class="row">
         <div class="twelve columns">

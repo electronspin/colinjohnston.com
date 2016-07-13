@@ -1,6 +1,6 @@
 {
   "name": "colinjohnston",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Personal Website and Professional Portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "url": "https://neoterica@bitbucket.org/neoterica/colinjohnston.com.git"
   },
   "author": "neoterica@gmail.com",
-  "license": "ISC",
+  "license": "",
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
