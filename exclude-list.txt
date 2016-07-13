@@ -1,0 +1,11 @@
+exclude-list.txt
+.git
+.gitignore
+.gitmodules
+.DS_Store
+*/.DS_Store
+node_modules
+.sass-cache
+alpha
+devlog.md
+
