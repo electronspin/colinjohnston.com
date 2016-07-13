@@ -6,6 +6,7 @@ exclude-list.txt
 */.DS_Store
 node_modules
 .sass-cache
+stylesseets/sass
 alpha
 devlog.md
 
