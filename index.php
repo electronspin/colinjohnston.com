@@ -17,6 +17,41 @@
 
       <div class="row rowpad">
         <div class="six columns">
+          <a href="/projects/paul-saffo-website">
+            <div class="imagebox">
+              <figure>
+                <img
+                srcset="images/saffo-homepage-crop_small.jpg 400w,
+                        images/saffo-homepage-crop_medium.jpg 800w,
+                        images/saffo-homepage-crop_large.jpg 1200w"
+                sizes="(min-width: 48em) 33.3vw, 100vw"
+                src="images/saffo-homepage-crop_small.jpg"
+                alt="Paul Saffo Website">
+                <figcaption>Paul Saffo Website</figcaption>
+              </figure>
+            </div>
+          </a>
+        </div>
+        <div class="six columns">
+          <a href="/projects/solanolabs-ci-concepts">
+            <div class="imagebox">
+              <figure>
+                <img
+                srcset="images/solanolabs-ci-concept-main-passed_small.jpg 400w,
+                        images/solanolabs-ci-concept-main-passed_medium.jpg 800w,
+                        images/solanolabs-ci-concept-main-passed_large.jpg 1200w"
+                sizes="(min-width: 48em) 33.3vw, 100vw"
+                src="images/solanolabs-ci-concept-main-passed_small.jpg"
+                alt="<?php echo $slcc ?>">
+                <figcaption><?php echo $slcc ?></figcaption>
+              </figure>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row rowpad">
+        <div class="six columns">
           <a href="/projects/moovweb-dev-center">
             <div class="imagebox">
               <figure>
@@ -94,17 +129,6 @@
           </figure></div>
           </a>
         </div>       
-        <div class="six columns">
-          <a href="/projects/paul-saffo-website">
-          <div class="imagebox"><figure>
-            <img src="images/saffo-journal-598.jpg" alt="" />
-            <figcaption>Paul Saffo's Website</figcaption>
-          </figure></div>
-          </a>
-        </div>
-      </div>
-      
-      <div class="row rowpad">
         <div class="six columns">
           <a href="/projects/orphic-gallery-website">
           <div class="imagebox"><figure>

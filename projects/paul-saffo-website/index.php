@@ -25,7 +25,15 @@
       <div class="row">
         <div class="twelve columns">
           <div class="imagebox">
-            <a href="http://www.saffo.com/" name="" target="_blank"><img src="/images/saffo-journal-598.jpg" alt="" /></a>
+            <a href="#" data-reveal-id="saffo-homepage">
+              <img
+                srcset="/images/saffo-homepage-crop_small.jpg 400w,
+                        /images/saffo-homepage-crop_medium.jpg 800w,
+                        /images/saffo-homepage-crop_large.jpg 1200w"
+                sizes="(min-width: 48em) 66.6vw, 100vw"
+                src="/images/saffo-homepage-crop_medium.jpg"
+                alt="Paul Saffo Website">
+            </a>
           </div>
           <h2>Paul Saffo Website</h2>
           <!--<p><a href="http://www.saffo.com/" name="" target="_blank">www.saffo.com</a></p>-->
@@ -40,6 +48,9 @@
   </div> <!--end eight column content area-->
 
 </div> <!--end main row-->
+
+<!-- overview-modals -->
+<?php include('modals.php') ?>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
 
