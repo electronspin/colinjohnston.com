@@ -30,7 +30,7 @@
             
             <div class="overview-main">
               
-              <p>Solano CI is Solano Labs' Continuous Integration SaaS product. It is a powerful quite of tools and has a complex user interface.</p>
+              <p>Solano CI is Solano Labs' Continuous Integration SaaS product. It is a powerful suite of tools that enables many different workflows, and therefore has <a href="#" data-reveal-id="solanolabs-report-page_v1-5">a complex user interface</a> that poses tricky user experience challenges.</p>
               <p>The "Report Page" is the primary view into any given "build" session on Solano CI. It shows every state of a session, from its initial creation, through to a complete collection of test results, build lifecycle timings, and build artifacts. It serves for most users as a way to navigate through their workflow, and view other pieces of information that relate to the state or configuration of the organization and repo. Over time, in an effort to provide as much information and control as possible over a growing number of factors, the interface had become less intuitive for long-time users and not as easily 'learnable' for new users. This causes friction and inefficiency; it is, in a sense, user experience debt.</p>
               <p>The question I asked was: "With so much data and navigation to present in one place, how do we improve the usability of such a complex view?" I went out and sat with users and gathered feedback, reviewed support tickets, and did research into possible workflow improvements.</p>
               <p>This prototype of a new Solano CI Report Page interface presents a proposed evolution of the application intended to provide a more intuitive and efficient workflow.</p>
