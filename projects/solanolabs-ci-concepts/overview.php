@@ -28,17 +28,23 @@
             </div>
             <!-- overview-main -->
             
-            <!-- <div class="overview-main">
-              <p>Moovweb is an Enterprise software solution for delivering customized mobile experiences from a single codebase. The Moovweb Control Center is an application for managing Moovweb projects in the cloud. The primary tools are domain management, routing logic, security, and user management.</p>
+            <div class="overview-main">
+              
+              <p>Solano CI is Solano Labs' Continuous Integration SaaS product. It is a powerful quite of tools and has a complex user interface.</p>
+              <p>The "Report Page" is the primary view into any given "build" session on Solano CI. It shows every state of a session, from its initial creation, through to a complete collection of test results, build lifecycle timings, and build artifacts. It serves for most users as a way to navigate through their workflow, and view other pieces of information that relate to the state or configuration of the organization and repo. Over time, in an effort to provide as much information and control as possible over a growing number of factors, the interface had become less intuitive for long-time users and not as easily 'learnable' for new users. This causes friction and inefficiency; it is, in a sense, user experience debt.</p>
+              <p>The question I asked was: "With so much data and navigation to present in one place, how do we improve the usability of such a complex view?" I went out and sat with users and gathered feedback, reviewed support tickets, and did research into possible workflow improvements.</p>
+              <p>This prototype of a new Solano CI Report Page interface presents a proposed evolution of the application intended to provide a more intuitive and efficient workflow.</p>
+              <p>Here's a video demo showing the intial prototype in action:</p>
+              <div class="video-wrapper"><iframe class="vimeo" src="https://player.vimeo.com/video/174725827"  width="600" height="353" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+
+              <p class="case-caption-video">I built this prototype using <a href="https://middlemanapp.com/" target="_blank">Middleman</a> and selected elements of <a href="http://semantic-ui.com/" target="_blank">Semantic UI</a> coupled with my own custom CSS and JavaScript; the video is recorded from a locally running instance of Middleman.</p>
+              <p class="case-caption">Please note: the video transition between the 'build running' and 'build passed' state does not represent a UI animation, but simply abbreviates the run time in the presentation.</p>
+
+              <!--
               <h4><?php echo $overview_section_a; ?></h4>
               <p>I was hired by Moovweb to create a user-friendly, visually coherent interface for a complex system of tools. The initial v4 build was top-to-bottom redesign of all interfaces as well as a rethinking of all content strategy for developer onboarding (this lead to the creation of the Developer Center). The v5 build was a complete rebuild of the platform with an array of powerful new features which required a rethinking of many interfaces, and provided an opportunity to enhance visual design and user experience on many areas of the system. 
               </p>
-              <h4><?php echo $overview_section_b; ?></h4>
-              <p>As the sole designer in the Engineering/Product Management group, I collaborated closely with product managers, front-end developers, and engineers to iterate on requirements, design deliverables, and prototypes, and provided a framework for user experience and interface design best practices. For the v5 redesign, after the adoption of Agile processes and integration of more user-centric practices, I contributed considerable product strategy while PM and Engineering staff contributed valuable ideas for better user experience design. The development of a complex, multilayered system required us to devise a complex, multilayered collaborative process.
-              </p>
-              <h4><?php echo $overview_section_c; ?></h4>
-              <p>While the Control Center remains in continuous development, the foundation for consistent visual design, the well-structured information architecture, and the clear user flows and interfaces I built with the the Moovweb team helped the company provide better tools that sit at the core of their business.
-              </p>
-              <div class="panel radius"><p>One of the key accomplishments of the Moovweb 4 redesign was the creation of <?php echo $moovui ?>, a modular pattern library and styleguide built with Sass. This allowed us to quickly iterate on the styling of UI components and critical interaction patterns, as well as greatly increased the speed by which developers could integrate new features. It was initially included as a Git submodule on Moovweb v4, and has now been packaged as a Ruby Gem for Moovweb v5.</p></div>
-            </div>   -->    
+              -->
+            </div>      
           </div>
