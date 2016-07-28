@@ -21,11 +21,11 @@
             <div class="imagebox">
               <figure>
                 <img
-                srcset="images/saffo-homepage-crop_small.jpg 400w,
-                        images/saffo-homepage-crop_medium.jpg 800w,
-                        images/saffo-homepage-crop_large.jpg 1200w"
+                srcset="images/saffo-home-responsive_small.jpg 400w,
+                        images/saffo-home-responsive_medium.jpg 800w,
+                        images/saffo-home-responsive_large.jpg 1200w"
                 sizes="(min-width: 48em) 33.3vw, 100vw"
-                src="images/saffo-homepage-crop_small.jpg"
+                src="images/saffo-home-responsive_small.jpg"
                 alt="Paul Saffo Website">
                 <figcaption>Paul Saffo Website</figcaption>
               </figure>

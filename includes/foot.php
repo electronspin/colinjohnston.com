@@ -13,7 +13,7 @@
           echo '<p class="contact-button show-for-small"><a class="contact-email" href="/connect-and-collaborate">Connect</a></p>';
         } ?>
 
-        <p class="copyright">&copy; 2012&ndash;<?php echo date("Y"); ?> Colin Johnston. Hand-coded in Sublime Text using Foundation / Sass / PHP / jQuery. <!-- An <a href="http://electronspin.com" title="Electron Spin">Electron Spin</a> production. --> Updated <?php echo date ('F d Y', filemtime($dir));  ?>
+        <p class="copyright">&copy; 2012&ndash;<?php echo date("Y"); ?> Colin Johnston. This website was built using PHP, Foundation, Sass, jQuery, and Gulp in iTerm2 and Sublime Text. Hosting by MediaTemple. <br>An <a href="http://electronspin.com" title="Electron Spin">Electron Spin</a> production. Updated <?php echo date ('F d Y', filemtime($dir));  ?>
         </div>
         <div class="three columns" style="text-align: right;">
         
