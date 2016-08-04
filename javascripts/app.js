@@ -2,6 +2,9 @@
   
   
   $(function(){
+
+    //$(document).foundation();
+
     $(document).foundationMediaQueryViewer();
     
     $(document).foundationAlerts();
@@ -18,7 +21,8 @@
     
     $(document).foundationCustomForms();
       
-    $(document).foundationTabs({callback:$.foundation.customForms.appendCustomMarkup});
+    //$(document).foundationTabs({callback:$.foundation.customForms.appendCustomMarkup});
+    $(document).foundationTabs();
       
     $("#featured").orbit();
     

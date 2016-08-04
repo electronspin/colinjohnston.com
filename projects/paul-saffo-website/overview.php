@@ -30,6 +30,30 @@
     </div>
     <!-- overview-main -->
     <div class="overview-main">
+
+        <dl class="tabs" id="myTabs" data-tab data-options="deep_linking:true; scroll_to_content:false" >
+        <!-- <dl class="tabs" id="myTabs" data-tab=""> -->
+          <dd class="tab-title active"><a href="#panel1" controls="tabs-deeplink-1">Tab 1</a></dd>
+          <dd class="tab-title"><a href="#panel2" controls="tabs-deeplink-2">Tab 2</a></dd>
+          <dd class="tab-title"><a href="#panel3" controls="tabs-deeplink-3">Tab 3</a></dd>
+          <dd class="tab-title"><a href="#panel4" controls="tabs-deeplink-4">Tab 4</a></dd>
+        </dl>
+        <ul class="tabs-content">
+          <li class="content active" id="panel1">
+            <p id="tabs-deeplink-content-1">This is the first panel of the basic tab example. You can place all sorts of content here including a grid.</p>
+          </li>
+          <li class="content" id="panel2">
+            <p id="tabs-deeplink-content-2">This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+          </li>
+          <li class="content" id="panel3">
+            <p id="tabs-deeplink-content-3">This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
+          </li>
+          <li class="content" id="panel4">
+            <p id="tabs-deeplink-content-4">This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p>
+          </li>
+        </ul>
+
+
         <p>Paul Saffo is a forecaster and futurist. He explores the dynamics of large-scale, long-term change; he teaches forecasting at Stanford University, chairs the Future Studies and Forecasting track at Singularity University, and serves on the Board of the Long Now Foundation.</p>
         <p>Paul has a rich collection of content—journal entries, essays, and interviews—and a well-known brand in Silicon Valley and internationally.</p>
         <h4><?php echo $overview_section_a; ?></h4>

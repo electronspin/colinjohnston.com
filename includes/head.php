@@ -9,6 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
   <link rel="stylesheet" href="/stylesheets/css/foundation.min.css">
+  <script src="/javascripts/modernizr.foundation.js"></script>
+  
   <link rel="stylesheet" href="/stylesheets/css/open-iconic-foundation.min.css">
   <link rel="stylesheet" href="/stylesheets/css/app.css">
   <script src="/javascripts/modernizr.foundation.js"></script>

@@ -8,7 +8,8 @@
 
     var activateTab = function ($tab) {
       var $activeTab = $tab.closest('dl').find('dd.active'),
-          contentLocation = $tab.children('a').attr("href") + 'Tab';
+          // contentLocation = $tab.children('a').attr("href") + 'Tab'; <-Really!?
+          contentLocation = $tab.children('a').attr("href");
 
       // Strip off the current url that IE adds
       contentLocation = contentLocation.replace(/^.+#/, '#');
@@ -24,12 +25,17 @@
 
     $(document).on('click.fndtn', 'dl.tabs dd a', function (event){
       activateTab($(this).parent('dd'));
+      //event.preventDefault();
+      //event.stopPropagation();
+      //return false;
     });
 
     if (window.location.hash) {
-      activateTab($('a[href="' + window.location.hash + '"]').parent('dd'));
+      activateTab($('a[href="' + window.location.hash + '"]').parent('li'));
       settings.callback();
     }
+
+    
 
   };
 
