@@ -20,6 +20,10 @@ $overview_section_a = 'Challenge'; //Challenge
 $overview_section_b = 'Solution'; //Approach
 $overview_section_c = 'Results'; //Solution
 
+
+$overview_tab = 'Project Overview'; //Overview
+$process_tab = 'Process Artifacts'; //Process
+
 $casetitle1 = 'Selected Artifacts of the Design Process';
 $casesub1   = 'Below is an incomplete selection of deliverables that were presented during the product design process.';
 

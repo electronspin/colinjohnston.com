@@ -8,8 +8,8 @@
 
     var activateTab = function ($tab) {
       var $activeTab = $tab.closest('dl').find('dd.active'),
-          // contentLocation = $tab.children('a').attr("href") + 'Tab'; <-Really!?
-          contentLocation = $tab.children('a').attr("href");
+          contentLocation = $tab.children('a').attr("href") + 'Tab';
+          //contentLocation = $tab.children('a').attr("href");
 
       // Strip off the current url that IE adds
       contentLocation = contentLocation.replace(/^.+#/, '#');
@@ -31,7 +31,7 @@
     });
 
     if (window.location.hash) {
-      activateTab($('a[href="' + window.location.hash + '"]').parent('li'));
+      activateTab($('a[href="' + window.location.hash + '"]').parent('dd'));
       settings.callback();
     }
 
