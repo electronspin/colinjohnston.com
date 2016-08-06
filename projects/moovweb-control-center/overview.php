@@ -3,12 +3,12 @@
     <div class="overview-main">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi modi hic expedita illo, ducimus distinctio repudiandae dicta omnis excepturi deleniti necessitatibus sunt voluptatum eaque, odio earum? Tempore ipsam, sit dicta.</p>
         <dl class="tabs" data-tab>
-            <dd class="tab-title">
+            <dd class="tab-title active">
                 <a href="#overview">
                     <?php echo $overview_tab ?>
                 </a>
             </dd>
-            <dd class="tab-title active">
+            <dd class="tab-title">
                 <a href="#process">
                     <?php echo $process_tab ?>
                 </a>
@@ -41,9 +41,11 @@
                             </ul>
                         </ul>
                         <span class="services label radius">Built with <?php echo $moovui ?></span>
-                        <p><a href="#process" onclick="$('.tabs a[href=\'#process\']').click()">View Process Artifacts</a></p>
+                        <p><a class="sidebar-button" href="#process" onclick="$('.tabs a[href=\'#process\']').click()">View Process Artifacts</a></p>
                     </div>
                 </div>
+                <!-- overview-sidebar -->
+                <div class="overview-content">
                 <p>Moovweb is an Enterprise software solution for delivering customized mobile experiences from a single codebase. The Moovweb Control Center is an application for managing Moovweb projects in the cloud. The primary tools are domain management, routing logic, security, and user management.</p>
                 <h4><?php echo $overview_section_a; ?></h4>
                 <p>I was hired by Moovweb to create a user-friendly, visually coherent interface for a complex system of tools. The initial v4 build was top-to-bottom redesign of all interfaces as well as a rethinking of all content strategy for developer onboarding (this lead to the creation of the Developer Center). The v5 build was a complete rebuild of the platform with an array of powerful new features which required a rethinking of many interfaces, and provided an opportunity to enhance visual design and user experience on many areas of the system.
@@ -58,8 +60,11 @@
                     <p>One of the key accomplishments of the Moovweb 4 redesign was the creation of
                         <?php echo $moovui ?>, a modular pattern library and styleguide built with Sass. This allowed us to quickly iterate on the styling of UI components and critical interaction patterns, as well as greatly increased the speed by which developers could integrate new features. It was initially included as a Git submodule on Moovweb v4, and has now been packaged as a Ruby Gem for Moovweb v5.</p>
                 </div>
+              </div>
             </li>
             <li class="content" id="processTab">
+              <!-- overview-sidebar -->
+                <div class="overview-content">
                 <!-- <h3><?php echo $casetitle1 ?></h3> -->
                 <p>
                     <?php echo $casesub1 ?>
@@ -122,6 +127,7 @@
                           /images/cc-v5-modes-add-rule_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v5-modes-add-rule_small.png" alt="Moovweb Control Center v5 Modes Routing Screen">
                 </div>
                 <p class="hide-for-small case-caption">Final Design of the new Modes Routing interface for Control Center v5 | <a href="#" data-reveal-id="cc-v5-modes-add-rule">View Larger</a></p>
+              </div>
             </li>
         </ul>
     </div>
