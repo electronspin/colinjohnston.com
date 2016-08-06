@@ -2,18 +2,18 @@
     <!-- overview-main -->
     <div class="overview-main">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi modi hic expedita illo, ducimus distinctio repudiandae dicta omnis excepturi deleniti necessitatibus sunt voluptatum eaque, odio earum? Tempore ipsam, sit dicta.</p>
-        <dl class="tabs" data-tab>
-            <dd class="tab-title active">
+        <ul class="tabs" data-tab>
+            <li class="tab-title active">
                 <a href="#overview">
                     <?php echo $overview_tab ?>
                 </a>
-            </dd>
-            <dd class="tab-title">
+            </li>
+            <li class="tab-title">
                 <a href="#process">
                     <?php echo $process_tab ?>
                 </a>
-            </dd>
-        </dl>
+            </li>
+        </ul>
         <ul class="tabs-content">
             <li class="content active" id="overviewTab">
                 <!-- overview-sidebar -->
