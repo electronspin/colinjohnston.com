@@ -21,6 +21,7 @@
     $content-link: $cjd-branding;
     $dark-text-color: #222;
     $dark-bg-color: lighten($dark-text-color, 10%);
+    $medium-bg-color: lighten($main-text-color, 50%);
     $arrow-size: 12px;
     //
     /* web fonts */
@@ -30,6 +31,7 @@
     
      body {
         background-color: $main-bg-color;
+        background-color: $medium-bg-color;
         font-family: Lato, sans-serif;
         color: $main-text-color;
     }
@@ -429,15 +431,12 @@
             height: 1em;
             background-color: lighten($cjd-branding, 30%);
             display: block;
-            margin-bottom: 1em;
         }
     }
     
     #pagebottom {
-        margin-top: 44px;
-        padding: 2em 0;
-        background: lighten($main-text-color, 50%);
-        //min-height: 400px;
+        padding-top: 3em;
+        padding-bottom: 3em;
     }
     
     p.copyright {
@@ -562,7 +561,8 @@
     }
     
     #page {
-        padding-top: 2em
+        padding-top: 3em;
+        padding-bottom: 3em;
     }
     
     #content {
@@ -893,3 +893,7 @@
         color: #fff;
         background-color: #333
     }
+
+.page-wrapper {
+    background-color: $main-bg-color;
+}

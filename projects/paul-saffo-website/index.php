@@ -9,13 +9,10 @@
 </head>
 
 <body>
-    
-  <!-- <div id="pagetop" class="row" >
-    <div id="topbar" class="twelve columns">
-      <p></p>
+    <div id="pagetop">
     </div>
-  </div> -->
-  
+  <div class="page-wrapper">
+    
 <div id="page" class="row">
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
@@ -47,9 +44,9 @@
         </div>
       </div>
       
-  </div> <!--end eight column content area-->
-
-</div> <!--end main row-->
+            </div> <!--end eight column content area-->
+        </div> <!--end main row-->
+    </div> <!--end page wrapper-->
 
 <!-- overview-modals -->
 <?php include('modals.php') ?>
