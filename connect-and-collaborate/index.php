@@ -7,12 +7,9 @@
 </head>
 
 <body>
-  
-  <!-- <div id="pagetop" class="row" >
-    <div id="topbar" class="twelve columns">
-      <p></p>
+    <div id="pagetop">
     </div>
-  </div> -->
+  <div class="page-wrapper">
   
 <div id="page" class="row">
 
@@ -28,7 +25,7 @@
             <img src="/images/connect-colin-598.jpg">
           </div>
           <h2>Connect</h2>
-          <p>Do you have a project you'd like to to start? Let's connect and see how I can help.</p>
+          <p>Do you have a project you'd like to to start?<br />Let's connect and see how I can help.</p>
           <p>Phone: +1 415 816-2477<br />
           Email: <a id="contact"></a>
           <h3>Networking &amp; Social</h3>
@@ -38,9 +35,9 @@
         </div>
       </div>
       
-  </div> <!--end eight column content area-->
-
-</div> <!--end main row-->
+            </div> <!--end eight column content area-->
+        </div> <!--end main row-->
+    </div> <!--end page wrapper-->
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
 

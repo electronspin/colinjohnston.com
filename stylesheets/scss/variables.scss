@@ -1,0 +1,20 @@
+// variables.scss
+
+// Text 
+$light-text-color: #f2f2f2;
+$main-text-color: #777;
+$dark-text-color: #222;
+// Backgrounds
+$main-bg-color: #fefefe;
+$secondary-bg-color: $light-text-color;
+$medium-bg-color: lighten($main-text-color, 50%);
+$dark-bg-color: lighten($dark-text-color, 10%);
+// Border
+$main-border-color: #E6E6E6;
+$tabs-border-color: #ccc;
+// Brand Color
+$cjd-branding: #4d8bdc;
+$content-link: $cjd-branding;
+// Shapes
+$arrow-size: 12px;
+//
