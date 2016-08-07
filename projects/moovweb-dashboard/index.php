@@ -1,3 +1,5 @@
+<?php $page = 'moovweb-dashboard' ?>
+
 <?php include($_SERVER['DOCUMENT_ROOT'].'/config.php') ?>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?> 

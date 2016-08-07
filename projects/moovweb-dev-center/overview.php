@@ -23,7 +23,7 @@
                       <li>Sass Library</li>
                     </ul>
                   </ul>
-                  <span class="services label radius">This site is Responsive</span>
+                  <!-- <span class="services label radius">This site is Responsive</span> -->
                   <span class="services label radius">Built with <?php echo $moovui ?></span>
               </div>
             </div>
