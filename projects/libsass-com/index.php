@@ -1,7 +1,7 @@
 <?php $page = 'libsass-com' ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/config.php') ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?>
-<title>Libsass Website &amp; Logo | Recent Projects | Colin Johnston</title>
+<title>Libsass Website &amp; Logo - Recent Projects : <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?></title>
 </head>
 
 <body>

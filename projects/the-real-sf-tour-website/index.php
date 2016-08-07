@@ -1,7 +1,7 @@
 <?php $page = 'the-real-sf-tour-website' ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/config.php') ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?>
-<title>The Real SF Tour Website | Recent Projects | Colin Johnston</title>
+<title>The Real SF Tour Website - Recent Projects : <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?></title>
 </head>
 
 <body>

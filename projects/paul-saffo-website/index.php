@@ -4,7 +4,7 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?> 
 
-<title>Paul Saffo Website | Recent Projects | Colin Johnston</title>
+<title>Paul Saffo Website - Recent Projects : <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?></title>
 
 </head>
 

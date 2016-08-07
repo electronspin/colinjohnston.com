@@ -1,7 +1,7 @@
 <?php $page = 'orphic-gallery-website' ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/config.php') ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?>
-<title>Orphic Gallery Website | Colin Johnston</title>
+<title>Orphic Gallery Website : <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?></title>
 </head>
 
 <body>

@@ -2,7 +2,7 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?> 
 
-<title>Connect and Collaborate | Colin Johnston</title>
+<title>Connect and Collaborate : <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?></title>
 
 </head>
 
@@ -30,7 +30,8 @@
           Email: <a id="contact"></a>
           <h3>Networking &amp; Social</h3>
           <p>LinkedIn: <a href="http://www.linkedin.com/in/colinleejohnston" target="_blank">colinleejohnston</a><br />
-          Twitter: <a href="https://twitter.com/colinjohnston" target="_blank">@colinjohnston</a></p>
+          Twitter: <a href="https://twitter.com/colinjohnston" target="_blank">@colinjohnston</a><br />
+          Dribbble: <a href="https://dribbble.com/colinjohnston" target="_blank">colinjohnston</a></p>
         </div>
         </div>
       </div>

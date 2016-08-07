@@ -1,6 +1,6 @@
 <?php include($_SERVER['DOCUMENT_ROOT'].'/config.php') ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?>
-<title>Colin Johnston | Visual / UX / Product Designer | San Francisco, CA</title>
+<title><?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?></title>
 </head>
 
 <body>

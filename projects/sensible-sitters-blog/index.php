@@ -2,7 +2,7 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?> 
 
-<title>Sensible Sitters Blog | Recent Projects | Colin Johnston</title>
+<title>Sensible Sitters Blog - Recent Projects : <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?></title>
 </head>
 
 <body>

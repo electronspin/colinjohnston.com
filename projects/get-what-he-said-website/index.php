@@ -2,7 +2,7 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?> 
 
-<title>Get What He Said Website | Recent Projects | Colin Johnston</title>
+<title>Get What He Said Website - Recent Projects : <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?></title>
 </head>
 
 <body>
