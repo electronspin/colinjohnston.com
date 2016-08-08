@@ -1,6 +1,8 @@
 <?php include($_SERVER['DOCUMENT_ROOT'].'/config.php') ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?>
-<title><?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?></title>
+<title>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?>
+</title>
 </head>
 
 <body>
@@ -9,11 +11,11 @@
     <div class="page-wrapper">
         <div id="page" class="row">
             <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar-home.php') ?>
-            <div id="content" class="eight columns">
-                <!-- <div id="loader"><img class="loading" src="../images/ajax-loader.gif"></div> -->
-                <!-- convert this to flexbox! it's 2015. -->
-                <div class="row rowpad">
-                    <div class="six columns">
+            <div id="content" class="eight columns project-thumb-grid">
+                <!-- Convert this to flexbox! It's 2015. -->
+                <ul class="block-grid two-up mobile">
+                    
+                    <li>
                         <a href="/projects/paul-saffo-website">
                             <div class="imagebox">
                                 <figure>
@@ -24,8 +26,20 @@
                                 </figure>
                             </div>
                         </a>
-                    </div>
-                    <div class="six columns">
+                    </li>
+                    <li>
+                        <a href="/projects/solanolabs-ci-report-view">
+                            <div class="imagebox">
+                                <figure>
+                                    <img srcset="images/solanolabs-ci-report-view-temp_small.jpg 400w,
+                        images/solanolabs-ci-report-view-temp_medium.jpg 800w,
+                        images/solanolabs-ci-report-view-temp_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/solanolabs-ci-report-view-temp_small.jpg" alt="Paul Saffo Website">
+                                    <figcaption><?php echo $slcr; ?></figcaption>
+                                </figure>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
                         <a href="/projects/solanolabs-ci-concepts">
                             <div class="imagebox">
                                 <figure>
@@ -38,10 +52,8 @@
                                 </figure>
                             </div>
                         </a>
-                    </div>
-                </div>
-                <div class="row rowpad">
-                    <div class="six columns">
+                    </li>
+                    <li>
                         <a href="/projects/moovweb-dev-center">
                             <div class="imagebox">
                                 <figure>
@@ -54,8 +66,8 @@
                                 </figure>
                             </div>
                         </a>
-                    </div>
-                    <div class="six columns">
+                    </li>
+                    <li>
                         <a href="/projects/moovweb-control-center">
                             <div class="imagebox">
                                 <figure>
@@ -68,10 +80,8 @@
                                 </figure>
                             </div>
                         </a>
-                    </div>
-                </div>
-                <div class="row rowpad">
-                    <div class="six columns">
+                    </li>
+                    <li>
                         <a href="/projects/moovweb-dashboard">
                             <div class="imagebox">
                                 <figure>
@@ -84,8 +94,8 @@
                                 </figure>
                             </div>
                         </a>
-                    </div>
-                    <div class="six columns">
+                    </li>
+                    <li>
                         <a href="/projects/libsass-com">
                             <div class="imagebox">
                                 <figure>
@@ -98,10 +108,8 @@
                                 </figure>
                             </div>
                         </a>
-                    </div>
-                </div>
-                <div class="row rowpad">
-                    <div class="six columns">
+                    </li>
+                    <li>
                         <a href="/projects/the-real-sf-tour-website">
                             <div class="imagebox">
                                 <figure>
@@ -110,8 +118,8 @@
                                 </figure>
                             </div>
                         </a>
-                    </div>
-                    <div class="six columns">
+                    </li>
+                    <li>
                         <a href="/projects/orphic-gallery-website">
                             <div class="imagebox">
                                 <figure>
@@ -120,10 +128,8 @@
                                 </figure>
                             </div>
                         </a>
-                    </div>
-                    <div class="six columns">
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
             <!--end eight column content area-->
         </div>
