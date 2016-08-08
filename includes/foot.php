@@ -22,7 +22,7 @@
     </div>
     
     <!-- <script src="/javascripts/jquery.js"></script> -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="/javascripts/foundation.min.js"></script>
     <script src="/javascripts/app.js"></script>
     <!-- <script src="/javascripts/jquery.foundation.tabs.js"></script> -->

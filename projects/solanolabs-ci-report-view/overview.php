@@ -43,16 +43,13 @@
                         <span class="services label radius">Built with <?php echo $moovui ?></span>
                     </div>
                 </div> -->
-                <p>Solano CI is Solano Labs' Continuous Integration SaaS product. It is a powerful suite of tools that enables many different workflows, and therefore has <a href="#" data-reveal-id="solanolabs-report-page_v1-5">a complex user interface</a> that poses tricky user experience challenges.</p>
-                <p>The "Report Page" is the primary view into any given "build" session on Solano CI. It shows every state of a session, from its initial creation, through to a complete collection of test results, build lifecycle timings, and build artifacts. It serves for most users as a way to navigate through their workflow, and view other pieces of information that relate to the state or configuration of the organization and repo. Over time, in an effort to provide as much information and control as possible over a growing number of factors, the interface had become less intuitive for long-time users and not as easily 'learnable' for new users. This causes friction and inefficiency; it is, in a sense, user experience debt.</p>
-                <p>The question I asked was: "With so much data and navigation to present in one place, how do we improve the usability of such a complex view?" I went out and sat with users and gathered feedback, reviewed support tickets, and did research into possible workflow improvements.</p>
-                <p>This proposed Solano CI Report Page redesign presents a new interface and workflow that, as an evolution of the current incremental redesign, solves a much larger set of usability issues uncovered in my research and user testing sessions. </p>
-                <p>Here's a video demo showing the intial prototype in action:</p>
-                <div class="video-wrapper">
-                    <iframe class="vimeo" src="https://player.vimeo.com/video/174725827" width="600" height="353" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
-                <p class="case-caption-video">I built this prototype using <a href="https://middlemanapp.com/" target="_blank">Middleman</a> and selected elements of <a href="http://semantic-ui.com/" target="_blank">Semantic UI</a> coupled with my own custom CSS and JavaScript; the video is recorded from a locally running instance of Middleman.</p>
-                <p class="case-caption">Please note: the video transition between the 'build running' and 'build passed' state does not represent a UI animation, but simply abbreviates the run time in the presentation.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos harum ex maiores neque recusandae explicabo hic aperiam assumenda dolores facere, earum. Aspernatur esse vitae consequuntur qui sapiente nemo iusto laudantium. </p>
+                <h4><?php echo $overview_section_a; ?></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus esse quam quae maxime, ex amet, molestias, optio nulla nemo sunt ratione. Voluptatem doloremque aspernatur alias, placeat sint impedit quae temporibus.</p>
+                <h4><?php echo $overview_section_b; ?></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nulla minima ratione incidunt distinctio maxime ea, dicta doloremque. Nam eius, ut aut dolores et ducimus reprehenderit sit tempora assumenda illo.</p>
+                <h4><?php echo $overview_section_c; ?></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eveniet numquam quis mollitia voluptate, totam natus soluta omnis a modi! Cumque error, quia repellat eligendi. Facilis, laboriosam aliquid assumenda placeat.</p>
                 <!--
               <h4><?php echo $overview_section_a; ?></h4>
               <p>I was hired by Moovweb to create a user-friendly, visually coherent interface for a complex system of tools. The initial v4 build was top-to-bottom redesign of all interfaces as well as a rethinking of all content strategy for developer onboarding (this lead to the creation of the Developer Center). The v5 build was a complete rebuild of the platform with an array of powerful new features which required a rethinking of many interfaces, and provided an opportunity to enhance visual design and user experience on many areas of the system. 

@@ -125,20 +125,33 @@ $(function() {
   });
 
 
-// Offcanvas
+// Offcanvas Navigation
 
 $(".open-panel").click(function(){
-  
   $("html").addClass("openNav");
-  
-});
-  
-$(".close-panel, #content").click(function(){
-  
-$("html").removeClass("openNav");
-  
 });
 
+$(".close-panel, #content").click(function(){
+  $("html").removeClass("openNav");
+});
+
+
+// Overview Sidebar on mobile
+
+$(window).load(function() {
+  if ($(window).width()<767) {
+    // Move to end of content 
+    $(".overview-sidebar").appendTo(".overview-content");
+    // Scroll to top of tabs when clicking sidebar button
+    $(".sidebar-button").click(function() {
+      $('html, body').animate({
+        scrollTop: ($('.tabs').offset().top)
+      },333);
+    });
+  } else {
+    return;
+  }
+});
 
 
 //after all scripts

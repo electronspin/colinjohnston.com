@@ -6,6 +6,7 @@ set_include_path(get_include_path() . PATH_SEPARATOR . $_SERVER['DOCUMENT_ROOT']
 //Project Names
 
 $slcc     = 'Solano Labs CI Product Concepts';
+$slcr     = 'Solano Labs CI Report View';
 $mwcc     = 'Moovweb Control Center';
 $mwdc     = 'Moovweb Developer Center';
 $mwsdk    = 'Moovweb Developer Dashboard';

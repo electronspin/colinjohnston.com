@@ -16,41 +16,14 @@
         </ul>
         <ul class="tabs-content">
             <li class="content active" id="overviewTab">
-                <!-- overview-sidebar -->
-                <div class="overview-sidebar">
-                    <div class="panel radius">
-                        <h5> <?php echo $overview_sidebar_heading; ?></h5>
-                        <ul class="services">
-                            <li>Content Development</li>
-                            <li>Information Architecture</a>
-                            </li>
-                            <li>UX + Interface Design</li>
-                            <ul>
-                                <li>Wireframes</li>
-                                <li>Mockups</li>
-                                <ul>
-                                    <li>Page Layouts</li>
-                                    <li>Typography</li>
-                                    <li>Color Scheme</li>
-                                </ul>
-                            </ul>
-                            <li>Front-end Development</li>
-                            <ul>
-                                <li>Ruby on Rails Views</li>
-                                <li>Sass Library</li>
-                            </ul>
-                        </ul>
-                        <span class="services label radius">Built with <?php echo $moovui ?></span>
-                        <p><a class="sidebar-button" href="#process" onclick="$('.tabs a[href=\'#process\']').click()">View Process Artifacts</a></p>
-                    </div>
-                </div>
-                <!-- overview-sidebar -->
                 <div class="overview-content">
                     <p>Moovweb is an Enterprise software solution for delivering customized mobile experiences from a single codebase. The Moovweb Control Center is an application for managing Moovweb projects in the cloud. The primary tools are domain management, routing logic, security, and user management.</p>
                     <h4><?php echo $overview_section_a; ?></h4>
                     <p>I was hired by Moovweb to create a user-friendly, visually coherent interface for a complex system of tools. The initial v4 build was top-to-bottom redesign of all interfaces as well as a rethinking of all content strategy for developer onboarding (this lead to the creation of the Developer Center). The v5 build was a complete rebuild of the platform with an array of powerful new features which required a rethinking of many interfaces, and provided an opportunity to enhance visual design and user experience on many areas of the system.
                     </p>
                     <h4><?php echo $overview_section_b; ?></h4>
+                    <!-- overview-sidebar -->
+                    <?php include('overview-sidebar.php') ?>
                     <p>As the sole designer in the Engineering/Product Management group, I collaborated closely with product managers, front-end developers, and engineers to iterate on requirements, design deliverables, and prototypes, and provided a framework for user experience and interface design best practices. For the v5 redesign, after the adoption of Agile processes and integration of more user-centric practices, I contributed considerable product strategy while PM and Engineering staff contributed valuable ideas for better user experience design. The development of a complex, multilayered system required us to devise a complex, multilayered collaborative process.
                     </p>
                     <h4><?php echo $overview_section_c; ?></h4>
@@ -65,7 +38,7 @@
             <li class="content" id="processTab">
                 <!-- overview-sidebar -->
                 <div class="overview-content">
-                    <!-- <h3><?php echo $casetitle1 ?></h3> -->
+                    <h3><?php echo $casetitle1 ?></h3>
                     <p>
                         <?php echo $casesub1 ?>
                     </p>

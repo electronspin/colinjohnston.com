@@ -85,6 +85,10 @@ h2 {
     font-size: 2em
 }
 
+#content h2 {
+    margin-top: 1.5em;
+}
+
 h3 {
     font-size: 1.5em
 }
@@ -227,15 +231,20 @@ p.tagline {
 
 #content p.case-caption a {
     font-weight: 700;
-    color: #777;
+    color: $content-link;
     transition: all .25s ease
+    &:hover {
+        color: #fff;
+        //color: $content-link;
+    }
+    &:visited {
+        color: #222;
+    }
+    &:visited:hover {
+        color: #222;
+    }
 }
 
-#content p.case-caption a:hover,
-a {
-    // color: #000
-    color: $content-link;
-}
 
 a:hover {
     // color: #777;
@@ -514,10 +523,10 @@ a.codedirection {
     }
     .overview-main {}
     .overview-sidebar {
-        display: table-footer-group //float: right;
+        //display: table-footer-group //float: right;
     }
     .overview-content {
-        display: table-header-group
+        //display: table-header-group
     }
 }
 
@@ -779,7 +788,7 @@ a.open-panel {
         width: 0px;
         position: absolute;
         top: 65%;
-        left: 45%;
+        left: 44%;
         //left: calc(50% - #{$arrow-size});
         // border-left: $arrow-size solid transparent;
         // border-right: $arrow-size solid transparent;
