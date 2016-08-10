@@ -70,7 +70,8 @@
                 <div class="overview-content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta totam quas quos alias. Quod a, adipisci sequi modi tenetur saepe, odit ipsa dolorem sed deleniti veritatis consequatur cum temporibus!</p>
                     <h4>Icon Design - Sketches and Vector Artwork</h4>
-                    <p>Sketches and vector artwork for site navigation icons. I created Illustrator files and then exported to SVG.</p>
+                    <p>Sketches and vector artwork for new site navigation icons.</p>
+                    <p>The new icons were based closely on very small 16-pixel wide GIF files used in Paul's older website. I set out to re-design each icon to be optically balanced at a wide range of sizes.</p>
                     <div class="imagebox">
                         <a href="#" data-reveal-id="saffo-identity-icons-sketch">
                             <img srcset="/images/saffo-identity-icons-sketch_small.jpg 400w,
@@ -79,6 +80,7 @@
                         </a>
                     </div>
                     <p class="hide-for-small case-caption"><strong>Icon Sketches</strong> - Exploring the geometry of the About Icon before going in to Illustrator. Sketching like this in pencil helps me really think through the details. / <a href="#" data-reveal-id="saffo-identity-icons-sketch">View Larger Image</a></p>
+                    <p>I created Illustrator files and then exported to SVG.</p>
                     <div class="imagebox">
                         <a href="#" data-reveal-id="saffo-identity-icons-wip">
                             <img srcset="/images/saffo-identity-icons-wip_small.jpg 400w,
