@@ -28,13 +28,13 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/projects/solanolabs-ci-report-view">
+                        <a href="/projects/solanolabs-ci-session-view">
                             <div class="imagebox">
                                 <figure>
-                                    <img srcset="images/solanolabs-ci-report-view-temp_small.jpg 400w,
-                        images/solanolabs-ci-report-view-temp_medium.jpg 800w,
-                        images/solanolabs-ci-report-view-temp_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/solanolabs-ci-report-view-temp_small.jpg" alt="Paul Saffo Website">
-                                    <figcaption><?php echo $slcr; ?></figcaption>
+                                    <img srcset="images/solanolabs-ci-session-view-temp_small.jpg 400w,
+                        images/solanolabs-ci-session-view-temp_medium.jpg 800w,
+                        images/solanolabs-ci-session-view-temp_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/solanolabs-ci-session-view-temp_small.jpg" alt="Paul Saffo Website">
+                                    <figcaption><?php echo $slcs; ?></figcaption>
                                 </figure>
                             </div>
                         </a>
@@ -81,7 +81,7 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="/projects/moovweb-dashboard">
                             <div class="imagebox">
                                 <figure>
@@ -94,7 +94,7 @@
                                 </figure>
                             </div>
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="/projects/libsass-com">
                             <div class="imagebox">

@@ -6,7 +6,7 @@ set_include_path(get_include_path() . PATH_SEPARATOR . $_SERVER['DOCUMENT_ROOT']
 //Project Names
 
 $slcc     = 'Solano Labs CI Product Concepts';
-$slcr     = 'Solano Labs CI Report View';
+$slcs     = 'Solano Labs CI Session View';
 $mwcc     = 'Moovweb Control Center';
 $mwdc     = 'Moovweb Developer Center';
 $mwsdk    = 'Moovweb Developer Dashboard';
@@ -23,7 +23,7 @@ $overview_section_c = 'Results'; //Solution
 
 
 $overview_tab = 'Project Overview'; //Overview
-$process_tab = 'Process Artifacts'; //Process
+$process_tab = 'Process &amp; Artifacts'; //Process
 
 $casetitle1 = 'Selected Artifacts of the Design Process';
 $casesub1   = 'Below is an incomplete selection of deliverables that were presented during the product design process.';

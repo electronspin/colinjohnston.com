@@ -141,7 +141,7 @@ $(".close-panel, #content").click(function(){
 $(window).load(function() {
   if ($(window).width()<767) {
     // Move to end of content 
-    $(".overview-sidebar").appendTo(".overview-content");
+    $(".overview-sidebar").appendTo("#overviewTab > .overview-content");
     // Scroll to top of tabs when clicking sidebar button
     $(".sidebar-button").click(function() {
       $('html, body').animate({

@@ -35,7 +35,7 @@
             </a>
           </div>
           <h2>Paul Saffo Website</h2>
-          <!--<p><a href="http://www.saffo.com/" name="" target="_blank">www.saffo.com</a></p>-->
+          <p>Website and identity design for forecaster Paul Saffo. The design presents his journal and a large collection of content in a clean, responsive interface. I developed the site with progressive enhancement techniques for compatibility from Android 2.3 up to the latest desktop browsers.</p>
           
           <?php include('overview.php') ?>
           

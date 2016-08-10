@@ -1,1 +1,1 @@
-Digital Product Designer and  Graphic Designer working in San Francisco, California, designing for web and mobile with a focus on user-centered design process and producing clean, consistent user experiences. 
+Digital Product Designer and Graphic Designer in San Francisco, California. I design for web and mobile with a focus on user-centered design process and clean, consistent user experiences.

@@ -2,7 +2,7 @@
     <?php include($_SERVER['DOCUMENT_ROOT'].'/config.php') ?>
     <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?>
     <title>
-        <?php echo $slcr ?> - Recent Projects : <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?></title>
+        <?php echo $slcs ?> - Recent Projects : <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?></title>
     </head>
 
     <body>

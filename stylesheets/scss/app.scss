@@ -212,7 +212,7 @@ ul.services a {
 }
 
 #content p.case-caption {
-    margin-top: -1.75em;
+    margin-top: -1em;
     font-size: 1em;
     font-weight: 400;
     margin-bottom: 3em
@@ -227,6 +227,10 @@ ul.services a {
     }
 }
 
+#content p.case-caption-video + p {
+    margin-top: -1.75em;
+}
+
 .side-nav li,
 p {
     font-size: 1.1em
@@ -238,7 +242,7 @@ p.tagline {
 }
 
 #content p.case-caption a {
-    font-weight: 700;
+    font-weight: 400;
     color: $content-link;
     transition: all .25s ease
     &:hover {
@@ -769,7 +773,7 @@ a.open-panel {
     //float: left;
     padding: 0;
     // margin: 1em 1em 2em;
-    margin: 1.5em 1em 2.5em;
+    margin: 1.5em 1em 1.5em;
     position: relative;
 }
 

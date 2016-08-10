@@ -3,8 +3,8 @@
         <li <?php echo ($page == 'paul-saffo-website') ? "class='nav-list-item active'" : "class='nav-list-item'"; ?>>
             <a href="/projects/paul-saffo-website">Paul Saffo Website</a>
         </li>
-        <li <?php echo ($page == 'solanolabs-ci-report-view') ? "class='nav-list-item active'" : "class='nav-list-item'"; ?>>
-            <a href="/projects/solanolabs-ci-report-view"><?php echo $slcr ?></a>
+        <li <?php echo ($page == 'solanolabs-ci-session-view') ? "class='nav-list-item active'" : "class='nav-list-item'"; ?>>
+            <a href="/projects/solanolabs-ci-session-view"><?php echo $slcs ?></a>
         <li <?php echo ($page == 'solanolabs-ci-concepts') ? "class='nav-list-item active'" : "class='nav-list-item'"; ?>>
             <a href="/projects/solanolabs-ci-concepts"><?php echo $slcc ?></a>
         </li>

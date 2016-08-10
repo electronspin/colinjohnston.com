@@ -16,7 +16,8 @@
         </ul>
         <ul class="tabs-content">
             <li class="content active" id="overviewTab">
-                <!-- overview-sidebar -->
+                <div class="overview-content">
+                    <!-- overview-sidebar -->
                 <!-- <div class="overview-sidebar">
                     <div class="panel radius">
                         <h5> <?php echo $overview_sidebar_heading; ?></h5>
@@ -55,13 +56,30 @@
               <p>I was hired by Moovweb to create a user-friendly, visually coherent interface for a complex system of tools. The initial v4 build was top-to-bottom redesign of all interfaces as well as a rethinking of all content strategy for developer onboarding (this lead to the creation of the Developer Center). The v5 build was a complete rebuild of the platform with an array of powerful new features which required a rethinking of many interfaces, and provided an opportunity to enhance visual design and user experience on many areas of the system. 
               </p>
               -->
+          </div>
             </li>
             <li class="content" id="processTab">
                 <!-- overview-sidebar -->
                 <div class="overview-content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta totam quas quos alias. Quod a, adipisci sequi modi tenetur saepe, odit ipsa dolorem sed deleniti veritatis consequatur cum temporibus!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta totam quas quos alias. Quod a, adipisci sequi modi tenetur saepe, odit ipsa dolorem sed deleniti veritatis consequatur cum temporibus!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta totam quas quos alias. Quod a, adipisci sequi modi tenetur saepe, odit ipsa dolorem sed deleniti veritatis consequatur cum temporibus!</p>
+                    <!-- solanolabs-sessionview-wireframe1 -->
+                    <div class="imagebox">
+                        <a href="#" data-reveal-id="solanolabs-sessionview-wireframe1">
+                            <img srcset="/images/solanolabs-sessionview-wireframe1_small.jpg 400w,
+                        /images/solanolabs-sessionview-wireframe1_medium.jpg 800w,
+                        /images/solanolabs-sessionview-wireframe1_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-wireframe1_medium.jpg" alt="<?php echo $slcs; ?> - Wireframe of Base Layout" title="<?php echo $slcs; ?> - Wireframe of Base Layout">
+                        </a>
+                    </div>
+                    <p class="hide-for-small case-caption"><?php echo $slcs; ?> - Wireframe of Base Layout / <a href="#" data-reveal-id="solanolabs-sessionview-wireframe1">View Larger Image</a></p>
+                    <!-- ssolanolabs-sessionview-wireframe1 -->
+                    <div class="imagebox">
+                        <a href="#" data-reveal-id="solanolabs-sessionview-prototype-codepen">
+                            <img srcset="/images/solanolabs-sessionview-prototype-codepen_small.jpg 400w,
+                        /images/solanolabs-sessionview-prototype-codepen_medium.jpg 800w,
+                        /images/solanolabs-sessionview-prototype-codepen_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-prototype-codepen_medium.jpg" alt="<?php echo $slcs; ?> - Codepen Prototype" title="<?php echo $slcs; ?> - Codepen Prototype">
+                        </a>
+                    </div>
+                    <p class="hide-for-small case-caption"><?php echo $slcs; ?> - Prototype in Codepen / <a href="#" data-reveal-id="solanolabs-sessionview-prototype-codepen">View Larger Image</a> - <a href="http://codepen.io/electronspin/pen/95a6ac01710fd019c2723fe5a68d0a7b" target="_blank">Open Codepen</a></p>
                 </div>
             </li>
         </ul>
