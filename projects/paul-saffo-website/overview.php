@@ -101,7 +101,33 @@
 
 
                     <h4>Sketches - Website Layouts</h4>
-                    <p>IMG TBD: sketches of page layouts</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iusto magnam doloremque! Distinctio fuga est iste quam fugit.</p>
+                    <div class="imagebox">
+                        <a href="#" data-reveal-id="saffo-website-sketches-1">
+                            <img srcset="/images/saffo-website-sketches-1_small.jpg 400w,
+                        /images/saffo-website-sketches-1_medium.jpg 800w,
+                        /images/saffo-website-sketches-1_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-website-sketches-1_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
+                        </a>
+                    </div>
+                    <p class="hide-for-small case-caption"><strong>Sketches</strong> - TBD / <a href="#" data-reveal-id="saffo-website-sketches-1">View Larger Image</a></p>
+                    <div class="imagebox">
+                        <a href="#" data-reveal-id="saffo-website-sketches-2">
+                            <img srcset="/images/saffo-website-sketches-2_small.jpg 400w,
+                        /images/saffo-website-sketches-2_medium.jpg 800w,
+                        /images/saffo-website-sketches-2_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-website-sketches-2_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
+                        </a>
+                    </div>
+                    <p class="hide-for-small case-caption"><strong>Sketches</strong> - TBD / <a href="#" data-reveal-id="saffo-website-sketches-2">View Larger Image</a></p>
+                    <div class="imagebox">
+                        <a href="#" data-reveal-id="saffo-website-sketches-3">
+                            <img srcset="/images/saffo-website-sketches-3_small.jpg 400w,
+                        /images/saffo-website-sketches-3_medium.jpg 800w,
+                        /images/saffo-website-sketches-3_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-website-sketches-3_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
+                        </a>
+                    </div>
+                    <p class="hide-for-small case-caption"><strong>Sketches</strong> - TBD / <a href="#" data-reveal-id="saffo-website-sketches-3">View Larger Image</a></p>
+                    
+
                     
                     <h4>Wireframes - Website Layouts</h4>
                     <p>IMG TBD: screenshots of wireframing</p>

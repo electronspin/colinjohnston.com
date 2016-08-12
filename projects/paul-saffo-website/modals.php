@@ -24,7 +24,26 @@
     <p></p>
     <a class="close-reveal-modal">&#215;</a>
 </div>
-<!-- design sketch -->
+<!-- sketches -->
+<div id="saffo-website-sketches-1" class="reveal-modal expand modal modal-img-border">
+    <h2>Paul Saffo Identity - Icon Designs</h2>
+    <img src="/images/saffo-website-sketches-1_full.jpg" alt="Paul Saffo Website - Layout Sketches">
+    <p></p>
+    <a class="close-reveal-modal">&#215;</a>
+</div>
+<div id="saffo-website-sketches-2" class="reveal-modal expand modal modal-img-border">
+    <h2>Paul Saffo Identity - Icon Designs</h2>
+    <img src="/images/saffo-website-sketches-2_full.jpg" alt="Paul Saffo Website - Layout Sketches">
+    <p></p>
+    <a class="close-reveal-modal">&#215;</a>
+</div>
+<div id="saffo-website-sketches-3" class="reveal-modal expand modal modal-img-border">
+    <h2>Paul Saffo Identity - Icon Designs</h2>
+    <img src="/images/saffo-website-sketches-3_full.jpg" alt="Paul Saffo Website - Layout Sketches">
+    <p></p>
+    <a class="close-reveal-modal">&#215;</a>
+</div>
+<!-- mockups -->
 <div id="saffo-design-sketch-1" class="reveal-modal expand modal modal-img-border">
     <h2>Paul Saffo Website - Sketch Mockups</h2>
     <img src="/images/saffo-design-sketch-1_full.jpg" alt="Paul Saffo Website - Design in Sketch 1">
