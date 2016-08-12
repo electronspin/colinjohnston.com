@@ -45,7 +45,7 @@
                           /images/dev-center-ai-overview_medium.png 800w,
                           /images/dev-center-ai-overview_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/dev-center-ai-overview_small.png" alt="Developer Center Information Architecture Overview">
                     </div>
-                    <p class="hide-for-small case-caption"><a href="#" data-reveal-id="dev-center-ai-overview">View Full Size</a></p>
+                    <p class="case-caption"><a href="#" data-reveal-id="dev-center-ai-overview">View Full Size</a></p>
                     <a name="user-flows"></a>
                     <h4>User Flows</h4>
                     <div class="row">
@@ -56,7 +56,7 @@
                           /images/dc-v4-onboarding-userflow_medium.png 800w,
                           /images/dc-v4-onboarding-userflow_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/dc-v4-onboarding-userflow_small.png" alt="Developer Center New User Onboarding Flow">
                             </div>
-                            <p class="hide-for-small case-caption"><a href="#" data-reveal-id="dc-v4-onboarding-userflow">View Full Size</a></p>
+                            <p class="case-caption"><a href="#" data-reveal-id="dc-v4-onboarding-userflow">View Full Size</a></p>
                         </div>
                     </div>
                     <!-- end half-width -->
@@ -69,7 +69,7 @@
                           /images/dc-v1-docs-landing-developer-mockup_medium.png 800w,
                           /images/dc-v1-docs-landing-developer-mockup_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/dc-v1-docs-landing-developer-mockup_small.png" alt="Developer Center Early Mockups - 'Developer' Edition">
                     </div>
-                    <p class="hide-for-small case-caption">Early Mockups of Developer Center Documentation landing page - 'Developer' Edition | <a href="#" data-reveal-id="dc-v1-docs-landing-developer-mockup">View Larger</a></p>
+                    <p class="case-caption">Early Mockups of Developer Center Documentation landing page - 'Developer' Edition <span class="hide-for-small">/ <a href="#" data-reveal-id="dc-v1-docs-landing-developer-mockup">View Larger</a></span></p>
                     <!-- </div><div class="six columns"> -->
                     <!-- half-width -->
                     <div class="imagebox">
@@ -77,7 +77,7 @@
                           /images/dc-v1-docs-landing-enterprise-mockup_medium.png 800w,
                           /images/dc-v1-docs-landing-enterprise-mockup_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/dc-v1-docs-landing-enterprise-mockup_small.png" alt="Developer Center Early Mockups - 'Enterprise' Edition">
                     </div>
-                    <p class="hide-for-small case-caption">Early Mockups of Developer Center Documentation landing page - 'Enterprise' Edition | <a href="#" data-reveal-id="dc-v1-docs-landing-enterprise-mockup">View Larger</a></p>
+                    <p class="case-caption">Early Mockups of Developer Center Documentation landing page - 'Enterprise' Edition <span class="hide-for-small">/ <a href="#" data-reveal-id="dc-v1-docs-landing-enterprise-mockup">View Larger</a></span></p>
                     <!-- </div></div> -->
                 </div>
             </li>

@@ -51,13 +51,13 @@
                           /images/cc-v4-r2-projects-list-mockup_medium.png 800w,
                           /images/cc-v4-r2-projects-list-mockup_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v4-r2-projects-list-mockup_small.png" alt="Control Center v4 Project Page Mockup - Early Stages">
                     </div>
-                    <p class="hide-for-small case-caption">Control Center v4 Project Page Mockup - Early Round 2 Design | <a href="#" data-reveal-id="cc-v4-r2-projects-list-mockup">View Larger</a></p>
+                    <p class="case-caption">Control Center v4 Project Page Mockup - Early Round 2 Design | <a href="#" data-reveal-id="cc-v4-r2-projects-list-mockup">View Larger</a></p>
                     <div class="imagebox">
                         <img srcset="/images/cc-v4-r5-projects-list-mockup_small.png 400w,
                           /images/cc-v4-r5-projects-list-mockup_medium.png 800w,
                           /images/cc-v4-r5-projects-list-mockup_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v4-r5-projects-list-mockup_small.png" alt="Moovweb Control Center v4 Project Page Mockup">
                     </div>
-                    <p class="hide-for-small case-caption">Control Center v4 Project Page Mockup - Early Round 5 Design | <a href="#" data-reveal-id="cc-v4-r5-projects-list-mockup">View Larger</a></p>
+                    <p class="case-caption">Control Center v4 Project Page Mockup - Early Round 5 Design | <a href="#" data-reveal-id="cc-v4-r5-projects-list-mockup">View Larger</a></p>
                     <a name="v4"></a>
                     <h4>Prototype - Moovweb 4</h4>
                     <p>Using the first production release of
@@ -67,7 +67,7 @@
                           /images/cc-v4-project-page_medium.png 800w,
                           /images/cc-v4-project-page_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v4-project-page_small.png" alt="Moovweb Control Center v4 Project Page">
                     </div>
-                    <p class="hide-for-small case-caption">Final Prototype Control Center v4 Project Page Interface | <a href="#" data-reveal-id="cc-v4-project-page">View Larger</a></p>
+                    <p class="case-caption">Final Prototype Control Center v4 Project Page Interface <span class="hide-for-small">/ <a href="#" data-reveal-id="cc-v4-project-page">View Larger</a></span></p>
                     <a name="wf-v5"></a>
                     <h4>Wireframes - Moovweb 5</h4>
                     <p>Initial wireframes of the new Modes Routing interface.</p>
@@ -79,7 +79,7 @@
                           /images/cc-v5-r1-wireframe-modes-p4_medium.png 800w,
                           /images/cc-v5-r1-wireframe-modes-p4_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v5-r1-wireframe-modes-p4_small.png" alt="Moovweb Control Center v5 Wireframes Modes Routing 1">
                             </div>
-                            <p class="hide-for-small case-caption">Wireframe of 'Add Rule' screen for Modes Routing rule configuration | <a href="#" data-reveal-id="cc-v5-r1-wireframe-modes-p4">View Larger</a></p>
+                            <p class="case-caption">Wireframe of 'Add Rule' screen for Modes Routing rule configuration <span class="hide-for-small">/ <a href="#" data-reveal-id="cc-v5-r1-wireframe-modes-p4">View Larger</a></span></p>
                         </div>
                         <div class="six columns">
                             <!-- half-width -->
@@ -88,7 +88,7 @@
                           /images/cc-v5-r1-wireframe-modes-p5_medium.png 800w,
                           /images/cc-v5-r1-wireframe-modes-p5_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v5-r1-wireframe-modes-p5_small.png" alt="Moovweb Control Center v5 Wireframes Modes Routing 2">
                             </div>
-                            <p class="hide-for-small case-caption">Wireframe of 'Rules Overview' screen in Modes Routing rule management | <a href="#" data-reveal-id="cc-v5-r1-wireframe-modes-p5">View Larger</a></p>
+                            <p class="case-caption">Wireframe of 'Rules Overview' screen in Modes Routing rule management <span class="hide-for-small">/ <a href="#" data-reveal-id="cc-v5-r1-wireframe-modes-p5">View Larger</a></span></p>
                         </div>
                     </div>
                     <a name="v5"></a>
@@ -99,7 +99,7 @@
                           /images/cc-v5-modes-add-rule_medium.png 800w,
                           /images/cc-v5-modes-add-rule_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v5-modes-add-rule_small.png" alt="Moovweb Control Center v5 Modes Routing Screen">
                     </div>
-                    <p class="hide-for-small case-caption">Final Design of the new Modes Routing interface for Control Center v5 | <a href="#" data-reveal-id="cc-v5-modes-add-rule">View Larger</a></p>
+                    <p class="case-caption">Final Design of the new Modes Routing interface for Control Center v5 <span class="hide-for-small">/ <a href="#" data-reveal-id="cc-v5-modes-add-rule">View Larger</a></span></p>
                 </div>
             </li>
         </ul>

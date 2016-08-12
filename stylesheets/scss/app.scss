@@ -208,20 +208,41 @@ ul.services a {
 }
 
 .overview-main h4 {
+    margin-top: 1.5em;
     margin-bottom: .5em
 }
+
+#content p a.to-top {
+    font-size: 0.8em;
+    font-weight: bold;
+    &:before {
+        content: "↑";
+        margin-right: 0.25em;
+    }
+}
+
 
 #content p.case-caption {
     margin-top: -1em;
     font-size: 1em;
     font-weight: 400;
-    margin-bottom: 3em
+    margin-bottom: 2.5em;
+    span.hide-for-small {
+        display: inline !important;
+    }
 }
+
+@media only screen and (max-width: 480px) {
+    #content p.case-caption span.hide-for-small {
+        display: none !important;
+    }
+}
+
 
 #content p.case-caption-video {
     font-size: 1em;
     font-weight: 400;
-    margin-bottom: 3em;
+    margin-bottom: 2.5em;
     @media only screen and (min-width: 768px) {
         margin-top: -0.75em;
     }

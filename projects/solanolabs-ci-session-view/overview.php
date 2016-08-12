@@ -70,7 +70,7 @@
                         /images/solanolabs-sessionview-wireframe1_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-wireframe1_medium.jpg" alt="<?php echo $slcs; ?> - Wireframe of Base Layout" title="<?php echo $slcs; ?> - Wireframe of Base Layout">
                         </a>
                     </div>
-                    <p class="hide-for-small case-caption"><?php echo $slcs; ?> - Wireframe of Base Layout / <a href="#" data-reveal-id="solanolabs-sessionview-wireframe1">View Larger Image</a></p>
+                    <p class="case-caption"><?php echo $slcs; ?> - Wireframe of Base Layout <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-wireframe1">View Larger Image</a></span></p>
                     <!-- ssolanolabs-sessionview-wireframe1 -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="solanolabs-sessionview-prototype-codepen">
@@ -79,7 +79,7 @@
                         /images/solanolabs-sessionview-prototype-codepen_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-prototype-codepen_medium.jpg" alt="<?php echo $slcs; ?> - Codepen Prototype" title="<?php echo $slcs; ?> - Codepen Prototype">
                         </a>
                     </div>
-                    <p class="hide-for-small case-caption"><?php echo $slcs; ?> - Prototype in Codepen / <a href="#" data-reveal-id="solanolabs-sessionview-prototype-codepen">View Larger Image</a> - <a href="http://codepen.io/electronspin/pen/95a6ac01710fd019c2723fe5a68d0a7b" target="_blank">Open Codepen</a></p>
+                    <p class="case-caption"><?php echo $slcs; ?> - Prototype in Codepen <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-prototype-codepen">View Larger Image</a> - </span> <a href="http://codepen.io/electronspin/pen/95a6ac01710fd019c2723fe5a68d0a7b" target="_blank">Open Codepen</a></p>
                 </div>
             </li>
         </ul>
