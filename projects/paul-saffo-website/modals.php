@@ -43,6 +43,13 @@
     <p></p>
     <a class="close-reveal-modal">&#215;</a>
 </div>
+<!-- styleboards -->
+<div id="saffo-styleboards" class="reveal-modal expand modal modal-img-border">
+    <h2>Paul Saffo Website - Style Boards</h2>
+    <img src="/images/saffo-styleboards_full.jpg" alt="">
+    <p></p>
+    <a class="close-reveal-modal">&#215;</a>
+</div>
 <!-- mockups -->
 <div id="saffo-design-sketch-1" class="reveal-modal expand modal modal-img-border">
     <h2>Paul Saffo Website - Sketch Mockups</h2>

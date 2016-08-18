@@ -39,6 +39,7 @@ h3 {
 
 #content p {
     font-size: 1.25em;
+    margin-bottom: 0.5em;
 }
 
 #content p a:not(.sidebar-button) {
@@ -215,12 +216,20 @@ ul.services a {
 #content p a.to-top {
     font-size: 0.8em;
     font-weight: bold;
+    color: $cjd-branding;
     &:before {
         content: "↑";
         margin-right: 0.25em;
     }
 }
 
+// .overview-content li {
+//     font-size: 1.25em;
+// }
+
+.overview-sidebar li {
+    font-size: 1em;
+}
 
 #content p.case-caption {
     margin-top: -1em;
@@ -354,11 +363,20 @@ ul.side-nav li.nav-list-title {
     font-size: 14px;
 }
 
+.overview-sidebar .panel {
+    background: #F2F2F2;
+    border: 1px solid #E6E6E6;
+        margin: 5px 0 22px;
+    //padding: 20px;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+}
+
 .panel {
     background: #F2F2F2;
     border: 1px solid #E6E6E6;
-    margin: 5px 0 22px;
-    padding: 20px
+    margin: 1.5em 0 1.5em;
+    padding: 1em 1.5em 0.5em;
 }
 
 ol.services,
@@ -799,8 +817,10 @@ a.open-panel {
 }
 
 .tabs li a {
-    color: #6f6f6f;
-    background-color: darken($secondary-bg-color, 10%);
+    //color: #6f6f6f;
+    color: $light-text-color;
+    //background-color: darken($secondary-bg-color, 10%);
+    background-color: lighten($content-link, 10%);
     display: block;
     font-size: 1em;
     font-weight: bold;
@@ -827,8 +847,8 @@ a.open-panel {
         // border-right: $arrow-size solid transparent;
         // border-top: $arrow-size solid #fff;
         border: $arrow-size solid transparent;
-        border-top-color: darken($secondary-bg-color, 10%);
-        ;
+        //border-top-color: darken($secondary-bg-color, 10%);
+        border-top-color: lighten($content-link, 10%);
         //z-index: 10;
     }
     &:hover:after {
@@ -838,7 +858,8 @@ a.open-panel {
 
 .tabs li a:focus {
     font-weight: bold;
-    color: #999;
+    //color: #999;
+    color: $main-bg-color;
 }
 
 .tabs li.active {
@@ -919,7 +940,7 @@ a.open-panel {
     font-weight: 400;
     //padding: 1em 1.25em;
     line-height: 1.6;
-    margin: 1.5em 0 0.5em;
+    margin: 1.5em 0 0;
     padding: 0.25em 0.75em 0.33em;
     background-color: #999;
     -border-radius: 9px;
