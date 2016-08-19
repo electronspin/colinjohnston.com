@@ -68,7 +68,6 @@
             <li class="content" id="processTab">
                 <div class="overview-content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta totam quas quos alias. Quod a, adipisci sequi modi tenetur saepe, odit ipsa dolorem sed deleniti veritatis consequatur cum temporibus!</p>
-                    <p style="background-color: #ffff00;">(Logo and Icons first, then Wesbite. Logo redesign walkthrough is in progress, let's look at Icons and Website, etc... Or, dive right in to Website and mention that Icons piece is down below at the end—this way  I can go from a standard process right into the actual process for site...)</p>
                     <ul>
                         <li>Discovery</li>
                         <li>Definition</li>

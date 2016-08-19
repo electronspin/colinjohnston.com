@@ -14,6 +14,13 @@
   <a class="close-reveal-modal">&#215;</a>
 </div>
 
+<!-- solanolabs-sessionview-sketches -->
+<div id="solanolabs-sessionview-sketches" class="reveal-modal expand modal-img-border"> 
+  <h2><?php echo $slcs; ?> - Sketches</h2>
+  <img src="/images/solanolabs-sessionview-sketches_full.jpg" alt="<?php echo $slcs; ?> - Sketches">
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
 <!-- solanolabs-sessionview-wireframe1 -->
 <div id="solanolabs-sessionview-wireframe1" class="reveal-modal expand modal-img-border"> 
   <h2><?php echo $slcs; ?> - Wireframe of Base Layout</h2>

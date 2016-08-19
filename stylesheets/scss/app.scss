@@ -103,7 +103,9 @@ div.panel h4,
 div.panel h5,
 .overview-main h5 {
     font-weight: 400;
-    font-size: 1.25em
+    font-size: 1.25em;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
 }
 
 .side-nav li,
@@ -223,9 +225,10 @@ ul.services a {
     }
 }
 
-// .overview-content li {
-//     font-size: 1.25em;
-// }
+.overview-content li {
+    font-size: 1.25em;
+    margin-left: 2em;
+}
 
 .overview-sidebar li {
     font-size: 1em;
@@ -817,10 +820,10 @@ a.open-panel {
 }
 
 .tabs li a {
-    //color: #6f6f6f;
-    color: $light-text-color;
-    //background-color: darken($secondary-bg-color, 10%);
-    background-color: lighten($content-link, 10%);
+    color: #6f6f6f;
+    //color: $light-text-color;
+    background-color: darken($secondary-bg-color, 10%);
+    //background-color: lighten($content-link, 10%);
     display: block;
     font-size: 1em;
     font-weight: bold;
@@ -847,9 +850,12 @@ a.open-panel {
         // border-right: $arrow-size solid transparent;
         // border-top: $arrow-size solid #fff;
         border: $arrow-size solid transparent;
-        //border-top-color: darken($secondary-bg-color, 10%);
-        border-top-color: lighten($content-link, 10%);
+        border-top-color: darken($secondary-bg-color, 10%);
+        //border-top-color: lighten($content-link, 10%);
         //z-index: 10;
+    }
+    &:hover {
+        color: $dark-text-color;
     }
     &:hover:after {
         top: 100%
@@ -858,8 +864,8 @@ a.open-panel {
 
 .tabs li a:focus {
     font-weight: bold;
-    //color: #999;
-    color: $main-bg-color;
+    color: #999;
+    //color: $main-bg-color;
 }
 
 .tabs li.active {
@@ -960,4 +966,10 @@ a.open-panel {
 
 .page-wrapper {
     background-color: $main-bg-color;
+}
+
+.activities-label {
+    font-size: 0.825em;
+    text-transform: uppercase;
+    //letter-spacing: 1px;
 }

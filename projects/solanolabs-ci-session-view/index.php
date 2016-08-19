@@ -18,11 +18,11 @@
                             <div class="imagebox">
                                 <a href="#" data-reveal-id="solanolabs-ci-session-view">
               <img
-                srcset="/images/solanolabs-ci-session-view-temp_small.jpg 400w,
-                        /images/solanolabs-ci-session-view-temp_medium.jpg 800w,
-                        /images/solanolabs-ci-session-view-temp_large.jpg 1200w"
+                srcset="/images/solanolabs-ci-session-view_small.jpg 400w,
+                        /images/solanolabs-ci-session-view_medium.jpg 800w,
+                        /images/solanolabs-ci-session-view_large.jpg 1200w"
                 sizes="(min-width: 48em) 66.6vw, 100vw"
-                src="/images/solanolabs-ci-session-view-temp_small.jpg"
+                src="/images/solanolabs-ci-session-view_small.jpg"
                 alt="<?php echo $slcs ?>">
             </a>
                             </div>

@@ -18,8 +18,8 @@ $moovui   = '<a href="http://moovweb.github.io/moovui/">MoovUI</a>';
 
 
 $overview_section_a = 'Challenge'; //Challenge
-$overview_section_b = 'Solution'; //Approach
-$overview_section_c = 'Results'; //Solution
+$overview_section_b = 'Approach'; //Solution
+$overview_section_c = 'Outcome'; //Result
 
 
 $overview_tab = 'Project Overview'; //Overview
