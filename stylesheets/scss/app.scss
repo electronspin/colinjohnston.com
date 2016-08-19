@@ -237,6 +237,9 @@ ul.services a {
         content: "↑";
         margin-right: 0.25em;
     }
+    &:visited {
+        color: $cjd-branding;
+    }
 }
 
 .overview-content li {
