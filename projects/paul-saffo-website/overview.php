@@ -67,45 +67,103 @@
             </li>
             <li class="content" id="processTab">
                 <div class="overview-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta totam quas quos alias. Quod a, adipisci sequi modi tenetur saepe, odit ipsa dolorem sed deleniti veritatis consequatur cum temporibus!</p>
+                    <p>My process for this project was somewhat different from my standard product design process because I functioned as an ‘agency of one’ and my client was an individual, not a group of stakeholders with different roles involved at different times.</p>
+                    <p><strong><a href="#discover>">Discover</a> &gt; <a href="#planning">Planning</a> &gt; <a href="#concepts">Concepts</a> &gt; <a href="#design">Design</a> &gt; <a href="#build">Build</a></strong></p>
+                    <p>Each project phase continues to inform the overall process, i.e. Discovery is a large portion of a project done at the beginning, but discovery continues through planning, design, etc. This process is what I would call ‘iterative waterfall’ because it still allows for a productive feedback loop throughout the project.</p>
+                    <h4 id="discover">Discover</h4>
+                    <p>The discovery process was light on deliverables such as a creative brief; Paul had a general idea of what he wanted to change about his website and identity, and I guided us through requirements gathering and conceptual exploration in structured but informal way.</p>
+                    <h5>Research</h5>
+                    <p>The original website was not tooled for analytics, so without this data we could not analyze user behaviors that might reveal user flow issues. What I did do, however, is show the existing site to a small group of people and ask them to give me feedback on the old design and overall usability. This was simple to do and gave me a good basis for making fundamental changes to the navigation and content presentation.</p>
+                    <p>The consensus supporting my observations was:</p>
+                    <ol>
+                        <li>The landing page with a multi-panel narrative revealed only by hovering small elements was not discoverable or impactful.</li>
+                        <li>Users wanted to quickly look at recent journal entry, or get to his essays and interviews; the journal index link/view was more confusing than helpful.</li>
+                        <li>The colors were washed out, the graphics were blurry, and the type was too small (we we’re acutely aware of this already).</li>
+                    </ol>
+                    <h5>Requirements &amp; Creative Notes</h5>
+                    <p><strong>Branding</strong></p>
                     <ul>
-                        <li>Discovery</li>
-                        <li>Definition</li>
-                        <li>Ideation</li>
-                        <li>Prototype</li>
-                        <li>Test</li>
+                        <li>Simplify logo geometry and apply more emphatic color</li>
+                        <li>Re-create icons for larger sizing and hi-DPI displays</li>
+                        <li>Develop way to communicate intellect, rationality, inventiveness</li>
                     </ul>
-                    <h4>Icon Design - Sketches and Vector Artwork</h4>
-                    <p>Sketches and vector artwork for new site navigation icons.</p>
-                    <p>The new icons were based closely on very small 16-pixel wide GIF files used in Paul's older website. I set out to re-design each icon to be optically balanced at a wide range of sizes.</p>
-                    <div class="imagebox">
-                        <a href="#" data-reveal-id="saffo-identity-icons-sketch">
-                            <img srcset="/images/saffo-identity-icons-sketch_small.jpg 400w,
-                        /images/saffo-identity-icons-sketch_medium.jpg 800w,
-                        /images/saffo-identity-icons-sketch_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-identity-icons-sketch_medium.jpg" alt="Paul Saffo Identity - Icon Sketches">
-                        </a>
-                    </div>
-                    <p class="case-caption"><strong>Icon Sketches</strong> - Exploring the geometry of the About Icon before going in to Illustrator. Sketching like this in pencil helps me really think through the details. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-identity-icons-sketch">View Larger Image</a></p>
-                    <p>I created Illustrator files and then exported to SVG.</p>
-                    <div class="imagebox">
-                        <a href="#" data-reveal-id="saffo-identity-icons-wip">
-                            <img srcset="/images/saffo-identity-icons-wip_small.jpg 400w,
-                        /images/saffo-identity-icons-wip_medium.jpg 800w,
-                        /images/saffo-identity-icons-wip_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-identity-icons-wip_medium.jpg" alt="Paul Saffo Identity - Icon Designs">
-                        </a>
-                    </div>
-                    <p class="case-caption"><strong>Icon Design</strong> - Constructing the About Icon in Illustrator. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-identity-icons-wip">View Larger Image</a></span></p>
-                    <div class="imagebox">
-                        <a href="#" data-reveal-id="saffo-identity-icons-final">
-                            <img srcset="/images/saffo-identity-icons-final_small.jpg 400w,
-                        /images/saffo-identity-icons-final_medium.jpg 800w,
-                        /images/saffo-identity-icons-final_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-identity-icons-final_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
-                        </a>
-                    </div>
-                    <p class="case-caption"><strong>Icon Design</strong> - The final icons ready for SVG export. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-identity-icons-final">View Larger Image</a></span></p>
+                    <p><strong>Experience</strong></p>
+                    <ul>
+                        <li>Reading experience and navigation must be optimized for mobile</li>
+                        <li>Reduce complexity of content presentation - focus on Journal and Essays primarily, minimal quotations, etc.</li>
+                        <li>Storytelling - maps and diagrams as metaphor for forecasting</li>
+                    </ul>
+                    <p><strong>Technical</strong></p>
+                    <ul>
+                        <li>Fast on mobile - needs responsive images and async font loader, etc.</li>
+                        <li>Support for older mobile browsers - SVG fallbacks, Modernizr, etc.</li>
+                        <li>Set up Google Analytics! (And add views/filters for staging).</li>
+                    </ul>
+                    <p>With these notes and various thumbnail design ideas, I could begin Concept phase. First I needed to organize all the input gathered so far, and create a plan.</p>
                     <p><a class="to-top" href="#">TOP</a></p>
-                    <h4>Sketches - Website Layouts</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iusto magnam doloremque! Distinctio fuga est iste quam fugit.</p>
+                    <h4 id="planning">Planning</h4>
+                    <p>Since we had collaborated previously on website design for another venture, he knew I had a solid process and we could keep things lean; he didn’t need a ton of documentation of our decisions, just iterative progress towards the final product.</p>
+                    <p>But even when I’m working on a complete project as a team of one, I still like to map out how I’m going to get from A to B. </p>
+                    <p>It might look something like this:</p>
+                    <table>
+                        <colgroup>
+                            <col style="text-align:left;" />
+                            <col style="text-align:left;" />
+                            <col style="text-align:left;" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">A. Logo</th>
+                                <th style="text-align:left;">B. Icons</th>
+                                <th style="text-align:left;">C. Website</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="text-align:left;">0 - Sketches (not presented)</td>
+                                <td style="text-align:left;">0 - Sketches (not presented)</td>
+                                <td style="text-align:left;">0 - Thumbnails (not presented)</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:left;">1 - Rough B&amp;W Designs</td>
+                                <td style="text-align:left;">1 - Rough B&amp;W Designs</td>
+                                <td style="text-align:left;">1 - Mobile Sketches</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:left;">2 - ‘Final’ B&amp;W with Type</td>
+                                <td style="text-align:left;"></td>
+                                <td style="text-align:left;">2 - Desktop Sketches</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:left;">3 - Final Color version (present for approval)</td>
+                                <td style="text-align:left;">3 - Final Vectors (present for approval)</td>
+                                <td style="text-align:left;">3 - Color and Type explorations (not presented)</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:left;">4 - Generate SVG (to web assets)</td>
+                                <td style="text-align:left;">4 - Generate SVGs (to web assets)</td>
+                                <td style="text-align:left;">4 - Mockups (present for approval)</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:left;">5 - All formats for delivery at end of project</td>
+                                <td style="text-align:left;"></td>
+                                <td style="text-align:left;">5 - Build page templates</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:left;"></td>
+                                <td style="text-align:left;"></td>
+                                <td style="text-align:left;">6 - Write stylesheets</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>As I worked through each piece in sequence, I present the work on a private client website. I like to keep the presentations available in one place throughout the entire project so we can easily refer back to decisions and their rationales.</p>
+                    <p><a class="to-top" href="#">TOP</a></p>
+                    <h4 id="concepts">Concepts</h4>
+                    <p>At this stage I’ve internalized the goals and objectives, both conceptual and technical, and mapped out a structured plan. Now I’m free to diverge out into different methods of creative exploration. This process involves lots of ‘visual gathering’ and recombining elements from designs other mediums, snapshots capturing the look and feel of products or publications I think match the patterns outlined in my conceptual notes. I also look at other content-heavy mobile sites to see which interactions and flows work (and which don’t).</p>
+                    <p>It’s during this process that I start to converge on type and color choices. I’ll narrow the field down in the design phase.</p>
+                    <h5>Sketches</h5>
+                    <p>I sketch lots of rough ideas. For this project I went quickly to mobile layouts in pencil, working out various ways to present content and devise navigation. Pencil on paper is, for me, the most effective way of thinking through design ideas; I can sketch quickly and allow myself to make ‘mistakes’, and I don’t get too attached to refining a design pattern like I might in Sketch or Illustrator.</p>
+                    <!-- saffo-website-sketches-1 -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="saffo-website-sketches-1">
                             <img srcset="/images/saffo-website-sketches-1_small.jpg 400w,
@@ -114,6 +172,7 @@
                         </a>
                     </div>
                     <p class="case-caption"><strong>Sketches</strong> - TBD <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-1">View Larger Image</a></span></p>
+                    <!-- saffo-website-sketches-2 -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="saffo-website-sketches-2">
                             <img srcset="/images/saffo-website-sketches-2_small.jpg 400w,
@@ -122,6 +181,7 @@
                         </a>
                     </div>
                     <p class="case-caption"><strong>Sketches</strong> - TBD <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-2">View Larger Image</a></span></p>
+                    <!-- saffo-website-sketches-3 -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="saffo-website-sketches-3">
                             <img srcset="/images/saffo-website-sketches-3_small.jpg 400w,
@@ -130,9 +190,12 @@
                         </a>
                     </div>
                     <p class="case-caption"><strong>Sketches</strong> - TBD <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-3">View Larger Image</a></span></p>
-                    <!-- design - styleboards -->
-                    <h4>Design - Style Boards</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, iusto magnam doloremque! Distinctio fuga est iste quam fugit.</p>
+                    <p>One thing I’ve learned as a designer is the importance of setting aside these sketches for a few days and reviewing them with fresh eyes later. Sometimes what seemed like the best idea seems incomplete or too busy and can be improved (or completely rejected in favor of a new idea). This is the time to figure this out, not once I’ve done hi-fidelity mockups or a prototype (although prototypes often lead to substantial revision, too).</p>
+                    <p>While the sketches are out of sight and mind, I looked my type and color ideas and gathered all my image resources to prepare for assembling complete designs.</p>
+                    <p>At this stage of the project I typically present the work done so far to get feedback from my client. For this project, Paul requested that I develop and present a single recommended design. (Yikes! What if he hated it?). This method means fewer presentations, but we also run the risk of skipping important artifacts. Although I knew I wouldn’t be presenting them for feedback, I created style boards to explore and document the choices leading up to the recommended design. For me it’s an essential part of developing early concepts because they show the proposed visual style, separate from content and structure. It also really helps to print them out and tape them up on the wall so I can stay focused while working on designs.</p>
+                    
+                    <h5>Style Boards</h5>
+                    <!-- saffo-styleboards -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="saffo-styleboards">
                             <img srcset="/images/saffo-styleboards_small.jpg 400w,
@@ -141,11 +204,14 @@
                         </a>
                     </div>
                     <p class="case-caption"><strong>Style Board</strong> - TBD <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-styleboards">View Larger Image</a></span></p>
-                    <!-- design - mockups -->
-                    <p>TXT TBD - why I skip wireframes here and go from sketches to mockups.</p>
                     <p><a class="to-top" href="#">TOP</a></p>
-                    <h4>Mockups - Website Layouts</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h4 id="design">Design</h4>
+                    <h5>Why no Wireframes?</h5>
+                    <p>Typically at this stage I would construct detailed wireframes that specify the structure of the interface, and, for more complex interfaces, show indications of how interactions might work. (For very complex interfaces this is an ideal stage to begin anticipating how the actual front-end will be structured, and mapping out data points, etc.). As a team of one I didn’t need to present this level of detail for review, so I took the pencil sketches and began to frame out the base structures directly in Sketch.</p>
+                    <h5>Mockups</h5>
+                    <p>Mockups are where I start to assemble conceptual choices and begin to merge content, structure and style to create a cohesive design for presentation.</p>
+                    <p>I get to dial in type styles for headings and body text, and begin looking at type scale (ratio of sizes from body text up to main headers). I apply colors first to structural elements, and then set up a consistent color pattern for links and other interactions.</p>
+                    <!-- saffo-design-sketch-1 -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="saffo-design-sketch-1">
                             <img srcset="/images/saffo-design-sketch-1_small.jpg 400w,
@@ -153,6 +219,7 @@
                         /images/saffo-design-sketch-1_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-design-sketch-1_medium.jpg" alt="Paul Saffo Website - Design in Sketch 1">
                         </a>
                     </div>
+                    <!-- saffo-design-sketch-2 -->
                     <p class="case-caption"><strong>Mockups</strong> - Designing the desktop and mobile views side-by-side in Sketch. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-design-sketch-1">View Larger Image</a></span></p>
                     <div class="imagebox">
                         <a href="#" data-reveal-id="saffo-design-sketch-2">
@@ -162,8 +229,23 @@
                         </a>
                     </div>
                     <p class="case-caption"><strong>Mockups</strong> - Detail of mobile navigation in Sketch. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-design-sketch-2">View Larger Image</a></span></p>
-                    <!-- build-frontend -->
-                    <h4>Front End</h4>
+                    <h5>Presentation</h5>
+                    <p>At this stage I have a set of initial mockups that tie everything together: the essential pieces—logo, icons, colors, type, structure—have been assembled into a cohesive design and are ready to present.</p>
+                    <h5>Final Design</h5>
+                    <p>Paul loved my proposed design, so we needed to add in the final piece of experience: the header images. Since I’d been using a stock image to represent the header image pattern, I started on the selection and art direction of images Paul and I gathered from his collection of maps and other elements of interest.</p>
+                    <p>I recommended that I move ahead building out the site, while we also collaborated on the header images. This worked out well because I could quickly swap in different images to live layouts and post screenshots of different ideas for review.</p>
+                    <p>I wanted images that reinforce the content of the corresponding section, so I picked those out first. Based on my type and color choices I was looking to create a specific feel through composition and tone. In Photoshop I cropped each selection to bring out a single point of focus, and then created adjustment filters to get the feel right for the overall design.</p>
+                    <p style="background-color: #FFFFCC;">[IMG TBD - photo editing/art direction]</p>
+                    
+                    <p><a class="to-top" href="#">TOP</a></p>
+                    <h4 id="build">Build</h4>
+                    <p>One of the things I love about ‘agency of one’ projects like this is that I get to do both design and implementation. I’m just as a comfortable in a code editor as I am in Photoshop.</p>
+                    <h5>Platform</h5>
+                    <p>I built the new website in WordPress, and created a custom theme from scratch using the awesome Sage ’starter theme’ built by the team at Roots. I have lots of experience building with WordPress, but in recent years I’ve also worked a lot with Ruby on Rails developers and so I’ve come to rely on things like partials and asset pipelines. Sage brings a more modern front-end development workflow to WordPress. It doesn’t contain any design or templates, but it does ship with Bootstrap assets built in. I forked my own version of Sage that strips all this out; I developed my own custom styles and page templates to have complete control over the front-end.</p>
+                    <h5>Front-end</h5>
+                    <p>I love CSS, and I really love the Sass preprocessor; variables and mixins make my workflow so much more efficient. But one of the challenges of Sass is the discipline require to make sure my styles are easily maintainable, and that my CSS output is not a snarled mess.</p>
+                    <p>I used a methodology for my stylesheet architecture called ITCSS (for ‘Inverted Triangle CSS’) developed by Harry Roberts. It is based on the idea that the specificity of styles descend from least to most specific, and that styles are structured within this hierarchy in a modular way to allow for greater flexibility. The short pitch for this approach is that it keeps the stylesheets more readable, and allows for changes to be made to areas of the UI without fear of breaking another area.</p>
+                    <!-- saffo-styles-typography -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="saffo-styles-typography">
                             <img srcset="/images/saffo-styles-typography_small.jpg 400w,
@@ -172,8 +254,10 @@
                         </a>
                     </div>
                     <p class="case-caption"><strong>Front End</strong> - I created a Sass mixin that work with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue.</p>
-                    <!-- build-ixd -->
-                    <h4>Interactions</h4>
+                    <h5>Interactions</h5>
+                    <p>My goal for interactions is to try and build them in pure CSS if possible; not using JavaScript for a menu dropdown means there’s just a little less code to send to the browser. But in some cases using JavaScript helps me avoid a more time-consuming process of create CSS-only interactions the work in older browsers (which is often just not going to happen).</p>
+                    <p>The mobile menu toggle is an example of a UI animation that is CSS-only; the mobile menu itself is enabled using base jQuery to toggle visibility.</p>
+                    <!-- saffo-menu-ixd-demo -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="saffo-menu-ixd-demo">
                             <img srcset="/images/saffo-menu-ixd-demo_small.jpg 400w,
@@ -182,7 +266,22 @@
                         </a>
                     </div>
                     <p class="case-caption"><strong>Interaction Design</strong> - Detail of mobile menu animation created with pure CSS. I added 'show' and 'hide ' text to the increase usability.</p>
-
+                    <h5>General Workflow</h5>
+                    <p>Because I really like this aspect of any project, here are some notes on my workflow setup:</p>
+                    <ul>
+                        <li>I run WordPress locally in a Docker container within a Vagrant box using the aptly named Wocker.</li>
+                        <li>I write Sass and build the PHP templates in Sublime Text 2.</li>
+                        <li>I handle asset, script, and stylesheet processing with the build tool Gulp, with LiveReload display updates.</li>
+                        <li>I push often to a staging server using rsync, and I commit constantly to a git repo to keep work safe and versioned.</li>
+                    </ul>
+                    <h5>Testing</h5>
+                    <p>I develop in the latest build of Chrome Canary, so what I see as I’m constructing the site will rarely have layout issues if I build it correctly. Well, it will have issues, but the Developer Tools are my friend, and I fix them! </p>
+                    <p>During the entire build, and again before releasing the final site to production on MediaTemple, I tested the site on real devices to make sure I was providing a consistent experience to as many people as possible.</p>
+                    <p>I had decided support for Android 2.3 stock browsers was essential, but I rejected the notion of supporting Internet Explorer 8 and below. Hard to believe the day is finally here, but there are fewer active IE8 users than Android 2.3 users!</p>
+                    <p>The main issues I tested for were layout issues, and making sure the PNG fallbacks for the SVG graphics were loading on the devices the can’t handle SVGs.</p>
+                    <p><a class="to-top" href="#">TOP</a></p>
+                    <!-- icon-design -->
+                    <?php include('icons-design.php') ?>
                 </div>
             </li>
         </ul>

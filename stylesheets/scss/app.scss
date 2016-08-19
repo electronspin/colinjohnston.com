@@ -25,6 +25,10 @@ body {
     color: $main-text-color;
 }
 
+a {
+    color: $content-link;
+}
+
 body,
 h3 {
     font-weight: 300
@@ -105,8 +109,18 @@ div.panel h5,
     font-weight: 400;
     font-size: 1.25em;
     font-family: Lato, sans-serif;
-    text-transform: uppercase;
+    text-transform: none;
 }
+
+.overview-main h5 {
+    font-weight: 400;
+    font-size: 1.25em;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    margin-top: 1.5em;
+    color: $main-text-color;
+}
+
 
 .side-nav li,
 figcaption,

@@ -95,7 +95,7 @@
                     <p class="case-caption">
                         <?php echo $slcs; ?> - Personas <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-personas">View Larger Image</a></span></p>
                     <h5>Use Cases</h5>
-                    <p>[C - under usability testing in Discover?]</p>
+                    <p style="background-color: #FFFFCC;">[C - under usability testing in Discover?]</p>
                     <p>During my research I captured input from users about the specific UI issues they had. I made notations on printouts of the existing session view.</p>
                     <!-- solanolabs-sessionview-research-notations -->
                     <div class="imagebox">
@@ -109,7 +109,7 @@
                         <?php echo $slcs; ?> - Research Notes on v1.5 Layouts <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">View Larger Image</a></span></p>
                     <h5>Sketches</h5>
                     <p>One of the biggest challenges of this project was to figure out how to re-structure the presentation of session status. Most of these rough layouts were done with pencil and paper; many were done on whiteboards with the Product Manager, especially when design decisions might impact other views in the product. </p>
-                    <p>[IMPORTANT! IMG TBD - photo of various sketches]</p>
+                    <p style="background-color: #FFFFCC;">[IMPORTANT! IMG TBD - photo of various sketches]</p>
                     <!-- solanolabs-sessionview-sketches -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="solanolabs-sessionview-sketches">
@@ -142,7 +142,7 @@
                     <p>Working with my Sketch mockups from the previous design update, I adapted these styles to new elements and components for a more consistent and cleaner interface.</p>
                     <p>I also selected icons that would help communicate the detailed status of the build, and refined the color scheme for the build lifecycle stages.</p>
                     <p>I applied these styles to the clickable prototype that would serve as a final mockup of the UI design.</p>
-                    <p>[IMG TBD - Sketch screen with color swatches/style guide layout?]</p>
+                    <p style="background-color: #FFFFCC;">[IMG TBD - Sketch screen with color swatches/style guide layout?]</p>
 
 
 
