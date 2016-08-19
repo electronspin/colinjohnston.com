@@ -73,13 +73,13 @@
                     <h4>Some Background</h4>
                     <p>At Solano Labs I helped move the product development process to SCRUM and two week sprints. My goal was to restructure the product development process to allow for more design thinking to happen earlier in the cycle.</p>
                     <p>To accomplish this, I adapted the Design Sprint process to run my own sprints alongside engineering. This allowed for proper research and validation of hypotheses before diving into implementation; the output of a completed design sprint went directly into the engineering backlog, with the benefit of providing developers with a well-defined goal.</p>
-                    <p><strong>Discover &gt; Define &gt; Ideate &gt; Prototype &gt; Validate</strong></p>
-                    <h4>Discover</h4>
+                    <p><strong><a href="#discover">Discover</a> &gt; <a href="#define">Define</a> &gt; <a href="#ideate">Ideate</a> &gt; <a href="#prototype">Prototype</a> &gt; <a href="#validate">Validate</a></strong></p>
+                    <h4 id="discover">Discover</h4>
                     <p><em>Research, analysis, exploration; the bedrock of subsequent design activities.</em></p>
                     <p>Through research and user testing sessions, I helped the team better understand how the interface was solving problems for customers, and how it was falling short. Digging deeper below issues of cluttered visual presentation and confusing interactions, I got to the root of a critical issue users were having: <em>they were not seeing a complete and accurate view into the state of their build</em>. </p>
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> User Research, Usability Testing, Interviews, Concept Maps. </p>
                     <p><a class="to-top" href="#">TOP</a></p>
-                    <h4>Define</h4>
+                    <h4 id="define">Define</h4>
                     <p><em>Clarity and focus; framing the problem to create a solution</em></p>
                     <p>I facilitated development of an internal prototype (running with live data) to validate new reporting outputs. I used this information later in the project to construct an improved real-time status report model.</p>
                     <h5>Personas</h5>
@@ -123,7 +123,7 @@
                         
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Personas, Use Cases, User Flows, Sketches, Lo-fi Wireframes.</p>
                     <p><a class="to-top" href="#">TOP</a></p>
-                    <h4>Ideate</h4>
+                    <h4 id="ideate">Ideate</h4>
                     <p><em>Concepts for outcomes; combine understanding of the problem with imagination.</em></p>
                     <h5>Wireframes</h5>
                     <p>I iterated through a series of wireframes showing all possible configurations of a session view (there are twelve!). Previously, less common session types had inconsistent layouts; I refined the structure to present all sessions consistently.</p>
@@ -148,7 +148,7 @@
 
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Wireframes, Paper Prototypes, Style Tiles, UI Design, Lo-fi Mockups, Art Direction, Content Strategy.</p>
                     <p><a class="to-top" href="#">TOP</a></p>
-                    <h4>Prototype</h4>
+                    <h4 id="prototype">Prototype</h4>
                     <p><em>If a picture is worth a thousand words, a prototype is worth a thousand pictures.</em></p>
                     <p>Since we had very hi-fidelity wireframes and a defined set of styles for the UI components, it was more efficient to create a clickable prototype rather than static mockups.</p>
                     <p>The purpose of this prototype was two-fold:</p>
@@ -169,7 +169,7 @@
                         <?php echo $slcs; ?> - Prototype in Codepen <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-prototype-codepen">View Larger Image</a> - </span> <a href="http://codepen.io/electronspin/pen/95a6ac01710fd019c2723fe5a68d0a7b" target="_blank">Open Codepen</a></p>
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Mockups, Clickable Prototypes, Heuristics, Interactions</p>
                     <p><a class="to-top" href="#">TOP</a></p>
-                    <h4>Validate</h4>
+                    <h4 id="validate">Validate</h4>
                     <p><em>Prototype as if you know you’re right, but test as if you know you’re wrong</em></p>
                     <p>There was no practical way to deliver our initial prototype to customers using real-time data, so the engineering team built the new session view into the production app. We then allowed users to test it as an ‘alpha’ feature (behind a feature flag).</p>
                     <p>Making full use of the Agile philosophy, we had working software. But in the spirit of Design Thinking, we were still in the design phase. </p>

@@ -68,7 +68,7 @@
             <li class="content" id="processTab">
                 <div class="overview-content">
                     <p>My process for this project was somewhat different from my standard product design process because I functioned as an ‘agency of one’ and my client was an individual, not a group of stakeholders with different roles involved at different times.</p>
-                    <p><strong><a href="#discover>">Discover</a> &gt; <a href="#planning">Planning</a> &gt; <a href="#concepts">Concepts</a> &gt; <a href="#design">Design</a> &gt; <a href="#build">Build</a></strong></p>
+                    <p><strong><a href="#discover">Discover</a> &gt; <a href="#planning">Planning</a> &gt; <a href="#concepts">Concepts</a> &gt; <a href="#design">Design</a> &gt; <a href="#build">Build</a></strong></p>
                     <p>Each project phase continues to inform the overall process, i.e. Discovery is a large portion of a project done at the beginning, but discovery continues through planning, design, etc. This process is what I would call ‘iterative waterfall’ because it still allows for a productive feedback loop throughout the project.</p>
                     <h4 id="discover">Discover</h4>
                     <p>The discovery process was light on deliverables such as a creative brief; Paul had a general idea of what he wanted to change about his website and identity, and I guided us through requirements gathering and conceptual exploration in structured but informal way.</p>
