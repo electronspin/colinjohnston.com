@@ -26,19 +26,19 @@
 </div>
 <!-- sketches -->
 <div id="saffo-website-sketches-1" class="reveal-modal expand modal modal-img-border">
-    <h2>Paul Saffo Identity - Icon Designs</h2>
+    <h2>Paul Saffo Website - Early sketches of mobile layouts</h2>
     <img src="/images/saffo-website-sketches-1_full.jpg" alt="Paul Saffo Website - Layout Sketches">
     <p></p>
     <a class="close-reveal-modal">&#215;</a>
 </div>
 <div id="saffo-website-sketches-2" class="reveal-modal expand modal modal-img-border">
-    <h2>Paul Saffo Identity - Icon Designs</h2>
+    <h2>Paul Saffo Website - Desktop landing page sketches</h2>
     <img src="/images/saffo-website-sketches-2_full.jpg" alt="Paul Saffo Website - Layout Sketches">
     <p></p>
     <a class="close-reveal-modal">&#215;</a>
 </div>
 <div id="saffo-website-sketches-3" class="reveal-modal expand modal modal-img-border">
-    <h2>Paul Saffo Identity - Icon Designs</h2>
+    <h2>Paul Saffo Website - Later sketches of mobile layouts</h2>
     <img src="/images/saffo-website-sketches-3_full.jpg" alt="Paul Saffo Website - Layout Sketches">
     <p></p>
     <a class="close-reveal-modal">&#215;</a>
@@ -60,6 +60,14 @@
 <div id="saffo-design-sketch-2" class="reveal-modal expand modal modal-img-border">
     <h2>Paul Saffo Website  - Sketch Mockups</h2>
     <img src="/images/saffo-design-sketch-2_full.jpg" alt="Paul Saffo Website - Design in Sketch 2">
+    <p></p>
+    <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<!-- saffo-art-direction -->
+<div id="saffo-art-direction" class="reveal-modal expand modal modal-img-border">
+    <h2>Paul Saffo Website  - Photo art direction for page header images</h2>
+    <img src="/images/saffo-art-direction_full.jpg" alt="Paul Saffo Website - Design in Sketch 2">
     <p></p>
     <a class="close-reveal-modal">&#215;</a>
 </div>

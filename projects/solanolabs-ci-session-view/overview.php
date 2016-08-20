@@ -60,6 +60,9 @@
                     <h4>Results</h4>
                     <p>The new session view solves all the issues we set out to solve: we improved accuracy and depth of detail of status report, while making it more usable and easy to understand; we increased user confidence in the system, and are providing customers with a more efficient tool for a critical part of their software development workflow.</p>
                     <p>Solano Labs is currently beta testing it with a selected group of customers and the feedback is consistently positive. One of the founders and the lead Product Manager says that &ldquo;everyone is loving&rdquo; the update.</p>
+
+                    <p class="view-next-right"><a href="#process">See Process &amp; Artifacts</a></p>
+
                     <!--
               <h4><?php echo $overview_section_a; ?></h4>
               <p>I was hired by Moovweb to create a user-friendly, visually coherent interface for a complex system of tools. The initial v4 build was top-to-bottom redesign of all interfaces as well as a rethinking of all content strategy for developer onboarding (this lead to the creation of the Developer Center). The v5 build was a complete rebuild of the platform with an array of powerful new features which required a rethinking of many interfaces, and provided an opportunity to enhance visual design and user experience on many areas of the system. 
@@ -77,7 +80,21 @@
                     <h4 id="discover">Discover</h4>
                     <p><em>Research, analysis, exploration; the bedrock of subsequent design activities.</em></p>
                     <p>Through research and user testing sessions, I helped the team better understand how the interface was solving problems for customers, and how it was falling short. Digging deeper below issues of cluttered visual presentation and confusing interactions, I got to the root of a critical issue users were having: <em>they were not seeing a complete and accurate view into the state of their build</em>. </p>
-                    <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> User Research, Usability Testing, Interviews, Concept Maps. </p>
+
+                    <h5>Use Cases</h5>
+                    <p>During my research I captured input from users about the specific UI issues they had. I made notations on printouts of the existing session view.</p>
+                    <!-- solanolabs-sessionview-research-notations -->
+                    <div class="imagebox">
+                        <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">
+                            <img srcset="/images/solanolabs-sessionview-research-notations_small.jpg 400w,
+                        /images/solanolabs-sessionview-research-notations_medium.jpg 800w,
+                        /images/solanolabs-sessionview-research-notations_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-research-notations_medium.jpg" alt="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts" title="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts">
+                        </a>
+                    </div>
+                    <p class="case-caption">
+                        <?php echo $slcs; ?> - Research Notes on v1.5 Layouts <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">View Larger Image</a></span></p>
+
+                    <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> User Research, Use Cases, Usability Testing, Interviews, Concept Maps. </p>
                     <p><a class="to-top" href="#">TOP</a></p>
                     <h4 id="define">Define</h4>
                     <p><em>Clarity and focus; framing the problem to create a solution</em></p>
@@ -94,19 +111,7 @@
                     </div>
                     <p class="case-caption">
                         <?php echo $slcs; ?> - Personas <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-personas">View Larger Image</a></span></p>
-                    <h5>Use Cases</h5>
-                    <p style="background-color: #FFFFCC;">[C - under usability testing in Discover?]</p>
-                    <p>During my research I captured input from users about the specific UI issues they had. I made notations on printouts of the existing session view.</p>
-                    <!-- solanolabs-sessionview-research-notations -->
-                    <div class="imagebox">
-                        <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">
-                            <img srcset="/images/solanolabs-sessionview-research-notations_small.jpg 400w,
-                        /images/solanolabs-sessionview-research-notations_medium.jpg 800w,
-                        /images/solanolabs-sessionview-research-notations_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-research-notations_medium.jpg" alt="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts" title="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts">
-                        </a>
-                    </div>
-                    <p class="case-caption">
-                        <?php echo $slcs; ?> - Research Notes on v1.5 Layouts <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">View Larger Image</a></span></p>
+                    
                     <h5>Sketches</h5>
                     <p>One of the biggest challenges of this project was to figure out how to re-structure the presentation of session status. Most of these rough layouts were done with pencil and paper; many were done on whiteboards with the Product Manager, especially when design decisions might impact other views in the product. </p>
                     <p style="background-color: #FFFFCC;">[IMPORTANT! IMG TBD - photo of various sketches]</p>
