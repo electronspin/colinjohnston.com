@@ -66,7 +66,7 @@
                     <p><a class="to-top" href="#">TOP</a></p>
                     
                     <div class="bottom-tab-nav-next">
-                        <a href="#process">See Process &amp; Artifacts</a>
+                        <a class="bottom-tab-nav" href="#process">See Process &amp; Artifacts</a>
                     </div>
 
                 </div>
@@ -295,7 +295,7 @@
                     <!-- icon-design -->
                     <?php include('icons-design.php') ?>
                     <div class="bottom-tab-nav-prev">
-                                <a href="#overview">Read Project Overview</a>
+                        <a class="bottom-tab-nav" href="#overview">Read Project Overview</a>
                     </div>
             </li>
         </ul>

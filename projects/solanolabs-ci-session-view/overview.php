@@ -61,7 +61,10 @@
                     <p>The new session view solves all the issues we set out to solve: we improved accuracy and depth of detail of status report, while making it more usable and easy to understand; we increased user confidence in the system, and are providing customers with a more efficient tool for a critical part of their software development workflow.</p>
                     <p>Solano Labs is currently beta testing it with a selected group of customers and the feedback is consistently positive. One of the founders and the lead Product Manager says that &ldquo;everyone is loving&rdquo; the update.</p>
 
-                    <p class="view-next-right"><a href="#process">See Process &amp; Artifacts</a></p>
+                    <div class="bottom-tab-nav-next">
+                        <!-- <a class="bottom-tab-nav" href="#process" onclick="$('.tabs a[href=\'#process\']').click()">See Process &amp; Artifacts</a> -->
+                        <a class="bottom-tab-nav" href="#process">See Process &amp; Artifacts</a>
+                    </div>
 
                     <!--
               <h4><?php echo $overview_section_a; ?></h4>
@@ -182,9 +185,12 @@
                     <p>And by monitoring analytics we can uncover usage patterns than will help us improve the user experience even more in future versions of the app.</p>
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Usability Tests, Analytics, QA</p>
                     <p><a class="to-top" href="#">TOP</a></p>
-                    </body>
+                    
+                    <div class="bottom-tab-nav-prev">
+                                <!-- <a class="bottom-tab-nav" href="#overview" onclick="$('.tabs a[href=\'#overview\']').click()">Read Project Overview</a> -->
+                                <a class="bottom-tab-nav" href="#overview">Read Project Overview</a>
+                    </div>
 
-                    </html>
                 </div>
             </li>
         </ul>
