@@ -31,9 +31,9 @@
                         <a href="/projects/solanolabs-ci-session-view">
                             <div class="imagebox">
                                 <figure>
-                                    <img srcset="images/solanolabs-ci-session-view_small.jpg 400w,
-                        images/solanolabs-ci-session-view_medium.jpg 800w,
-                        images/solanolabs-ci-session-view_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/solanolabs-ci-session-view_small.jpg" alt="Paul Saffo Website">
+                                    <img srcset="images/solanolabs-sessionview-v2_small.jpg 400w,
+                        images/solanolabs-sessionview-v2_medium.jpg 800w,
+                        images/solanolabs-sessionview-v2_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/solanolabs-sessionview-v2_small.jpg" alt="Paul Saffo Website">
                                     <figcaption><?php echo $slcs; ?></figcaption>
                                 </figure>
                             </div>

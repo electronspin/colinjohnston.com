@@ -16,13 +16,13 @@
                     <div class="row">
                         <div class="twelve columns">
                             <div class="imagebox">
-                                <a href="#" data-reveal-id="solanolabs-ci-session-view">
+                                <a href="#" data-reveal-id="solanolabs-sessionview-v2">
               <img
-                srcset="/images/solanolabs-ci-session-view_small.jpg 400w,
-                        /images/solanolabs-ci-session-view_medium.jpg 800w,
-                        /images/solanolabs-ci-session-view_large.jpg 1200w"
+                srcset="/images/solanolabs-sessionview-v2_small.jpg 400w,
+                        /images/solanolabs-sessionview-v2_medium.jpg 800w,
+                        /images/solanolabs-sessionview-v2_large.jpg 1200w"
                 sizes="(min-width: 48em) 66.6vw, 100vw"
-                src="/images/solanolabs-ci-session-view_small.jpg"
+                src="/images/solanolabs-sessionview-v2_small.jpg"
                 alt="<?php echo $slcs ?>">
             </a>
                             </div>

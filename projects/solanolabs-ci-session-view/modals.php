@@ -1,5 +1,12 @@
 <!-- [expand, xlarge, large, medium, small] -->
 
+<!-- solanolabs-sessionview-v2 -->
+<div id="solanolabs-sessionview-v2" class="reveal-modal expand modal-img-border"> 
+  <h2><?php echo $slcs; ?> - Final Designs</h2>
+  <img src="/images/solanolabs-sessionview-v2_full.jpg" alt="<?php echo $slcs; ?> - Final Designs">
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
 <!-- solanolabs-sessionview-personas -->
 <div id="solanolabs-sessionview-personas" class="reveal-modal expand modal-img-border"> 
   <h2><?php echo $slcs; ?> - Personas</h2>
