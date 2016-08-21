@@ -46,7 +46,7 @@
                     </div>
                 </div> -->
                     <p>The Session View shows every state of a session, from its initial creation, through to a complete collection of test results, build lifecycle timings, and build artifacts.</p>
-                    <p>Over time, as additional functionality and information was added to the view, the interface had become difficult to use.</p>
+                    <p>Over time, as additional functionality and information was added to the view, the interface <a href="http://blog.solanolabs.com/report-page-interface-enhancements/" target="_blank">had become difficult to use</a>.</p>
                     <h4>Challenge</h4>
                     <p>How can we simplify a very complex interface and increase user efficiency?</p>
                     <p>Our goals were:</p>
