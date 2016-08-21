@@ -1,7 +1,7 @@
 <div class="overview">
     <!-- overview-main -->
     <div class="overview-main">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi modi hic expedita illo, ducimus distinctio repudiandae dicta omnis excepturi deleniti necessitatibus sunt voluptatum eaque, odio earum? Tempore ipsam, sit dicta.</p>
+        <p>Moovweb is an Enterprise software solution for delivering customized mobile experiences from a single codebase.</p><p>As lead product designer, I collaborated with product owners and engineering leads to redesign the primary Moovweb application management interface. </p>
         <ul class="tabs" data-tab>
             <li class="tab-title active">
                 <a href="#overview">

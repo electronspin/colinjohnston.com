@@ -1,7 +1,8 @@
 <div class="overview">
     <!-- overview-main -->
     <div class="overview-main">
-        <p>Solano CI is a continuous integration product for software development teams. The ‘Session View’ provides a comprehensive report on the progress of a build and details of its suite of tests.</p>
+        <p>Solano CI is a continuous integration product for software development teams.</p>
+        <p>As lead product designer at Solano Labs, I redesigned the ‘Session View’&mdash;the comprehensive report of build progress and test results&mdash;and solved major usability issues and increased user trust in the product.</p>
         <ul class="tabs" data-tab>
             <li class="tab-title active">
                 <a href="#overview">
@@ -117,7 +118,7 @@
                     
                     <h5>Sketches</h5>
                     <p>One of the biggest challenges of this project was to figure out how to re-structure the presentation of session status. Most of these rough layouts were done with pencil and paper; many were done on whiteboards with the Product Manager, especially when design decisions might impact other views in the product. </p>
-                    <p style="background-color: #FFFFCC;">[IMPORTANT! IMG TBD - photo of various sketches]</p>
+                
                     <!-- solanolabs-sessionview-sketches -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="solanolabs-sessionview-sketches">
@@ -150,7 +151,7 @@
                     <p>Working with my Sketch mockups from the previous design update, I adapted these styles to new elements and components for a more consistent and cleaner interface.</p>
                     <p>I also selected icons that would help communicate the detailed status of the build, and refined the color scheme for the build lifecycle stages.</p>
                     <p>I applied these styles to the clickable prototype that would serve as a final mockup of the UI design.</p>
-                    <p style="background-color: #FFFFCC;">[IMG TBD - Sketch screen with color swatches/style guide layout?]</p>
+                    <!-- solanolabs-sessionview-styleguide -->
 
 
 

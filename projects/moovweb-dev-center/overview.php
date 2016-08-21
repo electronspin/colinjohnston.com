@@ -1,7 +1,7 @@
 <div class="overview">
     <!-- overview-main -->
     <div class="overview-main">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi modi hic expedita illo, ducimus distinctio repudiandae dicta omnis excepturi deleniti necessitatibus sunt voluptatum eaque, odio earum? Tempore ipsam, sit dicta.</p>
+        <p>Moovweb is an Enterprise software solution for delivering customized mobile experiences from a single codebase.</p><p>As lead product designer, I collaborated with the VP of Product and various engineers to create and design a new web property for Moovweb developers. 
         <ul class="tabs" data-tab>
             <li class="tab-title active">
                 <a href="#overview">
@@ -17,7 +17,7 @@
         <ul class="tabs-content">
             <li class="content active" id="overviewTab">
                 <div class="overview-content">
-                    <p>Moovweb is an Enterprise software solution for delivering customized mobile experiences from a single codebase. The <a href="http://developer.moovweb.com" target="_blank">Moovweb Developer Center</a> is the primary hub for software downloads, documentation, and tutorials for developers using the Moovweb platform.</p>
+                    <p>The <a href="http://developer.moovweb.com" target="_blank">Moovweb Developer Center</a> is the primary hub for software downloads, documentation, and tutorials for developers using the Moovweb platform.</p>
                     <h4><?php echo $overview_section_a; ?></h4>
                     <p>When Moovweb hired me to redesign the Control Center, one of the goals was to simplify the user experience by focusing on providing a streamlined interface for managing Moovweb projects in the cloud. This required moving the onboarding guides and all the developer-related content to a separate site that didn't exist yet.
                     </p>

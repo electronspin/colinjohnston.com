@@ -5,11 +5,13 @@ set_include_path(get_include_path() . PATH_SEPARATOR . $_SERVER['DOCUMENT_ROOT']
 
 //Project Names
 
-$slcc     = 'Solano Labs CI Product Concepts';
-$slcs     = 'Solano Labs CI Session View';
+$psws     = 'Paul Saffo Website';
+$slcs     = 'Solano CI Interface'; // Solano Labs CI Session View
 $mwcc     = 'Moovweb Control Center';
 $mwdc     = 'Moovweb Developer Center';
 $mwsdk    = 'Moovweb Developer Dashboard';
+
+$slcc     = 'Solano Labs CI Product Concepts';
 $libsass  = 'Libsass Logo & Website';
 
 $moovui   = '<a href="http://moovweb.github.io/moovui/">MoovUI</a>';
