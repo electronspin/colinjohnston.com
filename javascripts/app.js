@@ -152,7 +152,7 @@ $(window).load(function() {
   }
 });
 
-// Trigger tabs from bottom nav and scroll up
+// Trigger tabs from sidebar button
 $(".sidebar-button").click(function(){
   var target = $(this).attr("href");
   $('.tabs a[href=' +target+ ']').trigger("click"); // triggers 'click fndtn' event on tab 
