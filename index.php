@@ -16,18 +16,6 @@
                 <ul class="block-grid two-up mobile">
                     
                     <li>
-                        <a href="/projects/paul-saffo-website">
-                            <div class="imagebox">
-                                <figure>
-                                    <img srcset="images/saffo-home-responsive_small.jpg 400w,
-                        images/saffo-home-responsive_medium.jpg 800w,
-                        images/saffo-home-responsive_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/saffo-home-responsive_small.jpg" alt="Paul Saffo Website">
-                                    <figcaption>Paul Saffo Website</figcaption>
-                                </figure>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
                         <a href="/projects/solanolabs-ci-session-view">
                             <div class="imagebox">
                                 <figure>
@@ -40,6 +28,19 @@
                         </a>
                     </li>
                     <li>
+                        <a href="/projects/paul-saffo-website">
+                            <div class="imagebox">
+                                <figure>
+                                    <img srcset="images/saffo-home-responsive_small.jpg 400w,
+                        images/saffo-home-responsive_medium.jpg 800w,
+                        images/saffo-home-responsive_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/saffo-home-responsive_small.jpg" alt="Paul Saffo Website">
+                                    <figcaption>Paul Saffo Website</figcaption>
+                                </figure>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <!-- <li>
                         <a href="/projects/solanolabs-ci-concepts">
                             <div class="imagebox">
                                 <figure>
@@ -52,7 +53,7 @@
                                 </figure>
                             </div>
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="/projects/moovweb-dev-center">
                             <div class="imagebox">
@@ -95,7 +96,7 @@
                             </div>
                         </a>
                     </li> -->
-                    <li>
+                    <!-- <li>
                         <a href="/projects/libsass-com">
                             <div class="imagebox">
                                 <figure>
@@ -108,7 +109,7 @@
                                 </figure>
                             </div>
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="/projects/the-real-sf-tour-website">
                             <div class="imagebox">
@@ -123,7 +124,9 @@
                         <a href="/projects/orphic-gallery-website">
                             <div class="imagebox">
                                 <figure>
-                                    <img src="images/orphic-exhibitions-598.png" alt="" />
+                                    <img srcset="images/orphic-gallery_small.jpg 400w,
+                        images/orphic-gallery_medium.jpg 800w,
+                        images/orphic-gallery_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/orphic-gallery_small.jpg" alt="" />
                                     <figcaption>Orphic Gallery Website</figcaption>
                                 </figure>
                             </div>

@@ -15,7 +15,15 @@
                 <div class="row">
                     <div class="twelve columns">
                         <div class="imagebox">
-                            <a href="http://orphic.electronspin.com" name="" target="_blank"><img src="/images/orphic-exhibitions-598.png" alt="" /></a>
+                            <img
+                srcset="/images/orphic-gallery_small.jpg 400w,
+                        /images/orphic-gallery_medium.jpg 800w,
+                        /images/orphic-gallery_large.jpg 1200w"
+                sizes="(min-width: 48em) 66.6vw, 100vw"
+                src="/images/orphic-gallery_medium.jpg"
+                alt="Paul Saffo Website">
+
+                <!-- <a href="http://orphic.electronspin.com" name="" target="_blank"> --></a>
                         </div>
                         <h2>Orphic Gallery Website</h2>
                         <?php include('overview.php') ?>
