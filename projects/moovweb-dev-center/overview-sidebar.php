@@ -23,6 +23,7 @@
         </ul>
         <!-- <span class="services label radius">This site is Responsive</span> -->
         <span class="services label radius">Built with <?php echo $moovui ?></span>
-        <p><a class="sidebar-button" href="#process" onclick="$('.tabs a[href=\'#process\']').click()">View Process &amp; Artifacts</a></p>
+        <!-- <p><a class="sidebar-button" href="#process" onclick="$('.tabs a[href=\'#process\']').click()">View Process &amp; Artifacts</a></p> -->
+        <p><a class="sidebar-button" href="#process">View Process &amp; Artifacts</a></p>
     </div>
 </div>

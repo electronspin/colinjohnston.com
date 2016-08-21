@@ -23,6 +23,7 @@
                                 <li>Modular styles using ITCSS</li>
                             </ul>
                         </ul>
-                        <p><a class="sidebar-button" href="#process" onclick="$('.tabs a[href=\'#process\']').click()">View Process &amp; Artifacts</a></p>
+                        <!-- <p><a class="sidebar-button" href="#process" onclick="$('.tabs a[href=\'#process\']').click()">View Process &amp; Artifacts</a></p> -->
+                        <p><a class="sidebar-button" href="#process">View Process &amp; Artifacts</a></p>
                     </div>
                 </div>
