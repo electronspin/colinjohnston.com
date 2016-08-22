@@ -5,6 +5,24 @@ All notable changes to colinjohnston.com project will be documented in this file
 This project adheres to [Semantic Versioning](http://semver.org/) (It's probably not necessary, but as a designer I like to practice good developer habits.) 
 
 
+## [1.8.0] - 2016-08-21
+
+### Added
+- Solano CI Interface portfolio entry
+
+### Removed
+- Moovweb Dashboard portfolio entry
+- LibSass portfolio entry
+- Solano Concepts portfolio entry
+
+### Changed
+- Blue accent at top
+- Footer design update
+- Adjusted type colors and sizes 
+
+### Fixed 
+- Lots of little UI details and UX issues
+
 ## [1.7.0] - 2016-07-28
 
 ### Added 
@@ -22,10 +40,10 @@ This project adheres to [Semantic Versioning](http://semver.org/) (It's probably
 ### Removed
 - loader overlay
 
-###Changed
+### Changed
 - Lighten background color
 
-###Fixed
+### Fixed
 - left nav transition
 
 
