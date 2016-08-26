@@ -569,8 +569,9 @@ a.codedirection {
         text-align: center;
         margin: 0 0 1.5em
     }
-    ul.side-nav li.nav-list-title { // fold into fixed setup
-     font-size: 14px!important;
+    ul.side-nav li.nav-list-title {
+        // fold into fixed setup
+        font-size: 14px!important;
     }
 }
 
@@ -673,7 +674,6 @@ a.open-panel {
     .four.columns {
         position: inherit
     }
-
     nav {
         //width: 70%;
         //left: -70%;
@@ -729,7 +729,7 @@ a.open-panel {
         color: lighten($content-link, 30);
     }
     ul.side-nav li a:hover,
-    ul.side-nav li.active a  {
+    ul.side-nav li.active a {
         color: #fff;
     }
     a.close-panel {
@@ -1006,18 +1006,18 @@ a.open-panel {
     //letter-spacing: 1px;
 }
 
+.bottom-tab-nav-next,
+.bottom-tab-nav-prev {
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.25em;
+}
 
-.bottom-tab-nav-next, .bottom-tab-nav-prev {
-font-weight: 700;
-margin-top: 2em;
-margin-bottom: 2em;
-font-size: 1.25em;
-} 
-
-.bottom-tab-nav-next a:focus, .bottom-tab-nav-prev a:focus {
-color: $content-link;
-} 
-
+.bottom-tab-nav-next a:focus,
+.bottom-tab-nav-prev a:focus {
+    color: $content-link;
+}
 
 .bottom-tab-nav-next {
     @media only screen and (min-width: 768px) {
@@ -1046,5 +1046,73 @@ color: $content-link;
     &:before {
         //content: "←" !important;
         //margin-left: 0.25em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    // fixed sidebar idea
+
+    // .sidebar-container {
+    //     position: fixed;
+    //     width: 280px;
+    //     max-width: 33%;
+    // }
+
+    #branding {
+        width: 241px;
+    }
+}
+
+// widescreen layout
+@media only screen and (min-width: 1024px) {
+    .row {
+        width: 1280px;
+        max-width: 92%;
+    }
+    .four.columns.sidebar {
+        width: 30%;
+        position: relative;
+        display: block;
+    }
+    
+    // fixed sidebar idea
+
+    // .sidebar-container {
+    //     position: fixed;
+    //     width: 375px;
+    //     max-width: 27.5%;
+    // }
+    
+    p.intro {}
+    #branding {
+        width: 241px;
+    }
+    #content p {
+        //font-size: 1.5em;;
+    }
+    .overview {
+        max-width: 600px;
+    }
+    figcaption {
+        font-weight: 400;
+        font-size: .875em; //.75em
+        background: rgba(0, 0, 0, 0.875);
+        //background: $dark-brand-bg;
+        //background: $dark-bg-color;
+        color: #fff;
+        padding: 20px;
+        width: 100%;
+        opacity: 0;
+        left: 0;
+        bottom: -30%;
+        -webkit-transition: all .6s ease;
+        -moz-transition: all .6s ease;
+        -o-transition: all .6s ease;
+    }
+    #content .twelve.columns > h2,
+    #content .twelve.columns > p,
+    #content .twelve.columns > p + p {
+        max-width: 600px;
     }
 }

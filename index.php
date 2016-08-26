@@ -117,6 +117,7 @@
                                     <img srcset="images/therealsftour-home_small.jpg 400w,
                         images/therealsftour-home_medium.jpg 800w,
                         images/therealsftour-home_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/therealsftour-home_small.jpg" alt="" />
+                        <figcaption>The Real SF Tour Website</figcaption>
                                 </figure>
                             </div>
                         </a>
