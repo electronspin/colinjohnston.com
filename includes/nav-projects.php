@@ -11,6 +11,7 @@
             <a href="/projects/solanolabs-ci-concepts"><?php echo $slcc ?></a>
         </li> -->
         <!-- More projects -->
+        <!-- <li class="show-for-small">&nbsp;</li> -->
         <li class="nav-list-title">More projects</li>
         <li <?php echo ($page == 'moovweb-dev-center') ? "class='nav-list-item active'" : "class='nav-list-item'"; ?>>
             <a href="/projects/moovweb-dev-center"><?php echo $mwdc ?></a>
@@ -30,6 +31,6 @@
         <li <?php echo ($page == 'orphic-gallery-website') ? "class='nav-list-item active'" : "class='nav-list-item'"; ?>>
             <a href="/projects/orphic-gallery-website">Orphic Gallery Website</a>
         </li>
-        <!-- <li class="nav-list-title">&nbsp;</li> -->
+        <li class="nav-list-title">&nbsp;</li>
         <li class="show-for-small"><a href="/connect-and-collaborate">Contact</a></li>
         <li class="show-for-small"><a href="/">Home</a></li>

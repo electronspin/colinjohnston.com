@@ -10,7 +10,7 @@
         if ($parentdir == '/connect-and-collaborate') {
           echo null;
         } else {
-          echo '<p class="contact-button show-for-small"><a class="contact-email" href="/connect-and-collaborate">Connect</a></p>';
+          echo '<p class="contact-button show-for-small"><a class="contact-email" href="/connect-and-collaborate">Contact</a></p>';
         } ?>
 
         <p class="copyright">I built this website using PHP, Foundation, Sass, jQuery, and Gulp in iTerm2 and Sublime Text. Hosting by MediaTemple. <br>An <a href="http://electronspin.com" title="Electron Spin">Electron Spin</a> production. &copy; 2012&ndash;<?php echo date("Y"); ?> Colin Johnston. Updated <?php echo date ('F d Y', filemtime($dir));  ?>

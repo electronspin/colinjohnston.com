@@ -501,9 +501,9 @@ ul.services a {
 
 #pagetop {
     //@media only screen and (min-width: 768px) {
-    height: 1em;
-    background-color: lighten($cjd-branding, 30%);
-    display: block;
+    //height: 1em;
+    //background-color: lighten($cjd-branding, 30%);
+    //display: block;
     //}
 }
 
@@ -555,9 +555,11 @@ a.codedirection {
     p.intro {
         font-size: 1.25em !important
     }
-    .side-nav li,
+    ul.side-nav li {
+        font-size: 1.125em !important;
+    }
     p.tagline {
-        font-size: 1em!important
+        font-size: 1em!important;
     }
     .contact-email {
         display: block;
@@ -567,11 +569,14 @@ a.codedirection {
         text-align: center;
         margin: 0 0 1.5em
     }
+    ul.side-nav li.nav-list-title { // fold into fixed setup
+     font-size: 14px!important;
+    }
 }
 
 @media (max-width:767px) {
-    .side-nav li,
-    p.intro,
+    //.side-nav li,
+    //p.intro,
     p.tagline {
         font-size: .75em
     }
@@ -668,22 +673,28 @@ a.open-panel {
     .four.columns {
         position: inherit
     }
+
     nav {
-        width: 70%;
+        //width: 70%;
+        //left: -70%;
+        width: $navwidth;
+        left: -$navwidth;
         position: absolute;
-        left: -70%;
         top: 0;
         height: 100%;
-        background: #777;
+        //background: #777;
+        background: $dark-brand-bg;
         z-index: 1000
     }
     ul.side-nav {
         width: 100%;
         padding: 0;
         margin-top: 6em;
-        border-top: 1px solid #888
+        //border-top: 1px solid #888
+        //border-top: 1px solid darken($dark-brand-bg, 10);
     }
     ul.side-nav li {
+        font-size: 1.25em;
         font-weight: 300;
         display: block;
         float: none;
@@ -696,8 +707,9 @@ a.open-panel {
         list-style-type: none;
         text-align: left;
         color: #fff;
-        border-bottom: 1px solid #888;
-        background: #777
+        //border-bottom: 1px solid #888;
+        //background: #777;
+        //background: darken($dark-brand-bg, 5);
     }
     a.close-panel,
     a.open-panel {
@@ -705,14 +717,20 @@ a.open-panel {
         float: right
     }
     ul.side-nav li:hover {
-        background: #888
+        //background: #888;
+        background: darken($dark-brand-bg, 5);
     }
     ul.side-nav li.nav-list-title:hover {
-        background: 0 0
+        //background: 0 0;
     }
     ul.side-nav li a {
         font-weight: 400;
-        color: #fff
+        //color: #fff;
+        color: lighten($content-link, 30);
+    }
+    ul.side-nav li a:hover,
+    ul.side-nav li.active a  {
+        color: #fff;
     }
     a.close-panel {
         color: #FFF;
@@ -732,11 +750,11 @@ a.open-panel {
     }
     .openNav #page {
         left: 0;
-        -webkit-transform: translate3d(70%, 0, 0);
-        -moz-transform: translate3d(70%, 0, 0);
-        -ms-transform: translate3d(70%, 0, 0);
-        -o-transform: translate3d(70%, 0, 0);
-        transform: translate3d(70%, 0, 0);
+        -webkit-transform: translate3d($navwidth, 0, 0);
+        -moz-transform: translate3d($navwidth, 0, 0);
+        -ms-transform: translate3d($navwidth, 0, 0);
+        -o-transform: translate3d($navwidth, 0, 0);
+        transform: translate3d($navwidth, 0, 0);
         transition: transform 500ms ease
     }
     #page,
