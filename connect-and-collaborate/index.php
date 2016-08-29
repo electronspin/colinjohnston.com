@@ -16,19 +16,18 @@
                 <div class="row">
                     <div class="twelve columns">
                         <div class="imagebox">
-                            <img src="/images/connect-colin-598.jpg">
-                        </div>
-                        <div class="imagebox">
                             <figure>
-                                <img srcset="/images/orphic-gallery_small.jpg 400w,
-                        /images/orphic-gallery_medium.jpg 800w,
-                        /images/orphic-gallery_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/orphic-gallery_small.jpg" alt="" />
-                                <figcaption>Orphic Gallery Website</figcaption>
+                                <img srcset="/images/colin-connect_400.jpg 400w,
+                                              /images/colin-connect_800.jpg 800w,
+                                              /images/colin-connect_1200.jpg 1200w,
+                                              /images/colin-connect_1600.jpg 1600w" 
+                                      sizes="(min-width: 48em) 66.6vw, 100vw" 
+                                      src="/images/colin-connect_400.jpg" 
+                                      alt="" />
                             </figure>
                         </div>
                         <h2>Connect</h2>
-                        <p>Do you have a project you'd like to to start?
-                            <br />Let's connect and see how I can help.</p>
+                        <p>Do you have a project you'd like to to start? Or an existing website you'd like to update? Let's connect and see how I can help.</p>
                         <p>Phone: +1 415 816-2477
                             <br /> Email:
                             <a id="contact"></a>
