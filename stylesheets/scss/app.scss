@@ -1049,16 +1049,19 @@ a.open-panel {
     }
 }
 
-@media only screen and (min-width: 768px) {
-    
-    // fixed sidebar idea
 
+    #branding h1 {
+        max-width: 241px;
+    }
+
+
+@media only screen and (min-width: 768px) {
+    // fixed sidebar idea
     // .sidebar-container {
     //     position: fixed;
     //     width: 280px;
     //     max-width: 33%;
     // }
-
     #branding {
         width: 241px;
     }
@@ -1075,15 +1078,12 @@ a.open-panel {
         position: relative;
         display: block;
     }
-    
     // fixed sidebar idea
-
     // .sidebar-container {
     //     position: fixed;
     //     width: 375px;
     //     max-width: 27.5%;
     // }
-    
     p.intro {}
     #branding {
         width: 241px;
@@ -1114,5 +1114,11 @@ a.open-panel {
     #content .twelve.columns > p,
     #content .twelve.columns > p + p {
         max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .page-wrapper {
+        min-height: 85vh;
     }
 }
