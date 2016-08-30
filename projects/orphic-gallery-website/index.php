@@ -18,7 +18,8 @@
                             <img
                 srcset="/images/orphic-gallery_small.jpg 400w,
                         /images/orphic-gallery_medium.jpg 800w,
-                        /images/orphic-gallery_large.jpg 1200w"
+                        /images/orphic-gallery_large.jpg 1200w,
+                        /images/orphic-gallery_xlarge.jpg 1600w"
                 sizes="(min-width: 48em) 66.6vw, 100vw"
                 src="/images/orphic-gallery_medium.jpg"
                 alt="Paul Saffo Website">

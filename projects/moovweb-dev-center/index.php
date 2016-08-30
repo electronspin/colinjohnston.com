@@ -20,7 +20,8 @@
               <img
                 srcset="/images/moovweb-dev-center-downloads_small.jpg 400w,
                         /images/moovweb-dev-center-downloads_medium.jpg 800w,
-                        /images/moovweb-dev-center-downloads_large.jpg 1200w"
+                        /images/moovweb-dev-center-downloads_large.jpg 1200w,
+                        /images/moovweb-dev-center-downloads_xlarge.jpg 1600w"
                 sizes="(min-width: 48em) 66.6vw, 100vw"
                 src="/images/moovweb-dev-center-downloads_small.jpg"
                 alt="<?php echo $mwdc ?>">

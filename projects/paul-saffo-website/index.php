@@ -28,7 +28,8 @@
               <img
                 srcset="/images/saffo-home-responsive_small.jpg 400w,
                         /images/saffo-home-responsive_medium.jpg 800w,
-                        /images/saffo-home-responsive_large.jpg 1200w"
+                        /images/saffo-home-responsive_large.jpg 1200w,
+                        /images/saffo-home-responsive_xlarge.jpg 1600w"
                 sizes="(min-width: 48em) 66.6vw, 100vw"
                 src="/images/saffo-home-responsive_medium.jpg"
                 alt="Paul Saffo Website">

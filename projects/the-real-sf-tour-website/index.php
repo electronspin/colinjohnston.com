@@ -19,7 +19,7 @@
 
                                 <img srcset="/images/therealsftour-home_small.jpg 400w,
                         /images/therealsftour-home_medium.jpg 800w,
-                        /images/therealsftour-home_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/therealsftour-home_small.jpg" alt="" />
+                        /images/therealsftour-home_large.jpg 1200w, /images/therealsftour-home_xlarge.jpg 1600w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/therealsftour-home_small.jpg" alt="" />
                         </div>
                         <h2>The Real SF Tour Website</h2>
                         <p><a href="http://rsft.electronspin.com/" name="" target="_blank">therealsftour.com</a></p>

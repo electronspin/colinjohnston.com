@@ -18,7 +18,10 @@
                             <div class="imagebox">
                                 <img srcset="/images/moovweb-control-center-main_small.jpg 400w,
                         /images/moovweb-control-center-main_medium.jpg 800w,
-                        /images/moovweb-control-center-main_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/moovweb-control-center-main_small.jpg" alt="<?php echo $mwcc ?>">
+                        /images/moovweb-control-center-main_large.jpg 1200w,
+                        /images/moovweb-control-center-main_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/moovweb-control-center-main_small.jpg" alt="<?php echo $mwcc ?>">
                             </div>
                             <h2><?php echo $mwcc ?></h2>
                             <?php include('overview.php') ?>

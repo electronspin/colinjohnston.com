@@ -20,9 +20,10 @@
               <img
                 srcset="/images/solanolabs-sessionview-v2_small.jpg 400w,
                         /images/solanolabs-sessionview-v2_medium.jpg 800w,
-                        /images/solanolabs-sessionview-v2_large.jpg 1200w"
+                        /images/solanolabs-sessionview-v2_large.jpg 1200w,
+                        /images/solanolabs-sessionview-v2_xlarge.jpg 1600w"
                 sizes="(min-width: 48em) 66.6vw, 100vw"
-                src="/images/solanolabs-sessionview-v2_small.jpg"
+                src="/images/solanolabs-sessionview-v2_medium.jpg"
                 alt="<?php echo $slcs ?>">
             </a>
                             </div>
