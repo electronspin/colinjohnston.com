@@ -9,4 +9,5 @@ node_modules
 stylesheets/sass
 alpha
 devlog.md
+blog
 
