@@ -44,3 +44,6 @@ devlog.md
 # NPM
 node_modules
 node_modules/*
+
+# Blog (Kirby)
+/blog
