@@ -4,6 +4,27 @@ All notable changes to colinjohnston.com project will be documented in this file
 
 This project adheres to [Semantic Versioning](http://semver.org/) (It's probably not necessary, but as a designer I like to practice good developer habits.) 
 
+## [v1.9.1] - 2017-07-1
+
+### Changes 
+- added '/blog' to .gitignore (Kirby blog to be deployed separately)
+
+### Fixed 
+- PHP datetime issue
+- make sass variables file an actual include
+
+## [1.9.0] - 2016-09-07
+
+### Added
+- 1600px portfolio images
+- Resume PDF in /resume directory
+
+### Changes
+- 'Connect' is now 'Contact'
+- New mobile nav background color
+- New widescreen layout (1024-1280px)
+- Misc UI tweaks
+- Updated Contact photo
 
 ## [1.8.0] - 2016-08-21
 
