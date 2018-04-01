@@ -1,12 +1,22 @@
 // File: gulpfile.js 
 
 var gulp          = require('gulp'),
+    connect       = require('gulp-connect-php'),
     gutil         = require('gulp-util'),
     sass          = require('gulp-sass'),
     autoprefixer  = require('gulp-autoprefixer'),
     sourcemaps    = require('gulp-sourcemaps');
     browserSync   = require('browser-sync').create();
 
+
+var configs = {
+  connect: { // for gulp-php-connect
+    hostname: '127.0.0.1',
+    port: '8000',
+    base: '.',
+    stdio: 'ignore'
+  }
+};
 
 // ### Sass 
 
@@ -23,10 +33,15 @@ gulp.task('sass', function() {
 // 'gulp watch' uses browsersync to check for changes to .php and .scss 
 
 gulp.task('watch', function() {
-  browserSync.init({
-    //files: ['/**/*.php', '*.php'],
-    proxy: 'colinjohnston.dev'
-  });
+  connect.server(configs.connect, function() {
+    browserSync.init({
+        injectChanges: true,
+        proxy: configs.connect.hostname + ':' + configs.connect.port,
+        snippetOptions: {
+          //ignorePaths: ['panel/**', 'site/accounts/**']
+        }
+    });
+ });
   gulp.watch('stylesheets/scss/**/*.scss', ['sass']);
   gulp.watch(['./*/**/*.php', '*.php']).on('change', browserSync.reload);
 });
