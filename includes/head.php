@@ -10,7 +10,7 @@
   <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
   <link rel="stylesheet" href="/stylesheets/css/foundation.min.css">
   <link rel="stylesheet" href="/stylesheets/css/open-iconic-foundation.min.css">
-  <link rel="stylesheet" href="/stylesheets/css/app.css">
+  <link rel="stylesheet" href="/stylesheets/css/app.min.css">
   <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.0/picturefill.min.js"></script> -->
   <script src="/javascripts/modernizr.foundation.js"></script>
   <script src="/javascripts/picturefill.min.js"></script>
