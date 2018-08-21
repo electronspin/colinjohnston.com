@@ -26,7 +26,7 @@ var configs = {
 	connect: { // for gulp-php-connect
 		hostname: '127.0.0.1',
 		port: '8000',
-		base: '.',
+		base: './',
 		stdio: 'ignore'
 	},
 	sass: {
@@ -79,6 +79,10 @@ var errorHandler = {
     this.emit('end');
   }
 };
+
+// PHP
+
+gulp.task('php', reload);
 
 // STYLES
 
@@ -141,19 +145,21 @@ gulp.task('serve', ['sass', 'js'], function() {
 		 browserSync.init({
 		 		injectChanges: true,
 		 		proxy: configs.connect.hostname + ':' + configs.connect.port,
-		 		// snippetOptions: {
-		 		// 	ignorePaths: ['panel/**', 'site/accounts/**']
-		 		// },
+		 		snippetOptions: {
+		 			ignorePaths: ['panel/**', 'site/accounts/**']
+		 		},
 		 });
 	});
 
+	
 	gulp.watch([
     '**/*.php',
-    //paths.images + '**/*',
-		//paths.fonts + '**/*',
-		//paths.js + '**/*'
-  ]).on('change', reload);
+    paths.images + '**/*',
+		paths.fonts + '**/*',
+		paths.js + '**/*'
+	]).on('change', reload);
 
+	//gulp.watch('./**/*.php', ['php']);
   gulp.watch(paths.scss + "**/*.scss", ['sass']);
 	gulp.watch([paths.js + '**/*.js', '!**/*.min.js'], ['js']);
 
