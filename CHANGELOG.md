@@ -4,10 +4,6 @@ All notable changes to colinjohnston.com project are documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/) (It's probably not necessary, but as a designer I like to practice good developer habits.) 
 
-## [v1.9.3] - 2018-08-21
-
-### 
-
 ## [v1.9.2] - 2018-08-20
 
 ### Refactoring
