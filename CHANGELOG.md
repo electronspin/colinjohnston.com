@@ -4,6 +4,20 @@ All notable changes to colinjohnston.com project will be documented in this file
 
 This project adheres to [Semantic Versioning](http://semver.org/) (It's probably not necessary, but as a designer I like to practice good developer habits.) 
 
+## [v1.9.2] - 2018-08-20
+
+### Refactoring
+- update gulpfile for minified app css
+- convert old foundation styles to scss and import to app scss
+- remove open-iconic and inline svg icons
+- remove some unused foundation styling
+- js refactor removing most foundation
+- now using gulp to handle js concat and min
+- use cdn for modernizer and picturefill
+
+### Changes
+- Switch to Noto Sans for primary typeface
+
 ## [v1.9.1] - 2017-07-1
 
 ### Changes 
