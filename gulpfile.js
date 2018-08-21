@@ -14,7 +14,10 @@ var plumber      = require('gulp-plumber');
 var rename       = require('gulp-rename');
 var uglify       = require('gulp-uglify');
 var sourcemaps   = require('gulp-sourcemaps');
+var gutil 			 = require('gulp-util');
+//var addsrc 			 = require('gulp-add-src');
 //var runSequence  = require('run-sequence');
+var order 			 = require("gulp-order");
 
 var reload = browserSync.reload;
 //var stream = browserSync.stream;
@@ -44,8 +47,37 @@ var paths = {
 	css: 'stylesheets/css/',
 	//fonts: 'assets/fonts/',
 	//images: 'asasets/images/',
-	//js: 'assets/js/',
+	js: 'javascripts/src/',
 	scss: 'stylesheets/scss/'
+};
+
+var scripts = {
+  app: {
+    src: [
+      // 'bower_components/jquery/dist/jquery.js',
+      paths.js + 'foundation.js',
+      paths.js + 'custom.js'
+    ]
+  }
+};
+
+// Bip on error and display them in 'stylish' style
+var errorHandler = {
+  sass: function () {
+    gutil.beep();
+    browserSync.notify('Error in compiling sass files');
+    this.emit('end');
+  },
+  js: function (err) {
+    var color = gutil.colors;
+    var message = color.gray(err.lineNumber) + ' ' + err.message;
+    message = new gutil.PluginError(err.plugin, message).toString();
+
+    gutil.beep();
+    process.stderr.write(message + '\n');
+    browserSync.notify('Error in compiling js files');
+    this.emit('end');
+  }
 };
 
 // STYLES
@@ -71,33 +103,65 @@ gulp.task('sass', function() {
 		.pipe(browserSync.stream());
 });
 
+// SCRIPTS
+
+gulp.task('js', function(cb) {
+	// return gulp.src(paths.js + '**/*.js')
+	// 	.pipe(sourcemaps.init())
+	// 	.pipe(order([
+	// 		"foundation.js",
+	// 		"custom.js"
+	// 	]))
+	for (var i in scripts) {
+    if ({}.hasOwnProperty.call(scripts, i)) {
+      var script = scripts[i];
+      var fileName = i + '.js';
+
+      // var dest = 'javascripts';
+      // if (script.template) {
+      //   dest += 'templates/';
+			// }
+			gulp.src(script.src)
+				.pipe(sourcemaps.init())
+				.pipe(plumber({errorHandler: errorHandler.js}))
+				.pipe(uglify())
+				.pipe(concat(fileName))
+				.pipe(rename({suffix: '.min'}))
+				.pipe(sourcemaps.write('.'))
+				.pipe(gulp.dest('javascripts'));
+			}
+		}
+	cb();
+});
+
 // SERVE
 
-gulp.task('serve', ['sass'], function() {
+gulp.task('serve', ['sass', 'js'], function() {
 	connect.server(configs.connect, function() {
 		 browserSync.init({
 		 		injectChanges: true,
 		 		proxy: configs.connect.hostname + ':' + configs.connect.port,
-		 		snippetOptions: {
-		 			// ignorePaths: ['panel/**', 'site/accounts/**']
-		 		},
+		 		// snippetOptions: {
+		 		// 	ignorePaths: ['panel/**', 'site/accounts/**']
+		 		// },
 		 });
 	});
 
 	gulp.watch([
-    'site/**/*.php',
-    paths.images + '**/*',
-    paths.fonts + '**/*'
+    '**/*.php',
+    //paths.images + '**/*',
+		//paths.fonts + '**/*',
+		//paths.js + '**/*'
   ]).on('change', reload);
 
   gulp.watch(paths.scss + "**/*.scss", ['sass']);
-	//gulp.watch(paths.css, ['styles']);
+	gulp.watch([paths.js + '**/*.js', '!**/*.min.js'], ['js']);
 
 });
 
 // BUILD
 
-gulp.task('build', ['sass']);
+gulp.task('build', ['sass', 'js']);
 
 
 // ALIASES

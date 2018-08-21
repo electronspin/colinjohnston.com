@@ -22,15 +22,15 @@
     </div>
     
     <!-- <script src="/javascripts/jquery.js"></script> -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="/javascripts/foundation.min.js"></script>
-    <script src="/javascripts/app.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+    <!-- <script src="/javascripts/foundation.min.js"></script>
+    <script src="/javascripts/app.js"></script> -->
     <!-- <script src="/javascripts/jquery.foundation.tabs.js"></script> -->
   
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       $(window).load(function() {
          $("#featured").orbit();
       });
-    </script>
+    </script> -->
     
 </div>
