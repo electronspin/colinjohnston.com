@@ -15,8 +15,8 @@
   <script src="/javascripts/picturefill.min.js" async></script>
   <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.1/picturefill.min.js"></script> -->
   <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" defer></script>
-  <script src="/javascripts/app.min.js" defer></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/app.min.js"></script>
   
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>

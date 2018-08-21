@@ -47,10 +47,10 @@
     <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
     <!--http://archive.plugins.jquery.com/project/RotationalStringObfuscator-->
     <script type="text/javascript">
-    $(function() {
-        $('#contact').attr('href', $.rotate('znvygb:pbyva@pbyvawbuafgba.pbz')).text(
-            $.rotate('pbyva@pbyvawbuafgba.pbz'));
-    });
+    // $(function() {
+    //     $('#contact').attr('href', $.rotate('znvygb:pbyva@pbyvawbuafgba.pbz')).text(
+    //         $.rotate('pbyva@pbyvawbuafgba.pbz'));
+    // });
     </script>
 </body>
 

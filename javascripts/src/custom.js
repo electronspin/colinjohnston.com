@@ -124,6 +124,10 @@ $(function() {
     };
   });
 
+$(function() {
+  $('#contact').attr('href', $.rotate('znvygb:pbyva@pbyvawbuafgba.pbz')).text(
+      $.rotate('pbyva@pbyvawbuafgba.pbz'));
+});
 
 // Offcanvas Navigation
 
