@@ -3394,7 +3394,7 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
 body {
   background-color: #fefefe;
   background-color: #f7f7f7;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #777; }
 
 a {
@@ -3441,7 +3441,7 @@ div.panel h5,
 h2,
 h3,
 h4 {
-  font-family: inherit; }
+  font-family: "Noto Sans", sans-serif; }
 
 h2 {
   font-weight: 400;
@@ -3463,7 +3463,7 @@ div.panel h5,
 .overview-main h5 {
   font-weight: 700;
   font-size: 1.25em;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-transform: none; }
 
 .overview-main h5 {
@@ -3474,7 +3474,7 @@ div.panel h5,
 .side-nav li,
 figcaption,
 p {
-  font-family: 'Noto Sans', sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 #topbar {
   margin: 0 0 30px; }

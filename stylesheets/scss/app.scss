@@ -23,7 +23,9 @@ body {
     background-color: $main-bg-color;
     background-color: $medium-bg-color;
     // font-family: Lato, sans-serif;
-    font-family: 'Noto Sans', sans-serif;
+    //font-family: 'Noto Sans', sans-serif;
+    //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: $text-font;
     color: $main-text-color;
 }
 
@@ -85,7 +87,7 @@ div.panel h5,
 h2,
 h3,
 h4 {
-    font-family: inherit
+    font-family: $display-font;
 }
 
 h2 {
@@ -112,7 +114,7 @@ div.panel h5,
 .overview-main h5 {
     font-weight: 700;
     font-size: 1.25em;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: $display-font;
     text-transform: none;
 }
 
@@ -128,7 +130,7 @@ div.panel h5,
 .side-nav li,
 figcaption,
 p {
-    font-family: 'Noto Sans', sans-serif
+    font-family: $text-font;
 }
 
 #topbar {
