@@ -3441,10 +3441,10 @@ div.panel h5,
 h2,
 h3,
 h4 {
-  font-family: "Noto Sans", sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 h2 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 2em; }
 
 #content h2 {
@@ -3463,7 +3463,7 @@ div.panel h5,
 .overview-main h5 {
   font-weight: 700;
   font-size: 1.25em;
-  font-family: "Noto Sans", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-transform: none; }
 
 .overview-main h5 {
@@ -3672,7 +3672,9 @@ ul.side-nav li {
 
 ul.side-nav li.nav-list-title {
   text-transform: uppercase;
-  font-size: 14px; }
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #bdbdbd; }
 
 .overview-sidebar .panel {
   background: #F2F2F2;
