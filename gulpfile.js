@@ -153,7 +153,7 @@ gulp.task('serve', ['sass', 'js'], function() {
 
 	
 	gulp.watch([
-    '**/*.php',
+    './**/*.php',
     paths.images + '**/*',
 		paths.fonts + '**/*',
 		paths.js + '**/*'
