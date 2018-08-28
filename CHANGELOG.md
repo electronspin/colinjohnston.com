@@ -4,7 +4,6 @@ All notable changes to colinjohnston.com project are documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/) (It's probably not necessary, but as a designer I like to practice good developer habits.) 
 
-<<<<<<< HEAD
 ## [v1.9.3] - 2018-08-21
 
 ### Changes
@@ -19,8 +18,6 @@ This project adheres to [Semantic Versioning](http://semver.org/) (It's probably
 ### Fixed
 - fixes to gulpfile to reload on php changes
 
-=======
->>>>>>> 1166ee73866468a9cd6585952e3c071f23f74df4
 ## [v1.9.2] - 2018-08-20
 
 ### Changes
