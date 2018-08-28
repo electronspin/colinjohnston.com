@@ -19,10 +19,7 @@
                         <a href="/projects/rollbar-account-dashboard">
                             <div class="imagebox">
                                 <figure>
-                                    <img srcset="images/placeholder_small.jpg 400w,
-images/placeholder_medium.jpg 800w,
-images/placeholder_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/placeholder_small.jpg"
-                                        alt="<?php echo $rbad; ?>">
+                                    <img srcset="images/rollbar-account-dashboard-cover_small.jpg 400w, images/rollbar-account-dashboard-cover_medium.jpg 800w, images/rollbar-account-dashboard-cover_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/rollbar-account-dashboard-cover_small.jpg" alt="<?php echo $rbad; ?>">
                                     <figcaption>
                                         <?php echo $rbad; ?>
                                     </figcaption>
@@ -30,15 +27,12 @@ images/placeholder_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src=
                             </div>
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="/projects/rollbar-marketing-website">
                             <div class="imagebox">
                                 <figure>
-                                    <img srcset="images/placeholder_small.jpg 400w,
-images/placeholder_medium.jpg 800w,
-images/placeholder_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/placeholder_small.jpg"
-                                        alt="<?php echo $rbws; ?>">
+                                    <img srcset="images/rollbar-marketing-website-cover_small.jpg 400w, images/rollbar-marketing-website-cover_medium.jpg 800w, images/rollbar-marketing-website-cover_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/rollbar-marketing-website-cover_small.jpg" alt="<?php echo $rbws; ?>">
                                     <figcaption>
                                         <?php echo $rbws; ?>
                                     </figcaption>
@@ -46,15 +40,12 @@ images/placeholder_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src=
                             </div>
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="/projects/rollbar-identity-refresh">
                             <div class="imagebox">
                                 <figure>
-                                    <img srcset="images/placeholder_small.jpg 400w,
-images/placeholder_medium.jpg 800w,
-images/placeholder_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/placeholder_small.jpg"
-                                        alt="<?php echo $rbid; ?>">
+                                    <img srcset="images/rollbar-identity-refresh-businesscards_small.jpg 400w, images/rollbar-identity-refresh-businesscards_medium.jpg 800w, images/rollbar-identity-refresh-businesscards_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/rollbar-identity-refresh-businesscards_small.jpg" alt="<?php echo $rbid; ?>">
                                     <figcaption>
                                         <?php echo $rbid; ?>
                                     </figcaption>
@@ -62,7 +53,7 @@ images/placeholder_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src=
                             </div>
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="/projects/solanolabs-ci-session-view">
                             <div class="imagebox">
