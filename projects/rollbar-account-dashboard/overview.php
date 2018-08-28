@@ -29,11 +29,11 @@
                     <li>Increase engineering team efficiency.</li>
                     </ul>
                     <h4>Solution</h4>
-                    <p>Staring with a simple prototype that aggregated project data onto a single view, we tested the interface with a small number of customers. One of the most interesting outcomes of these tests is that we discovered there were two distinct use cases: <em>reporting</em>, and <em>triage</em>. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve problems more effciently. For the intial version of the view we decided to provide a basic tool that would solve both problems.</p>
+                    <p>Starting with a simple prototype that aggregated project data onto a single view, we tested the interface with a small number of customers. One of the most interesting outcomes of these tests is that we discovered there were two distinct use cases: <em>reporting</em>, and <em>triage</em>. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve problems more effciently. For the intial version of the view we decided to provide a basic tool that would solve both problems.</p>
                     <ul>
                     <li>Provide a dedicated view showing all the projects in an account.</li>
                     <li>Present a clear visual representation of the health of selected projects.</li>
-                    <li>Surface all filters available in the individual project view are available making it easy to for teams to drill down into issues across languages, environments, and error levels.</li>
+                    <li>Surface all filters available in the individual project view, making it easy to for teams to drill down into issues across languages, environments, and error levels.</li>
                     </ul>
                     <h4>Results</h4>
                     <p>The first release of the Account Dashboard helped Rollbar customers achieve their previously unmet goals immediately. By providing insight into individual trends alongside potential correlated patterns, engineering teams could now quickly see how performance of various applications and services affects the health of their overall product. When a team can more efficiently triage and solve errors in complex systems, the more effective they are at maintaining high quality experience for their users.</p>
