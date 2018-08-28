@@ -6,9 +6,22 @@ This project adheres to [Semantic Versioning](http://semver.org/) (It's probably
 
 ## [v1.9.3] - 2018-08-21
 
-### 
+### Changes
+- Set type to Inter UI!
+- New Rollbar projects!
+- Improved sidebar navigation - now grouping projects as 'Featured' and 'More'
+
+### Refactoring
+- fix js errors in custom
+- include analytics only if in production 
+
+### Fixed
+- fixes to gulpfile to reload on php changes
 
 ## [v1.9.2] - 2018-08-20
+
+### Changes
+- Switch to Noto Sans for primary typeface
 
 ### Refactoring
 - update gulpfile for minified app css
@@ -18,9 +31,6 @@ This project adheres to [Semantic Versioning](http://semver.org/) (It's probably
 - js refactor removing most foundation
 - now using gulp to handle js concat and min
 - use cdn for modernizer and picturefill
-
-### Changes
-- Switch to Noto Sans for primary typeface
 
 ## [v1.9.1] - 2017-07-1
 
