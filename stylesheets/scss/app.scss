@@ -9,19 +9,21 @@
  * Or see the styles in http://www.saffo.com/ for an example of my standards.
  *
  */
-
+@import "foundation";
 @import "variables";
 
 /* web fonts */
 
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+//@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i');
 
 /* main styles */
 
 body {
     background-color: $main-bg-color;
     background-color: $medium-bg-color;
-    font-family: Lato, sans-serif;
+    // font-family: Lato, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     color: $main-text-color;
 }
 
@@ -48,6 +50,7 @@ h3 {
 
 #content p a:not(.sidebar-button) {
     padding: 0 2px;
+    transition: all .25s ease;
     &:hover,
     &:focus {
         //color:  $content-link;
@@ -100,22 +103,23 @@ h3 {
 
 div.panel h4,
 .overview-main h4 {
-    font-weight: 400;
-    font-size: 1.5em
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: -.015em;
 }
 
 div.panel h5,
 .overview-main h5 {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.25em;
-    font-family: Lato, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     text-transform: none;
 }
 
 .overview-main h5 {
-    font-weight: 400;
-    font-size: 1.25em;
-    font-family: Lato, sans-serif;
+    // font-weight: 700;
+    // font-size: 1.25em;
+    // font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
     margin-top: 1.5em;
     color: $main-text-color;
@@ -124,7 +128,7 @@ div.panel h5,
 .side-nav li,
 figcaption,
 p {
-    font-family: Lato, sans-serif
+    font-family: 'Noto Sans', sans-serif
 }
 
 #topbar {
@@ -289,7 +293,8 @@ p.tagline {
 #content p.case-caption a {
     font-weight: 400;
     color: $content-link;
-    transition: all .25s ease &:hover {
+    transition: all .25s ease;
+    &:hover {
         color: #fff;
         //color: $content-link;
     }
@@ -307,16 +312,16 @@ a:hover {
 }
 
 p {
-    font-weight: 300
+    font-weight: 400
 }
 
 p.tagline {
-    font-weight: 400
+    font-weight: 700
 }
 
 .side-nav li {
     color: #777;
-    font-weight: 300;
+    font-weight: 700;
     position: relative;
 }
 
@@ -745,8 +750,8 @@ a.open-panel {
     }
     a.open-panel span {
         position: absolute;
-        top: -2px;
-        left: -22px
+        // top: -2px;
+        left: -1.5em;
     }
     .openNav #page {
         left: 0;
@@ -1120,5 +1125,16 @@ a.open-panel {
 @media only screen and (min-width: 768px) {
     .page-wrapper {
         min-height: 85vh;
+    }
+}
+
+.svg-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    svg {
+        fill: currentColor;
+        width: 1em;
+        height: 1em;
     }
 }

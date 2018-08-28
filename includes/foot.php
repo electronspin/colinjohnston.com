@@ -13,7 +13,7 @@
           echo '<p class="contact-button show-for-small"><a class="contact-email" href="/connect-and-collaborate">Contact</a></p>';
         } ?>
 
-        <p class="copyright">I built this website using PHP, Foundation, Sass, jQuery, and Gulp in iTerm2 and Sublime Text. Hosting by MediaTemple. <br>An <a href="http://electronspin.com" title="Electron Spin">Electron Spin</a> production. &copy; 2012&ndash;<?php echo date("Y"); ?> Colin Johnston. Updated <?php echo date ('F d Y', filemtime($dir));  ?>
+        <p class="copyright">I built this website by hand with PHP, Foundation, Sass, jQuery, and Gulp in iTerm2 and Visual Studio Code. Hosting by MediaTemple. <br>An <a href="http://electronspin.com" title="Electron Spin">Electron Spin</a> production. &copy; 2012&ndash;<?php echo date("Y"); ?> Colin Johnston. Updated <?php echo date ('F d Y', filemtime($dir));  ?>
         </div>
         <div class="three columns" style="text-align: right;">
         
@@ -22,15 +22,15 @@
     </div>
     
     <!-- <script src="/javascripts/jquery.js"></script> -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="/javascripts/foundation.min.js"></script>
-    <script src="/javascripts/app.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+    <!-- <script src="/javascripts/foundation.min.js"></script>
+    <script src="/javascripts/app.js"></script> -->
     <!-- <script src="/javascripts/jquery.foundation.tabs.js"></script> -->
   
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       $(window).load(function() {
          $("#featured").orbit();
       });
-    </script>
+    </script> -->
     
 </div>
