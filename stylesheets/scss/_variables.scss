@@ -20,3 +20,26 @@ $arrow-size: 12px;
 //
 $navwidth: 20em;
 $dark-brand-bg: #4c5f77;
+
+
+// -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$text-font: 'Inter UI', sans-serif;
+// $display-font: 'Noto Sans', sans-serif;
+$display-font: $text-font;
+
+@import url('https://rsms.me/inter/inter-ui.css');
+
+// @import url("https://use.typekit.net/xzv8mbf.css");
+
+// @mixin type-text {
+//   font-family: "ff-meta-web-pro";
+//   font-weight: 400;
+//   letter-spacing: -0.05em;
+// }
+// // @include type-text;
+
+// @mixin type-display {
+//   font-family: "ff-meta-web-pro";
+//   font-weight: 600;
+//   letter-spacing: -0.1em;
+// }

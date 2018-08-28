@@ -12,6 +12,7 @@
  */
 /* Requires: normalize.css */
 /* Global Reset & Standards ---------------------- */
+@import url("https://rsms.me/inter/inter-ui.css");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i");
 *, *:before, *:after {
   box-sizing: border-box; }
@@ -3394,15 +3395,11 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
 body {
   background-color: #fefefe;
   background-color: #f7f7f7;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Inter UI", sans-serif;
   color: #777; }
 
 a {
   color: #4d8bdc; }
-
-body,
-h3 {
-  font-weight: 300; }
 
 #logo a img {
   opacity: 0.6; }
@@ -3441,10 +3438,10 @@ div.panel h5,
 h2,
 h3,
 h4 {
-  font-family: inherit; }
+  font-family: "Inter UI", sans-serif; }
 
 h2 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 2em; }
 
 #content h2 {
@@ -3463,7 +3460,7 @@ div.panel h5,
 .overview-main h5 {
   font-weight: 700;
   font-size: 1.25em;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Inter UI", sans-serif;
   text-transform: none; }
 
 .overview-main h5 {
@@ -3474,7 +3471,7 @@ div.panel h5,
 .side-nav li,
 figcaption,
 p {
-  font-family: 'Noto Sans', sans-serif; }
+  font-family: "Inter UI", sans-serif; }
 
 #topbar {
   margin: 0 0 30px; }
@@ -3672,7 +3669,9 @@ ul.side-nav li {
 
 ul.side-nav li.nav-list-title {
   text-transform: uppercase;
-  font-size: 14px; }
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #bdbdbd; }
 
 .overview-sidebar .panel {
   background: #F2F2F2;
@@ -3781,7 +3780,9 @@ ul.services a {
 
 p.copyright {
   font-size: .9em;
-  color: #999; }
+  color: #999;
+  margin-bottom: 0;
+  max-width: 120ch; }
 
 p.copyright a {
   color: #999;
@@ -3871,7 +3872,7 @@ a.codedirection {
   padding-bottom: 3em; }
 
 #content {
-  padding-top: .675em; }
+  padding-top: .5em; }
 
 a.close-panel,
 a.open-panel {
