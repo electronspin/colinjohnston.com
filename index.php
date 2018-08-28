@@ -29,6 +29,36 @@
                     </li>
 
                     <li>
+                        <a href="/projects/solanolabs-ci-session-view">
+                            <div class="imagebox">
+                                <figure>
+                                    <img srcset="images/solanolabs-sessionview-v2_small.jpg 400w,
+images/solanolabs-sessionview-v2_medium.jpg 800w,
+images/solanolabs-sessionview-v2_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/solanolabs-sessionview-v2_small.jpg"
+                                        alt="<?php echo $slcs; ?>">
+                                    <figcaption>
+                                        <?php echo $slcs; ?>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/projects/paul-saffo-website">
+                            <div class="imagebox">
+                                <figure>
+                                    <img srcset="images/saffo-home-responsive_small.jpg 400w,
+images/saffo-home-responsive_medium.jpg 800w,
+images/saffo-home-responsive_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/saffo-home-responsive_small.jpg"
+                                        alt="Paul Saffo Website">
+                                    <figcaption>Paul Saffo Website</figcaption>
+                                </figure>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li>
                         <a href="/projects/rollbar-marketing-website">
                             <div class="imagebox">
                                 <figure>
@@ -49,35 +79,6 @@
                                     <figcaption>
                                         <?php echo $rbid; ?>
                                     </figcaption>
-                                </figure>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="/projects/solanolabs-ci-session-view">
-                            <div class="imagebox">
-                                <figure>
-                                    <img srcset="images/solanolabs-sessionview-v2_small.jpg 400w,
-images/solanolabs-sessionview-v2_medium.jpg 800w,
-images/solanolabs-sessionview-v2_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/solanolabs-sessionview-v2_small.jpg"
-                                        alt="<?php echo $slcs; ?>">
-                                    <figcaption>
-                                        <?php echo $slcs; ?>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/projects/paul-saffo-website">
-                            <div class="imagebox">
-                                <figure>
-                                    <img srcset="images/saffo-home-responsive_small.jpg 400w,
-images/saffo-home-responsive_medium.jpg 800w,
-images/saffo-home-responsive_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 100vw" src="images/saffo-home-responsive_small.jpg"
-                                        alt="Paul Saffo Website">
-                                    <figcaption>Paul Saffo Website</figcaption>
                                 </figure>
                             </div>
                         </a>
