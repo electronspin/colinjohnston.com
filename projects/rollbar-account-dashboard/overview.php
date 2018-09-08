@@ -29,7 +29,7 @@
                     <li>Increase engineering team efficiency.</li>
                     </ul>
                     <h4>Solution</h4>
-                    <p>Starting with a simple prototype that aggregated project data onto a single view, we tested the interface with a small number of customers. One of the most interesting outcomes of these tests is that we discovered there were two distinct use cases: <em>reporting</em>, and <em>triage</em>. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve problems more effciently. For the intial version of the view we decided to provide a basic tool that would solve both problems.</p>
+                    <p>Starting with a simple prototype that aggregated project data onto a single view, we tested the interface with a small number of customers. One of the most interesting outcomes of these tests is that we discovered there were two distinct use cases: <em>reporting</em>, and <em>triage</em>. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve problems more efficiently. For the initial version of the view we decided to provide a basic tool that would solve both problems.</p>
                     <ul>
                     <li>Provide a dedicated view showing all the projects in an account.</li>
                     <li>Present a clear visual representation of the health of selected projects.</li>
