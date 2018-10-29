@@ -3414,14 +3414,14 @@ a {
   padding: 0 2px;
   -webkit-transition: all .25s ease;
   transition: all .25s ease; }
+  #content p a:not(.sidebar-button):visited {
+    color: #222; }
   #content p a:not(.sidebar-button):hover, #content p a:not(.sidebar-button):focus {
     color: white;
     background-color: #78a7e4; }
   #content p a:not(.sidebar-button):before, #content p a:not(.sidebar-button):after {
     content: "";
     padding: 0 -2px; }
-  #content p a:not(.sidebar-button):visited {
-    color: #222; }
 
 ul.circle li ul,
 ul.disc li ul,
@@ -3561,6 +3561,9 @@ ul.services a {
     margin-right: 0.25em; }
   #content p a.to-top:visited {
     color: #4d8bdc; }
+  #content p a.to-top:hover, #content p a.to-top:focus {
+    color: white;
+    background-color: #4d8bdc; }
 
 .overview-content li {
   font-size: 1.25em;
@@ -3606,12 +3609,10 @@ p.tagline {
   color: #4d8bdc;
   -webkit-transition: all .25s ease;
   transition: all .25s ease; }
-  #content p.case-caption a:hover {
-    color: #fff; }
   #content p.case-caption a:visited {
     color: #222; }
-  #content p.case-caption a:visited:hover {
-    color: #222; }
+  #content p.case-caption a:hover {
+    color: #fff; }
 
 a:hover {
   color: #4d8bdc; }

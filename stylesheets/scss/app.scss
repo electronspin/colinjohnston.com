@@ -40,6 +40,7 @@ a {
 
 #logo a img {
     opacity: 0.6;
+
     &:hover {
         opacity: 1;
     }
@@ -53,6 +54,11 @@ a {
 #content p a:not(.sidebar-button) {
     padding: 0 2px;
     transition: all .25s ease;
+
+    &:visited {
+        color: $dark-text-color;
+    }
+
     &:hover,
     &:focus {
         //color:  $content-link;
@@ -60,14 +66,13 @@ a {
         background-color: lighten($content-link, 10%);
         //background-color: lighten($main-text-color, 10%);
     }
+
     &:before,
     &:after {
         content: "";
         padding: 0 -2px;
     }
-    &:visited {
-        color: $dark-text-color;
-    }
+
 }
 
 ul.circle li ul,
@@ -225,7 +230,7 @@ p {
 
 .label.services a,
 ul.services a {
-    color: #999!important;
+    color: #999 !important;
     border-bottom: dotted 1px #999;
 }
 
@@ -238,12 +243,20 @@ ul.services a {
     font-size: 0.8em;
     font-weight: bold;
     color: $cjd-branding;
+
     &:before {
         content: "↑";
         margin-right: 0.25em;
     }
+
     &:visited {
         color: $cjd-branding;
+    }
+
+    &:hover,
+    &:focus {
+        color: white;
+        background-color: $cjd-branding;
     }
 }
 
@@ -262,6 +275,7 @@ ul.services a {
     font-size: 1em;
     font-weight: 400;
     margin-bottom: 2.5em;
+
     span.hide-for-small {
         display: inline !important;
     }
@@ -277,12 +291,13 @@ ul.services a {
     font-size: 1em;
     font-weight: 400;
     margin-bottom: 2.5em;
+
     @media only screen and (min-width: 768px) {
         margin-top: -0.75em;
     }
 }
 
-#content p.case-caption-video + p {
+#content p.case-caption-video+p {
     margin-top: -1.75em;
 }
 
@@ -300,26 +315,22 @@ p.tagline {
     font-weight: 400;
     color: $content-link;
     transition: all .25s ease;
+
+    &:visited {
+        color: $dark-text-color;
+    }
+
     &:hover {
         color: #fff;
-        //color: $content-link;
-    }
-    &:visited {
-        color: #222;
-    }
-    &:visited:hover {
-        color: #222;
     }
 }
 
 a:hover {
-    // color: #777;
     color: $content-link;
 }
 
 p {
     font-weight: 400;
-
 }
 
 p.tagline {
@@ -362,6 +373,7 @@ ul.side-nav li.active a {
                 margin-top: 0.25em;
                 border-bottom: 2px solid lighten($cjd-branding, 25%);
             }
+
             &:hover:after {
                 left: 0;
                 right: 0;
@@ -418,7 +430,7 @@ ul.services {
 ul.services>ol,
 ul.services>ul {
     margin-left: 17px;
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
     list-style-position: outside
 }
 
@@ -482,7 +494,7 @@ ul.services a {
 }
 
 .label.services a:hover {
-    color: #333!important;
+    color: #333 !important;
     border-bottom: dotted 1px #333;
 }
 
@@ -540,7 +552,7 @@ p.copyright a {
 
 p.copyright a:hover {
     color: #000;
-    font-weight: 400!important
+    font-weight: 400 !important
 }
 
 a.codedirection {
@@ -571,45 +583,57 @@ a.codedirection {
     p.intro {
         font-size: 1.25em !important
     }
+
     ul.side-nav li {
         font-size: 1.125em !important;
     }
+
     p.tagline {
-        font-size: 1em!important;
+        font-size: 1em !important;
     }
+
     .contact-email {
         display: block;
-        width: 100%!important
+        width: 100% !important
     }
+
     .contact-button {
         text-align: center;
         margin: 0 0 1.5em
     }
+
     ul.side-nav li.nav-list-title {
         // fold into fixed setup
-        font-size: 14px!important;
+        font-size: 14px !important;
     }
 }
 
 @media (max-width:767px) {
+
     //.side-nav li,
     //p.intro,
     p.tagline {
         font-size: .75em
     }
+
     p.intro {
         margin: 1.5em 0
     }
+
     #topbar {
         margin: 0 0 5px
     }
+
     .overview {
         display: table
     }
+
     .overview-main {}
+
     .overview-sidebar {
         //display: table-footer-group //float: right;
     }
+
     .overview-content {
         //display: table-header-group
     }
@@ -619,18 +643,23 @@ a.codedirection {
     #branding {
         width: 86%
     }
+
     p.intro {
         padding-right: 2em
     }
+
     li.nav-list-title {
         padding-top: 1.5em
     }
+
     li.nav-list-title:first-child {
         padding-top: 0
     }
+
     .overview {
         position: relative
     }
+
     .overview-sidebar {
         float: right;
         width: 45%;
@@ -670,26 +699,33 @@ a.open-panel {
 }
 
 @media only screen and (max-width:767px) {
+
     .icon-2x,
     a.close-panel {
         font-size: 1.25em
     }
+
     #page {
         padding-top: 0
     }
+
     #content {
         min-height: 50em
     }
+
     #branding {
         margin: 2em 0 1em
     }
+
     h1#logo {
         display: inline-block;
         width: 70%
     }
+
     .four.columns {
         position: inherit
     }
+
     nav {
         //width: 70%;
         //left: -70%;
@@ -702,6 +738,7 @@ a.open-panel {
         background: $dark-brand-bg;
         z-index: 1000
     }
+
     ul.side-nav {
         width: 100%;
         padding: 0;
@@ -709,6 +746,7 @@ a.open-panel {
         //border-top: 1px solid #888
         //border-top: 1px solid darken($dark-brand-bg, 10);
     }
+
     ul.side-nav li {
         font-size: 1.25em;
         font-weight: 300;
@@ -727,43 +765,52 @@ a.open-panel {
         //background: #777;
         //background: darken($dark-brand-bg, 5);
     }
+
     a.close-panel,
     a.open-panel {
         display: inline;
         float: right
     }
+
     ul.side-nav li:hover {
         //background: #888;
         background: darken($dark-brand-bg, 5);
     }
+
     ul.side-nav li.nav-list-title:hover {
         //background: 0 0;
     }
+
     ul.side-nav li a {
         font-weight: 400;
         //color: #fff;
         color: lighten($content-link, 30);
     }
+
     ul.side-nav li a:hover,
     ul.side-nav li.active a {
         color: #fff;
     }
+
     a.close-panel {
         color: #FFF;
         position: relative;
         top: 2em;
         right: 1.5em
     }
+
     a.open-panel {
         margin-top: 6px;
         position: relative;
         color: #777
     }
+
     a.open-panel span {
         position: absolute;
         // top: -2px;
         left: -1.5em;
     }
+
     .openNav #page {
         left: 0;
         -webkit-transform: translate3d($navwidth, 0, 0);
@@ -773,12 +820,14 @@ a.open-panel {
         transform: translate3d($navwidth, 0, 0);
         transition: transform 500ms ease
     }
+
     #page,
     .openNav #page {
         -o-transition: -o-transform 500ms ease;
         -moz-transition: -moz-transform 500ms ease;
         -webkit-transition: -webkit-transform 500ms ease
     }
+
     #page {
         left: 0;
         -webkit-transform: translate3d(0, 0, 0);
@@ -810,6 +859,7 @@ a.open-panel {
     /* 16:9 */
     height: 0;
     margin-bottom: 2em;
+
     @media only screen and (min-width: 768px) {
         position: relative;
         padding-top: 21px;
@@ -820,10 +870,12 @@ a.open-panel {
     position: absolute;
     width: 100%;
     height: 100%;
+
     @media only screen and (min-width: 768px) {
         top: 0;
         left: 0;
     }
+
     @media only screen and (max-width:767px) {
         width: 92%;
         left: 4%;
@@ -873,6 +925,7 @@ a.open-panel {
     letter-spacing: 1px;
     height: auto;
     line-height: 40px;
+
     //padding: 0 2em;
     // &:hover {
     //     font-weight: bold;
@@ -897,9 +950,11 @@ a.open-panel {
         //border-top-color: lighten($content-link, 10%);
         //z-index: 10;
     }
+
     &:hover {
         color: $dark-text-color;
     }
+
     &:hover:after {
         top: 100%
     }
@@ -925,6 +980,7 @@ a.open-panel {
     border-left: none;
     border-right: none;
     font-weight: bold;
+
     &:after {
         // content: "";
         // height: 0px;
@@ -950,11 +1006,13 @@ a.open-panel {
         margin: 0 auto 2em;
         border: none;
     }
+
     .tabs li.tab-title {
         width: 48%;
         margin: 0 0 0 0.5em;
         text-transform: none;
         text-align: center;
+
         a {
             font-size: 1em;
             padding: 0 0.5em;
@@ -969,15 +1027,15 @@ a.open-panel {
     padding: 0;
 }
 
-.tabs-content > li {
+.tabs-content>li {
     display: none;
 }
 
-.tabs-content > li.active {
+.tabs-content>li.active {
     display: block;
 }
 
-.no-js .tabs-content > li {
+.no-js .tabs-content>li {
     display: block;
 }
 
@@ -997,6 +1055,7 @@ a.open-panel {
     -webkit-border-radius: 9px;
     border-radius: 9px;
     transition: all .25s ease;
+
     @media only screen and (max-width: 767px) {
         //padding: 0.5em 0.75em;
     }
@@ -1040,10 +1099,11 @@ a.open-panel {
         display: inline-block;
         float: right;
     }
+
     text-align: right;
 }
 
-.bottom-tab-nav-next > a {
+.bottom-tab-nav-next>a {
     &:after {
         //content: "→" !important;
         //margin-right: 0.25em;
@@ -1055,10 +1115,11 @@ a.open-panel {
         display: inline-block;
         float: left;
     }
+
     text-align: left;
 }
 
-.bottom-tab-nav-prev > a {
+.bottom-tab-nav-prev>a {
     &:before {
         //content: "←" !important;
         //margin-left: 0.25em;
@@ -1066,12 +1127,13 @@ a.open-panel {
 }
 
 
-    #branding h1 {
-        max-width: 241px;
-    }
+#branding h1 {
+    max-width: 241px;
+}
 
 
 @media only screen and (min-width: 768px) {
+
     // fixed sidebar idea
     // .sidebar-container {
     //     position: fixed;
@@ -1089,11 +1151,13 @@ a.open-panel {
         width: 1280px;
         max-width: 92%;
     }
+
     .four.columns.sidebar {
         width: 30%;
         position: relative;
         display: block;
     }
+
     // fixed sidebar idea
     // .sidebar-container {
     //     position: fixed;
@@ -1101,15 +1165,19 @@ a.open-panel {
     //     max-width: 27.5%;
     // }
     p.intro {}
+
     #branding {
         width: 241px;
     }
+
     #content p {
         //font-size: 1.5em;;
     }
+
     .overview {
         max-width: 600px;
     }
+
     figcaption {
         font-weight: 400;
         font-size: .875em; //.75em
@@ -1126,9 +1194,10 @@ a.open-panel {
         -moz-transition: all .6s ease;
         -o-transition: all .6s ease;
     }
-    #content .twelve.columns > h2,
-    #content .twelve.columns > p,
-    #content .twelve.columns > p + p {
+
+    #content .twelve.columns>h2,
+    #content .twelve.columns>p,
+    #content .twelve.columns>p+p {
         max-width: 600px;
     }
 }
@@ -1143,6 +1212,7 @@ a.open-panel {
     display: inline-block;
     width: 1em;
     height: 1em;
+
     svg {
         fill: currentColor;
         width: 1em;
