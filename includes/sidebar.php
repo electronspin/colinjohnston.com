@@ -1,7 +1,7 @@
 <div class="four columns sidebar">
     <div class="sidebar-container">
         <div id="branding">
-            <h1 id="logo"><a href="/"><img src="/images/colinjohnston-logo-DIN.png" border="0" alt="Colin Johnston - Design for Web, Print &amp; Mobile in San Francisco"></a></h1>
+            <h1 id="logo"><a href="/"><img src="/images/colinjohnston-logo-DIN.png" border="0" alt=""></a></h1>
             <a href="#" class="open-panel"><span class="svg-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
   <path id="menu-icon" d="M0 119.5h128v-16H0v16zM0 72h128V56H0v16zm0-48h128V8H0v16z"/>
