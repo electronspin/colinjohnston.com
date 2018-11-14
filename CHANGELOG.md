@@ -7,6 +7,7 @@ This project adheres to [Semantic Versioning](http://semver.org/) (It's probably
 ## [v1.9.4]
 
 ### Changes
+- New nav style on desktop plus new icon
 
 ### Refactoring
 - Revert async js load
@@ -14,6 +15,7 @@ This project adheres to [Semantic Versioning](http://semver.org/) (It's probably
 ### Fixed
 - Lots of typos! Yikes.
 - Fix hovers on various content links 
+- Remove alt txt from logo to fix h1 flicker
 
 ## [v1.9.3] - 2018-08-21
 
