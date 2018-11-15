@@ -3401,9 +3401,9 @@ body {
 a {
   color: #4d8bdc; }
 
-#logo a img {
+#logo img {
   opacity: 0.6; }
-  #logo a img:hover {
+  #logo img:hover {
     opacity: 1; }
 
 #content p {
@@ -3480,7 +3480,20 @@ p {
   margin: 2px 0; }
 
 h1#logo {
-  margin: 0; }
+  margin: 0;
+  height: initial; }
+  h1#logo.animate {
+    -webkit-transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
+    transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
+    transition: opacity .7s ease .3s, transform .2s ease .3s;
+    transition: opacity .7s ease .3s, transform .2s ease .3s, -webkit-transform .2s ease .3s;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.4; }
+    h1#logo.animate.inview {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 0.6; }
 
 div.imagebox div.orbit {
   margin-bottom: 0; }
@@ -4182,7 +4195,8 @@ a.open-panel {
     position: relative;
     display: block; }
   #branding {
-    width: 241px; }
+    width: 241px;
+    height: auto; }
   .overview {
     max-width: 600px; }
   figcaption {

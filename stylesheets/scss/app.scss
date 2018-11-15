@@ -38,7 +38,7 @@ a {
 //     font-weight: 300
 // }
 
-#logo a img {
+#logo img {
     opacity: 0.6;
 
     &:hover {
@@ -151,7 +151,17 @@ p {
 }
 
 h1#logo {
-    margin: 0
+    margin: 0;
+    height: initial;
+    &.animate {
+        transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
+        transform: scale(1);
+        opacity: 0.4;
+        &.inview {
+            transform: scale(1);
+            opacity: 0.6;
+        }
+    }
 }
 
 div.imagebox div.orbit {
@@ -1221,6 +1231,7 @@ a.open-panel {
 
     #branding {
         width: 241px;
+        height: auto;
     }
 
     #content p {
