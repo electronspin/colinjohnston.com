@@ -15,7 +15,7 @@
                     <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
                     <div class="row">
                         <div class="twelve columns">
-                            <div class="imagebox">
+                            <div class="imagebox animate">
                                 <a href="#" data-reveal-id="rollbar-identity-refresh-businesscards">
               <img
                 srcset="/images/rollbar-identity-refresh-businesscards_small.jpg 400w,
@@ -27,7 +27,7 @@
                 alt="<?php echo $rbid ?>">
             </a>
                             </div>
-                            <h2><?php echo $rbid ?></h2>
+                            <h2 class="animate"><?php echo $rbid ?></h2>
                             <?php include('overview.php') ?>
                             <p></p>
                         </div>

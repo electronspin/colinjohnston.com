@@ -15,7 +15,7 @@
                     <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
                     <div class="row">
                         <div class="twelve columns">
-                            <div class="imagebox">
+                            <div class="imagebox animate">
                                 <img srcset="/images/moovweb-control-center-main_small.jpg 400w,
                         /images/moovweb-control-center-main_medium.jpg 800w,
                         /images/moovweb-control-center-main_large.jpg 1200w,
@@ -23,7 +23,7 @@
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
                         src="/images/moovweb-control-center-main_small.jpg" alt="<?php echo $mwcc ?>">
                             </div>
-                            <h2><?php echo $mwcc ?></h2>
+                            <h2 class="animate"><?php echo $mwcc ?></h2>
                             <?php include('overview.php') ?>
                             <p>To view the
                                 <?php echo $mwcc ?> go to <a href="http://console.moovweb.com/downloads" name="" target="_blank">console.moovweb.com</a> and create a free account. You can view demo projects under the account 'Moovweb Demos' to see the interface live.</p>

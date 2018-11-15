@@ -23,7 +23,7 @@
      
       <div class="row">
         <div class="twelve columns">
-          <div class="imagebox">
+          <div class="imagebox animate">
             <a href="#" data-reveal-id="saffo-home-responsive">
               <img
                 srcset="/images/saffo-home-responsive_small.jpg 400w,
@@ -35,9 +35,7 @@
                 alt="Paul Saffo Website">
             </a>
           </div>
-          <h2>Paul Saffo Website</h2>
-          <p>Website and identity design for forecaster Paul Saffo. The design presents his journal and a large collection of content in a clean, responsive interface. </p><p>I developed the site with progressive enhancement techniques for compatibility from Android 2.3 up to the latest desktop browsers.</p>
-          
+          <h2 class="animate">Paul Saffo Website</h2>
           <?php include('overview.php') ?>
           
           <p></p>

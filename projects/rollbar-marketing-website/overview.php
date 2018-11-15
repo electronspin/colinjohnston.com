@@ -1,4 +1,4 @@
-<div class="overview">
+<div class="overview animate">
     <!-- overview-main -->
     <div class="overview-main">
         <p>Rollbar is a real-time error alerting and debugging tool for software developers.</p>

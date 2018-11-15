@@ -1,4 +1,4 @@
-<div class="overview">
+<div class="overview animate">
     <!-- overview-main -->
     <div class="overview-main">
         <p>Moovweb is an Enterprise software solution for delivering customized mobile experiences from a single codebase.</p><p>As lead product designer, I collaborated with product owners and engineering leads to redesign the primary Moovweb application management interface. </p>

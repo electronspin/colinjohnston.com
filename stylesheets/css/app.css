@@ -3401,9 +3401,9 @@ body {
 a {
   color: #4d8bdc; }
 
-#logo a img {
+#logo img {
   opacity: 0.6; }
-  #logo a img:hover {
+  #logo img:hover {
     opacity: 1; }
 
 #content p {
@@ -3480,7 +3480,20 @@ p {
   margin: 2px 0; }
 
 h1#logo {
-  margin: 0; }
+  margin: 0;
+  height: initial; }
+  h1#logo.animate {
+    -webkit-transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
+    transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
+    transition: opacity .7s ease .3s, transform .2s ease .3s;
+    transition: opacity .7s ease .3s, transform .2s ease .3s, -webkit-transform .2s ease .3s;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.5; }
+    h1#logo.animate.inview {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 0.6; }
 
 div.imagebox div.orbit {
   margin-bottom: 0; }
@@ -4182,7 +4195,8 @@ a.open-panel {
     position: relative;
     display: block; }
   #branding {
-    width: 241px; }
+    width: 241px;
+    height: auto; }
   .overview {
     max-width: 600px; }
   figcaption {
@@ -4215,3 +4229,121 @@ a.open-panel {
     fill: currentColor;
     width: 1em;
     height: 1em; }
+
+ul.block-grid li:nth-child(1) .imagebox.animate {
+  -webkit-transition: opacity .7s ease .3s, -webkit-transform .1s ease .3s;
+  transition: opacity .7s ease .3s, -webkit-transform .1s ease .3s;
+  transition: opacity .7s ease .3s, transform .1s ease .3s;
+  transition: opacity .7s ease .3s, transform .1s ease .3s, -webkit-transform .1s ease .3s;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  opacity: 0; }
+  ul.block-grid li:nth-child(1) .imagebox.animate.inview {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+
+ul.block-grid li:nth-child(2) .imagebox.animate {
+  -webkit-transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
+  transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
+  transition: opacity .7s ease .3s, transform .2s ease .3s;
+  transition: opacity .7s ease .3s, transform .2s ease .3s, -webkit-transform .2s ease .3s;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  opacity: 0; }
+  ul.block-grid li:nth-child(2) .imagebox.animate.inview {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+
+ul.block-grid li:nth-child(3) .imagebox.animate {
+  -webkit-transition: opacity .7s ease .3s, -webkit-transform .3s ease .3s;
+  transition: opacity .7s ease .3s, -webkit-transform .3s ease .3s;
+  transition: opacity .7s ease .3s, transform .3s ease .3s;
+  transition: opacity .7s ease .3s, transform .3s ease .3s, -webkit-transform .3s ease .3s;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  opacity: 0; }
+  ul.block-grid li:nth-child(3) .imagebox.animate.inview {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+
+ul.block-grid li:nth-child(4) .imagebox.animate {
+  -webkit-transition: opacity .7s ease .3s, -webkit-transform .4s ease .3s;
+  transition: opacity .7s ease .3s, -webkit-transform .4s ease .3s;
+  transition: opacity .7s ease .3s, transform .4s ease .3s;
+  transition: opacity .7s ease .3s, transform .4s ease .3s, -webkit-transform .4s ease .3s;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  opacity: 0; }
+  ul.block-grid li:nth-child(4) .imagebox.animate.inview {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+
+ul.block-grid li:nth-child(5) .imagebox.animate {
+  -webkit-transition: opacity .7s ease .3s, -webkit-transform .5s ease .3s;
+  transition: opacity .7s ease .3s, -webkit-transform .5s ease .3s;
+  transition: opacity .7s ease .3s, transform .5s ease .3s;
+  transition: opacity .7s ease .3s, transform .5s ease .3s, -webkit-transform .5s ease .3s;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  opacity: 0; }
+  ul.block-grid li:nth-child(5) .imagebox.animate.inview {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+
+ul.block-grid li:nth-child(6) .imagebox.animate {
+  -webkit-transition: opacity .7s ease .3s, -webkit-transform .6s ease .3s;
+  transition: opacity .7s ease .3s, -webkit-transform .6s ease .3s;
+  transition: opacity .7s ease .3s, transform .6s ease .3s;
+  transition: opacity .7s ease .3s, transform .6s ease .3s, -webkit-transform .6s ease .3s;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  opacity: 0; }
+  ul.block-grid li:nth-child(6) .imagebox.animate.inview {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+
+ul.block-grid li:nth-child(7) .imagebox.animate {
+  -webkit-transition: opacity .7s ease .3s, -webkit-transform .7s ease .3s;
+  transition: opacity .7s ease .3s, -webkit-transform .7s ease .3s;
+  transition: opacity .7s ease .3s, transform .7s ease .3s;
+  transition: opacity .7s ease .3s, transform .7s ease .3s, -webkit-transform .7s ease .3s;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  opacity: 0; }
+  ul.block-grid li:nth-child(7) .imagebox.animate.inview {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+
+div#content .imagebox.animate {
+  -webkit-transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
+  transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
+  transition: opacity .7s ease .3s, transform .2s ease .3s;
+  transition: opacity .7s ease .3s, transform .2s ease .3s, -webkit-transform .2s ease .3s;
+  -webkit-transform: scale(0.925);
+          transform: scale(0.925);
+  opacity: 0; }
+  div#content .imagebox.animate.inview {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+
+div#content h2.animate {
+  -webkit-transition: opacity .8s ease .3s;
+  transition: opacity .8s ease .3s;
+  opacity: 0; }
+  div#content h2.animate.inview {
+    opacity: 1; }
+
+div#content .overview.animate {
+  -webkit-transition: opacity 1.5s ease .3s;
+  transition: opacity 1.5s ease .3s;
+  opacity: 0; }
+  div#content .overview.animate.inview {
+    opacity: 1; }
