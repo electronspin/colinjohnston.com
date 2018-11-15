@@ -15,7 +15,7 @@
                 <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
                 <div class="row">
                     <div class="twelve columns">
-                        <div class="imagebox">
+                        <div class="imagebox animate">
                             <a href="#" data-reveal-id="moovweb-dev-center-downloads">
               <img
                 srcset="/images/moovweb-dev-center-downloads_small.jpg 400w,
@@ -27,7 +27,7 @@
                 alt="<?php echo $mwdc ?>">
             </a>
                         </div>
-                        <h2><?php echo $mwdc ?></h2>
+                        <h2 class="animate"><?php echo $mwdc ?></h2>
                         <?php include('overview.php') ?>
                         <p>View the Developer Center at <a href="http://developer.moovweb.com/" name="" target="_blank">developer.moovweb.com</a></p>
                         <p></p>

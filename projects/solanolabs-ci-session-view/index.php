@@ -15,7 +15,7 @@
                     <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
                     <div class="row">
                         <div class="twelve columns">
-                            <div class="imagebox">
+                            <div class="imagebox animate">
                                 <a href="#" data-reveal-id="solanolabs-sessionview-v2">
               <img
                 srcset="/images/solanolabs-sessionview-v2_small.jpg 400w,
@@ -27,7 +27,7 @@
                 alt="<?php echo $slcs ?>">
             </a>
                             </div>
-                            <h2><?php echo $slcs ?></h2>
+                            <h2 class="animate"><?php echo $slcs ?></h2>
                             <?php include('overview.php') ?>
                             <p></p>
                         </div>

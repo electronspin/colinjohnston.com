@@ -1,7 +1,8 @@
-<div class="overview">
+<div class="overview animate">
     <!-- overview-main -->
     <div class="overview-main">
         <!-- <a name="top"> -->
+        <p>Website and identity design for forecaster Paul Saffo. The design presents his journal and a large collection of content in a clean, responsive interface. </p><p>I developed the site with progressive enhancement techniques for compatibility from Android 2.3 up to the latest desktop browsers.</p>
         <ul class="tabs" data-tab>
             <li class="tab-title active">
                 <a href="#overview">
