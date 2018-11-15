@@ -3660,6 +3660,9 @@ ul.side-nav li.active a {
   opacity: 0.5;
   margin-left: 0.5em; }
 
+.side-nav li.active:hover:after {
+  opacity: 0.8; }
+
 @media only screen and (min-width: 768px) {
   .side-nav li:not(.active) a:after {
     content: "";
@@ -3781,15 +3784,17 @@ ul.services a {
   font-size: 1em;
   font-weight: 400;
   padding: 1em 1.25em;
-  background-color: #999;
+  background-color: #545860;
   -border-radius: 9px;
   border-radius: 9px;
   -webkit-transition: all .25s ease;
-  transition: all .25s ease; }
+  transition: all .25s ease;
+  opacity: 0.6; }
 
 .contact-email:hover {
   color: #fff;
-  background-color: #333; }
+  background-color: #333;
+  opacity: 1; }
 
 .contact-email:focus {
   color: #fff;
