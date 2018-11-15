@@ -337,6 +337,13 @@ p.tagline {
     font-weight: 700
 }
 
+nav {
+    @media only screen and (min-width: 768px) {
+        margin-top: 2em;
+        //margin-left: 2em;
+    }
+}
+
 .side-nav li {
     color: #777;
     font-weight: 700;
@@ -344,7 +351,8 @@ p.tagline {
 }
 
 ul.side-nav li a {
-    color: #777;
+    // color: #777;
+    color: #78a7e4;
     font-weight: 400;
     //transition: all .25s ease;
     position: relative;
@@ -353,9 +361,46 @@ ul.side-nav li a {
 
 .side-nav li a:hover,
 ul.side-nav li.active a {
-    color: #000;
+    // color: #000;
+    color: #545860;
     font-weight: 400 !important;
     transition: all .25s ease;
+}
+
+ul.side-nav li.active a {
+    //padding-left: 2em;
+    //color: #545860;
+    color: #78a7e4;
+    &:hover {
+        cursor: default;
+    }
+}
+
+// .side-nav li.active:before {
+//     position: absolute;
+//     margin-right: .5em;
+//     left: -1.65em;
+//     display: inline-block;
+//     content: url(/images/icon-eye.svg);
+//     width: 1.1em;
+//     height: 1.1em;
+//     margin-top: .175em;
+//     opacity: 0.5;
+// }
+
+.side-nav li.active:after {
+    position: absolute;
+    display: inline-block;
+    content: url(/images/icon-eye.svg);
+    width: 1.1em;
+    height: 1.1em;
+    margin-top: .225em;
+    opacity: 0.5;
+    margin-left: 0.5em;
+}
+
+.side-nav li.active:hover:after {
+    opacity: 0.8;
 }
 
 @media only screen and (min-width: 768px) {
@@ -396,10 +441,15 @@ ul.side-nav li {
 }
 
 ul.side-nav li.nav-list-title {
+    // text-transform: uppercase;
+    // font-size: 14px;
+    // letter-spacing: 0.05em;
+    // color: #bdbdbd;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.05em;
-    color: #bdbdbd;
+    color: #3a3a3a;
+    margin-bottom: 6px;
 }
 
 .overview-sidebar .panel {
@@ -507,17 +557,20 @@ ul.services a {
     font-size: 1em;
     font-weight: 400;
     padding: 1em 1.25em;
-    background-color: #999;
+    // background-color: #999;
+    background-color: #545860;
     -border-radius: 9px;
     -moz-border-radius: 9px;
     -webkit-border-radius: 9px;
     border-radius: 9px;
-    transition: all .25s ease
+    transition: all .25s ease;
+    opacity: 0.6;
 }
 
 .contact-email:hover {
     color: #fff;
     background-color: #333;
+    opacity: 1;
 }
 
 .contact-email:focus {
