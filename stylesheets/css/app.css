@@ -3390,6 +3390,7 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
     top: -12px;
     left: 10px; } }
 
+/* functions */
 /* web fonts */
 /* main styles */
 body {
@@ -3408,7 +3409,8 @@ a {
 
 #content p {
   font-size: 1.25em;
-  margin-bottom: 0.5em; }
+  margin-bottom: 1em;
+  letter-spacing: -0.008em; }
 
 #content p a:not(.sidebar-button) {
   padding: 0 2px;
@@ -3445,7 +3447,9 @@ h2 {
   font-size: 2em; }
 
 #content h2 {
-  margin-top: 1.5em; }
+  margin-top: 2em;
+  margin-bottom: 1em;
+  letter-spacing: -0.016em; }
 
 h3 {
   font-size: 1.5em; }
@@ -3462,6 +3466,13 @@ div.panel h5,
   font-size: 1.25em;
   font-family: "Inter UI", sans-serif;
   text-transform: none; }
+
+div.panel h5 {
+  color: #545860;
+  margin-top: 0.375em !important; }
+
+div.panel p:last-child {
+  margin-bottom: 0.375em !important; }
 
 .overview-main h5 {
   text-transform: uppercase;
@@ -3563,7 +3574,7 @@ ul.services a {
 
 .overview-main h4 {
   margin-top: 1.5em;
-  margin-bottom: .5em; }
+  margin-bottom: 1em; }
 
 #content p a.to-top {
   font-size: 0.8em;
@@ -3582,9 +3593,14 @@ ul.services a {
   font-size: 1.25em;
   margin-left: 2em; }
 
-.overview-sidebar li {
+.overview-sidebar ul li {
   font-size: 1em;
-  margin-left: 0; }
+  margin-left: 0;
+  line-height: 1.8;
+  list-style-type: disc; }
+
+.overview-sidebar ul > ul li {
+  list-style-type: circle; }
 
 #content p.case-caption {
   margin-top: -1em;
@@ -3711,8 +3727,8 @@ ul.side-nav li.nav-list-title {
   margin-bottom: 6px; }
 
 .overview-sidebar .panel {
-  background: #F2F2F2;
-  border: 1px solid #E6E6E6;
+  background-color: #eeeeef;
+  border: 1px solid #cccdcf;
   margin: 5px 0 22px;
   padding-top: 1.25em;
   padding-bottom: 1.25em; }
@@ -3726,7 +3742,7 @@ ul.side-nav li.nav-list-title {
 ol.services,
 ul.services {
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.8;
   margin-bottom: 3px;
   list-style-position: outside;
   margin-left: 17px; }
@@ -3801,17 +3817,15 @@ ul.services a {
   -border-radius: 9px;
   border-radius: 9px;
   -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-  opacity: 0.6; }
+  transition: all .25s ease; }
 
 .contact-email:hover {
   color: #fff;
-  background-color: #333;
-  opacity: 1; }
+  background-color: #4d8bdc; }
 
 .contact-email:focus {
   color: #fff;
-  background-color: #4d8bdc; }
+  background-color: #333; }
 
 #pagebottom {
   padding-top: 3em;
@@ -4133,11 +4147,13 @@ a.open-panel {
   line-height: 1.6;
   margin: 1.5em 0 0;
   padding: 0.25em 0.75em 0.33em;
-  background-color: #999;
+  background-color: #545860;
   -border-radius: 9px;
   border-radius: 9px;
   -webkit-transition: all .25s ease;
-  transition: all .25s ease; }
+  transition: all .25s ease;
+  width: 100%;
+  text-align: center; }
 
 .sidebar-button:hover {
   color: #fff;
