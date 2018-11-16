@@ -3654,7 +3654,7 @@ p.tagline {
 
 @media only screen and (min-width: 768px) {
   nav {
-    margin-top: 2em; } }
+    margin-top: 1.5em; } }
 
 .side-nav li {
   color: #777;
@@ -3806,7 +3806,7 @@ ul.services a {
   border-bottom: dotted 1px #333; }
 
 .contact-button {
-  margin: 3em 0; }
+  margin: 3.5em 0; }
 
 .contact-email {
   color: #fff;

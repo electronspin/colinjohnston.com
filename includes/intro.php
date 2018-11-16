@@ -1,1 +1,6 @@
-Digital Product Designer and Graphic Designer in San Francisco, California.<br/>I design for web and mobile, with a focus on user-centered design process and clear, thoughtful user experiences.
+<p class="intro">
+I'm a Designer based in San Francisco, California.  
+</p>
+<p class="intro">
+I help companies deliver quality products through research and design sprints, user-centered interaction design, rapid prototyping, and polished front-end design. I thrive on iterating with cross-functional teams to arrive at simple solutions to complex problems.
+</p>
