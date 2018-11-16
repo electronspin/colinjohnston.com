@@ -1,6 +1,6 @@
 {
   "name": "colinjohnston",
-  "version": "1.9.6",
+  "version": "1.9.7",
   "description": "Personal Website and Professional Portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
