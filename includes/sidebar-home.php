@@ -8,9 +8,9 @@
 </svg>
             </span>Menu</a>
         </div>
-        <p class="intro">
+        <div>
             <?php include('intro.php') ?>
-        </p>
+        </div>
         <nav>
         <a href="#" class="close-panel"><span class="svg-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">

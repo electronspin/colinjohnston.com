@@ -12,6 +12,16 @@
 @import "foundation";
 @import "variables";
 
+/* functions */ 
+
+@function tint($color, $percentage) {
+    @return mix(white, $color, $percentage);
+  }
+@function shade($color, $percentage) {
+@return mix(black, $color, $percentage);
+}
+
+
 /* web fonts */
 
 //@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
@@ -48,7 +58,8 @@ a {
 
 #content p {
     font-size: 1.25em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
+    letter-spacing: -0.008em;
 }
 
 #content p a:not(.sidebar-button) {
@@ -102,7 +113,9 @@ h2 {
 }
 
 #content h2 {
-    margin-top: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    letter-spacing: -0.016em;
 }
 
 h3 {
@@ -124,6 +137,15 @@ div.panel h5,
     font-family: $display-font;
     text-transform: none;
     //@include type-display;
+}
+
+div.panel h5 {
+    color: $slate-gray;
+    margin-top: 0.375em !important; // TODO refactor
+}
+
+div.panel p:last-child {
+    margin-bottom: 0.375em !important; // TODO refactor
 }
 
 .overview-main h5 {
@@ -246,7 +268,7 @@ ul.services a {
 
 .overview-main h4 {
     margin-top: 1.5em;
-    margin-bottom: .5em
+    margin-bottom: 1em;
 }
 
 #content p a.to-top {
@@ -275,9 +297,15 @@ ul.services a {
     margin-left: 2em;
 }
 
-.overview-sidebar li {
+.overview-sidebar ul li {
     font-size: 1em;
     margin-left: 0;
+    line-height: 1.8;
+    list-style-type: disc;
+}
+
+.overview-sidebar ul > ul li {
+    list-style-type: circle;
 }
 
 #content p.case-caption {
@@ -349,7 +377,7 @@ p.tagline {
 
 nav {
     @media only screen and (min-width: 768px) {
-        margin-top: 2em;
+        margin-top: 1.5em;
         //margin-left: 2em;
     }
 }
@@ -463,8 +491,9 @@ ul.side-nav li.nav-list-title {
 }
 
 .overview-sidebar .panel {
-    background: #F2F2F2;
-    border: 1px solid #E6E6E6;
+    //background: #F2F2F2;
+    background-color: tint($slate-gray, 90);
+    border: 1px solid tint($slate-gray, 70);
     margin: 5px 0 22px;
     //padding: 20px;
     padding-top: 1.25em;
@@ -481,7 +510,7 @@ ul.side-nav li.nav-list-title {
 ol.services,
 ul.services {
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.8;
     margin-bottom: 3px;
     list-style-position: outside;
     margin-left: 17px
@@ -559,7 +588,7 @@ ul.services a {
 }
 
 .contact-button {
-    margin: 3em 0
+    margin: 3.5em 0;
 }
 
 .contact-email {
@@ -568,24 +597,26 @@ ul.services a {
     font-weight: 400;
     padding: 1em 1.25em;
     // background-color: #999;
-    background-color: #545860;
+    background-color: $slate-gray;
     -border-radius: 9px;
     -moz-border-radius: 9px;
     -webkit-border-radius: 9px;
     border-radius: 9px;
     transition: all .25s ease;
-    opacity: 0.6;
+    // opacity: 0.6;
 }
 
 .contact-email:hover {
     color: #fff;
-    background-color: #333;
-    opacity: 1;
+    background-color: $content-link;
+    // background-color: #333;
+    // opacity: 1;
 }
 
 .contact-email:focus {
     color: #fff;
-    background-color: $content-link;
+    background-color: #333;
+    // background-color: $content-link;
 }
 
 #pagetop {
@@ -1112,12 +1143,14 @@ a.open-panel {
     line-height: 1.6;
     margin: 1.5em 0 0;
     padding: 0.25em 0.75em 0.33em;
-    background-color: #999;
+    background-color: $slate-gray;
     -border-radius: 9px;
     -moz-border-radius: 9px;
     -webkit-border-radius: 9px;
     border-radius: 9px;
     transition: all .25s ease;
+    width: 100%;
+    text-align: center;
 
     @media only screen and (max-width: 767px) {
         //padding: 0.5em 0.75em;
