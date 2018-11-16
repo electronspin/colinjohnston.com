@@ -4,6 +4,14 @@ All notable changes to colinjohnston.com project are documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/) (It's probably not necessary, but as a designer I like to practice good developer habits.) 
 
+## [v1.9.6] - 2018-11-16
+
+### Changes
+
+- Type and style polish: tighten Inter UI kerning; enhance some colors, etc.
+- Intro rewrite
+- Add npm scripts for staging and deploy
+
 ## [v1.9.5] - 2018-11-14
 
 ### Changes
