@@ -1456,3 +1456,52 @@ div#content .overview {
         }
     }
 }
+
+// reveal-modal full 
+
+.reveal-modal.full {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    margin-left: -50%;
+    height: 100vh;
+
+    padding: 0;
+}
+
+.reveal-modal {
+    
+}
+
+.modal-container {
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reveal-modal img {
+
+    
+    
+    width: 95vw;
+    height: auto;
+
+    @media only screen and (min-width: 768px) {
+        width: auto;
+        height: 90vh;
+    }
+}
+
+// clean up close icon
+
+.reveal-modal .close-reveal-modal:not(.button) {
+    font-size: 2.2rem;
+    line-height: 1;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: black;
+    text-shadow: none;
+    font-weight: 700;
+    cursor: pointer;
+}

@@ -4363,3 +4363,41 @@ div#content .overview.animate {
   opacity: 0; }
   div#content .overview.animate.inview {
     opacity: 1; }
+
+.reveal-modal.full {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  margin-left: -50%;
+  height: 100vh;
+  padding: 0; }
+
+.modal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.reveal-modal img {
+  width: 95vw;
+  height: auto; }
+  @media only screen and (min-width: 768px) {
+    .reveal-modal img {
+      width: auto;
+      height: 90vh; } }
+
+.reveal-modal .close-reveal-modal:not(.button) {
+  font-size: 2.2rem;
+  line-height: 1;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: black;
+  text-shadow: none;
+  font-weight: 700;
+  cursor: pointer; }
