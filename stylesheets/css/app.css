@@ -4373,6 +4373,7 @@ div#content .overview.animate {
   padding: 0; }
 
 .modal-container {
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
