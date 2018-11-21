@@ -1473,6 +1473,7 @@ div#content .overview {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: scroll;
 }
 
 .reveal-modal img {
@@ -1480,7 +1481,7 @@ div#content .overview {
     height: auto;
     @media only screen and (min-width: 768px) {
         width: auto;
-        height: 90vh;
+        //height: 90vh;
     }
 }
 

@@ -4382,15 +4382,15 @@ div#content .overview.animate {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  overflow: scroll; }
 
 .reveal-modal img {
   width: 95vw;
   height: auto; }
   @media only screen and (min-width: 768px) {
     .reveal-modal img {
-      width: auto;
-      height: 90vh; } }
+      width: auto; } }
 
 .reveal-modal .close-reveal-modal:not(.button) {
   font-size: 2.2rem;
