@@ -16,12 +16,14 @@
                     <div class="row">
                         <div class="twelve columns">
                             <div class="imagebox animate">
+                            <a href="#" data-reveal-id="moovweb-control-center-main">
                                 <img srcset="/images/moovweb-control-center-main_small.jpg 400w,
                         /images/moovweb-control-center-main_medium.jpg 800w,
                         /images/moovweb-control-center-main_large.jpg 1200w,
                         /images/moovweb-control-center-main_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
                         src="/images/moovweb-control-center-main_small.jpg" alt="<?php echo $mwcc ?>">
+                            </a>
                             </div>
                             <h2 class="animate"><?php echo $mwcc ?></h2>
                             <?php include('overview.php') ?>

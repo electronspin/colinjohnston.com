@@ -263,8 +263,7 @@ abbr {
     color: black !important;
     box-shadow: none !important;
     text-shadow: none !important;
-    -webkit-filter: none !important;
-            filter: none !important;
+    filter: none !important;
     -ms-filter: none !important; }
   /* Black prints faster: h5bp.com/s */
   a, a:visited {
@@ -379,7 +378,6 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   padding: 6px;
   height: 32px;
   width: 100%;
-  -webkit-transition: all 0.15s linear;
   transition: all 0.15s linear; }
 
 input[type="text"].oversize, input[type="password"].oversize, input[type="date"].oversize, input[type="datetime"].oversize, input[type="email"].oversize, input[type="number"].oversize, input[type="search"].oversize, input[type="tel"].oversize, input[type="time"].oversize, input[type="url"].oversize, textarea.oversize {
@@ -1847,7 +1845,6 @@ ul.accordion > li > div.title {
   position: relative;
   border-left: 1px solid #e9e9e9;
   border-right: 1px solid #e9e9e9;
-  -webkit-transition: 0.15s background linear;
   transition: 0.15s background linear; }
 
 ul.accordion > li > div.title h1, ul.accordion > li > div.title h2, ul.accordion > li > div.title h3, ul.accordion > li > div.title h4, ul.accordion > li > div.title h5 {
@@ -2074,9 +2071,7 @@ ul.inline-list > li > *, ul.link-list > li > * {
   border: solid 4px #fff;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
-  -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  -webkit-transition-duration: 300ms;
   transition-duration: 300ms; }
 
 .th:hover img, .th:focus img {
@@ -3414,7 +3409,6 @@ a {
 
 #content p a:not(.sidebar-button) {
   padding: 0 2px;
-  -webkit-transition: all .25s ease;
   transition: all .25s ease; }
   #content p a:not(.sidebar-button):visited {
     color: #222; }
@@ -3494,16 +3488,11 @@ h1#logo {
   margin: 0;
   height: initial; }
   h1#logo.animate {
-    -webkit-transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
-    transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
     transition: opacity .7s ease .3s, transform .2s ease .3s;
-    transition: opacity .7s ease .3s, transform .2s ease .3s, -webkit-transform .2s ease .3s;
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 0.5; }
     h1#logo.animate.inview {
-      -webkit-transform: scale(1);
-              transform: scale(1);
+      transform: scale(1);
       opacity: 0.6; }
 
 div.imagebox div.orbit {
@@ -3636,7 +3625,6 @@ p.tagline {
 #content p.case-caption a {
   font-weight: 400;
   color: #4d8bdc;
-  -webkit-transition: all .25s ease;
   transition: all .25s ease; }
   #content p.case-caption a:visited {
     color: #222; }
@@ -3671,7 +3659,6 @@ ul.side-nav li a {
 ul.side-nav li.active a {
   color: #545860;
   font-weight: 400 !important;
-  -webkit-transition: all .25s ease;
   transition: all .25s ease; }
 
 ul.side-nav li.active a {
@@ -3701,7 +3688,6 @@ ul.side-nav li.active a {
     bottom: 0.125em;
     left: 50%;
     right: 50%;
-    -webkit-transition: left 250ms ease-in-out, right 250ms ease-in-out;
     transition: left 250ms ease-in-out, right 250ms ease-in-out;
     margin-top: 0.25em;
     border-bottom: 2px solid #b8d0f1; }
@@ -3798,7 +3784,6 @@ ul.services a {
   font-weight: 400; }
 
 .label.services a {
-  -webkit-transition: all .25s ease;
   transition: all .25s ease; }
 
 .label.services a:hover {
@@ -3816,7 +3801,6 @@ ul.services a {
   background-color: #545860;
   -border-radius: 9px;
   border-radius: 9px;
-  -webkit-transition: all .25s ease;
   transition: all .25s ease; }
 
 .contact-email:hover {
@@ -3996,12 +3980,8 @@ a.open-panel {
     left: -1.5em; }
   .openNav #page {
     left: 0;
-    -webkit-transform: translate3d(20em, 0, 0);
     transform: translate3d(20em, 0, 0);
-    -webkit-transition: -webkit-transform 500ms ease;
-    transition: -webkit-transform 500ms ease;
-    transition: transform 500ms ease;
-    transition: transform 500ms ease, -webkit-transform 500ms ease; }
+    transition: transform 500ms ease; }
   #page,
   .openNav #page {
     -o-transition: -o-transform 500ms ease;
@@ -4009,18 +3989,11 @@ a.open-panel {
     -webkit-transition: -webkit-transform 500ms ease; }
   #page {
     left: 0;
-    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    -webkit-transition: -webkit-transform 500ms ease;
-    transition: -webkit-transform 500ms ease;
-    transition: transform 500ms ease;
-    transition: transform 500ms ease, -webkit-transform 500ms ease; } }
+    transition: transform 500ms ease; } }
 
 .reveal-modal img {
   margin: 2em 0; }
-
-.modal-img-border img {
-  border: 1px solid #666; }
 
 .video-wrapper {
   padding-bottom: 56.25%;
@@ -4073,7 +4046,6 @@ a.open-panel {
   height: auto;
   line-height: 40px; }
   .tabs li.tab-title a:after {
-    -webkit-transition: top 100ms ease-in-out;
     transition: top 100ms ease-in-out;
     content: "";
     height: 0px;
@@ -4150,7 +4122,6 @@ a.open-panel {
   background-color: #545860;
   -border-radius: 9px;
   border-radius: 9px;
-  -webkit-transition: all .25s ease;
   transition: all .25s ease;
   width: 100%;
   text-align: center; }
@@ -4247,118 +4218,76 @@ a.open-panel {
     height: 1em; }
 
 ul.block-grid li:nth-child(1) .imagebox.animate {
-  -webkit-transition: opacity .7s ease .3s, -webkit-transform .1s ease .3s;
-  transition: opacity .7s ease .3s, -webkit-transform .1s ease .3s;
   transition: opacity .7s ease .3s, transform .1s ease .3s;
-  transition: opacity .7s ease .3s, transform .1s ease .3s, -webkit-transform .1s ease .3s;
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  transform: scale(0.8);
   opacity: 0; }
   ul.block-grid li:nth-child(1) .imagebox.animate.inview {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1; }
 
 ul.block-grid li:nth-child(2) .imagebox.animate {
-  -webkit-transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
-  transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
   transition: opacity .7s ease .3s, transform .2s ease .3s;
-  transition: opacity .7s ease .3s, transform .2s ease .3s, -webkit-transform .2s ease .3s;
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  transform: scale(0.8);
   opacity: 0; }
   ul.block-grid li:nth-child(2) .imagebox.animate.inview {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1; }
 
 ul.block-grid li:nth-child(3) .imagebox.animate {
-  -webkit-transition: opacity .7s ease .3s, -webkit-transform .3s ease .3s;
-  transition: opacity .7s ease .3s, -webkit-transform .3s ease .3s;
   transition: opacity .7s ease .3s, transform .3s ease .3s;
-  transition: opacity .7s ease .3s, transform .3s ease .3s, -webkit-transform .3s ease .3s;
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  transform: scale(0.8);
   opacity: 0; }
   ul.block-grid li:nth-child(3) .imagebox.animate.inview {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1; }
 
 ul.block-grid li:nth-child(4) .imagebox.animate {
-  -webkit-transition: opacity .7s ease .3s, -webkit-transform .4s ease .3s;
-  transition: opacity .7s ease .3s, -webkit-transform .4s ease .3s;
   transition: opacity .7s ease .3s, transform .4s ease .3s;
-  transition: opacity .7s ease .3s, transform .4s ease .3s, -webkit-transform .4s ease .3s;
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  transform: scale(0.8);
   opacity: 0; }
   ul.block-grid li:nth-child(4) .imagebox.animate.inview {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1; }
 
 ul.block-grid li:nth-child(5) .imagebox.animate {
-  -webkit-transition: opacity .7s ease .3s, -webkit-transform .5s ease .3s;
-  transition: opacity .7s ease .3s, -webkit-transform .5s ease .3s;
   transition: opacity .7s ease .3s, transform .5s ease .3s;
-  transition: opacity .7s ease .3s, transform .5s ease .3s, -webkit-transform .5s ease .3s;
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  transform: scale(0.8);
   opacity: 0; }
   ul.block-grid li:nth-child(5) .imagebox.animate.inview {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1; }
 
 ul.block-grid li:nth-child(6) .imagebox.animate {
-  -webkit-transition: opacity .7s ease .3s, -webkit-transform .6s ease .3s;
-  transition: opacity .7s ease .3s, -webkit-transform .6s ease .3s;
   transition: opacity .7s ease .3s, transform .6s ease .3s;
-  transition: opacity .7s ease .3s, transform .6s ease .3s, -webkit-transform .6s ease .3s;
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  transform: scale(0.8);
   opacity: 0; }
   ul.block-grid li:nth-child(6) .imagebox.animate.inview {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1; }
 
 ul.block-grid li:nth-child(7) .imagebox.animate {
-  -webkit-transition: opacity .7s ease .3s, -webkit-transform .7s ease .3s;
-  transition: opacity .7s ease .3s, -webkit-transform .7s ease .3s;
   transition: opacity .7s ease .3s, transform .7s ease .3s;
-  transition: opacity .7s ease .3s, transform .7s ease .3s, -webkit-transform .7s ease .3s;
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  transform: scale(0.8);
   opacity: 0; }
   ul.block-grid li:nth-child(7) .imagebox.animate.inview {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1; }
 
 div#content .imagebox.animate {
-  -webkit-transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
-  transition: opacity .7s ease .3s, -webkit-transform .2s ease .3s;
   transition: opacity .7s ease .3s, transform .2s ease .3s;
-  transition: opacity .7s ease .3s, transform .2s ease .3s, -webkit-transform .2s ease .3s;
-  -webkit-transform: scale(0.925);
-          transform: scale(0.925);
+  transform: scale(0.925);
   opacity: 0; }
   div#content .imagebox.animate.inview {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1; }
 
 div#content h2.animate {
-  -webkit-transition: opacity .8s ease .3s;
   transition: opacity .8s ease .3s;
   opacity: 0; }
   div#content h2.animate.inview {
     opacity: 1; }
 
 div#content .overview.animate {
-  -webkit-transition: opacity 1.5s ease .3s;
   transition: opacity 1.5s ease .3s;
   opacity: 0; }
   div#content .overview.animate.inview {
@@ -4366,31 +4295,30 @@ div#content .overview.animate {
 
 .reveal-modal.full {
   top: 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   margin-left: -50%;
   height: 100vh;
-  padding: 0; }
+  padding: 0;
+  background-color: #aaacb0; }
+  .reveal-modal.full h2 {
+    display: none; }
 
 .modal-container {
   height: 100vh;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   overflow: scroll; }
 
 .reveal-modal img {
-  width: 95vw;
-  height: auto; }
+  max-width: 95%; }
   @media only screen and (min-width: 768px) {
     .reveal-modal img {
-      width: auto; } }
+      max-height: 95%; } }
 
 .reveal-modal .close-reveal-modal:not(.button) {
   font-size: 2.2rem;
@@ -4402,3 +4330,6 @@ div#content .overview.animate {
   text-shadow: none;
   font-weight: 700;
   cursor: pointer; }
+
+body.noscroll {
+  overflow: hidden; }

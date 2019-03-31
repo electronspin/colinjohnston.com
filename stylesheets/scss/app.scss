@@ -938,7 +938,8 @@ a.open-panel {
 }
 
 .modal-img-border img {
-    border: 1px solid #666;
+    // border: 1px solid #666;
+    // TODO: clean up
 }
 
 // .close-reveal-modal {
@@ -1461,11 +1462,16 @@ div#content .overview {
 
 .reveal-modal.full {
     top: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     margin-left: -50%;
     height: 100vh;
     padding: 0;
+    background-color: tint($slate-gray, 50);
+    h2 {
+        display: none; 
+        // TODO: fix this - remove from DOM or clean up UI
+    }
 }
 
 .modal-container {
@@ -1473,19 +1479,18 @@ div#content .overview {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: scroll;
+    overflow: scroll; 
+    //position: fixed;
 }
 
 .reveal-modal img {
-    width: 95vw;
-    height: auto;
+    max-width: 95%;
     @media only screen and (min-width: 768px) {
-        width: auto;
-        //height: 90vh;
+        max-height: 95%;
     }
 }
 
-// clean up close icon
+// clean up close icon - keep in case we go back to 'close x'
 .reveal-modal .close-reveal-modal:not(.button) {
     font-size: 2.2rem;
     line-height: 1;
@@ -1496,4 +1501,18 @@ div#content .overview {
     text-shadow: none;
     font-weight: 700;
     cursor: pointer;
+}
+
+// a[data-reveal-id] {
+//     cursor: zoom-in;
+// }
+
+// .reveal-modal .close-reveal-modal:not(.button) {
+//     // use ':not(.button) to override foundation noises
+//     // position: relative;
+//     // cursor: zoom-out;
+// }
+
+body.noscroll {
+    overflow: hidden;
 }
