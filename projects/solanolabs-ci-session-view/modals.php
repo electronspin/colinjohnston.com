@@ -7,7 +7,7 @@
     <image data-src="/images/solanolabs-sessionview-v2_full.jpg" class="lazyload" alt="<?php echo $slcs; ?> - Final Designs">
     <a class="close-reveal-modal">&#215;</a>
   </div>
-<div id="solanolabs-sessionview-v2" class="reveal-modal expand modal-img-border"> 
+</div>
 
 <!-- solanolabs-sessionview-personas -->
 <div id="solanolabs-sessionview-personas" class="reveal-modal full modal-img-border">
@@ -16,7 +16,7 @@
     <image data-src="/images/solanolabs-sessionview-personas_full.jpg" class="lazyload" alt="<?php echo $slcs; ?> - Personas">
     <a class="close-reveal-modal">&#215;</a>
   </div>
-<div id="solanolabs-sessionview-personas" class="reveal-modal expand modal-img-border"> 
+</div> 
 
 <!-- solanolabs-sessionview-research-notations -->
 <div id="solanolabs-sessionview-research-notations" class="reveal-modal full modal-img-border">
