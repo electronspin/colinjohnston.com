@@ -6,9 +6,9 @@
 <!-- saffo-identity-icons-sketch -->
 <div class="imagebox">
     <a href="#" data-reveal-id="saffo-identity-icons-sketch">
-        <img srcset="/images/saffo-identity-icons-sketch_small.jpg 400w,
+        <img class="lazyload" data-srcset="/images/saffo-identity-icons-sketch_small.jpg 400w,
                         /images/saffo-identity-icons-sketch_medium.jpg 800w,
-                        /images/saffo-identity-icons-sketch_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-identity-icons-sketch_medium.jpg" alt="Paul Saffo Identity - Icon Sketches">
+                        /images/saffo-identity-icons-sketch_large.jpg 1200w" data-sizes"(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-identity-icons-sketch_medium.jpg" alt="Paul Saffo Identity - Icon Sketches">
     </a>
 </div>
 <p class="case-caption"><strong>Icon Sketches</strong> - Exploring the geometry of the About Icon before going in to Illustrator. Sketching like this in pencil helps me really think through the details. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-identity-icons-sketch">View Larger Image</a></p>
@@ -17,18 +17,18 @@
                     <!-- saffo-identity-icons-wip -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="saffo-identity-icons-wip">
-                            <img srcset="/images/saffo-identity-icons-wip_small.jpg 400w,
+                            <img class="lazyload" data-srcset="/images/saffo-identity-icons-wip_small.jpg 400w,
                         /images/saffo-identity-icons-wip_medium.jpg 800w,
-                        /images/saffo-identity-icons-wip_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-identity-icons-wip_medium.jpg" alt="Paul Saffo Identity - Icon Designs">
+                        /images/saffo-identity-icons-wip_large.jpg 1200w" data-sizes"(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-identity-icons-wip_medium.jpg" alt="Paul Saffo Identity - Icon Designs">
                         </a>
                     </div>
                     <p class="case-caption"><strong>Icon Design</strong> - Constructing the About Icon in Illustrator. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-identity-icons-wip">View Larger Image</a></span></p>
 <!-- saffo-identity-icons-final" -->
 <div class="imagebox">
     <a href="#" data-reveal-id="saffo-identity-icons-final">
-        <img srcset="/images/saffo-identity-icons-final_small.jpg 400w,
+        <img class="lazyload" data-srcset="/images/saffo-identity-icons-final_small.jpg 400w,
                         /images/saffo-identity-icons-final_medium.jpg 800w,
-                        /images/saffo-identity-icons-final_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-identity-icons-final_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
+                        /images/saffo-identity-icons-final_large.jpg 1200w" data-sizes"(min-width: 48em) 66.6vw, 100vw" src="/images/saffo-identity-icons-final_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
     </a>
 </div>
 <p class="case-caption"><strong>Icon Design</strong> - The final icons ready for SVG export. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-identity-icons-final">View Larger Image</a></span></p>
