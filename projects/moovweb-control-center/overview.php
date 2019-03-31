@@ -47,15 +47,15 @@
                     <h4>Mockups - Moovweb v4</h4>
                     <p>For the earliest iterations of the v4 interfaces I worked first with low-fidelity mockups, enhancing detail progressively until we developed a prototype. We had not yet created the MoovUI style guide. (By the time we began work on v5 I had adjusted our process to include iterations of wireframes before producing refined mockups, or, ideally, MoovUI-based prototypes.</p>
                     <div class="imagebox">
-                        <img srcset="/images/cc-v4-r2-projects-list-mockup_small.png 400w,
+                        <img class="lazyload" data-srcset="/images/cc-v4-r2-projects-list-mockup_small.png 400w,
                           /images/cc-v4-r2-projects-list-mockup_medium.png 800w,
-                          /images/cc-v4-r2-projects-list-mockup_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v4-r2-projects-list-mockup_small.png" alt="Control Center v4 Project Page Mockup - Early Stages">
+                          /images/cc-v4-r2-projects-list-mockup_large.png 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v4-r2-projects-list-mockup_small.png" alt="Control Center v4 Project Page Mockup - Early Stages">
                     </div>
                     <p class="case-caption">Control Center v4 Project Page Mockup - Early Round 2 Design | <a href="#" data-reveal-id="cc-v4-r2-projects-list-mockup">View Larger</a></p>
                     <div class="imagebox">
-                        <img srcset="/images/cc-v4-r5-projects-list-mockup_small.png 400w,
+                        <img class="lazyload" data-srcset="/images/cc-v4-r5-projects-list-mockup_small.png 400w,
                           /images/cc-v4-r5-projects-list-mockup_medium.png 800w,
-                          /images/cc-v4-r5-projects-list-mockup_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v4-r5-projects-list-mockup_small.png" alt="Moovweb Control Center v4 Project Page Mockup">
+                          /images/cc-v4-r5-projects-list-mockup_large.png 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v4-r5-projects-list-mockup_small.png" alt="Moovweb Control Center v4 Project Page Mockup">
                     </div>
                     <p class="case-caption">Control Center v4 Project Page Mockup - Early Round 5 Design | <a href="#" data-reveal-id="cc-v4-r5-projects-list-mockup">View Larger</a></p>
                     <a name="v4"></a>
@@ -63,9 +63,9 @@
                     <p>Using the first production release of
                         <?php echo $moovui ?>.</p>
                     <div class="imagebox">
-                        <img srcset="/images/cc-v4-project-page_small.png 400w,
+                        <img class="lazyload" data-srcset="/images/cc-v4-project-page_small.png 400w,
                           /images/cc-v4-project-page_medium.png 800w,
-                          /images/cc-v4-project-page_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v4-project-page_small.png" alt="Moovweb Control Center v4 Project Page">
+                          /images/cc-v4-project-page_large.png 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v4-project-page_small.png" alt="Moovweb Control Center v4 Project Page">
                     </div>
                     <p class="case-caption">Final Prototype Control Center v4 Project Page Interface <span class="hide-for-small">/ <a href="#" data-reveal-id="cc-v4-project-page">View Larger</a></span></p>
                     <a name="wf-v5"></a>
@@ -75,18 +75,18 @@
                         <div class="six columns">
                             <!-- half-width -->
                             <div class="imagebox">
-                                <img srcset="/images/cc-v5-r1-wireframe-modes-p4_small.png 400w,
+                                <img class="lazyload" data-srcset="/images/cc-v5-r1-wireframe-modes-p4_small.png 400w,
                           /images/cc-v5-r1-wireframe-modes-p4_medium.png 800w,
-                          /images/cc-v5-r1-wireframe-modes-p4_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v5-r1-wireframe-modes-p4_small.png" alt="Moovweb Control Center v5 Wireframes Modes Routing 1">
+                          /images/cc-v5-r1-wireframe-modes-p4_large.png 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v5-r1-wireframe-modes-p4_small.png" alt="Moovweb Control Center v5 Wireframes Modes Routing 1">
                             </div>
                             <p class="case-caption">Wireframe of 'Add Rule' screen for Modes Routing rule configuration <span class="hide-for-small">/ <a href="#" data-reveal-id="cc-v5-r1-wireframe-modes-p4">View Larger</a></span></p>
                         </div>
                         <div class="six columns">
                             <!-- half-width -->
                             <div class="imagebox">
-                                <img srcset="/images/cc-v5-r1-wireframe-modes-p5_small.png 400w,
+                                <img class="lazyload" data-srcset="/images/cc-v5-r1-wireframe-modes-p5_small.png 400w,
                           /images/cc-v5-r1-wireframe-modes-p5_medium.png 800w,
-                          /images/cc-v5-r1-wireframe-modes-p5_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v5-r1-wireframe-modes-p5_small.png" alt="Moovweb Control Center v5 Wireframes Modes Routing 2">
+                          /images/cc-v5-r1-wireframe-modes-p5_large.png 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v5-r1-wireframe-modes-p5_small.png" alt="Moovweb Control Center v5 Wireframes Modes Routing 2">
                             </div>
                             <p class="case-caption">Wireframe of 'Rules Overview' screen in Modes Routing rule management <span class="hide-for-small">/ <a href="#" data-reveal-id="cc-v5-r1-wireframe-modes-p5">View Larger</a></span></p>
                         </div>
@@ -95,9 +95,9 @@
                     <h4>Final Design - Moovweb 5</h4>
                     <p>The initial release of the new Modes Routing tools.</p>
                     <div class="imagebox">
-                        <img srcset="/images/cc-v5-modes-add-rule_small.png 400w,
+                        <img class="lazyload" data-srcset="/images/cc-v5-modes-add-rule_small.png 400w,
                           /images/cc-v5-modes-add-rule_medium.png 800w,
-                          /images/cc-v5-modes-add-rule_large.png 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v5-modes-add-rule_small.png" alt="Moovweb Control Center v5 Modes Routing Screen">
+                          /images/cc-v5-modes-add-rule_large.png 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/cc-v5-modes-add-rule_small.png" alt="Moovweb Control Center v5 Modes Routing Screen">
                     </div>
                     <p class="case-caption">Final Design of the new Modes Routing interface for Control Center v5 <span class="hide-for-small">/ <a href="#" data-reveal-id="cc-v5-modes-add-rule">View Larger</a></span></p>
                 </div>

@@ -48,9 +48,9 @@
                     <!-- solanolabs-sessionview-research-notations -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">
-                            <img srcset="/images/solanolabs-sessionview-research-notations_small.jpg 400w,
+                            <img class="lazyload" data-srcset="/images/solanolabs-sessionview-research-notations_small.jpg 400w,
                         /images/solanolabs-sessionview-research-notations_medium.jpg 800w,
-                        /images/solanolabs-sessionview-research-notations_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-research-notations_medium.jpg" alt="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts" title="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts">
+                        /images/solanolabs-sessionview-research-notations_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-research-notations_medium.jpg" alt="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts" title="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts">
                         </a>
                     </div>
                     <p class="case-caption">
@@ -66,9 +66,9 @@
                     <!-- solanolabs-sessionview-personas -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="solanolabs-sessionview-personas">
-                            <img srcset="/images/solanolabs-sessionview-personas_small.jpg 400w,
+                            <img class="lazyload" data-srcset="/images/solanolabs-sessionview-personas_small.jpg 400w,
                         /images/solanolabs-sessionview-personas_medium.jpg 800w,
-                        /images/solanolabs-sessionview-personas_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-personas_medium.jpg" alt="<?php echo $slcs; ?> - Personas" title="<?php echo $slcs; ?> - Personas">
+                        /images/solanolabs-sessionview-personas_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-personas_medium.jpg" alt="<?php echo $slcs; ?> - Personas" title="<?php echo $slcs; ?> - Personas">
                         </a>
                     </div>
                     <p class="case-caption">
@@ -80,9 +80,9 @@
                     <!-- solanolabs-sessionview-sketches -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="solanolabs-sessionview-sketches">
-                            <img srcset="/images/solanolabs-sessionview-sketches_small.jpg 400w,
+                            <img class="lazyload" data-srcset="/images/solanolabs-sessionview-sketches_small.jpg 400w,
                         /images/solanolabs-sessionview-sketches_medium.jpg 800w,
-                        /images/solanolabs-sessionview-sketches_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-sketches_medium.jpg" alt="<?php echo $slcs; ?> - Sketches" title="<?php echo $slcs; ?> - Sketches">
+                        /images/solanolabs-sessionview-sketches_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-sketches_medium.jpg" alt="<?php echo $slcs; ?> - Sketches" title="<?php echo $slcs; ?> - Sketches">
                         </a>
                     </div>
                     <p class="case-caption">
@@ -97,9 +97,9 @@
                     <!-- solanolabs-sessionview-wireframe1 -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="solanolabs-sessionview-wireframe1">
-                            <img srcset="/images/solanolabs-sessionview-wireframe1_small.jpg 400w,
+                            <img class="lazyload" data-srcset="/images/solanolabs-sessionview-wireframe1_small.jpg 400w,
                         /images/solanolabs-sessionview-wireframe1_medium.jpg 800w,
-                        /images/solanolabs-sessionview-wireframe1_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-wireframe1_medium.jpg" alt="<?php echo $slcs; ?> - Wireframe of Base Layout" title="<?php echo $slcs; ?> - Wireframe of Base Layout">
+                        /images/solanolabs-sessionview-wireframe1_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-wireframe1_medium.jpg" alt="<?php echo $slcs; ?> - Wireframe of Base Layout" title="<?php echo $slcs; ?> - Wireframe of Base Layout">
                         </a>
                     </div>
                     <p class="case-caption">
@@ -127,9 +127,9 @@
                     <!-- solanolabs-sessionview-prototype -->
                     <div class="imagebox">
                         <a href="#" data-reveal-id="solanolabs-sessionview-prototype-codepen">
-                            <img srcset="/images/solanolabs-sessionview-prototype-codepen_small.jpg 400w,
+                            <img class="lazyload" data-srcset="/images/solanolabs-sessionview-prototype-codepen_small.jpg 400w,
                         /images/solanolabs-sessionview-prototype-codepen_medium.jpg 800w,
-                        /images/solanolabs-sessionview-prototype-codepen_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-prototype-codepen_medium.jpg" alt="<?php echo $slcs; ?> - Codepen Prototype" title="<?php echo $slcs; ?> - Codepen Prototype">
+                        /images/solanolabs-sessionview-prototype-codepen_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-prototype-codepen_medium.jpg" alt="<?php echo $slcs; ?> - Codepen Prototype" title="<?php echo $slcs; ?> - Codepen Prototype">
                         </a>
                     </div>
                     <p class="case-caption">
