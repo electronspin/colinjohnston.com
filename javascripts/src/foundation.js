@@ -574,6 +574,11 @@
     //
     $( '#' + modalLocation ).reveal( $( this ).data() );
 
+    // Colin
+    // Add 'noscroll' class to body when modal fires
+    // See L1229 to remove this class on modal destroy
+    $('body').addClass("noscroll");
+
   });
 
   /**
@@ -1159,6 +1164,8 @@
               //
               modal.trigger( 'reveal:closed' );
 
+              
+
             } // end if !modalQueued
 
           } // end if animation 'fade'
@@ -1218,6 +1225,11 @@
         // Unbind all .reveal events from the body.
         //
         $( 'body' ).unbind( '.reveal' );
+
+        // Colin
+        // Remove 'noscroll' class from body when modal is destroyed
+        // See L577 to add this class when creating modal 
+        $('body').removeClass("noscroll");
 
       }
 
