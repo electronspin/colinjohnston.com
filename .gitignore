@@ -51,5 +51,8 @@ node_modules/*
 # Compiled CSS
 /stylesheets/css/*
 
+# Compiled JS
+/javascripts/*.min.js
+
 # Sourcemaps
-*.js.map
+/javascripts/*.js.map

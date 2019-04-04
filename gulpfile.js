@@ -55,9 +55,9 @@ var scripts = {
   app: {
     src: [
 			// 'bower_components/jquery/dist/jquery.js',
-			// 'node_modules/lazysizes/lazysizes.js',
+			'node_modules/lazysizes/lazysizes.js',
       paths.js + 'foundation.js',
-      paths.js + 'custom.js'
+			paths.js + 'custom.js',
     ]
   }
 };

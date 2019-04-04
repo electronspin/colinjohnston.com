@@ -4,6 +4,18 @@ All notable changes to colinjohnston.com project are documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/) (It's probably not necessary, but as a designer I like to practice good developer habits.) 
 
+## [v1.9.9] - 2019-04-04
+
+### Changes
+
+- Lazyload all images
+
+## [v1.9.8] - 2019-03-31
+
+### Changes
+
+- Full-screen modals
+
 ## [v1.9.7] - 2018-11-16
 
 ### Changes
