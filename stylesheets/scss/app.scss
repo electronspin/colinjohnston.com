@@ -1492,7 +1492,7 @@ div#content .overview {
 
 // clean up close icon - keep in case we go back to 'close x'
 .reveal-modal .close-reveal-modal:not(.button) {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
     line-height: 1;
     position: absolute;
     top: 16px;
@@ -1501,6 +1501,18 @@ div#content .overview {
     text-shadow: none;
     font-weight: 700;
     cursor: pointer;
+
+    &:before {
+        content: "esc ";
+        font-size: 1.8rem;
+        font-weight: 400;
+        // line-height: 1;
+        vertical-align: middle;
+        display: inline-block;
+        margin-top: -3px;
+        margin-right: 4px;
+        color: $main-text-color;
+    }
 }
 
 // a[data-reveal-id] {
@@ -1515,4 +1527,16 @@ div#content .overview {
 
 body.noscroll {
     overflow: hidden;
+}
+
+// lazyloads
+
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+    // transition: opacity 300ms;
+    transition: opacity 1s;
 }

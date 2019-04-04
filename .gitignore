@@ -50,3 +50,6 @@ node_modules/*
 
 # Compiled CSS
 /stylesheets/css/*
+
+# Sourcemaps
+*.js.map
