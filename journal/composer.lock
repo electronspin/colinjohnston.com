@@ -1,0 +1,217 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "13dce6407520542047306bfe4007a62b",
+    "packages": [
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "01ab082b355bf188d907b9929cd99b2923053495"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/01ab082b355bf188d907b9929cd99b2923053495",
+                "reference": "01ab082b355bf188d907b9929cd99b2923053495",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Michelf\\": "Michelf/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "https://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "https://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "https://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "time": "2018-01-15T00:49:33+00:00"
+        },
+        {
+            "name": "noodlehaus/dispatch",
+            "version": "10.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/noodlehaus/dispatch.git",
+                "reference": "ab7b2a976d45ff87a06cab3b1436c1b2763e8ac0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/noodlehaus/dispatch/zipball/ab7b2a976d45ff87a06cab3b1436c1b2763e8ac0",
+                "reference": "ab7b2a976d45ff87a06cab3b1436c1b2763e8ac0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "dispatch.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kafene",
+                    "homepage": "https://github.com/kafene",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Martin Angelov",
+                    "homepage": "https://github.com/martinaglv",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "4d47",
+                    "homepage": "https://github.com/4d47",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Bastian Widmer",
+                    "homepage": "https://github.com/dasrecht",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Lloyd Zhou",
+                    "homepage": "https://github.com/lloydzhou",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Darkalemanbr",
+                    "homepage": "https://github.com/darkalemanbr",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Amin By",
+                    "homepage": "https://github.com/xielingwang",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Ross Masters",
+                    "homepage": "https://github.com/rmasters",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Tom Streller",
+                    "homepage": "https://github.com/scan",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Lars",
+                    "homepage": "https://github.com/larsbo",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Ciprian Danea",
+                    "homepage": "https://github.com/cdanea",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Roman Ožana",
+                    "homepage": "https://github.com/OzzyCzech",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Jesus A. Domingo",
+                    "homepage": "http://github.com/noodlehaus/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "a micro-routing library for PHP",
+            "homepage": "http://github.com/noodlehaus/dispatch",
+            "keywords": [
+                "micro",
+                "microframework",
+                "microphp",
+                "router"
+            ],
+            "time": "2016-02-03T17:02:06+00:00"
+        },
+        {
+            "name": "suin/php-rss-writer",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/suin/php-rss-writer.git",
+                "reference": "78f45e44a2a7cb0d82e4b9efb6f7b7a075b9051c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/suin/php-rss-writer/zipball/78f45e44a2a7cb0d82e4b9efb6f7b7a075b9051c",
+                "reference": "78f45e44a2a7cb0d82e4b9efb6f7b7a075b9051c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "eher/phpunit": ">=1.6",
+                "mockery/mockery": ">=0.7.2",
+                "suin/xoopsunit": ">=1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Suin\\RSSWriter": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "suin",
+                    "email": "suinyeze@gmail.com"
+                }
+            ],
+            "description": "Yet another simple RSS writer library for PHP 5.4 or later.",
+            "homepage": "https://github.com/suin/php-rss-writer",
+            "keywords": [
+                "feed",
+                "generator",
+                "php",
+                "rss",
+                "writer"
+            ],
+            "time": "2017-07-13T10:47:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

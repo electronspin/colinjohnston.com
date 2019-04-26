@@ -48,6 +48,9 @@ node_modules/*
 # Blog (Kirby)
 /blog
 
+#Journal vendor etc
+/journal/vendor
+
 # Compiled CSS
 /stylesheets/css/*
 
