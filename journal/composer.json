@@ -2,6 +2,6 @@
     "require": {
         "michelf/php-markdown": "^1.8",
         "suin/php-rss-writer": "^1.6",
-        "noodlehaus/dispatch": "^10.2"
+        "noodlehaus/dispatch": "^1.1.6"
     }
 }

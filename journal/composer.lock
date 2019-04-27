@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "13dce6407520542047306bfe4007a62b",
+    "content-hash": "464f50ed49139db61d0280bf8e6844e5",
     "packages": [
         {
             "name": "michelf/php-markdown",
@@ -54,25 +54,30 @@
         },
         {
             "name": "noodlehaus/dispatch",
-            "version": "10.2.1",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/noodlehaus/dispatch.git",
-                "reference": "ab7b2a976d45ff87a06cab3b1436c1b2763e8ac0"
+                "reference": "bb09a5aa8eae6f4872c84c119847e3afa46e3d52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/noodlehaus/dispatch/zipball/ab7b2a976d45ff87a06cab3b1436c1b2763e8ac0",
-                "reference": "ab7b2a976d45ff87a06cab3b1436c1b2763e8ac0",
+                "url": "https://api.github.com/repos/noodlehaus/dispatch/zipball/bb09a5aa8eae6f4872c84c119847e3afa46e3d52",
+                "reference": "bb09a5aa8eae6f4872c84c119847e3afa46e3d52",
                 "shasum": ""
             },
             "require": {
-                "php": ">= 5.6.0"
+                "php": ">= 5.3.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
             "autoload": {
                 "files": [
-                    "dispatch.php"
+                    "src/dispatch.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -81,80 +86,21 @@
             ],
             "authors": [
                 {
-                    "name": "Kafene",
-                    "homepage": "https://github.com/kafene",
-                    "role": "Contributor"
-                },
-                {
-                    "name": "Martin Angelov",
-                    "homepage": "https://github.com/martinaglv",
-                    "role": "Contributor"
-                },
-                {
-                    "name": "4d47",
-                    "homepage": "https://github.com/4d47",
-                    "role": "Contributor"
-                },
-                {
-                    "name": "Bastian Widmer",
-                    "homepage": "https://github.com/dasrecht",
-                    "role": "Contributor"
-                },
-                {
-                    "name": "Lloyd Zhou",
-                    "homepage": "https://github.com/lloydzhou",
-                    "role": "Contributor"
-                },
-                {
-                    "name": "Darkalemanbr",
-                    "homepage": "https://github.com/darkalemanbr",
-                    "role": "Contributor"
-                },
-                {
-                    "name": "Amin By",
-                    "homepage": "https://github.com/xielingwang",
-                    "role": "Contributor"
-                },
-                {
-                    "name": "Ross Masters",
-                    "homepage": "https://github.com/rmasters",
-                    "role": "Contributor"
-                },
-                {
-                    "name": "Tom Streller",
-                    "homepage": "https://github.com/scan",
-                    "role": "Contributor"
-                },
-                {
-                    "name": "Lars",
-                    "homepage": "https://github.com/larsbo",
-                    "role": "Contributor"
-                },
-                {
-                    "name": "Ciprian Danea",
-                    "homepage": "https://github.com/cdanea",
-                    "role": "Contributor"
-                },
-                {
-                    "name": "Roman Ožana",
-                    "homepage": "https://github.com/OzzyCzech",
-                    "role": "Contributor"
-                },
-                {
                     "name": "Jesus A. Domingo",
-                    "homepage": "http://github.com/noodlehaus/",
+                    "homepage": "http://github.com/noodlehaus",
                     "role": "Developer"
                 }
             ],
-            "description": "a micro-routing library for PHP",
-            "homepage": "http://github.com/noodlehaus/dispatch",
+            "description": "a microframework/front-controller",
+            "homepage": "http://noodlehaus.github.com/dispatch/",
             "keywords": [
+                "framework",
                 "micro",
                 "microframework",
                 "microphp",
                 "router"
             ],
-            "time": "2016-02-03T17:02:06+00:00"
+            "time": "2013-07-19T08:01:19+00:00"
         },
         {
             "name": "suin/php-rss-writer",
