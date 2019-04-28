@@ -4,29 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "464f50ed49139db61d0280bf8e6844e5",
+    "content-hash": "9260250a1c1a4452af20b24b5105ac92",
     "packages": [
         {
-            "name": "michelf/php-markdown",
-            "version": "1.8.0",
+            "name": "dflydev/markdown",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "01ab082b355bf188d907b9929cd99b2923053495"
+                "url": "https://github.com/dflydev/dflydev-markdown.git",
+                "reference": "6baed9b50f29c980795b6656d43722aadb126f7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/01ab082b355bf188d907b9929cd99b2923053495",
-                "reference": "01ab082b355bf188d907b9929cd99b2923053495",
+                "url": "https://api.github.com/repos/dflydev/dflydev-markdown/zipball/6baed9b50f29c980795b6656d43722aadb126f7e",
+                "reference": "6baed9b50f29c980795b6656d43722aadb126f7e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.3"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
             "autoload": {
-                "psr-4": {
-                    "Michelf\\": "Michelf/"
+                "psr-0": {
+                    "dflydev\\markdown": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -35,72 +40,31 @@
             ],
             "authors": [
                 {
+                    "name": "Dragonfly Development Inc.",
+                    "email": "info@dflydev.com",
+                    "homepage": "http://dflydev.com"
+                },
+                {
+                    "name": "Beau Simensen",
+                    "email": "beau@dflydev.com",
+                    "homepage": "http://beausimensen.com"
+                },
+                {
                     "name": "Michel Fortin",
-                    "email": "michel.fortin@michelf.ca",
-                    "homepage": "https://michelf.ca/",
-                    "role": "Developer"
+                    "homepage": "http://michelf.com"
                 },
                 {
                     "name": "John Gruber",
-                    "homepage": "https://daringfireball.net/"
+                    "homepage": "http://daringfireball.net"
                 }
             ],
-            "description": "PHP Markdown",
-            "homepage": "https://michelf.ca/projects/php-markdown/",
+            "description": "PHP Markdown & Extra",
+            "homepage": "http://github.com/dflydev/dflydev-markdown",
             "keywords": [
                 "markdown"
             ],
-            "time": "2018-01-15T00:49:33+00:00"
-        },
-        {
-            "name": "noodlehaus/dispatch",
-            "version": "1.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/noodlehaus/dispatch.git",
-                "reference": "bb09a5aa8eae6f4872c84c119847e3afa46e3d52"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/noodlehaus/dispatch/zipball/bb09a5aa8eae6f4872c84c119847e3afa46e3d52",
-                "reference": "bb09a5aa8eae6f4872c84c119847e3afa46e3d52",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">= 5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/dispatch.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jesus A. Domingo",
-                    "homepage": "http://github.com/noodlehaus",
-                    "role": "Developer"
-                }
-            ],
-            "description": "a microframework/front-controller",
-            "homepage": "http://noodlehaus.github.com/dispatch/",
-            "keywords": [
-                "framework",
-                "micro",
-                "microframework",
-                "microphp",
-                "router"
-            ],
-            "time": "2013-07-19T08:01:19+00:00"
+            "abandoned": "michelf/php-markdown",
+            "time": "2013-09-23T12:00:18+00:00"
         },
         {
             "name": "suin/php-rss-writer",
