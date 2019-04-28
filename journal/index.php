@@ -46,7 +46,7 @@ get('/:year/:month/:name',function($year, $month, $name){
 });
 
 // The JSON API
-get('./api/json',function(){
+get('/api/json',function(){
 
 	header('Content-type: application/json');
 
@@ -55,7 +55,7 @@ get('./api/json',function(){
 });
 
 // Show the RSS feed
-get('./rss',function(){
+get('/rss',function(){
 
 	header('Content-Type: application/rss+xml');
 

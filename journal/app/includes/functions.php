@@ -1,6 +1,6 @@
 <?php
 
-use dflydev\markdown\MarkdownParser;
+use Michelf\MarkdownExtra;
 use \Suin\RSSWriter\Feed;
 use \Suin\RSSWriter\Channel;
 use \Suin\RSSWriter\Item;
@@ -36,7 +36,7 @@ function get_posts($page = 1, $perpage = 0){
 	$tmp = array();
 
 	// Create a new instance of the markdown parser
-	$md = new MarkdownParser();
+	$md = new MarkdownExtra();
 	
 	foreach($posts as $k=>$v){
 
@@ -50,7 +50,7 @@ function get_posts($page = 1, $perpage = 0){
 		$post->url = site_url().date('Y/m', $post->date).'/'.str_replace('.md','',$arr[1]);
 
 		// Get the contents and convert it to HTML
-		$content = $md->transformMarkdown(file_get_contents($v));
+		$content = $md->transform(file_get_contents($v));
 
 		// Extract the title and body
 		$arr = explode('</h1>', $content);
