@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
-  <link rel="stylesheet" href="/stylesheets/css/app.min.css">
+  <link rel="stylesheet" href="/stylesheets/css/main.min.css">
   
   
   <script src="/javascripts/modernizr.foundation.js"></script>
