@@ -9,6 +9,7 @@
  *
  * TOOLS
  * Font-size............A mixin which guarantees baseline-friendly line-heights.
+ * REM..................Mixin to create a declaration whose value is a rem unit.
  * Clearfix.............Micro clearfix mixin.
  * Hidden...............Mixin for hiding elements.
  * Sass MQ..............inuitcss’ default media query manager.
@@ -59,9 +60,15 @@
  * Hide.................Helper classes to hide content
  */
 
+
+ // global
+
+ @import "settings/global";
+
  // tools
 
-//  @import "tools/clearfix";
+@import "tools/clearfix";
+@import "tools/rem";
 
  // start Skeleton
 //  @import "base/normalize";
@@ -82,10 +89,11 @@
  // end Skeleton
  
  // elements
+@import "elements/page";
 //  @import "elements/images";
  
  // objects
- 
+@import "objects/wrapper";
 //  @import "objects/list-inline";
  
  // components
@@ -97,7 +105,7 @@
  
 //  @import "utilities/flexbox";
 
- 
+
  // REFACTOR
 
-@import "refactor/refactor";
+ @import "refactor/refactor";
