@@ -11,18 +11,17 @@
 <body>
     <div id="pagetop">
     </div>
-  <div class="page-wrapper">
+  <div class="o-wrapper o-wrapper-grid">
     
-<div id="page" class="row">
+
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
     
-  <div id="content" class="eight columns">
+  <div id="content" class="o-content .o-layout__grid-item">
       
     <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
      
-      <div class="row">
-        <div class="twelve columns">
+
           <div class="imagebox animate">
             <a href="#" data-reveal-id="saffo-home-responsive">
               <img
@@ -39,12 +38,11 @@
           <?php include('overview.php') ?>
           
           <p></p>
-        </div>
-        </div>
+
       </div>
       
             </div> <!--end eight column content area-->
-        </div> <!--end main row-->
+         <!--end main row-->
     </div> <!--end page wrapper-->
 
 <!-- overview-modals -->

@@ -8,13 +8,12 @@
     <body>
         <div id="pagetop">
         </div>
-        <div class="page-wrapper">
-            <div id="page" class="row">
+        <div class="o-wrapper o-wrapper-grid">
+            
                 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
-                <div id="content" class="eight columns">
+                <div id="content" class="o-content .o-layout__grid-item">
                     <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
-                    <div class="row">
-                        <div class="twelve columns">
+
                             <div class="imagebox animate">
                             <a href="#" data-reveal-id="moovweb-control-center-main">
                                 <img srcset="/images/moovweb-control-center-main_small.jpg 400w,
@@ -30,12 +29,10 @@
                             <p>To view the
                                 <?php echo $mwcc ?> go to <a href="http://console.moovweb.com/downloads" name="" target="_blank">console.moovweb.com</a> and create a free account. You can view demo projects under the account 'Moovweb Demos' to see the interface live.</p>
                             <p></p>
-                        </div>
-                    </div>
+
                 </div>
                 <!--end eight column content area-->
-            </div>
-            <!--end main row-->
+
         </div>
         <!--end page wrapper-->
         <!-- overview-modals -->

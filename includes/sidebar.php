@@ -1,4 +1,4 @@
-<div class="four columns sidebar">
+<div class="o-sidebar o-layout__grid-item">
     <div class="sidebar-container">
         <div id="branding">
             <h1 id="logo" class="animate"><a href="/"><img src="/images/colinjohnston-logo-DIN.png" border="0" alt=""></a></h1>

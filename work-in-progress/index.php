@@ -12,11 +12,11 @@
     </div>
   </div>
   
-<div id="page" class="row">
+
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
     
-  <div id="content" class="eight columns">
+  <div id="content" class="o-content .o-layout__grid-item">
       
     <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
      
@@ -39,7 +39,7 @@
       
   </div> <!--end eight column content area-->
 
-</div> <!--end main row-->
+ <!--end main row-->
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
  

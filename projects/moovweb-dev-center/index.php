@@ -8,13 +8,12 @@
 <body>
     <div id="pagetop">
     </div>
-    <div class="page-wrapper">
-        <div id="page" class="row">
+    <div class="o-wrapper o-wrapper-grid">
+        
             <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
-            <div id="content" class="eight columns">
+            <div id="content" class="o-content .o-layout__grid-item">
                 <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
-                <div class="row">
-                    <div class="twelve columns">
+
                         <div class="imagebox animate">
                             <a href="#" data-reveal-id="moovweb-dev-center-downloads">
               <img
@@ -31,11 +30,9 @@
                         <?php include('overview.php') ?>
                         <p>View the Developer Center at <a href="http://developer.moovweb.com/" name="" target="_blank">developer.moovweb.com</a></p>
                         <p></p>
-                    </div>
-                </div>
+
             </div>
-        </div>
-        <!--end eight column content area-->
+
     </div>
     <!--end main row-->
     </div>
