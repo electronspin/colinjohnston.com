@@ -16,7 +16,7 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
     
-  <div id="content" class="o-content .o-layout__grid-item">
+  <div id="content" class="o-content o-layout__grid-item">
       
     <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
      
