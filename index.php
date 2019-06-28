@@ -8,10 +8,10 @@
 <body>
     <div id="pagetop">
     </div>
-    <div class="page-wrapper">
-        <div id="page" class="row">
+    <div class="o-wrapper o-wrapper-grid">
+
             <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar-home.php') ?>
-            <div id="content" class="eight columns project-thumb-grid">
+            <div id="content" class="o-content .o-layout__grid-item project-thumb-grid">
                 <!-- Convert this to CSS Grid! It's 2018. -->
                 <ul class="block-grid two-up mobile">
 
@@ -117,8 +117,7 @@ images/moovweb-control-center-main_large.jpg 1200w" sizes="(min-width: 48em) 33.
                 </ul>
             </div>
             <!--end eight column content area-->
-        </div>
-        <!--end main row-->
+
     </div>
     <!--end page wrapper-->
     <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>

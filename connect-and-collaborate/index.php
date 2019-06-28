@@ -8,13 +8,13 @@
 <body>
     <div id="pagetop">
     </div>
-    <div class="page-wrapper">
-        <div id="page" class="row">
+    <div class="o-wrapper o-wrapper-grid">
+
             <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar-connect.php') ?>
-            <div id="content" class="eight columns">
+            <div id="content" class="o-content .o-layout__grid-item">
                 <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
-                <div class="row">
-                    <div class="twelve columns">
+
+
                         <div class="imagebox">
                             <figure>
                                 <img srcset="/images/colin-connect-2018_400.jpg 400w,
@@ -38,11 +38,10 @@
                                     <br /> Dribbble: <a href="https://dribbble.com/colinjohnston" target="_blank">colinjohnston</a></p>
 
                         </div>
-                    </div>
-                </div>
+
+
             </div>
-        </div>
-        <!--end eight column content area-->
+
     </div>
     <!--end main row-->
     </div>
