@@ -1,12 +1,17 @@
-/*------------------------------------*\
-  #WRAPPERS
-\*------------------------------------*/
+/*----------------------------------*
+  #WRAPPER
+ *----------------------------------*/
 
-.o-wrapper {
+.o-wrapper { // TODO this is single use for overall page--do we need otehrs?
   @include clearfix();
   max-width: 1280px;
   padding-right: $global-spacing-unit;
   padding-left:  $global-spacing-unit;
   margin-right: auto;
   margin-left:  auto;
+}
+
+.o-wrapper-grid {
+  display: grid;
+  grid-gap: 10px; // TODO should be a global spacing variable
 }

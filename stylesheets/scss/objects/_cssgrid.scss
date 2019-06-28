@@ -1,0 +1,37 @@
+/*----------------------------------*
+  #CSSGRID
+ *----------------------------------*/
+
+ @media screen and (min-width: 500px) {
+
+  /* no grid support? */
+  .o-sidebar {
+    float: left;
+    width: 33.3333%;
+  }
+
+  .o-content {
+    float: right;
+    width: 66.6666%;
+  }
+
+  .o-wrapper {
+    margin: 0 auto;
+    grid-template-columns: 1fr 2fr;
+  }
+  
+  .o-header, .o-footer {
+    grid-column: 1 / -1;
+    /* needed for the floated layout */
+    clear: both; // 
+  }
+
+}
+
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .o-wrapper-grid > * {
+    width: auto;
+    margin: 0;
+  }
+}
