@@ -896,7 +896,7 @@ a.open-panel {
         left: -1.5em;
     }
 
-    .openNav #page {
+    .openNav .o-wrapper {
         left: 0;
         -webkit-transform: translate3d($navwidth, 0, 0);
         -moz-transform: translate3d($navwidth, 0, 0);
@@ -906,14 +906,14 @@ a.open-panel {
         transition: transform 500ms ease
     }
 
-    #page,
-    .openNav #page {
+    .o-wrapper,
+    .openNav .o-wrapper {
         -o-transition: -o-transform 500ms ease;
         -moz-transition: -moz-transform 500ms ease;
         -webkit-transition: -webkit-transform 500ms ease
     }
 
-    #page {
+    .o-wrapper {
         left: 0;
         -webkit-transform: translate3d(0, 0, 0);
         -moz-transform: translate3d(0, 0, 0);
