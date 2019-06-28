@@ -32,12 +32,12 @@
 
                 </div>
                 <!--end eight column content area-->
-
+                <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
         </div>
         <!--end page wrapper-->
         <!-- overview-modals -->
         <?php include('modals.php') ?>
-        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+
     </body>
 
     </html>
