@@ -163,19 +163,19 @@ p {
     margin: 2px 0
 }
 
-h1#logo {
-    margin: 0;
-    height: initial;
-    &.animate {
-        transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
-        transform: scale(1);
-        opacity: 0.5;
-        &.inview {
-            transform: scale(1);
-            opacity: 0.6;
-        }
-    }
-}
+// h1#logo {
+//     margin: 0;
+//     height: initial;
+//     &.animate {
+//         transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
+//         transform: scale(1);
+//         opacity: 0.5;
+//         &.inview {
+//             transform: scale(1);
+//             opacity: 0.6;
+//         }
+//     }
+// }
 
 div.imagebox div.orbit {
     margin-bottom: 0
@@ -725,9 +725,9 @@ a.codedirection {
 }
 
 @media only screen and (min-width:768px) {
-    #branding {
-        width: 86%
-    }
+    // #branding {
+    //     width: 86%
+    // }
 
     p.intro {
         padding-right: 2em
@@ -753,11 +753,11 @@ a.codedirection {
     }
 }
 
-@media screen and (max-width:767px)and (min-width:480px) {
-    #branding {
-        margin-top: -12px
-    }
-}
+// @media screen and (max-width:767px)and (min-width:480px) {
+//     #branding {
+//         margin-top: -12px
+//     }
+// }
 
 .four,
 .row .four {
@@ -798,9 +798,9 @@ a.open-panel {
         min-height: 50em
     }
 
-    #branding {
-        margin: 2em 0 1em
-    }
+    // #branding {
+    //     margin: 2em 0 1em
+    // }
 
     h1#logo {
         display: inline-block;
@@ -1215,9 +1215,9 @@ a.open-panel {
 }
 
 
-#branding h1 {
-    max-width: 241px;
-}
+// #branding h1 {
+//     max-width: 241px;
+// }
 
 
 @media only screen and (min-width: 768px) {
@@ -1228,9 +1228,9 @@ a.open-panel {
     //     width: 280px;
     //     max-width: 33%;
     // }
-    #branding {
-        width: 241px;
-    }
+    // #branding {
+    //     width: 241px;
+    // }
 }
 
 // widescreen layout

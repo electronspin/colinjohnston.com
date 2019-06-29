@@ -1,7 +1,7 @@
 <div class="o-sidebar o-layout__grid-item">
-    <div class="sidebar-container">
-        <div id="branding">
-            <h1 id="logo" class="animate"><a href="/"><img src="/images/colinjohnston-logo-DIN.png" border="0" alt=""></a></h1>
+
+        <div class="c-branding">
+            <a class="c-branding__logo animate" href="/"><img class="c-logo" src="/images/colinjohnston-logo-DIN.png" alt="Colin Johnston"></a>
             <a href="#" class="open-panel"><span class="svg-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
   <path id="menu-icon" d="M0 119.5h128v-16H0v16zM0 72h128V56H0v16zm0-48h128V8H0v16z"/>
@@ -23,6 +23,6 @@
             </ul>
         </nav>
         <p class="contact-button hide-for-small"><a class="contact-email" href="/connect-and-collaborate">Contact</a></p>
-    </div>
+
 </div>
-<!--end four columns sidebar-->
+<!--end sidebar-->

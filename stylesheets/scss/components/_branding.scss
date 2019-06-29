@@ -1,0 +1,40 @@
+/*----------------------------------*
+  #BRANDING
+ *----------------------------------*/
+
+/**
+* Logo
+*/
+
+.c-branding {
+  width: 86%;
+  width: 241px; // TODO fix up
+  margin-bottom: $global-spacing-unit;
+  @media screen and (max-width:767px) and (min-width:480px) { // TODO ugh refactor
+    margin-top: -12px;
+  }
+  @media only screen and (max-width:767px) {
+    margin: 2em 0 1em;
+  }
+}
+
+.c-branding__logo {
+  max-width: 241px; // Why?
+  margin: 0;
+    height: initial;
+    &.animate {
+        transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
+        transform: scale(1);
+        opacity: 0.5;
+        &.inview {
+            transform: scale(1);
+            opacity: 0.6;
+        }
+    }
+}
+
+.c-logo {
+  opacity: 0.6;
+  &:hover { opacity: 1.0; }
+}
+

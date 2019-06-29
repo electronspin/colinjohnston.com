@@ -47,6 +47,7 @@
  *
  * COMPONENTS
  * Intro..............Intro block in sidebar (header)
+ * Branding...........Logo
  Buttons..............An example button component, and how it fits into the
  *                      inuitcss framework.
  *
@@ -112,6 +113,7 @@
  
  // components
 @import "components/intro";
+@import "components/branding";
 //  @import "components/logo";
 //  @import "components/nav";
  
