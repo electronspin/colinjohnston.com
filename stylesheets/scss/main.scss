@@ -47,7 +47,7 @@
  *
  * COMPONENTS
  * Intro..............Intro block in sidebar (header)
- * Branding...........Logo
+ * Branding...........[WIP] Logo 
  Buttons..............An example button component, and how it fits into the
  *                      inuitcss framework.
  *
@@ -55,10 +55,8 @@
  Clearfix.............Bind our clearfix onto a utility class.
  Widths...............Simple width helper classes.
  Headings.............Reassigning our heading styles to helper classes.
- Spacings.............Nudge bits of the DOM around with these spacing
-                      classes.
- Responsive-Spacings..Enhances the function of normal spacings for
-                      responsive usage.
+ Spacings.............Nudge bits of the DOM around with these spacing classes.
+ Responsive-Spacings..Enhances the function of normal spacings for responsive usage.
  Print................Reset-like styles taken from the HTML5 Boilerplate.
  Hide.................Helper classes to hide content
  */
@@ -78,6 +76,7 @@
  @import "tools/rem";
 
  // generic
+
  @import "generic/box-sizing";
  @import "generic/normalize";
  @import "generic/reset";
@@ -90,7 +89,6 @@
 //  @import "base/base-styles";
 //  @import "base/utils";
 //  @import "base/typography";
- 
 //  @import "modules/grid";
 //  @import "modules/buttons";
 //  @import "modules/forms";
@@ -102,16 +100,19 @@
  // end Skeleton
  
  // elements
+
 @import "elements/page";
 //  @import "elements/images";
  
  // objects
+
 @import "objects/wrapper";
 @import "objects/layout";
 @import "objects/cssgrid";
 //  @import "objects/list-inline";
  
  // components
+ 
 @import "components/intro";
 @import "components/branding";
 //  @import "components/logo";
