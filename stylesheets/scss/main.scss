@@ -48,6 +48,7 @@
  * COMPONENTS
  * Intro..............Intro block in sidebar (header)
  * Branding...........[WIP] Logo 
+ * Modals.............Lightbox modal for designs and photos
  Buttons..............An example button component, and how it fits into the
  *                      inuitcss framework.
  *
@@ -112,9 +113,10 @@
 //  @import "objects/list-inline";
  
  // components
- 
+
 @import "components/intro";
 @import "components/branding";
+@import "components/modals";
 //  @import "components/logo";
 //  @import "components/nav";
  

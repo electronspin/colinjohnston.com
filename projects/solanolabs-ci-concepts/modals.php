@@ -1,14 +1,14 @@
-<div id="solanolabs-ci-concept-main-passed" class="reveal-modal expand modal-img-border"> <!-- [expand, xlarge, large, medium, small] -->
+<div id="solanolabs-ci-concept-main-passed" class="c-modal c-modal--full"> <!-- [expand, xlarge, large, medium, small] -->
   <h2>Solano Labs CI Product Concepts - Report Page</h2>
 
-  <img src="/images/solanolabs-ci-concept-main-passed_full.jpg" alt="Solano Labs CI Product Concepts - Report Page">
-  <a class="close-reveal-modal">&#215;</a>
+  <img src="/images/solanolabs-ci-concept-main-passed_full.jpg" class="c-modal__asset lazyload" alt="Solano Labs CI Product Concepts - Report Page">
+  <a class="c-modal__close-action">&#215;</a>
 </div>
 
-<div id="solanolabs-session-view_v1-5" class="reveal-modal expand modal-img-border"> <!-- [expand, xlarge, large, medium, small] -->
+<div id="solanolabs-session-view_v1-5" class="c-modal c-modal--full"> <!-- [expand, xlarge, large, medium, small] -->
   <h2>Solano Labs - Session View v1.5 (Early 2016)</h2>
 
-  <img src="/images/solanolabs-session-view_v1-5_full.jpg" alt="Solano Labs - Session View v1.5 (Late 2015)">
-  <a class="close-reveal-modal">&#215;</a>
+  <img src="/images/solanolabs-session-view_v1-5_full.jpg" class="c-modal__asset lazyload" alt="Solano Labs - Session View v1.5 (Late 2015)">
+  <a class="c-modal__close-action">&#215;</a>
 </div>
 

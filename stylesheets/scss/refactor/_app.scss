@@ -933,7 +933,7 @@ a.open-panel {
     // TODO: clean up
 }
 
-// .close-reveal-modal {
+// .c-modal__close-action {
 //     text-shadow: none;
 //     font-size: 1.5rem;
 //     &:after {
@@ -1449,72 +1449,11 @@ div#content .overview {
     }
 }
 
-// reveal-modal full 
 
-.reveal-modal.full {
-    top: 0;
-    position: absolute;
-    width: 100%;
-    margin-left: -50%;
-    height: 100vh;
-    padding: 0;
-    background-color: tint($slate-gray, 50);
-    h2 {
-        display: none; 
-        // TODO: fix this - remove from DOM or clean up UI
-    }
-}
 
-.modal-container {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: scroll; 
-    //position: fixed;
-}
 
-.reveal-modal img {
-    max-width: 95%;
-    @media only screen and (min-width: 768px) {
-        max-height: 95%;
-    }
-}
 
-// clean up close icon - keep in case we go back to 'close x'
-.reveal-modal .close-reveal-modal:not(.button) {
-    font-size: 2.8rem;
-    line-height: 1;
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    color: black;
-    text-shadow: none;
-    font-weight: 700;
-    cursor: pointer;
 
-    &:before {
-        content: "esc ";
-        font-size: 1.8rem;
-        font-weight: 400;
-        // line-height: 1;
-        vertical-align: middle;
-        display: inline-block;
-        margin-top: -3px;
-        margin-right: 4px;
-        color: $main-text-color;
-    }
-}
-
-// a[data-reveal-id] {
-//     cursor: zoom-in;
-// }
-
-// .reveal-modal .close-reveal-modal:not(.button) {
-//     // use ':not(.button) to override foundation noises
-//     // position: relative;
-//     // cursor: zoom-out;
-// }
 
 body.noscroll {
     overflow: hidden;

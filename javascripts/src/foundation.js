@@ -539,6 +539,17 @@
   $.fn.foundationCustomForms = $.foundation.customForms.appendCustomMarkup;
 
 })( jQuery );
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /*
  * jQuery Reveal Plugin 1.1
@@ -623,13 +634,13 @@
            * This element will close an open modal.
            *
            @example
-           <a href='#close' class='close-reveal-modal'>Close Me</a>
+           <a href='#close' class='c-modal__close-action'>Close Me</a>
            *
            * @property dismissModalClass
            * @type {String}
-           * @default close-reveal-modal
+           * @default c-modal__close-action
            */
-          dismissModalClass: 'close-reveal-modal',
+          dismissModalClass: 'c-modal__close-action',
           /**
            * Specify a callback function that triggers 'before' the modal opens.
            *
@@ -673,7 +684,7 @@
     //
     // Apply the plugin functionality to each element in the jQuery collection.
     //
-    return this.not('.reveal-modal.open').each( function () {
+    return this.not('.c-modal.open').each( function () {
         //
         // Cache the modal element
         //
@@ -694,7 +705,7 @@
         //
         // Get the modal background element.
         //
-        modalBg = $( '.reveal-modal-bg' ),
+        modalBg = $( '.c-modal__bg' ),
         //
         // Show modal properties
         //
@@ -756,7 +767,7 @@
         //
         // No we don't. So, let's create one.
         //
-        modalBg = $( '<div />', { 'class' : 'reveal-modal-bg' } )
+        modalBg = $( '<div />', { 'class' : 'c-modal__bg' } )
         //
         // Then insert it after the modal element.
         //
@@ -798,7 +809,7 @@
         //
         // Get all reveal-modal elements with the .open class.
         //
-        var $openModals = $( ".reveal-modal.open" );
+        var $openModals = $( ".c-modal.open" );
         //
         // Do we have modals to close?
         //
@@ -1348,7 +1359,14 @@
 } ( jQuery ) );
 
 
-
+//
+//
+//
+//
+//
+//
+//
+//
 // Foundation 3.x Tabs
 
 ;(function ($, window, document, undefined) {
