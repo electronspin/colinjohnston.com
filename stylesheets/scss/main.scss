@@ -12,14 +12,14 @@
  * Typography...........A mixin which guarantees baseline-friendly line-heights.
  * REM..................Mixin to create a declaration whose value is a rem unit.
  * Clearfix.............Micro clearfix mixin.
-Hidden...............Mixin for hiding elements.
+ Hidden...............Mixin for hiding elements.
  Sass MQ..............inuitcss’ default media query manager.
  *
  * GENERIC
- Box-sizing...........Better default `box-sizing`.
- Normalize.css........A level playing field using @necolas’ Normalize.css.
- Reset................A tiny reset to complement Normalize.css.
- Shared...............Sensibly and tersely share some global commonalities
+ * Box-sizing...........Better default `box-sizing`.
+ * Normalize.css........A level playing field using @necolas’ Normalize.css v8.0.1
+ * Reset................A tiny reset to complement Normalize.css.
+ * Shared...............Sensibly and tersely share some global commonalities
  *                      (particularly useful when managing vertical rhythm).
  *
  * ELEMENTS
@@ -33,7 +33,7 @@ Hidden...............Mixin for hiding elements.
  * OBJECTS
  * Wrapper..............Page constraint object.
  * Layout...............Generic layout module.
- * Grid...............CSS Grid.
+ * CSS Grid...............CSS Grid.
  Media................Image- and text-like content side by side. The
  *                      poster-child of OOCSS.
  Flag.................Table-layout-based advancement on the Media object.
@@ -75,6 +75,12 @@ Hidden...............Mixin for hiding elements.
  @import "tools/typography";
  @import "tools/clearfix";
  @import "tools/rem";
+
+ // generic
+ @import "generic/box-sizing";
+ @import "generic/normalize";
+ @import "generic/reset";
+ @import "generic/shared";
 
  // start Skeleton
 //  @import "base/normalize";
