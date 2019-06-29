@@ -6,8 +6,9 @@
 * Logo
 */
 
+// TODO clean up; this is a bit of a mess
+
 .c-branding {
-  
   margin-bottom: $global-spacing-unit;
   @media screen and (max-width:767px) and (min-width:480px) { // TODO ugh refactor
     margin-top: -12px;
@@ -18,7 +19,6 @@
 }
 
 .c-branding__logo {
-
   margin: 0;
   height: initial;
   &.animate {
