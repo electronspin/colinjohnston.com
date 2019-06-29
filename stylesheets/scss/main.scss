@@ -23,8 +23,7 @@
  *                      (particularly useful when managing vertical rhythm).
  *
  * ELEMENTS
- * Page.................Set up our document’s default `font-size` and
- *                      `line-height`.
+ * Page.................Set up our document’s default `font-size` and line-height`.
  Headings.............Very minimal (i.e. only font-size information) for
  *                      headings 1 through 6.
  Images...............Base image styles.
@@ -47,6 +46,7 @@
  Pack.................Pack items into available horizontal space.
  *
  * COMPONENTS
+ * Intro..............Intro block in sidebar (header)
  Buttons..............An example button component, and how it fits into the
  *                      inuitcss framework.
  *
@@ -111,7 +111,7 @@
 //  @import "objects/list-inline";
  
  // components
- 
+@import "components/intro";
 //  @import "components/logo";
 //  @import "components/nav";
  
