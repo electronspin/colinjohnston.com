@@ -12,20 +12,9 @@
 @return mix(black, $color, $percentage);
 }
 
-
-/* web fonts */
-
-//@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-//@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i');
-
 /* main styles */
 
 body {
-    // background-color: $main-bg-color;
-    // background-color: $medium-bg-color;
-    //font-family: Lato, sans-serif;
-    //font-family: 'Noto Sans', sans-serif;
-    //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-family: $text-font;
     color: $main-text-color;
 }
@@ -33,11 +22,6 @@ body {
 a {
     color: $content-link;
 }
-
-// body,
-// h3 {
-//     font-weight: 300
-// }
 
 #logo img {
     opacity: 0.6;
@@ -47,11 +31,11 @@ a {
     }
 }
 
-#content p {
-    font-size: 1.25em;
-    margin-bottom: 1em;
-    letter-spacing: -0.008em;
-}
+// #content p {
+//     font-size: 1.25em;
+//     margin-bottom: 1em;
+//     letter-spacing: -0.008em;
+// }
 
 #content p a:not(.sidebar-button) {
     padding: 0 2px;
@@ -610,18 +594,7 @@ ul.services a {
     // background-color: $content-link;
 }
 
-#pagetop {
-    //@media only screen and (min-width: 768px) {
-    //height: 1em;
-    //background-color: lighten($cjd-branding, 30%);
-    //display: block;
-    //}
-}
 
-#pagebottom {
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
 
 p.copyright {
     font-size: .9em;
@@ -753,30 +726,6 @@ a.codedirection {
     }
 }
 
-// @media screen and (max-width:767px)and (min-width:480px) {
-//     #branding {
-//         margin-top: -12px
-//     }
-// }
-
-.four,
-.row .four {
-    width: 33%
-}
-
-.eight,
-.row .eight {
-    width: 67%
-}
-
-#page {
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
-
-// #content {
-//     padding-top: .5em
-// }
 
 a.close-panel,
 a.open-panel {
@@ -862,10 +811,6 @@ a.open-panel {
         background: darken($dark-brand-bg, 5);
     }
 
-    ul.side-nav li.nav-list-title:hover {
-        //background: 0 0;
-    }
-
     ul.side-nav li a {
         font-weight: 400;
         //color: #fff;
@@ -928,18 +873,6 @@ a.open-panel {
     margin: 2em 0;
 }
 
-.modal-img-border img {
-    // border: 1px solid #666;
-    // TODO: clean up
-}
-
-// .c-modal__close-action {
-//     text-shadow: none;
-//     font-size: 1.5rem;
-//     &:after {
-//         content: '\e039';
-//     }
-// }
 .video-wrapper {
     padding-bottom: 56.25%;
     /* 16:9 */
@@ -1159,14 +1092,11 @@ a.open-panel {
     background-color: #333
 }
 
-// .page-wrapper {
-//     background-color: $main-bg-color;
-// }
 
 .activities-label {
     font-size: 0.825em;
     text-transform: uppercase;
-    //letter-spacing: 1px;
+
 }
 
 .bottom-tab-nav-next,
@@ -1212,25 +1142,6 @@ a.open-panel {
         //content: "←" !important;
         //margin-left: 0.25em;
     }
-}
-
-
-// #branding h1 {
-//     max-width: 241px;
-// }
-
-
-@media only screen and (min-width: 768px) {
-
-    // fixed sidebar idea
-    // .sidebar-container {
-    //     position: fixed;
-    //     width: 280px;
-    //     max-width: 33%;
-    // }
-    // #branding {
-    //     width: 241px;
-    // }
 }
 
 // widescreen layout
@@ -1291,11 +1202,7 @@ a.open-panel {
     }
 }
 
-// @media only screen and (min-width: 768px) {
-//     .page-wrapper {
-//         min-height: 85vh;
-//     }
-// }
+
 
 .svg-icon {
     display: inline-block;
