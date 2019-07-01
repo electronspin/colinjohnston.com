@@ -2,6 +2,11 @@
   #WRAPPER
  *----------------------------------*/
 
+/**
+* 1. Margin-top on main wrapper becuase we have no header to put it on
+*/
+
+
 .o-wrapper { // TODO this is single use for overall page--do we need otehrs?
   @include clearfix();
   max-width: 1280px;
@@ -9,6 +14,10 @@
   padding-left:  $global-spacing-unit;
   margin-right: auto;
   margin-left:  auto;
+}
+
+.o-wrapper--no-header {
+  margin-top: $global-spacing-unit-lg; /* [1] */
 }
 
 .o-wrapper-grid {

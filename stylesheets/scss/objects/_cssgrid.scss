@@ -16,8 +16,7 @@
   }
 
   .o-wrapper {
-    margin: 0 auto;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr; // TODO goes in @supports below?
   }
   
   .o-header, .o-footer {

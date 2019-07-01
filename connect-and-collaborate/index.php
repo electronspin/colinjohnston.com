@@ -8,7 +8,7 @@
 <body>
     <div id="pagetop">
     </div>
-    <div class="o-wrapper o-wrapper-grid">
+    <div class="o-wrapper o-wrapper-grid o-wrapper--no-header">
 
             <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar-connect.php') ?>
             <div id="content" class="o-content o-layout__grid-item">
