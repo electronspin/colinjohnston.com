@@ -17,7 +17,9 @@
 }
 
 .o-wrapper--no-header {
-  margin-top: $global-spacing-unit-lg; /* [1] */
+  @media screen and (min-width: 768px) { 
+    margin-top: $global-spacing-unit-lg; /* [1] */
+  }
 }
 
 .o-wrapper-grid {

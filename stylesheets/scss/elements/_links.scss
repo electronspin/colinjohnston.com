@@ -1,0 +1,20 @@
+/*----------------------------------*
+  #LINKS
+ *----------------------------------*/
+
+// discovr
+
+/**
+ * Default styles for simple hyperlinks.
+ */
+
+ a {
+  color: $primary-link-color;
+  // @include font-weight(bold);
+  text-decoration: none;
+
+  // @include hocus() {
+  //   text-decoration: underline;
+  // }
+
+}

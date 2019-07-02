@@ -6,13 +6,14 @@
  Config...............Project-level configuration and feature switches.
  Core.................inuitcss’ core and setup settings.
  * Global...............Project-wide variables and settings.
- * Colors................Color!
+ * Colors...............Color!
  *
  * TOOLS
  * Typography...........A mixin which guarantees baseline-friendly line-heights.
  * REM..................Mixin to create a declaration whose value is a rem unit.
  * Clearfix.............Micro clearfix mixin.
- Hidden...............Mixin for hiding elements.
+ * Functions............Various functions
+ * Hidden...............[WIP] Mixin for hiding elements.
  Sass MQ..............inuitcss’ default media query manager.
  *
  * GENERIC
@@ -26,7 +27,7 @@
  * Page.................Set up our document’s default `font-size` and line-height`.
  * Headings.............Very minimal (i.e. only font-size information) for
  *                      headings 1 through 6.
- Images...............Base image styles.
+ * Images...............Base image styles.
  Tables...............Simple table styles.
  *
  * OBJECTS
@@ -75,6 +76,8 @@
  @import "tools/typography";
  @import "tools/clearfix";
  @import "tools/rem";
+ @import "tools/functions";
+ @import "tools/hidden";
 
  // generic
 
@@ -104,7 +107,8 @@
 
 @import "elements/page";
 @import "elements/headings";
-//  @import "elements/images";
+@import "elements/links";
+@import "elements/images";
  
  // objects
 
@@ -119,6 +123,7 @@
 @import "components/branding";
 @import "components/modals";
 @import "components/gallery";
+@import "components/side-nav";
 //  @import "components/logo";
 //  @import "components/nav";
  
