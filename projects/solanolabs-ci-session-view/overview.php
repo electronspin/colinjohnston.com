@@ -1,22 +1,22 @@
 <div class="overview animate">
     <!-- overview-main -->
-    <div class="overview-main">
+    <div class="c-project__body">
         <p>Solano CI is a continuous integration product for software development teams.</p>
         <p>As lead product designer at Solano Labs, I redesigned the ‘Session View’&mdash;the comprehensive report of build progress and test results&mdash;and solved major usability issues and increased user trust in the product.</p>
-        <ul class="tabs" data-tab>
-            <li class="tab-title active">
+        <ul class="o-tabs" data-tab>
+            <li class="o-tabs__tab-title  active">
                 <a href="#overview">
                     <?php echo $overview_tab ?>
                 </a>
             </li>
-            <li class="tab-title">
+            <li class="o-tabs__tab-title ">
                 <a href="#process">
                     <?php echo $process_tab ?>
                 </a>
             </li>
         </ul>
-        <ul class="tabs-content">
-            <li class="content active" id="overviewTab">
+        <ul class="o-tabs__tab-content">
+            <li class="active"  id="overviewTab">
                 <div class="overview-content">
                     <!-- overview-sidebar -->
                     <!-- <div class="overview-sidebar">
@@ -74,7 +74,7 @@
               -->
                 </div>
             </li>
-            <li class="content" id="processTab">
+            <li class=""  id="processTab">
                 <!-- overview-sidebar -->
                 <div class="overview-content">
                     <h4>Some Background</h4>

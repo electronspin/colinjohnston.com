@@ -18,7 +18,7 @@
                 </a>
             </li>
         </ul>
-        <!-- <ul class="tabs-content"> -->
+        <!-- <ul class="o-tabs__tab-content"> -->
             <ul class="o-tabs__tab-content">
             <li class="active" id="overviewTab">
                 <div class="">

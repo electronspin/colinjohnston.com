@@ -1,22 +1,22 @@
 <div class="overview animate">
     <!-- overview-main -->
-    <div class="overview-main">
+    <div class="c-project__body">
         <p>Rollbar is a real-time error alerting and debugging tool for software developers.</p>
         <p>I led the design effort to create a new view in the web app that provides users visibility into errors across multiple Rollbar projects.</p>
-        <ul class="tabs" data-tab>
-            <li class="tab-title active">
+        <ul class="o-tabs" data-tab>
+            <li class="o-tabs__tab-title  active">
                 <a href="#overview">
                     <?php echo $overview_tab ?>
                 </a>
             </li>
-            <!-- <li class="tab-title">
+            <!-- <li class="o-tabs__tab-title ">
                 <a href="#process">
                     <?php //echo $process_tab ?>
                 </a>
             </li> -->
         </ul>
-        <ul class="tabs-content">
-            <li class="content active" id="overviewTab">
+        <ul class="o-tabs__tab-content">
+            <li class="active"  id="overviewTab">
                 <div class="overview-content">
                     <!-- overview-sidebar -->
                     <p>The Account Dashboard is a new view in the Rollbar web app specifically designed to give engineers and managers a complete picture of all active projects. </p>
@@ -46,7 +46,7 @@
                     </div>
                 </div>
             </li>
-            <li class="content" id="processTab">
+            <li class=""  id="processTab">
                 <div class="overview-content">
                     <h4>Some Background</h4>
                     <p>At Solano Labs I helped move the product development process to SCRUM and two week sprints. My goal was to restructure the product development process to allow for more design thinking to happen earlier in the cycle.</p>

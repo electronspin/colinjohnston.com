@@ -1,22 +1,22 @@
 <div class="overview animate">
     <!-- overview-main -->
-    <div class="overview-main">
+    <div class="c-project__body">
         <p>Rollbar is a real-time error alerting and debugging tool for software developers.</p>
         <p>After a visual refresh to improve the typography of the corporate identity, I updated the brand and visual identity guidelines.</p>
-        <ul class="tabs" data-tab>
-            <!-- <li class="tab-title active">
+        <ul class="o-tabs" data-tab>
+            <!-- <li class="o-tabs__tab-title  active">
                 <a href="#overview">
                     <?php //echo $overview_tab ?>
                 </a>
             </li> -->
-            <!-- <li class="tab-title">
+            <!-- <li class="o-tabs__tab-title ">
                 <a href="#process">
                     <?php //echo $process_tab ?>
                 </a>
             </li> -->
         </ul>
-        <ul class="tabs-content">
-            <li class="content active" id="overviewTab">
+        <ul class="o-tabs__tab-content">
+            <li class="active"  id="overviewTab">
                 <div class="overview-content">
                     <!-- overview-sidebar -->
                     <!-- <p>Overview intro</p>
@@ -33,7 +33,7 @@
 
                 </div>
             </li>
-            <li class="content" id="processTab">
+            <li class=""  id="processTab">
                 <div class="overview-content">
                   
                 </div>

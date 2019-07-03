@@ -1,22 +1,22 @@
 <div class="overview animate">
     <!-- overview-main -->
-    <div class="overview-main">
+    <div class="c-project__body">
         <!-- <a name="top"> -->
         <p>Website and identity design for forecaster Paul Saffo. The design presents his journal and a large collection of content in a clean, responsive interface. </p><p>I developed the site with progressive enhancement techniques for compatibility from Android 2.3 up to the latest desktop browsers.</p>
-        <ul class="tabs" data-tab>
-            <li class="tab-title active">
+        <ul class="o-tabs" data-tab>
+            <li class="o-tabs__tab-title  active">
                 <a href="#overview">
                     <?php echo $overview_tab ?>
                 </a>
             </li>
-            <li class="tab-title">
+            <li class="o-tabs__tab-title ">
                 <a href="#process">
                     <?php echo $process_tab ?>
                 </a>
             </li>
         </ul>
-        <ul class="tabs-content">
-            <li class="content active" id="overviewTab">
+        <ul class="o-tabs__tab-content">
+            <li class="active"  id="overviewTab">
                 <!-- overview-sidebar -->
 
                 <div class="overview-content">
@@ -52,7 +52,7 @@
 
                 </div>
             </li>
-            <li class="content" id="processTab">
+            <li class=""  id="processTab">
                 <div class="overview-content">
                     <p>For this project my process was different from my <a href="/projects/solanolabs-ci-session-view/#process">standard product design process</a> in that I functioned as an ‘agency of one’ and my client was an individual, not a group of stakeholders with varied involvement. But the basic sequence is very similar, rooted in a thorough Discovery process.</p>
                     <p>As each project phase continues to the next it informs the overall process, i.e. Discovery is a large portion of a project done at the beginning, but discovery continues through planning, design, etc. This is essentially an ‘iterative waterfall’ process because it progresses very linearly, yet still allows for a productive feedback loop throughout the project.</p>

@@ -1,21 +1,21 @@
 <div class="overview">
     <!-- overview-main -->
-    <div class="overview-main">
+    <div class="c-project__body">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi modi hic expedita illo, ducimus distinctio repudiandae dicta omnis excepturi deleniti necessitatibus sunt voluptatum eaque, odio earum? Tempore ipsam, sit dicta.</p>
-        <ul class="tabs" data-tab>
-            <li class="tab-title active">
+        <ul class="o-tabs" data-tab>
+            <li class="o-tabs__tab-title  active">
                 <a href="#overview">
                     <?php echo $overview_tab ?>
                 </a>
             </li>
-            <li class="tab-title">
+            <li class="o-tabs__tab-title ">
                 <a href="#process">
                     <?php echo $process_tab ?>
                 </a>
             </li>
         </ul>
-        <ul class="tabs-content">
-            <li class="content active" id="overviewTab">
+        <ul class="o-tabs__tab-content">
+            <li class="active"  id="overviewTab">
                 <!-- overview-sidebar -->
                 <!-- <div class="overview-sidebar">
                     <div class="panel radius">
@@ -59,7 +59,7 @@
               </p>
               -->
             </li>
-            <li class="content" id="processTab">
+            <li class=""  id="processTab">
                 <!-- overview-sidebar -->
                 <div class="overview-content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta totam quas quos alias. Quod a, adipisci sequi modi tenetur saepe, odit ipsa dolorem sed deleniti veritatis consequatur cum temporibus!</p>

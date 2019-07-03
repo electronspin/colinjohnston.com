@@ -1,24 +1,23 @@
-<div class="overview animate">
-    <!-- overview-main -->
-    <div class="overview-main">
+
+    <div class="c-project__body">
         <p>Moovweb is an Enterprise software solution for delivering customized mobile experiences from a single
             codebase.</p>
         <p>As lead product designer, I collaborated with the VP of Product and various engineers to create and design a
             new web property for Moovweb developers.
-            <ul class="tabs" data-tab>
-                <li class="tab-title active">
+            <ul class="o-tabs" data-tab>
+                <li class="o-tabs__tab-title  active">
                     <a href="#overview">
                         <?php echo $overview_tab ?>
                     </a>
                 </li>
-                <li class="tab-title">
+                <li class="o-tabs__tab-title ">
                     <a href="#process">
                         <?php echo $process_tab ?>
                     </a>
                 </li>
             </ul>
-            <ul class="tabs-content">
-                <li class="content active" id="overviewTab">
+            <ul class="o-tabs__tab-content">
+                <li class="active"  id="overviewTab">
                     <div class="overview-content">
                         <p>The <a href="http://developer.moovweb.com" target="_blank">Moovweb Developer Center</a> is
                             the primary hub for software downloads, documentation, and tutorials for developers using
@@ -45,7 +44,7 @@
                         </p>
                     </div>
                 </li>
-                <li class="content" id="processTab">
+                <li class=""  id="processTab">
                     <!-- overview-sidebar -->
                     <div class="overview-content">
                         <h3><?php echo $casetitle1 ?></h3>
@@ -110,4 +109,3 @@
                     </div>
                 </li>
     </div>
-</div>
