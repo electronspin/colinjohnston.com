@@ -17,12 +17,12 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
     
-  <div id="content" class="o-content o-layout__grid-item">
+  <div id="content" class="o-content o-layout__grid-item c-project">
       
     <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
      
 
-          <div class="imagebox animate">
+          <div class="c-imagebox animate">
             <a href="#" data-reveal-id="saffo-home-responsive">
               <img
                 srcset="/images/saffo-home-responsive_small.jpg 400w,
@@ -34,7 +34,7 @@
                 alt="Paul Saffo Website">
             </a>
           </div>
-          <h2 class="animate">Paul Saffo Website</h2>
+          <h2 class="c-project__title animate">Paul Saffo Website</h2>
           <?php include('overview.php') ?>
           
           <p></p>

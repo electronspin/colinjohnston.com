@@ -1,25 +1,27 @@
-<div class="overview animate">
-    <!-- overview-main -->
-    <div class="overview-main">
+<!-- delete overview div -->
+    <div class="c-project__body"> <!-- was overview-main -->
+        <div class="c-project__intro">
         <p>Moovweb is an Enterprise software solution for delivering customized mobile experiences from a single
             codebase.</p>
         <p>As lead product designer, I collaborated with product owners and engineering leads to redesign the primary
             Moovweb application management interface. </p>
-        <ul class="tabs" data-tab>
-            <li class="tab-title active">
+        </div>
+        <ul class="o-tabs" data-tab>
+            <li class="o-tabs__tab-title active">
                 <a href="#overview">
                     <?php echo $overview_tab ?>
                 </a>
             </li>
-            <li class="tab-title">
+            <li class="o-tabs__tab-title">
                 <a href="#process">
                     <?php echo $process_tab ?>
                 </a>
             </li>
         </ul>
-        <ul class="tabs-content">
-            <li class="content active" id="overviewTab">
-                <div class="overview-content">
+        <!-- <ul class="tabs-content"> -->
+            <ul class="o-tabs__tab-content">
+            <li class="active" id="overviewTab">
+                <div class="">
                     <p>Moovweb is an Enterprise software solution for delivering customized mobile experiences from a
                         single codebase. The Moovweb Control Center is an application for managing Moovweb projects in
                         the cloud. The primary tools are domain management, routing logic, security, and user
@@ -60,7 +62,7 @@
                     </div>
                 </div>
             </li>
-            <li class="content" id="processTab">
+            <li class="" id="processTab">
                 <!-- overview-sidebar -->
                 <div class="overview-content">
                     <h3><?php echo $casetitle1 ?></h3>
@@ -173,4 +175,3 @@
             </li>
         </ul>
     </div>
-</div>

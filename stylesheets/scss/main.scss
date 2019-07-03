@@ -50,6 +50,7 @@
  * Intro..............Intro block in sidebar (header)
  * Branding...........[WIP] Logo 
  * Modals.............Lightbox modal for designs and photos
+ * Imagebox...........Standard project asset wrapper
  Buttons..............An example button component, and how it fits into the
  *                      inuitcss framework.
  *
@@ -115,6 +116,7 @@
 @import "objects/wrapper";
 @import "objects/layout";
 @import "objects/cssgrid";
+@import "objects/tabs";
 //  @import "objects/list-inline";
  
  // components
@@ -124,8 +126,8 @@
 @import "components/modals";
 @import "components/gallery";
 @import "components/side-nav";
-//  @import "components/logo";
-//  @import "components/nav";
+@import "components/imagebox";
+@import "components/project";
  
  // utilities
  

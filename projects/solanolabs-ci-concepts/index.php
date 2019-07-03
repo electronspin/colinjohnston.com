@@ -11,7 +11,7 @@
     <div class="o-wrapper o-wrapper-grid o-wrapper--no-header">
 
         <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
-        <div id="content" class="o-content o-layout__grid-item">
+        <div id="content" class="o-content o-layout__grid-item c-project">
             <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
 
             <div class="imagebox">

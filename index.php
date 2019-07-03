@@ -17,7 +17,7 @@
 
                 <li class="c-gallery__item">
                     <a href="/projects/rollbar-account-dashboard">
-                        <div class="imagebox animate">
+                        <div class="c-imagebox animate">
                             <figure>
                                 <img srcset="images/rollbar-account-dashboard-cover_small.jpg 400w, images/rollbar-account-dashboard-cover_medium.jpg 800w, images/rollbar-account-dashboard-cover_large.jpg 1200w"
                                     sizes="(min-width: 48em) 33.3vw, 100vw"
@@ -32,7 +32,7 @@
 
                 <li class="c-gallery__item">
                     <a href="/projects/solanolabs-ci-session-view">
-                        <div class="imagebox animate">
+                        <div class="c-imagebox animate">
                             <figure>
                                 <img srcset="images/solanolabs-sessionview-v2_small.jpg 400w,
 images/solanolabs-sessionview-v2_medium.jpg 800w,
@@ -48,7 +48,7 @@ images/solanolabs-sessionview-v2_large.jpg 1200w" sizes="(min-width: 48em) 33.3v
 
                 <li class="c-gallery__item">
                     <a href="/projects/paul-saffo-website">
-                        <div class="imagebox animate">
+                        <div class="c-imagebox animate">
                             <figure>
                                 <img srcset="images/saffo-home-responsive_small.jpg 400w,
 images/saffo-home-responsive_medium.jpg 800w,
@@ -62,7 +62,7 @@ images/saffo-home-responsive_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 1
 
                 <li class="c-gallery__item">
                     <a href="/projects/rollbar-marketing-website">
-                        <div class="imagebox animate">
+                        <div class="c-imagebox animate">
                             <figure>
                                 <img srcset="images/rollbar-marketing-website-cover_small.jpg 400w, images/rollbar-marketing-website-cover_medium.jpg 800w, images/rollbar-marketing-website-cover_large.jpg 1200w"
                                     sizes="(min-width: 48em) 33.3vw, 100vw"
@@ -77,7 +77,7 @@ images/saffo-home-responsive_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 1
 
                 <li class="c-gallery__item">
                     <a href="/projects/rollbar-identity-refresh">
-                        <div class="imagebox animate">
+                        <div class="c-imagebox animate">
                             <figure>
                                 <img srcset="images/rollbar-identity-refresh-businesscards_small.jpg 400w, images/rollbar-identity-refresh-businesscards_medium.jpg 800w, images/rollbar-identity-refresh-businesscards_large.jpg 1200w"
                                     sizes="(min-width: 48em) 33.3vw, 100vw"
@@ -93,7 +93,7 @@ images/saffo-home-responsive_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 1
 
                 <li class="c-gallery__item">
                     <a href="/projects/moovweb-dev-center">
-                        <div class="imagebox animate">
+                        <div class="c-imagebox animate">
                             <figure>
                                 <img srcset="images/moovweb-dev-center-downloads_small.jpg 400w,
 images/moovweb-dev-center-downloads_medium.jpg 800w,
@@ -108,7 +108,7 @@ images/moovweb-dev-center-downloads_large.jpg 1200w" sizes="(min-width: 48em) 33
                 </li>
                 <li class="c-gallery__item">
                     <a href="/projects/moovweb-control-center">
-                        <div class="imagebox animate">
+                        <div class="c-imagebox animate">
                             <figure>
                                 <img srcset="images/moovweb-control-center-main_small.jpg 400w,
 images/moovweb-control-center-main_medium.jpg 800w,

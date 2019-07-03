@@ -11,10 +11,10 @@
     <div class="o-wrapper o-wrapper-grid o-wrapper--no-header">
 
         <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
-        <div id="content" class="o-content o-layout__grid-item">
+        <div id="content" class="o-content o-layout__grid-item c-project">
             <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
 
-            <div class="imagebox animate">
+            <div class="c-imagebox animate">
                 <a href="#" data-reveal-id="solanolabs-sessionview-v2">
                     <img srcset="/images/solanolabs-sessionview-v2_small.jpg 400w,
                         /images/solanolabs-sessionview-v2_medium.jpg 800w,
@@ -23,7 +23,7 @@
                         src="/images/solanolabs-sessionview-v2_medium.jpg" alt="<?php echo $slcs ?>">
                 </a>
             </div>
-            <h2 class="animate"><?php echo $slcs ?></h2>
+            <h2 class="c-project__title animate"><?php echo $slcs ?></h2>
             <?php include('overview.php') ?>
             <p></p>
         </div>

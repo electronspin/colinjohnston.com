@@ -11,10 +11,10 @@
     <div class="o-wrapper o-wrapper-grid o-wrapper--no-header">
         
             <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
-            <div id="content" class="o-content o-layout__grid-item">
+            <div id="content" class="o-content o-layout__grid-item c-project">
                 <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
 
-                        <div class="imagebox animate">
+                        <div class="c-imagebox animate">
                             <a href="#" data-reveal-id="moovweb-dev-center-downloads">
               <img
                 srcset="/images/moovweb-dev-center-downloads_small.jpg 400w,
@@ -26,7 +26,7 @@
                 alt="<?php echo $mwdc ?>">
             </a>
                         </div>
-                        <h2 class="animate"><?php echo $mwdc ?></h2>
+                        <h2 class="c-project__title animate"><?php echo $mwdc ?></h2>
                         <?php include('overview.php') ?>
                         <p>View the Developer Center at <a href="http://developer.moovweb.com/" name="" target="_blank">developer.moovweb.com</a></p>
                         <p></p>

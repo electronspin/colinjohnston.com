@@ -1390,7 +1390,8 @@
         },
 
         events : function () {
-          $(document).on('click.fndtn', '.tabs a', function (e) {
+          // $(document).on('click.fndtn', '.tabs a', function (e) { 
+          $(document).on('click.fndtn', '.o-tabs a', function (e) { 
             methods.set_tab($(this).parent('dd, li'), e);
           });
           
@@ -1406,7 +1407,9 @@
           if (hasHash && $content.length > 0) {
             // Show tab content
             if (e && !settings.deep_linking) e.preventDefault();
-            $content.closest('.tabs-content').children('li').removeClass('active').hide();
+            // $content.closest('.o-tabs__content').children('li').removeClass('active').hide();
+            // moved `.o-tabs__content` from ul to li:
+            $content.closest('.o-tabs__tab-content').children('li').removeClass('active').hide();
             $content.css('display', 'block').addClass('active');
           }
 
