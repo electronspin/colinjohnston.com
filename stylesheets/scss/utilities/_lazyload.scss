@@ -1,0 +1,19 @@
+/*----------------------------------*
+  #LAZYLOAD
+ *----------------------------------*/
+
+/**
+* Hooks for Lazyload JS
+*/
+
+// TODO should use `js-lazyload` but need to tweak JS source
+
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+    // transition: opacity 300ms;
+    transition: opacity 1s;
+}

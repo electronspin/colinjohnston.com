@@ -399,15 +399,3 @@ a.codedirection {
 body.noscroll {
     overflow: hidden;
 }
-
-// lazyloads
-
-.lazyload,
-.lazyloading {
-    opacity: 0;
-}
-.lazyloaded {
-	opacity: 1;
-    // transition: opacity 300ms;
-    transition: opacity 1s;
-}
