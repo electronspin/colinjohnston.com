@@ -1,0 +1,158 @@
+/*----------------------------------*
+  #PROJECT
+ *----------------------------------*/
+
+/**
+* Standard project page organism
+*/
+
+.c-imagebox {
+  .c-project & {
+    margin-bottom: $global-spacing-unit-lg;
+  }
+}
+
+.c-project__title {
+  color: $dark-text-color;
+  font-weight: 400;
+  letter-spacing: -0.019em;
+
+  &.animate {
+    transition: opacity .8s ease .3s; // nice feel!
+    //transform: scale(.8);
+    opacity: 0;
+    &.inview {
+        //transform: scale(1);
+        opacity: 1;
+    }
+  }
+
+}
+
+.c-project__body {
+  max-width: 600px; // TODO
+}
+
+.c-project p {
+  // @include font-size(18px, 32px);
+  font-weight: 400;
+  letter-spacing: -0.011em;
+}
+
+.c-project__intro {
+  &.animate {
+    transition: opacity 1.5s ease .3s; // nice feel!
+    opacity: 0;
+    &.inview {
+        opacity: 1;
+    }
+  }
+}
+
+
+// Project Tabs Styles - WIP
+
+.c-project {
+
+  .o-tabs {
+    border-bottom: none;
+    height: auto;
+    width: 100%;
+    margin: 1em auto;
+  }
+
+  .o-tabs .o-tabs__tab-title {
+    color: #b3b3b3;
+    cursor: default;
+    display: inline-block;
+    float: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 1.5em 1em 1.5em;
+    position: relative;
+  }
+
+  .o-tabs .o-tabs__tab-title a {
+    color: #6f6f6f;
+    background-color: darken($secondary-bg-color, 10%);
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: auto;
+    line-height: 40px;
+
+    &:after {
+        -webkit-transition: top 100ms ease-in-out;
+        -moz-transition: top 100ms ease-in-out;
+        -o-transition: top 100ms ease-in-out;
+        transition: top 100ms ease-in-out;
+        content: "";
+        height: 0px;
+        width: 0px;
+        position: absolute;
+        top: 65%;
+        left: 44%;
+        border: $arrow-size solid transparent;
+        border-top-color: darken($secondary-bg-color, 10%);
+    }
+
+    &:hover {
+        color: $dark-text-color;
+    }
+
+    &:hover:after {
+        top: 100%
+    }
+  }
+
+  .o-tabs .o-tabs__tab-title a:focus {
+    font-weight: bold;
+    color: #999;
+  }
+
+  .o-tabs .o-tabs__tab-title.active {
+    border-top: none;
+    margin-top: 1em;
+  }
+
+  .o-tabs .o-tabs__tab-title.active a {
+    cursor: default;
+    color: $light-text-color;
+    background-color: $dark-bg-color;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+
+    &:after {
+        top: 100%;
+        border-top-color: $dark-bg-color;
+    }
+  }
+
+  .o-tabs .o-tabs__tab-title:first-child {
+    margin-left: 0;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .o-tabs {
+        background-color: $main-bg-color;
+        margin: 0 auto 2em;
+        border: none;
+    }
+
+    .o-tabs .o-tabs__tab-title {
+        width: 48%;
+        margin: 0 0 0 0.5em;
+        text-transform: none;
+        text-align: center;
+
+        a {
+            font-size: 1em;
+            padding: 0 0.5em;
+            letter-spacing: 0;
+        }
+    }
+  }
+
+}
