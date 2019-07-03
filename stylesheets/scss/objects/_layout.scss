@@ -16,8 +16,12 @@
 .o-layout__grid-item {
   vertical-align: top;
   // padding-left: $global-spacing-unit;
-  padding: 0 15px; // TODO TEMP matches legacy FF3
-  @include font-size($global-font-size)
+  @include font-size($global-font-size);
+
+  @media only screen and (min-width: 768px) {
+    //padding: 0 $global-spacing-unit; // TODO TEMP matches legacy FF3
+  }
+
 }
 
 // Layout items thst live inside <main> 

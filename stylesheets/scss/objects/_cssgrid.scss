@@ -16,13 +16,22 @@
   }
 
   .o-wrapper {
-    grid-template-columns: 1fr 2fr; // TODO goes in @supports below?
+    // grid-template-columns: 1fr 2fr; // TODO goes in @supports below?
+    grid-template-columns: repeat(3, 1fr);
   }
   
   .o-header, .o-footer {
     grid-column: 1 / -1;
     /* needed for the floated layout */
     clear: both; // 
+  }
+
+  .o-sidebar {
+    grid-column: 1 / 2;
+  }
+
+  .o-content {
+    grid-column: 2 / -1
   }
 
 }
