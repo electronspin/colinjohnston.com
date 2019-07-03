@@ -27,6 +27,7 @@
  * Page.................Set up our document’s default `font-size` and line-height`.
  * Headings.............Very minimal (i.e. only font-size information) for
  *                      headings 1 through 6.
+ * Lists................Default list styles
  * Images...............Base image styles.
  Tables...............Simple table styles.
  *
@@ -38,7 +39,7 @@
  *                      poster-child of OOCSS.
  Flag.................Table-layout-based advancement on the Media object.
  List-bare............Lists with no bullets or indents.
- List-inline..........A list whose items all site in a line.
+ List-inline..........A list whose items all sit in a line.
  Box..................Simple boxing abstraction.
  Block................Image-on-top-of-text object.
  Ratio................A container for maintaining aspect ratio of content.
@@ -112,6 +113,7 @@
 @import "elements/page";
 @import "elements/headings";
 @import "elements/links";
+@import "elements/lists";
 @import "elements/images";
  
  // objects
@@ -133,7 +135,7 @@
 @import "components/gallery";
 @import "components/side-nav";
 @import "components/imagebox";
-@import "components/project";
+@import "components/page-project";
  
  // utilities
  

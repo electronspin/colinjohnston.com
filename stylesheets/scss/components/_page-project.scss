@@ -58,11 +58,18 @@
   max-width: 600px; // TODO
 }
 
-.c-project p {
+.c-project p,
+.c-project ul,
+.c-project ol {
   // @include font-size(18px, 32px);
   line-height: 32px; // WIP
   font-weight: 400;
   letter-spacing: -0.011em;
+}
+
+.c-project p + ol,
+.c-project p + ul {
+    margin-top: -$global-spacing-unit;
 }
 
 .c-project__intro {
