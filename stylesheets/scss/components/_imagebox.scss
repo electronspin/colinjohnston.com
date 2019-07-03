@@ -1,0 +1,141 @@
+/*----------------------------------*
+  #IMAGEBOX
+ *----------------------------------*/
+
+/**
+* Standard project asset presentation
+*/
+
+.c-imagebox {
+  border: 1px solid #ddd; // WIP
+    // -moz-box-shadow: -2px 3px 5px 0 #ccc;
+    // -webkit-box-shadow: -2px 3px 5px 0 #ccc;
+    // box-shadow: -2px 3px 5px 0 #ccc
+}
+
+.c-imagebox--caption { // TODO need better naming
+
+}
+
+/**
+* Animated
+*/
+
+// animated imageboxes
+
+// all the same animation
+// .c-gallery__item .c-imagebox {
+//     &.animate {
+//         transition: opacity .7s ease .3s, transform .5s ease .3s; // nice feel!
+//         transform: scale(.8);
+//         opacity: 0;
+//         &.inview {
+//           transform: scale(1);
+//           opacity: 1;
+//         }
+//     }
+// }
+
+
+// stepped animation
+
+.c-gallery__item:nth-child(1) .c-imagebox {
+  &.animate {
+      transition: opacity .7s ease .3s, transform .1s ease .3s; // nice feel!
+      transform: scale(.8);
+      opacity: 0;
+      &.inview {
+          transform: scale(1);
+          opacity: 1;
+      }
+  }
+}
+
+.c-gallery__item:nth-child(2) .c-imagebox {
+  &.animate {
+      transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
+      transform: scale(.8);
+      opacity: 0;
+      &.inview {
+          transform: scale(1);
+          opacity: 1;
+      }
+  }
+}
+
+.c-gallery__item:nth-child(3) .c-imagebox {
+  &.animate {
+      transition: opacity .7s ease .3s, transform .3s ease .3s; // nice feel!
+      transform: scale(.8);
+      opacity: 0;
+      &.inview {
+          transform: scale(1);
+          opacity: 1;
+      }
+  }
+}
+
+.c-gallery__item:nth-child(4) .c-imagebox {
+  &.animate {
+      transition: opacity .7s ease .3s, transform .4s ease .3s; // nice feel!
+      transform: scale(.8);
+      opacity: 0;
+      &.inview {
+          transform: scale(1);
+          opacity: 1;
+      }
+  }
+}
+
+.c-gallery__item:nth-child(5) .c-imagebox {
+  &.animate {
+      transition: opacity .7s ease .3s, transform .5s ease .3s; // nice feel!
+      transform: scale(.8);
+      opacity: 0;
+      &.inview {
+          transform: scale(1);
+          opacity: 1;
+      }
+  }
+}
+
+.c-gallery__item:nth-child(6) .c-imagebox {
+  &.animate {
+      transition: opacity .7s ease .3s, transform .6s ease .3s; // nice feel!
+      transform: scale(.8);
+      opacity: 0;
+      &.inview {
+          transform: scale(1);
+          opacity: 1;
+      }
+  }
+}
+
+.c-gallery__item:nth-child(7) .c-imagebox {
+  &.animate {
+      transition: opacity .7s ease .3s, transform .7s ease .3s; // nice feel!
+      transform: scale(.8);
+      opacity: 0;
+      &.inview {
+          transform: scale(1);
+          opacity: 1;
+      }
+  }
+}
+
+
+
+// project page imagebox animations
+
+div#content .c-imagebox {
+  &.animate {
+      transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
+      transform: scale(.925);
+      opacity: 0;
+      &.inview {
+          transform: scale(1);
+          opacity: 1;
+      }
+  }
+}
+
