@@ -1,0 +1,30 @@
+
+/*----------------------------------*
+  #TABS
+ *----------------------------------*/
+
+/**
+* Standard tabs object
+*/
+
+// TODO split structural/fucntional portions away from styling used in 
+// projects context (that goes in projects component)
+
+
+.o-tabs {}
+.o-tabs__tab-title {}
+.o-tabs__tab-content {
+  display: block;
+  margin: 0;
+  padding: 0;
+  & > li {
+    display: none;
+  }
+  & > li.active {
+    display: block;
+  }
+}
+
+.no-js .o-tabs__tab-content > li {
+  display: block;
+}
