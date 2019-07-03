@@ -7,6 +7,10 @@
  */
 
  .c-intro {
-   padding-right: $global-spacing-unit-lg;
-   line-height: 32px; // WIP
- }
+  line-height: 32px; // WIP
+
+  @media only screen and (min-width:768px) {
+    padding-right: $global-spacing-unit-lg;
+  }
+
+}
