@@ -105,7 +105,7 @@
                         <?php echo $slcs; ?> - Research Notes on v1.5 Layouts <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">View Larger Image</a></span></p>
 
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> User Research, Use Cases, Usability Testing, Interviews, Concept Maps. </p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="define">Define</h4>
                     <p><em>Clarity and focus; framing the problem to create a solution</em></p>
                     <p>I facilitated development of an internal prototype (running with live data) to validate new reporting outputs. I used this information later in the project to construct an improved real-time status report model.</p>
@@ -141,7 +141,7 @@
                         <?php echo $slcs; ?> - Sketches <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-sketches">View Larger Image</a></span></p>
                         
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Personas, Use Cases, User Flows, Sketches, Lo-fi Wireframes.</p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="ideate">Ideate</h4>
                     <p><em>Concepts for outcomes; combine understanding of the problem with imagination.</em></p>
                     <h5>Wireframes</h5>
@@ -166,7 +166,7 @@
 
 
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Wireframes, Paper Prototypes, Style Tiles, UI Design, Lo-fi Mockups, Art Direction, Content Strategy.</p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="prototype">Prototype</h4>
                     <p><em>If a picture is worth a thousand words, a prototype is worth a thousand pictures.</em></p>
                     <p>Since we had very hi-fidelity wireframes and a defined set of styles for the UI components, it was more efficient to create a clickable prototype rather than static mockups.</p>
@@ -187,7 +187,7 @@
                     <p class="case-caption">
                         <?php echo $slcs; ?> - Prototype in Codepen <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-prototype-codepen">View Larger Image</a> - </span> <a href="http://codepen.io/electronspin/pen/95a6ac01710fd019c2723fe5a68d0a7b" target="_blank">Open Codepen</a></p>
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Mockups, Clickable Prototypes, Heuristics, Interactions</p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="validate">Validate</h4>
                     <p><em>Prototype as if you know you’re right, but test as if you know you’re wrong</em></p>
                     <p>There was no practical way to deliver our initial prototype to customers using real-time data, so the engineering team built the new session view into the production app. We then allowed users to test it as an ‘alpha’ feature (behind a feature flag).</p>
@@ -195,7 +195,7 @@
                     <p>Now the process of moderated and unmoderated user testing can reveal where we hit the mark with our solution, and where it might need improvement.</p>
                     <p>And by monitoring analytics we can uncover usage patterns than will help us improve the user experience even more in future versions of the app.</p>
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Usability Tests, Analytics, QA</p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     
                     <div class="bottom-tab-nav-prev">
                                 <!-- <a class="bottom-tab-nav" href="#overview" onclick="$('.tabs a[href=\'#overview\']').click()">Read Project Overview</a> -->

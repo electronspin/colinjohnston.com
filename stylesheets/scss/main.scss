@@ -53,6 +53,7 @@
  * Imagebox...........Standard project asset wrapper
  Buttons..............An example button component, and how it fits into the
  *                      inuitcss framework.
+ * Link-top...........Lin-to-top mini-component.
  *
  * UTILITIES
  Clearfix.............Bind our clearfix onto a utility class.
@@ -62,6 +63,7 @@
  Responsive-Spacings..Enhances the function of normal spacings for responsive usage.
  Print................Reset-like styles taken from the HTML5 Boilerplate.
  Hide.................Helper classes to hide content
+ * Lazyload...........JS Hooks for lazyloading images
  */
 
  // REFACTOR
@@ -123,6 +125,7 @@
 
 @import "components/intro";
 @import "components/branding";
+@import "components/link-top";
 @import "components/buttons";
 @import "components/modals";
 @import "components/gallery";

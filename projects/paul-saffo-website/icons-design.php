@@ -53,4 +53,4 @@
 <p class="case-caption"><strong>Icon Design</strong> - The final icons ready for SVG export. <span
         class="hide-for-small">/ <a href="#" data-reveal-id="saffo-identity-icons-final">View Larger Image</a></span>
 </p>
-<p><a class="to-top" href="#">TOP</a></p>
+<p><a class="link--to-top" href="#">TOP</a></p>

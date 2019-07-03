@@ -44,7 +44,7 @@
                     <p>I created a website that presents a strong update to Paul’s identity, and frames his content with a graphical richness and elements of storytelling. It delivers a very pleasing and approachable user experience that’s highly performant and accessible across a wide array of devices.</p>
                     <p>Paul is extremely happy with the results.</p>
                     <p>Visit the site: <a href="http://www.saffo.com/" name="" target="_blank">www.saffo.com</a></p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     
                     <div class="bottom-tab-nav-next">
                         <a class="bottom-tab-nav" href="#process">See Process &amp; Artifacts</a>
@@ -88,7 +88,7 @@
                     </ul>
                     <p>
                         </br>With these notes and various thumbnail design ideas, I could begin Concept phase. First I needed to organize all the input gathered so far, and create a plan.</p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="planning">Planning</h4>
                     <p>Since we had collaborated previously on website design for another venture, he knew I had a solid process and we could keep things lean; he didn’t need a ton of documentation of our decisions, just iterative progress towards the final product.</p>
                     <p>But even when I’m working on a complete project as a team of one, I still like to map out how I’m going to get from A to B. It looks something like this:</p>
@@ -144,7 +144,7 @@
                         </tbody>
                     </table>
                     <p>As I worked through each piece in sequence, I present the work on a private client website. I like to keep the presentations available in one place throughout the entire project so we can easily refer back to decisions and their rationales.</p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="concepts">Concepts</h4>
                     <p>At this stage I’ve internalized the goals and objectives, both conceptual and technical, and mapped out a structured plan. Now I’m free to diverge out into different methods of creative exploration. This process involves lots of ‘visual gathering’ and recombining elements from designs other mediums, snapshots capturing the look and feel of products or publications I think match the patterns outlined in my conceptual notes. I also look at other content-heavy mobile sites to see which interactions and flows work (and which don’t).</p>
                     <p>It’s during this process that I start to converge on type and color choices. I’ll narrow the field down in the design phase.</p>
@@ -190,7 +190,7 @@
                         </a>
                     </div>
                     <p class="case-caption"><strong>Style Board</strong> - TBD <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-styleboards">View Larger Image</a></span></p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="design">Design</h4>
                     <h5>Why no Wireframes?</h5>
                     <p>Typically at this stage I would construct detailed wireframes that specify the structure of the interface, and, for more complex interfaces, show indications of how interactions might work. (For very complex interfaces this is an ideal stage to begin anticipating how the actual front-end will be structured, and mapping out data points, etc.). As a team of one I didn’t need to present this level of detail for review, so I took the pencil sketches and began to frame out the base structures directly in Sketch.</p>
@@ -230,7 +230,7 @@
                         </a>
                     </div>
                     <p class="case-caption"><strong>Final Designs</strong> - Photo art direction for page header images. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-art-direction">View Larger Image</a></span></p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="build">Build</h4>
                     <p>One of the things I love about ‘agency of one’ projects like this is that I get to do both design and implementation. I’m just as a comfortable in a code editor as I am in Photoshop.</p>
                     <h5>Platform</h5>
@@ -272,7 +272,7 @@
                     <p>During the entire build, and again before releasing the final site to production on MediaTemple, I tested the site on real devices to make sure I was providing a consistent experience to as many people as possible.</p>
                     <p>I had decided support for Android 2.3 stock browsers was essential, but I rejected the notion of supporting Internet Explorer 8 and below. Hard to believe the day is finally here, but there are fewer active IE8 users than Android 2.3 users!</p>
                     <p>The main issues I tested for were layout issues, and making sure the PNG fallbacks for the SVG graphics were loading on the devices the can’t handle SVGs.</p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <!-- icon-design -->
                     <?php include('icons-design.php') ?>
                     <div class="bottom-tab-nav-prev">
