@@ -76,7 +76,7 @@
 </div>
 
 
-<div id="saffo-design-sketch-2" class="reveal-modal expand ">
+<div id="saffo-design-sketch-2" class="c-modal c-modal--full ">
     <div class="c-modal__container">
         <h2>Paul Saffo Website - Sketch Mockups</h2>
         <img data-src="/images/saffo-design-sketch-2_full.jpg" class="c-modal__asset lazyload"
