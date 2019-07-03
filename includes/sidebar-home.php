@@ -19,7 +19,7 @@
                         d="M64 128c35.4 0 64-28.6 64-64S99.4 0 64 0 0 28.6 0 64s28.6 64 64 64zM40 99.5L28.5 88l24-24-24-24L40 28.5l24 24 24-24L99.5 40l-24 24 24 24L88 99.5l-24-24-24 24z" />
                 </svg>
             </span></a>
-        <ul class="side-nav">
+        <ul class="c-side-nav">
             <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/nav-projects.php') ?>
         </ul>
     </nav>

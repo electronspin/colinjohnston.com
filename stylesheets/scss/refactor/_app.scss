@@ -59,13 +59,6 @@ div.panel p:last-child {
     color: $main-text-color;
 }
 
-.side-nav li,
-figcaption,
-p {
-    font-family: $text-font;
-}
-
-
 figure {
     display: block;
     position: relative;
@@ -96,8 +89,7 @@ figcaption {
 
 .case-caption a,
 .contact-email,
-.label.services a,
-.side-nav li a {
+.label.services a {
     -o-transition: all .25s ease;
     -moz-transition: all .25s ease;
     -webkit-transition: all .25s ease
@@ -106,13 +98,6 @@ figcaption {
 figure:hover figcaption {
     opacity: 1;
     bottom: 0
-}
-
-
-
-.side-nav li,
-p {
-    line-height: 1.8em
 }
 
 
@@ -152,10 +137,6 @@ ul.services a {
         color: white;
         background-color: $cjd-branding;
     }
-}
-
-.overview-content li {
-    margin-left: 2em;
 }
 
 .overview-sidebar ul li {
@@ -200,10 +181,6 @@ ul.services a {
     margin-top: -1.75em;
 }
 
-p.intro,
-p.tagline {
-    margin: 1.5em 0 3px
-}
 
 #content p.case-caption a {
     font-weight: 400;
@@ -219,109 +196,8 @@ p.tagline {
     }
 }
 
-a:hover {
-    color: $content-link;
-}
-
-p {
-    font-weight: 400;
-}
-
 p.tagline {
     font-weight: 700
-}
-
-nav {
-    @media only screen and (min-width: 768px) {
-        margin-top: 1.5em;
-    }
-}
-
-.side-nav li {
-    color: #777;
-    font-weight: 700;
-    position: relative;
-}
-
-ul.side-nav li a {
-    color: #78a7e4;
-    font-weight: 400;
-    position: relative;
-    display: inline-block;
-}
-
-.side-nav li a:hover,
-ul.side-nav li.active a {
-    color: #545860;
-    font-weight: 400 !important;
-    transition: all .25s ease;
-}
-
-ul.side-nav li.active a {
-    color: #78a7e4;
-    &:hover {
-        cursor: default;
-    }
-}
-
-.side-nav li.active:after {
-    position: absolute;
-    display: inline-block;
-    content: url(/images/icon-eye.svg);
-    width: 1.1em;
-    height: 1.1em;
-    margin-top: .225em;
-    opacity: 0.5;
-    margin-left: 0.5em;
-}
-
-.side-nav li.active:hover:after {
-    opacity: 0.8;
-}
-
-@media only screen and (min-width: 768px) {
-    .side-nav li:not(.active) {
-        a {
-            &:after {
-                content: "";
-                margin: 0 auto;
-                position: absolute;
-                opacity: 0;
-                bottom: 0.125em;
-                left: 50%;
-                right: 50%;
-                transition: left 250ms ease-in-out, right 250ms ease-in-out;
-                margin-top: 0.25em;
-                border-bottom: 2px solid lighten($cjd-branding, 25%);
-            }
-
-            &:hover:after {
-                left: 0;
-                right: 0;
-                opacity: 1;
-            }
-        }
-    }
-}
-
-ul.side-nav {
-    padding: 18px 0 0
-}
-
-ul.side-nav.topnav {
-    padding: 15px 0 0
-}
-
-ul.side-nav li {
-    margin: 0
-}
-
-ul.side-nav li.nav-list-title {
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 0.05em;
-    color: #3a3a3a;
-    margin-bottom: 6px;
 }
 
 .overview-sidebar .panel {
@@ -358,8 +234,6 @@ ul.services>ul {
 ul.services>ul ul {
     margin-bottom: 0
 }
-
-
 
 ul.square {
     list-style-type: square
@@ -464,10 +338,6 @@ a.codedirection {
         font-size: 1.25em !important
     }
 
-    ul.side-nav li {
-        font-size: 1.125em !important;
-    }
-
     p.tagline {
         font-size: 1em !important;
     }
@@ -482,10 +352,6 @@ a.codedirection {
         margin: 0 0 1.5em
     }
 
-    ul.side-nav li.nav-list-title {
-        // fold into fixed setup
-        font-size: 14px !important;
-    }
 }
 
 @media (max-width:767px) {
@@ -506,29 +372,12 @@ a.codedirection {
         display: table
     }
 
-    .overview-main {}
-
-    .overview-sidebar {
-        //display: table-footer-group //float: right;
-    }
-
-    .overview-content {
-        //display: table-header-group
-    }
 }
 
 @media only screen and (min-width:768px) {
 
     p.intro {
         padding-right: 2em
-    }
-
-    li.nav-list-title {
-        padding-top: 1.5em
-    }
-
-    li.nav-list-title:first-child {
-        padding-top: 0
     }
 
     .overview {
@@ -544,17 +393,11 @@ a.codedirection {
 }
 
 
-a.close-panel,
-a.open-panel {
-    display: none
-}
+
 
 @media only screen and (max-width:767px) {
 
-    .icon-2x,
-    a.close-panel {
-        font-size: 1.25em
-    }
+    
 
     #page {
         padding-top: 0
@@ -572,103 +415,7 @@ a.open-panel {
     .four.columns {
         position: inherit
     }
-
-    nav {
-        width: $navwidth;
-        left: -$navwidth;
-        position: absolute;
-        top: 0;
-        height: 100%;
-        background: $dark-brand-bg;
-        z-index: 1000
-    }
-
-    ul.side-nav {
-        width: 100%;
-        padding: 0;
-        margin-top: 6em;
-    }
-
-    ul.side-nav li {
-        font-size: 1.25em;
-        font-weight: 300;
-        display: block;
-        float: none;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        width: 100%;
-        margin: 0;
-        padding: .5em 1.5em;
-        list-style-type: none;
-        text-align: left;
-        color: #fff;
-    }
-
-    a.close-panel,
-    a.open-panel {
-        display: inline;
-        float: right;
-    }
-
-    ul.side-nav li:hover {
-        background: darken($dark-brand-bg, 5);
-    }
-
-    ul.side-nav li a {
-        font-weight: 400;
-        color: lighten($content-link, 30);
-    }
-
-    ul.side-nav li a:hover,
-    ul.side-nav li.active a {
-        color: #fff;
-    }
-
-    a.close-panel {
-        color: #FFF;
-        position: relative;
-        top: 2em;
-        right: 1.5em
-    }
-
-    a.open-panel {
-        margin-top: 6px;
-        position: relative;
-        color: #777
-    }
-
-    a.open-panel span {
-        position: absolute;
-        left: -1.5em;
-    }
-
-    .openNav .o-wrapper {
-        left: 0;
-        -webkit-transform: translate3d($navwidth, 0, 0);
-        -moz-transform: translate3d($navwidth, 0, 0);
-        -ms-transform: translate3d($navwidth, 0, 0);
-        -o-transform: translate3d($navwidth, 0, 0);
-        transform: translate3d($navwidth, 0, 0);
-        transition: transform 500ms ease
-    }
-
-    .o-wrapper,
-    .openNav .o-wrapper {
-        -o-transition: -o-transform 500ms ease;
-        -moz-transition: -moz-transform 500ms ease;
-        -webkit-transition: -webkit-transform 500ms ease
-    }
-
-    .o-wrapper {
-        left: 0;
-        -webkit-transform: translate3d(0, 0, 0);
-        -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-        -o-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        transition: transform 500ms ease
-    }
+    
 }
 
 .reveal-modal img {
@@ -705,43 +452,6 @@ a.open-panel {
     }
 }
 
-
-
-// Sidebar button
-.sidebar-button {
-    color: #fff;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 400;
-    //padding: 1em 1.25em;
-    line-height: 1.6;
-    margin: 1.5em 0 0;
-    padding: 0.25em 0.75em 0.33em;
-    background-color: $slate-gray;
-    -border-radius: 9px;
-    -moz-border-radius: 9px;
-    -webkit-border-radius: 9px;
-    border-radius: 9px;
-    transition: all .25s ease;
-    width: 100%;
-    text-align: center;
-
-    @media only screen and (max-width: 767px) {
-        //padding: 0.5em 0.75em;
-    }
-}
-
-.sidebar-button:hover {
-    color: #fff;
-    background-color: #333
-}
-
-.sidebar-button:focus {
-    color: #fff;
-    background-color: #333
-}
-
-
 .activities-label {
     font-size: 0.825em;
     text-transform: uppercase;
@@ -770,13 +480,6 @@ a.open-panel {
     text-align: right;
 }
 
-.bottom-tab-nav-next>a {
-    &:after {
-        //content: "→" !important;
-        //margin-right: 0.25em;
-    }
-}
-
 .bottom-tab-nav-prev {
     @media only screen and (min-width: 768px) {
         display: inline-block;
@@ -786,12 +489,6 @@ a.open-panel {
     text-align: left;
 }
 
-.bottom-tab-nav-prev>a {
-    &:before {
-        //content: "←" !important;
-        //margin-left: 0.25em;
-    }
-}
 
 // widescreen layout
 @media only screen and (min-width: 1024px) {
@@ -806,12 +503,6 @@ a.open-panel {
         display: block;
     }
 
-    // fixed sidebar idea
-    // .sidebar-container {
-    //     position: fixed;
-    //     width: 375px;
-    //     max-width: 27.5%;
-    // }
     p.intro {}
 
     #branding {
@@ -827,8 +518,6 @@ a.open-panel {
         font-weight: 400;
         font-size: .875em; //.75em
         background: rgba(0, 0, 0, 0.875);
-        //background: $dark-brand-bg;
-        //background: $dark-bg-color;
         color: #fff;
         padding: 20px;
         width: 100%;
@@ -840,14 +529,7 @@ a.open-panel {
         -o-transition: all .6s ease;
     }
 
-    #content .twelve.columns>h2,
-    #content .twelve.columns>p,
-    #content .twelve.columns>p+p {
-        max-width: 600px;
-    }
 }
-
-
 
 .svg-icon {
     display: inline-block;
@@ -860,7 +542,6 @@ a.open-panel {
         height: 1em;
     }
 }
-
 
 body.noscroll {
     overflow: hidden;

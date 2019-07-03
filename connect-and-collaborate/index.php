@@ -26,7 +26,7 @@
                             </figure>
                         </div>
                         <h2>Connect</h2>
-                        <div class="overview-main">
+                        <div class="c-project__body">
                             <p>Do you have a project you'd like to to start? Or an existing website you'd like to
                                 update? Let's connect and see how I can help.</p>
                             <p>Phone: +1 415 816-2477
