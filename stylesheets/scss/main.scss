@@ -53,7 +53,8 @@
  * Imagebox...........Standard project asset wrapper
  Buttons..............An example button component, and how it fits into the
  *                      inuitcss framework.
- * Link-top...........Lin-to-top mini-component.
+ * Link-top...........Lin-kto-top mini-component.
+ * Link-prev-next.....Link component for Prev/Next in pagination.
  *
  * UTILITIES
  Clearfix.............Bind our clearfix onto a utility class.
@@ -126,6 +127,7 @@
 @import "components/intro";
 @import "components/branding";
 @import "components/link-top";
+@import "components/link-pagination";
 @import "components/buttons";
 @import "components/modals";
 @import "components/gallery";

@@ -41,8 +41,8 @@
                     <p>&mdash;Jason Kozemczak, Tech Lead at Instacart</p></div>
                     <h4>Demo</h4>
                     <p>You can view a limited demo of the Account Dashboard in the Rollbar Demo account <a href="https://rollbar.com/demo/?level=30%2C40%2C50&duration=24h&tz=US%2FPacific&sort=total&order=desc" title="Rollbar Demo" target="_blank" rel="noopener noreferrer">here</a>.</p>
-                    <div class="bottom-tab-nav-next">
-                        <!-- <a class="bottom-tab-nav" href="#process">See Process &amp; Artifacts</a> -->
+                    <div class="c-link-pagination">
+                        <!-- <a class="c-link-pagination--next" href="#process">See Process &amp; Artifacts</a> -->
                     </div>
                 </div>
             </li>
@@ -158,9 +158,9 @@
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Usability Tests, Analytics, QA</p>
                     <p><a class="link--to-top" href="#">TOP</a></p>
                     
-                    <div class="bottom-tab-nav-prev">
-                                <!-- <a class="bottom-tab-nav" href="#overview" onclick="$('.tabs a[href=\'#overview\']').click()">Read Project Overview</a> -->
-                                <a class="bottom-tab-nav" href="#overview">Read Project Overview</a>
+                    <div class="c-link-pagination">
+                                <!-- <a class="c-link-pagination" href="#overview" onclick="$('.tabs a[href=\'#overview\']').click()">Read Project Overview</a> -->
+                                <a class="c-link-pagination--prev" href="#overview">Read Project Overview</a>
                     </div>
 
                 </div>

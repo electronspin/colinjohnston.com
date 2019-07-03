@@ -46,8 +46,8 @@
                     <p>Visit the site: <a href="http://www.saffo.com/" name="" target="_blank">www.saffo.com</a></p>
                     <p><a class="link--to-top" href="#">TOP</a></p>
                     
-                    <div class="bottom-tab-nav-next">
-                        <a class="bottom-tab-nav" href="#process">See Process &amp; Artifacts</a>
+                    <div class="c-link-pagination">
+                        <a class="c-link-pagination--next" href="#process">See Process &amp; Artifacts</a>
                     </div>
 
                 </div>
@@ -275,8 +275,8 @@
                     <p><a class="link--to-top" href="#">TOP</a></p>
                     <!-- icon-design -->
                     <?php include('icons-design.php') ?>
-                    <div class="bottom-tab-nav-prev">
-                        <a class="bottom-tab-nav" href="#overview">Read Project Overview</a>
+                    <div class="c-link-pagination">
+                        <a class="c-link-pagination--prev" href="#overview">Read Project Overview</a>
                     </div>
             </li>
         </ul>

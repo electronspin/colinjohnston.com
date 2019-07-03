@@ -332,36 +332,6 @@ a.codedirection {
 
 }
 
-.bottom-tab-nav-next,
-.bottom-tab-nav-prev {
-    font-weight: 700;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    font-size: 1.25em;
-}
-
-.bottom-tab-nav-next a:focus,
-.bottom-tab-nav-prev a:focus {
-    color: $content-link;
-}
-
-.bottom-tab-nav-next {
-    @media only screen and (min-width: 768px) {
-        display: inline-block;
-        float: right;
-    }
-
-    text-align: right;
-}
-
-.bottom-tab-nav-prev {
-    @media only screen and (min-width: 768px) {
-        display: inline-block;
-        float: left;
-    }
-
-    text-align: left;
-}
 
 
 // widescreen layout
@@ -377,9 +347,7 @@ a.codedirection {
         opacity: 0;
         left: 0;
         bottom: -30%;
-        -webkit-transition: all .6s ease;
-        -moz-transition: all .6s ease;
-        -o-transition: all .6s ease;
+        transition: all .6s ease;
     }
 
 }

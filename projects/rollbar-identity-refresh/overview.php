@@ -27,8 +27,8 @@
                     <h4>Results</h4>
                     <p>TK</p> -->
 
-                    <div class="bottom-tab-nav-next">
-                        <!-- <a class="bottom-tab-nav" href="#process">See Process &amp; Artifacts</a> -->
+                    <div class="c-link-pagination">
+                        <!-- <a class="c-link-pagination--next" href="#process">See Process &amp; Artifacts</a> -->
                     </div>
 
                 </div>

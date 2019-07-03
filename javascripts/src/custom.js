@@ -21,7 +21,7 @@ $(document).ready(function(){
   });
 
   // Trigger tabs from bottom nav and scroll up
-  $(".bottom-tab-nav").click(function(){
+  $(".c-link-pagination").children('a').click(function(){
     var target = $(this).attr("href");
     $('.o-tabs a[href=' +target+ ']').trigger("click"); // triggers 'click fndtn' event on tab 
     //alert(target);
