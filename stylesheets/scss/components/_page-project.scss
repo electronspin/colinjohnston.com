@@ -76,6 +76,15 @@
   }
 }
 
+// Page-spcific Imagebox margins
+.c-project {
+  .c-imagebox:first-child {
+    margin-bottom: $global-spacing-unit-lg;
+  }
+  .c-imagebox {
+    margin-bottom: $global-spacing-unit;
+  }
+}
 
 // Project Tabs Styles - WIP
 
@@ -119,7 +128,7 @@
       position: absolute;
       top: 65%;
       left: 44%;
-      border: $arrow-size solid transparent;
+      border: 12px solid transparent;
       border-top-color: darken($secondary-bg-color, 10%);
     }
 

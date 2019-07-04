@@ -67,3 +67,14 @@
     }
   }
 }
+
+
+// Page-spcific Imagebox margins
+.c-page {
+  .c-imagebox:first-child {
+    margin-bottom: $global-spacing-unit-lg;
+  }
+  .c-imagebox {
+    margin-bottom: $global-spacing-unit;
+  }
+}

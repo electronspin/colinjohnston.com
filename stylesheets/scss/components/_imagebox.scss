@@ -21,11 +21,11 @@
 //   margin-bottom: $global-spacing-unit-lg;
 // }
 
-.c-imagebox:first-child {
-  .o-content & {
-  margin-bottom: $global-spacing-unit-lg;
-  }
-}
+// .c-imagebox:first-child {
+//   .o-content & {
+//   margin-bottom: $global-spacing-unit-lg;
+//   }
+// }
 
 .c-imagebox--caption {
   @include font-size(14px);
