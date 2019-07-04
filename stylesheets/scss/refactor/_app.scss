@@ -1,4 +1,3 @@
-
 figure {
     display: block;
     position: relative;
@@ -36,7 +35,6 @@ figcaption {
 .side-nav li a {
     transition: all .25s ease;
 }
-
 
 .contact-button {
     margin: 3.5em 0;
@@ -123,8 +121,6 @@ a.codedirection {
 
 }
 
-
-
 @media only screen and (max-width:767px) {
 
     #content {
@@ -132,44 +128,4 @@ a.codedirection {
     }
 }
 
-.video-wrapper {
-    padding-bottom: 56.25%;
-    /* 16:9 */
-    height: 0;
-    margin-bottom: 2em;
-
-    @media only screen and (min-width: 768px) {
-        position: relative;
-        padding-top: 21px;
-    }
-}
-
-.video-wrapper iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-
-    @media only screen and (min-width: 768px) {
-        top: 0;
-        left: 0;
-    }
-
-    @media only screen and (max-width:767px) {
-        width: 92%;
-        left: 4%;
-        height: 54.25vw;
-        margin-bottom: 2em;
-    }
-}
-
-.activities-label {
-    font-size: 0.825em;
-    text-transform: uppercase;
-
-}
-
-
-
-body.noscroll {
-    overflow: hidden;
-}
+ 
