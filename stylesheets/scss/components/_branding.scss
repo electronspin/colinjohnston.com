@@ -14,7 +14,7 @@
     margin-top: -12px;
   }
   @media only screen and (max-width:767px) {
-    margin: 2em 0 1em;
+    margin: 2rem 0 $global-spacing-unit;
   }
 }
 
@@ -39,6 +39,7 @@
   &:hover { opacity: 1.0; }
 
   width: 70%;
+  max-width: 240px;
   
   @media screen and (max-width:767px) {
     width: 70%;
