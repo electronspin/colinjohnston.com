@@ -183,8 +183,8 @@
       text-align: center;
 
       a {
-        font-size: 1em;
-        padding: 0 0.5em;
+        @include font-size(14px);
+        padding: $global-spacing-unit-sm 0.5em;
         letter-spacing: 0;
       }
     }
