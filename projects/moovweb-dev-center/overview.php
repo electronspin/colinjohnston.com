@@ -29,8 +29,8 @@
                             developer-related content to a separate site that didn't exist yet.
                         </p>
                         <h4><?php echo $overview_section_b; ?></h4>
-                        <!-- overview-sidebar -->
-                        <?php include('overview-sidebar.php') ?>
+                        <!-- c-project-sidebar -->
+                        <?php include('project-sidebar.php') ?>
                         <p>I collaborated with product management on content development, devised a clear and logical
                             information architecture, and produced many iterations of visual and interface design. I
                             also worked closely with the Ruby on Rails developers to build a prototype of the app, and
@@ -45,7 +45,7 @@
                     </div>
                 </li>
                 <li class=""  id="processTab">
-                    <!-- overview-sidebar -->
+                    <!-- c-project-sidebar -->
                     <div class="overview-content">
                         <h3><?php echo $casetitle1 ?></h3>
                         <p>

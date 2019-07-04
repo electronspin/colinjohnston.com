@@ -18,9 +18,9 @@
         <ul class="o-tabs__tab-content">
             <li class="active"  id="overviewTab">
                 <div class="overview-content">
-                    <!-- overview-sidebar -->
-                    <!-- <div class="overview-sidebar">
-                    <div class="panel radius">
+                    <!-- c-project-sidebar -->
+                    <!-- <div class="c-project-sidebar">
+                    <div class="c-panel">
                         <h5> <?php echo $overview_sidebar_heading; ?></h5>
                         <ul class="services">
                             <li>Content Development</li>
@@ -42,7 +42,7 @@
                                 <li>Sass Library</li>
                             </ul>
                         </ul>
-                        <span class="services label radius">Built with <?php echo $moovui ?></span>
+                        <span class="c-project-sidebar__label">Built with <?php echo $moovui ?></span>
                     </div>
                 </div> -->
                     <p>The Session View shows every state of a session, from its initial creation, through to a complete collection of test results, build lifecycle timings, and build artifacts.</p>
@@ -75,7 +75,7 @@
                 </div>
             </li>
             <li class=""  id="processTab">
-                <!-- overview-sidebar -->
+                <!-- c-project-sidebar -->
                 <div class="overview-content">
                     <h4>Some Background</h4>
                     <p>At Solano Labs I helped move the product development process to SCRUM and two week sprints. My goal was to restructure the product development process to allow for more design thinking to happen earlier in the cycle.</p>

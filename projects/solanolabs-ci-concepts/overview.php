@@ -16,9 +16,9 @@
         </ul>
         <ul class="o-tabs__tab-content">
             <li class="active"  id="overviewTab">
-                <!-- overview-sidebar -->
-                <!-- <div class="overview-sidebar">
-                    <div class="panel radius">
+                <!-- c-project-sidebar -->
+                <!-- <div class="c-project-sidebar">
+                    <div class="c-panel">
                         <h5> <?php echo $overview_sidebar_heading; ?></h5>
                         <ul class="services">
                             <li>Content Development</li>
@@ -40,7 +40,7 @@
                                 <li>Sass Library</li>
                             </ul>
                         </ul>
-                        <span class="services label radius">Built with <?php echo $moovui ?></span>
+                        <span class="c-project-sidebar__label">Built with <?php echo $moovui ?></span>
                     </div>
                 </div> -->
                 <p>Solano CI is Solano Labs' Continuous Integration SaaS product. It is a powerful suite of tools that enables many different workflows, and therefore has <a href="#" data-reveal-id="solanolabs-session-view_v1-5">a complex user interface</a> that poses tricky user experience challenges.</p>
@@ -60,7 +60,7 @@
               -->
             </li>
             <li class=""  id="processTab">
-                <!-- overview-sidebar -->
+                <!-- c-project-sidebar -->
                 <div class="overview-content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta totam quas quos alias. Quod a, adipisci sequi modi tenetur saepe, odit ipsa dolorem sed deleniti veritatis consequatur cum temporibus!</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta totam quas quos alias. Quod a, adipisci sequi modi tenetur saepe, odit ipsa dolorem sed deleniti veritatis consequatur cum temporibus!</p>

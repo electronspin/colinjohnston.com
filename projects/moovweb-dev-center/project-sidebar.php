@@ -1,12 +1,12 @@
-<div class="overview-sidebar">
-    <div class="panel radius">
-        <h5> <?php echo $overview_sidebar_heading; ?></h5>
+<div class="c-project-sidebar">
+
+<h4> <?php echo $overview_sidebar_heading; ?></h5>
         <ul class="services">
             <li>Content Development</li>
-            <li>Information Architecture</a>
-            </li>
+            <li>Information Architecture</li>
             <li>UX + Interface Design</li>
             <ul>
+                <li>User Flows</li>
                 <li>Wireframes</li>
                 <li>Mockups</li>
                 <ul>
@@ -21,8 +21,9 @@
                 <li>Sass Library</li>
             </ul>
         </ul>
-        <span class="services label radius">Built with <?php echo $moovui ?></span>
+        <!-- <span class="c-project-sidebar__label">This site is Responsive</span> -->
+        <span class="c-project-sidebar__label">Built with <?php echo $moovui ?></span>
         <!-- <p><a class="sidebar-button" href="#process" onclick="$('.tabs a[href=\'#process\']').click()">View Process &amp; Artifacts</a></p> -->
         <p><a class="sidebar-button" href="#process">View Process &amp; Artifacts</a></p>
-    </div>
+
 </div>

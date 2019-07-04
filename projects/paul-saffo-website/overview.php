@@ -17,7 +17,7 @@
         </ul>
         <ul class="o-tabs__tab-content">
             <li class="active"  id="overviewTab">
-                <!-- overview-sidebar -->
+                <!-- c-project-sidebar -->
 
                 <div class="overview-content">
                     <p>Paul Saffo is a forecaster and futurist. He explores the dynamics of large-scale, long-term change; he teaches forecasting at Stanford University, chairs the Future Studies and Forecasting track at Singularity University, and serves on the Board of the Long Now Foundation.</p>
@@ -32,8 +32,8 @@
                     <p>Working from Paul’s previous website I refined it’s more complex user interface down to it’s essentials, enhancing usability and setting the stage for a more focused and prominent identity. </p>
                     <p>One of the biggest improvements over the previous design is a much more simplified landing page; now, instead of quotations and an unclear path to the main content, the first screen users see shows the most recent journal entry and a featured essay from his archives.</p>
 
-                    <!-- overview-sidebar -->
-                    <?php include('overview-sidebar.php') ?>
+                    <!-- c-project-sidebar -->
+                    <?php include('project-sidebar.php') ?>
                     
                     <p>I brought to the foreground graphical elements such as the unique navigation icons that had become a key part of his overall identity, and redrew them for hi-res displays. </p>
                     <p>Along with this I redesigned his logo, simplifying the typography and selecting a color with more presence—a rich deep red that communicates urgency without being too forceful.</p>

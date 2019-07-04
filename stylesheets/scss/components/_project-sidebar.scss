@@ -1,0 +1,83 @@
+/*----------------------------------*
+  #PROJECT-SIDEBAR
+ *----------------------------------*/
+
+/**
+* 
+*/
+
+// WIP
+
+
+.c-project-sidebar {
+    background-color: tint($slate-gray, 90);
+    border: 1px solid tint($slate-gray, 70);
+    margin: $global-spacing-unit-xs 0 $global-spacing-unit $global-spacing-unit;
+    padding: $global-spacing-unit $global-spacing-unit 0;
+    border-radius: 5px;
+
+    @media only screen and (min-width:768px) {
+        float: right;
+        width: 45%;
+        width: auto;
+    }
+}
+
+.c-project-sidebar h5 {
+    color: $slate-gray;
+}
+
+
+.c-project-sidebar ul,
+.c-project-sidebar ol {
+    @include font-size(14px, 27px);
+    margin-left: 1rem;
+}
+
+.c-project-sidebar ul li {
+    font-size: 1em;
+    margin-left: 0;
+    list-style-type: disc;
+}
+
+.c-project-sidebar ul > ul {
+    margin-bottom: 0;
+}
+
+.c-project-sidebar ul > ul li {
+    list-style-type: circle;
+}
+
+// .c-project-sidebar__title { 
+//     font-weight: 700;
+//     font-size: 1.25em;
+//     font-family: $display-font;
+//     text-transform: none;
+//     color: $slate-gray;
+//     margin-top: 0.375em !important; // TODO refactor
+// }
+
+
+.c-project-sidebar__label {
+    display: inline-block;
+    padding: $global-spacing-unit-xs;
+    font-family: inherit;
+    background-color: #fafafa;
+    color: #999;
+    @include font-size(14px, 18px);
+
+    a {
+        color: #999 !important;
+        border-bottom: dotted 1px #999;
+
+        transition: all .25s ease;
+
+        &:hover {
+            color: #333 !important;
+            border-bottom: dotted 1px #333;
+        }
+    }
+}
+
+
+

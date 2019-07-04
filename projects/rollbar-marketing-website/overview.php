@@ -19,7 +19,7 @@
         <ul class="o-tabs__tab-content">
             <li class="active"  id="overviewTab">
                 <div class="overview-content">
-                    <!-- overview-sidebar -->
+                    <!-- c-project-sidebar -->
                     <!-- <p>Overview intro</p>
                     <h4>Challenge</h4>
                     <p>TK</p>

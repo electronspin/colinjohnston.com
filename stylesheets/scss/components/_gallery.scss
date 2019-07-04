@@ -53,3 +53,31 @@
   }
 
 }
+
+/**
+* Gallery Captions
+*/
+
+// WIP
+
+figure:hover figcaption {
+  opacity: 1;
+  bottom: 0
+}
+
+@media only screen and (min-width: 1024px) {
+
+  figcaption {
+      font-weight: 400;
+      font-size: .875em; //.75em
+      background: rgba(0, 0, 0, 0.875);
+      color: #fff;
+      padding: 20px;
+      width: 100%;
+      opacity: 0;
+      left: 0;
+      bottom: -30%;
+      transition: all .6s ease;
+  }
+
+}

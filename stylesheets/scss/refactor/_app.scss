@@ -1,32 +1,3 @@
-.c-imagebox--caption a,
-.contact-email,
-.label.services a,
-.side-nav li a {
-    transition: all .25s ease;
-}
-
-div.panel h5,
-.overview-main h5 {
-    font-weight: 700;
-    font-size: 1.25em;
-    font-family: $display-font;
-    text-transform: none;
-}
-
-div.panel h5 {
-    color: $slate-gray;
-    margin-top: 0.375em !important; // TODO refactor
-}
-
-div.panel p:last-child {
-    margin-bottom: 0.375em !important; // TODO refactor
-}
-
-.overview-main h5 {
-    text-transform: uppercase;
-    margin-top: 1.5em;
-    color: $main-text-color;
-}
 
 figure {
     display: block;
@@ -58,85 +29,14 @@ figcaption {
     transition: all .25s ease;
 }
 
-figure:hover figcaption {
-    opacity: 1;
-    bottom: 0
-}
 
-
+.c-imagebox--caption a,
+.contact-email,
 .label.services a,
-ul.services a {
-    color: #999 !important;
-    border-bottom: dotted 1px #999;
+.side-nav li a {
+    transition: all .25s ease;
 }
 
-.overview-sidebar ul li {
-    font-size: 1em;
-    margin-left: 0;
-    line-height: 1.8;
-    list-style-type: disc;
-}
-
-.overview-sidebar ul > ul li {
-    list-style-type: circle;
-}
-
-p.tagline {
-    font-weight: 700
-}
-
-.overview-sidebar .panel {
-    background-color: tint($slate-gray, 90);
-    border: 1px solid tint($slate-gray, 70);
-    margin: 5px 0 22px;
-    padding-top: 1.25em;
-    padding-bottom: 1.25em;
-}
-
-.panel {
-    background: #F2F2F2;
-    border: 1px solid #E6E6E6;
-    margin: 1.5em 0 1.5em;
-    padding: 1em 1.5em 0.5em;
-}
-
-ol.services,
-ul.services {
-    font-size: 14px;
-    line-height: 1.8;
-    margin-bottom: 3px;
-    list-style-position: outside;
-    margin-left: 17px
-}
-
-ul.services>ol,
-ul.services>ul {
-    margin-left: 17px;
-    margin-bottom: 0 !important;
-    list-style-position: outside
-}
-
-.label.services {
-    display: inline-block;
-    margin-top: 17px;
-    padding: 4px;
-    font-family: inherit;
-    background-color: #fafafa;
-    color: #999
-}
-
-ul.services a {
-    font-weight: 400
-}
-
-.label.services a {
-    transition: all .25s ease
-}
-
-.label.services a:hover {
-    color: #333 !important;
-    border-bottom: dotted 1px #333;
-}
 
 .contact-button {
     margin: 3.5em 0;
@@ -189,9 +89,7 @@ a.codedirection {
 }
 
 @media (max-width:480px) {
-    p.intro {
-        font-size: 1.25em !important
-    }
+
 
     p.tagline {
         font-size: 1em !important;
@@ -215,10 +113,6 @@ a.codedirection {
         font-size: .75em
     }
 
-    p.intro {
-        margin: 1.5em 0
-    }
-
     #topbar {
         margin: 0 0 5px
     }
@@ -229,25 +123,13 @@ a.codedirection {
 
 }
 
-@media only screen and (min-width:768px) {
 
-    .overview-sidebar {
-        float: right;
-        width: 45%;
-        width: auto;
-        padding-left: 2em
-    }
-}
 
 @media only screen and (max-width:767px) {
 
     #content {
         min-height: 50em
     }
-}
-
-.reveal-modal img {
-    margin: 2em 0;
 }
 
 .video-wrapper {
@@ -283,26 +165,6 @@ a.codedirection {
 .activities-label {
     font-size: 0.825em;
     text-transform: uppercase;
-
-}
-
-
-
-// widescreen layout
-@media only screen and (min-width: 1024px) {
-
-    figcaption {
-        font-weight: 400;
-        font-size: .875em; //.75em
-        background: rgba(0, 0, 0, 0.875);
-        color: #fff;
-        padding: 20px;
-        width: 100%;
-        opacity: 0;
-        left: 0;
-        bottom: -30%;
-        transition: all .6s ease;
-    }
 
 }
 

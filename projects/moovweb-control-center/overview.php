@@ -35,8 +35,8 @@
                         enhance visual design and user experience on many areas of the system.
                     </p>
                     <h4><?php echo $overview_section_b; ?></h4>
-                    <!-- overview-sidebar -->
-                    <?php include('overview-sidebar.php') ?>
+                    <!-- c-project-sidebar -->
+                    <?php include('project-sidebar.php') ?>
                     <p>As the sole designer in the Engineering/Product Management group, I collaborated closely with
                         product managers, front-end developers, and engineers to iterate on requirements, design
                         deliverables, and prototypes, and provided a framework for user experience and interface design
@@ -52,7 +52,7 @@
                         built with the the Moovweb team helped the company provide better tools that sit at the core of
                         their business.
                     </p>
-                    <div class="panel radius">
+                    <div class="c-panel">
                         <p>One of the key accomplishments of the Moovweb 4 redesign was the creation of
                             <?php echo $moovui ?>, a modular pattern library and styleguide built with Sass. This
                             allowed us to quickly iterate on the styling of UI components and critical interaction
@@ -63,7 +63,7 @@
                 </div>
             </li>
             <li class="" id="processTab">
-                <!-- overview-sidebar -->
+                <!-- c-project-sidebar -->
                 <div class="overview-content">
                     <h3><?php echo $casetitle1 ?></h3>
                     <p>

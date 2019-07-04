@@ -35,7 +35,7 @@ $(document).ready(function(){
   $(function() {
     if ($(window).width()<767) {
       // Move Sidebar to end of content 
-      $(".overview-sidebar").appendTo("#overviewTab > .overview-content");
+      $(".c-project-sidebar").appendTo("#overviewTab > .overview-content");
       // Scroll to top of tabs when clicking sidebar button
       $(".sidebar-button").click(function() {
         $('html, body').animate({
