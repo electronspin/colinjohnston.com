@@ -8,21 +8,22 @@
 
 .c-footer {
   background-color: $slate-gray;
+  padding: $global-spacing-unit;
+  margin-top: $global-spacing-unit-lg; // intentionally breaking the margin-bottom only rule for convenience right now
 }
 
 .c-footer__body {
-  font-size: .9em;
+  @include font-size(12px, 18px);
   color: #999;
   color: $light-text-color;
-  margin-bottom: 0;
-
-  // max-width: 120ch;
+  max-width: 92%; // matches o-wrapper, consider using that in page layout inside 0-layout?
+  margin: auto;
   a {
     color: #999;
-    color: #fff;
+    color: $light-text-color;
     &:hover {
       color: #000;
-      color: $dark-text-color;
+      color: #fff;
     }
   }
 }
