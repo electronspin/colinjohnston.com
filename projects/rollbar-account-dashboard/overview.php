@@ -66,7 +66,7 @@
                         /images/solanolabs-sessionview-research-notations_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-research-notations_medium.jpg" alt="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts" title="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption">
+                    <p class="c-imagebox__caption">
                         <?php echo $slcs; ?> - Research Notes on v1.5 Layouts <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">View Larger Image</a></span></p>
 
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> User Research, Use Cases, Usability Testing, Interviews, Concept Maps. </p>
@@ -84,7 +84,7 @@
                         /images/solanolabs-sessionview-personas_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-personas_medium.jpg" alt="<?php echo $slcs; ?> - Personas" title="<?php echo $slcs; ?> - Personas">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption">
+                    <p class="c-imagebox__caption">
                         <?php echo $slcs; ?> - Personas <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-personas">View Larger Image</a></span></p>
                     
                     <h5>Sketches</h5>
@@ -98,7 +98,7 @@
                         /images/solanolabs-sessionview-sketches_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-sketches_medium.jpg" alt="<?php echo $slcs; ?> - Sketches" title="<?php echo $slcs; ?> - Sketches">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption">
+                    <p class="c-imagebox__caption">
                         <?php echo $slcs; ?> - Sketches <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-sketches">View Larger Image</a></span></p>
                         
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Personas, Use Cases, User Flows, Sketches, Lo-fi Wireframes.</p>
@@ -115,7 +115,7 @@
                         /images/solanolabs-sessionview-wireframe1_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-wireframe1_medium.jpg" alt="<?php echo $slcs; ?> - Wireframe of Base Layout" title="<?php echo $slcs; ?> - Wireframe of Base Layout">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption">
+                    <p class="c-imagebox__caption">
                         <?php echo $slcs; ?> - Wireframe of Base Layout <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-wireframe1">View Larger Image</a></span></p>
                     <h5>UI Design</h5>
                     <p>The visual and interface design came from my work-in-progress style guide and design system.</p>
@@ -145,7 +145,7 @@
                         /images/solanolabs-sessionview-prototype-codepen_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-prototype-codepen_medium.jpg" alt="<?php echo $slcs; ?> - Codepen Prototype" title="<?php echo $slcs; ?> - Codepen Prototype">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption">
+                    <p class="c-imagebox__caption">
                         <?php echo $slcs; ?> - Prototype in Codepen <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-prototype-codepen">View Larger Image</a> - </span> <a href="http://codepen.io/electronspin/pen/95a6ac01710fd019c2723fe5a68d0a7b" target="_blank">Open Codepen</a></p>
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Mockups, Clickable Prototypes, Heuristics, Interactions</p>
                     <p><a class="link--to-top" href="#">TOP</a></p>

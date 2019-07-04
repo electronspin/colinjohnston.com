@@ -60,7 +60,7 @@
                           /images/dev-center-ai-overview_large.png 1200w" class="lazyload"
                                 alt="Developer Center Information Architecture Overview">
                         </div>
-                        <p class="c-imagebox--caption"><a href="#" data-reveal-id="dev-center-ai-overview">View Full Size</a>
+                        <p class="c-imagebox__caption"><a href="#" data-reveal-id="dev-center-ai-overview">View Full Size</a>
                         </p>
                         <a name="user-flows"></a>
                         <h4>User Flows</h4>
@@ -74,7 +74,7 @@
                           /images/dc-v4-onboarding-userflow_large.png 1200w" class="lazyload"
                                         alt="Developer Center New User Onboarding Flow">
                                 </div>
-                                <p class="c-imagebox--caption"><a href="#" data-reveal-id="dc-v4-onboarding-userflow">View Full
+                                <p class="c-imagebox__caption"><a href="#" data-reveal-id="dc-v4-onboarding-userflow">View Full
                                         Size</a></p>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                           /images/dc-v1-docs-landing-developer-mockup_large.png 1200w" class="lazyload"
                                 alt="Developer Center Early Mockups - 'Developer' Edition">
                         </div>
-                        <p class="c-imagebox--caption">Early Mockups of Developer Center Documentation landing page -
+                        <p class="c-imagebox__caption">Early Mockups of Developer Center Documentation landing page -
                             'Developer' Edition <span class="hide-for-small">/ <a href="#"
                                     data-reveal-id="dc-v1-docs-landing-developer-mockup">View Larger</a></span></p>
                         <!-- </div><div class="six columns"> -->
@@ -102,7 +102,7 @@
                           /images/dc-v1-docs-landing-enterprise-mockup_large.png 1200w" class="lazyload"
                                 alt="Developer Center Early Mockups - 'Enterprise' Edition">
                         </div>
-                        <p class="c-imagebox--caption">Early Mockups of Developer Center Documentation landing page -
+                        <p class="c-imagebox__caption">Early Mockups of Developer Center Documentation landing page -
                             'Enterprise' Edition <span class="hide-for-small">/ <a href="#"
                                     data-reveal-id="dc-v1-docs-landing-enterprise-mockup">View Larger</a></span></p>
                         <!-- </div></div> -->

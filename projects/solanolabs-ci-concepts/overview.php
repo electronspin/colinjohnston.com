@@ -51,8 +51,8 @@
                 <div class="video-wrapper">
                     <iframe class="vimeo" src="https://player.vimeo.com/video/174725827" width="600" height="353" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
-                <p class="c-imagebox--caption-video">I built this prototype using <a href="https://middlemanapp.com/" target="_blank">Middleman</a> and selected elements of <a href="http://semantic-ui.com/" target="_blank">Semantic UI</a> coupled with my own custom CSS and JavaScript; the video is recorded from a locally running instance of Middleman.</p>
-                <p class="c-imagebox--caption">Please note: the video transition between the 'build running' and 'build passed' state does not represent a UI animation, but simply abbreviates the run time in the presentation.</p>
+                <p class="c-imagebox__caption-video">I built this prototype using <a href="https://middlemanapp.com/" target="_blank">Middleman</a> and selected elements of <a href="http://semantic-ui.com/" target="_blank">Semantic UI</a> coupled with my own custom CSS and JavaScript; the video is recorded from a locally running instance of Middleman.</p>
+                <p class="c-imagebox__caption">Please note: the video transition between the 'build running' and 'build passed' state does not represent a UI animation, but simply abbreviates the run time in the presentation.</p>
                 <!--
               <h4><?php echo $overview_section_a; ?></h4>
               <p>I was hired by Moovweb to create a user-friendly, visually coherent interface for a complex system of tools. The initial v4 build was top-to-bottom redesign of all interfaces as well as a rethinking of all content strategy for developer onboarding (this lead to the creation of the Developer Center). The v5 build was a complete rebuild of the platform with an array of powerful new features which required a rethinking of many interfaces, and provided an opportunity to enhance visual design and user experience on many areas of the system. 

@@ -87,7 +87,7 @@
                             class="lazyload"
                             alt="Control Center v4 Project Page Mockup - Early Stages">
                     </div>
-                    <p class="c-imagebox--caption">Control Center v4 Project Page Mockup - Early Round 2 Design | <a href="#"
+                    <p class="c-imagebox__caption">Control Center v4 Project Page Mockup - Early Round 2 Design | <a href="#"
                             data-reveal-id="cc-v4-r2-projects-list-mockup">View Larger</a></p>
                     <div class="c-imagebox">
                         <img 
@@ -99,7 +99,7 @@
                             class="lazyload" 
                             alt="Moovweb Control Center v4 Project Page Mockup">
                     </div>
-                    <p class="c-imagebox--caption">Control Center v4 Project Page Mockup - Early Round 5 Design | <a href="#"
+                    <p class="c-imagebox__caption">Control Center v4 Project Page Mockup - Early Round 5 Design | <a href="#"
                             data-reveal-id="cc-v4-r5-projects-list-mockup">View Larger</a></p>
                     <a name="v4"></a>
                     <h4>Prototype - Moovweb 4</h4>
@@ -115,7 +115,7 @@
                             class="lazyload"
                             alt="Moovweb Control Center v4 Project Page">
                     </div>
-                    <p class="c-imagebox--caption">Final Prototype Control Center v4 Project Page Interface <span
+                    <p class="c-imagebox__caption">Final Prototype Control Center v4 Project Page Interface <span
                             class="hide-for-small">/ <a href="#" data-reveal-id="cc-v4-project-page">View
                                 Larger</a></span></p>
                     <a name="wf-v5"></a>
@@ -134,7 +134,7 @@
                                     class="lazyload" 
                                     alt="Moovweb Control Center v5 Wireframes Modes Routing 1">
                             </div>
-                            <p class="c-imagebox--caption">Wireframe of 'Add Rule' screen for Modes Routing rule configuration
+                            <p class="c-imagebox__caption">Wireframe of 'Add Rule' screen for Modes Routing rule configuration
                                 <span class="hide-for-small">/ <a href="#"
                                         data-reveal-id="cc-v5-r1-wireframe-modes-p4">View Larger</a></span></p>
                         </div>
@@ -150,7 +150,7 @@
                                     class="lazyload" 
                                     alt="Moovweb Control Center v5 Wireframes Modes Routing 2">
                             </div>
-                            <p class="c-imagebox--caption">Wireframe of 'Rules Overview' screen in Modes Routing rule
+                            <p class="c-imagebox__caption">Wireframe of 'Rules Overview' screen in Modes Routing rule
                                 management <span class="hide-for-small">/ <a href="#"
                                         data-reveal-id="cc-v5-r1-wireframe-modes-p5">View Larger</a></span></p>
                         </div>
@@ -168,7 +168,7 @@
                             class="lazyload" 
                             alt="Moovweb Control Center v5 Modes Routing Screen">
                     </div>
-                    <p class="c-imagebox--caption">Final Design of the new Modes Routing interface for Control Center v5 <span
+                    <p class="c-imagebox__caption">Final Design of the new Modes Routing interface for Control Center v5 <span
                             class="hide-for-small">/ <a href="#" data-reveal-id="cc-v5-modes-add-rule">View
                                 Larger</a></span></p>
                 </div>

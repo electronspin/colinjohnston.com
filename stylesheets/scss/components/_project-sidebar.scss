@@ -13,6 +13,7 @@
     background-color: tint($slate-gray, 90);
     border: 1px solid tint($slate-gray, 70);
     padding: $global-spacing-unit $global-spacing-unit 0;
+    margin-bottom: $global-spacing-unit;
     border-radius: 5px;
 
     @media only screen and (min-width:768px) {

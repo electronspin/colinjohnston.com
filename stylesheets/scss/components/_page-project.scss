@@ -21,6 +21,9 @@
       opacity: 1;
     }
   }
+  @media only screen and (max-width: 480px) {
+    line-height: initial;
+  }
 }
 
 // Project headings
@@ -77,12 +80,19 @@
 }
 
 // Page-spcific Imagebox margins
+
 .c-project {
   .c-imagebox:first-child {
     margin-bottom: $global-spacing-unit-lg;
   }
   .c-imagebox {
     margin-bottom: $global-spacing-unit;
+  }
+}
+// TODO better namespacing and specificity needed so this can live independently
+.c-project .c-imagebox__caption {
+  @media only screen and (max-width: 480px) { 
+    line-height: initial;
   }
 }
 

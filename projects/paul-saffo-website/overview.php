@@ -158,7 +158,7 @@
                         /images/saffo-website-sketches-1_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-website-sketches-1_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption"><strong>Early sketches of mobile layouts</strong> - I didn't use most of these ideas, but by thinking them through on paper I was able to make better design choices in the next rounds.<span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-1">View Larger Image</a></span></p>
+                    <p class="c-imagebox__caption"><strong>Early sketches of mobile layouts</strong> - I didn't use most of these ideas, but by thinking them through on paper I was able to make better design choices in the next rounds.<span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-1">View Larger Image</a></span></p>
                     <!-- saffo-website-sketches-2 -->
                     <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-website-sketches-2">
@@ -167,7 +167,7 @@
                         /images/saffo-website-sketches-2_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-website-sketches-2_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption"><strong>Desktop landing page sketches</strong> - Evolution towards the final desktop layout. Through these sketches I also revealed the idea for the final mobile layouts. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-2">View Larger Image</a></span></p>
+                    <p class="c-imagebox__caption"><strong>Desktop landing page sketches</strong> - Evolution towards the final desktop layout. Through these sketches I also revealed the idea for the final mobile layouts. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-2">View Larger Image</a></span></p>
                     <!-- saffo-website-sketches-3 -->
                     <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-website-sketches-3">
@@ -176,7 +176,7 @@
                         /images/saffo-website-sketches-3_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-website-sketches-3_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption"><strong>Later sketches of mobile layouts</strong> - Tightening up the layouts, with notes on things to leave out in the mockups. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-3">View Larger Image</a></span></p>
+                    <p class="c-imagebox__caption"><strong>Later sketches of mobile layouts</strong> - Tightening up the layouts, with notes on things to leave out in the mockups. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-3">View Larger Image</a></span></p>
                     <p>One thing I’ve learned as a designer is the importance of setting aside these sketches for a few days and reviewing them with fresh eyes later. Sometimes what seemed like the best idea seems incomplete or too busy and can be improved (or completely rejected in favor of a new idea). This is the time to figure this out, not once I’ve done hi-fidelity mockups or a prototype (although prototypes often lead to substantial revision, too).</p>
                     <p>While the sketches are out of sight and mind, I looked my type and color ideas and gathered all my image resources to prepare for assembling complete designs.</p>
                     <p>At this stage of the project I typically present the work done so far to get feedback from my client. For this project, Paul requested that I develop and present a single recommended design. (Yikes! What if he hated it?). This method means fewer presentations, but we also run the risk of skipping important artifacts. Although I knew I wouldn’t be presenting them for feedback, I created style boards to explore and document the choices leading up to the recommended design. For me it’s an essential part of developing early concepts because they show the proposed visual style, separate from content and structure. It also really helps to print them out and tape them up on the wall so I can stay focused while working on designs.</p>
@@ -189,7 +189,7 @@
                         /images/saffo-styleboards_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-styleboards_medium.jpg" alt="">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption"><strong>Style Board</strong> - TBD <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-styleboards">View Larger Image</a></span></p>
+                    <p class="c-imagebox__caption"><strong>Style Board</strong> - TBD <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-styleboards">View Larger Image</a></span></p>
                     <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="design">Design</h4>
                     <h5>Why no Wireframes?</h5>
@@ -205,7 +205,7 @@
                         /images/saffo-design-sketch-1_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-design-sketch-1_medium.jpg" alt="Paul Saffo Website - Design in Sketch 1">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption"><strong>Mockups</strong> - Designing the desktop and mobile views side-by-side in Sketch. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-design-sketch-2">View Larger Image</a></span></p>
+                    <p class="c-imagebox__caption"><strong>Mockups</strong> - Designing the desktop and mobile views side-by-side in Sketch. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-design-sketch-2">View Larger Image</a></span></p>
                     <!-- saffo-design-sketch-2 -->
                     <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-design-sketch-2">
@@ -214,7 +214,7 @@
                         /images/saffo-design-sketch-2_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-design-sketch-2_medium.jpg" alt="">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption"><strong>Mockups</strong> - Detail of mobile navigation in Sketch. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-design-sketch-2">View Larger Image</a></span></p>
+                    <p class="c-imagebox__caption"><strong>Mockups</strong> - Detail of mobile navigation in Sketch. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-design-sketch-2">View Larger Image</a></span></p>
                     <h5>Presentation</h5>
                     <p>At this stage I have a set of initial mockups that tie everything together: the essential pieces—logo, icons, colors, type, structure—have been assembled into a cohesive design and are ready to present.</p>
                     <h5>Final Design</h5>
@@ -229,7 +229,7 @@
                         /images/saffo-art-direction_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-art-direction_medium.jpg" alt="">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption"><strong>Final Designs</strong> - Photo art direction for page header images. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-art-direction">View Larger Image</a></span></p>
+                    <p class="c-imagebox__caption"><strong>Final Designs</strong> - Photo art direction for page header images. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-art-direction">View Larger Image</a></span></p>
                     <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="build">Build</h4>
                     <p>One of the things I love about ‘agency of one’ projects like this is that I get to do both design and implementation. I’m just as a comfortable in a code editor as I am in Photoshop.</p>
@@ -246,7 +246,7 @@
                         /images/saffo-styles-typography_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-styles-typography_medium.jpg" alt="">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption"><strong>Front End</strong> - I created a Sass mixin that work with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue.</p>
+                    <p class="c-imagebox__caption"><strong>Front End</strong> - I created a Sass mixin that work with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue.</p>
                     <h5>Interactions</h5>
                     <p>My goal for interactions is to create them in pure CSS if possible; not using JavaScript for a menu dropdown means there’s just a little less code to send to the browser. But in some cases using JavaScript helps me avoid a more time-consuming process of create CSS-only interactions the work in older browsers (which is often just not going to happen).</p>
                     <p>The mobile menu toggle is an example of a UI animation that is CSS-only; the mobile menu itself is enabled using base jQuery to toggle visibility.</p>
@@ -258,7 +258,7 @@
                         /images/saffo-menu-ixd-demo_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-menu-ixd-demo_medium.jpg" alt="Paul Saffo Website - Design in Sketch 2">
                         </a>
                     </div>
-                    <p class="c-imagebox--caption"><strong>Interaction Design</strong> - Detail of mobile menu animation created with pure CSS. I added 'show' and 'hide ' text to the increase usability.</p>
+                    <p class="c-imagebox__caption"><strong>Interaction Design</strong> - Detail of mobile menu animation created with pure CSS. I added 'show' and 'hide ' text to the increase usability.</p>
                     <h5>Development Tools</h5>
                     <p>Because I really like this aspect of any project, here are some notes on my workflow setup:</p>
                     <ul>

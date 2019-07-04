@@ -27,7 +27,7 @@
 //   }
 // }
 
-.c-imagebox--caption {
+.c-imagebox__caption {
   @include font-size(14px);
   margin-top: -$global-spacing-unit-sm;
   margin-bottom: $global-spacing-unit;
@@ -38,9 +38,12 @@
       display: none !important; // TODO Fix hidden.scss
     }
   }
+  // @media only screen and (max-width: 480px) { 
+  //   line-height: initial;
+  // }
 }
 
-.c-imagebox--caption a {
+.c-imagebox__caption a {
   font-weight: 400;
   color: $content-link;
   transition: all .25s ease;

@@ -17,7 +17,7 @@
             alt="Paul Saffo Identity - Icon Sketches">
     </a>
 </div>
-<p class="c-imagebox--caption"><strong>Icon Sketches</strong> - Exploring the geometry of the About Icon before going in to
+<p class="c-imagebox__caption"><strong>Icon Sketches</strong> - Exploring the geometry of the About Icon before going in to
     Illustrator. Sketching like this in pencil helps me really think through the details. <span class="hide-for-small">/
         <a href="#" data-reveal-id="saffo-identity-icons-sketch">View Larger Image</a></p>
 <h5>Vectors</h5>
@@ -35,7 +35,7 @@
             alt="Paul Saffo Identity - Icon Designs">
     </a>
 </div>
-<p class="c-imagebox--caption"><strong>Icon Design</strong> - Constructing the About Icon in Illustrator. <span
+<p class="c-imagebox__caption"><strong>Icon Design</strong> - Constructing the About Icon in Illustrator. <span
         class="hide-for-small">/ <a href="#" data-reveal-id="saffo-identity-icons-wip">View Larger Image</a></span></p>
 <!-- saffo-identity-icons-final" -->
 <div class="c-imagebox">
@@ -50,7 +50,7 @@
             alt="Paul Saffo Identity - Final Icon Designs">
     </a>
 </div>
-<p class="c-imagebox--caption"><strong>Icon Design</strong> - The final icons ready for SVG export. <span
+<p class="c-imagebox__caption"><strong>Icon Design</strong> - The final icons ready for SVG export. <span
         class="hide-for-small">/ <a href="#" data-reveal-id="saffo-identity-icons-final">View Larger Image</a></span>
 </p>
 <p><a class="link--to-top" href="#">TOP</a></p>
