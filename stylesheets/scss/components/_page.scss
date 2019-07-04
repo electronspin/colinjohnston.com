@@ -1,0 +1,69 @@
+/*----------------------------------*
+  #PAGE
+ *----------------------------------*/
+
+/**
+* Standard page organism
+*/
+
+// WIP All these @extends should be the otehr way around
+
+.c-page__title {
+  @extend .c-project__title;
+}
+
+// Page headings -- DUPLICATES PROJECT HEADINGS
+
+.c-page h3 {
+  color: $dark-text-color;
+  font-weight: 400;
+  letter-spacing: -0.019em; // 24px
+}
+
+.c-page h4 {
+  color: $dark-text-color;
+  font-weight: 600;
+  letter-spacing: -0.017em; // 20px
+}
+
+.c-page h5 {
+  // WIP
+  //color: $dark-text-color;
+  @include font-size(16px);
+  //font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -0.014em; // 20px
+}
+
+
+.c-page__body {
+  @extend .c-project__body;
+}
+
+
+// DUPLICATES PROJECT STYLE
+
+.c-page p,
+.c-page ul,
+.c-page ol {
+  // @include font-size(18px, 32px);
+  line-height: 32px; // WIP
+  font-weight: 400;
+  letter-spacing: -0.011em;
+}
+
+.c-page p + ol,
+.c-page p + ul {
+    margin-top: -$global-spacing-unit;
+}
+
+.c-page__intro {
+  &.animate {
+    transition: opacity 1.5s ease .3s; // nice feel!
+    opacity: 0;
+
+    &.inview {
+      opacity: 1;
+    }
+  }
+}

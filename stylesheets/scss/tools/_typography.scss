@@ -2,6 +2,11 @@
   #TYPOGRAPHY
  *----------------------------------*/
 
+@import url('https://rsms.me/inter/inter-ui.css');
+// $text-font: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$text-font: 'Inter', sans-serif;
+$display-font: $text-font;
+
 // discovr
 
 // Mixins to help generating typographical rules.
@@ -22,10 +27,6 @@
   }
 
 }
-
-
-
-
 
 // Generate a font-size and baseline-compatible line-height.
 @mixin font-size($font-size, $line-height: auto) {

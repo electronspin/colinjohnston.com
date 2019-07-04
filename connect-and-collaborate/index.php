@@ -9,7 +9,7 @@
     </div>
     <div class="o-wrapper o-wrapper-grid o-wrapper--no-header">
         <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar-connect.php') ?>
-        <div id="content" class="o-content o-layout__grid-item">
+        <div id="content" class="o-content o-layout__grid-item c-page">
             <div class="c-imagebox">
                 <figure>
                     <img srcset="/images/colin-connect-2018_400.jpg 400w,
@@ -19,14 +19,13 @@
                         sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/colin-connect-2018_400.jpg" alt="" />
                 </figure>
             </div>
-            <h2>Connect</h2>
-            <div class="c-project__body">
+            <h2 class="c-page__title">Connect</h2>
+            <div class="c-page__body">
                 <p>Do you have a project you'd like to to start? Or an existing website you'd like to
                     update? Let's connect and see how I can help.</p>
                 <p>Phone: +1 415 816-2477
                     <br /> Email:
                     <a id="contact"></a>
-                    <h4>Networking &amp; Social</h4>
                     <p>LinkedIn: <a href="http://www.linkedin.com/in/colinleejohnston"
                             target="_blank">colinleejohnston</a>
                         <br /> Twitter: <a href="https://twitter.com/colinjohnston" target="_blank">@colinjohnston</a>

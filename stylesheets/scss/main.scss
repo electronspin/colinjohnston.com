@@ -49,13 +49,19 @@
  *
  * COMPONENTS
  * Intro..............Intro block in sidebar (header)
- * Branding...........[WIP] Logo 
- * Modals.............Lightbox modal for designs and photos
- * Imagebox...........Standard project asset wrapper
- Buttons..............An example button component, and how it fits into the
- *                      inuitcss framework.
- * Link-top...........Lin-kto-top mini-component.
- * Link-prev-next.....Link component for Prev/Next in pagination.
+ * Branding...........[WIP] Logo.
+ * Link-top...........Link-to-top mini-component.
+ * Link-pagination....Link component for Prev/Next in pagination.
+ * Buttons............[WIP] Buttons.
+ * Panel..............[WIP] Content panel.
+ * Modals.............Lightbox modal for designs and photos.
+ * Gallery............
+ * Footer.............
+ * Sidenav............
+ * Imagebox...........Standard project asset wrapper.
+ * Project Sidebar....
+ * Page-Project.......
+ * Page...............
  *
  * UTILITIES
  Clearfix.............Bind our clearfix onto a utility class.
@@ -67,10 +73,6 @@
  Hide.................Helper classes to hide content
  * Lazyload...........JS Hooks for lazyloading images
  */
-
- // REFACTOR
-
- @import "refactor/refactor";
 
  // global
 
@@ -137,8 +139,10 @@
 @import "components/footer";
 @import "components/side-nav";
 @import "components/imagebox";
-@import "components/page-project";
 @import "components/project-sidebar";
+@import "components/page-project";
+@import "components/page";
+
  
  // utilities
  

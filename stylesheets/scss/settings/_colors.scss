@@ -2,7 +2,7 @@
   #COLORS
  *----------------------------------*/
 
-// Text 
+ // Text 
 $light-text-color: #f2f2f2;
 $main-text-color: #777;
 $dark-text-color: #222;
@@ -15,20 +15,18 @@ $color-page-background: $main-bg-color; //alias
 $secondary-bg-color: $light-text-color;
 $medium-bg-color: lighten($main-text-color, 50%);
 $dark-bg-color: lighten($dark-text-color, 10%);
-// Border
+
+// Borders
 $main-border-color: #E6E6E6;
 $tabs-border-color: #ccc;
-// Brand Color
-$cjd-branding: #4d8bdc;
-$content-link: $cjd-branding;
-// Shapes
-$arrow-size: 12px;
-//
-$navwidth: 20em;
-$dark-brand-bg: #4c5f77;
 
-// link hover color #78a7e4
+// Links
+$cjd-branding: #4d8bdc;
+$primary-link-color: $cjd-branding;
+$content-link: $cjd-branding;
+$dark-brand-bg: #4c5f77;
 $slate-gray: #545860;
+
 
 
 

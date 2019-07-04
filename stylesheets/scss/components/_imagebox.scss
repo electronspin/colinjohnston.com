@@ -12,6 +12,19 @@
   & a {
     display: inline-block;
   }
+  & figure {
+    margin-bottom: 0;
+  }
+}
+
+// .c-imagebox--hero {
+//   margin-bottom: $global-spacing-unit-lg;
+// }
+
+.c-imagebox:first-child {
+  .o-content & {
+  margin-bottom: $global-spacing-unit-lg;
+  }
 }
 
 .c-imagebox--caption {
@@ -46,6 +59,32 @@
     content: "";
     padding: 0 1px;
   }
+}
+
+// TODO Clean this up
+
+figure {
+  display: block;
+  position: relative;
+  overflow: hidden
+}
+
+figcaption {
+  position: absolute
+}
+
+figcaption {
+  font-weight: 400;
+  font-size: .75em;
+  background: #333;
+  background: rgba(0, 0, 0, .75);
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  opacity: 0;
+  left: 0;
+  bottom: -30%;
+  transition: all .6s ease
 }
 
 /**

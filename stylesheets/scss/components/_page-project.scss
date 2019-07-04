@@ -1,14 +1,10 @@
 /*----------------------------------*
-  #PROJECT
+  #PROJECT-PAGE
  *----------------------------------*/
 
 /**
 * Standard project page organism
 */
-
-.c-project .c-imagebox {
-  margin-bottom: $global-spacing-unit;
-}
 
 .c-project__title {
   color: $dark-text-color;
@@ -25,7 +21,6 @@
       opacity: 1;
     }
   }
-
 }
 
 // Project headings
