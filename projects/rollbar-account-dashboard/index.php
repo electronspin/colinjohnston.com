@@ -28,14 +28,17 @@
             <?php include('overview.php') ?>
             <p></p>
 
+            </div>
+                <!--end two column content area-->
+                
         </div>
+        <!--end main page wrapper-->
 
         <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
-    </div>
-    <!--end page wrapper-->
-    <!-- overview-modals -->
-    <?php include('modals.php') ?>
 
-</body>
+        <!-- project modals -->
+        <?php include('modals.php') ?>
 
-</html>
+    </body>
+
+    </html>

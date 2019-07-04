@@ -4,17 +4,13 @@
     <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?>
 </title>
 </head>
-
 <body>
     <div id="pagetop">
     </div>
     <div class="o-wrapper o-wrapper-grid o-wrapper--no-header">
-
         <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar-home.php') ?>
         <div id="content" class="o-content o-layout__grid-item">
-            <!-- Convert this to CSS Grid! It's 2018. -->
             <ul class="c-gallery c-gallery--two-up">
-
                 <li class="c-gallery__item">
                     <a href="/projects/rollbar-account-dashboard">
                         <div class="c-imagebox animate">
@@ -29,7 +25,6 @@
                         </div>
                     </a>
                 </li>
-
                 <li class="c-gallery__item">
                     <a href="/projects/solanolabs-ci-session-view">
                         <div class="c-imagebox animate">
@@ -45,7 +40,6 @@ images/solanolabs-sessionview-v2_large.jpg 1200w" sizes="(min-width: 48em) 33.3v
                         </div>
                     </a>
                 </li>
-
                 <li class="c-gallery__item">
                     <a href="/projects/paul-saffo-website">
                         <div class="c-imagebox animate">
@@ -59,7 +53,6 @@ images/saffo-home-responsive_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 1
                         </div>
                     </a>
                 </li>
-
                 <li class="c-gallery__item">
                     <a href="/projects/rollbar-marketing-website">
                         <div class="c-imagebox animate">
@@ -74,7 +67,6 @@ images/saffo-home-responsive_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 1
                         </div>
                     </a>
                 </li>
-
                 <li class="c-gallery__item">
                     <a href="/projects/rollbar-identity-refresh">
                         <div class="c-imagebox animate">
@@ -90,7 +82,6 @@ images/saffo-home-responsive_large.jpg 1200w" sizes="(min-width: 48em) 33.3vw, 1
                         </div>
                     </a>
                 </li>
-
                 <li class="c-gallery__item">
                     <a href="/projects/moovweb-dev-center">
                         <div class="c-imagebox animate">
@@ -123,11 +114,9 @@ images/moovweb-control-center-main_large.jpg 1200w" sizes="(min-width: 48em) 33.
                 </li>
             </ul>
         </div>
-        <!--end eight column content area-->
-        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+        <!--end two column content area-->
     </div>
-    <!--end page wrapper-->
-
+    <!--end main page wrapper-->
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
 </body>
-
 </html>

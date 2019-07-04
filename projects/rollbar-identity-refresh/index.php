@@ -27,12 +27,17 @@
             <h2 class="c-project__title animate"><?php echo $rbid ?></h2>
             <?php include('overview.php') ?>
             <p></p>
+            </div>
+                <!--end two column content area-->
+                
         </div>
-        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
-    </div>
-    <!--end page wrapper-->
-    <!-- overview-modals -->
-    <?php include('modals.php') ?>
-</body>
+        <!--end main page wrapper-->
 
-</html>
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+
+        <!-- project modals -->
+        <?php include('modals.php') ?>
+
+    </body>
+
+    </html>

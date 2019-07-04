@@ -22,65 +22,13 @@ figcaption {
     transition: all .6s ease
 }
 
-p.copyright {
-    font-size: .9em;
-    color: #999;
-    margin-bottom: 0;
-    max-width: 120ch;
-}
-
-p.copyright a {
-    color: #999;
-    font-weight: 400
-}
-
-p.copyright a:hover {
-    color: #000;
-    font-weight: 400 !important
-}
 
 a.codedirection {
     unicode-bidi: bidi-override;
     direction: rtl
 }
 
-@media (max-width:480px) {
-
-
-    p.tagline {
-        font-size: 1em !important;
-    }
-
-    .contact-email {
-        display: block;
-        width: 100% !important
-    }
-
-    .contact-button {
-        text-align: center;
-        margin: 0 0 1.5em
-    }
-
-}
-
-@media (max-width:767px) {
-
-    p.tagline {
-        font-size: .75em
-    }
-
-    #topbar {
-        margin: 0 0 5px
-    }
-
-    .overview {
-        display: table
-    }
-
-}
-
 @media only screen and (max-width:767px) {
-
     #content {
         min-height: 50em
     }

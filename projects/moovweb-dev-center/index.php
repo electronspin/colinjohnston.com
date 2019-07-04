@@ -31,13 +31,17 @@
                         <p>View the Developer Center at <a href="http://developer.moovweb.com/" name="" target="_blank">developer.moovweb.com</a></p>
                         <p></p>
 
-            </div>
+                        </div>
+                <!--end two column content area-->
+                
+        </div>
+        <!--end main page wrapper-->
 
-            <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
-    </div>
-    <!--end page wrapper-->
-    <!-- overview-modals -->
-    <?php include('modals.php') ?>
-</body>
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
 
-</html>
+        <!-- project modals -->
+        <?php include('modals.php') ?>
+
+    </body>
+
+    </html>

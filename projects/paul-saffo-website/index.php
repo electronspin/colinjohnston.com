@@ -39,16 +39,17 @@
           
           <p></p>
 
-      </div>
-      
-      <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
-    </div> <!--end page wrapper-->
+          </div>
+                <!--end two column content area-->
+                
+        </div>
+        <!--end main page wrapper-->
 
-<!-- overview-modals -->
-<?php include('modals.php') ?>
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
 
+        <!-- project modals -->
+        <?php include('modals.php') ?>
 
+    </body>
 
-</body>
-
-</html>
+    </html>

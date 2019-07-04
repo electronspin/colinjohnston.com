@@ -6,7 +6,7 @@
  * Buttons
  */
 
- // WIP
+// WIP
 
 
 // Sidebar button
@@ -15,7 +15,6 @@
     display: inline-block;
     font-size: 14px;
     font-weight: 400;
-    //padding: 1em 1.25em;
     line-height: 1.6;
     margin: 1.5em 0 0;
     padding: 0.25em 0.75em 0.33em;
@@ -50,6 +49,11 @@
 
 .contact-button {
     margin: 3.5em 0;
+
+    @media (max-width:480px) {
+        text-align: center;
+        margin: 0 0 1.5em
+    }
 }
 
 .contact-email {
@@ -60,12 +64,19 @@
     background-color: $slate-gray;
     border-radius: 9px;
     transition: all .25s ease;
+
     &:hover {
         color: #fff;
         background-color: $content-link;
     }
+
     &:focus {
         color: #fff;
         background-color: #333;
+    }
+
+    @media (max-width:480px) {
+        display: block;
+        width: 100% !important
     }
 }

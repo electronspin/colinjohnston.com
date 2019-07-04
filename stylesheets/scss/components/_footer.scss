@@ -1,0 +1,28 @@
+/*----------------------------------*
+  #FOOTER
+ *----------------------------------*/
+
+/**
+* Standard footer
+*/
+
+.c-footer {
+  background-color: $slate-gray;
+}
+
+.c-footer__body {
+  font-size: .9em;
+  color: #999;
+  color: $light-text-color;
+  margin-bottom: 0;
+
+  // max-width: 120ch;
+  a {
+    color: #999;
+    color: #fff;
+    &:hover {
+      color: #000;
+      color: $dark-text-color;
+    }
+  }
+}

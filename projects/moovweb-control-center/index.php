@@ -31,11 +31,14 @@
                             <p></p>
 
                 </div>
-                <!--end eight column content area-->
-                <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+                <!--end two column content area-->
+                
         </div>
-        <!--end page wrapper-->
-        <!-- overview-modals -->
+        <!--end main page wrapper-->
+
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+
+        <!-- project modals -->
         <?php include('modals.php') ?>
 
     </body>
