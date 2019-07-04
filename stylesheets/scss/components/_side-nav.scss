@@ -104,20 +104,6 @@ a.open-panel {
 }
 
 
-
-@media (max-width:480px) {
-
-  .c-side-nav__item {
-    font-size: 1.125em !important;
-  }
-
-
-  .c-side-nav__title {
-    font-size: 14px !important;
-  }
-}
-
-
 @media only screen and (max-width:767px) {
 
   .icon-2x,
@@ -142,6 +128,8 @@ a.open-panel {
   }
 
   .c-side-nav__title {
+    color: #fff;
+    letter-spacing: 1px;
     margin: 0 $global-spacing-unit $global-spacing-unit-xs;
     &:first-child {
       margin: 0 $global-spacing-unit $global-spacing-unit-xs;
@@ -216,6 +204,17 @@ a.open-panel {
     transition: transform 500ms ease
   }
 
+}
+
+
+@media (max-width:480px) {
+
+  .c-side-nav__item {
+    font-size: 1.125em;
+  }
+  .c-side-nav__title {
+    font-size: 14px;
+  }
 }
 
 // SVG

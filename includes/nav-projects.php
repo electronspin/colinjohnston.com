@@ -48,6 +48,7 @@
     </a>
 </li>
 
+<li class="show-for-small c-side-nav__title">&nbsp;</li>
 
 <li class="c-side-nav__item show-for-small">
     <a href="/connect-and-collaborate">Contact</a>
