@@ -12,11 +12,11 @@
 .c-project-sidebar {
     background-color: tint($slate-gray, 90);
     border: 1px solid tint($slate-gray, 70);
-    margin: $global-spacing-unit-xs 0 $global-spacing-unit $global-spacing-unit;
     padding: $global-spacing-unit $global-spacing-unit 0;
     border-radius: 5px;
 
     @media only screen and (min-width:768px) {
+        margin: $global-spacing-unit-xs 0 $global-spacing-unit $global-spacing-unit;
         float: right;
         width: 45%;
         width: auto;
