@@ -1,4 +1,4 @@
-.case-caption a,
+.c-imagebox--caption a,
 .contact-email,
 .label.services a,
 .side-nav li a {
@@ -52,7 +52,7 @@ figcaption {
     transition: all .6s ease
 }
 
-.case-caption a,
+.c-imagebox--caption a,
 .contact-email,
 .label.services a {
     transition: all .25s ease;
@@ -79,52 +79,6 @@ ul.services a {
 
 .overview-sidebar ul > ul li {
     list-style-type: circle;
-}
-
-#content p.case-caption {
-    margin-top: -1em;
-    font-size: 1em;
-    font-weight: 400;
-    margin-bottom: 2.5em;
-
-    span.hide-for-small {
-        display: inline !important;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    #content p.case-caption span.hide-for-small {
-        display: none !important;
-    }
-}
-
-#content p.case-caption-video {
-    font-size: 1em;
-    font-weight: 400;
-    margin-bottom: 2.5em;
-
-    @media only screen and (min-width: 768px) {
-        margin-top: -0.75em;
-    }
-}
-
-#content p.case-caption-video+p {
-    margin-top: -1.75em;
-}
-
-
-#content p.case-caption a {
-    font-weight: 400;
-    color: $content-link;
-    transition: all .25s ease;
-
-    &:visited {
-        color: $dark-text-color;
-    }
-
-    &:hover {
-        color: #fff;
-    }
 }
 
 p.tagline {

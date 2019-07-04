@@ -6,10 +6,8 @@
 * Standard project page organism
 */
 
-.c-imagebox {
-  .c-project & {
-    margin-bottom: $global-spacing-unit-lg;
-  }
+.c-project .c-imagebox {
+  margin-bottom: $global-spacing-unit;
 }
 
 .c-project__title {

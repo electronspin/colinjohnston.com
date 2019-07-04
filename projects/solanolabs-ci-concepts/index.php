@@ -14,7 +14,7 @@
         <div id="content" class="o-content o-layout__grid-item c-project">
             <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
 
-            <div class="imagebox">
+            <div class="c-imagebox">
                 <a href="#" data-reveal-id="solanolabs-ci-concept-main-passed">
                     <img srcset="/images/solanolabs-ci-concept-main-passed_small.jpg 400w,
                         /images/solanolabs-ci-concept-main-passed_medium.jpg 800w,

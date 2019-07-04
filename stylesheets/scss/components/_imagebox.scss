@@ -8,13 +8,44 @@
 
 .c-imagebox {
   border: 1px solid #ddd; // WIP
-    // -moz-box-shadow: -2px 3px 5px 0 #ccc;
-    // -webkit-box-shadow: -2px 3px 5px 0 #ccc;
-    // box-shadow: -2px 3px 5px 0 #ccc
+
+  & a {
+    display: inline-block;
+  }
 }
 
-.c-imagebox--caption { // TODO need better naming
+.c-imagebox--caption {
+  @include font-size(14px);
+  margin-top: -$global-spacing-unit-sm;
+  margin-bottom: $global-spacing-unit;
 
+  .hide-for-small {
+    display: inline !important; // TODO Fix hidden.scss
+    @media only screen and (max-width: 480px) {
+      display: none !important; // TODO Fix hidden.scss
+    }
+  }
+}
+
+.c-imagebox--caption a {
+  font-weight: 400;
+  color: $content-link;
+  transition: all .25s ease;
+
+  &:visited {
+    color: $dark-text-color;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: $cjd-branding;
+  }
+
+  &:before,
+  &:after {
+    content: "";
+    padding: 0 1px;
+  }
 }
 
 /**
@@ -41,85 +72,92 @@
 
 .c-gallery__item:nth-child(1) .c-imagebox {
   &.animate {
-      transition: opacity .7s ease .3s, transform .1s ease .3s; // nice feel!
-      transform: scale(.8);
-      opacity: 0;
-      &.inview {
-          transform: scale(1);
-          opacity: 1;
-      }
+    transition: opacity .7s ease .3s, transform .1s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
   }
 }
 
 .c-gallery__item:nth-child(2) .c-imagebox {
   &.animate {
-      transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
-      transform: scale(.8);
-      opacity: 0;
-      &.inview {
-          transform: scale(1);
-          opacity: 1;
-      }
+    transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
   }
 }
 
 .c-gallery__item:nth-child(3) .c-imagebox {
   &.animate {
-      transition: opacity .7s ease .3s, transform .3s ease .3s; // nice feel!
-      transform: scale(.8);
-      opacity: 0;
-      &.inview {
-          transform: scale(1);
-          opacity: 1;
-      }
+    transition: opacity .7s ease .3s, transform .3s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
   }
 }
 
 .c-gallery__item:nth-child(4) .c-imagebox {
   &.animate {
-      transition: opacity .7s ease .3s, transform .4s ease .3s; // nice feel!
-      transform: scale(.8);
-      opacity: 0;
-      &.inview {
-          transform: scale(1);
-          opacity: 1;
-      }
+    transition: opacity .7s ease .3s, transform .4s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
   }
 }
 
 .c-gallery__item:nth-child(5) .c-imagebox {
   &.animate {
-      transition: opacity .7s ease .3s, transform .5s ease .3s; // nice feel!
-      transform: scale(.8);
-      opacity: 0;
-      &.inview {
-          transform: scale(1);
-          opacity: 1;
-      }
+    transition: opacity .7s ease .3s, transform .5s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
   }
 }
 
 .c-gallery__item:nth-child(6) .c-imagebox {
   &.animate {
-      transition: opacity .7s ease .3s, transform .6s ease .3s; // nice feel!
-      transform: scale(.8);
-      opacity: 0;
-      &.inview {
-          transform: scale(1);
-          opacity: 1;
-      }
+    transition: opacity .7s ease .3s, transform .6s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
   }
 }
 
 .c-gallery__item:nth-child(7) .c-imagebox {
   &.animate {
-      transition: opacity .7s ease .3s, transform .7s ease .3s; // nice feel!
-      transform: scale(.8);
-      opacity: 0;
-      &.inview {
-          transform: scale(1);
-          opacity: 1;
-      }
+    transition: opacity .7s ease .3s, transform .7s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
   }
 }
 
@@ -129,13 +167,13 @@
 
 div#content .c-imagebox {
   &.animate {
-      transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
-      transform: scale(.925);
-      opacity: 0;
-      &.inview {
-          transform: scale(1);
-          opacity: 1;
-      }
+    transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
+    transform: scale(.925);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
   }
 }
-

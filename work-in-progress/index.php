@@ -22,7 +22,7 @@
      
       <div class="row">
         <div class="twelve columns">
-          <div class="imagebox">
+          <div class="c-imagebox">
             <img src="/images/hadron-vis-598.jpg">
           </div>
           <h2>What I'm Working on Now...</h2>

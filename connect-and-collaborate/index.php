@@ -15,7 +15,7 @@
                 <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
 
 
-                        <div class="imagebox">
+                        <div class="c-imagebox">
                             <figure>
                                 <img srcset="/images/colin-connect-2018_400.jpg 400w,
                                               /images/colin-connect-2018_800.jpg 800w,
