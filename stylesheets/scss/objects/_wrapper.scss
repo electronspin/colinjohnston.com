@@ -9,14 +9,13 @@
 
 .o-wrapper { // TODO this is single use for overall page--do we need otehrs?
   @include clearfix();
-  width: 1280px;
-  max-width: 95%;
   padding-right: $global-spacing-unit;
   padding-left:  $global-spacing-unit;
   margin-right: auto;
   margin-left:  auto;
   @media screen and (min-width: 768px) { 
-
+    width: 1280px;
+    max-width: 95%;
   }
 }
 

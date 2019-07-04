@@ -126,7 +126,7 @@ a.open-panel {
 
   nav {
     width: $navwidth;
-    left: -($navwidth + 1em);
+    left: -$navwidth;
     position: absolute;
     top: 0;
     height: 100%;
