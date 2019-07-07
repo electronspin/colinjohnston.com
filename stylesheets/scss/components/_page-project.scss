@@ -5,6 +5,11 @@
 /**
 * Standard project page organism
 */
+.c-project {
+  @media screen and (min-width: 768px) {
+    margin-bottom: $global-spacing-unit-lg;
+  }
+}
 
 .c-project__title {
   color: $dark-text-color;

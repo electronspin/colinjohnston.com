@@ -1,4 +1,4 @@
-<div class="overview">
+
     <!-- overview-main -->
     <div class="c-project__body">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi modi hic expedita illo, ducimus distinctio repudiandae dicta omnis excepturi deleniti necessitatibus sunt voluptatum eaque, odio earum? Tempore ipsam, sit dicta.</p>
@@ -69,4 +69,3 @@
             </li>
         </ul>
     </div>
-</div>

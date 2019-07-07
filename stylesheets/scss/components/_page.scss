@@ -8,6 +8,10 @@
 
 // WIP All these @extends should be the otehr way around
 
+.c-page {
+  @extend .c-project;
+}
+
 .c-page__title {
   @extend .c-project__title;
 }

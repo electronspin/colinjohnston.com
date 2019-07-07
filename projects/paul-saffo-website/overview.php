@@ -1,4 +1,4 @@
-<div class="overview animate">
+
     <!-- overview-main -->
     <div class="c-project__body">
         <!-- <a name="top"> -->
@@ -281,4 +281,3 @@
             </li>
         </ul>
         </div>
-    </div>

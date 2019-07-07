@@ -1,4 +1,4 @@
-<div class="overview animate">
+
     <!-- overview-main -->
     <div class="c-project__body">
         <p>Solano CI is a continuous integration product for software development teams.</p>
@@ -206,4 +206,3 @@
             </li>
         </ul>
     </div>
-</div>
