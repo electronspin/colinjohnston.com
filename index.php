@@ -115,8 +115,11 @@ images/moovweb-control-center-main_large.jpg 1200w" sizes="(min-width: 48em) 33.
             </ul>
         </div>
         <!--end two column content area-->
+        
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+
     </div>
     <!--end main page wrapper-->
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+    
 </body>
 </html>

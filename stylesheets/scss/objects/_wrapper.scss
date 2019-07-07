@@ -8,7 +8,7 @@
 
 
 .o-wrapper { // TODO this is single use for overall page--do we need otehrs?
-  @include clearfix();
+  // @include clearfix(); 
   padding-right: $global-spacing-unit;
   padding-left:  $global-spacing-unit;
   margin-right: auto;
@@ -17,13 +17,14 @@
     padding-right: 0;
     padding-left:  0;
     width: 1280px;
+    min-height: 100vh;
     max-width: 92%;
   }
 }
 
 .o-wrapper--no-header {
   @media screen and (min-width: 768px) { 
-    margin-top: $global-spacing-unit-lg; /* [1] */
+    padding-top: $global-spacing-unit-lg; /* [1] */
   }
 }
 

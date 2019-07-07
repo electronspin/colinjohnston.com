@@ -41,11 +41,13 @@
 
           </div>
                 <!--end two column content area-->
+
+                <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
                 
         </div>
         <!--end main page wrapper-->
 
-        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+        
 
         <!-- project modals -->
         <?php include('modals.php') ?>

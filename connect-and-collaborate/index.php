@@ -4,6 +4,7 @@
     <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?>
 </title>
 </head>
+
 <body>
     <div id="pagetop">
     </div>
@@ -33,11 +34,13 @@
                     </p>
             </div>
         </div>
-    </div>
-    <!--end two column content area-->
+        <!--end two column content area-->
+
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+
     </div>
     <!--end main page wrapper-->
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+
     <!--http://archive.plugins.jquery.com/project/RotationalStringObfuscator-->
     <script type="text/javascript">
         // $(function() {
@@ -46,4 +49,5 @@
         // });
     </script>
 </body>
+
 </html>
