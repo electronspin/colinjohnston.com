@@ -16,12 +16,16 @@
     margin-bottom: $global-spacing-unit;
     border-radius: 5px;
 
-    @media only screen and (min-width:768px) {
+    @media only screen and (min-width:480px) {
         margin: $global-spacing-unit-xs 0 $global-spacing-unit $global-spacing-unit;
         float: right;
         width: 45%;
-        width: auto;
     }
+
+    // @media only screen and (min-480: 768px) and (max-width: 767px) {
+    //     float: right;
+    //     width: 45%;
+    // }
 }
 
 .c-project-sidebar h5 {
