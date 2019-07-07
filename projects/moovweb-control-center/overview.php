@@ -60,6 +60,9 @@
                             features. It was initially included as a Git submodule on Moovweb v4, and has now been
                             packaged as a Ruby Gem for Moovweb v5.</p>
                     </div>
+                    <p>To view the
+                                <?php echo $mwcc ?> go to <a href="http://console.moovweb.com/downloads" name="" target="_blank">console.moovweb.com</a> and create a free account. You can view demo projects under the account 'Moovweb Demos' to see the interface live.</p>
+                            </p>
                 </div>
             </li>
             <li class="" id="processTab">

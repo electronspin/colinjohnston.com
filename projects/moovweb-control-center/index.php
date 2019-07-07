@@ -26,9 +26,6 @@
                             </div>
                             <h2 class="c-project__title animate"><?php echo $mwcc ?></h2>
                             <?php include('overview.php') ?>
-                            <p>To view the
-                                <?php echo $mwcc ?> go to <a href="http://console.moovweb.com/downloads" name="" target="_blank">console.moovweb.com</a> and create a free account. You can view demo projects under the account 'Moovweb Demos' to see the interface live.</p>
-                            <p></p>
 
                 </div>
                 <!--end two column content area-->
