@@ -16,10 +16,10 @@
 .o-layout__grid-item {
   vertical-align: top;
   // padding-left: $global-spacing-unit;
-  @include font-size($global-font-size);
+  @include font-size($global-font-size, round($global-line-height * 1.33));
 
-  @media only screen and (min-width: 768px) {
-    //padding: 0 $global-spacing-unit; // TODO TEMP matches legacy FF3
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    @include font-size(14px, ($global-line-height * 1.125));
   }
 
 }
@@ -30,7 +30,12 @@
     vertical-align: top;
     width: 100%;
     // padding-left: $global-spacing-unit;
-    @include font-size($global-font-size)
+    @include font-size($global-font-size, round($global-line-height * 1.33));
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      @include font-size(14px, ($global-line-height * 1.125));
+    }
+
   }
 
 .o-layout--rev {

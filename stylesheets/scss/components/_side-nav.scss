@@ -21,7 +21,12 @@ a.open-panel {
 }
 
 .c-side-nav__item {
-  line-height: 1.8em
+  line-height: 1.8em;
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    @include font-size(14px, ($global-line-height * 1.125));
+  }
+
 }
 
 .c-side-nav__item a {

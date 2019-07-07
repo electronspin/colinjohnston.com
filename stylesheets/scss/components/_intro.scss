@@ -7,10 +7,12 @@
  */
 
  .c-intro {
-  line-height: 32px; // WIP
+  line-height: round($global-line-height * 1.33); // WIP
+  padding-right: $global-spacing-unit-lg;
 
-  @media only screen and (min-width: 768px) {
-    padding-right: $global-spacing-unit-lg;
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    padding-right: $global-spacing-unit;
+    @include font-size(14px, ($global-line-height * 1.125));
   }
 
 }
