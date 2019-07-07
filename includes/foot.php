@@ -1,5 +1,5 @@
 <?php $dir = ($_SERVER['DOCUMENT_ROOT'].'/'); ?>
-<div calss="o-wrapper o-wrapper--full-width o-wrapper-grid">
+<div class="o-wrapper o-wrapper--full-width o-wrapper-grid">
   <div class="o-footer o-layout__grid-item">
     <?php 
     $parentdir = dirname($_SERVER['PHP_SELF']);
