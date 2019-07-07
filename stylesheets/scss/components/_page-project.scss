@@ -122,12 +122,12 @@
     color: #6f6f6f;
     background-color: darken($secondary-bg-color, 10%);
     display: block;
-    // font-size: 1em;
+    font-size: 0.875em;
     font-weight: bold;
     letter-spacing: 1px;
     height: auto;
     // line-height: 40px;
-    @include font-size(14px);
+    // @include font-size(14px);
     padding: $global-spacing-unit-xs $global-spacing-unit;
 
     &:after {
