@@ -6,13 +6,9 @@
   <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
   <link rel="stylesheet" href="/stylesheets/css/main.min.css">
   
-  
   <script src="/javascripts/modernizr.foundation.js"></script>
-  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
   <script src="/javascripts/picturefill.min.js"></script>
-  <!-- <script src="/node_modules/lazysizes/lazysizes.min.js"></script> -->
-  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.1/picturefill.min.js"></script> -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
   <script src="/javascripts/app.min.js"></script>
 
   <?php if ($prod) { include($_SERVER['DOCUMENT_ROOT'].'/includes/analytics.php'); } ?>
