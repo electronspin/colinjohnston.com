@@ -32,7 +32,7 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^3.0.1",
     "gulp-util": "^3.0.8",
-    "jshint": "^2.9.6"
+    "jshint": "^2.10.2"
   },
   "dependencies": {
     "lazysizes": "^4.1.4",
