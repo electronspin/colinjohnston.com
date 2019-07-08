@@ -1,13 +1,12 @@
 <?php
+
 set_include_path(get_include_path() . PATH_SEPARATOR . $_SERVER['DOCUMENT_ROOT'].'/includes');
 
-//Date 
+// Date 
 
 date_default_timezone_set('America/Los_Angeles');
 
-//Content Variables
-
-//Project Names
+// Project Names
 
 $rbad     = 'Rollbar Account Dashboard';
 $rbws     = 'Rollbar Marketing Website';
@@ -24,11 +23,9 @@ $libsass  = 'Libsass Logo & Website';
 
 $moovui   = '<a href="http://moovweb.github.io/moovui/">MoovUI</a>';
 
-//Overview Subheadings - taken from http://susanhosking.com/portfolio/
 $overview_section_a = 'Challenge'; //Challenge
 $overview_section_b = 'Approach'; //Solution
 $overview_section_c = 'Outcome'; //Result
-
 
 $overview_tab = 'Project Overview'; //Overview
 $process_tab = 'Process &amp; Artifacts'; //Process
@@ -38,8 +35,8 @@ $casesub1   = 'Below is an incomplete selection of deliverables that were presen
 
 $overview_sidebar_heading = 'What I Did'; //What I Did
 
+// Check env for analytics includes etc
 
-// check env
 $localhost = array(
     '127.0.0.1',
     '::1'
@@ -48,6 +45,5 @@ $localhost = array(
 if(!in_array($_SERVER['REMOTE_ADDR'], $localhost)){
     $prod = true;
 }
-
 
 ?>
