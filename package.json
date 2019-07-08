@@ -1,7 +1,7 @@
 {
-  "name": "colinjohnston",
-  "version": "1.9.7",
-  "description": "Personal Website and Professional Portfolio",
+  "name": "colinjohnston-com",
+  "version": "1.10.0",
+  "description": "Colin Johnston's Personal Website and Professional Portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "staging": "rsync -azv --exclude-from 'exclude-list.txt' ./ colinjohnston:/home/25789/domains/staging.colinjohnston.com/html --delete",

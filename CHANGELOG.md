@@ -4,6 +4,30 @@ All notable changes to colinjohnston.com project are documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/) (It's probably not necessary, but as a designer I like to practice good developer habits.) 
 
+## [v1-10-0] - 2019-07-08
+
+CSS Refactor! Goodbye Foundation, hello CSS Grid and BEM/ITCSS.
+
+### Changes
+
+- Polish design details across entire site (as aprt of CSS refactor)
+- Change jQuery CDN import from Google to jQuery with SRI checks
+- Update Inter font imports to latest version
+
+### Refactoring
+
+- Complete refactor of stylesheets (removes all Foundation 3, adopts BEM SIO with ITCSS patterns)
+- Layouts are now CSS Grid
+- Type sizes and spacing made more consistent across entire site
+- Remove all old Foundation JavaScript
+- Delete all unused files/code
+
+### Fixed
+
+- Off-canvas nav
+- Broken modals on some projects
+
+
 ## [v1.9.9] - 2019-04-04
 
 ### Changes
