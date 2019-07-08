@@ -82,7 +82,7 @@ figcaption {
   background: #333;
   background: rgba(0, 0, 0, .75);
   color: #fff;
-  padding: 20px;
+  padding: $global-spacing-unit-sm $global-spacing-unit;
   width: 100%;
   opacity: 0;
   left: 0;
