@@ -117,3 +117,7 @@ $(document).ready(function () {
   });
   $(window).trigger('scroll');
 });
+
+// refresh window on resize
+
+$(window).on('resize',function(){location.reload();});
