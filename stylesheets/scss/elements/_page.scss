@@ -1,0 +1,26 @@
+/*----------------------------------*
+  #PAGE
+ *----------------------------------*/
+
+/**
+ * Page-level styling (e.g. HTML and BODY elements).
+ */
+
+html {
+  font-size: ($global-font-size / 16px) * 1em;
+  line-height: $global-line-height / $global-font-size;
+  @include font-family(sans-serif);
+  // background-color: $color-page-background;
+  background-color: $main-bg-color;
+  color: $main-text-color;
+}
+
+body {
+    &.noscroll {
+    overflow: hidden;
+  }
+}
+
+html, body {
+  overflow-x: hidden;
+}

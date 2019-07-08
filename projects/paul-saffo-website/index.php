@@ -11,19 +11,18 @@
 <body>
     <div id="pagetop">
     </div>
-  <div class="page-wrapper">
+  <div class="o-wrapper o-wrapper-grid o-wrapper--no-header">
     
-<div id="page" class="row">
+
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
     
-  <div id="content" class="eight columns">
+  <div id="content" class="o-content o-layout__grid-item c-project">
       
     <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
      
-      <div class="row">
-        <div class="twelve columns">
-          <div class="imagebox animate">
+
+          <div class="c-imagebox animate">
             <a href="#" data-reveal-id="saffo-home-responsive">
               <img
                 srcset="/images/saffo-home-responsive_small.jpg 400w,
@@ -35,23 +34,24 @@
                 alt="Paul Saffo Website">
             </a>
           </div>
-          <h2 class="animate">Paul Saffo Website</h2>
+          <h2 class="c-project__title animate">Paul Saffo Website</h2>
           <?php include('overview.php') ?>
           
           <p></p>
+
+          </div>
+                <!--end two column content area-->
+
+                <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+                
         </div>
-        </div>
-      </div>
-      
-            </div> <!--end eight column content area-->
-        </div> <!--end main row-->
-    </div> <!--end page wrapper-->
+        <!--end main page wrapper-->
 
-<!-- overview-modals -->
-<?php include('modals.php') ?>
+        
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+        <!-- project modals -->
+        <?php include('modals.php') ?>
 
-</body>
+    </body>
 
-</html>
+    </html>

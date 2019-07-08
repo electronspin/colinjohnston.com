@@ -1,0 +1,60 @@
+/*----------------------------------*
+  #LAYOUT
+ *----------------------------------*/
+
+// discovr
+
+.o-layout {
+  margin:  0;
+  padding: 0;
+  list-style: none;
+  margin-left: -$global-spacing-unit;
+  font-size: 0;
+}
+
+// Layout items thst live inside <main> 
+.o-layout__grid-item {
+  vertical-align: top;
+  // padding-left: $global-spacing-unit;
+  @include font-size($global-font-size, round($global-line-height * 1.33));
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    @include font-size(14px, ($global-line-height * 1.125));
+  }
+
+}
+
+// Layout items thst live inside <main> 
+  .o-layout__main-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    // padding-left: $global-spacing-unit;
+    @include font-size($global-font-size, round($global-line-height * 1.33));
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      @include font-size(14px, ($global-line-height * 1.125));
+    }
+
+  }
+
+.o-layout--rev {
+  direction: rtl;
+
+  > .o-layout__item {
+    direction: ltr;
+  }
+
+}
+
+.o-layout--middle {
+  > .o-layout__item {
+    vertical-align: middle;
+  }
+}
+
+.o-layout--bottom {
+  > .o-layout__item {
+    vertical-align: bottom;
+  }
+}

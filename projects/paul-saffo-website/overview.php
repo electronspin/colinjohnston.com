@@ -1,23 +1,23 @@
-<div class="overview animate">
+
     <!-- overview-main -->
-    <div class="overview-main">
+    <div class="c-project__body">
         <!-- <a name="top"> -->
         <p>Website and identity design for forecaster Paul Saffo. The design presents his journal and a large collection of content in a clean, responsive interface. </p><p>I developed the site with progressive enhancement techniques for compatibility from Android 2.3 up to the latest desktop browsers.</p>
-        <ul class="tabs" data-tab>
-            <li class="tab-title active">
+        <ul class="o-tabs" data-tab>
+            <li class="o-tabs__tab-title  active">
                 <a href="#overview">
                     <?php echo $overview_tab ?>
                 </a>
             </li>
-            <li class="tab-title">
+            <li class="o-tabs__tab-title ">
                 <a href="#process">
                     <?php echo $process_tab ?>
                 </a>
             </li>
         </ul>
-        <ul class="tabs-content">
-            <li class="content active" id="overviewTab">
-                <!-- overview-sidebar -->
+        <ul class="o-tabs__tab-content">
+            <li class="active"  id="overviewTab">
+                <!-- c-project-sidebar -->
 
                 <div class="overview-content">
                     <p>Paul Saffo is a forecaster and futurist. He explores the dynamics of large-scale, long-term change; he teaches forecasting at Stanford University, chairs the Future Studies and Forecasting track at Singularity University, and serves on the Board of the Long Now Foundation.</p>
@@ -32,8 +32,8 @@
                     <p>Working from Paul’s previous website I refined it’s more complex user interface down to it’s essentials, enhancing usability and setting the stage for a more focused and prominent identity. </p>
                     <p>One of the biggest improvements over the previous design is a much more simplified landing page; now, instead of quotations and an unclear path to the main content, the first screen users see shows the most recent journal entry and a featured essay from his archives.</p>
 
-                    <!-- overview-sidebar -->
-                    <?php include('overview-sidebar.php') ?>
+                    <!-- c-project-sidebar -->
+                    <?php include('project-sidebar.php') ?>
                     
                     <p>I brought to the foreground graphical elements such as the unique navigation icons that had become a key part of his overall identity, and redrew them for hi-res displays. </p>
                     <p>Along with this I redesigned his logo, simplifying the typography and selecting a color with more presence—a rich deep red that communicates urgency without being too forceful.</p>
@@ -44,15 +44,15 @@
                     <p>I created a website that presents a strong update to Paul’s identity, and frames his content with a graphical richness and elements of storytelling. It delivers a very pleasing and approachable user experience that’s highly performant and accessible across a wide array of devices.</p>
                     <p>Paul is extremely happy with the results.</p>
                     <p>Visit the site: <a href="http://www.saffo.com/" name="" target="_blank">www.saffo.com</a></p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     
-                    <div class="bottom-tab-nav-next">
-                        <a class="bottom-tab-nav" href="#process">See Process &amp; Artifacts</a>
+                    <div class="c-link-pagination">
+                        <a class="c-link-pagination--next" href="#process">See Process &amp; Artifacts</a>
                     </div>
 
                 </div>
             </li>
-            <li class="content" id="processTab">
+            <li class=""  id="processTab">
                 <div class="overview-content">
                     <p>For this project my process was different from my <a href="/projects/solanolabs-ci-session-view/#process">standard product design process</a> in that I functioned as an ‘agency of one’ and my client was an individual, not a group of stakeholders with varied involvement. But the basic sequence is very similar, rooted in a thorough Discovery process.</p>
                     <p>As each project phase continues to the next it informs the overall process, i.e. Discovery is a large portion of a project done at the beginning, but discovery continues through planning, design, etc. This is essentially an ‘iterative waterfall’ process because it progresses very linearly, yet still allows for a productive feedback loop throughout the project.</p>
@@ -88,7 +88,7 @@
                     </ul>
                     <p>
                         </br>With these notes and various thumbnail design ideas, I could begin Concept phase. First I needed to organize all the input gathered so far, and create a plan.</p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="planning">Planning</h4>
                     <p>Since we had collaborated previously on website design for another venture, he knew I had a solid process and we could keep things lean; he didn’t need a ton of documentation of our decisions, just iterative progress towards the final product.</p>
                     <p>But even when I’m working on a complete project as a team of one, I still like to map out how I’m going to get from A to B. It looks something like this:</p>
@@ -144,53 +144,53 @@
                         </tbody>
                     </table>
                     <p>As I worked through each piece in sequence, I present the work on a private client website. I like to keep the presentations available in one place throughout the entire project so we can easily refer back to decisions and their rationales.</p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="concepts">Concepts</h4>
                     <p>At this stage I’ve internalized the goals and objectives, both conceptual and technical, and mapped out a structured plan. Now I’m free to diverge out into different methods of creative exploration. This process involves lots of ‘visual gathering’ and recombining elements from designs other mediums, snapshots capturing the look and feel of products or publications I think match the patterns outlined in my conceptual notes. I also look at other content-heavy mobile sites to see which interactions and flows work (and which don’t).</p>
                     <p>It’s during this process that I start to converge on type and color choices. I’ll narrow the field down in the design phase.</p>
                     <h5>Sketches</h5>
                     <p>I sketch lots of rough ideas. For this project I went quickly to mobile layouts in pencil, working out various ways to present content and devise navigation. Pencil on paper is, for me, the most effective way of thinking through design ideas; I can sketch quickly and allow myself to make ‘mistakes’, and I don’t get too attached to refining a design pattern like I might in Sketch or Illustrator.</p>
                     <!-- saffo-website-sketches-1 -->
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-website-sketches-1">
                             <img class="lazyload" data-srcset="/images/saffo-website-sketches-1_small.jpg 400w,
                         /images/saffo-website-sketches-1_medium.jpg 800w,
                         /images/saffo-website-sketches-1_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-website-sketches-1_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
                         </a>
                     </div>
-                    <p class="case-caption"><strong>Early sketches of mobile layouts</strong> - I didn't use most of these ideas, but by thinking them through on paper I was able to make better design choices in the next rounds.<span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-1">View Larger Image</a></span></p>
+                    <p class="c-imagebox__caption"><strong>Early sketches of mobile layouts</strong> - I didn't use most of these ideas, but by thinking them through on paper I was able to make better design choices in the next rounds.<span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-1">View Larger Image</a></span></p>
                     <!-- saffo-website-sketches-2 -->
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-website-sketches-2">
                             <img class="lazyload" data-srcset="/images/saffo-website-sketches-2_small.jpg 400w,
                         /images/saffo-website-sketches-2_medium.jpg 800w,
                         /images/saffo-website-sketches-2_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-website-sketches-2_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
                         </a>
                     </div>
-                    <p class="case-caption"><strong>Desktop landing page sketches</strong> - Evolution towards the final desktop layout. Through these sketches I also revealed the idea for the final mobile layouts. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-2">View Larger Image</a></span></p>
+                    <p class="c-imagebox__caption"><strong>Desktop landing page sketches</strong> - Evolution towards the final desktop layout. Through these sketches I also revealed the idea for the final mobile layouts. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-2">View Larger Image</a></span></p>
                     <!-- saffo-website-sketches-3 -->
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-website-sketches-3">
                             <img class="lazyload" data-srcset="/images/saffo-website-sketches-3_small.jpg 400w,
                         /images/saffo-website-sketches-3_medium.jpg 800w,
                         /images/saffo-website-sketches-3_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-website-sketches-3_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
                         </a>
                     </div>
-                    <p class="case-caption"><strong>Later sketches of mobile layouts</strong> - Tightening up the layouts, with notes on things to leave out in the mockups. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-3">View Larger Image</a></span></p>
+                    <p class="c-imagebox__caption"><strong>Later sketches of mobile layouts</strong> - Tightening up the layouts, with notes on things to leave out in the mockups. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-3">View Larger Image</a></span></p>
                     <p>One thing I’ve learned as a designer is the importance of setting aside these sketches for a few days and reviewing them with fresh eyes later. Sometimes what seemed like the best idea seems incomplete or too busy and can be improved (or completely rejected in favor of a new idea). This is the time to figure this out, not once I’ve done hi-fidelity mockups or a prototype (although prototypes often lead to substantial revision, too).</p>
                     <p>While the sketches are out of sight and mind, I looked my type and color ideas and gathered all my image resources to prepare for assembling complete designs.</p>
                     <p>At this stage of the project I typically present the work done so far to get feedback from my client. For this project, Paul requested that I develop and present a single recommended design. (Yikes! What if he hated it?). This method means fewer presentations, but we also run the risk of skipping important artifacts. Although I knew I wouldn’t be presenting them for feedback, I created style boards to explore and document the choices leading up to the recommended design. For me it’s an essential part of developing early concepts because they show the proposed visual style, separate from content and structure. It also really helps to print them out and tape them up on the wall so I can stay focused while working on designs.</p>
                     <h5>Style Boards</h5>
                     <!-- saffo-styleboards -->
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-styleboards">
                             <img class="lazyload" data-srcset="/images/saffo-styleboards_small.jpg 400w,
                         /images/saffo-styleboards_medium.jpg 800w,
                         /images/saffo-styleboards_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-styleboards_medium.jpg" alt="">
                         </a>
                     </div>
-                    <p class="case-caption"><strong>Style Board</strong> - TBD <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-styleboards">View Larger Image</a></span></p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p class="c-imagebox__caption"><strong>Style Board</strong> - TBD <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-styleboards">View Larger Image</a></span></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="design">Design</h4>
                     <h5>Why no Wireframes?</h5>
                     <p>Typically at this stage I would construct detailed wireframes that specify the structure of the interface, and, for more complex interfaces, show indications of how interactions might work. (For very complex interfaces this is an ideal stage to begin anticipating how the actual front-end will be structured, and mapping out data points, etc.). As a team of one I didn’t need to present this level of detail for review, so I took the pencil sketches and began to frame out the base structures directly in Sketch.</p>
@@ -198,23 +198,23 @@
                     <p>Mockups are where I start to assemble conceptual choices and begin to merge content, structure and style to create a cohesive design for presentation.</p>
                     <p>I get to dial in type styles for headings and body text, and begin looking at type scale (ratio of sizes from body text up to main headers). I apply colors first to structural elements, and then set up a consistent color pattern for links and other interactions.</p>
                     <!-- saffo-design-sketch-1 -->
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-design-sketch-1">
                             <img class="lazyload" data-srcset="/images/saffo-design-sketch-1_small.jpg 400w,
                         /images/saffo-design-sketch-1_medium.jpg 800w,
                         /images/saffo-design-sketch-1_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-design-sketch-1_medium.jpg" alt="Paul Saffo Website - Design in Sketch 1">
                         </a>
                     </div>
-                    <p class="case-caption"><strong>Mockups</strong> - Designing the desktop and mobile views side-by-side in Sketch. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-design-sketch-2">View Larger Image</a></span></p>
+                    <p class="c-imagebox__caption"><strong>Mockups</strong> - Designing the desktop and mobile views side-by-side in Sketch. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-design-sketch-2">View Larger Image</a></span></p>
                     <!-- saffo-design-sketch-2 -->
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-design-sketch-2">
                             <img class="lazyload" data-srcset="/images/saffo-design-sketch-2_small.jpg 400w,
                         /images/saffo-design-sketch-2_medium.jpg 800w,
                         /images/saffo-design-sketch-2_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-design-sketch-2_medium.jpg" alt="">
                         </a>
                     </div>
-                    <p class="case-caption"><strong>Mockups</strong> - Detail of mobile navigation in Sketch. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-design-sketch-2">View Larger Image</a></span></p>
+                    <p class="c-imagebox__caption"><strong>Mockups</strong> - Detail of mobile navigation in Sketch. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-design-sketch-2">View Larger Image</a></span></p>
                     <h5>Presentation</h5>
                     <p>At this stage I have a set of initial mockups that tie everything together: the essential pieces—logo, icons, colors, type, structure—have been assembled into a cohesive design and are ready to present.</p>
                     <h5>Final Design</h5>
@@ -222,15 +222,15 @@
                     <p>I recommended that I move ahead building out the site, while we also collaborated on the header images. This worked out well because I could quickly swap in different images to live layouts and post screenshots of different ideas for review.</p>
                     <p>I wanted images that reinforce the content of the corresponding section, so I picked those out first. Based on my type and color choices I was looking to create a specific feel through composition and tone. In Photoshop I cropped each selection to bring out a single point of focus, and then created adjustment filters to get the feel right for the overall design.</p>
                     <!-- saffo-art-direction -->
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-art-direction">
                             <img class="lazyload" data-srcset="/images/saffo-art-direction_small.jpg 400w,
                         /images/saffo-art-direction_medium.jpg 800w,
                         /images/saffo-art-direction_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-art-direction_medium.jpg" alt="">
                         </a>
                     </div>
-                    <p class="case-caption"><strong>Final Designs</strong> - Photo art direction for page header images. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-art-direction">View Larger Image</a></span></p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p class="c-imagebox__caption"><strong>Final Designs</strong> - Photo art direction for page header images. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-art-direction">View Larger Image</a></span></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="build">Build</h4>
                     <p>One of the things I love about ‘agency of one’ projects like this is that I get to do both design and implementation. I’m just as a comfortable in a code editor as I am in Photoshop.</p>
                     <h5>Platform</h5>
@@ -239,26 +239,26 @@
                     <p>I love CSS, and I really love the <a href="http://sass-lang.com/" target="_blank">Sass</a> preprocessor; variables and mixins make my workflow so much more efficient. But one of the challenges of Sass is the discipline require to make sure my styles are easily maintainable, and that my CSS output is not a snarled mess.</p>
                     <p>I use a methodology for my stylesheet architecture developed by <a href="http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/" target="_blank">Harry Roberts</a> that combines BEM-like syntax with ITCSS (‘Inverted Triangle CSS’). ITCSS is based on the fact that the specificity of styles descend from least to most specific, and proposes that styles should be structured within this hierarchy in a modular way to allow for greater flexibility. The short pitch for this approach is that it keeps the stylesheets more readable, and allows for changes to be made to areas of the UI without fear of breaking another area.</p>
                     <!-- saffo-styles-typography -->
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-styles-typography">
                             <img class="lazyload" data-srcset="/images/saffo-styles-typography_small.jpg 400w,
                         /images/saffo-styles-typography_medium.jpg 800w,
                         /images/saffo-styles-typography_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-styles-typography_medium.jpg" alt="">
                         </a>
                     </div>
-                    <p class="case-caption"><strong>Front End</strong> - I created a Sass mixin that work with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue.</p>
+                    <p class="c-imagebox__caption"><strong>Front End</strong> - I created a Sass mixin that work with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue.</p>
                     <h5>Interactions</h5>
                     <p>My goal for interactions is to create them in pure CSS if possible; not using JavaScript for a menu dropdown means there’s just a little less code to send to the browser. But in some cases using JavaScript helps me avoid a more time-consuming process of create CSS-only interactions the work in older browsers (which is often just not going to happen).</p>
                     <p>The mobile menu toggle is an example of a UI animation that is CSS-only; the mobile menu itself is enabled using base jQuery to toggle visibility.</p>
                     <!-- saffo-menu-ixd-demo -->
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-menu-ixd-demo">
                             <img class="lazyload" data-srcset="/images/saffo-menu-ixd-demo_small.jpg 400w,
                         /images/saffo-menu-ixd-demo_medium.jpg 800w,
                         /images/saffo-menu-ixd-demo_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-menu-ixd-demo_medium.jpg" alt="Paul Saffo Website - Design in Sketch 2">
                         </a>
                     </div>
-                    <p class="case-caption"><strong>Interaction Design</strong> - Detail of mobile menu animation created with pure CSS. I added 'show' and 'hide ' text to the increase usability.</p>
+                    <p class="c-imagebox__caption"><strong>Interaction Design</strong> - Detail of mobile menu animation created with pure CSS. I added 'show' and 'hide ' text to the increase usability.</p>
                     <h5>Development Tools</h5>
                     <p>Because I really like this aspect of any project, here are some notes on my workflow setup:</p>
                     <ul>
@@ -272,13 +272,12 @@
                     <p>During the entire build, and again before releasing the final site to production on MediaTemple, I tested the site on real devices to make sure I was providing a consistent experience to as many people as possible.</p>
                     <p>I had decided support for Android 2.3 stock browsers was essential, but I rejected the notion of supporting Internet Explorer 8 and below. Hard to believe the day is finally here, but there are fewer active IE8 users than Android 2.3 users!</p>
                     <p>The main issues I tested for were layout issues, and making sure the PNG fallbacks for the SVG graphics were loading on the devices the can’t handle SVGs.</p>
-                    <p><a class="to-top" href="#">TOP</a></p>
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     <!-- icon-design -->
                     <?php include('icons-design.php') ?>
-                    <div class="bottom-tab-nav-prev">
-                        <a class="bottom-tab-nav" href="#overview">Read Project Overview</a>
+                    <div class="c-link-pagination">
+                        <a class="c-link-pagination--prev" href="#overview">Read Project Overview</a>
                     </div>
             </li>
         </ul>
         </div>
-    </div>

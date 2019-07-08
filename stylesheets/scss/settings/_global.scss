@@ -1,0 +1,23 @@
+/*----------------------------------*
+  #GLOBAL
+ *----------------------------------*/
+
+// Lots here to look at and adapt https://github.com/inuitcss/inuitcss/blob/develop/settings/_settings.core.scss
+
+// Project-level settings and setup.
+
+// Base typographical styles and baseline grid.
+$global-font-size:    16px !default;
+$global-line-height:  24px !default;
+
+// Standardise some UI treatments.
+$global-radius:       3px !default;
+$global-transition:   0.5s !default;
+
+
+// DO NOT EDIT
+$global-spacing-unit:       round($global-line-height);
+$global-spacing-unit-xs:    round($global-spacing-unit / 4);
+$global-spacing-unit-sm:    round($global-spacing-unit / 2);
+$global-spacing-unit-lg:    round($global-spacing-unit * 2);
+$global-spacing-unit-xl:    round($global-spacing-unit * 4);

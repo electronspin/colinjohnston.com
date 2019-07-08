@@ -1,25 +1,27 @@
-<div class="overview animate">
-    <!-- overview-main -->
-    <div class="overview-main">
+<!-- delete overview div -->
+    <div class="c-project__body"> <!-- was overview-main -->
+        <div class="c-project__intro">
         <p>Moovweb is an Enterprise software solution for delivering customized mobile experiences from a single
             codebase.</p>
         <p>As lead product designer, I collaborated with product owners and engineering leads to redesign the primary
             Moovweb application management interface. </p>
-        <ul class="tabs" data-tab>
-            <li class="tab-title active">
+        </div>
+        <ul class="o-tabs" data-tab>
+            <li class="o-tabs__tab-title active">
                 <a href="#overview">
                     <?php echo $overview_tab ?>
                 </a>
             </li>
-            <li class="tab-title">
+            <li class="o-tabs__tab-title">
                 <a href="#process">
                     <?php echo $process_tab ?>
                 </a>
             </li>
         </ul>
-        <ul class="tabs-content">
-            <li class="content active" id="overviewTab">
-                <div class="overview-content">
+        <!-- <ul class="o-tabs__tab-content"> -->
+            <ul class="o-tabs__tab-content">
+            <li class="active" id="overviewTab">
+                <div class="">
                     <p>Moovweb is an Enterprise software solution for delivering customized mobile experiences from a
                         single codebase. The Moovweb Control Center is an application for managing Moovweb projects in
                         the cloud. The primary tools are domain management, routing logic, security, and user
@@ -33,8 +35,8 @@
                         enhance visual design and user experience on many areas of the system.
                     </p>
                     <h4><?php echo $overview_section_b; ?></h4>
-                    <!-- overview-sidebar -->
-                    <?php include('overview-sidebar.php') ?>
+                    <!-- c-project-sidebar -->
+                    <?php include('project-sidebar.php') ?>
                     <p>As the sole designer in the Engineering/Product Management group, I collaborated closely with
                         product managers, front-end developers, and engineers to iterate on requirements, design
                         deliverables, and prototypes, and provided a framework for user experience and interface design
@@ -50,7 +52,7 @@
                         built with the the Moovweb team helped the company provide better tools that sit at the core of
                         their business.
                     </p>
-                    <div class="panel radius">
+                    <div class="c-panel">
                         <p>One of the key accomplishments of the Moovweb 4 redesign was the creation of
                             <?php echo $moovui ?>, a modular pattern library and styleguide built with Sass. This
                             allowed us to quickly iterate on the styling of UI components and critical interaction
@@ -58,10 +60,13 @@
                             features. It was initially included as a Git submodule on Moovweb v4, and has now been
                             packaged as a Ruby Gem for Moovweb v5.</p>
                     </div>
+                    <p>To view the
+                                <?php echo $mwcc ?> go to <a href="http://console.moovweb.com/downloads" name="" target="_blank">console.moovweb.com</a> and create a free account. You can view demo projects under the account 'Moovweb Demos' to see the interface live.</p>
+                            </p>
                 </div>
             </li>
-            <li class="content" id="processTab">
-                <!-- overview-sidebar -->
+            <li class="" id="processTab">
+                <!-- c-project-sidebar -->
                 <div class="overview-content">
                     <h3><?php echo $casetitle1 ?></h3>
                     <p>
@@ -75,7 +80,7 @@
                         enhancing detail progressively until we developed a prototype. We had not yet created the MoovUI
                         style guide. (By the time we began work on v5 I had adjusted our process to include iterations
                         of wireframes before producing refined mockups, or, ideally, MoovUI-based prototypes.</p>
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <img  
                             data-sizes="(min-width: 48em) 66.6vw, 100vw"
                             data-src="/images/cc-v4-r2-projects-list-mockup_small.png"
@@ -85,9 +90,9 @@
                             class="lazyload"
                             alt="Control Center v4 Project Page Mockup - Early Stages">
                     </div>
-                    <p class="case-caption">Control Center v4 Project Page Mockup - Early Round 2 Design | <a href="#"
+                    <p class="c-imagebox__caption">Control Center v4 Project Page Mockup - Early Round 2 Design | <a href="#"
                             data-reveal-id="cc-v4-r2-projects-list-mockup">View Larger</a></p>
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <img 
                             data-sizes="(min-width: 48em) 66.6vw, 100vw"
                             data-src="/images/cc-v4-r5-projects-list-mockup_small.png"
@@ -97,13 +102,13 @@
                             class="lazyload" 
                             alt="Moovweb Control Center v4 Project Page Mockup">
                     </div>
-                    <p class="case-caption">Control Center v4 Project Page Mockup - Early Round 5 Design | <a href="#"
+                    <p class="c-imagebox__caption">Control Center v4 Project Page Mockup - Early Round 5 Design | <a href="#"
                             data-reveal-id="cc-v4-r5-projects-list-mockup">View Larger</a></p>
                     <a name="v4"></a>
                     <h4>Prototype - Moovweb 4</h4>
                     <p>Using the first production release of
                         <?php echo $moovui ?>.</p>
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <img 
                             data-sizes="(min-width: 48em) 66.6vw, 100vw"
                             data-src="/images/cc-v4-project-page_small.png"
@@ -113,7 +118,7 @@
                             class="lazyload"
                             alt="Moovweb Control Center v4 Project Page">
                     </div>
-                    <p class="case-caption">Final Prototype Control Center v4 Project Page Interface <span
+                    <p class="c-imagebox__caption">Final Prototype Control Center v4 Project Page Interface <span
                             class="hide-for-small">/ <a href="#" data-reveal-id="cc-v4-project-page">View
                                 Larger</a></span></p>
                     <a name="wf-v5"></a>
@@ -122,7 +127,7 @@
                     <div class="row">
                         <div class="six columns">
                             <!-- half-width -->
-                            <div class="imagebox">
+                            <div class="c-imagebox">
                                 <img 
                                     data-sizes="(min-width: 48em) 66.6vw, 100vw"
                                     data-src="/images/cc-v5-r1-wireframe-modes-p4_small.png"
@@ -132,13 +137,13 @@
                                     class="lazyload" 
                                     alt="Moovweb Control Center v5 Wireframes Modes Routing 1">
                             </div>
-                            <p class="case-caption">Wireframe of 'Add Rule' screen for Modes Routing rule configuration
+                            <p class="c-imagebox__caption">Wireframe of 'Add Rule' screen for Modes Routing rule configuration
                                 <span class="hide-for-small">/ <a href="#"
                                         data-reveal-id="cc-v5-r1-wireframe-modes-p4">View Larger</a></span></p>
                         </div>
                         <div class="six columns">
                             <!-- half-width -->
-                            <div class="imagebox">
+                            <div class="c-imagebox">
                                 <img 
                                     data-sizes="(min-width: 48em) 66.6vw, 100vw"
                                     data-src="/images/cc-v5-r1-wireframe-modes-p5_small.png"
@@ -148,7 +153,7 @@
                                     class="lazyload" 
                                     alt="Moovweb Control Center v5 Wireframes Modes Routing 2">
                             </div>
-                            <p class="case-caption">Wireframe of 'Rules Overview' screen in Modes Routing rule
+                            <p class="c-imagebox__caption">Wireframe of 'Rules Overview' screen in Modes Routing rule
                                 management <span class="hide-for-small">/ <a href="#"
                                         data-reveal-id="cc-v5-r1-wireframe-modes-p5">View Larger</a></span></p>
                         </div>
@@ -156,7 +161,7 @@
                     <a name="v5"></a>
                     <h4>Final Design - Moovweb 5</h4>
                     <p>The initial release of the new Modes Routing tools.</p>
-                    <div class="imagebox">
+                    <div class="c-imagebox">
                         <img 
                         data-sizes="(min-width: 48em) 66.6vw, 100vw"
                         data-src="/images/cc-v5-modes-add-rule_small.png"
@@ -166,11 +171,10 @@
                             class="lazyload" 
                             alt="Moovweb Control Center v5 Modes Routing Screen">
                     </div>
-                    <p class="case-caption">Final Design of the new Modes Routing interface for Control Center v5 <span
+                    <p class="c-imagebox__caption">Final Design of the new Modes Routing interface for Control Center v5 <span
                             class="hide-for-small">/ <a href="#" data-reveal-id="cc-v5-modes-add-rule">View
                                 Larger</a></span></p>
                 </div>
             </li>
         </ul>
     </div>
-</div>

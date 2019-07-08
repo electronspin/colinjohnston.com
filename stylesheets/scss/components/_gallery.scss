@@ -1,0 +1,85 @@
+/*----------------------------------*
+  #GALLERY
+ *----------------------------------*/
+
+/**
+* Gallery grid component
+*/
+
+// TODO I'd really like all this to work without media-queries
+
+.c-gallery {
+  margin: 0;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+.c-gallery--two-up {
+  margin-bottom: $global-spacing-unit-lg;
+}
+
+.c-gallery__item {
+  display: block;
+  margin-bottom: $global-spacing-unit-lg;
+
+  figure {
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 768px) {
+
+    margin-right: $global-spacing-unit;
+    margin-bottom: $global-spacing-unit;
+    flex: 0 1 44%; // TODO refactor
+
+  }
+
+}
+
+@supports (display: grid) {
+
+  .c-gallery {
+
+    @media screen and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(auto, 1fr));
+      grid-gap: $global-spacing-unit;
+      & > * {
+        margin: 0;
+      }
+    }
+  }
+
+}
+
+/**
+* Gallery Captions
+*/
+
+// WIP
+
+figure:hover figcaption {
+  opacity: 1;
+  bottom: 0
+}
+
+@media only screen and (min-width: 1024px) {
+
+  figcaption {
+      font-weight: 400;
+      font-size: .875em; //.75em
+      background: rgba(0, 0, 0, 0.875);
+      color: #fff;
+      padding: 20px;
+      width: 100%;
+      opacity: 0;
+      left: 0;
+      bottom: -30%;
+      transition: all .6s ease;
+  }
+
+}

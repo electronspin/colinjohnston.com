@@ -1,0 +1,19 @@
+/*----------------------------------*
+  #PANEL
+ *----------------------------------*/
+
+/**
+* Basic panel
+*/
+
+.c-panel {
+  background: #F2F2F2;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+  margin: $global-spacing-unit 0 $global-spacing-unit; 
+  padding: $global-spacing-unit;
+}
+
+.c-panel p:last-child {
+  margin-bottom: 0;
+}

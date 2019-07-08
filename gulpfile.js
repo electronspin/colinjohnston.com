@@ -89,7 +89,7 @@ gulp.task('php', reload);
 
 gulp.task('sass', function() {
 	// return gulp.src(paths.scss + "**/*.scss")
-	return gulp.src(paths.scss + "app.scss")
+	return gulp.src(paths.scss + "main.scss")
 		.pipe(plumber({
         errorHandler: function (err) {
           console.log(err.message);
