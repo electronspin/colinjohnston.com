@@ -18,7 +18,9 @@
 
 }
 
-.c-gallery--two-up {}
+.c-gallery--two-up {
+  margin-bottom: $global-spacing-unit-lg;
+}
 
 .c-gallery__item {
   display: block;
