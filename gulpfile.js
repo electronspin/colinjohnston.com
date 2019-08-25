@@ -145,7 +145,8 @@ gulp.task('serve', ['sass', 'js'], function() {
 	connect.server(configs.connect, function() {
 		 browserSync.init({
 		 		injectChanges: true,
-		 		proxy: configs.connect.hostname + ':' + configs.connect.port,
+				 proxy: configs.connect.hostname + ':' + configs.connect.port,
+				 browser: 'FirefoxDeveloperEdition',
 		 		snippetOptions: {
 		 			ignorePaths: ['panel/**', 'site/accounts/**']
 		 		},
