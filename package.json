@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://neoterica@bitbucket.org/neoterica/colinjohnston.com.git"
+    "url": "https://github.com/electronspin/colinjohnston.com.git"
   },
-  "author": "neoterica@gmail.com",
+  "author": "dev@electronspin.com",
   "license": "",
   "devDependencies": {
     "browser-sync": "^2.26.7",
