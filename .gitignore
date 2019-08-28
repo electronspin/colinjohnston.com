@@ -45,9 +45,6 @@ devlog.md
 node_modules
 node_modules/*
 
-# Blog (Kirby)
-/blog
-
 # Compiled CSS
 /stylesheets/css/*
 
@@ -56,3 +53,42 @@ node_modules/*
 
 # Sourcemaps
 /javascripts/*.js.map
+
+
+#
+# Kirby /blog
+# 
+
+/blog/vendor
+
+# Temporary files
+# ---------------
+
+/blog/media/*
+!/blog/media/index.html
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/blog/site/cache/*
+!/blog/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/blog/site/accounts/*
+!/blog/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/blog/site/sessions/*
+!/blog/site/sessions/index.html
+
+# License
+# ---------------
+/blog/site/config/.license
