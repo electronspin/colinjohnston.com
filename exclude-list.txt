@@ -7,6 +7,7 @@ exclude-list.txt
 node_modules
 .sass-cache
 stylesheets/sass
+stylesheets/scss
 alpha
 devlog.md
 blog
