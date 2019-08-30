@@ -105,8 +105,10 @@ $(document).ready(function () {
       var element_height = $(element).outerHeight();
       var element_top_position = $(element).offset().top;
       var element_bottom_position = (element_top_position + element_height);
+      if (element.hasClass('animated')) { return };
       if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
         element.addClass('inview');
+        element.addClass('animated');
       } else {
         element.removeClass('inview');
       }
