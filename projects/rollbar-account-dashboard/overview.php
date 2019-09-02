@@ -49,13 +49,26 @@
             <li class=""  id="processTab">
                 <div class="overview-content">
                     <h4>Existing Situation</h4>
-                    <p>Where is Rollbar product before this new feature?</p>
-	                <p>What are customers saying?</p>
-	                <p>What is our hypothesis (even if it’s the same as above)?</p>
+                    <p>Most Rollbar users are developing products composed of numerous applications and services, but without a comprehensive overview of these separate Rollbar projects it's difficult to see the overall health of an application. </p>
+                    <h5>Where was Rollbar product before this new feature?</h5>
+                    <p>Rollbar’s data model is built around the concept of a project, so any analysis of services composed of multiple projects is very cumbersome. Most users are opening up multiple Items views with custom filters and then tabbing between them. Some are opening up a few Items views and the Deploy view side-by-side.</p> 
+                    <h5>What were customers saying?</h5>
+                    <p>Nearly every customer using Rollbar heavily day-to-day was saying “Please create a cross-project dashboard!” But nearly every customer had a very different idea of what that meant—of course, everyone ideally wanted a solution to their own specific use case.</p>
+                    <h5>What was our hypothesis?</h5>
+                    <p>If we provide users the ability to compare even just a few key data points across their projects, we will make their lives so much easier.</p>
+
 
                     <h4 id="approach">Approach</h4>
                     <p><em>Research, analysis, exploration.</em></p>
-                    <p>Simple UX project plan</p>
+                    <h5>Piloting user-centered design in an engineering-driven environment.</h5>
+                    <p>Myself, the product manager, and the two founders all agreed we wanted to create a prototype of what had initially been dubbed the ‘Cross-project Dashboard’ and put it in front of a core group of customers. This was the first time Rollbar had started a project with design-driven research, and I was presenting this as an ideal project for us to pilot a new process. My goal was to show the team how we’d benefit from talking to users right at the start, and that building a simple prototype would provide us a way to test our ideas out in a much less expensive way than specifying a more complex product expansion up front and making adjustments once it was released widely to our customers.</p>
+                    <h5>Simple UX project plan</h5>
+                    <p>I think a key to a successful design project is how you plan it: too much planning and it becomes overloaded with process; too little planning it can quickly become chaotic and fall apart. The design team—myself and another product designer—mapped out a plan to get us from the first meeting where we got approval to proceed all the way through to flipping the switch in production to put the new dashboard in front of customers. I won’t get into all the details of the plan here—we simply talked about all the various tools, activities, and checkpoints we felt were essential and sketched out a rough schedule to share with product and engineering.</p>
+
+                    <!-- Put this in a panel, or design a card for info like this -->
+                    <h5>Problem Statement</h5>
+                    <p>People don’t have adequate visibility into the state of all projects across their account and this makes assessing the overall health of their services very cumbersome and difficult.</p>
+
 	                <p>Customer interviews</p>
 	                <p>Discovery exercises</p>
 	                <p>Affinity mapping</p>
@@ -63,8 +76,11 @@
                     <h4 id="ideas">Ideas &amp; Experiments</h4>
                     <p>Design concepts TK</p>
 
-                    <h4 id="learning">Learning &amp; Unexpected Insights</h4>
+                    <h4 id="insights">Unexpected Insights</h4>
                     <p>Customers did not want to see more than a week</p>
+
+                    <h4 id="learning">What We Learned</h4>
+                    <p>So much.</p>
 
                     <h4 id="solution">Solution</h4>
                     <p>TK</p>
