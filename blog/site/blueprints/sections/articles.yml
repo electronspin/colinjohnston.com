@@ -1,0 +1,9 @@
+type: pages
+headline: Journal
+icon: 📌
+layout: default
+parent: site.find("journal")
+info: "{{ page.date.toDate('d.m.Y') }}"
+template: article
+empty: No articles yet
+sortBy: date desc
