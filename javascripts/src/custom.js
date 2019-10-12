@@ -122,4 +122,4 @@ $(document).ready(function () {
 
 // refresh window on resize
 
-$(window).on('resize',function(){location.reload();});
+// $(window).on('resize',function(){location.reload();});
