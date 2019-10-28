@@ -76,6 +76,145 @@
                     <h4 id="ideas">Ideas &amp; Experiments</h4>
                     <p>Design concepts TK</p>
 
+                    <!-- WIP Images -->
+                    
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-ideation_early-UI-sketch">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - early ideation sketch" 
+                        title="<?php echo $rbad; ?> - early ideation sketch">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - early ideation sketch<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ideation_early-UI-sketch">View Larger Image</a></span></p>
+                    <!-- end --> 
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-ideation_lofi-wireframe">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - early ideation low fidelity wireframe" 
+                        title="<?php echo $rbad; ?> - early ideation low fidelity wireframe">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - early ideation low fidelity wireframe<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ideation_lofi-wireframe">View Larger Image</a></span></p>
+                    <!-- end -->
+
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-ixd_wireframe-v01">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - wireframe of finalized MVP design" 
+                        title="<?php echo $rbad; ?> - wireframe of finalized MVP design">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - wireframe of finalized MVP design<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ixd_wireframe-v01">View Larger Image</a></span></p>
+                    <!-- end --> 
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-ixd_appnav_wireframe-v01">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - wireframe with beta dashboard nav" 
+                        title="<?php echo $rbad; ?> - wireframe with beta dashboard nav">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - wireframe with beta dashboard nav<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ixd_appnav_wireframe-v01">View Larger Image</a></span></p>
+                    <!-- end --> 
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-UI_select-combobox-v01">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - select combobox concept 1" 
+                        title="<?php echo $rbad; ?> - select combobox concept 1">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - select combobox concept 1<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-UI_select-combobox-v01">View Larger Image</a></span></p>
+                    <!-- end --> 
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-UI_select-combobox-v01-alt">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - select combobox concept 2" 
+                        title="<?php echo $rbad; ?> - select combobox concept 2">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - select combobox concept 2<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-UI_select-combobox-v01-alt">View Larger Image</a></span></p>
+                    <!-- end --> 
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-usecase_empty-state-v01">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - empty state for users with no active projects" 
+                        title="<?php echo $rbad; ?> - empty state for users with no active projects">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - empty state for users with no active projects<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-usecase_empty-state-v01">View Larger Image</a></span></p>
+                    <!-- end --> 
+                    
+
+
+
                     <h4 id="insights">Unexpected Insights</h4>
                     <p>Customers did not want to see more than a week</p>
 
@@ -106,7 +245,6 @@
                     <p class="c-imagebox__caption">
                         <?php echo $slcs; ?> - Research Notes on v1.5 Layouts <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">View Larger Image</a></span></p>
                     <hr>
-
                     <!-- end placeholder for section with imagebox -->
 
                     <p><a class="link--to-top" href="#">TOP</a></p>
