@@ -87,7 +87,7 @@
 // Page-spcific Imagebox margins
 
 .c-project {
-  .c-imagebox:first-child {
+  .c-imagebox--hero {
     margin-bottom: $global-spacing-unit-lg;
   }
   .c-imagebox {

@@ -1,0 +1,31 @@
+/*----------------------------------*
+  #IMAGEGRID
+ *----------------------------------*/
+
+/**
+* Flexbox grid for 2-up image thumbnails.
+*/
+
+.c-imagegrid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  // justify-content: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-bottom: $global-spacing-unit-sm;
+}
+
+.c-imagegrid:after {
+  display: block;
+  content: "";
+  flex: 999 999 47.5%;
+}
+
+.c-imagegrid--item {
+  width: 47.5%;
+  flex: 0 0 auto;
+  // margin: $global-spacing-unit-sm;
+}
