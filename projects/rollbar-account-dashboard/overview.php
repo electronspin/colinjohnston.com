@@ -153,13 +153,13 @@
                         <li>Most users have multiple services within their product.</li>
                         <li>They have created a 1:1 mapping between their services and Rollbar projects because that’s the model that works best for them based on interaction model of our key view, the Items View.</li>
                         <li>Users want a broader context that goes beyond a single Rollbar project.</li>
-                        <li>Two different themes emerged:
+                        <li>Two important themes emerged:
                             <ol>
                                 <li>Reporting: Users want a high-level overview of the state of their entire product in one place.</li>
                                 <li>Triage: Users want real time updates from multiple projects so that they can identify issues from a single place and ‘jump to them’.</li>
                             </ol>
                         </li>
-                        <li>Design win will be a solution that not only provides a high-level overview of the entire application but encourages investigation and troubleshooting even at this “50,000ft” view.</li>
+                        <li>A "design win" will be a solution that not only provides a high-level overview of the entire application but encourages investigation and troubleshooting even at this “50,000ft” view.</li>
                     </ul>
 
                     <!-- Put this in a panel, or design a card for info like this -->
