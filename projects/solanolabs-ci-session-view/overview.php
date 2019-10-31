@@ -47,7 +47,7 @@
                 </div> -->
                     <p>The Session View shows every state of a session, from its initial creation, through to a complete collection of test results, build lifecycle timings, and build artifacts.</p>
                     <p>Over time, as additional functionality and information was added to the view, the interface <a href="http://blog.solanolabs.com/report-page-interface-enhancements/" target="_blank">had become difficult to use</a>.</p>
-                    <h4>Challenge</h4>
+                    <h4><?php echo $overview_section_a; ?></h4>
                     <p>How can we simplify a very complex interface and increase user efficiency?</p>
                     <p>Our goals were:</p>
                     <ul>
@@ -56,9 +56,9 @@
                         <li>Increase user trust in the system.</li>
                         <li>Present consistent views for a variety of session types.</li>
                     </ul>
-                    <h4>Solution</h4>
+                    <h4><?php echo $overview_section_b; ?></h4>
                     <p>A holistic redesign based on user research and customer feedback, validated with live-data prototypes. We completely rebuilt how the system reports build status information, created a new real-time status report model, and I designed a set of visually consistent views for all session types.</p>
-                    <h4>Results</h4>
+                    <h4><?php echo $overview_section_c; ?></h4>
                     <p>The new session view solves all the issues we set out to solve: we improved accuracy and depth of detail of status report, while making it more usable and easy to understand; we increased user confidence in the system, and are providing customers with a more efficient tool for a critical part of their software development workflow.</p>
                     <p>Solano Labs is currently beta testing it with a selected group of customers and the feedback is consistently positive. One of the founders and the lead Product Manager says that &ldquo;everyone is loving&rdquo; the update.</p>
 
@@ -82,7 +82,7 @@
                     <p>To accomplish this, I adapted the Design Sprint process to run my own sprints alongside engineering. This allowed for proper research and validation of hypotheses before diving into implementation; the output of a completed design sprint went directly into the engineering backlog, with the benefit of providing developers with a well-defined goal.</p>
                     <p><strong><a href="#discover">Discover</a> &gt; <a href="#define">Define</a> &gt; <a href="#ideate">Ideate</a> &gt; <a href="#prototype">Prototype</a> &gt; <a href="#validate">Validate</a></strong></p>
                     <h4 id="discover">Discover</h4>
-                    <p><em>Research, analysis, exploration; the bedrock of subsequent design activities.</em></p>
+                    <div class="c-intro-callout"><span><em>Research, analysis, exploration; the bedrock of subsequent design activities.</em></span></div>
                     <p>Through research and user testing sessions, I helped the team better understand how the interface was solving problems for customers, and how it was falling short. Digging deeper below issues of cluttered visual presentation and confusing interactions, I got to the root of a critical issue users were having: <em>they were not seeing a complete and accurate view into the state of their build</em>. </p>
 
                     <h5>Use Cases</h5>
@@ -107,7 +107,7 @@
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> User Research, Use Cases, Usability Testing, Interviews, Concept Maps. </p>
                     <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="define">Define</h4>
-                    <p><em>Clarity and focus; framing the problem to create a solution</em></p>
+                    <div class="c-intro-callout"><span><em>Clarity and focus; framing the problem to create a solution</em></span></div>
                     <p>I facilitated development of an internal prototype (running with live data) to validate new reporting outputs. I used this information later in the project to construct an improved real-time status report model.</p>
                     <h5>Personas</h5>
                     <p>I had previously developed with the team a set of personas that profiled new and existing customers. These were hybrid marketing and design personas that gave us clear idea of our users goals and pain points. Reinforced by the deeper research done for this specific project, the picture that emerged helped me get buy-in on making broader changes to the product.</p>
@@ -143,7 +143,7 @@
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Personas, Use Cases, User Flows, Sketches, Lo-fi Wireframes.</p>
                     <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="ideate">Ideate</h4>
-                    <p><em>Concepts for outcomes; combine understanding of the problem with imagination.</em></p>
+                    <div class="c-intro-callout"><span><em>Concepts for outcomes; combine understanding of the problem with imagination.</em></span></div>
                     <h5>Wireframes</h5>
                     <p>I iterated through a series of wireframes showing all possible configurations of a session view (there are twelve!). Previously, less common session types had inconsistent layouts; I refined the structure to present all sessions consistently.</p>
                     <!-- solanolabs-sessionview-wireframe1 -->
@@ -168,7 +168,18 @@
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Wireframes, Paper Prototypes, Style Tiles, UI Design, Lo-fi Mockups, Art Direction, Content Strategy.</p>
                     <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="prototype">Prototype</h4>
-                    <p><em>If a picture is worth a thousand words, a prototype is worth a thousand pictures.</em></p>
+                    <div class="c-intro-callout"><span><em>If a picture is worth a thousand words, a prototype is worth a thousand pictures.</em></span></div>
+
+                    <h5>Concept Prototype</h5>
+                    <p>I constructed a clickable prototype in Middleman to present our current design direction and socialize a number of additional interaction concepts to stakeholders.</p>
+
+                    <div style="padding:58.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/174725827?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+                    <p class="c-imagebox__caption c-imagebox__caption--video">
+                    <?php echo $slcs; ?> - high-fidelity concept prototype</p>
+
+                    <h5>Prototype-as-mockup</h5>
+
                     <p>Since we had very hi-fidelity wireframes and a defined set of styles for the UI components, it was more efficient to create a clickable prototype rather than static mockups.</p>
                     <p>The purpose of this prototype was two-fold:</p>
                     <ol>
@@ -189,7 +200,7 @@
                     <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Mockups, Clickable Prototypes, Heuristics, Interactions</p>
                     <p><a class="link--to-top" href="#">TOP</a></p>
                     <h4 id="validate">Validate</h4>
-                    <p><em>Prototype as if you know you’re right, but test as if you know you’re wrong</em></p>
+                    <div class="c-intro-callout"><span><em>Prototype as if you know you’re right, but test as if you know you’re wrong</em></span></div>
                     <p>There was no practical way to deliver our initial prototype to customers using real-time data, so the engineering team built the new session view into the production app. We then allowed users to test it as an ‘alpha’ feature (behind a feature flag).</p>
                     <p>Making full use of the Agile philosophy, we had working software. But in the spirit of Design Thinking, we were still in the design phase. </p>
                     <p>Now the process of moderated and unmoderated user testing can reveal where we hit the mark with our solution, and where it might need improvement.</p>

@@ -1,0 +1,77 @@
+/*----------------------------------*
+  #OVERRIDES - TEMP
+ *----------------------------------*/
+
+// Refactor and move to appropriate files
+
+.c-project .overview-content ol,
+.c-project .overview-content ul {
+  @include font-size(15px);
+  margin-top: 0.5em;
+}
+
+.c-project .overview-content ul {
+  list-style-type: disc;
+}
+
+.c-project .overview-content li {
+  margin-top: 0.5em;
+}
+
+.c-project__title {
+  margin-top: $global-spacing-unit-lg;
+}
+
+.c-imagebox__caption {
+  @include font-size(13px);
+  margin-top: -12px;
+  margin-bottom: 24px;
+  & a {
+    text-decoration: underline dotted;
+  }
+  & a:hover {
+    text-decoration: none;
+  }
+}
+
+.c-panel--assert {
+  background: #f2fdec;
+  border: 1px solid #cdd9c7;
+  color: #8dae7c;
+}
+
+.c-panel--inform {
+  background: #f2fdec;
+  border: 1px solid #cdd9c7;
+  color: #8dae7c;
+}
+
+.c-panel__sharp {
+  border-radius: 0px;
+}
+
+.c-imagebox__caption--video {
+  margin-top: $global-spacing-unit-sm;
+}
+
+.c-intro-callout {
+  margin-bottom: $global-spacing-unit;
+  span {
+    display: inline;
+    padding: 2px 4px;
+    background-color: khaki;
+    @include font-size(15px);
+  }
+}
+
+
+.c-link-pagination--prev::before {
+  content: "←";
+  margin-right: .25em;
+}
+
+.c-link-pagination--next::after {
+  content: "→";
+  margin-left: .25em;
+}
+

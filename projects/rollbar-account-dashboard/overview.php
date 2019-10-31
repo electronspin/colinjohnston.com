@@ -20,7 +20,7 @@
                 <div class="overview-content">
                     <!-- c-project-sidebar -->
                     <p>The Account Dashboard is a new view in the Rollbar web app specifically designed to give engineers and managers a complete picture of all active projects. </p>
-                    <h4>Challenge</h4>
+                    <h4><?php echo $overview_section_a; ?></h4>
                     <p>Many Rollbar users are developing products composed of numerous applications and services, but without a comprehensive overview of these separate Rollbar projects it's difficult to see the overall health of an application. </p>
                     <p>Customer goals:</p>
                     <ul>
@@ -28,16 +28,16 @@
                     <li>Shorten the time it takes to solve complex issues.</li>
                     <li>Increase engineering team efficiency.</li>
                     </ul>
-                    <h4>Solution</h4>
+                    <h4><?php echo $overview_section_b; ?></h4>
                     <p>Starting with a simple prototype that aggregated project data onto a single view, we tested the interface with a small number of customers. One of the most interesting outcomes of these tests is that we discovered there were two distinct use cases: <em>reporting</em>, and <em>triage</em>. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve problems more efficiently. For the initial version of the view we decided to provide a basic tool that would solve both problems.</p>
                     <ul>
                     <li>Provide a dedicated view showing all the projects in an account.</li>
                     <li>Present a clear visual representation of the health of selected projects.</li>
                     <li>Surface all filters available in the individual project view, making it easy to for teams to drill down into issues across languages, environments, and error levels.</li>
                     </ul>
-                    <h4>Results</h4>
+                    <h4><?php echo $overview_section_c; ?></h4>
                     <p>The first release of the Account Dashboard helped Rollbar customers achieve their previously unmet goals immediately. By providing insight into individual trends alongside potential correlated patterns, engineering teams could now quickly see how performance of various applications and services affects the health of their overall product. When a team can more efficiently triage and solve errors in complex systems they are more effective at maintaining high quality experience for their users.</p>
-                    <div class="c-panel"><p>&ldquo;The Account Dashboard makes it even easier than before to understand the overall health of the Instacart product as well as individual teams/systems that make up Instacart. It also makes it dead simple to know where our engineering time has the highest leverage regarding issues affecting our customers and shoppers.&rdquo;</p>
+                    <div class="c-panel c-panel--assert c-panel__sharp"><p>&ldquo;The Account Dashboard makes it even easier than before to understand the overall health of the Instacart product as well as individual teams/systems that make up Instacart. It also makes it dead simple to know where our engineering time has the highest leverage regarding issues affecting our customers and shoppers.&rdquo;</p>
                     <p>&mdash;Jason Kozemczak, Tech Lead at Instacart</p></div>
                     <h4>Demo</h4>
                     <p>You can view a limited demo of the Account Dashboard in the Rollbar Demo account <a href="https://rollbar.com/demo/?level=30%2C40%2C50&duration=24h&tz=US%2FPacific&sort=total&order=desc" title="Rollbar Demo" target="_blank" rel="noopener noreferrer">here</a>.</p>
@@ -108,14 +108,15 @@
                     <h5>Simple UX project plan</h5>
                     <p>I think a key to a successful design project is how you plan it: too much planning and it becomes overloaded with process; too little planning it can quickly become chaotic and fall apart. The design team—myself and another product designer—mapped out a plan to get us from the first meeting where we got approval to proceed all the way through to flipping the switch in production to put the new dashboard in front of customers. I won’t get into all the details of the plan here—we simply talked about all the various tools, activities, and checkpoints we felt were essential and sketched out a rough schedule to share with product and engineering.</p>
 
-                    <!-- Put this in a panel, or design a card for info like this -->
-                    <h5>Problem Statement</h5>
-                    <p>People don’t have adequate visibility into the state of all projects across their account and this makes assessing the overall health of their services very cumbersome and difficult.</p>
-
-	                <p>Customer interviews</p>
-	                <p>Discovery exercises</p>
-                    <p>Affinity mapping</p>
+                
+                    <h5>Customer interviews &amp; contextual inquiries</h5>
                     
+                    <h5>Discovery exercises</h5>
+                    <p>Blank Slate</p>
+                    <p>Conversations</p>
+
+                    <h5>Affinity mapping</h5>
+
                     <!-- start -->
                     <div class="c-imagebox">
                         <a href="#" 
@@ -136,13 +137,34 @@
                     <p class="c-imagebox__caption">
                         <?php echo $rbad; ?> - customer feedback ready for affinity mapping exercise<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-research_affinity-mapping_master">View Larger Image</a></span></p>
 
+                    <h5> Research Highlights</h5>
+                    <p>Key takeaways from the affinity exercise and user research:</p>
+                    <ul>
+                        <li>Most users have multiple services within their product.</li>
+                        <li>They have created a 1:1 mapping between their services and Rollbar projects because that’s the model that works best for them based on interaction model of our key view, the Items View.</li>
+                        <li>Users want a broader context that goes beyond a single Rollbar project.</li>
+                        <li>Two different themes emerged:
+                            <ol>
+                                <li>Reporting: Users want a high-level overview of the state of their entire product in one place.</li>
+                                <li>Triage: Users want real time updates from multiple projects so that they can identify issues from a single place and ‘jump to them’.</li>
+                            </ol>
+                        </li>
+                        <li>Design win will be a solution that not only provides a high-level overview of the entire application but encourages investigation and troubleshooting even at this “50,000ft” view.</li>
+                    </ul>
+
+                    <!-- Put this in a panel, or design a card for info like this -->
+                    <h5>Problem Statement</h5>
+                    <p>With everythign we learned from talking to customers and analyzing research, we arrived at a very clear problem to be solved.</p>
+                    <div class="c-panel"><p>People don’t have adequate visibility into the state of all projects and services across their account and this makes assessing the overall health of their product very cumbersome and difficult.</p></div>
+
+                    <p><a class="link--to-top" href="#">TOP</a></p>
+
                     <h4 id="ideas">Ideas &amp; Experiments</h4>
-                    <p>Design concepts TK</p>
-
-                    <!-- WIP Images -->
+                    <p>Design concepts intro TK</p>
                     
-                    <!-- imagegrid test --> 
-
+                    
+                    <!-- imagegrid  --> 
+                    <!--
                     <div class='c-imagegrid'>
                         <div class="c-imagegrid--item c-imagebox">
                             <a href="#" 
@@ -202,8 +224,8 @@
                         </div>
                     </div>
                     <p class="c-imagebox__caption">
-                        <?php echo $rbad; ?> - early ideation<span class="hide-for-small"> / Click image to view larger</span></p>
-                    <!-- end imagegrid test --> 
+                        <?php echo $rbad; ?> - early ideation<span class="hide-for-small"> / Click image to view larger</span></p> -->
+                    <!-- end imagegrid --> 
 
 
 
@@ -244,6 +266,8 @@
                     <p class="c-imagebox__caption">
                         <?php echo $rbad; ?> - early ideation low fidelity wireframe<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ideation_lofi-wireframe">View Larger Image</a></span></p>
                     <!-- end -->
+
+                    <p><a class="link--to-top" href="#">TOP</a></p>
 
                     <h4>Prototyping &amp; User Testing</h4>
                     <h5>Proof-of-concept reviews with customers</h5>
@@ -291,6 +315,7 @@
                         <?php echo $rbad; ?> - wireframe with beta dashboard nav<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ixd_appnav_wireframe-v01">View Larger Image</a></span></p>
                     <!-- end --> 
 
+                    <p><a class="link--to-top" href="#">TOP</a></p>
 
                     <h4 id="insights">Unexpected Insights</h4>
                     <p>Customers did not want to see data for an interval longer than a week.</p>
@@ -381,20 +406,28 @@
                     <p class="c-imagebox__caption">
                         <?php echo $rbad; ?> - empty state for users with no active projects<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-usecase_empty-state-v01">View Larger Image</a></span></p>
                     <!-- end --> 
+
+                    <p><a class="link--to-top" href="#">TOP</a></p>
                     
                     <h4 id="learning">What We Learned</h4>
-                    <p>As we evolved the MVP through performing user testing and analyzing user data we came to realize that the reporting and triage use cases were both served very well by the functionality and experience we had converged on for our beta release.</p>
+                    <p>As we evolved the MVP through performing user testing and analyzing user data we came to realize that the reporting and triage use cases were both served very well by the functionality and experience we had converged on for our beta release. This changed the direction of our intended design evolution: rather than providing customizations for each use case that could be optionally enabled on top of the base experience, we committed to adding functionality that would improve the core experience. </p>
 
+                    <p><a class="link--to-top" href="#">TOP</a></p>
 
                     <h4 id="solution">Solution</h4>
-                    <p>[overview of beta experience TK]</p>
-                    [final screens TK]
-                    
+                    <p><em>The first release of the Account Dashboard helped Rollbar customers achieve their previously unmet goals immediately. By providing insight into individual trends alongside potential correlated patterns, engineering teams could now quickly see how performance of various applications and services affects the health of their overall product. When a team can more efficiently triage and solve errors in complex systems they are more effective at maintaining high quality experience for their users.</em></p>
+                    <!-- start vimeo embed --> 
+                    <h5>Basic Critical Error Triage Demo</h5>
+                    <p>This video walkthrough presents a simplified task flow for triaging a high impact issue from the account level. The starting point is a wide view across projects, occurences, and error levels; the user can zero-in on a specific project and environment to isolate a critical error much more quickly than if using multiple Item Views. This is a very simpified example, in a real-world scenario we would see dozens of projects with a higher likelihood of variance in occurences across error levels.</p>
+                    <div style="padding:59.31% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/370113864?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    <!-- end vimeo embed --> 
+
+                    <p><a class="link--to-top" href="#">TOP</a></p>
 
                     <h4 id="upshot">Upshot</h4>
-                    [clean this up]
-                    <p>Top customers immediately started telling us even this basic MVP was massively useful to them (qualitative win); commitment to product strengthened (quantitative win).</p>
-                    <p>Isolating specific task flows and simplifying them provided much higher value metrics on user behavior across reporting and triage features.</p>
+                    <p>The project was a win for Rollbar on a number of important levels.</p>
+                    <p>Top customers immediately started telling us even this basic MVP was massively useful to them (qualitative win); customer commitment to product strengthened and attrition numbers quickly decreased, especially among enterprise customers (quantitative win).</p>
+                    <p>Isolating specific task flows and simplifying them provided much higher value metrics internally on user behavior across reporting and triage features.</p>
                     <p>New design processes tested in real-world; design team empowered to explore concepts and experiment with features; product and engineering now able to collaborate more seamlessly with design than before.
                     </p>
 
