@@ -41,9 +41,9 @@
 }
 
 .c-panel--inform {
-  background: #f2fdec;
-  border: 1px solid #cdd9c7;
-  color: #8dae7c;
+  background: #ecf8fd;
+  border: 1px solid #d6dee8;
+  color: #7c9eae;
 }
 
 .c-panel__sharp {
@@ -73,5 +73,9 @@
 .c-link-pagination--next::after {
   content: "→";
   margin-left: .25em;
+}
+
+.c-branding {
+  margin-bottom: 36px;
 }
 

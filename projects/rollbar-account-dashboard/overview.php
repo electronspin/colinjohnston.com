@@ -22,14 +22,14 @@
                     <p>The Account Dashboard is a new view in the Rollbar web app specifically designed to give engineers and managers a complete picture of all active projects. </p>
                     <h4><?php echo $overview_section_a; ?></h4>
                     <p>Many Rollbar users are developing products composed of numerous applications and services, but without a comprehensive overview of these separate Rollbar projects it's difficult to see the overall health of an application. </p>
-                    <p>Customer goals:</p>
+                    <p>Our goals for improving the Rollbar product:</p>
                     <ul>
                     <li>Provide greater leverage to engineering teams for mitigating expensive failures.</li>
                     <li>Shorten the time it takes to solve complex issues.</li>
                     <li>Increase engineering team efficiency.</li>
                     </ul>
                     <h4><?php echo $overview_section_b; ?></h4>
-                    <p>Starting with a simple prototype that aggregated project data onto a single view, we tested the interface with a small number of customers. One of the most interesting outcomes of these tests is that we discovered there were two distinct use cases: <em>reporting</em>, and <em>triage</em>. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve problems more efficiently. For the initial version of the view we decided to provide a basic tool that would solve both problems.</p>
+                    <p>Starting with a simple research-driven proof-of-concept that aggregated project data onto a single view, we tested the interface with a small number of customers. One of the most interesting outcomes of these early tests is that we discovered there were two distinct use cases: <em>reporting</em>, and <em>triage</em>. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve problems more efficiently. For the initial version of the view we decided to provide a basic tool that would solve both problems. We mapped out plans for a deeper dive into each use case for future versions.</p>
                     <ul>
                     <li>Provide a dedicated view showing all the projects in an account.</li>
                     <li>Present a clear visual representation of the health of selected projects.</li>
@@ -110,12 +110,22 @@
 
                 
                     <h5>Customer interviews &amp; contextual inquiries</h5>
+                    <p>[Intro TK]</p>
                     
                     <h5>Discovery exercises</h5>
-                    <p>Blank Slate</p>
-                    <p>Conversations</p>
+                    <p>["Blank Slate" description/example TK]</p>
+                    <p>["Conversations" description/example TK]</p>
 
                     <h5>Affinity mapping</h5>
+                    <p>No portfolio is complete without the obiligatory photo of a wall of Post-Its&trade;. Seriously though, this exercise is a very effective way to gain insights from a large sampling of customer input and research. </p>
+                    <p>We very quickly saw three groupings emerge:
+                        <ul>
+                            <li>Metrics/Visualizations/Reporting</li>
+                            <li>Alerting/Triage</li>
+                            <li>Filtering/Customization</li>
+                        </ul>
+                    </p>
+                    <p>We used these use cases to guide our initial interaction model explorations.</p>
 
                     <!-- start -->
                     <div class="c-imagebox">
@@ -137,7 +147,7 @@
                     <p class="c-imagebox__caption">
                         <?php echo $rbad; ?> - customer feedback ready for affinity mapping exercise<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-research_affinity-mapping_master">View Larger Image</a></span></p>
 
-                    <h5> Research Highlights</h5>
+                    <h5>Research Highlights</h5>
                     <p>Key takeaways from the affinity exercise and user research:</p>
                     <ul>
                         <li>Most users have multiple services within their product.</li>
@@ -154,13 +164,13 @@
 
                     <!-- Put this in a panel, or design a card for info like this -->
                     <h5>Problem Statement</h5>
-                    <p>With everythign we learned from talking to customers and analyzing research, we arrived at a very clear problem to be solved.</p>
-                    <div class="c-panel"><p>People don’t have adequate visibility into the state of all projects and services across their account and this makes assessing the overall health of their product very cumbersome and difficult.</p></div>
+                    <p>With everything we learned from talking to customers and analyzing research, we arrived at a very clear problem to be solved.</p>
+                    <div class="c-panel c-panel--inform c-panel__sharp"><p>Rollbar users don’t have adequate visibility into the state of all projects and services across their account and this makes assessing the overall health of their product very cumbersome and difficult.</p></div>
 
                     <p><a class="link--to-top" href="#">TOP</a></p>
 
                     <h4 id="ideas">Ideas &amp; Experiments</h4>
-                    <p>Design concepts intro TK</p>
+                    <p>[Design concepts intro TK]</p>
                     
                     
                     <!-- imagegrid  --> 
@@ -321,7 +331,7 @@
                     <p>Customers did not want to see data for an interval longer than a week.</p>
 
                     <h4>Refining the Design</h4>
-                    <p>TK</p>
+                    <p>[Intro TK]</p>
                     <h5>Filtering controls</h5>
                     <p>Exploring two variations of the combobox component</p>
 
@@ -416,9 +426,11 @@
 
                     <h4 id="solution">Solution</h4>
                     <p><em>The first release of the Account Dashboard helped Rollbar customers achieve their previously unmet goals immediately. By providing insight into individual trends alongside potential correlated patterns, engineering teams could now quickly see how performance of various applications and services affects the health of their overall product. When a team can more efficiently triage and solve errors in complex systems they are more effective at maintaining high quality experience for their users.</em></p>
-                    <!-- start vimeo embed --> 
+                    
                     <h5>Basic Critical Error Triage Demo</h5>
                     <p>This video walkthrough presents a simplified task flow for triaging a high impact issue from the account level. The starting point is a wide view across projects, occurences, and error levels; the user can zero-in on a specific project and environment to isolate a critical error much more quickly than if using multiple Item Views. This is a very simpified example, in a real-world scenario we would see dozens of projects with a higher likelihood of variance in occurences across error levels.</p>
+
+                    <!-- start vimeo embed --> 
                     <div style="padding:59.31% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/370113864?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                     <!-- end vimeo embed --> 
 
