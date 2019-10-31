@@ -52,6 +52,49 @@
                     <p>Most Rollbar users are developing products composed of numerous applications and services, but without a comprehensive overview of these separate Rollbar projects it's difficult to see the overall health of an application. </p>
                     <h5>Where was Rollbar product before this new feature?</h5>
                     <p>Rollbar’s data model is built around the concept of a project, so any analysis of services composed of multiple projects is very cumbersome. Most users are opening up multiple Items views with custom filters and then tabbing between them. Some are opening up a few Items views and the Deploy view side-by-side.</p> 
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-items-view">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-items-view_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-items-view_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-items-view_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-items-view_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-items-view_medium.jpg" 
+                        alt="Items View, the primary UI for viewing comprehensive project activity" 
+                        title="Items View, the primary UI for viewing comprehensive project activity">
+                        </a>
+                    </div>
+
+                    <p class="c-imagebox__caption">
+                        Items View, the primary UI for viewing comprehensive project activity<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-items-view">View Larger Image</a></span></p>
+
+                    <!-- end --> 
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-project-dashboard">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-project-dashboard_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-project-dashboard_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-project-dashboard_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-project-dashboard_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-project-dashboard_medium.jpg" 
+                        alt="Project Dashboard, the summary view for a project that most customers never use" 
+                        title="Project Dashboard, the summary view for a project that most customers never use">
+                        </a>
+                    </div>
+
+                    <p class="c-imagebox__caption">
+                        Project Dashboard, the summary view for a project that most customers never use<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-project-dashboard">View Larger Image</a></span></p>
+                        
+                    <!-- end --> 
+
                     <h5>What were customers saying?</h5>
                     <p>Nearly every customer using Rollbar heavily day-to-day was saying “Please create a cross-project dashboard!” But nearly every customer had a very different idea of what that meant—of course, everyone ideally wanted a solution to their own specific use case.</p>
                     <h5>What was our hypothesis?</h5>
@@ -71,7 +114,27 @@
 
 	                <p>Customer interviews</p>
 	                <p>Discovery exercises</p>
-	                <p>Affinity mapping</p>
+                    <p>Affinity mapping</p>
+                    
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-research_affinity-mapping_master">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - customer feedback ready for affinity mapping exercise" 
+                        title="<?php echo $rbad; ?> - customer feedback ready for affinity mapping exercise">
+                        </a>
+                    </div>
+                    <!-- end --> 
+
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - customer feedback ready for affinity mapping exercise<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-research_affinity-mapping_master">View Larger Image</a></span></p>
 
                     <h4 id="ideas">Ideas &amp; Experiments</h4>
                     <p>Design concepts TK</p>
@@ -140,7 +203,6 @@
                     </div>
                     <p class="c-imagebox__caption">
                         <?php echo $rbad; ?> - early ideation<span class="hide-for-small"> / Click image to view larger</span></p>
-
                     <!-- end imagegrid test --> 
 
 
@@ -183,6 +245,12 @@
                         <?php echo $rbad; ?> - early ideation low fidelity wireframe<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ideation_lofi-wireframe">View Larger Image</a></span></p>
                     <!-- end -->
 
+                    <h4>Prototyping &amp; User Testing</h4>
+                    <h5>Proof-of-concept reviews with customers</h5>
+                    <p>
+                    We presented wireframes to customers we had previously interviewed to gather feedback. We also used these sessions to seek a commitment to extended testing once we released the initial beta version to a select group of customers. 
+                    </p>
+                    
 
                     <!-- start -->
                     <div class="c-imagebox">
@@ -203,6 +271,7 @@
                         <?php echo $rbad; ?> - wireframe of finalized MVP design<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ixd_wireframe-v01">View Larger Image</a></span></p>
                     <!-- end --> 
 
+                    <p>We also started exploring how to expose the Account-level view in the global navigation. </p>
                     <!-- start -->
                     <div class="c-imagebox">
                         <a href="#" 
@@ -221,6 +290,15 @@
                     <p class="c-imagebox__caption">
                         <?php echo $rbad; ?> - wireframe with beta dashboard nav<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ixd_appnav_wireframe-v01">View Larger Image</a></span></p>
                     <!-- end --> 
+
+
+                    <h4 id="insights">Unexpected Insights</h4>
+                    <p>Customers did not want to see data for an interval longer than a week.</p>
+
+                    <h4>Refining the Design</h4>
+                    <p>TK</p>
+                    <h5>Filtering controls</h5>
+                    <p>Exploring two variations of the combobox component</p>
 
                     <!-- start -->
                     <div class="c-imagebox">
@@ -260,6 +338,31 @@
                         <?php echo $rbad; ?> - select combobox concept 2<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-UI_select-combobox-v01-alt">View Larger Image</a></span></p>
                     <!-- end --> 
 
+                    <h5>Evolving the Global Design System</h5>
+                    <p>Refining and documenting net-new components for use in global design system</p>
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-UI_select-combobox-filter-component-spec">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - combobox filter component documentation for front-end team and design system sprint" 
+                        title="<?php echo $rbad; ?> - combobox filter component documentation for front-end team and design system sprint">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - combobox filter component documentation for front-end team and design system sprint<span class="hide-for-small"> / <a href="#" data-reveal-id="AALD-UI_select-combobox-filter-component-spec">View Larger Image</a></span></p>
+                    <!-- end --> 
+
+                    <h5>Comitting to a New Entry-point</h5>
+                    <p>Improving our global empty-state patterns for new users and onboarding</p>
+
                     <!-- start -->
                     <div class="c-imagebox">
                         <a href="#" 
@@ -279,40 +382,23 @@
                         <?php echo $rbad; ?> - empty state for users with no active projects<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-usecase_empty-state-v01">View Larger Image</a></span></p>
                     <!-- end --> 
                     
-
-
-
-                    <h4 id="insights">Unexpected Insights</h4>
-                    <p>Customers did not want to see more than a week</p>
-
                     <h4 id="learning">What We Learned</h4>
-                    <p>So much.</p>
+                    <p>As we evolved the MVP through performing user testing and analyzing user data we came to realize that the reporting and triage use cases were both served very well by the functionality and experience we had converged on for our beta release.</p>
+
 
                     <h4 id="solution">Solution</h4>
-                    <p>TK</p>
+                    <p>[overview of beta experience TK]</p>
+                    [final screens TK]
+                    
 
                     <h4 id="upshot">Upshot</h4>
-                    <p>Top customers immediately started telling us even this basic MVP was massively useful to them (qual); commitment to product strengthened (quant)</p>
-                    <p>Isolating specific task flows and simplifying them provided much higher value metrics on user behavior across reporting and triage features</p>
-                    <p>New design processes tested in real-world; design team empowered to explore concepts and experiment with features; product and engineering now able to collaborate more seamlessly with design than before
+                    [clean this up]
+                    <p>Top customers immediately started telling us even this basic MVP was massively useful to them (qualitative win); commitment to product strengthened (quantitative win).</p>
+                    <p>Isolating specific task flows and simplifying them provided much higher value metrics on user behavior across reporting and triage features.</p>
+                    <p>New design processes tested in real-world; design team empowered to explore concepts and experiment with features; product and engineering now able to collaborate more seamlessly with design than before.
                     </p>
 
-                    <!-- start placeholder for section with imagebox -->
-                    <hr>
-                    <h5>h5</h5>
-                    <p>paragraph placeholder</p>
-                    <!-- solanolabs-sessionview-research-notations -->
-                    <div class="c-imagebox">
-                        <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">
-                            <img srcset="/images/solanolabs-sessionview-research-notations_small.jpg 400w,
-                        /images/solanolabs-sessionview-research-notations_medium.jpg 800w,
-                        /images/solanolabs-sessionview-research-notations_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/solanolabs-sessionview-research-notations_medium.jpg" alt="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts" title="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts">
-                        </a>
-                    </div>
-                    <p class="c-imagebox__caption">
-                        <?php echo $slcs; ?> - Research Notes on v1.5 Layouts <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">View Larger Image</a></span></p>
-                    <hr>
-                    <!-- end placeholder for section with imagebox -->
+                    
 
                     <p><a class="link--to-top" href="#">TOP</a></p>
                     
