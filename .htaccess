@@ -5,6 +5,7 @@ RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 RewriteRule ^journal/(.*)$ blog/journal/$1 [L]
 RewriteRule ^notes/(.*)$ blog/notes/$1 [L]
+RewriteRule ^panel/(.*)$ blog/panel/$1 [L]
 RedirectMatch ^/blog/$ /journal/
 
 # Comment out for MAMP 
