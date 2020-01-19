@@ -1,16 +1,53 @@
 title: Site
 
-columns:
-      - width: 1/2
-        sections:
-          articles: sections/articles
-      - width: 1/2
-        sections:
-          notes: sections/notes
-          pages:
-            type: pages
-            create: default
-            template:
-              - home
-              - about
-              - contact
+tabs:
+
+  dashboard:
+
+      label: Content Dashboard
+      icon: dashboard
+
+      columns:
+            - width: 1/2
+              sections:
+                articles: sections/articles
+            - width: 1/2
+              sections:
+                notes: sections/notes
+                # pages:
+                #   type: pages
+                #   create: default
+                #   template:
+                #     - home
+                #     - about
+                #     - contact
+
+  siteinfo:
+
+      label: Site Info
+      icon: globe
+
+      columns:
+        - width: 1/2
+          sections:
+            content:
+              type: fields
+              fields:
+                author:
+                  label: Author
+                  type:  text
+                description:
+                  label: Description
+                  type:  textarea
+                  size: medium
+        - width: 1/2
+          sections:
+            content2:
+              type: fields
+              fields:
+                keywords:
+                  label: Keywords
+                  type:  tags
+                copyright:
+                  label: Copyright
+                  type:  textarea
