@@ -1,6 +1,4 @@
-<footer>
-    <p class="copyright"><?= $site->copyright() ?></p>
-  </footer>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
 
 </body>
 </html>
