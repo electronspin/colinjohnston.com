@@ -11,6 +11,9 @@
 
     <?= $page->text()->kirbytext() ?>
 
+    <a href="<?= $kirby->url('notes') ?>">Notes</a>
+    <a href="<?= $kirby->url('journal') ?>">Journal</a>
+
     </main>
 
     <?php snippet('footer') ?>
