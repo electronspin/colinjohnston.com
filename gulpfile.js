@@ -26,7 +26,7 @@ var configs = {
 	connect: { // for gulp-php-connect
 		hostname: '127.0.0.1',
 		port: '8000',
-		base: './',
+		base: './public/www',
 		stdio: 'ignore'
 	},
 	sass: {
