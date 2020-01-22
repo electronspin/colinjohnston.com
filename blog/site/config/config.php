@@ -2,7 +2,7 @@
 
 return [
   'debug' => true,
-  'url' => 'http://colinjohnston.local/blog'
+  'url' => 'http://colinjohnston.local/blog/'
   // 'url' => 'http://colinjohnston.local'
 
   // I thought this would work with gulp-connect-php but it doesn't
