@@ -37,10 +37,6 @@ ehthumbs.db
 Thumbs.db
 .sass-cache/*
 
-# Electron Spin Projects
-/alpha
-devlog.md
-
 # NPM
 node_modules
 node_modules/*
@@ -56,39 +52,16 @@ node_modules/*
 
 
 #
-# Kirby /blog
-# 
+# Kirby
+#
 
-/blog/vendor
+/vendor
 
-# Temporary files
-# ---------------
+/storage/cache/*
+!/storage/cache/index.html
+/storage/accounts/*
+/storage/accounts/index.html
+/storage/sessions/*
+/storage/sessions/index.html
 
-/blog/media/*
-!/blog/media/index.html
-
-# -------------SECURITY-------------
-# NEVER publish these files via Git!
-# -------------SECURITY-------------
-
-# Cache Files
-# ---------------
-
-/blog/site/cache/*
-!/blog/site/cache/index.html
-
-# Accounts
-# ---------------
-
-/blog/site/accounts/*
-!/blog/site/accounts/index.html
-
-# Sessions
-# ---------------
-
-/blog/site/sessions/*
-!/blog/site/sessions/index.html
-
-# License
-# ---------------
-/blog/site/config/.license
+/site/config/.license
