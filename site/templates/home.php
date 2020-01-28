@@ -11,12 +11,10 @@
 
     <?= $page->text()->kirbytext() ?>
 
-    <a href="<?= url('notes') ?>">Notes</a>
-    <a href="<?= url('journal') ?>">Journal</a>
+    <?php snippet('menu-main') ?>
 
     </main>
 
     <?php snippet('footer') ?>
 
     </div>
-

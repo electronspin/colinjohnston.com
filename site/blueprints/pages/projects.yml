@@ -1,0 +1,32 @@
+title: Projects
+icon: 💾
+
+label: Projects
+icon: preview
+
+columns:
+
+  - width: 1/2
+    sections:
+      drafts:
+        extends: sections/projects
+        headline: Drafts
+        status: draft
+
+  - width: 1/2
+    sections:
+      unlisted:
+        extends: sections/projects
+        headline: In Review
+        status: unlisted
+
+  - width: 1/1
+    sections:
+      listed:
+        extends: sections/projects
+        headline: Published
+        status: listed
+        layout: cards
+
+
+                

@@ -2,10 +2,22 @@ title: Site
 
 tabs:
 
-  dashboard:
+  projects:
+
+      label: Projects Dashboard 
+      icon: preview
+
+      columns:
+            - width: 1/2
+              sections:
+                projects: sections/projects
+            - width: 1/2
+              sections:
+
+  content:
 
       label: Content Dashboard
-      icon: dashboard
+      icon: document
 
       columns:
             - width: 1/2

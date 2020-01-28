@@ -11,6 +11,16 @@
 
     <?= $page->text()->kirbytext() ?>
 
+    <?php foreach($page->children()->listed() as $project): ?>
+
+        <article>
+            <h2><?= $project->title()->html() ?></h2>
+            <p><?= $project->text()->excerpt(300) ?></p>
+            <a href="<?= $project->url() ?>">Read more…</a>
+        </article>
+
+    <?php endforeach ?>
+
     <?php snippet('menu-main') ?>
 
     </main>
