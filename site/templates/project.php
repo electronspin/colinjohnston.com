@@ -7,19 +7,27 @@
 
     <main id="content" class="o-content o-layout__grid-item">
 
+    <header>
+    <?php if ($cover = $page->images()->findBy('template', 'cover')): ?>    
+      <figure class="project-cover">
+        <?= $cover ?>
+        <figcaption>
+          <div>
+            <h1><?= $page->headline()->or($page->title()) ?></h1>
+            <?php if($page->intro()->isNotEmpty()): ?>
+            <div class="text">
+              <?= $page->intro()->kt() ?>
+            </div>
+            <?php endif ?>
+          </div>
+        </figcaption>
+      </figure>
+      <?php endif ?>
+    </header>
+
     <h1><?= $page->title() ?></h1>
 
     <?= $page->text()->kirbytext() ?>
-
-    <?php foreach($page->children()->listed()->flip() as $project): ?>
-
-        <article>
-            <h2><?= $project->title()->html() ?></h2>
-            <p><?= $project->text()->excerpt(300) ?></p>
-            <a href="<?= $project->url() ?>">Read more…</a>
-        </article>
-
-    <?php endforeach ?>
 
     <?php snippet('menu-main') ?>
 

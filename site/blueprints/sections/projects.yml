@@ -1,9 +1,8 @@
 type: pages
 headline: Projects
-icon: 💾
 layout: default
-parent: site.find("projects")
-info: "{{ page.date.toDate('d.m.Y') }}"
+parent: kirby.page("projects")
+info: "{{ page.date.toDate('m.d.Y') }}"
 template: project
 empty: No projects yet
 sortBy: date desc
