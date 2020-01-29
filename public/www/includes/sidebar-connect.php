@@ -1,7 +1,7 @@
 <div class="o-sidebar o-layout__grid-item">
 
     <div class="c-branding">
-        <a class="c-branding__logo animate" href="/"><img class="c-logo" src="/images/colinjohnston-logo-DIN.png"
+        <a class="c-branding__logo animate" href="/"><img class="c-logo" src="/www/images/colinjohnston-logo-DIN.png"
                 alt="Colin Johnston"></a>
         <a href="#" class="open-panel"><span class="svg-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">

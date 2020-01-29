@@ -1,8 +1,8 @@
 <? $page = 'rollbar-marketing-website' ?>
-<?php include($_SERVER['DOCUMENT_ROOT'].'/config.php') ?>
-<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/www/config.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/www/includes/head_old.php') ?>
 <title>
-    <?php echo $rbws ?> - Recent Projects : <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?></title>
+    <?php echo $rbws ?> - Recent Projects : <?php include($_SERVER['DOCUMENT_ROOT'].'/www/includes/title.php') ?></title>
 </head>
 
 <body>
@@ -10,17 +10,17 @@
     </div>
     <div class="o-wrapper o-wrapper-grid o-wrapper--no-header">
 
-        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar.php') ?>
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/www/includes/sidebar.php') ?>
         <div id="content" class="o-content o-layout__grid-item c-project">
-            <!-- <div id="loader"><img class="loading" src="/images/ajax-loader.gif"></div> -->
+            <!-- <div id="loader"><img class="loading" src="/www/images/ajax-loader.gif"></div> -->
 
             <div class="c-imagebox animate">
                 <a href="#" data-reveal-id="rollbar-marketing-website-cover">
-                    <img srcset="/images/rollbar-marketing-website-cover_small.jpg 400w,
-                        /images/rollbar-marketing-website-cover_medium.jpg 800w,
-                        /images/rollbar-marketing-website-cover_large.jpg 1200w,
-                        /images/rollbar-marketing-website-cover_xlarge.jpg 1600w"
-                        sizes="(min-width: 48em) 66.6vw, 100vw" src="/images/rollbar-marketing-website-cover_medium.jpg"
+                    <img srcset="/www/images/rollbar-marketing-website-cover_small.jpg 400w,
+                        /www/images/rollbar-marketing-website-cover_medium.jpg 800w,
+                        /www/images/rollbar-marketing-website-cover_large.jpg 1200w,
+                        /www/images/rollbar-marketing-website-cover_xlarge.jpg 1600w"
+                        sizes="(min-width: 48em) 66.6vw, 100vw" src="/www/images/rollbar-marketing-website-cover_medium.jpg"
                         alt="<?php echo $rbws ?>">
                 </a>
             </div>
@@ -31,7 +31,7 @@
                 <!--end two column content area-->
 
 
-                <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.php') ?>
+                <?php include($_SERVER['DOCUMENT_ROOT'].'/www/includes/foot.php') ?>
 
                 
         </div>

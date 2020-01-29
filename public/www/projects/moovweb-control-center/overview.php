@@ -83,10 +83,10 @@
                     <div class="c-imagebox">
                         <img  
                             data-sizes="(min-width: 48em) 66.6vw, 100vw"
-                            data-src="/images/cc-v4-r2-projects-list-mockup_small.png"
-                            data-srcset="/images/cc-v4-r2-projects-list-mockup_small.png 400w,
-                          /images/cc-v4-r2-projects-list-mockup_medium.png 800w,
-                          /images/cc-v4-r2-projects-list-mockup_large.png 1200w"
+                            data-src="/www/images/cc-v4-r2-projects-list-mockup_small.png"
+                            data-srcset="/www/images/cc-v4-r2-projects-list-mockup_small.png 400w,
+                          /www/images/cc-v4-r2-projects-list-mockup_medium.png 800w,
+                          /www/images/cc-v4-r2-projects-list-mockup_large.png 1200w"
                             class="lazyload"
                             alt="Control Center v4 Project Page Mockup - Early Stages">
                     </div>
@@ -95,10 +95,10 @@
                     <div class="c-imagebox">
                         <img 
                             data-sizes="(min-width: 48em) 66.6vw, 100vw"
-                            data-src="/images/cc-v4-r5-projects-list-mockup_small.png"
-                            data-srcset="/images/cc-v4-r5-projects-list-mockup_small.png 400w,
-                          /images/cc-v4-r5-projects-list-mockup_medium.png 800w,
-                          /images/cc-v4-r5-projects-list-mockup_large.png 1200w"
+                            data-src="/www/images/cc-v4-r5-projects-list-mockup_small.png"
+                            data-srcset="/www/images/cc-v4-r5-projects-list-mockup_small.png 400w,
+                          /www/images/cc-v4-r5-projects-list-mockup_medium.png 800w,
+                          /www/images/cc-v4-r5-projects-list-mockup_large.png 1200w"
                             class="lazyload" 
                             alt="Moovweb Control Center v4 Project Page Mockup">
                     </div>
@@ -111,10 +111,10 @@
                     <div class="c-imagebox">
                         <img 
                             data-sizes="(min-width: 48em) 66.6vw, 100vw"
-                            data-src="/images/cc-v4-project-page_small.png"
-                            data-srcset="/images/cc-v4-project-page_small.png 400w,
-                          /images/cc-v4-project-page_medium.png 800w,
-                          /images/cc-v4-project-page_large.png 1200w" 
+                            data-src="/www/images/cc-v4-project-page_small.png"
+                            data-srcset="/www/images/cc-v4-project-page_small.png 400w,
+                          /www/images/cc-v4-project-page_medium.png 800w,
+                          /www/images/cc-v4-project-page_large.png 1200w" 
                             class="lazyload"
                             alt="Moovweb Control Center v4 Project Page">
                     </div>
@@ -130,10 +130,10 @@
                             <div class="c-imagebox">
                                 <img 
                                     data-sizes="(min-width: 48em) 66.6vw, 100vw"
-                                    data-src="/images/cc-v5-r1-wireframe-modes-p4_small.png"
-                                    data-srcset="/images/cc-v5-r1-wireframe-modes-p4_small.png 400w,
-                          /images/cc-v5-r1-wireframe-modes-p4_medium.png 800w,
-                          /images/cc-v5-r1-wireframe-modes-p4_large.png 1200w"
+                                    data-src="/www/images/cc-v5-r1-wireframe-modes-p4_small.png"
+                                    data-srcset="/www/images/cc-v5-r1-wireframe-modes-p4_small.png 400w,
+                          /www/images/cc-v5-r1-wireframe-modes-p4_medium.png 800w,
+                          /www/images/cc-v5-r1-wireframe-modes-p4_large.png 1200w"
                                     class="lazyload" 
                                     alt="Moovweb Control Center v5 Wireframes Modes Routing 1">
                             </div>
@@ -146,10 +146,10 @@
                             <div class="c-imagebox">
                                 <img 
                                     data-sizes="(min-width: 48em) 66.6vw, 100vw"
-                                    data-src="/images/cc-v5-r1-wireframe-modes-p5_small.png"
-                                    data-srcset="/images/cc-v5-r1-wireframe-modes-p5_small.png 400w,
-                          /images/cc-v5-r1-wireframe-modes-p5_medium.png 800w,
-                          /images/cc-v5-r1-wireframe-modes-p5_large.png 1200w"
+                                    data-src="/www/images/cc-v5-r1-wireframe-modes-p5_small.png"
+                                    data-srcset="/www/images/cc-v5-r1-wireframe-modes-p5_small.png 400w,
+                          /www/images/cc-v5-r1-wireframe-modes-p5_medium.png 800w,
+                          /www/images/cc-v5-r1-wireframe-modes-p5_large.png 1200w"
                                     class="lazyload" 
                                     alt="Moovweb Control Center v5 Wireframes Modes Routing 2">
                             </div>
@@ -164,10 +164,10 @@
                     <div class="c-imagebox">
                         <img 
                         data-sizes="(min-width: 48em) 66.6vw, 100vw"
-                        data-src="/images/cc-v5-modes-add-rule_small.png"
-                        data-srcset="/images/cc-v5-modes-add-rule_small.png 400w,
-                          /images/cc-v5-modes-add-rule_medium.png 800w,
-                          /images/cc-v5-modes-add-rule_large.png 1200w" 
+                        data-src="/www/images/cc-v5-modes-add-rule_small.png"
+                        data-srcset="/www/images/cc-v5-modes-add-rule_small.png 400w,
+                          /www/images/cc-v5-modes-add-rule_medium.png 800w,
+                          /www/images/cc-v5-modes-add-rule_large.png 1200w" 
                             class="lazyload" 
                             alt="Moovweb Control Center v5 Modes Routing Screen">
                     </div>

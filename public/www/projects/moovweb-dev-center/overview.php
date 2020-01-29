@@ -55,9 +55,9 @@
                         <h4>Information Architecture</h4>
                         <div class="c-imagebox">
                             <img data-sizes="(min-width: 48em) 66.6vw, 100vw"
-                                data-src="/images/dev-center-ai-overview_small.png" data-srcset="/images/dev-center-ai-overview_small.png 400w,
-                          /images/dev-center-ai-overview_medium.png 800w,
-                          /images/dev-center-ai-overview_large.png 1200w" class="lazyload"
+                                data-src="/www/images/dev-center-ai-overview_small.png" data-srcset="/www/images/dev-center-ai-overview_small.png 400w,
+                          /www/images/dev-center-ai-overview_medium.png 800w,
+                          /www/images/dev-center-ai-overview_large.png 1200w" class="lazyload"
                                 alt="Developer Center Information Architecture Overview">
                         </div>
                         <p class="c-imagebox__caption"><a href="#" data-reveal-id="dev-center-ai-overview">View Full Size</a>
@@ -69,9 +69,9 @@
                                 <!-- half-width -->
                                 <div class="c-imagebox">
                                     <img data-sizes="(min-width: 48em) 66.6vw, 100vw"
-                                        data-src="/images/dc-v4-onboarding-userflow_small.png" data-srcset="/images/dc-v4-onboarding-userflow_small.png 400w,
-                          /images/dc-v4-onboarding-userflow_medium.png 800w,
-                          /images/dc-v4-onboarding-userflow_large.png 1200w" class="lazyload"
+                                        data-src="/www/images/dc-v4-onboarding-userflow_small.png" data-srcset="/www/images/dc-v4-onboarding-userflow_small.png 400w,
+                          /www/images/dc-v4-onboarding-userflow_medium.png 800w,
+                          /www/images/dc-v4-onboarding-userflow_large.png 1200w" class="lazyload"
                                         alt="Developer Center New User Onboarding Flow">
                                 </div>
                                 <p class="c-imagebox__caption"><a href="#" data-reveal-id="dc-v4-onboarding-userflow">View Full
@@ -85,9 +85,9 @@
                         <!-- half-width -->
                         <div class="c-imagebox">
                             <img data-sizes="(min-width: 48em) 66.6vw, 100vw"
-                                data-src="/images/dc-v1-docs-landing-developer-mockup_small.png" data-srcset="/images/dc-v1-docs-landing-developer-mockup_small.png 400w,
-                          /images/dc-v1-docs-landing-developer-mockup_medium.png 800w,
-                          /images/dc-v1-docs-landing-developer-mockup_large.png 1200w" class="lazyload"
+                                data-src="/www/images/dc-v1-docs-landing-developer-mockup_small.png" data-srcset="/www/images/dc-v1-docs-landing-developer-mockup_small.png 400w,
+                          /www/images/dc-v1-docs-landing-developer-mockup_medium.png 800w,
+                          /www/images/dc-v1-docs-landing-developer-mockup_large.png 1200w" class="lazyload"
                                 alt="Developer Center Early Mockups - 'Developer' Edition">
                         </div>
                         <p class="c-imagebox__caption">Early Mockups of Developer Center Documentation landing page -
@@ -97,9 +97,9 @@
                         <!-- half-width -->
                         <div class="c-imagebox">
                             <img data-sizes="(min-width: 48em) 66.6vw, 100vw"
-                                data-src="/images/dc-v1-docs-landing-enterprise-mockup_small.png" data-srcset="/images/dc-v1-docs-landing-enterprise-mockup_small.png 400w,
-                          /images/dc-v1-docs-landing-enterprise-mockup_medium.png 800w,
-                          /images/dc-v1-docs-landing-enterprise-mockup_large.png 1200w" class="lazyload"
+                                data-src="/www/images/dc-v1-docs-landing-enterprise-mockup_small.png" data-srcset="/www/images/dc-v1-docs-landing-enterprise-mockup_small.png 400w,
+                          /www/images/dc-v1-docs-landing-enterprise-mockup_medium.png 800w,
+                          /www/images/dc-v1-docs-landing-enterprise-mockup_large.png 1200w" class="lazyload"
                                 alt="Developer Center Early Mockups - 'Enterprise' Edition">
                         </div>
                         <p class="c-imagebox__caption">Early Mockups of Developer Center Documentation landing page -

@@ -153,27 +153,27 @@
                     <!-- saffo-website-sketches-1 -->
                     <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-website-sketches-1">
-                            <img class="lazyload" data-srcset="/images/saffo-website-sketches-1_small.jpg 400w,
-                        /images/saffo-website-sketches-1_medium.jpg 800w,
-                        /images/saffo-website-sketches-1_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-website-sketches-1_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
+                            <img class="lazyload" data-srcset="/www/images/saffo-website-sketches-1_small.jpg 400w,
+                        /www/images/saffo-website-sketches-1_medium.jpg 800w,
+                        /www/images/saffo-website-sketches-1_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/www/images/saffo-website-sketches-1_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
                         </a>
                     </div>
                     <p class="c-imagebox__caption"><strong>Early sketches of mobile layouts</strong> - I didn't use most of these ideas, but by thinking them through on paper I was able to make better design choices in the next rounds.<span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-1">View Larger Image</a></span></p>
                     <!-- saffo-website-sketches-2 -->
                     <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-website-sketches-2">
-                            <img class="lazyload" data-srcset="/images/saffo-website-sketches-2_small.jpg 400w,
-                        /images/saffo-website-sketches-2_medium.jpg 800w,
-                        /images/saffo-website-sketches-2_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-website-sketches-2_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
+                            <img class="lazyload" data-srcset="/www/images/saffo-website-sketches-2_small.jpg 400w,
+                        /www/images/saffo-website-sketches-2_medium.jpg 800w,
+                        /www/images/saffo-website-sketches-2_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/www/images/saffo-website-sketches-2_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
                         </a>
                     </div>
                     <p class="c-imagebox__caption"><strong>Desktop landing page sketches</strong> - Evolution towards the final desktop layout. Through these sketches I also revealed the idea for the final mobile layouts. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-2">View Larger Image</a></span></p>
                     <!-- saffo-website-sketches-3 -->
                     <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-website-sketches-3">
-                            <img class="lazyload" data-srcset="/images/saffo-website-sketches-3_small.jpg 400w,
-                        /images/saffo-website-sketches-3_medium.jpg 800w,
-                        /images/saffo-website-sketches-3_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-website-sketches-3_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
+                            <img class="lazyload" data-srcset="/www/images/saffo-website-sketches-3_small.jpg 400w,
+                        /www/images/saffo-website-sketches-3_medium.jpg 800w,
+                        /www/images/saffo-website-sketches-3_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/www/images/saffo-website-sketches-3_medium.jpg" alt="Paul Saffo Identity - Final Icon Designs">
                         </a>
                     </div>
                     <p class="c-imagebox__caption"><strong>Later sketches of mobile layouts</strong> - Tightening up the layouts, with notes on things to leave out in the mockups. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-website-sketches-3">View Larger Image</a></span></p>
@@ -184,9 +184,9 @@
                     <!-- saffo-styleboards -->
                     <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-styleboards">
-                            <img class="lazyload" data-srcset="/images/saffo-styleboards_small.jpg 400w,
-                        /images/saffo-styleboards_medium.jpg 800w,
-                        /images/saffo-styleboards_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-styleboards_medium.jpg" alt="">
+                            <img class="lazyload" data-srcset="/www/images/saffo-styleboards_small.jpg 400w,
+                        /www/images/saffo-styleboards_medium.jpg 800w,
+                        /www/images/saffo-styleboards_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/www/images/saffo-styleboards_medium.jpg" alt="">
                         </a>
                     </div>
                     <p class="c-imagebox__caption"><strong>Style Board</strong> - TBD <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-styleboards">View Larger Image</a></span></p>
@@ -200,18 +200,18 @@
                     <!-- saffo-design-sketch-1 -->
                     <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-design-sketch-1">
-                            <img class="lazyload" data-srcset="/images/saffo-design-sketch-1_small.jpg 400w,
-                        /images/saffo-design-sketch-1_medium.jpg 800w,
-                        /images/saffo-design-sketch-1_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-design-sketch-1_medium.jpg" alt="Paul Saffo Website - Design in Sketch 1">
+                            <img class="lazyload" data-srcset="/www/images/saffo-design-sketch-1_small.jpg 400w,
+                        /www/images/saffo-design-sketch-1_medium.jpg 800w,
+                        /www/images/saffo-design-sketch-1_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/www/images/saffo-design-sketch-1_medium.jpg" alt="Paul Saffo Website - Design in Sketch 1">
                         </a>
                     </div>
                     <p class="c-imagebox__caption"><strong>Mockups</strong> - Designing the desktop and mobile views side-by-side in Sketch. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-design-sketch-2">View Larger Image</a></span></p>
                     <!-- saffo-design-sketch-2 -->
                     <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-design-sketch-2">
-                            <img class="lazyload" data-srcset="/images/saffo-design-sketch-2_small.jpg 400w,
-                        /images/saffo-design-sketch-2_medium.jpg 800w,
-                        /images/saffo-design-sketch-2_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-design-sketch-2_medium.jpg" alt="">
+                            <img class="lazyload" data-srcset="/www/images/saffo-design-sketch-2_small.jpg 400w,
+                        /www/images/saffo-design-sketch-2_medium.jpg 800w,
+                        /www/images/saffo-design-sketch-2_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/www/images/saffo-design-sketch-2_medium.jpg" alt="">
                         </a>
                     </div>
                     <p class="c-imagebox__caption"><strong>Mockups</strong> - Detail of mobile navigation in Sketch. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-design-sketch-2">View Larger Image</a></span></p>
@@ -224,9 +224,9 @@
                     <!-- saffo-art-direction -->
                     <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-art-direction">
-                            <img class="lazyload" data-srcset="/images/saffo-art-direction_small.jpg 400w,
-                        /images/saffo-art-direction_medium.jpg 800w,
-                        /images/saffo-art-direction_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-art-direction_medium.jpg" alt="">
+                            <img class="lazyload" data-srcset="/www/images/saffo-art-direction_small.jpg 400w,
+                        /www/images/saffo-art-direction_medium.jpg 800w,
+                        /www/images/saffo-art-direction_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/www/images/saffo-art-direction_medium.jpg" alt="">
                         </a>
                     </div>
                     <p class="c-imagebox__caption"><strong>Final Designs</strong> - Photo art direction for page header images. <span class="hide-for-small">/ <a href="#" data-reveal-id="saffo-art-direction">View Larger Image</a></span></p>
@@ -241,9 +241,9 @@
                     <!-- saffo-styles-typography -->
                     <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-styles-typography">
-                            <img class="lazyload" data-srcset="/images/saffo-styles-typography_small.jpg 400w,
-                        /images/saffo-styles-typography_medium.jpg 800w,
-                        /images/saffo-styles-typography_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-styles-typography_medium.jpg" alt="">
+                            <img class="lazyload" data-srcset="/www/images/saffo-styles-typography_small.jpg 400w,
+                        /www/images/saffo-styles-typography_medium.jpg 800w,
+                        /www/images/saffo-styles-typography_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/www/images/saffo-styles-typography_medium.jpg" alt="">
                         </a>
                     </div>
                     <p class="c-imagebox__caption"><strong>Front End</strong> - I created a Sass mixin that work with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue.</p>
@@ -253,9 +253,9 @@
                     <!-- saffo-menu-ixd-demo -->
                     <div class="c-imagebox">
                         <a href="#" data-reveal-id="saffo-menu-ixd-demo">
-                            <img class="lazyload" data-srcset="/images/saffo-menu-ixd-demo_small.jpg 400w,
-                        /images/saffo-menu-ixd-demo_medium.jpg 800w,
-                        /images/saffo-menu-ixd-demo_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/images/saffo-menu-ixd-demo_medium.jpg" alt="Paul Saffo Website - Design in Sketch 2">
+                            <img class="lazyload" data-srcset="/www/images/saffo-menu-ixd-demo_small.jpg 400w,
+                        /www/images/saffo-menu-ixd-demo_medium.jpg 800w,
+                        /www/images/saffo-menu-ixd-demo_large.jpg 1200w" data-sizes="(min-width: 48em) 66.6vw, 100vw" data-src="/www/images/saffo-menu-ixd-demo_medium.jpg" alt="Paul Saffo Website - Design in Sketch 2">
                         </a>
                     </div>
                     <p class="c-imagebox__caption"><strong>Interaction Design</strong> - Detail of mobile menu animation created with pure CSS. I added 'show' and 'hide ' text to the increase usability.</p>

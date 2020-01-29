@@ -1,14 +1,14 @@
-<?php include($_SERVER['DOCUMENT_ROOT'].'/config.php') ?>
-<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/www/config.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/www/includes/head_old.php') ?>
 <title>
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/title.php') ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/www/includes/title.php') ?>
 </title>
 </head>
 <body>
     <div id="pagetop">
     </div>
     <div class="o-wrapper o-wrapper-grid o-wrapper--no-header">
-        <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/sidebar-home.php') ?>
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/www/includes/sidebar-home.php') ?>
         <div id="content" class="o-content o-layout__grid-item">
             <ul class="c-gallery c-gallery--two-up">
                 <li class="c-gallery__item">

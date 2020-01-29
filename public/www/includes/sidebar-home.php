@@ -1,7 +1,7 @@
 <div class="o-sidebar o-layout__grid-item">
 
     <div class="c-branding">
-        <a class="c-branding__logo animate" href="/"><img class="c-logo" src="/images/colinjohnston-logo-DIN.png"
+        <a class="c-branding__logo animate" href="/"><img class="c-logo" src="/www/images/colinjohnston-logo-DIN.png"
                 alt="Colin Johnston"></a>
         <a href="#" class="open-panel"><span class="svg-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
@@ -20,7 +20,7 @@
                 </svg>
             </span></a>
         <ul class="c-side-nav">
-            <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/nav-projects.php') ?>
+            <?php include($_SERVER['DOCUMENT_ROOT'].'/www/includes/nav-projects.php') ?>
         </ul>
     </nav>
     <p class="contact-button hide-for-small"><a class="contact-email" href="/connect-and-collaborate">Contact</a></p>

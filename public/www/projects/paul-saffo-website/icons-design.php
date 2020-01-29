@@ -9,10 +9,10 @@
     <a href="#" data-reveal-id="saffo-identity-icons-sketch">
         <img 
             data-sizes"(min-width: 48em) 66.6vw, 100vw" 
-            data-src="/images/saffo-identity-icons-sketch_medium.jpg"
-            data-srcset="/images/saffo-identity-icons-sketch_small.jpg 400w,
-                        /images/saffo-identity-icons-sketch_medium.jpg 800w,
-                        /images/saffo-identity-icons-sketch_large.jpg 1200w" 
+            data-src="/www/images/saffo-identity-icons-sketch_medium.jpg"
+            data-srcset="/www/images/saffo-identity-icons-sketch_small.jpg 400w,
+                        /www/images/saffo-identity-icons-sketch_medium.jpg 800w,
+                        /www/images/saffo-identity-icons-sketch_large.jpg 1200w" 
             class="lazyload"
             alt="Paul Saffo Identity - Icon Sketches">
     </a>
@@ -27,10 +27,10 @@
     <a href="#" data-reveal-id="saffo-identity-icons-wip">
         <img 
             data-sizes"(min-width: 48em) 66.6vw, 100vw"
-            data-src="/images/saffo-identity-icons-wip_medium.jpg"
-            data-srcset="/images/saffo-identity-icons-wip_small.jpg 400w,
-                        /images/saffo-identity-icons-wip_medium.jpg 800w,
-                        /images/saffo-identity-icons-wip_large.jpg 1200w" 
+            data-src="/www/images/saffo-identity-icons-wip_medium.jpg"
+            data-srcset="/www/images/saffo-identity-icons-wip_small.jpg 400w,
+                        /www/images/saffo-identity-icons-wip_medium.jpg 800w,
+                        /www/images/saffo-identity-icons-wip_large.jpg 1200w" 
             class="lazyload" 
             alt="Paul Saffo Identity - Icon Designs">
     </a>
@@ -42,10 +42,10 @@
     <a href="#" data-reveal-id="saffo-identity-icons-final">
         <img 
             data-sizes"(min-width: 48em) 66.6vw, 100vw"
-            data-src="/images/saffo-identity-icons-final_medium.jpg"
-            data-srcset="/images/saffo-identity-icons-final_small.jpg 400w,
-                        /images/saffo-identity-icons-final_medium.jpg 800w,
-                        /images/saffo-identity-icons-final_large.jpg 1200w" 
+            data-src="/www/images/saffo-identity-icons-final_medium.jpg"
+            data-srcset="/www/images/saffo-identity-icons-final_small.jpg 400w,
+                        /www/images/saffo-identity-icons-final_medium.jpg 800w,
+                        /www/images/saffo-identity-icons-final_large.jpg 1200w" 
             class="lazyload" 
             alt="Paul Saffo Identity - Final Icon Designs">
     </a>
