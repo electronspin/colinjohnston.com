@@ -5,12 +5,15 @@
 
     <?php snippet('sidebar') ?>
 
-    <main id="content" class="o-content o-layout__grid-item">
+    <main id="content" class="o-content o-layout__grid-item c-project">
 
     <header>
-    <?php if ($cover = $page->images()->findBy('template', 'cover')): ?>    
-      <figure class="project-cover">
-        <?= $cover ?>
+    <?php if ($image = $page->images()->findBy('template', 'cover')): ?> 
+      <figure class="c-imagebox animate">
+      <!-- TODO: set data in $page and retrieve for data-reveal-id -->
+      <a href="#" <?= Html::attr('data-reveal-id', [$image->filename()]) ?> >
+      <img src="<?= $image->url() ?>" srcset="<?= $image->srcset([800, 1024, 2048]) ?>" />
+      </a>
         <figcaption>
           <div>
             <h1><?= $page->headline()->or($page->title()) ?></h1>
