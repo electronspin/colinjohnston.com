@@ -107,6 +107,7 @@ $(document).ready(function () {
       var element_bottom_position = (element_top_position + element_height);
       if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
         element.addClass('inview');
+        element.addClass('animated');
       } else {
         element.removeClass('inview');
       }
@@ -120,4 +121,4 @@ $(document).ready(function () {
 
 // refresh window on resize
 
-$(window).on('resize',function(){location.reload();});
+// $(window).on('resize',function(){location.reload();});
