@@ -59,6 +59,7 @@
  * Footer.............
  * Sidenav............
  * Imagebox...........Standard project asset wrapper.
+ * Imagegrid..........Flexbox grid for 2-up image thumbnails.
  * Project Sidebar....
  * Page-Project.......
  * Page...............
@@ -531,7 +532,7 @@ template {
  * A very simple reset that sits on top of Normalize.css.
  */
 body,
-h1, h2, h3, h4, .c-link-pagination, h5, h6,
+h1, h2, h3, h4, h5, h6,
 blockquote, p, pre,
 dl, dd, ol, ul,
 figure,
@@ -573,7 +574,7 @@ fieldset {
  * Always declare margins in the same direction:
  * csswizardry.com/2012/06/single-direction-margin-declarations
  */
-h1, h2, h3, h4, .c-link-pagination, h5, h6,
+h1, h2, h3, h4, h5, h6,
 ul, ol, dl,
 blockquote, p, address,
 hr,
@@ -582,7 +583,7 @@ fieldset, figure,
 pre {
   margin-bottom: 24px; }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    h1, h2, h3, h4, .c-link-pagination, h5, h6,
+    h1, h2, h3, h4, h5, h6,
     ul, ol, dl,
     blockquote, p, address,
     hr,
@@ -590,6 +591,12 @@ pre {
     fieldset, figure,
     pre {
       margin-bottom: 21px; } }
+
+h5 + p {
+  margin-top: -24px; }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    h5 + p {
+      margin-top: -21px; } }
 
 ul, ol,
 dd {
@@ -609,11 +616,12 @@ html {
   font-size: 1em;
   line-height: 1.5;
   font-family: Inter, sans-serif;
-  background-color: #fefefe;
   color: #777; }
 
-body.noscroll {
-  overflow: hidden; }
+body {
+  background-color: #fdfdfd; }
+  body.noscroll {
+    overflow: hidden; }
 
 html, body {
   overflow-x: hidden; }
@@ -641,7 +649,7 @@ h3 {
   font-size: 1.5rem;
   line-height: 1; }
 
-h4, .c-link-pagination {
+h4 {
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.2; }
@@ -918,6 +926,15 @@ img[height] {
 /**
  * Prev/Next
  */
+.c-link-pagination {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  color: #222;
+  font-weight: 600;
+  letter-spacing: -0.017em;
+  margin-top: 3em; }
+
 .c-link-pagination--next a:focus,
 .c-link-pagination--prev a:focus {
   color: #4d8bdc; }
@@ -1474,6 +1491,39 @@ div#content .c-imagebox.animate {
     opacity: 1; }
 
 /*----------------------------------*
+  #IMAGEGRID
+ *----------------------------------*/
+/**
+* Flexbox grid for 2-up image thumbnails.
+*/
+.c-imagegrid {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  margin-bottom: 12px; }
+
+.c-imagegrid:after {
+  display: block;
+  content: "";
+  -ms-flex: 999 999 47.5%;
+      flex: 999 999 47.5%; }
+
+.c-imagegrid--item {
+  width: 47.5%;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto; }
+
+/*----------------------------------*
   #PROJECT-SIDEBAR
  *----------------------------------*/
 /**
@@ -1557,17 +1607,31 @@ div#content .c-imagebox.animate {
   font-weight: 400;
   letter-spacing: -0.019em; }
 
-.c-project h4, .c-project .c-link-pagination {
+.c-project h4 {
   color: #222;
   font-weight: 600;
-  letter-spacing: -0.017em; }
+  letter-spacing: -0.017em;
+  border-bottom: 3px solid silver;
+  display: inline-block;
+  padding-bottom: .175em;
+  margin-bottom: 1.325em; }
 
 .c-project h5 {
+  color: #222;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.5;
-  text-transform: uppercase;
+  line-height: 32px;
+  font-weight: 700;
   letter-spacing: -0.014em; }
+
+.c-project h6 {
+  color: #222;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: -0.014em;
+  text-decoration: underline; }
 
 .c-project__body {
   max-width: 600px; }
@@ -1588,7 +1652,7 @@ div#content .c-imagebox.animate {
   .c-project__intro.animate.inview {
     opacity: 1; }
 
-.c-project .c-imagebox:first-child {
+.c-project .c-imagebox--hero {
   margin-bottom: 48px; }
 
 .c-project .c-imagebox {
@@ -1597,6 +1661,12 @@ div#content .c-imagebox.animate {
 @media only screen and (max-width: 480px) {
   .c-project .c-imagebox__caption {
     line-height: initial; } }
+
+.c-project h4 {
+  margin-top: 2em; }
+
+.c-project h4:first-child {
+  margin-top: 0; }
 
 .c-project .o-tabs {
   border-bottom: none;
@@ -1662,7 +1732,7 @@ div#content .c-imagebox.animate {
 
 @media only screen and (max-width: 767px) {
   .c-project .o-tabs {
-    background-color: #fefefe;
+    background-color: #fdfdfd;
     margin: 0 auto 2em;
     border: none; }
   .c-project .o-tabs .o-tabs__tab-title {
@@ -1705,7 +1775,7 @@ div#content .c-imagebox.animate {
   font-weight: 400;
   letter-spacing: -0.019em; }
 
-.c-page h4, .c-page .c-link-pagination {
+.c-page h4 {
   color: #222;
   font-weight: 600;
   letter-spacing: -0.017em; }
@@ -1714,7 +1784,6 @@ div#content .c-imagebox.animate {
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
-  text-transform: uppercase;
   letter-spacing: -0.014em; }
 
 .c-page__body {
@@ -1741,3 +1810,70 @@ div#content .c-imagebox.animate {
 
 .c-page .c-imagebox {
   margin-bottom: 24px; }
+
+/*----------------------------------*
+  #OVERRIDES - TEMP
+ *----------------------------------*/
+.c-project .overview-content ol,
+.c-project .overview-content ul {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-top: 0.5em; }
+
+.c-project .overview-content ul {
+  list-style-type: disc; }
+
+.c-project .overview-content li {
+  margin-top: 0.5em; }
+
+.c-project__title {
+  margin-top: 48px; }
+
+.c-imagebox__caption {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 1.84615;
+  margin-top: -12px;
+  margin-bottom: 24px; }
+  .c-imagebox__caption a {
+    text-decoration: underline dotted; }
+  .c-imagebox__caption a:hover {
+    text-decoration: none; }
+
+.c-panel--assert {
+  background: #f2fdec;
+  border: 1px solid #cdd9c7;
+  color: #8dae7c; }
+
+.c-panel--inform {
+  background: #ecf8fd;
+  border: 1px solid #d6dee8;
+  color: #7c9eae; }
+
+.c-panel__sharp {
+  border-radius: 0px; }
+
+.c-imagebox__caption--video {
+  margin-top: 12px; }
+
+.c-intro-callout {
+  margin-bottom: 24px; }
+  .c-intro-callout span {
+    display: inline;
+    padding: 2px 4px;
+    background-color: khaki;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1.6; }
+
+.c-link-pagination--prev::before {
+  content: "←";
+  margin-right: .25em; }
+
+.c-link-pagination--next::after {
+  content: "→";
+  margin-left: .25em; }
+
+.c-branding {
+  margin-bottom: 36px; }
