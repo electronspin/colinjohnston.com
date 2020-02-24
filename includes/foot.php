@@ -8,10 +8,10 @@
       echo '<p class="contact-button show-for-small"><a class="contact-email" href="/connect-and-collaborate">Contact</a></p>';
   } ?>
     <div class="c-footer">
-      <p class="c-footer__body">I built this website by hand with PHP, Sass, jQuery, and Gulp in
-        Visual Studio Code and iTerm 2. Typeface is <a href="https://rsms.me/inter/" title="Inter">Inter</a> by Rasmus
-        Andersson. Hosting by MediaTemple. An <a href="http://electronspin.com" title="Electron Spin">Electron Spin</a>
-        production. <br />&copy; 2012&ndash;<?php echo date("Y"); ?> Colin Johnston. Updated
+      <p class="c-footer__body">I built this website 'by hand' with PHP, Sass, jQuery, and Gulp in
+        Visual Studio Code and iTerm 2 on a MacBook Pro. Typeface is <a href="https://rsms.me/inter/" title="Inter">Inter</a> by Rasmus
+        Andersson. Hosting by MediaTemple, but not for long. 
+        &copy; 2012&ndash;<?php echo date("Y"); ?> Colin Johnston. Updated
         <?php echo date ('F d Y', filemtime($dir));  ?>
       </p>
     </div>

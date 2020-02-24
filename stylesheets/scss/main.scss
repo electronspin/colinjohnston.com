@@ -59,6 +59,7 @@
  * Footer.............
  * Sidenav............
  * Imagebox...........Standard project asset wrapper.
+ * Imagegrid..........Flexbox grid for 2-up image thumbnails.
  * Project Sidebar....
  * Page-Project.......
  * Page...............
@@ -140,6 +141,7 @@
 @import "components/footer";
 @import "components/side-nav";
 @import "components/imagebox";
+@import "components/imagegrid";
 @import "components/project-sidebar";
 @import "components/page-project";
 @import "components/page";
@@ -148,5 +150,9 @@
  // utilities
  
 //  @import "utilities/flexbox";
+
+// overrides-temp
+
+@import "overrides/temp";
 
 
