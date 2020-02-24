@@ -9,153 +9,478 @@
                     <?php echo $overview_tab ?>
                 </a>
             </li>
-            <!-- <li class="o-tabs__tab-title ">
+            <li class="o-tabs__tab-title ">
                 <a href="#process">
-                    <?php //echo $process_tab ?>
+                    <?php echo $process_tab ?>
                 </a>
-            </li> -->
+            </li>
         </ul>
         <ul class="o-tabs__tab-content">
             <li class="active"  id="overviewTab">
                 <div class="overview-content">
                     <!-- c-project-sidebar -->
                     <p>The Account Dashboard is a new view in the Rollbar web app specifically designed to give engineers and managers a complete picture of all active projects. </p>
-                    <h4>Challenge</h4>
+                    <h4><?php echo $overview_section_a; ?></h4>
                     <p>Many Rollbar users are developing products composed of numerous applications and services, but without a comprehensive overview of these separate Rollbar projects it's difficult to see the overall health of an application. </p>
-                    <p>Customer goals:</p>
+                    <p>Our goals for improving the Rollbar product:</p>
                     <ul>
                     <li>Provide greater leverage to engineering teams for mitigating expensive failures.</li>
                     <li>Shorten the time it takes to solve complex issues.</li>
                     <li>Increase engineering team efficiency.</li>
                     </ul>
-                    <h4>Solution</h4>
-                    <p>Starting with a simple prototype that aggregated project data onto a single view, we tested the interface with a small number of customers. One of the most interesting outcomes of these tests is that we discovered there were two distinct use cases: <em>reporting</em>, and <em>triage</em>. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve problems more efficiently. For the initial version of the view we decided to provide a basic tool that would solve both problems.</p>
+                    <h4><?php echo $overview_section_b; ?></h4>
+                    <p>Starting with a simple research-driven proof-of-concept that aggregated project data onto a single view, we tested the interface with a small number of customers. One of the most interesting outcomes of these early tests is that we discovered there were two distinct use cases: <em>reporting</em>, and <em>triage</em>. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve problems more efficiently. For the initial version of the view we decided to provide a basic tool that would solve both problems. We mapped out plans for a deeper dive into each use case for future versions.</p>
                     <ul>
                     <li>Provide a dedicated view showing all the projects in an account.</li>
                     <li>Present a clear visual representation of the health of selected projects.</li>
                     <li>Surface all filters available in the individual project view, making it easy to for teams to drill down into issues across languages, environments, and error levels.</li>
                     </ul>
-                    <h4>Results</h4>
+                    <h4><?php echo $overview_section_c; ?></h4>
                     <p>The first release of the Account Dashboard helped Rollbar customers achieve their previously unmet goals immediately. By providing insight into individual trends alongside potential correlated patterns, engineering teams could now quickly see how performance of various applications and services affects the health of their overall product. When a team can more efficiently triage and solve errors in complex systems they are more effective at maintaining high quality experience for their users.</p>
-                    <div class="c-panel"><p>&ldquo;The Account Dashboard makes it even easier than before to understand the overall health of the Instacart product as well as individual teams/systems that make up Instacart. It also makes it dead simple to know where our engineering time has the highest leverage regarding issues affecting our customers and shoppers.&rdquo;</p>
+                    <div class="c-panel c-panel--assert c-panel__sharp"><p>&ldquo;The Account Dashboard makes it even easier than before to understand the overall health of the Instacart product as well as individual teams/systems that make up Instacart. It also makes it dead simple to know where our engineering time has the highest leverage regarding issues affecting our customers and shoppers.&rdquo;</p>
                     <p>&mdash;Jason Kozemczak, Tech Lead at Instacart</p></div>
                     <h4>Demo</h4>
                     <p>You can view a limited demo of the Account Dashboard in the Rollbar Demo account <a href="https://rollbar.com/demo/?level=30%2C40%2C50&duration=24h&tz=US%2FPacific&sort=total&order=desc" title="Rollbar Demo" target="_blank" rel="noopener noreferrer">here</a>.</p>
                     <div class="c-link-pagination">
-                        <!-- <a class="c-link-pagination--next" href="#process">See Process &amp; Artifacts</a> -->
+                        <a class="c-link-pagination--next" href="#process">See Process &amp; Artifacts</a>
                     </div>
                 </div>
             </li>
             <li class=""  id="processTab">
                 <div class="overview-content">
-                    <h4>Some Background</h4>
-                    <p>At Solano Labs I helped move the product development process to SCRUM and two week sprints. My goal was to restructure the product development process to allow for more design thinking to happen earlier in the cycle.</p>
-                    <p>To accomplish this, I adapted the Design Sprint process to run my own sprints alongside engineering. This allowed for proper research and validation of hypotheses before diving into implementation; the output of a completed design sprint went directly into the engineering backlog, with the benefit of providing developers with a well-defined goal.</p>
-                    <p><strong><a href="#discover">Discover</a> &gt; <a href="#define">Define</a> &gt; <a href="#ideate">Ideate</a> &gt; <a href="#prototype">Prototype</a> &gt; <a href="#validate">Validate</a></strong></p>
-                    <h4 id="discover">Discover</h4>
-                    <p><em>Research, analysis, exploration; the bedrock of subsequent design activities.</em></p>
-                    <p>Through research and user testing sessions, I helped the team better understand how the interface was solving problems for customers, and how it was falling short. Digging deeper below issues of cluttered visual presentation and confusing interactions, I got to the root of a critical issue users were having: <em>they were not seeing a complete and accurate view into the state of their build</em>. </p>
 
-                    <h5>Use Cases</h5>
-                    <p>During my research I captured input from users about the specific UI issues they had. I made notations on printouts of the existing session view.</p>
-                    <!-- solanolabs-sessionview-research-notations -->
-                    <div class="c-imagebox">
-                        <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">
-                            <img srcset="/www/images/solanolabs-sessionview-research-notations_small.jpg 400w,
-                        /www/images/solanolabs-sessionview-research-notations_medium.jpg 800w,
-                        /www/images/solanolabs-sessionview-research-notations_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/www/images/solanolabs-sessionview-research-notations_medium.jpg" alt="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts" title="<?php echo $slcs; ?> - Research Notes on v1.5 Layouts">
-                        </a>
-                    </div>
-                    <p class="c-imagebox__caption">
-                        <?php echo $slcs; ?> - Research Notes on v1.5 Layouts <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-research-notations">View Larger Image</a></span></p>
-
-                    <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> User Research, Use Cases, Usability Testing, Interviews, Concept Maps. </p>
-                    <p><a class="link--to-top" href="#">TOP</a></p>
-                    <h4 id="define">Define</h4>
-                    <p><em>Clarity and focus; framing the problem to create a solution</em></p>
-                    <p>I facilitated development of an internal prototype (running with live data) to validate new reporting outputs. I used this information later in the project to construct an improved real-time status report model.</p>
-                    <h5>Personas</h5>
-                    <p>I had previously developed with the team a set of personas that profiled new and existing customers. These were hybrid marketing and design personas that gave us clear idea of our users goals and pain points. Reinforced by the deeper research done for this specific project, the picture that emerged helped me get buy-in on making broader changes to the product.</p>
-                    <!-- solanolabs-sessionview-personas -->
-                    <div class="c-imagebox">
-                        <a href="#" data-reveal-id="solanolabs-sessionview-personas">
-                            <img srcset="/www/images/solanolabs-sessionview-personas_small.jpg 400w,
-                        /www/images/solanolabs-sessionview-personas_medium.jpg 800w,
-                        /www/images/solanolabs-sessionview-personas_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/www/images/solanolabs-sessionview-personas_medium.jpg" alt="<?php echo $slcs; ?> - Personas" title="<?php echo $slcs; ?> - Personas">
-                        </a>
-                    </div>
-                    <p class="c-imagebox__caption">
-                        <?php echo $slcs; ?> - Personas <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-personas">View Larger Image</a></span></p>
-                    
-                    <h5>Sketches</h5>
-                    <p>One of the biggest challenges of this project was to figure out how to re-structure the presentation of session status. Most of these rough layouts were done with pencil and paper; many were done on whiteboards with the Product Manager, especially when design decisions might impact other views in the product. </p>
+                <!-- <ul>
+                    <li>Existing Situation</li>
+                    <li>Approach</li>
+                    <li>Ideas & Experiments</li>
+                    <li>Prototyping & User Testing</li>
+                    <li>Refining the Design</li>
+                    <li>What We Learned</li>
+                    <li>Solution</li>
+                    <li>Upshot</li>
+                </ul> -->
                 
-                    <!-- solanolabs-sessionview-sketches -->
+                    <h4>Existing Situation</h4>
+                    <p>Most Rollbar users are developing products composed of numerous applications and services, but without a comprehensive overview of these separate Rollbar projects it's difficult to see the overall health of an application. </p>
+                    <h5>Where was Rollbar product before this new feature?</h5>
+                    <p>Rollbar’s data model is built around the concept of a project, so any analysis of services composed of multiple projects is very cumbersome. Most users are opening up multiple Items views with custom filters and then tabbing between them. Some are opening up a few Items views and the Deploy view side-by-side.</p> 
+
+                    <!-- start -->
                     <div class="c-imagebox">
-                        <a href="#" data-reveal-id="solanolabs-sessionview-sketches">
-                            <img srcset="/www/images/solanolabs-sessionview-sketches_small.jpg 400w,
-                        /www/images/solanolabs-sessionview-sketches_medium.jpg 800w,
-                        /www/images/solanolabs-sessionview-sketches_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/www/images/solanolabs-sessionview-sketches_medium.jpg" alt="<?php echo $slcs; ?> - Sketches" title="<?php echo $slcs; ?> - Sketches">
+                        <a href="#" 
+                        data-reveal-id="ALD-items-view">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-items-view_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-items-view_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-items-view_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-items-view_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-items-view_medium.jpg" 
+                        alt="Items View, the primary UI for viewing comprehensive project activity" 
+                        title="Items View, the primary UI for viewing comprehensive project activity">
                         </a>
                     </div>
+
                     <p class="c-imagebox__caption">
-                        <?php echo $slcs; ?> - Sketches <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-sketches">View Larger Image</a></span></p>
+                        Items View, the primary UI for viewing comprehensive project activity<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-items-view">View Larger Image</a></span></p>
+
+                    <!-- end --> 
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-project-dashboard">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-project-dashboard_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-project-dashboard_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-project-dashboard_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-project-dashboard_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-project-dashboard_medium.jpg" 
+                        alt="Project Dashboard, the summary view for a project that most customers never use" 
+                        title="Project Dashboard, the summary view for a project that most customers never use">
+                        </a>
+                    </div>
+
+                    <p class="c-imagebox__caption">
+                        Project Dashboard, the summary view for a project that most customers never use<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-project-dashboard">View Larger Image</a></span></p>
                         
-                    <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Personas, Use Cases, User Flows, Sketches, Lo-fi Wireframes.</p>
-                    <p><a class="link--to-top" href="#">TOP</a></p>
-                    <h4 id="ideate">Ideate</h4>
-                    <p><em>Concepts for outcomes; combine understanding of the problem with imagination.</em></p>
-                    <h5>Wireframes</h5>
-                    <p>I iterated through a series of wireframes showing all possible configurations of a session view (there are twelve!). Previously, less common session types had inconsistent layouts; I refined the structure to present all sessions consistently.</p>
-                    <!-- solanolabs-sessionview-wireframe1 -->
+                    <!-- end --> 
+
+                    <h5>What were customers saying?</h5>
+                    <p>Nearly every customer using Rollbar heavily day-to-day was saying “Please create a cross-project dashboard!” But nearly every customer had a very different idea of what that meant—of course, everyone ideally wanted a solution to their own specific use case.</p>
+                    <h5>What was our hypothesis?</h5>
+                    <p>If we provide users the ability to compare even just a few key data points across their projects, we will make their lives so much easier.</p>
+
+
+                    <h4 id="approach">Approach</h4>
+                    <p><em>Research, analysis, exploration.</em></p>
+                    <h5>Piloting user-centered design in an engineering-driven environment.</h5>
+                    <p>Myself, the product manager, and the two founders all agreed we wanted to create a prototype of what had initially been dubbed the ‘Cross-project Dashboard’ and put it in front of a core group of customers. This was the first time Rollbar had started a project with design-driven research, and I was presenting this as an ideal project for us to pilot a new process. My goal was to show the team how we’d benefit from talking to users right at the start, and that building a simple prototype would provide us a way to test our ideas out in a much less expensive way than specifying a more complex product expansion up front and making adjustments once it was released widely to our customers.</p>
+                    <h5>Simple UX project plan</h5>
+                    <p>I think a key to a successful design project is how you plan it: too much planning and it becomes overloaded with process; too little planning it can quickly become chaotic and fall apart. The design team—myself and another product designer—mapped out a plan to get us from the first meeting where we got approval to proceed all the way through to flipping the switch in production to put the new dashboard in front of customers. I won’t get into all the details of the plan here—we simply talked about all the various tools, activities, and checkpoints we felt were essential and sketched out a rough schedule to share with product and engineering.</p>
+
+                
+                    <h5>Customer interviews &amp; contextual inquiries</h5>
+                    <p>At this stage we had formed an informal customer research team that consistent of me, another designer, and the lead product manager. We conducted numerous interviews with customers, specifically engineering team leads at larger organizations. When it was feasible, we also went to their offices and observed users at various stages of their daily workflow. </p>
+                    
+                    <h5>Discovery exercises</h5>
+                    <p>I think it’s important in the early phases of a project to challenge our own assumptions and strip away any preconceived notions about the problem we’re trying to solve. Sometimes very simple exercises can clear away noise or possibly spark a moment of clarity; either way, taking the time to explore our own thoughts and let unexpected insights emerge, is really valuable. </p>
+                    <p>One exercise I like to step both teammates and users through is what I call simply the Blank Slate exercise.</p>
+                    <h6>Blank Slate Exercise</h6>
+                    <p>Starting with a blank screen what do we add to begin to create a useful solution?</p>
+                    <p>Here I’ve noted down some responses that helped us better understand real needs or problems users had. </p>
+                    <ul>
+                        <li>Ability to see more than one project at one time</li>
+                        <li>Project with the greatest number of errors</li>
+                        <li>Graph of all item levels across a set interval for one project that compares same data against all projects</li>
+                        <li>Number of critical errors for each project</li>
+                    </ul>
+                    <p>Another exercise I find very helpful is to improvise a conversation with the system itself. This removes the concept of a visual interface or any constructs around data presentation and moves the interaction to a more natural, immediate level.</p>
+                    <h6>System Interview</h6>
+                    <p>I’ll set the context with a user that they have a voice interface to all their projects, and they can query the system with plain English. I will act as the system and respond appropriately.</p>
+                    <ul>
+                        <li>User: Do I have any projects that are blowing up with errors right now?</li>
+                        <li>System: You have two projects with a high number of errors, and 7 projects with a moderate number of errors.</li>
+                        <li>User: Are any of those production projects?</li>
+                        <li>System: Yes, project A with a high number of errors and project E with a moderate number of errors are production</li>
+                        <li>User: When was project A last deployed?</li>
+                    </ul>
+                    <p>And so on. Letting users imagine a system that knows the answer to any question they have can often return very insightful results because they are unencumbered by considering the current limitations of the system. This allows us to get quickly to real problems that maybe weren’t provided when we asked directly.</p>
+                    <h5>Affinity mapping</h5>
+                    <p>No portfolio is complete without the customary photo of a wall of Post-Its&trade;. Seriously though, this exercise is a very effective way to gain insights from a large sampling of customer input and research. </p>
+                    <p>We very quickly saw three groupings emerge:
+                        <ul>
+                            <li>Metrics/Visualizations/Reporting</li>
+                            <li>Alerting/Triage</li>
+                            <li>Filtering/Customization</li>
+                        </ul>
+                    </p>
+                    <p>We used these use cases to guide our initial interaction model explorations.</p>
+
+                    <!-- start -->
                     <div class="c-imagebox">
-                        <a href="#" data-reveal-id="solanolabs-sessionview-wireframe1">
-                            <img srcset="/www/images/solanolabs-sessionview-wireframe1_small.jpg 400w,
-                        /www/images/solanolabs-sessionview-wireframe1_medium.jpg 800w,
-                        /www/images/solanolabs-sessionview-wireframe1_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/www/images/solanolabs-sessionview-wireframe1_medium.jpg" alt="<?php echo $slcs; ?> - Wireframe of Base Layout" title="<?php echo $slcs; ?> - Wireframe of Base Layout">
+                        <a href="#" 
+                        data-reveal-id="ALD-research_affinity-mapping_master">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - customer feedback ready for affinity mapping exercise" 
+                        title="<?php echo $rbad; ?> - customer feedback ready for affinity mapping exercise">
+                        </a>
+                    </div>
+                    <!-- end --> 
+
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - customer feedback ready for affinity mapping exercise<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-research_affinity-mapping_master">View Larger Image</a></span></p>
+
+                    <h5>Research Highlights</h5>
+                    <p>Key takeaways from the affinity exercise and user research:</p>
+                    <ul>
+                        <li>Most users have multiple services within their product.</li>
+                        <li>They have created a 1:1 mapping between their services and Rollbar projects because that’s the model that works best for them based on interaction model of our key view, the Items View.</li>
+                        <li>Users want a broader context that goes beyond a single Rollbar project.</li>
+                        <li>Two important themes emerged:
+                            <ol>
+                                <li>Reporting: Users want a high-level overview of the state of their entire product in one place.</li>
+                                <li>Triage: Users want real time updates from multiple projects so that they can identify issues from a single place and ‘jump to them’.</li>
+                            </ol>
+                        </li>
+                        <li>A "design win" will be a solution that not only provides a high-level overview of the entire application but encourages investigation and troubleshooting even at this “50,000ft” view.</li>
+                    </ul>
+
+                    <!-- Put this in a panel, or design a card for info like this -->
+                    <h5>Problem Statement</h5>
+                    <p>With everything we learned from talking to customers and analyzing research, we arrived at a very clear problem to be solved.</p>
+                    <div class="c-panel c-panel--inform c-panel__sharp"><p>Rollbar users don’t have adequate visibility into the state of all projects and services across their account and this makes assessing the overall health of their product very cumbersome and difficult.</p></div>
+
+                    <p><a class="link--to-top" href="#">TOP</a></p>
+
+                    <h4 id="ideas">Ideas &amp; Experiments</h4>
+                    <p>From pencil sketches to pen-and-ink wireframes, I generated over 100 rough ideas for how to solve the problems we were trying to solve.</p>
+                    <p>We had numerous review sessions where we covered the wall with rough ideas and then reassembled pieces to create new concepts. At this stage we were less concerned with feasibility but with generating as many completing ideas as possible.
+                    </p>
+                    
+                    <!-- imagegrid  --> 
+                    <!--
+                    <div class='c-imagegrid'>
+                        <div class="c-imagegrid--item c-imagebox">
+                            <a href="#" 
+                            data-reveal-id="ALD-ideation_early-UI-sketch">
+                            <img srcset="
+                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
+                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
+                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
+                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
+                            sizes="(min-width: 48em) 66.6vw, 100vw" 
+                            src="/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
+                            alt="<?php echo $rbad; ?> - early ideation sketch" 
+                            title="<?php echo $rbad; ?> - early ideation sketch">
+                            </a>
+                        </div>
+                        <div class="c-imagegrid--item c-imagebox">
+                            <a href="#" 
+                            data-reveal-id="ALD-ideation_lofi-wireframe">
+                            <img srcset="
+                            /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_small.jpg 400w,
+                            /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg 800w,
+                            /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_large.jpg 1200w
+                            /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_xlarge.jpg 1600w" 
+                            sizes="(min-width: 48em) 66.6vw, 100vw" 
+                            src="/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg" 
+                            alt="<?php echo $rbad; ?> - early ideation low fidelity wireframe" 
+                            title="<?php echo $rbad; ?> - early ideation low fidelity wireframe">
+                            </a>
+                        </div>
+                        <div class="c-imagegrid--item c-imagebox">
+                            <a href="#" 
+                            data-reveal-id="ALD-ideation_early-UI-sketch">
+                            <img srcset="
+                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
+                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
+                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
+                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
+                            sizes="(min-width: 48em) 66.6vw, 100vw" 
+                            src="/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
+                            alt="<?php echo $rbad; ?> - early ideation sketch" 
+                            title="<?php echo $rbad; ?> - early ideation sketch">
+                            </a>
+                        </div>
+                        <div class="c-imagegrid--item c-imagebox">
+                            <a href="#" 
+                            data-reveal-id="ALD-ideation_early-UI-sketch">
+                            <img srcset="
+                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
+                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
+                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
+                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
+                            sizes="(min-width: 48em) 66.6vw, 100vw" 
+                            src="/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
+                            alt="<?php echo $rbad; ?> - early ideation sketch" 
+                            title="<?php echo $rbad; ?> - early ideation sketch">
+                            </a>
+                        </div>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - early ideation<span class="hide-for-small"> / Click image to view larger</span></p> -->
+                    <!-- end imagegrid --> 
+
+
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-ideation_early-UI-sketch">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - early ideation sketch" 
+                        title="<?php echo $rbad; ?> - early ideation sketch">
                         </a>
                     </div>
                     <p class="c-imagebox__caption">
-                        <?php echo $slcs; ?> - Wireframe of Base Layout <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-wireframe1">View Larger Image</a></span></p>
-                    <h5>UI Design</h5>
-                    <p>The visual and interface design came from my work-in-progress style guide and design system.</p>
-                    <p>Working with my Sketch mockups from the previous design update, I adapted these styles to new elements and components for a more consistent and cleaner interface.</p>
-                    <p>I also selected icons that would help communicate the detailed status of the build, and refined the color scheme for the build lifecycle stages.</p>
-                    <p>I applied these styles to the clickable prototype that would serve as a final mockup of the UI design.</p>
-                    <!-- solanolabs-sessionview-styleguide -->
+                        <?php echo $rbad; ?> - early ideation sketch<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ideation_early-UI-sketch">View Larger Image</a></span></p>
+                    <!-- end --> 
 
-
-
-                    <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Wireframes, Paper Prototypes, Style Tiles, UI Design, Lo-fi Mockups, Art Direction, Content Strategy.</p>
-                    <p><a class="link--to-top" href="#">TOP</a></p>
-                    <h4 id="prototype">Prototype</h4>
-                    <p><em>If a picture is worth a thousand words, a prototype is worth a thousand pictures.</em></p>
-                    <p>Since we had very hi-fidelity wireframes and a defined set of styles for the UI components, it was more efficient to create a clickable prototype rather than static mockups.</p>
-                    <p>The purpose of this prototype was two-fold:</p>
-                    <ol>
-                        <li>Simulate a build running in the new UI, showing all the visual feedback in action</li>
-                        <li>Create front-end hooks for the engineers to being wiring up the data to the view.</li>
-                        <li>This proved to be a very effective step in the process. Engineers got a head start on implementation planning while we continued to refine the visual presentation.</li>
-                    </ol>
-                    <!-- solanolabs-sessionview-prototype -->
+                    <!-- start -->
                     <div class="c-imagebox">
-                        <a href="#" data-reveal-id="solanolabs-sessionview-prototype-codepen">
-                            <img srcset="/www/images/solanolabs-sessionview-prototype-codepen_small.jpg 400w,
-                        /www/images/solanolabs-sessionview-prototype-codepen_medium.jpg 800w,
-                        /www/images/solanolabs-sessionview-prototype-codepen_large.jpg 1200w" sizes="(min-width: 48em) 66.6vw, 100vw" src="/www/images/solanolabs-sessionview-prototype-codepen_medium.jpg" alt="<?php echo $slcs; ?> - Codepen Prototype" title="<?php echo $slcs; ?> - Codepen Prototype">
+                        <a href="#" 
+                        data-reveal-id="ALD-ideation_lofi-wireframe">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - early ideation low fidelity wireframe" 
+                        title="<?php echo $rbad; ?> - early ideation low fidelity wireframe">
                         </a>
                     </div>
                     <p class="c-imagebox__caption">
-                        <?php echo $slcs; ?> - Prototype in Codepen <span class="hide-for-small">/ <a href="#" data-reveal-id="solanolabs-sessionview-prototype-codepen">View Larger Image</a> - </span> <a href="http://codepen.io/electronspin/pen/95a6ac01710fd019c2723fe5a68d0a7b" target="_blank">Open Codepen</a></p>
-                    <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Mockups, Clickable Prototypes, Heuristics, Interactions</p>
+                        <?php echo $rbad; ?> - early ideation low fidelity wireframe<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ideation_lofi-wireframe">View Larger Image</a></span></p>
+                    <!-- end -->
+
                     <p><a class="link--to-top" href="#">TOP</a></p>
-                    <h4 id="validate">Validate</h4>
-                    <p><em>Prototype as if you know you’re right, but test as if you know you’re wrong</em></p>
-                    <p>There was no practical way to deliver our initial prototype to customers using real-time data, so the engineering team built the new session view into the production app. We then allowed users to test it as an ‘alpha’ feature (behind a feature flag).</p>
-                    <p>Making full use of the Agile philosophy, we had working software. But in the spirit of Design Thinking, we were still in the design phase. </p>
-                    <p>Now the process of moderated and unmoderated user testing can reveal where we hit the mark with our solution, and where it might need improvement.</p>
-                    <p>And by monitoring analytics we can uncover usage patterns than will help us improve the user experience even more in future versions of the app.</p>
-                    <p><strong><span class="activities-label">Activities &amp; Outputs:</span></strong> Usability Tests, Analytics, QA</p>
+
+                    <h4>Prototyping &amp; User Testing</h4>
+                    <h5>Proof-of-concept reviews with customers</h5>
+                    <p>
+                    We presented wireframes to customers we had previously interviewed to gather feedback. We also used these sessions to seek a commitment to extended testing once we released the initial beta version to a select group of customers. 
+                    </p>
+                    
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-ixd_wireframe-v01">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - wireframe of finalized MVP design" 
+                        title="<?php echo $rbad; ?> - wireframe of finalized MVP design">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - wireframe of finalized MVP design<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ixd_wireframe-v01">View Larger Image</a></span></p>
+                    <!-- end --> 
+
+                    <p>We also started exploring how to expose the Account-level view in the global navigation. </p>
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-ixd_appnav_wireframe-v01">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - wireframe with beta dashboard nav" 
+                        title="<?php echo $rbad; ?> - wireframe with beta dashboard nav">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - wireframe with beta dashboard nav<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-ixd_appnav_wireframe-v01">View Larger Image</a></span></p>
+                    <!-- end --> 
+
+                    <p><a class="link--to-top" href="#">TOP</a></p>
+
+                    <h4 id="insights">Unexpected Insights</h4>
+                    <p>Customers did not want to see data for an interval longer than a week.</p>
+
+                    <h4>Refining the Design</h4>
+                    <p>We had an opportunity to improve the UI and visual design for a few key components. I had recently kicked off a design systems project and wanted to make sure we learned as much as we could about the process of updating existing components and introducing new ones to the design system.</p><p>We also had an opportunity to improve the experience around the entry point after initial login. Where prior to this project users would land on the existing dashboard for their last0viewed project, we felt that starting users off on this new cross-project version was the best way to go. This introduced a whole additional project around evolving the primary navigation away from project-based to account-based (which I plan to present a write-up of very soon!)</p>
+</p>
+                    <h5>Filtering controls</h5>
+                    <p>Exploring two variations of the combobox component</p>
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-UI_select-combobox-v01">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - select combobox concept 1" 
+                        title="<?php echo $rbad; ?> - select combobox concept 1">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - select combobox concept 1<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-UI_select-combobox-v01">View Larger Image</a></span></p>
+                    <!-- end --> 
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-UI_select-combobox-v01-alt">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - select combobox concept 2" 
+                        title="<?php echo $rbad; ?> - select combobox concept 2">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - select combobox concept 2<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-UI_select-combobox-v01-alt">View Larger Image</a></span></p>
+                    <!-- end --> 
+
+                    <h5>Evolving the Global Design System</h5>
+                    <p>Refining and documenting net-new components for use in global design system</p>
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-UI_select-combobox-filter-component-spec">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - combobox filter component documentation for front-end team and design system sprint" 
+                        title="<?php echo $rbad; ?> - combobox filter component documentation for front-end team and design system sprint">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - combobox filter component documentation for front-end team and design system sprint<span class="hide-for-small"> / <a href="#" data-reveal-id="AALD-UI_select-combobox-filter-component-spec">View Larger Image</a></span></p>
+                    <!-- end --> 
+
+                    <h5>Committing to a New Entry-point</h5>
+                    <p>Improving our global empty-state patterns for new users and onboarding</p>
+
+                    <!-- start -->
+                    <div class="c-imagebox">
+                        <a href="#" 
+                        data-reveal-id="ALD-usecase_empty-state-v01">
+                        <img srcset="
+                        /images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_small.jpg 400w,
+                        /images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_medium.jpg 800w,
+                        /images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_large.jpg 1200w
+                        /images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_xlarge.jpg 1600w" 
+                        sizes="(min-width: 48em) 66.6vw, 100vw" 
+                        src="/images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_medium.jpg" 
+                        alt="<?php echo $rbad; ?> - empty state for users with no active projects" 
+                        title="<?php echo $rbad; ?> - empty state for users with no active projects">
+                        </a>
+                    </div>
+                    <p class="c-imagebox__caption">
+                        <?php echo $rbad; ?> - empty state for users with no active projects<span class="hide-for-small"> / <a href="#" data-reveal-id="ALD-usecase_empty-state-v01">View Larger Image</a></span></p>
+                    <!-- end --> 
+
+                    <p><a class="link--to-top" href="#">TOP</a></p>
+                    
+                    <h4 id="learning">What We Learned</h4>
+                    <p>As we evolved the MVP through performing user testing and analyzing user data we came to realize that the reporting and triage use cases were both served very well by the functionality and experience we had converged on for our beta release. This changed the direction of our intended design evolution: rather than providing customizations for each use case that could be optionally enabled on top of the base experience, we committed to adding functionality that would improve the core experience. </p>
+
+                    <p><a class="link--to-top" href="#">TOP</a></p>
+
+                    <h4 id="solution">Solution</h4>
+                    <p><em>The first release of the Account Dashboard helped Rollbar customers achieve their previously unmet goals immediately. By providing insight into individual trends alongside potential correlated patterns, engineering teams could now quickly see how performance of various applications and services affects the health of their overall product. When a team can more efficiently triage and solve errors in complex systems they are more effective at maintaining high quality experience for their users.</em></p>
+                    
+                    <h5>Basic Critical Error Triage Demo</h5>
+                    <p>This video walkthrough presents a simplified task flow for triaging a high impact issue from the account level. The starting point is a wide view across projects, occurences, and error levels; the user can zero-in on a specific project and environment to isolate a critical error much more quickly than if using multiple Item Views. This is a very simpified example, in a real-world scenario we would see dozens of projects with a higher likelihood of variance in occurences across error levels.</p>
+
+                    <!-- start vimeo embed --> 
+                    <div style="padding:59.31% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/370113864?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    <!-- end vimeo embed --> 
+
+                    <p><a class="link--to-top" href="#">TOP</a></p>
+
+                    <h4 id="upshot">Upshot</h4>
+                    <p>The project was a major win for Rollbar.</p>
+                    <p>First, top customers immediately started telling us even this basic MVP was massively useful to them (qualitative win); customer commitment to product strengthened and attrition numbers quickly decreased, especially among enterprise customers (quantitative win).</p>
+                    <p>Second, isolating specific task flows and simplifying them provided much higher value metrics internally on user behavior across reporting and triage features.</p>
+                    <p>Lastly, new design processes tested in real-world; design team empowered to explore concepts and experiment with features; product and engineering now able to collaborate more seamlessly with design than before. </p>
+
+                    
+
+
+
+                    
+
                     <p><a class="link--to-top" href="#">TOP</a></p>
                     
                     <div class="c-link-pagination">

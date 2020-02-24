@@ -9,7 +9,12 @@
 // WIP
 
 .c-link-pagination {
-  @extend h4;
+    //   @extend h4;
+    @include font-size($font-size-h4);
+    color: $dark-text-color;
+    font-weight: 600;
+    letter-spacing: -0.017em;
+    margin-top: 3em;
 }
 
 .c-link-pagination--next,

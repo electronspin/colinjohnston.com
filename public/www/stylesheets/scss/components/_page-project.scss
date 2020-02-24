@@ -43,15 +43,29 @@
   color: $dark-text-color;
   font-weight: 600;
   letter-spacing: -0.017em; // 20px
+  border-bottom: 3px solid silver;
+  display: inline-block;
+  padding-bottom: .175em;
+  margin-bottom: 1.325em;
 }
 
 .c-project h5 {
   // WIP
-  //color: $dark-text-color;
-  @include font-size(16px);
-  //font-weight: 400;
-  text-transform: uppercase;
+  color: $dark-text-color;
+  @include font-size(16px, 32px);
+  font-weight: 700;
+  //text-transform: uppercase;
   letter-spacing: -0.014em; // 20px
+}
+
+.c-project h6 {
+  // WIP
+  color: $dark-text-color;
+  @include font-size(16px, 32px);
+  font-weight: 400;
+  //text-transform: uppercase;
+  letter-spacing: -0.014em; // 20px
+  text-decoration: underline;
 }
 
 
@@ -87,7 +101,7 @@
 // Page-spcific Imagebox margins
 
 .c-project {
-  .c-imagebox:first-child {
+  .c-imagebox--hero {
     margin-bottom: $global-spacing-unit-lg;
   }
   .c-imagebox {
@@ -104,6 +118,14 @@
 // Project Tabs Styles - WIP
 
 .c-project {
+
+  // TODO refactor and create usage-specific header classes!
+  h4 {
+    margin-top: 2em;
+  }
+  h4:first-child {
+    margin-top: 0;
+  }
 
   .o-tabs {
     border-bottom: none;

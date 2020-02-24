@@ -16,6 +16,8 @@
 .o-layout__grid-item {
   vertical-align: top;
   // padding-left: $global-spacing-unit;
+  
+  // TODO this font sizing should not live here - tied to h4 in many cases anyway
   @include font-size($global-font-size, round($global-line-height * 1.33));
 
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
