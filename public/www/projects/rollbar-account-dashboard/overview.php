@@ -70,12 +70,12 @@
                         <a href="#" 
                         data-reveal-id="ALD-items-view">
                         <img srcset="
-                        /images/rollbar-account-dashboard/ALD-items-view_small.jpg 400w,
-                        /images/rollbar-account-dashboard/ALD-items-view_medium.jpg 800w,
-                        /images/rollbar-account-dashboard/ALD-items-view_large.jpg 1200w
-                        /images/rollbar-account-dashboard/ALD-items-view_xlarge.jpg 1600w" 
+                        /www/images/rollbar-account-dashboard/ALD-items-view_small.jpg 400w,
+                        /www/images/rollbar-account-dashboard/ALD-items-view_medium.jpg 800w,
+                        /www/images/rollbar-account-dashboard/ALD-items-view_large.jpg 1200w
+                        /www/images/rollbar-account-dashboard/ALD-items-view_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
-                        src="/images/rollbar-account-dashboard/ALD-items-view_medium.jpg" 
+                        src="/www/images/rollbar-account-dashboard/ALD-items-view_medium.jpg" 
                         alt="Items View, the primary UI for viewing comprehensive project activity" 
                         title="Items View, the primary UI for viewing comprehensive project activity">
                         </a>
@@ -91,12 +91,12 @@
                         <a href="#" 
                         data-reveal-id="ALD-project-dashboard">
                         <img srcset="
-                        /images/rollbar-account-dashboard/ALD-project-dashboard_small.jpg 400w,
-                        /images/rollbar-account-dashboard/ALD-project-dashboard_medium.jpg 800w,
-                        /images/rollbar-account-dashboard/ALD-project-dashboard_large.jpg 1200w
-                        /images/rollbar-account-dashboard/ALD-project-dashboard_xlarge.jpg 1600w" 
+                        /www/images/rollbar-account-dashboard/ALD-project-dashboard_small.jpg 400w,
+                        /www/images/rollbar-account-dashboard/ALD-project-dashboard_medium.jpg 800w,
+                        /www/images/rollbar-account-dashboard/ALD-project-dashboard_large.jpg 1200w
+                        /www/images/rollbar-account-dashboard/ALD-project-dashboard_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
-                        src="/images/rollbar-account-dashboard/ALD-project-dashboard_medium.jpg" 
+                        src="/www/images/rollbar-account-dashboard/ALD-project-dashboard_medium.jpg" 
                         alt="Project Dashboard, the summary view for a project that most customers never use" 
                         title="Project Dashboard, the summary view for a project that most customers never use">
                         </a>
@@ -163,12 +163,12 @@
                         <a href="#" 
                         data-reveal-id="ALD-research_affinity-mapping_master">
                         <img srcset="
-                        /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_small.jpg 400w,
-                        /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_medium.jpg 800w,
-                        /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_large.jpg 1200w
-                        /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_xlarge.jpg 1600w" 
+                        /www/images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_small.jpg 400w,
+                        /www/images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_medium.jpg 800w,
+                        /www/images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_large.jpg 1200w
+                        /www/images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
-                        src="/images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_medium.jpg" 
+                        src="/www/images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_medium.jpg" 
                         alt="<?php echo $rbad; ?> - customer feedback ready for affinity mapping exercise" 
                         title="<?php echo $rbad; ?> - customer feedback ready for affinity mapping exercise">
                         </a>
@@ -212,12 +212,12 @@
                             <a href="#" 
                             data-reveal-id="ALD-ideation_early-UI-sketch">
                             <img srcset="
-                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
-                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
-                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
-                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
+                            /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
+                            /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
+                            /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
+                            /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
                             sizes="(min-width: 48em) 66.6vw, 100vw" 
-                            src="/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
+                            src="/www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
                             alt="<?php echo $rbad; ?> - early ideation sketch" 
                             title="<?php echo $rbad; ?> - early ideation sketch">
                             </a>
@@ -226,12 +226,12 @@
                             <a href="#" 
                             data-reveal-id="ALD-ideation_lofi-wireframe">
                             <img srcset="
-                            /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_small.jpg 400w,
-                            /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg 800w,
-                            /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_large.jpg 1200w
-                            /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_xlarge.jpg 1600w" 
+                            /www/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_small.jpg 400w,
+                            /www/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg 800w,
+                            /www/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_large.jpg 1200w
+                            /www/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_xlarge.jpg 1600w" 
                             sizes="(min-width: 48em) 66.6vw, 100vw" 
-                            src="/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg" 
+                            src="/www/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg" 
                             alt="<?php echo $rbad; ?> - early ideation low fidelity wireframe" 
                             title="<?php echo $rbad; ?> - early ideation low fidelity wireframe">
                             </a>
@@ -240,12 +240,12 @@
                             <a href="#" 
                             data-reveal-id="ALD-ideation_early-UI-sketch">
                             <img srcset="
-                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
-                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
-                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
-                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
+                            /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
+                            /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
+                            /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
+                            /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
                             sizes="(min-width: 48em) 66.6vw, 100vw" 
-                            src="/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
+                            src="/www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
                             alt="<?php echo $rbad; ?> - early ideation sketch" 
                             title="<?php echo $rbad; ?> - early ideation sketch">
                             </a>
@@ -254,12 +254,12 @@
                             <a href="#" 
                             data-reveal-id="ALD-ideation_early-UI-sketch">
                             <img srcset="
-                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
-                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
-                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
-                            /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
+                            /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
+                            /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
+                            /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
+                            /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
                             sizes="(min-width: 48em) 66.6vw, 100vw" 
-                            src="/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
+                            src="/www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
                             alt="<?php echo $rbad; ?> - early ideation sketch" 
                             title="<?php echo $rbad; ?> - early ideation sketch">
                             </a>
@@ -276,12 +276,12 @@
                         <a href="#" 
                         data-reveal-id="ALD-ideation_early-UI-sketch">
                         <img srcset="
-                        /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
-                        /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
-                        /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
-                        /images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
+                        /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_small.jpg 400w,
+                        /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg 800w,
+                        /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_large.jpg 1200w
+                        /www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
-                        src="/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
+                        src="/www/images/rollbar-account-dashboard/ALD-ideation_early-UI-sketch_medium.jpg" 
                         alt="<?php echo $rbad; ?> - early ideation sketch" 
                         title="<?php echo $rbad; ?> - early ideation sketch">
                         </a>
@@ -295,12 +295,12 @@
                         <a href="#" 
                         data-reveal-id="ALD-ideation_lofi-wireframe">
                         <img srcset="
-                        /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_small.jpg 400w,
-                        /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg 800w,
-                        /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_large.jpg 1200w
-                        /images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_xlarge.jpg 1600w" 
+                        /www/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_small.jpg 400w,
+                        /www/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg 800w,
+                        /www/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_large.jpg 1200w
+                        /www/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
-                        src="/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg" 
+                        src="/www/images/rollbar-account-dashboard/ALD-ideation_lofi-wireframe_medium.jpg" 
                         alt="<?php echo $rbad; ?> - early ideation low fidelity wireframe" 
                         title="<?php echo $rbad; ?> - early ideation low fidelity wireframe">
                         </a>
@@ -323,12 +323,12 @@
                         <a href="#" 
                         data-reveal-id="ALD-ixd_wireframe-v01">
                         <img srcset="
-                        /images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_small.jpg 400w,
-                        /images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_medium.jpg 800w,
-                        /images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_large.jpg 1200w
-                        /images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_xlarge.jpg 1600w" 
+                        /www/images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_small.jpg 400w,
+                        /www/images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_medium.jpg 800w,
+                        /www/images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_large.jpg 1200w
+                        /www/images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
-                        src="/images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_medium.jpg" 
+                        src="/www/images/rollbar-account-dashboard/ALD-ixd_wireframe-v01_medium.jpg" 
                         alt="<?php echo $rbad; ?> - wireframe of finalized MVP design" 
                         title="<?php echo $rbad; ?> - wireframe of finalized MVP design">
                         </a>
@@ -343,12 +343,12 @@
                         <a href="#" 
                         data-reveal-id="ALD-ixd_appnav_wireframe-v01">
                         <img srcset="
-                        /images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_small.jpg 400w,
-                        /images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_medium.jpg 800w,
-                        /images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_large.jpg 1200w
-                        /images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_xlarge.jpg 1600w" 
+                        /www/images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_small.jpg 400w,
+                        /www/images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_medium.jpg 800w,
+                        /www/images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_large.jpg 1200w
+                        /www/images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
-                        src="/images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_medium.jpg" 
+                        src="/www/images/rollbar-account-dashboard/ALD-ixd_appnav_wireframe-v01_medium.jpg" 
                         alt="<?php echo $rbad; ?> - wireframe with beta dashboard nav" 
                         title="<?php echo $rbad; ?> - wireframe with beta dashboard nav">
                         </a>
@@ -373,12 +373,12 @@
                         <a href="#" 
                         data-reveal-id="ALD-UI_select-combobox-v01">
                         <img srcset="
-                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_small.jpg 400w,
-                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_medium.jpg 800w,
-                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_large.jpg 1200w
-                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_xlarge.jpg 1600w" 
+                        /www/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_small.jpg 400w,
+                        /www/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_medium.jpg 800w,
+                        /www/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_large.jpg 1200w
+                        /www/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
-                        src="/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_medium.jpg" 
+                        src="/www/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01_medium.jpg" 
                         alt="<?php echo $rbad; ?> - select combobox concept 1" 
                         title="<?php echo $rbad; ?> - select combobox concept 1">
                         </a>
@@ -392,12 +392,12 @@
                         <a href="#" 
                         data-reveal-id="ALD-UI_select-combobox-v01-alt">
                         <img srcset="
-                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_small.jpg 400w,
-                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_medium.jpg 800w,
-                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_large.jpg 1200w
-                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_xlarge.jpg 1600w" 
+                        /www/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_small.jpg 400w,
+                        /www/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_medium.jpg 800w,
+                        /www/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_large.jpg 1200w
+                        /www/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
-                        src="/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_medium.jpg" 
+                        src="/www/images/rollbar-account-dashboard/ALD-UI_select-combobox-v01-alt_medium.jpg" 
                         alt="<?php echo $rbad; ?> - select combobox concept 2" 
                         title="<?php echo $rbad; ?> - select combobox concept 2">
                         </a>
@@ -414,12 +414,12 @@
                         <a href="#" 
                         data-reveal-id="ALD-UI_select-combobox-filter-component-spec">
                         <img srcset="
-                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_small.jpg 400w,
-                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_medium.jpg 800w,
-                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_large.jpg 1200w
-                        /images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_xlarge.jpg 1600w" 
+                        /www/images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_small.jpg 400w,
+                        /www/images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_medium.jpg 800w,
+                        /www/images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_large.jpg 1200w
+                        /www/images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
-                        src="/images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_medium.jpg" 
+                        src="/www/images/rollbar-account-dashboard/ALD-UI_select-combobox-filter-component-spec_medium.jpg" 
                         alt="<?php echo $rbad; ?> - combobox filter component documentation for front-end team and design system sprint" 
                         title="<?php echo $rbad; ?> - combobox filter component documentation for front-end team and design system sprint">
                         </a>
@@ -436,12 +436,12 @@
                         <a href="#" 
                         data-reveal-id="ALD-usecase_empty-state-v01">
                         <img srcset="
-                        /images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_small.jpg 400w,
-                        /images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_medium.jpg 800w,
-                        /images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_large.jpg 1200w
-                        /images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_xlarge.jpg 1600w" 
+                        /www/images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_small.jpg 400w,
+                        /www/images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_medium.jpg 800w,
+                        /www/images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_large.jpg 1200w
+                        /www/images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
-                        src="/images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_medium.jpg" 
+                        src="/www/images/rollbar-account-dashboard/ALD-usecase_empty-state-v01_medium.jpg" 
                         alt="<?php echo $rbad; ?> - empty state for users with no active projects" 
                         title="<?php echo $rbad; ?> - empty state for users with no active projects">
                         </a>
