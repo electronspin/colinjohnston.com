@@ -43,13 +43,17 @@
   color: $dark-text-color;
   font-weight: 600;
   letter-spacing: -0.017em; // 20px
+  border-bottom: 3px solid silver;
+  display: inline-block;
+  padding-bottom: .175em;
+  margin-bottom: 1.325em;
 }
 
 .c-project h5 {
   // WIP
-  //color: $dark-text-color;
+  color: $dark-text-color;
   @include font-size(16px, 32px);
-  //font-weight: 400;
+  font-weight: 700;
   //text-transform: uppercase;
   letter-spacing: -0.014em; // 20px
 }
