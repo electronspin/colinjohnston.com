@@ -48,6 +48,18 @@
             </li>
             <li class=""  id="processTab">
                 <div class="overview-content">
+
+                <!-- <ul>
+                    <li>Existing Situation</li>
+                    <li>Approach</li>
+                    <li>Ideas & Experiments</li>
+                    <li>Prototyping & User Testing</li>
+                    <li>Refining the Design</li>
+                    <li>What We Learned</li>
+                    <li>Solution</li>
+                    <li>Upshot</li>
+                </ul> -->
+                
                     <h4>Existing Situation</h4>
                     <p>Most Rollbar users are developing products composed of numerous applications and services, but without a comprehensive overview of these separate Rollbar projects it's difficult to see the overall health of an application. </p>
                     <h5>Where was Rollbar product before this new feature?</h5>
@@ -110,14 +122,33 @@
 
                 
                     <h5>Customer interviews &amp; contextual inquiries</h5>
-                    <p>[Intro TK]</p>
+                    <p>At this stage we had formed an informal customer research team that consistent of me, another designer, and the lead product manager. We conducted numerous interviews with customers, specifically engineering team leads at larger organizations. When it was feasible, we also went to their offices and observed users at various stages of their daily workflow. </p>
                     
                     <h5>Discovery exercises</h5>
-                    <p>["Blank Slate" description/example TK]</p>
-                    <p>["Conversations" description/example TK]</p>
-
+                    <p>I think it’s important in the early phases of a project to challenge our own assumptions and strip away any preconceived notions about the problem we’re trying to solve. Sometimes very simple exercises can clear away noise or possibly spark a moment of clarity; either way, taking the time to explore our own thoughts and let unexpected insights emerge, is really valuable. </p>
+                    <p>One exercise I like to step both teammates and users through is what I call simply the Blank Slate exercise.</p>
+                    <h6>Blank Slate Exercise</h6>
+                    <p>Starting with a blank screen what do we add to begin to create a useful solution?</p>
+                    <p>Here I’ve noted down some responses that helped us better understand real needs or problems users had. </p>
+                    <ul>
+                        <li>Ability to see more than one project at one time</li>
+                        <li>Project with the greatest number of errors</li>
+                        <li>Graph of all item levels across a set interval for one project that compares same data against all projects</li>
+                        <li>Number of critical errors for each project</li>
+                    </ul>
+                    <p>Another exercise I find very helpful is to improvise a conversation with the system itself. This removes the concept of a visual interface or any constructs around data presentation and moves the interaction to a more natural, immediate level.</p>
+                    <h6>System Interview</h6>
+                    <p>I’ll set the context with a user that they have a voice interface to all their projects, and they can query the system with plain English. I will act as the system and respond appropriately.</p>
+                    <ul>
+                        <li>User: Do I have any projects that are blowing up with errors right now?</li>
+                        <li>System: You have two projects with a high number of errors, and 7 projects with a moderate number of errors.</li>
+                        <li>User: Are any of those production projects?</li>
+                        <li>System: Yes, project A with a high number of errors and project E with a moderate number of errors are production</li>
+                        <li>User: When was project A last deployed?</li>
+                    </ul>
+                    <p>And so on. Letting users imagine a system that knows the answer to any question they have can often return very insightful results because they are unencumbered by considering the current limitations of the system. This allows us to get quickly to real problems that maybe weren’t provided when we asked directly.</p>
                     <h5>Affinity mapping</h5>
-                    <p>No portfolio is complete without the obiligatory photo of a wall of Post-Its&trade;. Seriously though, this exercise is a very effective way to gain insights from a large sampling of customer input and research. </p>
+                    <p>No portfolio is complete without the customary photo of a wall of Post-Its&trade;. Seriously though, this exercise is a very effective way to gain insights from a large sampling of customer input and research. </p>
                     <p>We very quickly saw three groupings emerge:
                         <ul>
                             <li>Metrics/Visualizations/Reporting</li>
@@ -170,8 +201,9 @@
                     <p><a class="link--to-top" href="#">TOP</a></p>
 
                     <h4 id="ideas">Ideas &amp; Experiments</h4>
-                    <p>[Design concepts intro TK]</p>
-                    
+                    <p>From pencil sketches to pen-and-ink wireframes, I generated over 100 rough ideas for how to solve the problems we were trying to solve.</p>
+                    <p>We had numerous review sessions where we covered the wall with rough ideas and then reassembled pieces to create new concepts. At this stage we were less concerned with feasibility but with generating as many completing ideas as possible.
+                    </p>
                     
                     <!-- imagegrid  --> 
                     <!--
@@ -331,7 +363,8 @@
                     <p>Customers did not want to see data for an interval longer than a week.</p>
 
                     <h4>Refining the Design</h4>
-                    <p>[Intro TK]</p>
+                    <p>We had an opportunity to improve the UI and visual design for a few key components. I had recently kicked off a design systems project and wanted to make sure we learned as much as we could about the process of updating existing components and introducing new ones to the design system.</p><p>We also had an opportunity to improve the experience around the entry point after initial login. Where prior to this project users would land on the existing dashboard for their last0viewed project, we felt that starting users off on this new cross-project version was the best way to go. This introduced a whole additional project around evolving the primary navigation away from project-based to account-based (which I plan to present a write-up of very soon!)</p>
+</p>
                     <h5>Filtering controls</h5>
                     <p>Exploring two variations of the combobox component</p>
 
@@ -395,7 +428,7 @@
                         <?php echo $rbad; ?> - combobox filter component documentation for front-end team and design system sprint<span class="hide-for-small"> / <a href="#" data-reveal-id="AALD-UI_select-combobox-filter-component-spec">View Larger Image</a></span></p>
                     <!-- end --> 
 
-                    <h5>Comitting to a New Entry-point</h5>
+                    <h5>Committing to a New Entry-point</h5>
                     <p>Improving our global empty-state patterns for new users and onboarding</p>
 
                     <!-- start -->
@@ -437,11 +470,14 @@
                     <p><a class="link--to-top" href="#">TOP</a></p>
 
                     <h4 id="upshot">Upshot</h4>
-                    <p>The project was a win for Rollbar on a number of important levels.</p>
-                    <p>Top customers immediately started telling us even this basic MVP was massively useful to them (qualitative win); customer commitment to product strengthened and attrition numbers quickly decreased, especially among enterprise customers (quantitative win).</p>
-                    <p>Isolating specific task flows and simplifying them provided much higher value metrics internally on user behavior across reporting and triage features.</p>
-                    <p>New design processes tested in real-world; design team empowered to explore concepts and experiment with features; product and engineering now able to collaborate more seamlessly with design than before.
-                    </p>
+                    <p>The project was a major win for Rollbar.</p>
+                    <p>First, top customers immediately started telling us even this basic MVP was massively useful to them (qualitative win); customer commitment to product strengthened and attrition numbers quickly decreased, especially among enterprise customers (quantitative win).</p>
+                    <p>Second, isolating specific task flows and simplifying them provided much higher value metrics internally on user behavior across reporting and triage features.</p>
+                    <p>Lastly, new design processes tested in real-world; design team empowered to explore concepts and experiment with features; product and engineering now able to collaborate more seamlessly with design than before. </p>
+
+                    
+
+
 
                     
 
