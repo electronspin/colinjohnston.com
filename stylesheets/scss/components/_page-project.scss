@@ -58,6 +58,16 @@
   letter-spacing: -0.014em; // 20px
 }
 
+.c-project h6 {
+  // WIP
+  color: $dark-text-color;
+  @include font-size(16px, 32px);
+  font-weight: 400;
+  //text-transform: uppercase;
+  letter-spacing: -0.014em; // 20px
+  text-decoration: underline;
+}
+
 
 .c-project__body {
   max-width: 600px; // TODO
