@@ -116,13 +116,13 @@
                     <h4 id="approach">Approach</h4>
                     <p><em>Research, analysis, exploration.</em></p>
                     <h5>Piloting user-centered design in an engineering-driven environment.</h5>
-                    <p>Myself, the product manager, and the two founders all agreed we wanted to create a prototype of what had initially been dubbed the ‘Cross-project Dashboard’ and put it in front of a core group of customers. This was the first time Rollbar had started a project with design-driven research, and I was presenting this as an ideal project for us to pilot a new process. My goal was to show the team how we’d benefit from talking to users right at the start, and that building a simple prototype would provide us a way to test our ideas out in a much less expensive way than specifying a more complex product expansion up front and making adjustments once it was released widely to our customers.</p>
+                    <p>Together with the product manager and the two founders, we agreed we wanted to create a prototype of what had initially been dubbed the ‘Cross-project Dashboard’ and put it in front of a core group of customers. This was the first time Rollbar had started a project with design-driven research, and I was presenting this as an ideal project for us to pilot a new process. My goal was to show the team how we’d benefit from talking to users right at the start, and that building a simple prototype would provide us a way to test our ideas out in a much less expensive way than specifying a more complex product expansion upfront and making adjustments once it was released widely to our customers.</p>
                     <h5>Simple UX project plan</h5>
-                    <p>I think a key to a successful design project is how you plan it: too much planning and it becomes overloaded with process; too little planning it can quickly become chaotic and fall apart. The design team—myself and another product designer—mapped out a plan to get us from the first meeting where we got approval to proceed all the way through to flipping the switch in production to put the new dashboard in front of customers. I won’t get into all the details of the plan here—we simply talked about all the various tools, activities, and checkpoints we felt were essential and sketched out a rough schedule to share with product and engineering.</p>
+                    <p>I think a key to a successful design project is how you plan it: too much planning and it becomes overloaded with process; too little planning and it can quickly become chaotic and fall apart. The design team—myself and another product designer—mapped out a plan to get us from the first meeting where we got approval to proceed all the way through to flipping the switch in production to put the new dashboard in front of customers. I won’t get into all the details of the plan here—we simply talked about all the various tools, activities, and checkpoints we felt were essential and sketched out a rough schedule to share with product and engineering.</p>
 
                 
                     <h5>Customer interviews &amp; contextual inquiries</h5>
-                    <p>At this stage we had formed an informal customer research team that consistent of me, another designer, and the lead product manager. We conducted numerous interviews with customers, specifically engineering team leads at larger organizations. When it was feasible, we also went to their offices and observed users at various stages of their daily workflow. </p>
+                    <p>At this stage we had formed an informal customer research team that consisted of me, another designer, and the lead product manager. We conducted numerous interviews with customers, specifically engineering team leads at larger organizations. When it was feasible, we also went to their offices and observed users at various stages of their daily workflow. </p>
                     
                     <h5>Discovery exercises</h5>
                     <p>I think it’s important in the early phases of a project to challenge our own assumptions and strip away any preconceived notions about the problem we’re trying to solve. Sometimes very simple exercises can clear away noise or possibly spark a moment of clarity; either way, taking the time to explore our own thoughts and let unexpected insights emerge, is really valuable. </p>
@@ -133,7 +133,7 @@
                     <ul>
                         <li>Ability to see more than one project at one time</li>
                         <li>Project with the greatest number of errors</li>
-                        <li>Graph of all item levels across a set interval for one project that compares same data against all projects</li>
+                        <li>Graph of all item levels across a set interval for one project that compares the same data against all projects</li>
                         <li>Number of critical errors for each project</li>
                     </ul>
                     <p>Another exercise I find very helpful is to improvise a conversation with the system itself. This removes the concept of a visual interface or any constructs around data presentation and moves the interaction to a more natural, immediate level.</p>
@@ -169,8 +169,8 @@
                         /images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_xlarge.jpg 1600w" 
                         sizes="(min-width: 48em) 66.6vw, 100vw" 
                         src="/images/rollbar-account-dashboard/ALD-research_affinity-mapping_master_medium.jpg" 
-                        alt="<?php echo $rbad; ?> - customer feedback ready for affinity mapping exercise" 
-                        title="<?php echo $rbad; ?> - customer feedback ready for affinity mapping exercise">
+                        alt="<?php echo $rbad; ?> - customer feedback ready for an affinity mapping exercise" 
+                        title="<?php echo $rbad; ?> - customer feedback ready for an affinity mapping exercise">
                         </a>
                     </div>
                     <!-- end --> 
@@ -182,12 +182,12 @@
                     <p>Key takeaways from the affinity exercise and user research:</p>
                     <ul>
                         <li>Most users have multiple services within their product.</li>
-                        <li>They have created a 1:1 mapping between their services and Rollbar projects because that’s the model that works best for them based on interaction model of our key view, the Items View.</li>
+                        <li>They have created a 1:1 mapping between their services and Rollbar projects because that’s the model that works best for them based on the interaction model of our key view, the Items View.</li>
                         <li>Users want a broader context that goes beyond a single Rollbar project.</li>
                         <li>Two important themes emerged:
                             <ol>
                                 <li>Reporting: Users want a high-level overview of the state of their entire product in one place.</li>
-                                <li>Triage: Users want real time updates from multiple projects so that they can identify issues from a single place and ‘jump to them’.</li>
+                                <li>Triage: Users want real-time updates from multiple projects so that they can identify issues from a single place and ‘jump to them’.</li>
                             </ol>
                         </li>
                         <li>A "design win" will be a solution that not only provides a high-level overview of the entire application but encourages investigation and troubleshooting even at this “50,000ft” view.</li>
@@ -458,10 +458,10 @@
                     <p><a class="link--to-top" href="#">TOP</a></p>
 
                     <h4 id="solution">Solution</h4>
-                    <p><em>The first release of the Account Dashboard helped Rollbar customers achieve their previously unmet goals immediately. By providing insight into individual trends alongside potential correlated patterns, engineering teams could now quickly see how performance of various applications and services affects the health of their overall product. When a team can more efficiently triage and solve errors in complex systems they are more effective at maintaining high quality experience for their users.</em></p>
+                    <p><em>The first release of the Account Dashboard helped Rollbar customers achieve their previously unmet goals immediately. By providing insight into individual trends alongside potential correlated patterns, engineering teams could now quickly see how the performance of various applications and services affects the health of their overall product. When a team can more efficiently triage and solve errors in complex systems they are more effective at maintaining a high-quality experience for their users.</em></p>
                     
                     <h5>Basic Critical Error Triage Demo</h5>
-                    <p>This video walkthrough presents a simplified task flow for triaging a high impact issue from the account level. The starting point is a wide view across projects, occurences, and error levels; the user can zero-in on a specific project and environment to isolate a critical error much more quickly than if using multiple Item Views. This is a very simpified example, in a real-world scenario we would see dozens of projects with a higher likelihood of variance in occurences across error levels.</p>
+                    <p>This video walkthrough presents a simplified task flow for triaging a high impact issue from the account level. The starting point is a wide view across projects, occurrences, and error levels; the user can zero-in on a specific project and environment to isolate a critical error much more quickly than if using multiple Item Views. This is a very simplified example, in a real-world scenario, we would see dozens of projects with a higher likelihood of variance in occurrences across error levels.</p>
 
                     <!-- start vimeo embed --> 
                     <div style="padding:59.31% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/370113864?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -473,7 +473,7 @@
                     <p>The project was a major win for Rollbar.</p>
                     <p>First, top customers immediately started telling us even this basic MVP was massively useful to them (qualitative win); customer commitment to product strengthened and attrition numbers quickly decreased, especially among enterprise customers (quantitative win).</p>
                     <p>Second, isolating specific task flows and simplifying them provided much higher value metrics internally on user behavior across reporting and triage features.</p>
-                    <p>Lastly, new design processes tested in real-world; design team empowered to explore concepts and experiment with features; product and engineering now able to collaborate more seamlessly with design than before. </p>
+                    <p>Lastly, new design processes tested in the real world; design team empowered to explore concepts and experiment with features; product and engineering now able to collaborate more seamlessly with design than before. </p>
 
                     
 
