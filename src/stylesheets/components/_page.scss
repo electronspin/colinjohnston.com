@@ -13,6 +13,10 @@
   }
 }
 
+.c-page__site-title {
+  @include hidden-visually;
+}
+
 // Duplicates `page-project.scss` instance 
 .c-page__title {
   color: $dark-text-color;

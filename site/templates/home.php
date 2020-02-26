@@ -7,11 +7,11 @@
 
     <main id="content" class="o-content o-layout__grid-item">
 
-    <h1><?= $page->title() ?></h1>
-
     <?= $page->text()->kirbytext() ?>
 
-    <?php snippet('menu-main') ?>
+
+
+    
 
     </main>
 

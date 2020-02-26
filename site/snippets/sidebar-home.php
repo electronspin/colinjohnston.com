@@ -3,6 +3,7 @@
 <div class="o-sidebar o-layout__grid-item">
 
     <div class="c-branding">
+        <h1 class="c-page__site-title">Colin Johnston  - Product Design, Visual Design, UX Strategy, Brand Development - San Francisco Web Design</h1>
         <a class="c-branding__logo animate" href="/"><img class="c-logo" src="/assets/colinjohnston-logo-DIN.png"
                 alt="Colin Johnston"></a>
         <a href="#" class="open-panel"><span class="svg-icon">

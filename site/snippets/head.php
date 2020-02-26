@@ -2,9 +2,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="description" content="<?= $site->description() ?>">
-  <title>
-    <?= $page->title() ?> | <?= $site->title() ?>
-  </title>
+  
+  <?php if ($page->isHomePage()): ?>
+  <title>Colin Johnston  - Product Design, Visual Design, UX Strategy, Brand Development - San Francisco Web Design</title>
+  <?php else: ?>
+  <title><?= $page->title() . ' – ' . $site->title() ?></title>
+  <?php endif ?>
+
   <link rel="stylesheet" href="/assets/css/main.min.css" >
   <script src="/assets/js/modernizr.foundation.js"></script>
   <script src="/assets/js/picturefill.min.js"></script>
