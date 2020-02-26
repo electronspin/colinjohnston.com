@@ -1,0 +1,100 @@
+/*----------------------------------*
+  #MODALS
+ *----------------------------------*/
+
+/**
+* Lightboxe CSS for jQuery Reveal Plugin (Foundation 3)
+*/
+
+
+
+.c-modal {
+  background: #fff;
+  visibility: hidden;
+  display: none;
+  top: 100px;
+  left: 50%;
+  margin-left: -260px;
+  width: 520px;
+  position: absolute;
+  z-index: 41;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.c-modal__container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+  //position: fixed;
+}
+
+.c-modal--full {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  margin-left: -50%; // Why?
+  height: 100vh;
+  padding: 0;
+  background-color: tint($slate-gray, 50);
+
+  h2 {
+    display: none;
+    // TODO: fix this - remove from DOM or clean up UI
+  }
+}
+
+// .c-modal--small { width: 30%; margin-left: -15%; }
+// .c-modal--medium { width: 40%; margin-left: -20%; }
+// .c-modal--large { width: 60%; margin-left: -30%; }
+// .c-modal--xlarge { width: 70%; margin-left: -35%; }
+// .c-modal--expand { width: 90%; margin-left: -45%; }
+
+.c-modal__asset {
+  max-width: 95%;
+
+  @media only screen and (min-width: 768px) {
+    max-height: 95%;
+  }
+}
+
+.c-modal__bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 40;
+  display: none;
+  top: 0;
+  left: 0;
+}
+
+.c-modal> :first-child {
+  margin-top: 0;
+}
+
+.c-modal> :last-child {
+  margin-bottom: 0;
+}
+
+.c-modal__close-action {
+  @include font-size(32px);
+  position: absolute;
+  top: $global-spacing-unit-sm;
+  right: $global-spacing-unit;
+  color: black;
+  cursor: pointer;
+
+  &:before {
+    content: "esc ";
+    font-size: 1rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -3px;
+    margin-right: 4px;
+    color: $main-text-color;
+  }
+}

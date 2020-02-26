@@ -1,0 +1,221 @@
+/*----------------------------------*
+  #IMAGEBOX
+ *----------------------------------*/
+
+/**
+* Standard project asset presentation
+*/
+
+.c-imagebox {
+  border: 1px solid #ddd; // WIP
+
+  & a {
+    display: inline-block;
+  }
+  & figure {
+    margin-bottom: 0;
+  }
+}
+
+// .c-imagebox--hero {
+//   margin-bottom: $global-spacing-unit-lg;
+// }
+
+// .c-imagebox:first-child {
+//   .o-content & {
+//   margin-bottom: $global-spacing-unit-lg;
+//   }
+// }
+
+.c-imagebox__caption {
+  @include font-size(14px);
+  margin-top: -$global-spacing-unit-sm;
+  margin-bottom: $global-spacing-unit;
+
+  .hide-for-small {
+    display: inline !important; // TODO Fix hidden.scss
+    @media only screen and (max-width: 480px) {
+      display: none !important; // TODO Fix hidden.scss
+    }
+  }
+  // @media only screen and (max-width: 480px) { 
+  //   line-height: initial;
+  // }
+}
+
+.c-imagebox__caption a {
+  font-weight: 400;
+  color: $content-link;
+  transition: all .25s ease;
+
+  &:visited {
+    color: $dark-text-color;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: $cjd-branding;
+  }
+
+  &:before,
+  &:after {
+    content: "";
+    padding: 0 1px;
+  }
+}
+
+// TODO Clean this up
+
+figure {
+  display: block;
+  position: relative;
+  overflow: hidden
+}
+
+figcaption {
+  position: absolute
+}
+
+figcaption {
+  font-weight: 400;
+  font-size: .75em;
+  background: #333;
+  background: rgba(0, 0, 0, .75);
+  color: #fff;
+  padding: $global-spacing-unit-sm $global-spacing-unit;
+  width: 100%;
+  opacity: 0;
+  left: 0;
+  bottom: -30%;
+  transition: all .6s ease
+}
+
+/**
+* Animated
+*/
+
+// animated imageboxes
+
+// all the same animation
+// .c-gallery__item .c-imagebox {
+//     &.animate {
+//         transition: opacity .7s ease .3s, transform .5s ease .3s; // nice feel!
+//         transform: scale(.8);
+//         opacity: 0;
+//         &.inview {
+//           transform: scale(1);
+//           opacity: 1;
+//         }
+//     }
+// }
+
+
+// stepped animation
+
+.c-gallery__item:nth-child(1) .c-imagebox {
+  &.animate {
+    transition: opacity .7s ease .3s, transform .1s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
+
+.c-gallery__item:nth-child(2) .c-imagebox {
+  &.animate {
+    transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
+
+.c-gallery__item:nth-child(3) .c-imagebox {
+  &.animate {
+    transition: opacity .7s ease .3s, transform .3s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
+
+.c-gallery__item:nth-child(4) .c-imagebox {
+  &.animate {
+    transition: opacity .7s ease .3s, transform .4s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
+
+.c-gallery__item:nth-child(5) .c-imagebox {
+  &.animate {
+    transition: opacity .7s ease .3s, transform .5s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
+
+.c-gallery__item:nth-child(6) .c-imagebox {
+  &.animate {
+    transition: opacity .7s ease .3s, transform .6s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
+
+.c-gallery__item:nth-child(7) .c-imagebox {
+  &.animate {
+    transition: opacity .7s ease .3s, transform .7s ease .3s; // nice feel!
+    transform: scale(.8);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
+
+
+
+// project page imagebox animations
+
+div#content .c-imagebox {
+  &.animate {
+    transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
+    transform: scale(.925);
+    opacity: 0;
+
+    &.inview {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+/*----------------------------------*
+  #WRAPPER
+ *----------------------------------*/
+
+/**
+* 1. Margin-top on main wrapper becuase we have no header to put it on
+*/
+
+
+.o-wrapper { // TODO this is single use for overall page--do we need otehrs?
+  // @include clearfix(); 
+  padding-right: $global-spacing-unit;
+  padding-left:  $global-spacing-unit;
+  margin-right: auto;
+  margin-left:  auto;
+  @media screen and (min-width: 768px) { 
+    padding-right: 0;
+    padding-left:  0;
+    width: 1280px;
+    min-height: 100vh;
+    max-width: 92%;
+  }
+}
+
+.o-wrapper--no-header {
+  @media screen and (min-width: 768px) { 
+    padding-top: $global-spacing-unit-lg; /* [1] */
+  }
+}
+
+.o-wrapper--full-width {
+  width: 100vw;
+  max-width: 100%;
+  @media screen and (min-width: 768px) { 
+    width: 100vw;
+    max-width: 100%;
+  }
+}
+
+.o-wrapper-grid {
+  display: grid;
+  grid-gap: $global-spacing-unit; // TODO should be a global spacing variable
+}

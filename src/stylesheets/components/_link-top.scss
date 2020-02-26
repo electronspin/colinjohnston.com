@@ -1,0 +1,31 @@
+/*----------------------------------*
+  #LINK-TOP
+ *----------------------------------*/
+
+/**
+* Link-link--to-top mini component
+*/
+
+// WIP
+
+.link--to-top {
+    @include font-size(12px);
+    font-weight: bold;
+    color: $cjd-branding;
+    &:before {
+        content: "↑";
+        margin-right: 0.25em;
+    }
+    &:after {
+        content: "";
+        padding: 0 1px;
+    }
+    &:visited {
+        color: $cjd-branding;
+    }
+    &:hover,
+    &:focus {
+        color: white;
+        background-color: $cjd-branding;
+    }
+}
