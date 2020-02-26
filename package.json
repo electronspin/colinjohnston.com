@@ -1,6 +1,6 @@
 {
   "name": "colinjohnston-com",
-  "version": "1.10.0",
+  "version": "2.0.0",
   "description": "Colin Johnston's Personal Website and Professional Portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/electronspin/colinjohnston.com.git"
+    "url": "https://github.com/colin-johnston/colinjohnston.com.git"
   },
-  "author": "dev@electronspin.com",
+  "author": "dev@colinjohnston.com",
   "license": "",
   "devDependencies": {
     "browser-sync": "^2.26.7",
