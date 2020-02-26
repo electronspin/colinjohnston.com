@@ -1,0 +1,189 @@
+Title: Solano Labs CI Session View
+
+----
+
+Headline: Solano CI Interface
+
+----
+
+Year: 2016
+
+----
+
+Tags: product
+
+----
+
+Intro:
+
+Solano CI is a continuous integration product for software development teams.
+
+As lead product designer at Solano Labs, I redesigned the ‘Session View’—the comprehensive report of build progress and test results—and solved major usability issues and increased user trust in the product.
+
+----
+
+Overview:
+
+The Session View shows every state of a session, from its initial creation, through to a complete collection of test results, build lifecycle timings, and build artifacts.
+
+Over time, as additional functionality and information was added to the view, the interface had become difficult to use.
+
+## Challenge
+
+How can we simplify a very complex interface and increase user efficiency?
+
+Our goals were:
+
+- Improve accuracy of reporting data.
+- Clarify presentation of build status.
+- Increase user trust in the system.
+- Present consistent views for a variety of session types.
+
+## Approach
+
+A holistic redesign based on user research and customer feedback, validated with live-data prototypes. We completely rebuilt how the system reports build status information, created a new real-time status report model, and I designed a set of visually consistent views for all session types.
+
+## Outcome
+
+The new session view solves all the issues we set out to solve: we improved accuracy and depth of detail of status report, while making it more usable and easy to understand; we increased user confidence in the system, and are providing customers with a more efficient tool for a critical part of their software development workflow.
+
+Solano Labs is currently beta testing it with a selected group of customers and the feedback is consistently positive. One of the founders and the lead Product Manager says that “everyone is loving” the update.
+
+----
+
+Process:
+
+## Some Background
+
+At Solano Labs I helped move the product development process to SCRUM and two week sprints. My goal was to restructure the product development process to allow for more design thinking to happen earlier in the cycle.
+
+To accomplish this, I adapted the Design Sprint process to run my own sprints alongside engineering. This allowed for proper research and validation of hypotheses before diving into implementation; the output of a completed design sprint went directly into the engineering backlog, with the benefit of providing developers with a well-defined goal.
+
+Discover > Define > Ideate > Prototype > Validate
+    
+## Discover
+    
+Research, analysis, exploration; the bedrock of subsequent design activities.
+
+Through research and user testing sessions, I helped the team better understand how the interface was solving problems for customers, and how it was falling short. Digging deeper below issues of cluttered visual presentation and confusing interactions, I got to the root of a critical issue users were having: they were not seeing a complete and accurate view into the state of their build.
+    
+### Use Cases
+
+During my research I captured input from users about the specific UI issues they had. I made notations on printouts of the existing session view.
+
+Solano CI Interface - Research Notes on v1.5 Layouts
+
+Solano CI Interface - Research Notes on v1.5 Layouts / View Larger Image
+
+Activities & Outputs: User Research, Use Cases, Usability Testing, Interviews, Concept Maps.
+
+TOP
+
+## Define
+
+Clarity and focus; framing the problem to create a solution
+
+I facilitated development of an internal prototype (running with live data) to validate new reporting outputs. I used this information later in the project to construct an improved real-time status report model.
+    
+### Personas
+
+I had previously developed with the team a set of personas that profiled new and existing customers. These were hybrid marketing and design personas that gave us clear idea of our users goals and pain points. Reinforced by the deeper research done for this specific project, the picture that emerged helped me get buy-in on making broader changes to the product.
+
+Solano CI Interface - Personas
+
+Solano CI Interface - Personas / View Larger Image
+    
+### Sketches
+
+One of the biggest challenges of this project was to figure out how to re-structure the presentation of session status. Most of these rough layouts were done with pencil and paper; many were done on whiteboards with the Product Manager, especially when design decisions might impact other views in the product.
+
+Solano CI Interface - Sketches
+
+Solano CI Interface - Sketches / View Larger Image
+
+Activities & Outputs: Personas, Use Cases, User Flows, Sketches, Lo-fi Wireframes.
+
+TOP
+    
+## Ideate
+    
+Concepts for outcomes; combine understanding of the problem with imagination.
+    
+### Wireframes
+
+I iterated through a series of wireframes showing all possible configurations of a session view (there are twelve!). Previously, less common session types had inconsistent layouts; I refined the structure to present all sessions consistently.
+
+Solano CI Interface - Wireframe of Base Layout
+
+Solano CI Interface - Wireframe of Base Layout / View Larger Image
+
+### UI Design
+
+The visual and interface design came from my work-in-progress style guide and design system.
+
+Working with my Sketch mockups from the previous design update, I adapted these styles to new elements and components for a more consistent and cleaner interface.
+
+I also selected icons that would help communicate the detailed status of the build, and refined the color scheme for the build lifecycle stages.
+
+I applied these styles to the clickable prototype that would serve as a final mockup of the UI design.
+
+Activities & Outputs: Wireframes, Paper Prototypes, Style Tiles, UI Design, Lo-fi Mockups, Art Direction, Content Strategy.
+
+TOP
+
+## Prototype
+    
+If a picture is worth a thousand words, a prototype is worth a thousand pictures.
+
+### Concept Prototype
+
+I constructed a clickable prototype in Middleman to present our current design direction and socialize a number of additional interaction concepts to stakeholders.
+
+Solano CI Interface - high-fidelity concept prototype
+
+### Prototype-as-mockup
+
+Since we had very hi-fidelity wireframes and a defined set of styles for the UI components, it was more efficient to create a clickable prototype rather than static mockups.
+
+The purpose of this prototype was two-fold:
+
+- Simulate a build running in the new UI, showing all the visual feedback in action
+- Create front-end hooks for the engineers to being wiring up the data to the view.
+
+This proved to be a very effective step in the process. Engineers got a head start on implementation planning while we continued to refine the visual presentation.
+
+Solano CI Interface - Codepen Prototype
+
+Solano CI Interface - Prototype in Codepen / View Larger Image - Open Codepen
+
+Activities & Outputs: Mockups, Clickable Prototypes, Heuristics, Interactions
+
+TOP
+    
+## Validate
+    
+Prototype as if you know you’re right, but test as if you know you’re wrong
+
+There was no practical way to deliver our initial prototype to customers using real-time data, so the engineering team built the new session view into the production app. We then allowed users to test it as an ‘alpha’ feature (behind a feature flag).
+
+Making full use of the Agile philosophy, we had working software. But in the spirit of Design Thinking, we were still in the design phase.
+
+Now the process of moderated and unmoderated user testing can reveal where we hit the mark with our solution, and where it might need improvement.
+
+And by monitoring analytics we can uncover usage patterns than will help us improve the user experience even more in future versions of the app.
+
+Activities & Outputs: Usability Tests, Analytics, QA
+
+TOP
+
+----
+
+Text: **Test project text.** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+----
+
+Date: 2020-01-15 21:50
+
+----
+
+Author: colin@colinjohnston.com

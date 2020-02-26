@@ -14,7 +14,261 @@ Tags: product
 
 ----
 
-Intro: 
+Intro:
+
+Rollbar is a real-time error alerting and debugging tool for software developers.
+
+I led the design effort to create a new view in the web app that provides users visibility into errors across multiple Rollbar projects.
+
+----
+
+Overview:
+
+The Account Dashboard is a new view in the Rollbar web app specifically designed to give engineers and managers a complete picture of all active projects.
+
+## Challenge
+
+Many Rollbar users are developing products composed of numerous applications and services, but without a comprehensive overview of these separate Rollbar projects it's difficult to see the overall health of an application.
+
+Our goals for improving the Rollbar product:
+
+- Provide greater leverage to engineering teams for mitigating expensive failures.
+- Shorten the time it takes to solve complex issues.
+- Increase engineering team efficiency.
+
+## Approach
+
+Starting with a simple research-driven proof-of-concept that aggregated project data onto a single view, we tested the interface with a small number of customers. One of the most interesting outcomes of these early tests is that we discovered there were two distinct use cases: reporting, and triage. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve problems more efficiently. For the initial version of the view, we decided to provide a basic tool that would solve both problems. We mapped out plans for a deeper dive into each use case for future versions.
+
+- Provide a  dedicated view showing all the projects in an account.
+- Present a clear visual representation of the health of selected projects.
+- Surface all filters available in the individual project view, making it easy for teams to drill down into issues across languages, environments, and error levels.
+
+## Outcome
+
+The first release of the Account Dashboard helped Rollbar customers achieve their previously unmet goals immediately. By providing insight into individual trends alongside potential correlated patterns, engineering teams could now quickly see how the performance of various applications and services affects the health of their overall product. When a team can more efficiently triage and solve errors in complex systems they are more effective at maintaining high-quality experience for their users.
+
+<div markdown="1" class="c-panel c-panel--assert c-panel__sharp">
+
+“The Account Dashboard makes it even easier than before to understand the overall health of the Instacart product as well as individual teams/systems that make up Instacart. It also makes it dead simple to know where our engineering time has the highest leverage regarding issues affecting our customers and shoppers.”
+
+—Jason Kozemczak, Tech Lead at Instacart
+Demo
+
+</div>
+
+You can view a limited demo of the Account Dashboard in the Rollbar Demo account here.
+
+----
+
+Process:
+
+## Existing Situation
+
+Most Rollbar users are developing products composed of numerous applications and services, but without a comprehensive overview of these separate Rollbar projects it's difficult to see the overall health of an application.
+
+### Where was Rollbar product before this new feature?
+
+Rollbar’s data model is built around the concept of a project, so any analysis of services composed of multiple projects is very cumbersome. Most users are opening up multiple Items views with custom filters and then tabbing between them. Some are opening up a few Items views and the Deploy view side-by-side.
+    
+Items View, the primary UI for viewing comprehensive project activity
+
+Items View, the primary UI for viewing comprehensive project activity / View Larger Image
+    
+Project Dashboard, the summary view for a project that most customers never use
+
+Project Dashboard, the summary view for a project that most customers never use / View Larger Image
+    
+### What were customers saying?
+
+Nearly every customer using Rollbar heavily day-to-day was saying “Please create a cross-project dashboard!” But nearly every customer had a very different idea of what that meant—of course, everyone ideally wanted a solution to their own specific use case.
+    
+### What was our hypothesis?
+
+If we provide users the ability to compare even just a few key data points across their projects, we will make their lives so much easier.
+    
+## Approach
+
+*Research, analysis, exploration.*
+    
+### Piloting user-centered design in an engineering-driven environment.
+
+Together with the product manager and the two founders, we agreed we wanted to create a prototype of what had initially been dubbed the ‘Cross-project Dashboard’ and put it in front of a core group of customers. This was the first time Rollbar had started a project with design-driven research, and I was presenting this as an ideal project for us to pilot a new process. My goal was to show the team how we’d benefit from talking to users right at the start, and that building a simple prototype would provide us a way to test our ideas out in a much less expensive way than specifying a more complex product expansion upfront and making adjustments once it was released widely to our customers.
+    
+### Simple UX project plan
+
+I think a key to a successful design project is how you plan it: too much planning and it becomes overloaded with process; too little planning and it can quickly become chaotic and fall apart. The design team—myself and another product designer—mapped out a plan to get us from the first meeting where we got approval to proceed all the way through to flipping the switch in production to put the new dashboard in front of customers. I won’t get into all the details of the plan here—we simply talked about all the various tools, activities, and checkpoints we felt were essential and sketched out a rough schedule to share with product and engineering.
+    
+### Customer interviews & contextual inquiries
+
+At this stage we had formed an informal customer research team that consisted of me, another designer, and the lead product manager. We conducted numerous interviews with customers, specifically engineering team leads at larger organizations. When it was feasible, we also went to their offices and observed users at various stages of their daily workflow.
+    
+### Discovery exercises
+
+I think it’s important in the early phases of a project to challenge our own assumptions and strip away any preconceived notions about the problem we’re trying to solve. Sometimes very simple exercises can clear away noise or possibly spark a moment of clarity; either way, taking the time to explore our own thoughts and let unexpected insights emerge, is really valuable.
+
+One exercise I like to step both teammates and users through is what I call simply the Blank Slate exercise.
+    
+#### Blank Slate Exercise
+
+Starting with a blank screen what do we add to begin to create a useful solution?
+
+Here I’ve noted down some responses that helped us better understand real needs or problems users had.
+
+- Ability to see more than one project at one time
+- Project with the greatest number of errors
+- Graph of all item levels across a set interval for one project that compares the same data against all projects
+- Number of critical errors for each project
+
+Another exercise I find very helpful is to improvise a conversation with the system itself. This removes the concept of a visual interface or any constructs around data presentation and moves the interaction to a more natural, immediate level.
+   
+#### System Interview
+
+I’ll set the context with a user that they have a voice interface to all their projects, and they can query the system with plain English. I will act as the system and respond appropriately.
+        
+- User: Do I have any projects that are blowing up with errors right now?
+- System: You have two projects with a high number of errors, and 7 projects with a moderate number of errors.
+- User: Are any of those production projects?
+- System: Yes, project A with a high number of errors and project E with a moderate number of errors are production
+- User: When was project A last deployed?
+
+And so on. Letting users imagine a system that knows the answer to any question they have can often return very insightful results because they are unencumbered by considering the current limitations of the system. This allows us to get quickly to real problems that maybe weren’t provided when we asked directly.
+    
+### Affinity mapping
+
+No portfolio is complete without the customary photo of a wall of Post-Its™. Seriously though, this exercise is a very effective way to gain insights from a large sampling of customer input and research.
+
+We very quickly saw three groupings emerge:
+        
+- Metrics/Visualizations/Reporting
+- Alerting/Triage
+- Filtering/Customization
+
+We used these use cases to guide our initial interaction model explorations.
+    
+Rollbar Account Dashboard - customer feedback ready for an affinity mapping exercise
+
+Rollbar Account Dashboard - customer feedback ready for affinity mapping exercise / View Larger Image
+    
+### Research Highlights
+
+Key takeaways from the affinity exercise and user research:
+        
+- Most users have multiple services within their product.
+- They have created a 1:1 mapping between their services and Rollbar projects because that’s the model that works best for them based on the interaction model of our key view, the Items View.
+- Users want a broader context that goes beyond a single Rollbar project.
+- Two important themes emerged:
+    - Reporting: Users want a high-level overview of the state of their entire product in one place.
+    - Triage: Users want real-time updates from multiple projects so that they can identify issues from a single place and ‘jump to them’.
+- A "design win" will be a solution that not only provides a high-level overview of the entire application but encourages investigation and troubleshooting even at this “50,000ft” view.
+    
+### Problem Statement
+
+With everything we learned from talking to customers and analyzing research, we arrived at a very clear problem to be solved.
+
+Rollbar users don’t have adequate visibility into the state of all projects and services across their account and this makes assessing the overall health of their product very cumbersome and difficult.
+
+<span class="link--to-top">TOP</span>
+
+## Ideas & Experiments
+
+From pencil sketches to pen-and-ink wireframes, I generated over 100 rough ideas for how to solve the problems we were trying to solve.
+
+We had numerous review sessions where we covered the wall with rough ideas and then reassembled pieces to create new concepts. At this stage we were less concerned with feasibility but with generating as many completing ideas as possible.
+    
+Rollbar Account Dashboard - early ideation sketch
+
+Rollbar Account Dashboard - early ideation sketch / View Larger Image
+    
+Rollbar Account Dashboard - early ideation low fidelity wireframe
+
+Rollbar Account Dashboard - early ideation low fidelity wireframe / View Larger Image
+
+<span class="link--to-top">TOP</span>
+    
+## Prototyping & User Testing
+    
+### Proof-of-concept reviews with customers
+
+We presented wireframes to customers we had previously interviewed to gather feedback. We also used these sessions to seek a commitment to extended testing once we released the initial beta version to a select group of customers.
+    
+Rollbar Account Dashboard - wireframe of finalized MVP design
+
+Rollbar Account Dashboard - wireframe of finalized MVP design / View Larger Image
+
+We also started exploring how to expose the Account-level view in the global navigation.
+    
+Rollbar Account Dashboard - wireframe with beta dashboard nav
+
+Rollbar Account Dashboard - wireframe with beta dashboard nav / View Larger Image
+
+<span class="link--to-top">TOP</span>
+    
+## Unexpected Insights
+
+Customers did not want to see data for an interval longer than a week.
+    
+## Refining the Design
+
+We had an opportunity to improve the UI and visual design for a few key components. I had recently kicked off a design systems project and wanted to make sure we learned as much as we could about the process of updating existing components and introducing new ones to the design system.
+
+We also had an opportunity to improve the experience around the entry point after initial login. Where prior to this project users would land on the existing dashboard for their last0viewed project, we felt that starting users off on this new cross-project version was the best way to go. This introduced a whole additional project around evolving the primary navigation away from project-based to account-based (which I plan to present a write-up of very soon!)
+
+### Filtering controls
+
+Exploring two variations of the combobox component
+Rollbar Account Dashboard - select combobox concept 1
+
+Rollbar Account Dashboard - select combobox concept 1 / View Larger Image
+Rollbar Account Dashboard - select combobox concept 2
+
+Rollbar Account Dashboard - select combobox concept 2 / View Larger Image
+    
+### Evolving the Global Design System
+
+Refining and documenting net-new components for use in global design system
+
+Rollbar Account Dashboard - combobox filter component documentation for front-end team and design system sprint
+
+Rollbar Account Dashboard - combobox filter component documentation for front-end team and design system sprint / View Larger Image
+    
+### Committing to a New Entry-point
+
+Improving our global empty-state patterns for new users and onboarding
+    
+Rollbar Account Dashboard - empty state for users with no active projects
+
+Rollbar Account Dashboard - empty state for users with no active projects / View Larger Image
+
+<span class="link--to-top">TOP</span>
+    
+## What We Learned
+
+As we evolved the MVP through performing user testing and analyzing user data we came to realize that the reporting and triage use cases were both served very well by the functionality and experience we had converged on for our beta release. This changed the direction of our intended design evolution: rather than providing customizations for each use case that could be optionally enabled on top of the base experience, we committed to adding functionality that would improve the core experience.
+
+<span class="link--to-top">TOP</span>
+    
+## Solution
+ 
+The first release of the Account Dashboard helped Rollbar customers achieve their previously unmet goals immediately. By providing insight into individual trends alongside potential correlated patterns, engineering teams could now quickly see how the performance of various applications and services affects the health of their overall product. When a team can more efficiently triage and solve errors in complex systems they are more effective at maintaining high-quality experience for their users.
+    
+### Basic Critical Error Triage Demo
+
+This video walkthrough presents a simplified task flow for triaging a high impact issue from the account level. The starting point is a wide view across projects, occurrences, and error levels; the user can zero-in on a specific project and environment to isolate a critical error much more quickly than if using multiple Item Views. This is a very simplified example, in a real-world scenario, we would see dozens of projects with a higher likelihood of variance in occurrences across error levels.
+    
+<span class="link--to-top">TOP</span>
+    
+## Upshot
+
+The project was a major win for Rollbar.
+
+First, top customers immediately started telling us even this basic MVP was massively useful to them (qualitative win); customer commitment to product strengthened and attrition numbers quickly decreased, especially among enterprise customers (quantitative win).
+
+Second, isolating specific task flows and simplifying them provided much higher value metrics internally on user behavior across reporting and triage features.
+
+Lastly, new design processes tested in the real world; design team empowered to explore concepts and experiment with features; product and engineering now able to collaborate more seamlessly with design than before.
+
+<span class="link--to-top">TOP</span>
 
 ----
 
