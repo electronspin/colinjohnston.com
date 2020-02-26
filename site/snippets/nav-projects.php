@@ -2,23 +2,19 @@
 
 <li class="c-side-nav__title">Featured Projects</li>
 
-<li <?php echo ($page=='rollbar-account-dashboard' ) ? "class='c-side-nav__item active'" : "class='c-side-nav__item'"; ?>>
-    <a href="/www/projects/rollbar-account-dashboard">
-        <?php echo $rbad ?>
-    </a>
-</li>
+<?php
+// selective items
+// TODO for extensibility, add 'featured' field to projects blueprint and query on that
+$items = page('projects')->children()->listed()->find('rollbar-account-dashboard', 'solono-ci-session-view', 'paul-saffo-website');
+if($items and $items->isNotEmpty()):
+?>
+    
+<?php foreach($items as $item): ?>
+<li <?php e($item->isOpen(), 'class="c-side-nav__item active"') ?> class="c-side-nav__item"><a href="<?= $item->url() ?>"><?= $item->title()->html() ?></a></li>
+<?php endforeach ?>
 
-<li <?php echo ($page=='solanolabs-ci-session-view' ) ? "class='c-side-nav__item active'" : "class='c-side-nav__item'"; ?>>
-    <a href="/www/projects/solanolabs-ci-session-view">
-        <?php echo $slcs ?>
-    </a>
-</li>
+<?php endif ?>
 
-<li <?php echo ($page=='paul-saffo-website' ) ? "class='c-side-nav__item active'" : "class='c-side-nav__item'"; ?>>
-    <a href="/www/projects/paul-saffo-website">
-        <?php echo $psws ?>
-    </a>
-</li>
 
 <!-- More projects -->
 

@@ -28,10 +28,37 @@
       <?php endif ?>
     </header>
 
-    <h1><?= $page->title() ?></h1>
+    <div class="c-project__body"> <!-- TODO change to article -->
 
-    <?= $page->text()->kirbytext() ?>
+    <h1 class="c-project__title animate"><?= $page->title() ?></h1>
 
+    <?= $page->intro()->kirbytext() ?>
+
+    <ul class="o-tabs" data-tab="">
+      <li class="o-tabs__tab-title active">
+        <a href="#overview">Project Overview </a>
+      </li>
+      <li class="o-tabs__tab-title">
+        <a href="#process">Process &amp; Artifacts </a>
+      </li>
+    </ul>
+
+
+    <ul class="o-tabs__tab-content">
+      <li class="active" id="overviewTab">
+        <div class="overview-content">
+          <?= $page->overview()->kirbytext() ?>
+        </div>
+      </li>
+      <li class="" id="processTab">
+        <div class="overview-content">
+          <?= $page->process()->kirbytext() ?>
+        </div>
+      </li>
+    </ul>
+    
+    </div> <!-- end project body -->
+    
     <?php snippet('menu-main') ?>
 
     </main>

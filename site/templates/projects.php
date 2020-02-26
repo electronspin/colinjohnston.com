@@ -11,7 +11,13 @@
 
     <?= $page->text()->kirbytext() ?>
 
-    <?php foreach($page->children()->listed() as $project): ?>
+   
+    
+    <?php 
+    // sorting all listed projects by year field in desc order
+    $projects = page('projects')->children()->listed()->sortBy('year', 'desc'); ?>
+
+    <?php foreach($projects as $project): ?>
 
         <article>
             <h2><?= $project->title()->html() ?></h2>
