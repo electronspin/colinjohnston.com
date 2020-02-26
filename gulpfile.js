@@ -1,4 +1,4 @@
-// gulpfile for colinjohnston-v2
+// gulpfile for colinjohnston-v2 (aka kirby-merge)
 
 var gulp = require('gulp');
 
@@ -15,18 +15,17 @@ var rename       = require('gulp-rename');
 var uglify       = require('gulp-uglify');
 var sourcemaps   = require('gulp-sourcemaps');
 var gutil 			 = require('gulp-util');
-//var addsrc 			 = require('gulp-add-src');
-//var runSequence  = require('run-sequence');
+// var addsrc 			 = require('gulp-add-src');
+// var runSequence  = require('run-sequence');
 var order 			 = require("gulp-order");
 
 var reload = browserSync.reload;
-//var stream = browserSync.stream;
 
 var configs = {
-	connect: { // for gulp-php-connect
-		hostname: '127.0.0.1',
-		port: '8000',
-		base: './',
+	connect: { 
+		hostname: 'colinjohnston.local',
+		port: '80',
+		//base: './public/',
 		stdio: 'ignore'
 	},
 	sass: {
@@ -40,15 +39,20 @@ var configs = {
 			'Firefox ESR',
 			'Opera 12.1' // Update?
 		]
-	}
+	},
+	src: 'src/',
+	dist: 'public/assets/'
 };
 
 var paths = {
-	css: 'stylesheets/css/',
-	//fonts: 'assets/fonts/',
-	//images: 'asasets/images/',
-	js: 'javascripts/src/',
-	scss: 'stylesheets/scss/'
+	src: {
+		scripts: configs.src + 'javascripts/',
+		styles: configs.src + 'stylesheets/'
+	},
+	dist: {
+		scripts: configs.dist + 'js/',
+		styles: configs.dist + 'css/'
+	}	
 };
 
 var scripts = {
@@ -56,13 +60,16 @@ var scripts = {
     src: [
 			// 'bower_components/jquery/dist/jquery.js',
 			'node_modules/lazysizes/lazysizes.js',
-      paths.js + 'foundation.js',
-			paths.js + 'custom.js',
+      paths.src.scripts + 'foundation.js',
+			paths.src.scripts + 'custom.js',
     ]
   }
 };
 
-// Bip on error and display them in 'stylish' style
+// ERRORS
+
+// Beep on error and display them in 'stylish' style
+
 var errorHandler = {
   sass: function () {
     gutil.beep();
@@ -88,8 +95,7 @@ gulp.task('php', reload);
 // STYLES
 
 gulp.task('sass', function() {
-	// return gulp.src(paths.scss + "**/*.scss")
-	return gulp.src(paths.scss + "main.scss")
+	return gulp.src(paths.src.styles + "main.scss")
 		.pipe(plumber({
         errorHandler: function (err) {
           console.log(err.message);
@@ -99,11 +105,11 @@ gulp.task('sass', function() {
 		.pipe(sourcemaps.init())
 		.pipe(sass().on('error', sass.logError))
 		.pipe(autoprefixer(configs.autoprefixer))
-		.pipe(gulp.dest(paths.css))
+		.pipe(gulp.dest(paths.dist.styles))
 		.pipe(nano())
 		.pipe(rename({suffix: '.min'}))
 		.pipe(sourcemaps.write('.'))
-		.pipe(gulp.dest(paths.css))
+		.pipe(gulp.dest(paths.dist.styles))
 		//.pipe(filter('**/*.css'))
 		.pipe(browserSync.stream());
 });
@@ -111,29 +117,18 @@ gulp.task('sass', function() {
 // SCRIPTS
 
 gulp.task('js', function(cb) {
-	// return gulp.src(paths.js + '**/*.js')
-	// 	.pipe(sourcemaps.init())
-	// 	.pipe(order([
-	// 		"foundation.js",
-	// 		"custom.js"
-	// 	]))
 	for (var i in scripts) {
     if ({}.hasOwnProperty.call(scripts, i)) {
       var script = scripts[i];
       var fileName = i + '.js';
-
-      // var dest = 'javascripts';
-      // if (script.template) {
-      //   dest += 'templates/';
-			// }
-			gulp.src(script.src)
+			return gulp.src(script.src)
 				.pipe(sourcemaps.init())
 				.pipe(plumber({errorHandler: errorHandler.js}))
 				.pipe(uglify())
 				.pipe(concat(fileName))
 				.pipe(rename({suffix: '.min'}))
 				.pipe(sourcemaps.write('.'))
-				.pipe(gulp.dest('javascripts'));
+				.pipe(gulp.dest(paths.dist.scripts));
 			}
 		}
 	cb();
@@ -145,8 +140,8 @@ gulp.task('serve', ['sass', 'js'], function() {
 	connect.server(configs.connect, function() {
 		 browserSync.init({
 		 		injectChanges: true,
-				 proxy: configs.connect.hostname + ':' + configs.connect.port,
-				 browser: 'FirefoxDeveloperEdition',
+				proxy: configs.connect.hostname + ':' + configs.connect.port,
+				browser: 'FirefoxDeveloperEdition',
 		 		snippetOptions: {
 		 			ignorePaths: ['panel/**', 'site/accounts/**']
 		 		},
@@ -156,14 +151,13 @@ gulp.task('serve', ['sass', 'js'], function() {
 	
 	gulp.watch([
     './**/*.php',
-    paths.images + '**/*',
-		paths.fonts + '**/*',
-		paths.js + '**/*'
+    // paths.src.images + '**/*', // TODO
+		paths.src.styles + '**/*',
+		paths.src.scripts + '**/*'
 	]).on('change', reload);
 
-	//gulp.watch('./**/*.php', ['php']);
-  gulp.watch(paths.scss + "**/*.scss", ['sass']);
-	gulp.watch([paths.js + '**/*.js', '!**/*.min.js'], ['js']);
+  gulp.watch(paths.src.styles + "**/*.scss", ['sass']);
+	gulp.watch([paths.src.scripts + '**/*.js', '!**/*.min.js'], ['js']);
 
 });
 
