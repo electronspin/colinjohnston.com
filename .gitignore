@@ -42,6 +42,7 @@ node_modules
 node_modules/*
 
 # Compiled CSS
+public/assets/css/*.css
 public/assets/css/*.min.css
 
 # Compiled JS
