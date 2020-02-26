@@ -3,7 +3,13 @@
 <div class="o-sidebar o-layout__grid-item">
 
     <div class="c-branding">
+
+        <?php if ($page->isHomePage()): ?>
+        <h1 class="c-page__site-title"><?= $site->title() ?></h1>
+        <?php else: ?>
         <div class="c-page__site-title"><?= $site->title() ?></div>
+        <?php endif ?>
+
         <a class="c-branding__logo animate" href="/"><img class="c-logo" src="/assets/colinjohnston-logo-DIN.png"
                 alt="Colin Johnston"></a>
         <a href="#" class="open-panel"><span class="svg-icon">
@@ -23,10 +29,10 @@
                 </svg>
             </span></a>
         <ul class="c-side-nav">
-            <?php snippet('nav-projects') ?>  
+            <?php snippet('nav-projects') ?>
         </ul>
     </nav>
-    
+
     <!-- DEBUG - remove when refactor is finished -->
     <span>kirby</span>
     <!-- DEBUG -->
