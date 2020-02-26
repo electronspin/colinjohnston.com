@@ -42,13 +42,13 @@ node_modules
 node_modules/*
 
 # Compiled CSS
-/stylesheets/css/*
+public/assets/css/*.min.css
 
 # Compiled JS
-/javascripts/*.min.js
+public/assets/js/*.min.js
 
 # Sourcemaps
-/javascripts/*.js.map
+public/assets/js/*.js.map
 
 
 #
