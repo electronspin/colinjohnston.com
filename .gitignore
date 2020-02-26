@@ -49,6 +49,7 @@ public/assets/js/*.min.js
 
 # Sourcemaps
 public/assets/js/*.js.map
+public/assets/css/*.css.map
 
 
 #
