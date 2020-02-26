@@ -30,7 +30,10 @@ fields:
   intro:
     type: textarea
     size: small
-  text:
+  overview:
+    type: textarea
+    size: large
+  process:
     type: textarea
     size: large
   
