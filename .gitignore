@@ -56,7 +56,7 @@ public/assets/css/*.css.map
 #
 # Kirby
 #
-
+vendor
 /vendor
 
 /storage/cache/*
