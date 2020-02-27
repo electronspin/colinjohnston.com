@@ -1,0 +1,22 @@
+title: Home Page
+preset: page
+pages: false
+files: false
+
+icon: 🏠
+
+options: 
+  delete: false
+  changeStatus: false
+
+fields:
+  Info:
+    label: The Home page cannot be edited; it is generated entirely by a custom template.
+    type: headline
+    numbered: false
+    width: 1/1
+  # text:
+  #   label: Text
+  #   type: textarea
+  #   size: large
+

@@ -31,6 +31,12 @@ columns:
             default: now
           author:
             type: users
+          featured:
+            label: Featured Post
+            type: toggle
+            # text: Featured
+            default: false
+            help: Featured Posts appear in the main sidebar menu
           tags: true
           gallery:
             type: pages
