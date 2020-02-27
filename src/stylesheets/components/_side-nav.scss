@@ -58,7 +58,7 @@ a.open-panel {
   content: url(/assets/img/icon-eye.svg);
   width: 1.1em;
   height: 1.1em;
-  margin-top: .225em;
+  margin-top: .35em;
   opacity: 0.5;
   margin-left: 0.5em;
 }
@@ -135,7 +135,7 @@ a.open-panel {
   .c-side-nav__title {
     color: #fff;
     letter-spacing: 1px;
-    margin: 0 $global-spacing-unit $global-spacing-unit-xs;
+    margin: $global-spacing-unit $global-spacing-unit $global-spacing-unit-xs;
     &:first-child {
       margin: 0 $global-spacing-unit $global-spacing-unit-xs;
     }
