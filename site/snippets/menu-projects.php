@@ -16,9 +16,7 @@ if($items and $items->isNotEmpty()):
 <?php endif ?>
 
 
-<!-- More projects -->
-
-<li class="show-for-small c-side-nav__title">&nbsp;</li>
+<!-- TEMP More projects -->
 
 <li class="c-side-nav__title">More Projects</li>
 
@@ -44,11 +42,11 @@ if($items and $items->isNotEmpty()):
     </a>
 </li>
 
-<li class="show-for-small c-side-nav__title">&nbsp;</li>
+<!-- <li class="show-for-small c-side-nav__title">&nbsp;</li>
 
 <li class="c-side-nav__item show-for-small">
     <a href="www/connect-and-collaborate">Contact</a>
 </li>
 <li class="c-side-nav__item show-for-small">
     <a href="/">Home</a>
-</li>
+</li> -->

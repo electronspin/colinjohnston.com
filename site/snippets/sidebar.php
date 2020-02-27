@@ -29,15 +29,15 @@
                 </svg>
             </span></a>
         <ul class="c-side-nav">
-            <?php snippet('nav-projects') ?>
+            <?php snippet('menu-projects') ?>
+            <?php snippet('menu-pages') ?>
         </ul>
     </nav>
+    
 
-    <!-- DEBUG - remove when refactor is finished -->
-    <span>kirby</span>
-    <!-- DEBUG -->
 
-    <p class="contact-button hide-for-small"><a class="contact-email" href="/connect-and-collaborate">Contact</a></p>
+
+    <!-- <p class="contact-button hide-for-small"><a class="contact-email" href="/connect-and-collaborate">Contact</a></p> -->
 
 </div>
 <!--end four columns sidebar-->
