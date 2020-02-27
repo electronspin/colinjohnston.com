@@ -14,16 +14,6 @@
       <a href="#" <?= Html::attr('data-reveal-id', [$image->filename()]) ?> >
       <img src="<?= $image->url() ?>" srcset="<?= $image->srcset([800, 1024, 2048]) ?>" />
       </a>
-        <figcaption>
-          <div>
-            <h1><?= $page->headline()->or($page->title()) ?></h1>
-            <?php if($page->intro()->isNotEmpty()): ?>
-            <div class="text">
-              <?= $page->intro()->kt() ?>
-            </div>
-            <?php endif ?>
-          </div>
-        </figcaption>
       </figure>
       <?php endif ?>
     </header>
@@ -58,8 +48,6 @@
     </ul>
     
     </div> <!-- end project body -->
-    
-    <?php snippet('menu-main') ?>
 
     </main>
 
