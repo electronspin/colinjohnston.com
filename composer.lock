@@ -4,8 +4,77 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59feb097cca10e3caaa6054c34e3261f",
+    "content-hash": "5ab5463454db5b9d161ab2e0e32eb0b3",
     "packages": [
+        {
+            "name": "bnomei/kirby3-srcset",
+            "version": "3.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-srcset.git",
+                "reference": "be91c1ded4dec6b260a1915f3e67c9799e3a0486"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-srcset/zipball/be91c1ded4dec6b260a1915f3e67c9799e3a0486",
+                "reference": "be91c1ded4dec6b260a1915f3e67c9799e3a0486",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3.2",
+                "nunomaduro/phpinsights": "^1.8",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^8.3"
+            },
+            "suggest": {
+                "bnomei/kirby3-thumb-imageoptim": "Thumb driver component to automatically optimize images with the ImageOptim API (paid account required)."
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": "tests/kirby"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bnomei\\": "classes/Bnomei"
+                },
+                "files": [
+                    "classes/Kirby/Editor/SrcsetBlock.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "Kirby 3 Plugin for creating lazyloading image srcset",
+            "keywords": [
+                "editor-block",
+                "flickity",
+                "images",
+                "img",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "kirbytag",
+                "lazy",
+                "lazyload",
+                "lazysizes",
+                "load",
+                "loadjs",
+                "lozad.js",
+                "srcset"
+            ],
+            "time": "2020-02-26T13:24:39+00:00"
+        },
         {
             "name": "claviska/simpleimage",
             "version": "3.3.3",
