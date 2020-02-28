@@ -1,21 +1,9 @@
-Caption: Items View, the primary UI for viewing comprehensive project activity
-
-----
-
-Alt: Items View, the primary UI for viewing comprehensive project activity
-
-----
-
-Photographer: 
-
-----
-
-License: 
-
-----
-
-Link: 
+Caption: 
 
 ----
 
 Template: image
+
+----
+
+Sort: 1

@@ -12,7 +12,7 @@
       <figure class="c-imagebox animate">
       <!-- TODO: set data in $page and retrieve for data-reveal-id -->
       <a href="#" <?= Html::attr('data-reveal-id', [$image->filename()]) ?> >
-      <img src="<?= $image->url() ?>" srcset="<?= $image->srcset([800, 1024, 2048]) ?>" />
+      <img src="<?= $image->url() ?>" srcset="<?= $image->srcset('cover') ?>" />
       </a>
       </figure>
       <?php endif ?>
@@ -22,7 +22,7 @@
 
     <h1 class="c-project__title animate"><?= $page->title() ?></h1>
 
-    <?= $page->intro()->kirbytext() ?>
+    <?= $page->intro()->blocks()->html() ?>
 
     <ul class="o-tabs" data-tab="">
       <li class="o-tabs__tab-title active">
@@ -37,12 +37,12 @@
     <ul class="o-tabs__tab-content">
       <li class="active" id="overviewTab">
         <div class="overview-content">
-          <?= $page->overview()->kirbytext() ?>
+        <?= $page->overview()->blocks() ?>
         </div>
       </li>
       <li class="" id="processTab">
         <div class="overview-content">
-          <?= $page->process()->kirbytext() ?>
+          <?= $page->process()->blocks() ?>
         </div>
       </li>
     </ul>

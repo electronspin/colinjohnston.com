@@ -28,14 +28,14 @@ fields:
   tags:
     type: tags
   intro:
-    type: textarea
-    size: small
+    label: Intro
+    type: editor  
   overview:
-    type: textarea
-    size: large
+    label: Overiew
+    type: editor
   process:
-    type: textarea
-    size: large
+    label: Process & Artifacts
+    type: editor
   
 sidebar:
   cover:
