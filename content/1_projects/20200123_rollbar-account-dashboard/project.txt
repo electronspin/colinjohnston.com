@@ -71,7 +71,7 @@ Most Rollbar users are developing products composed of numerous applications and
 
 Rollbar’s data model is built around the concept of a project, so any analysis of services composed of multiple projects is very cumbersome. Most users are opening up multiple Items views with custom filters and then tabbing between them. Some are opening up a few Items views and the Deploy view side-by-side.
 
-(image: ald-items-view.jpg srcset: 400, 800, 1200)
+(image: ald-items-view.jpg)
 
 Items View, the primary UI for viewing comprehensive project activity / View Larger Image
     
