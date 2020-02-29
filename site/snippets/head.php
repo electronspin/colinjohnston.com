@@ -9,8 +9,13 @@
   <?php else: ?>
   <title><?= $page->title() . ' – ' . $site->title() ?></title>
   <?php endif ?>
-
+  
   <link rel="stylesheet" href="/assets/css/main.min.css" >
+  <style>
+    /* lazysrcset */
+    figure { width: 100%; }
+    img[data-sizes="auto"] { display: block; width: 100%; }
+  </style>
   <script src="/assets/js/modernizr.foundation.js"></script>
   <script src="/assets/js/picturefill.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>

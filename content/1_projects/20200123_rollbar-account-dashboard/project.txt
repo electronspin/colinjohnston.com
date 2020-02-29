@@ -176,11 +176,12 @@ Process:
             "caption": "Items View, the primary UI for viewing comprehensive project activity",
             "id": "projects/rollbar-account-dashboard/ald-items-view.jpg",
             "guid": "/pages/projects+rollbar-account-dashboard/files/ald-items-view.jpg",
-            "ratio": 1.1130434782608696
+            "ratio": 1.1130434782608696,
+            "src": "http://colinjohnston.local/media/pages/projects/rollbar-account-dashboard/2481837795-1582847162/ald-items-view.jpg"
         },
         "content": "",
-        "id": "_rytImd1ha",
-        "type": "image"
+        "id": "_cpfphk221",
+        "type": "srcset"
     },
     {
         "attrs": [],
@@ -292,9 +293,15 @@ Process:
     },
     {
         "attrs": [],
+        "content": "<u>Blank Slate Exercises</u>",
+        "id": "_s3qtshsx9",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
         "content": "Blank Slate Exercise",
         "id": "_nzpmxf5lo",
-        "type": "h4"
+        "type": "paragraph"
     },
     {
         "attrs": [],
