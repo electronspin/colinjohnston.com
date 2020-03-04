@@ -74,7 +74,6 @@ Discover > Planning > Concepts > Design > Build
 
 The discovery process was light on deliverables such as a creative brief; Paul had a general idea of what he wanted to change about his website and identity, and I guided us through requirements gathering and conceptual exploration in structured but informal way.
 
-
 ### Research
 
 The original website was not tooled for analytics, so without this data we could not analyze user behaviors that might reveal user flow issues. What I did do, however, is show the existing site to a small group of people and ask them to give me feedback on the old design and overall usability. This was simple to do and gave me a good basis for making fundamental changes to the navigation and content presentation.
@@ -91,13 +90,13 @@ The consensus supporting my observations:
     
 - Simplify logo geometry and apply more emphatic color
 - Re-create icons for larger sizing and hi-DPI displays
-- Develop way to communicate intellect, rationality, inventiveness
+- Develop a way to communicate intellect, rationality, inventiveness
 
 #### Experience
     
 - Reading experience and navigation must be optimized for mobile
-- Reduce complexity of content presentation - focus on Journal and Essays primarily, minimal quotations, etc.
-- Storytelling - maps and diagrams as metaphor for forecasting
+- Reduce the complexity of content presentation - focus on Journal and Essays primarily, minimal quotations, etc.
+- Storytelling - maps and diagrams as a metaphor for forecasting
 
 #### Technical
     
@@ -106,7 +105,7 @@ The consensus supporting my observations:
 - Set up Google Analytics! (And add views/filters for staging).
 
 
-With these notes and various thumbnail design ideas, I could begin Concept phase. First I needed to organize all the input gathered so far, and create a plan.
+With these notes and various thumbnail design ideas, I could begin the Concept phase. First I needed to organize all the input gathered so far, and create a plan.
 
 TOP
 
@@ -132,25 +131,25 @@ TOP
 
 ## Concepts
 
-At this stage I’ve internalized the goals and objectives, both conceptual and technical, and mapped out a structured plan. Now I’m free to diverge out into different methods of creative exploration. This process involves lots of ‘visual gathering’ and recombining elements from designs other mediums, snapshots capturing the look and feel of products or publications I think match the patterns outlined in my conceptual notes. I also look at other content-heavy mobile sites to see which interactions and flows work (and which don’t).
+At this stage, I’ve internalized the goals and objectives, both conceptual and technical, and mapped out a structured plan. Now I’m free to diverge out into different methods of creative exploration. This process involves lots of ‘visual gathering’ and recombining elements from designs other mediums, snapshots capturing the look and feel of products or publications I think match the patterns outlined in my conceptual notes. I also look at other content-heavy mobile sites to see which interactions and flows work (and which don’t).
 
 It’s during this process that I start to converge on type and color choices. I’ll narrow the field down in the design phase.
 
 ### Sketches
 
-I sketch lots of rough ideas. For this project I went quickly to mobile layouts in pencil, working out various ways to present content and devise navigation. Pencil on paper is, for me, the most effective way of thinking through design ideas; I can sketch quickly and allow myself to make ‘mistakes’, and I don’t get too attached to refining a design pattern like I might in Sketch or Illustrator.
+I sketch lots of rough ideas. For this project I went quickly to mobile layouts in pencil, working out various ways to present content and devise navigation. Pencil on paper is, for me, the most effective way of thinking through design ideas; I can sketch quickly and allow myself to make ‘mistakes’, and I don’t get too attached to refining a design pattern as I might in Sketch or Illustrator.
 
 `Early sketches of mobile layouts - I didn't use most of these ideas, but by thinking them through on paper I was able to make better design choices in the next rounds./ View Larger Image`
 
-`Desktop landing page sketches - Evolution towards the final desktop layout. Through these sketches I also revealed the idea for the final mobile layouts. / View Larger Image`
+`Desktop landing page sketches - Evolution towards the final desktop layout. Through these sketches, I also revealed the idea for the final mobile layouts. / View Larger Image`
 
 `Later sketches of mobile layouts - Tightening up the layouts, with notes on things to leave out in the mockups. / View Larger Image`
 
 One thing I’ve learned as a designer is the importance of setting aside these sketches for a few days and reviewing them with fresh eyes later. Sometimes what seemed like the best idea seems incomplete or too busy and can be improved (or completely rejected in favor of a new idea). This is the time to figure this out, not once I’ve done hi-fidelity mockups or a prototype (although prototypes often lead to substantial revision, too).
 
-While the sketches are out of sight and mind, I looked my type and color ideas and gathered all my image resources to prepare for assembling complete designs.
+While the sketches are out of sight and mind, I looked at my type and color ideas and gathered all my image resources to prepare for assembling complete designs.
 
-At this stage of the project I typically present the work done so far to get feedback from my client. For this project, Paul requested that I develop and present a single recommended design. (Yikes! What if he hated it?). This method means fewer presentations, but we also run the risk of skipping important artifacts. Although I knew I wouldn’t be presenting them for feedback, I created style boards to explore and document the choices leading up to the recommended design. For me it’s an essential part of developing early concepts because they show the proposed visual style, separate from content and structure. It also really helps to print them out and tape them up on the wall so I can stay focused while working on designs.
+At this stage of the project, I typically present the work done so far to get feedback from my client. For this project, Paul requested that I develop and present a single recommended design. (Yikes! What if he hated it?). This method means fewer presentations, but we also run the risk of skipping important artifacts. Although I knew I wouldn’t be presenting them for feedback, I created style boards to explore and document the choices leading up to the recommended design. For me, it’s an essential part of developing early concepts because they show the proposed visual style, separate from content and structure. It also really helps to print them out and tape them up on the wall so I can stay focused while working on designs.
 
 ## Style Boards
 
@@ -162,13 +161,13 @@ TOP
 
 ### Why no Wireframes?
 
-Typically at this stage I would construct detailed wireframes that specify the structure of the interface, and, for more complex interfaces, show indications of how interactions might work. (For very complex interfaces this is an ideal stage to begin anticipating how the actual front-end will be structured, and mapping out data points, etc.). As a team of one I didn’t need to present this level of detail for review, so I took the pencil sketches and began to frame out the base structures directly in Sketch.
+Typically at this stage, I would construct detailed wireframes that specify the structure of the interface, and, for more complex interfaces, show indications of how interactions might work. (For very complex interfaces this is an ideal stage to begin anticipating how the actual front-end will be structured, and mapping out data points, etc.). As a team of one, I didn’t need to present this level of detail for review, so I took the pencil sketches and began to frame out the base structures directly in Sketch.
 
 ### Mockups
 
-Mockups are where I start to assemble conceptual choices and begin to merge content, structure and style to create a cohesive design for presentation.
+Mockups are where I start to assemble conceptual choices and begin to merge content, structure, and style to create a cohesive design for presentation.
 
-I get to dial in type styles for headings and body text, and begin looking at type scale (ratio of sizes from body text up to main headers). I apply colors first to structural elements, and then set up a consistent color pattern for links and other interactions.
+I get to dial in type styles for headings and body text and begin looking at type scale (ratio of sizes from body text up to main headers). I apply colors first to structural elements and then set up a consistent color pattern for links and other interactions.
 
 `Mockups - Designing the desktop and mobile views side-by-side in Sketch. / View Larger Image`
 
@@ -184,7 +183,7 @@ Paul loved my proposed design, so we needed to add in the final piece of experie
 
 I recommended that I move ahead building out the site, while we also collaborated on the header images. This worked out well because I could quickly swap in different images to live layouts and post screenshots of different ideas for review.
 
-I wanted images that reinforce the content of the corresponding section, so I picked those out first. Based on my type and color choices I was looking to create a specific feel through composition and tone. In Photoshop I cropped each selection to bring out a single point of focus, and then created adjustment filters to get the feel right for the overall design.
+I wanted images that reinforce the content of the corresponding section, so I picked those out first. Based on my type and color choices I was looking to create a specific feel through composition and tone. In Photoshop I cropped each selection to bring out a single point of focus and then created adjustment filters to get the feel right for the overall design.
 
 `Final Designs - Photo art direction for page header images. / View Larger Image`
 
@@ -196,29 +195,29 @@ One of the things I love about ‘agency of one’ projects like this is that I 
 
 ### Platform
 
-I built the new website in WordPress, and created a custom theme from scratch using the awesome Sage ’starter theme’ built by the team at Roots. I have lots of experience building with WordPress, but in recent years I’ve also worked a lot with Ruby on Rails developers and so I’ve come to rely on things like partials and an asset pipeline. Sage brings a more modern front-end development workflow to WordPress. It doesn’t contain any design or templates, but it does ship with Bootstrap assets built in. So I forked my own version of Sage that strips all this out; I developed my own custom styles and page templates to have complete control over the front-end.
+I built the new website in (link: https://wordpress.org/ text: WordPress) and created a custom theme from scratch using the awesome (link: https://roots.io/sage/ text: Sage) ’starter theme’ built by the team at Roots. I have lots of experience building with WordPress, but in recent years I’ve also worked a lot with Ruby on Rails developers and so I’ve come to rely on things like partials and an asset pipeline. Sage brings a more modern front-end development workflow to WordPress. It doesn’t contain any design or templates, but it does ship with Bootstrap assets built-in. So I forked my own version of Sage that strips all this out; I developed my own custom styles and page templates to have complete control over the front-end.
 
 ### Front-end
 
-I love CSS, and I really love the Sass preprocessor; variables and mixins make my workflow so much more efficient. But one of the challenges of Sass is the discipline require to make sure my styles are easily maintainable, and that my CSS output is not a snarled mess.
+I love CSS, and I really love the Sass preprocessor; variables and mixins make my workflow so much more efficient. But one of the challenges of Sass is the discipline required to make sure my styles are easily maintainable, and that my CSS output is not a snarled mess.
 
 I use a methodology for my stylesheet architecture developed by Harry Roberts that combines BEM-like syntax with ITCSS (‘Inverted Triangle CSS’). ITCSS is based on the fact that the specificity of styles descend from least to most specific, and proposes that styles should be structured within this hierarchy in a modular way to allow for greater flexibility. The short pitch for this approach is that it keeps the stylesheets more readable, and allows for changes to be made to areas of the UI without fear of breaking another area.
 
-`Front End - I created a Sass mixin that work with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue.`
+`Front End - I created a Sass mixin that works with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue.`
 
 ### Interactions
 
-My goal for interactions is to create them in pure CSS if possible; not using JavaScript for a menu dropdown means there’s just a little less code to send to the browser. But in some cases using JavaScript helps me avoid a more time-consuming process of create CSS-only interactions the work in older browsers (which is often just not going to happen).
+My goal for interactions is to create them in pure CSS if possible; not using JavaScript for a menu dropdown means there’s just a little less code to send to the browser. But in some cases using JavaScript helps me avoid a more time-consuming process of creating CSS-only interactions the work in older browsers (which is often just not going to happen).
 
 The mobile menu toggle is an example of a UI animation that is CSS-only; the mobile menu itself is enabled using base jQuery to toggle visibility.
 
-`Interaction Design - Detail of mobile menu animation created with pure CSS. I added 'show' and 'hide ' text to the increase usability.`
+`Interaction Design - Detail of mobile menu animation created with pure CSS. I added the 'show' and 'hide ' text to increase usability.`
 
 ### Development Tools
 
 Because I really like this aspect of any project, here are some notes on my workflow setup:
 
-- I run WordPress locally in a Docker container within a Vagrant box using the aptly named Wocker.
+- I run WordPress locally in a Docker container within a Vagrant box using the aptly named (link: https://wckr.github.io/ text: Wocker).
 - I write Sass and build the PHP templates in Sublime Text 2.
 - I handle asset, script, and stylesheet processing with the build tool Gulp, with the indispensable BrowserSync to display updates across different device screens.
 - I push often to a staging server using rsync, and I commit constantly to a git repo to keep work safe and versioned.
@@ -231,7 +230,7 @@ During the entire build, and again before releasing the final site to production
 
 I had decided support for Android 2.3 stock browsers was essential, but I rejected the notion of supporting Internet Explorer 8 and below. Hard to believe the day is finally here, but there are fewer active IE8 users than Android 2.3 users!
 
-The main issues I tested for were layout issues, and making sure the PNG fallbacks for the SVG graphics were loading on the devices the can’t handle SVGs.
+The main issues I tested for were layout issues, and making sure the PNG fallbacks for the SVG graphics were loading on the devices that can’t handle SVGs.
 
 TOP
 
@@ -243,7 +242,7 @@ Sketches and vector artwork for new site navigation icons.
 
 The new icons were based closely on very small 16-pixel wide GIF files used in Paul's older website. I set out to re-design each icon to be optically balanced at a wide range of sizes.
 
-`Icon Sketches - Exploring the geometry of the About Icon before going in to Illustrator. Sketching like this in pencil helps me really think through the details. / View Larger Image
+`Icon Sketches - Exploring the geometry of the About Icon before going into Illustrator. Sketching like this in pencil helps me really think through the details. / View Larger Image
 Vectors`
 
 I created Illustrator files and then exported to SVG.

@@ -3,3 +3,22 @@ Title: About Me
 ----
 
 Text: Test
+
+----
+
+Gallery: 
+
+----
+
+Social:
+
+- 
+  platform: LinkedIn
+  url: >
+    https://www.linkedin.com/in/colinleejohnston
+- 
+  platform: Twitter
+  url: https://twitter.com/colinjohnston
+- 
+  platform: Dribbble
+  url: https://dribbble.com/colinjohnston
