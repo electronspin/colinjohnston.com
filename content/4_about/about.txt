@@ -2,11 +2,17 @@ Title: About Me
 
 ----
 
-Text: Test
+Text:
+
+Test
+
+(image: colin-connect-2018.jpg)
 
 ----
 
-Gallery: 
+Gallery:
+
+- colin-connect-2018.jpg
 
 ----
 
