@@ -1,12 +1,11 @@
 type: pages
-headline: Projects
+headline: Pages
 layout: default
-parent: kirby.page("projects")
+parent: kirby.page("pages")
 info: "{{ page.date.toDate('m.d.Y') }}"
-template: project
+# template: project
 empty: No projects yet
 sortBy: date desc
-limit: 10
 image:
   query: page.images.template("cover").first
   ratio: 3/2

@@ -2,60 +2,38 @@ title: Site
 
 tabs:
 
+  # tab 1
   main:
 
-    label: Pages Dashboard
-    icon: page
+    label: Content 
+    icon: preview
 
     columns:
-            - width: 1/1
-                sections:  
+            - width: 1/2
+                sections:
+                  projects: sections/projects
+ 
                   pages:
                     type: pages
                     create: default
+                    image: false
+                    # -- pages shown by template
                     template:
                       - home
                       - about
                       - contact
                       - default
+                    # -- available templates for new pages
+                    create:
+                      - default
 
-  
-  projects:
-
-      label: Projects Dashboard 
-      icon: preview
-
-      columns:
-            - width: 1/1
-              sections:
-                projects: sections/projects
-            # - width: 1/2
-            #   sections:
-
-
-  content:
-
-      label: Content Dashboard
-      icon: text
-
-      columns:
             - width: 1/2
-              sections:
-                articles: sections/articles
-            - width: 1/2
-              sections:
-                notes: sections/notes
+                sections:
+                  notes: sections/notes
 
-            # - width: 1/1  
-            #   sections:  
-            #     pages:
-            #       type: pages
-            #       create: default
-            #       template:
-            #         - home
-            #         - about
-            #         - contact
+                  articles: sections/articles
 
+  # tab 2
   siteinfo:
 
       label: Site Info
@@ -73,7 +51,7 @@ tabs:
                 description:
                   label: Description
                   type:  textarea
-                  size: medium
+                  size:  medium
         - width: 1/2
           sections:
             content2:

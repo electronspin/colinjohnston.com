@@ -7,3 +7,4 @@ info: "{{ page.date.toDate('d.m.Y') }}"
 template: article
 empty: No articles yet
 sortBy: date desc
+limit: 10
