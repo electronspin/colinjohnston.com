@@ -30,6 +30,7 @@
             </span></a>
         <ul class="c-side-nav">
             <?php snippet('menu-projects') ?>
+            <?php snippet('menu-posts') ?>
             <?php snippet('menu-pages') ?>
         </ul>
     </nav>
