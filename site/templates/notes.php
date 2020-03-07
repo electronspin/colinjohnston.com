@@ -5,9 +5,9 @@
 
     <?php snippet('sidebar') ?>
 
-    <main id="content" class="o-content o-layout__grid-item">
+    <main id="content" class="o-content o-layout__grid-item c-page">
 
-    <h1><?= $page->title() ?></h1>
+    <h1 class="c-page__title"><?= $page->title() ?></h1>
 
     <?= $page->text()->kirbytext() ?>
 
@@ -16,12 +16,12 @@
       <article>
           <h2><?= $note->title()->html() ?></h2>
           <p><?= $note->text()->excerpt(100) ?></p>
-          <a href="<?= $note->url() ?>">Read more…</a>
+          <a href="<?= $note->url() ?>">Read more &rarr;</a>
       </article>
 
     <?php endforeach ?>
 
-    <?php snippet('menu-main') ?>
+    <!-- <?php snippet('menu-main') ?> -->
 
     </main>
 

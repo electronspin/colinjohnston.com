@@ -5,9 +5,9 @@
 
     <?php snippet('sidebar') ?>
 
-    <main id="content" class="o-content o-layout__grid-item">
+    <main id="content" class="o-content o-layout__grid-item c-page">
 
-    <h1><?= $page->title() ?></h1>
+    <h1 class="c-page__title"><?= $page->title() ?></h1>
 
     <?= $page->text()->kirbytext() ?>
 
@@ -21,13 +21,27 @@
 
         <article>
             <h2><?= $project->title()->html() ?></h2>
-            <p><?= $project->text()->excerpt(300) ?></p>
-            <a href="<?= $project->url() ?>">Read more…</a>
+
+            <?php if ($image = $project->images()->findBy('template', 'cover')): ?> 
+            <figure class="c-imagebox animate">
+            <!-- TODO: set data in $page and retrieve for data-reveal-id -->
+            <a href="#" <?= Html::attr('data-reveal-id', [$image->filename()]) ?> >
+            <img class="lazyload" src="<?= $image->url() ?>" srcset="<?= $image->srcset([800, 1024, 2048]) ?>" />
+            </a>
+            </figure>
+            <?php endif ?>
+
+            <p><?= 
+            // $project->text()->excerpt(300) 
+            $project->intro()
+            ?></p>
+
+            <p><a href="<?= $project->url() ?>">Read more &rarr;</a></p>
         </article>
 
     <?php endforeach ?>
 
-    <?php snippet('menu-main') ?>
+    <!-- <?php snippet('menu-main') ?> -->
 
     </main>
 
