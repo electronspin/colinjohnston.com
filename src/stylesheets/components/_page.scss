@@ -39,6 +39,15 @@
 }
 
 // Duplicates `page-project.scss` instance 
+.c-page h2 {
+  color: $dark-text-color;
+  @include font-size(24px, 32px);
+  font-weight: 600;
+  letter-spacing: -0.017em; // 20px
+
+}
+
+// Duplicates `page-project.scss` instance 
 .c-page h3 {
   color: $dark-text-color;
   font-weight: 400;
@@ -102,5 +111,15 @@
   }
   .c-imagebox {
     margin-bottom: $global-spacing-unit;
+  }
+}
+
+
+// TEMP TODO 
+// .c-page__article--project ?
+.c-page article {
+  margin: 0 0 $global-spacing-unit-lg;
+  &:first-of-type {
+    margin-top: $global-spacing-unit-lg;
   }
 }
