@@ -38,8 +38,18 @@ Date: 2019-09-02 21:50
 
 ----
 
-Author: - colin@colinjohnston.com
+Author:
+
+- ZHFwwqKd
+
+----
+
+Featured: true
 
 ----
 
 Tags: 
+
+----
+
+Gallery: 

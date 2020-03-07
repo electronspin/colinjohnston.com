@@ -2,4 +2,26 @@ Title: Contact
 
 ----
 
-Text: 
+Text:
+
+Placeholder for contact form.
+
+Typeform?
+
+Kirby Plugin?
+
+----
+
+Address: 
+
+----
+
+Email: 
+
+----
+
+Phone: 
+
+----
+
+Social: 
