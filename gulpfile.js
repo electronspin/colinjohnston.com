@@ -137,7 +137,7 @@ gulp.task('js', function(cb) {
 // SERVE
 
 gulp.task('serve', ['sass', 'js'], function() {
-	connect.server(configs.connect, function() {
+	// connect.server(configs.connect, function() {
 		 browserSync.init({
 		 		injectChanges: true,
 				proxy: configs.connect.hostname + ':' + configs.connect.port,
@@ -146,7 +146,7 @@ gulp.task('serve', ['sass', 'js'], function() {
 		 			ignorePaths: ['panel/**', 'site/accounts/**']
 		 		},
 		 });
-	});
+	// });
 
 	
 	gulp.watch([

@@ -4,9 +4,16 @@ Title: About Me
 
 Text:
 
-Test
+## Test Image - image
+
+class: lazyload imgclass: test
+class should be applied to `<picture>` element; imgclass should be applied to `<img>`
 
 (image: colin-connect-2018.jpg class: lazyload imgclass: test)
+
+## Test Image 2 - lazysrcset
+
+(lazysrcset: colin-connect-2018.jpg)
 
 ----
 
