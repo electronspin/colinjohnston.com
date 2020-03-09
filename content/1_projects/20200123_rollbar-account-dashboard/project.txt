@@ -44,6 +44,8 @@ Starting with a simple research-driven proof-of-concept that aggregated project 
 - Present a clear visual representation of the health of selected projects.
 - Surface all filters available in the individual project view, making it easy for teams to drill down into issues across languages, environments, and error levels.
 
+(lazysrcset: ald-items-view.jpg)
+
 ## Outcome
 
 The first release of the Account Dashboard helped Rollbar customers achieve their previously unmet goals immediately. By providing insight into individual trends alongside potential correlated patterns, engineering teams could now quickly see how the performance of various applications and services affects the health of their overall product. When a team can more efficiently triage and solve errors in complex systems they are more effective at maintaining high-quality experience for their users.
@@ -71,7 +73,7 @@ Most Rollbar users are developing products composed of numerous applications and
 
 Rollbar’s data model is built around the concept of a project, so any analysis of services composed of multiple projects is very cumbersome. Most users are opening up multiple Items views with custom filters and then tabbing between them. Some are opening up a few Items views and the Deploy view side-by-side.
 
-(image: ald-items-view.jpg)
+(lazysrcset: ald-items-view.jpg)
 
 Items View, the primary UI for viewing comprehensive project activity / View Larger Image
     

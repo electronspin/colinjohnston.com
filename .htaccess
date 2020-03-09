@@ -3,15 +3,3 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
-# RewriteRule ^journal/(.*)$ blog/journal/$1 [L]
-# RewriteRule ^notes/(.*)$ blog/notes/$1 [L]
-# RewriteRule ^panel/(.*)$ blog/panel/$1 [L]
-# RedirectMatch ^/blog/$ /journal/
-
-# RewriteRule ^journal blog/journal [L]
-# RewriteRule ^notes blog/notes [L]
-# RewriteRule ^panel blog/panel [L]
-
-# Comment out for MAMP 
-# TODO figure out solution that works across all servers
-# AddHandler php5-script .php

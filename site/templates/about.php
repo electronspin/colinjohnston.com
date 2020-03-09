@@ -11,8 +11,6 @@
 
     <?= $page->text()->kirbytext() ?>
 
-    <!-- <?php snippet('menu-main') ?> -->
-
     </main>
 
     <?php snippet('footer') ?>

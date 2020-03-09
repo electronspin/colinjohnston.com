@@ -36,7 +36,7 @@
     "jshint": "^2.11.0"
   },
   "dependencies": {
-    "lazysizes": "^4.1.8",
+    "lazysizes": "^5.2.0",
     "node-sass": "^4.13.1",
     "npm-check-updates": "^3.2.2"
   }
