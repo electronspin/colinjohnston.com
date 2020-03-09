@@ -10,7 +10,7 @@ To install:
 
 To run:
 
-Confiured to use MAMP PRO with a host at `colinjohnston.local` (port 80)
+Confiured to use MAMP PRO with a host at `colinjohnston.local` (port 80) serving from `./public` directory.
 
 To watch JS & SCSS changes:
 
