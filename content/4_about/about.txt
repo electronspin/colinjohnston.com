@@ -11,11 +11,15 @@ class should be applied to `<picture>` element; imgclass should be applied to `<
 
 (image: colin-connect-2018.jpg class: lazyload imgclass: test)
 
+## Markdown Extra Test {.testclass}
+
 ## Test Image 2 - lazysrcset
 
 (lazysrcset: colin-connect-2018.jpg)
 
 Text
+
+## Markdown Extra Test {.testclass}
 
 ----
 

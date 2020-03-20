@@ -4,7 +4,7 @@ return [
   'debug' => true,
   'url' => 'http://colinjohnston.local',
   'markdown' => [
-    'extra' => true
+    'extra' => true,
   ],
   'thumbs' => [
     'srcsets' => [
