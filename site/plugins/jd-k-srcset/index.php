@@ -33,21 +33,38 @@ Kirby::plugin('colin-johnston/jd-k-srcset', [
 
                 $pattern = '/<img.*?>/i';
 
-            // build a new image tag with the srcset
-            $image = Html::img($tag->src, [
-                'width' => $tag->width,
-                'height' => $tag->height,
-                'class' => $tag->imgclass,
-                'title' => $tag->title,
-                'alt' => $tag->alt ?? ' ',
-                'srcset' => $file->srcset($srcset),
-            ]);
+                // check to see if we have lazysizes on or not
+                // ugly way to get `data-` prefix, basically
+                if (! option('lazysizes') || option('lazysizes') === false) {
+                    $srctag = 'src';
+                    $srcsettag = 'srcset';
+                } else {
+                    $srctag = 'data-src';
+                    $srcsettag = 'data-srcset';
+                }
 
-            // replace the old image tag
-            $result = preg_replace($pattern, $image , $result);
+                // build a new image tag with the srcset 
+                $image = Html::img($tag->src, [
+                    'width' => $tag->width,
+                    'height' => $tag->height,
+                    'class' => $tag->imgclass,
+                    'title' => $tag->title,
+                    'alt' => $tag->alt ?? ' ',
+                    // 'srcset' => $file->srcset($srcset), [see note 1]
+                    // the following are ignored if they duplicate src and scrset, added if not
+                    // there's got to be ab tter way to do this...
+                    strval($srctag) => $tag->src,
+                    strval($srcsettag) => $file->srcset($srcset),
+                    // [note 1] for some reason if set of data-src and data-srcset are generated, 
+                    // I also get a `srcset` even though I'm not explicitily generating it. Confused.
+                ]);
 
-            return $result;
+                // replace the old image tag
+                $result = preg_replace($pattern, $image , $result);
+
+                return $result;
             }
         ]
     ]
 ]);
+

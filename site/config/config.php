@@ -3,6 +3,7 @@
 return [
   'debug' => true,
   'url' => 'http://colinjohnston.local',
+  'lazysizes' => true,
   'markdown' => [
     'extra' => true
   ],

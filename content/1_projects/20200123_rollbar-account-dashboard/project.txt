@@ -59,6 +59,8 @@ Demo
 
 You can view a limited demo of the Account Dashboard in the Rollbar Demo account here.
 
+(image: ald-items-view.jpg imgclass: lazyload)
+
 ----
 
 Process:
