@@ -6,7 +6,7 @@ Text:
 
 Test
 
-(image: colin-connect-2018.jpg class: lazyload imgclass: test)
+(image: colin-connect-2018.jpg imgclass: lazyload)
 
 ----
 
