@@ -12,6 +12,6 @@ RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 # RewriteRule ^notes blog/notes [L]
 # RewriteRule ^panel blog/panel [L]
 
-# Comment out for MAMP 
-# TODO figure out solution that works across all servers
-# AddHandler php5-script .php
+# BEGIN (mt) controlled settings
+AddHandler php-latest .php
+# END (mt) controlled settings
