@@ -38,7 +38,7 @@ In addition to the identity and visual design, my goal was to provide a straight
 
 ## Approach
 
-Working from Paul’s previous website I refined it’s more complex user interface down to it’s essentials, enhancing usability and setting the stage for a more focused and prominent identity.
+Working from Paul’s previous website I refined it’s more complex user interface down to its essentials, enhancing usability and setting the stage for a more focused and prominent identity.
 
 One of the biggest improvements over the previous design is a much more simplified landing page; now, instead of quotations and an unclear path to the main content, the first screen users see shows the most recent journal entry and a featured essay from his archives.
 
@@ -48,15 +48,15 @@ Along with this I redesigned his logo, simplifying the typography and selecting 
 
 My design strategy for the interface design was to frame the entire site in the updated identity, which is anchored by the new logo, but supported by the icons and updated color scheme. Then, for each section, I frame the content with a large header image that signals what is in that section. Some of these are very literal; others are ‘stories’ that become more clear once you acquire knowledge of Paul’s content.
 
-Typography and color are core design elements of the new design. I selected two typefaces, one for headers and one for the body text. I chose Aller for the headings for it’s unique and inventive visual rhythm; I chose Acumin Pro for the body text for its high legibility and impression of rationality and clarity. The color palette is built around the logo color. The background (on desktop) is a cool dark gray, which optically recedes behind the main content area; the sidebar is a warm light gray, with a slight green hue to provide subtle contrast to the red of the logo and the icons.
+Typography and color are core design elements of the new design. I selected two typefaces, one for headers and one for the body text. I chose Aller for the headings for its unique and inventive visual rhythm; I chose Acumin Pro for the body text for its high legibility and impression of rationality and clarity. The color palette is built around the logo color. The background (on desktop) is a cool dark gray, which optically recedes behind the main content area; the sidebar is a warm light gray, with a slight green hue to provide subtle contrast to the red of the logo and the icons.
 
-I built the website as a completely custom theme for WordPress, using a blank Sage starter theme; by not using even a small portion of a UI framework such as Bootstrap, or any prebuilt templates, I was able to keep the code very lean, and keep the ’page weight’ down for slower networks (and it’s been so much easier to maintain!)
+I built the website as a completely custom theme for WordPress, using a blank Sage starter theme; by not using even a small portion of a UI framework such as Bootstrap, or any prebuilt templates, I could keep the code very lean, and keep the ’page weight’ down for slower networks (and it’s been so much easier to maintain!)
 
 ## Outcome
 
 I created a website that presents a strong update to Paul’s identity, and frames his content with a graphical richness and elements of storytelling. It delivers a very pleasing and approachable user experience that’s highly performant and accessible across a wide array of devices.
 
-Paul is extremely happy with the results.
+Paul is delighted with the results.
 
 Visit the site: www.saffo.com
 
@@ -82,7 +82,7 @@ The consensus supporting my observations:
 
 - The landing page with a multi-panel narrative revealed only by hovering small elements was not discoverable or impactful.
 - Users wanted to quickly look at recent journal entry, or get to his essays and interviews; the journal index link/view was more confusing than helpful.
-- The colors were washed out, the graphics were blurry, and the type was too small (we we’re acutely aware of this already).
+- The colors were washed out, the graphics were blurry, and the type was too small (we were acutely aware of this already).
 
 ### Requirements & Creative Notes
 
@@ -107,11 +107,11 @@ The consensus supporting my observations:
 
 With these notes and various thumbnail design ideas, I could begin the Concept phase. First I needed to organize all the input gathered so far, and create a plan.
 
-TOP
+<span class="link--to-top">TOP</span>
 
 ## Planning
 
-Since we had collaborated previously on website design for another venture, he knew I had a solid process and we could keep things lean; he didn’t need a ton of documentation of our decisions, just iterative progress towards the final product.
+Since we had collaborated previously on website design for another venture, he knew I had a solid process, and we could keep things lean; he didn’t need a ton of documentation of our decisions, just iterative progress towards the final product.
 
 But even when I’m working on a complete project as a team of one, I still like to map out how I’m going to get from A to B. It looks something like this:
 
@@ -121,13 +121,13 @@ A. Logo | B. Icons | C. Website
 1 - Rough B&W Designs | 1 - Rough B&W Designs | 1 - Mobile Sketches
 2 - ‘Final’ B&W with Type | 2 - Desktop Sketches
 3 - Final Color version (present for approval) | 3 - Final Vectors (present for approval) | 3 - Color and Type explorations (not presented)
-4 - Generate SVG (to web assets) | 4 - Generate SVGs (to web assets) | 4 - Mockups (present for approval)
+4 - Generate SVG (to web assets) | 4 - Generate SVGs (to web assets) | 4 - Mock-ups (present for approval)
 | 5 - All formats for delivery at end of project | | 5 - Build page templates
 | | | 6 - Write stylesheets |
 
-As I worked through each piece in sequence, I present the work on a private client website. I like to keep the presentations available in one place throughout the entire project so we can easily refer back to decisions and their rationales.
+As I worked through each piece in sequence, I present the work on a private client website. I like to keep the presentations available in one place throughout the entire project, so we can easily refer to decisions and their rationales.
 
-TOP
+<span class="link--to-top">TOP</span>
 
 ## Concepts
 
@@ -137,45 +137,45 @@ It’s during this process that I start to converge on type and color choices. I
 
 ### Sketches
 
-I sketch lots of rough ideas. For this project I went quickly to mobile layouts in pencil, working out various ways to present content and devise navigation. Pencil on paper is, for me, the most effective way of thinking through design ideas; I can sketch quickly and allow myself to make ‘mistakes’, and I don’t get too attached to refining a design pattern as I might in Sketch or Illustrator.
+I sketch lots of rough ideas. For this project, I went quickly to mobile layouts in pencil, working out various ways to present content and devise navigation. Pencil on paper is, for me, the most effective way of thinking through design ideas; I can sketch quickly and allow myself to make ‘mistakes’, and I don’t get too attached to refining a design pattern as I might in Sketch or Illustrator.
 
-`Early sketches of mobile layouts - I didn't use most of these ideas, but by thinking them through on paper I was able to make better design choices in the next rounds./ View Larger Image`
+(lazysrcset: saffo-website-sketches-1.jpg caption: Early sketches of mobile layouts - I didn't use most of these ideas, but by thinking them through on paper I could make better design choices in the next rounds)
 
-`Desktop landing page sketches - Evolution towards the final desktop layout. Through these sketches, I also revealed the idea for the final mobile layouts. / View Larger Image`
+(lazysrcset: saffo-website-sketches-2.jpg caption: Desktop landing page sketches - Evolution towards the final desktop layout. Through these sketches, I also revealed the idea for the final mobile layouts. / View Larger Image)
 
-`Later sketches of mobile layouts - Tightening up the layouts, with notes on things to leave out in the mockups. / View Larger Image`
+(lazysrcset: saffo-website-sketches-3.jpg caption: Later sketches of mobile layouts - tightening up the layouts, with notes on things to leave out in the mock-ups. / View Larger Image)
 
-One thing I’ve learned as a designer is the importance of setting aside these sketches for a few days and reviewing them with fresh eyes later. Sometimes what seemed like the best idea seems incomplete or too busy and can be improved (or completely rejected in favor of a new idea). This is the time to figure this out, not once I’ve done hi-fidelity mockups or a prototype (although prototypes often lead to substantial revision, too).
+One thing I’ve learned as a designer is the importance of setting aside these sketches for a few days and reviewing them with fresh eyes later. Sometimes what seemed like the best idea seems incomplete or too busy and can be improved (or completely rejected in favor of a new idea). This is the time to figure this out, not once I’ve done hi-fidelity mock-ups or a prototype (although prototypes often lead to substantial revision, too).
 
 While the sketches are out of sight and mind, I looked at my type and color ideas and gathered all my image resources to prepare for assembling complete designs.
 
 At this stage of the project, I typically present the work done so far to get feedback from my client. For this project, Paul requested that I develop and present a single recommended design. (Yikes! What if he hated it?). This method means fewer presentations, but we also run the risk of skipping important artifacts. Although I knew I wouldn’t be presenting them for feedback, I created style boards to explore and document the choices leading up to the recommended design. For me, it’s an essential part of developing early concepts because they show the proposed visual style, separate from content and structure. It also really helps to print them out and tape them up on the wall so I can stay focused while working on designs.
 
-## Style Boards
+### Style Boards
 
-`Style Board - TBD / View Larger Image`
+(lazysrcset: saffo-styleboards.jpg caption: Style Board - TBD / View Larger Image)
 
-TOP
+<span class="link--to-top">TOP</span>
 
 ## Design
 
 ### Why no Wireframes?
 
-Typically at this stage, I would construct detailed wireframes that specify the structure of the interface, and, for more complex interfaces, show indications of how interactions might work. (For very complex interfaces this is an ideal stage to begin anticipating how the actual front-end will be structured, and mapping out data points, etc.). As a team of one, I didn’t need to present this level of detail for review, so I took the pencil sketches and began to frame out the base structures directly in Sketch.
+Typically, at this stage, I would construct detailed wireframes that specify the structure of the interface, and, for more complex interfaces, show indications of how interactions might work. (For very complex interfaces this is an ideal stage to begin anticipating how the actual front-end will be structured, and mapping out data points, etc.). As a team of one, I didn’t need to present this level of detail for review, so I took the pencil sketches and began to frame out the base structures directly in Sketch.
 
-### Mockups
+### Mock-ups
 
-Mockups are where I start to assemble conceptual choices and begin to merge content, structure, and style to create a cohesive design for presentation.
+Mock-ups are where I start to assemble conceptual choices and begin to merge content, structure, and style to create a cohesive design for presentation.
 
 I get to dial in type styles for headings and body text and begin looking at type scale (ratio of sizes from body text up to main headers). I apply colors first to structural elements and then set up a consistent color pattern for links and other interactions.
 
-`Mockups - Designing the desktop and mobile views side-by-side in Sketch. / View Larger Image`
+(lazysrcset: saffo-design-sketch-1.jpg caption: Mock-ups - designing the desktop and mobile views side-by-side in Sketch)
 
-`Mockups - Detail of mobile navigation in Sketch. / View Larger Image`
+(lazysrcset: saffo-design-sketch-2.jpg caption: Mock-ups - Detail of mobile navigation in Sketch)
 
 ### Presentation
 
-At this stage I have a set of initial mockups that tie everything together: the essential pieces—logo, icons, colors, type, structure—have been assembled into a cohesive design and are ready to present.
+At this stage I have a set of initial mock-ups that tie everything together: the essential pieces—logo, icons, colors, type, structure—have been assembled into a cohesive design and are ready to present.
 
 ### Final Design
 
@@ -183,11 +183,11 @@ Paul loved my proposed design, so we needed to add in the final piece of experie
 
 I recommended that I move ahead building out the site, while we also collaborated on the header images. This worked out well because I could quickly swap in different images to live layouts and post screenshots of different ideas for review.
 
-I wanted images that reinforce the content of the corresponding section, so I picked those out first. Based on my type and color choices I was looking to create a specific feel through composition and tone. In Photoshop I cropped each selection to bring out a single point of focus and then created adjustment filters to get the feel right for the overall design.
+I wanted images that reinforce the content of the corresponding section, so I picked those out first. Based on my type and color choices I was looking to create a specific feel through composition and tone. In Photoshop, I cropped each selection to bring out a single point of focus and then created adjustment filters to get the feel right for the overall design.
 
-`Final Designs - Photo art direction for page header images. / View Larger Image`
+(lazysrcset: saffo-art-direction.jpg caption: Final Designs - Photo art direction for page header images)
 
-TOP
+<span class="link--to-top">TOP</span>
 
 ## Build
 
@@ -195,7 +195,7 @@ One of the things I love about ‘agency of one’ projects like this is that I 
 
 ### Platform
 
-I built the new website in (link: https://wordpress.org/ text: WordPress) and created a custom theme from scratch using the awesome (link: https://roots.io/sage/ text: Sage) ’starter theme’ built by the team at Roots. I have lots of experience building with WordPress, but in recent years I’ve also worked a lot with Ruby on Rails developers and so I’ve come to rely on things like partials and an asset pipeline. Sage brings a more modern front-end development workflow to WordPress. It doesn’t contain any design or templates, but it does ship with Bootstrap assets built-in. So I forked my own version of Sage that strips all this out; I developed my own custom styles and page templates to have complete control over the front-end.
+I built the new website in (link: https://wordpress.org/ text: WordPress) and created a custom theme from scratch using the awesome (link: https://roots.io/sage/ text: Sage) ’starter theme’ built by the team at Roots. I have lots of experience building with WordPress, but in recent years I’ve also worked a lot with Ruby on Rails developers, and so I’ve come to rely on things like partials and an asset pipeline. Sage brings a more modern front-end development workflow to WordPress. It doesn’t contain any design or templates, but it does ship with Bootstrap assets built-in. So I forked my own version of Sage that strips all this out; I developed my own custom styles and page templates to have complete control over the front-end.
 
 ### Front-end
 
@@ -203,7 +203,7 @@ I love CSS, and I really love the Sass preprocessor; variables and mixins make m
 
 I use a methodology for my stylesheet architecture developed by Harry Roberts that combines BEM-like syntax with ITCSS (‘Inverted Triangle CSS’). ITCSS is based on the fact that the specificity of styles descend from least to most specific, and proposes that styles should be structured within this hierarchy in a modular way to allow for greater flexibility. The short pitch for this approach is that it keeps the stylesheets more readable, and allows for changes to be made to areas of the UI without fear of breaking another area.
 
-`Front End - I created a Sass mixin that works with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue.`
+(lazysrcset: saffo-styles-typography_full.jp caption: Front End - I created a Sass mixin that works with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue)
 
 ### Interactions
 
@@ -211,7 +211,7 @@ My goal for interactions is to create them in pure CSS if possible; not using Ja
 
 The mobile menu toggle is an example of a UI animation that is CSS-only; the mobile menu itself is enabled using base jQuery to toggle visibility.
 
-`Interaction Design - Detail of mobile menu animation created with pure CSS. I added the 'show' and 'hide ' text to increase usability.`
+(lazysrcset: saffo-menu-ixd-storyboard.jpg caption: Interaction Design - Detail of mobile menu animation created with pure CSS)
 
 ### Development Tools
 
@@ -232,7 +232,7 @@ I had decided support for Android 2.3 stock browsers was essential, but I reject
 
 The main issues I tested for were layout issues, and making sure the PNG fallbacks for the SVG graphics were loading on the devices that can’t handle SVGs.
 
-TOP
+<span class="link--to-top">TOP</span>
 
 ## Icon Design
 
@@ -240,15 +240,16 @@ Sketches and vector artwork for new site navigation icons.
 
 ### Sketches
 
-The new icons were based closely on very small 16-pixel wide GIF files used in Paul's older website. I set out to re-design each icon to be optically balanced at a wide range of sizes.
+The new icons were based closely on tiny 16-pixel wide GIF files used in Paul's older website. I set out to re-design each icon to be optically balanced at a wide range of sizes.
 
-`Icon Sketches - Exploring the geometry of the About Icon before going into Illustrator. Sketching like this in pencil helps me really think through the details. / View Larger Image
-Vectors`
+(lazysrcset: saffo-identity-icons-sketch.jpg caption: Icon Sketches - Exploring the geometry of the About Icon before going into Illustrator. Sketching like this in pencil helps me really think through the details.)
+
+### Vectors
 
 I created Illustrator files and then exported to SVG.
 
-`Icon Design - Constructing the About Icon in Illustrator. / View Larger Image`
+(lazysrcset: saffo-identity-icons.jpg caption: Icon Design - Constructing the About Icon in Illustrator.)
 
-`Icon Design - The final icons ready for SVG export. / View Larger Image`
+(lazysrcset: saffo-identity-icons-final.jpg caption: Icon Design - The final icons ready for SVG export.)
 
-TOP
+<span class="link--to-top">TOP</span>
