@@ -71,16 +71,12 @@ Most Rollbar users are developing products composed of numerous applications and
 Rollbar’s data model is built around the concept of a project, so any analysis of services composed of multiple projects is very cumbersome. Most users are opening up multiple Items views with custom filters and then tabbing between them. Some are opening up a few Items views and the Deploy view side-by-side.
 
 (lazysrcset: ald-items-view.jpg caption: Items View, the primary UI for viewing comprehensive project activity)
-
-Items View, the primary UI for viewing comprehensive project activity / View Larger Image
     
-Project Dashboard, the summary view for a project that most customers never use
-
-Project Dashboard, the summary view for a project that most customers never use / View Larger Image
+(lazysrcset: ald-project-dashboard.jpg caption: Project Dashboard, the summary view for a project that most customers never use)
     
 ### What were customers saying?
 
-Nearly every customer using Rollbar heavily day-to-day was saying “Please create a cross-project dashboard!” But nearly every customer had a very different idea of what that meant—of course, everyone ideally wanted a solution to their own specific use case.
+Nearly every customer using Rollbar heavily day-to-day was saying “Please create a cross-project dashboard!” But nearly every customer had a very different idea of what that meant—of course, everyone ideally wanted a solution to their specific use case.
     
 ### What was our hypothesis?
 
@@ -96,7 +92,7 @@ Together with the product manager and the two founders, we agreed we wanted to c
     
 ### Simple UX project plan
 
-I think a key to a successful design project is how you plan it: too much planning and it becomes overloaded with process; too little planning and it can quickly become chaotic and fall apart. The design team—myself and another product designer—mapped out a plan to get us from the first meeting where we got approval to proceed all the way through to flipping the switch in production to put the new dashboard in front of customers. I won’t get into all the details of the plan here—we simply talked about all the various tools, activities, and checkpoints we felt were essential and sketched out a rough schedule to share with product and engineering.
+I think a key to a successful design project is how you plan it: too much planning and it becomes overloaded with process; too little planning and it can quickly become chaotic and fall apart. The design team—me and another product designer—mapped out a plan to get us from the first meeting where we got approval to proceed all the way through to flipping the switch in production to put the new dashboard in front of customers. I won’t get into all the details of the plan here—we simply talked about all the various tools, activities, and checkpoints we felt were essential and sketched out a rough schedule to share with product and engineering.
     
 ### Customer interviews & contextual inquiries
 
@@ -104,7 +100,7 @@ At this stage we had formed an informal customer research team that consisted of
     
 ### Discovery exercises
 
-I think it’s important in the early phases of a project to challenge our own assumptions and strip away any preconceived notions about the problem we’re trying to solve. Sometimes very simple exercises can clear away noise or possibly spark a moment of clarity; either way, taking the time to explore our own thoughts and let unexpected insights emerge, is really valuable.
+I think it’s important in the early phases of a project to challenge our assumptions and strip away any preconceived notions about the problem we’re trying to solve. Sometimes basic exercises can clear away noise or possibly spark a moment of clarity; either way, taking the time to explore our thoughts and let unexpected insights emerge, is really valuable.
 
 One exercise I like to step both teammates and users through is what I call simply the Blank Slate exercise.
     
@@ -115,7 +111,7 @@ Starting with a blank screen what do we add to begin to create a useful solution
 Here I’ve noted down some responses that helped us better understand real needs or problems users had.
 
 - Ability to see more than one project at one time
-- Project with the greatest number of errors
+- Project with the highest number of errors
 - Graph of all item levels across a set interval for one project that compares the same data against all projects
 - Number of critical errors for each project
 
@@ -137,7 +133,7 @@ And so on. Letting users imagine a system that knows the answer to any question 
 
 No portfolio is complete without the customary photo of a wall of Post-Its™. Seriously though, this exercise is a very effective way to gain insights from a large sampling of customer input and research.
 
-We very quickly saw three groupings emerge:
+We rapidly saw three groupings emerge:
         
 - Metrics/Visualizations/Reporting
 - Alerting/Triage
@@ -145,9 +141,7 @@ We very quickly saw three groupings emerge:
 
 We used these use cases to guide our initial interaction model explorations.
     
-Rollbar Account Dashboard - customer feedback ready for an affinity mapping exercise
-
-Rollbar Account Dashboard - customer feedback ready for affinity mapping exercise / View Larger Image
+(lazysrcset: ald-research_affinity-mapping_master.jpg caption: Rollbar Account Dashboard - customer feedback ready for an affinity mapping exercise)
     
 ### Research Highlights
 
@@ -163,7 +157,7 @@ Key takeaways from the affinity exercise and user research:
     
 ### Problem Statement
 
-With everything we learned from talking to customers and analyzing research, we arrived at a very clear problem to be solved.
+With everything we learned from talking to customers and analyzing research, we arrived at a clear problem to be solved.
 
 Rollbar users don’t have adequate visibility into the state of all projects and services across their account and this makes assessing the overall health of their product very cumbersome and difficult.
 
@@ -175,13 +169,9 @@ From pencil sketches to pen-and-ink wireframes, I generated over 100 rough ideas
 
 We had numerous review sessions where we covered the wall with rough ideas and then reassembled pieces to create new concepts. At this stage we were less concerned with feasibility but with generating as many completing ideas as possible.
     
-Rollbar Account Dashboard - early ideation sketch
-
-Rollbar Account Dashboard - early ideation sketch / View Larger Image
+(lazysrcset: ald-ideation_early-UI-sketch.jpg caption: Rollbar Account Dashboard - early ideation sketch)
     
-Rollbar Account Dashboard - early ideation low fidelity wireframe
-
-Rollbar Account Dashboard - early ideation low fidelity wireframe / View Larger Image
+(lazysrcset: ald-ideation_lofi-wireframe.jpg caption: Rollbar Account Dashboard - early ideation low fidelity wireframe)
 
 <span class="link--to-top">TOP</span>
     
@@ -191,15 +181,11 @@ Rollbar Account Dashboard - early ideation low fidelity wireframe / View Larger 
 
 We presented wireframes to customers we had previously interviewed to gather feedback. We also used these sessions to seek a commitment to extended testing once we released the initial beta version to a select group of customers.
     
-Rollbar Account Dashboard - wireframe of finalized MVP design
-
-Rollbar Account Dashboard - wireframe of finalized MVP design / View Larger Image
+(lazysrcset: ald-ixd_wireframe-v01.jpg caption: Rollbar Account Dashboard - wireframe of finalized MVP design)
 
 We also started exploring how to expose the Account-level view in the global navigation.
     
-Rollbar Account Dashboard - wireframe with beta dashboard nav
-
-Rollbar Account Dashboard - wireframe with beta dashboard nav / View Larger Image
+(lazysrcset: ald-ixd_appnav_wireframe-v01.jpg caption: Rollbar Account Dashboard - wireframe with beta dashboard nav)
 
 <span class="link--to-top">TOP</span>
     
@@ -211,15 +197,15 @@ Customers did not want to see data for an interval longer than a week.
 
 We had an opportunity to improve the UI and visual design for a few key components. I had recently kicked off a design systems project and wanted to make sure we learned as much as we could about the process of updating existing components and introducing new ones to the design system.
 
-We also had an opportunity to improve the experience around the entry point after initial login. Where prior to this project users would land on the existing dashboard for their last0viewed project, we felt that starting users off on this new cross-project version was the best way to go. This introduced a whole additional project around evolving the primary navigation away from project-based to account-based (which I plan to present a write-up of very soon!)
+We also had an opportunity to improve the experience around the entry point after initial login. Where before this project users would land on the existing dashboard for their last0viewed project, we felt that starting users off on this new cross-project version was the best way to go. This introduced a whole additional project around evolving the primary navigation away from project-based to account-based (which I plan to present a write-up of very soon!)
 
 ### Filtering controls
 
 Exploring two variations of the combobox component
-Rollbar Account Dashboard - select combobox concept 1
+(lazysrcset: ald-ui_select-combobox-v01.jpg caption: Rollbar Account Dashboard - select combobox concept 1)
 
 Rollbar Account Dashboard - select combobox concept 1 / View Larger Image
-Rollbar Account Dashboard - select combobox concept 2
+(lazysrcset: ald-ui_select-combobox-v01-alt.jpg caption: Rollbar Account Dashboard - select combobox concept 2)
 
 Rollbar Account Dashboard - select combobox concept 2 / View Larger Image
     
@@ -227,7 +213,7 @@ Rollbar Account Dashboard - select combobox concept 2 / View Larger Image
 
 Refining and documenting net-new components for use in global design system
 
-Rollbar Account Dashboard - combobox filter component documentation for front-end team and design system sprint
+(lazysrcset: ald-ui_select-combobox-filter-component-spec.jpg caption: Rollbar Account Dashboard - combobox filter component documentation for front-end team and design system sprint)
 
 Rollbar Account Dashboard - combobox filter component documentation for front-end team and design system sprint / View Larger Image
     
@@ -235,7 +221,7 @@ Rollbar Account Dashboard - combobox filter component documentation for front-en
 
 Improving our global empty-state patterns for new users and onboarding
     
-Rollbar Account Dashboard - empty state for users with no active projects
+(lazysrcset: ald-usecase_empty-state-v01.jpg caption: Rollbar Account Dashboard - empty state for users with no active projects)
 
 Rollbar Account Dashboard - empty state for users with no active projects / View Larger Image
 
@@ -254,6 +240,9 @@ The first release of the Account Dashboard helped Rollbar customers achieve thei
 ### Basic Critical Error Triage Demo
 
 This video walkthrough presents a simplified task flow for triaging a high impact issue from the account level. The starting point is a wide view across projects, occurrences, and error levels; the user can zero-in on a specific project and environment to isolate a critical error much more quickly than if using multiple Item Views. This is a very simplified example, in a real-world scenario, we would see dozens of projects with a higher likelihood of variance in occurrences across error levels.
+
+<div style="padding:59.31% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/370113864?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
     
 <span class="link--to-top">TOP</span>
     
