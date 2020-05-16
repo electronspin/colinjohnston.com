@@ -2,7 +2,7 @@
 
 return [
   'debug' => true,
-  'url' => 'http://colinjohnston.local',
+  // 'url' => 'http://colinjohnston.local',
   'markdown' => [
     'extra' => true
   ],
