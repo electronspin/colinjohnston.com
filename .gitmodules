@@ -1,3 +1,4 @@
 [submodule "site/plugins/kirby3-srcset"]
 	path = site/plugins/kirby3-srcset
 	url = https://github.com/colin-johnston/kirby3-srcset.git
+	ignore = dirty
