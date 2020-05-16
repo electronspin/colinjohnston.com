@@ -13,5 +13,5 @@ RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 # RewriteRule ^panel blog/panel [L]
 
 # BEGIN (mt) controlled settings
-AddHandler php-latest .php
+# AddHandler php-latest .php
 # END (mt) controlled settings
