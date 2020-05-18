@@ -38,11 +38,17 @@
       <li class="active" id="overviewTab">
         <div class="overview-content">
           <?= $page->overview()->kirbytext() ?>
+          <div class="c-link-pagination">
+              <a class="c-link-pagination--next" href="#process">See Process &amp; Artifacts</a>
+          </div>
         </div>
       </li>
       <li class="" id="processTab">
         <div class="overview-content">
           <?= $page->process()->kirbytext() ?>
+          <div class="c-link-pagination">
+              <a class="c-link-pagination--prev" href="#overview">Read Project Overview</a>
+          </div>
         </div>
       </li>
     </ul>
@@ -54,4 +60,3 @@
     <?php snippet('footer') ?>
 
     </div>
-
