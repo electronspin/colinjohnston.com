@@ -18,7 +18,7 @@
   margin-top: 1.375em; // TODO move this to the imagebox or header to it's not locked to title
 
   &.animate {
-    transition: opacity .8s ease .3s; // nice feel!
+    transition: opacity 0.8s ease 0.3s; // nice feel!
     //transform: scale(.8);
     opacity: 0;
 
@@ -47,7 +47,7 @@
   letter-spacing: -0.017em; // 20px
   border-bottom: 3px solid silver;
   display: inline-block;
-  padding-bottom: .175em;
+  padding-bottom: 0.175em;
   margin-bottom: 1.275em;
 }
 
@@ -73,7 +73,6 @@
   text-decoration: underline;
 }
 
-
 .c-project__body {
   max-width: 600px; // TODO
 }
@@ -89,12 +88,12 @@
 
 .c-project p + ol,
 .c-project p + ul {
-    margin-top: -$global-spacing-unit;
+  margin-top: -$global-spacing-unit;
 }
 
 .c-project__intro {
   &.animate {
-    transition: opacity 1.5s ease .3s; // nice feel!
+    transition: opacity 1.5s ease 0.3s; // nice feel!
     opacity: 0;
 
     &.inview {
@@ -115,7 +114,7 @@
 }
 // TODO better namespacing and specificity needed so this can live independently
 .c-project .c-imagebox__caption {
-  @media only screen and (max-width: 480px) { 
+  @media only screen and (max-width: 480px) {
     line-height: initial;
   }
 }
@@ -123,7 +122,6 @@
 // Project Tabs Styles - WIP
 
 .c-project {
-
   // TODO refactor and create usage-specific header classes!
   h4 {
     margin-top: 2em;
@@ -164,7 +162,7 @@
 
     &:after {
       transition: top 100ms ease-in-out;
-      content: "";
+      content: '';
       height: 0px;
       width: 0px;
       position: absolute;
@@ -179,7 +177,7 @@
     }
 
     &:hover:after {
-      top: 100%
+      top: 100%;
     }
   }
 
@@ -232,4 +230,12 @@
     }
   }
 
+  // WIP - Project image captions
+  figcaption {
+    @include font-size(13px, 18px);
+    // font-weight: 600;
+    margin-top: $global-spacing-unit-sm;
+    padding-bottom: $global-spacing-unit-sm;
+    // border-bottom: 1px solid #ececec;
+  }
 }

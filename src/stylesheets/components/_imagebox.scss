@@ -38,7 +38,7 @@
       display: none !important; // TODO Fix hidden.scss
     }
   }
-  // @media only screen and (max-width: 480px) { 
+  // @media only screen and (max-width: 480px) {
   //   line-height: initial;
   // }
 }
@@ -46,7 +46,7 @@
 .c-imagebox__caption a {
   font-weight: 400;
   color: $content-link;
-  transition: all .25s ease;
+  transition: all 0.25s ease;
 
   &:visited {
     color: $dark-text-color;
@@ -59,35 +59,34 @@
 
   &:before,
   &:after {
-    content: "";
+    content: '';
     padding: 0 1px;
   }
 }
 
 // TODO Clean this up
 
-figure {
-  display: block;
-  position: relative;
-  overflow: hidden
-}
+.c-imagebox {
+  figure {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
 
-figcaption {
-  position: absolute
-}
-
-figcaption {
-  font-weight: 400;
-  font-size: .75em;
-  background: #333;
-  background: rgba(0, 0, 0, .75);
-  color: #fff;
-  padding: $global-spacing-unit-sm $global-spacing-unit;
-  width: 100%;
-  opacity: 0;
-  left: 0;
-  bottom: -30%;
-  transition: all .6s ease
+  figcaption {
+    position: absolute;
+    font-weight: 400;
+    font-size: 0.75em;
+    background: #333;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: $global-spacing-unit-sm $global-spacing-unit;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    bottom: -30%;
+    transition: all 0.6s ease;
+  }
 }
 
 /**
@@ -109,13 +108,12 @@ figcaption {
 //     }
 // }
 
-
 // stepped animation
 
 .c-gallery__item:nth-child(1) .c-imagebox {
   &.animate {
-    transition: opacity .7s ease .3s, transform .1s ease .3s; // nice feel!
-    transform: scale(.8);
+    transition: opacity 0.7s ease 0.3s, transform 0.1s ease 0.3s; // nice feel!
+    transform: scale(0.8);
     opacity: 0;
 
     &.inview {
@@ -127,8 +125,8 @@ figcaption {
 
 .c-gallery__item:nth-child(2) .c-imagebox {
   &.animate {
-    transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
-    transform: scale(.8);
+    transition: opacity 0.7s ease 0.3s, transform 0.2s ease 0.3s; // nice feel!
+    transform: scale(0.8);
     opacity: 0;
 
     &.inview {
@@ -140,8 +138,8 @@ figcaption {
 
 .c-gallery__item:nth-child(3) .c-imagebox {
   &.animate {
-    transition: opacity .7s ease .3s, transform .3s ease .3s; // nice feel!
-    transform: scale(.8);
+    transition: opacity 0.7s ease 0.3s, transform 0.3s ease 0.3s; // nice feel!
+    transform: scale(0.8);
     opacity: 0;
 
     &.inview {
@@ -153,8 +151,8 @@ figcaption {
 
 .c-gallery__item:nth-child(4) .c-imagebox {
   &.animate {
-    transition: opacity .7s ease .3s, transform .4s ease .3s; // nice feel!
-    transform: scale(.8);
+    transition: opacity 0.7s ease 0.3s, transform 0.4s ease 0.3s; // nice feel!
+    transform: scale(0.8);
     opacity: 0;
 
     &.inview {
@@ -166,8 +164,8 @@ figcaption {
 
 .c-gallery__item:nth-child(5) .c-imagebox {
   &.animate {
-    transition: opacity .7s ease .3s, transform .5s ease .3s; // nice feel!
-    transform: scale(.8);
+    transition: opacity 0.7s ease 0.3s, transform 0.5s ease 0.3s; // nice feel!
+    transform: scale(0.8);
     opacity: 0;
 
     &.inview {
@@ -179,8 +177,8 @@ figcaption {
 
 .c-gallery__item:nth-child(6) .c-imagebox {
   &.animate {
-    transition: opacity .7s ease .3s, transform .6s ease .3s; // nice feel!
-    transform: scale(.8);
+    transition: opacity 0.7s ease 0.3s, transform 0.6s ease 0.3s; // nice feel!
+    transform: scale(0.8);
     opacity: 0;
 
     &.inview {
@@ -192,8 +190,8 @@ figcaption {
 
 .c-gallery__item:nth-child(7) .c-imagebox {
   &.animate {
-    transition: opacity .7s ease .3s, transform .7s ease .3s; // nice feel!
-    transform: scale(.8);
+    transition: opacity 0.7s ease 0.3s, transform 0.7s ease 0.3s; // nice feel!
+    transform: scale(0.8);
     opacity: 0;
 
     &.inview {
@@ -203,14 +201,12 @@ figcaption {
   }
 }
 
-
-
 // project page imagebox animations
 
 div#content .c-imagebox {
   &.animate {
-    transition: opacity .7s ease .3s, transform .2s ease .3s; // nice feel!
-    transform: scale(.925);
+    transition: opacity 0.7s ease 0.3s, transform 0.2s ease 0.3s; // nice feel!
+    transform: scale(0.925);
     opacity: 0;
 
     &.inview {
