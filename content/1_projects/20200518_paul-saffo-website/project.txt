@@ -141,11 +141,11 @@ I sketch lots of rough ideas. For this project, I went quickly to mobile layouts
 
 (lazysrcset: saffo-website-sketches-1.jpg caption: Early sketches of mobile layouts - I didn't use most of these ideas, but by thinking them through on paper I could make better design choices in the next rounds)
 
-(lazysrcset: saffo-website-sketches-2.jpg caption: Desktop landing page sketches - Evolution towards the final desktop layout. Through these sketches, I also revealed the idea for the final mobile layouts. / View Larger Image)
+(lazysrcset: saffo-website-sketches-2.jpg caption: Desktop landing page sketches - Evolution towards the final desktop layout. Through these sketches, I also revealed the idea for the final mobile layouts.)
 
-(lazysrcset: saffo-website-sketches-3.jpg caption: Later sketches of mobile layouts - tightening up the layouts, with notes on things to leave out in the mock-ups. / View Larger Image)
+(lazysrcset: saffo-website-sketches-3.jpg caption: Later sketches of mobile layouts - tightening up the layouts, with notes on things to leave out in the mock-ups.)
 
-One thing I’ve learned as a designer is the importance of setting aside these sketches for a few days and reviewing them with fresh eyes later. Sometimes what seemed like the best idea seems incomplete or too busy and can be improved (or completely rejected in favor of a new idea). This is the time to figure this out, not once I’ve done hi-fidelity mock-ups or a prototype (although prototypes often lead to substantial revision, too).
+One thing I’ve learned as a designer is the importance of setting aside these sketches for a few days and reviewing them with fresh eyes later. Sometimes what seemed like the best idea seems incomplete or too busy and can be improved (or completely rejected favoring a new idea). This is the time to figure this out, not once I’ve done hi-fidelity mock-ups or a prototype (although prototypes often lead to substantial revision, too).
 
 While the sketches are out of sight and mind, I looked at my type and color ideas and gathered all my image resources to prepare for assembling complete designs.
 
@@ -153,7 +153,7 @@ At this stage of the project, I typically present the work done so far to get fe
 
 ### Style Boards
 
-(lazysrcset: saffo-styleboards.jpg caption: Style Board - TBD / View Larger Image)
+(lazysrcset: saffo-styleboards.jpg caption: Style Board - TBD)
 
 <span class="link--to-top">TOP</span>
 
@@ -203,15 +203,15 @@ I love CSS, and I really love the Sass preprocessor; variables and mixins make m
 
 I use a methodology for my stylesheet architecture developed by Harry Roberts that combines BEM-like syntax with ITCSS (‘Inverted Triangle CSS’). ITCSS is based on the fact that the specificity of styles descend from least to most specific, and proposes that styles should be structured within this hierarchy in a modular way to allow for greater flexibility. The short pitch for this approach is that it keeps the stylesheets more readable, and allows for changes to be made to areas of the UI without fear of breaking another area.
 
-(lazysrcset: saffo-styles-typography_full.jp caption: Front End - I created a Sass mixin that works with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue)
+(lazysrcset: saffo-styles-typography_full.jpg caption: Front End - I created a Sass mixin that works with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue)
 
-### Interactions
+### Micro-interactions
 
 My goal for interactions is to create them in pure CSS if possible; not using JavaScript for a menu dropdown means there’s just a little less code to send to the browser. But in some cases using JavaScript helps me avoid a more time-consuming process of creating CSS-only interactions the work in older browsers (which is often just not going to happen).
 
 The mobile menu toggle is an example of a UI animation that is CSS-only; the mobile menu itself is enabled using base jQuery to toggle visibility.
 
-(lazysrcset: saffo-menu-ixd-storyboard.jpg caption: Interaction Design - Detail of mobile menu animation created with pure CSS)
+(lazysrcset: saffo-menu-ixd-storyboard.jpg caption: Micro-interaction & animation Design - Detail of mobile menu animation created with pure CSS)
 
 ### Development Tools
 
