@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/favicon.ico" rel="icon" type="image/x-icon">
   <meta name="description" content="<?= $site->description() ?>">
   
   <?php if ($page->isHomePage()): ?>
