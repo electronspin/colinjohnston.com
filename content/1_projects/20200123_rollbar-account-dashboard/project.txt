@@ -161,7 +161,7 @@ With everything we learned from talking to customers and analyzing research, we 
 
 Rollbar users don’t have adequate visibility into the state of all projects and services across their account and this makes assessing the overall health of their product very cumbersome and difficult.
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
 
 ## Ideas & Experiments
 
@@ -173,7 +173,7 @@ We had numerous review sessions where we covered the wall with rough ideas and t
     
 (lazysrcset: ald-ideation_lofi-wireframe.jpg caption: Rollbar Account Dashboard - early ideation low fidelity wireframe)
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
     
 ## Prototyping & User Testing
     
@@ -187,7 +187,7 @@ We also started exploring how to expose the Account-level view in the global nav
     
 (lazysrcset: ald-ixd_appnav_wireframe-v01.jpg caption: Rollbar Account Dashboard - wireframe with beta dashboard nav)
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
     
 ## Unexpected Insights
 
@@ -225,13 +225,13 @@ Improving our global empty-state patterns for new users and onboarding
 
 Rollbar Account Dashboard - empty state for users with no active projects / View Larger Image
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
     
 ## What We Learned
 
 As we evolved the MVP through performing user testing and analyzing user data we came to realize that the reporting and triage use cases were both served very well by the functionality and experience we had converged on for our beta release. This changed the direction of our intended design evolution: rather than providing customizations for each use case that could be optionally enabled on top of the base experience, we committed to adding functionality that would improve the core experience.
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
     
 ## Solution
  
@@ -244,7 +244,7 @@ This video walkthrough presents a simplified task flow for triaging a high impac
 <div style="padding:59.31% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/370113864?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script>
     
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
     
 ## Upshot
 
@@ -256,7 +256,7 @@ Second, isolating specific task flows and simplifying them provided much higher 
 
 Lastly, new design processes tested in the real world; design team empowered to explore concepts and experiment with features; product and engineering now able to collaborate more seamlessly with design than before.
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
 
 ----
 

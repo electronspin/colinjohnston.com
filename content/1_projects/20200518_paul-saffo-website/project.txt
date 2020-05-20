@@ -107,7 +107,7 @@ The consensus supporting my observations:
 
 With these notes and various thumbnail design ideas, I could begin the Concept phase. First I needed to organize all the input gathered so far, and create a plan.
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
 
 ## Planning
 
@@ -127,7 +127,7 @@ A. Logo | B. Icons | C. Website
 
 As I worked through each piece in sequence, I present the work on a private client website. I like to keep the presentations available in one place throughout the entire project, so we can easily refer to decisions and their rationales.
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
 
 ## Concepts
 
@@ -155,7 +155,7 @@ At this stage of the project, I typically present the work done so far to get fe
 
 (lazysrcset: saffo-styleboards.jpg caption: Style Board - TBD)
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
 
 ## Design
 
@@ -187,7 +187,7 @@ I wanted images that reinforce the content of the corresponding section, so I pi
 
 (lazysrcset: saffo-art-direction.jpg caption: Final Designs - Photo art direction for page header images)
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
 
 ## Build
 
@@ -232,7 +232,7 @@ I had decided support for Android 2.3 stock browsers was essential, but I reject
 
 The main issues I tested for were layout issues, and making sure the PNG fallbacks for the SVG graphics were loading on the devices that can’t handle SVGs.
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
 
 ## Icon Design
 
@@ -252,4 +252,4 @@ I created Illustrator files and then exported to SVG.
 
 (lazysrcset: saffo-identity-icons-final.jpg caption: Icon Design - The final icons ready for SVG export.)
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>

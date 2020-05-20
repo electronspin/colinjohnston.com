@@ -75,7 +75,7 @@ During my research I captured input from users about the specific UI issues they
 
 **Activities & Outputs:** User Research, Use Cases, Usability Testing, Interviews, Concept Maps.
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
 
 ## Define
 
@@ -97,7 +97,7 @@ One of the biggest challenges of this project was to figure out how to re-struct
 
 **Activities & Outputs:** Personas, Use Cases, User Flows, Sketches, Lo-fi Wireframes.
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
     
 ## Ideate
     
@@ -121,7 +121,7 @@ I applied these styles to the clickable prototype that would serve as a final mo
 
 **Activities & Outputs:** Wireframes, Paper Prototypes, Style Tiles, UI Design, Lo-fi Mock-ups, Art Direction, Content Strategy.
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
 
 ## Prototype
     
@@ -151,7 +151,7 @@ Solano CI Interface - Prototype in Codepen / View Larger Image - Open Codepen
 
 **Activities & Outputs: **Mock-ups, Clickable Prototypes, Heuristics, Interactions
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
     
 ## Validate
     
@@ -167,7 +167,7 @@ And by monitoring analytics we can uncover usage patterns that will help us impr
 
 **Activities & Outputs: **Usability Tests, Analytics, QA
 
-<span class="link--to-top">TOP</span>
+<a class="link--to-top" href="#">TOP</a>
 
 ----
 
