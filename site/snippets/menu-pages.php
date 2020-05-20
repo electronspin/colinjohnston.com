@@ -8,8 +8,6 @@ if($items->isNotEmpty() ):
 
 ?>
 
-<!-- ->depth() < 2) -->
-
 <li class="c-side-nav__title">&rarr;</li>
 
 <?php foreach($items as $item): ?>
