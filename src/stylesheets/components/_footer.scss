@@ -8,10 +8,8 @@
 
 .c-footer {
   // border-top: 1px solid #dadada;
-  background-color: #f7f7f7;
+  background-color: $secondary-bg-color;
   padding: $global-spacing-unit;
-
-
 }
 
 .c-footer__body {
@@ -30,5 +28,4 @@
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     @include font-size(10px, 15px);
   }
-
 }

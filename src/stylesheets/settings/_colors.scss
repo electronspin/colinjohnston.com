@@ -2,14 +2,17 @@
   #COLORS
  *----------------------------------*/
 
- // Text 
-$light-text-color: #f2f2f2;
-$main-text-color: #777;
-$dark-text-color: #222;
+// Text
+
+// $main-text-color: #777;
+// $dark-text-color: #222;
+$main-text-color: #6b7786;
+$light-text-color: lighten($main-text-color, 50%);
+$dark-text-color: #314155;
 
 // Backgrounds
 // TODO what is preferred wy of handing color variables? semantic or descriptive?
-$main-bg-color: #fefefe; 
+$main-bg-color: #fefefe;
 $color-page-background: $main-bg-color; //alias
 
 $secondary-bg-color: $light-text-color;
@@ -17,18 +20,16 @@ $medium-bg-color: lighten($main-text-color, 50%);
 $dark-bg-color: lighten($dark-text-color, 10%);
 
 // Borders
-$main-border-color: #E6E6E6;
+$main-border-color: #e6e6e6;
+$heading-border-color: darken($secondary-bg-color, 10%);
 $tabs-border-color: #ccc;
 
 // Links
 $cjd-branding: #4d8bdc;
-$primary-link-color: $cjd-branding;
-$content-link: $cjd-branding;
+$primary-link-color: #2a75d7;
+$content-link: $primary-link-color;
 $dark-brand-bg: #4c5f77;
 $slate-gray: #545860;
-
-
-
 
 // DISCOVR EXAMPLE
 
@@ -51,16 +52,8 @@ $slate-gray: #545860;
 // $color-grey-light:                  #999 !default;
 // $color-white:                       #fff !default;
 
-
-
-
-
 // // Theme colors.
 // $color-theme-red:                   #c00;
-
-
-
-
 
 // // Reassign literal variables to meaningful ones.
 // $color-page-text:                       $color-grey-dark;

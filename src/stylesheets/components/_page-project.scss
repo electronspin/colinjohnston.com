@@ -45,7 +45,7 @@
   @include font-size(20px, 32px);
   font-weight: 600;
   letter-spacing: -0.017em; // 20px
-  border-bottom: 3px solid silver;
+  border-bottom: 3px solid $heading-border-color;
   display: inline-block;
   padding-bottom: 0.175em;
   margin-bottom: 1.275em;
@@ -146,10 +146,11 @@
     padding: 0;
     margin: 1.5em 1em 1.5em;
     position: relative;
+    z-index: 10;
   }
 
   .o-tabs .o-tabs__tab-title a {
-    color: #6f6f6f;
+    color: $dark-text-color;
     background-color: darken($secondary-bg-color, 10%);
     display: block;
     font-size: 0.875em;
@@ -161,7 +162,7 @@
     padding: $global-spacing-unit-xs $global-spacing-unit;
 
     &:after {
-      transition: top 100ms ease-in-out;
+      transition: top 200ms ease-in-out;
       content: '';
       height: 0px;
       width: 0px;
@@ -170,14 +171,19 @@
       left: 44%;
       border: 12px solid transparent;
       border-top-color: darken($secondary-bg-color, 10%);
+      z-index: 1;
     }
 
     &:hover {
+      transition: all 200ms ease-in-out;
       color: $dark-text-color;
+      background-color: darken($secondary-bg-color, 15%);
     }
 
     &:hover:after {
+      transition: all 200ms ease-in-out;
       top: 100%;
+      border-top-color: darken($secondary-bg-color, 15%);
     }
   }
 
@@ -193,7 +199,7 @@
 
   .o-tabs .o-tabs__tab-title.active a {
     cursor: default;
-    color: $light-text-color;
+    color: white;
     background-color: $dark-bg-color;
     border-left: none;
     border-right: none;

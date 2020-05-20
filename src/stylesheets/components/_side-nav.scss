@@ -12,7 +12,7 @@ $navwidth: 20em;
 
 a.close-panel,
 a.open-panel {
-  display: none
+  display: none;
 }
 
 .c-side-nav {
@@ -26,27 +26,25 @@ a.open-panel {
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     @include font-size(14px, ($global-line-height * 1.125));
   }
-
 }
 
 .c-side-nav__item a {
-  color: #78a7e4;
+  color: $primary-link-color;
   font-weight: 400;
   position: relative;
   display: inline-block;
-  transition: all .25s ease;
+  transition: all 0.25s ease;
 }
 
 .c-side-nav__item a:hover,
 .c-side-nav__item.active a {
-  color: #545860;
-  font-weight: 400 !important;
-  transition: all .25s ease;
+  color: $dark-text-color;
+  font-weight: 400 !important; // TODO What?
+  transition: all 0.25s ease;
 }
 
 .c-side-nav__item.active a {
-  color: #78a7e4;
-
+  color: $primary-link-color;
   &:hover {
     cursor: default;
   }
@@ -58,7 +56,7 @@ a.open-panel {
   content: url(/assets/img/icon-eye.svg);
   width: 1.1em;
   height: 1.1em;
-  margin-top: .35em;
+  margin-top: 0.35em;
   opacity: 0.5;
   margin-left: 0.5em;
 }
@@ -71,7 +69,7 @@ a.open-panel {
   .c-side-nav__item:not(.active) {
     a {
       &:after {
-        content: "";
+        content: '';
         margin: 0 auto;
         position: absolute;
         opacity: 0;
@@ -92,14 +90,12 @@ a.open-panel {
   }
 }
 
-
-
 .c-side-nav__title {
   text-transform: uppercase;
   @include font-size(12px);
   font-weight: 700;
   letter-spacing: 0.05em;
-  color: #3a3a3a;
+  color: $dark-text-color;
   margin: $global-spacing-unit 0 $global-spacing-unit-xs;
   list-style-type: none;
 
@@ -108,12 +104,10 @@ a.open-panel {
   }
 }
 
-
-@media only screen and (max-width:767px) {
-
+@media only screen and (max-width: 767px) {
   .icon-2x,
   a.close-panel {
-      font-size: 1.25em
+    font-size: 1.25em;
   }
 
   nav {
@@ -123,7 +117,7 @@ a.open-panel {
     top: 0;
     height: 100%;
     background: $dark-brand-bg;
-    z-index: 1000
+    z-index: 1000;
   }
 
   .c-side-nav {
@@ -170,7 +164,7 @@ a.open-panel {
   }
 
   a.close-panel {
-    color: #FFF;
+    color: #fff;
     position: relative;
     display: block;
     top: 1.5em;
@@ -181,7 +175,7 @@ a.open-panel {
   a.open-panel {
     position: relative;
     top: 2px;
-    color: #777;
+    color: $main-text-color;
     display: block;
     float: right;
     line-height: 1;
@@ -193,31 +187,28 @@ a.open-panel {
     position: relative;
     top: -1px;
     float: right;
-    margin-left: .375em;
+    margin-left: 0.375em;
   }
 
   .openNav .o-wrapper {
     left: 0;
     transform: translate3d($navwidth, 0, 0);
-    transition: transform 500ms ease
+    transition: transform 500ms ease;
   }
 
   .o-wrapper,
   .openNav .o-wrapper {
-    transition: transform 500ms ease
+    transition: transform 500ms ease;
   }
 
   .o-wrapper {
     left: 0;
     transform: translate3d(0, 0, 0);
-    transition: transform 500ms ease
+    transition: transform 500ms ease;
   }
-
 }
 
-
-@media (max-width:480px) {
-
+@media (max-width: 480px) {
   .c-side-nav__item {
     font-size: 1.125em;
   }
@@ -237,8 +228,8 @@ a.open-panel {
   line-height: 1;
 
   svg {
-      fill: currentColor;
-      width: .875rem;
-      height: .875rem;
+    fill: currentColor;
+    width: 0.875rem;
+    height: 0.875rem;
   }
 }

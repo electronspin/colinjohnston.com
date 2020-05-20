@@ -9,40 +9,33 @@
 // WIP
 
 .c-link-pagination {
-    //   @extend h4;
-    @include font-size($font-size-h4);
-    color: $dark-text-color;
-    font-weight: 600;
-    letter-spacing: -0.017em;
-    margin-top: 3em;
-}
-
-.c-link-pagination--next,
-.c-link-pagination--prev {
-  
-    // font-weight: 700;
-    // margin-top: 2em;
-    // margin-bottom: 2em;
-    // font-size: 1.25em;
+  //   @extend h4;
+  @include font-size($font-size-h4);
+  // color: $dark-text-color;
+  font-weight: 600;
+  letter-spacing: -0.017em;
+  margin-top: 3em;
 }
 
 .c-link-pagination--next a:focus,
-.c-link-pagination--prev a:focus {
-    color: $content-link;
+.c-link-pagination--prev a:focus,
+.c-link-pagination--next a:hover,
+.c-link-pagination--prev a:hover {
+  color: $dark-text-color;
 }
 
 .c-link-pagination--next {
-    @media only screen and (min-width: 768px) {
-        display: inline-block;
-        float: right;
-    }
-    text-align: right;
+  @media only screen and (min-width: 768px) {
+    display: inline-block;
+    float: right;
+  }
+  text-align: right;
 }
 
 .c-link-pagination--prev {
-    @media only screen and (min-width: 768px) {
-        display: inline-block;
-        float: left;
-    }
-    text-align: left;
+  @media only screen and (min-width: 768px) {
+    display: inline-block;
+    float: left;
+  }
+  text-align: left;
 }
