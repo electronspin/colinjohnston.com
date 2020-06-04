@@ -7,7 +7,7 @@
 
     <main id="content" class="o-content o-layout__grid-item">
 
-    <h1><?= $page->title() ?></h1>
+    <h1 class="c-page__title"><?= $page->title() ?></h1>
 
     <?= $page->text()->kirbytext() ?>
 
