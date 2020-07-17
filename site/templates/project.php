@@ -24,6 +24,7 @@
 
     <?= $page->intro()->kirbytext() ?>
 
+    <?php if ($page->process()->isNotEmpty()): ?>
     <ul class="o-tabs" data-tab="">
       <li class="o-tabs__tab-title active">
         <a href="#overview">Project Overview </a>
@@ -32,26 +33,34 @@
         <a href="#process">Process &amp; Artifacts </a>
       </li>
     </ul>
+    <?php else: ?>
+      <p style="padding-bottom: 1em;">&mdash;</p>
+    <?php endif ?>
 
-
+    <?php if ($page->overview()->isNotEmpty() || $page->process()->isNotEmpty()): ?>
     <ul class="o-tabs__tab-content">
       <li class="active" id="overviewTab">
         <div class="overview-content">
           <?= $page->overview()->kirbytext() ?>
+          <?php if ($page->process()->isNotEmpty()): ?>
           <div class="c-link-pagination">
               <a class="c-link-pagination--next" href="#process">See Process &amp; Artifacts</a>
           </div>
+          <?php endif ?>
         </div>
       </li>
       <li class="" id="processTab">
         <div class="overview-content">
           <?= $page->process()->kirbytext() ?>
+          <?php if ($page->overview()->isNotEmpty()): ?>
           <div class="c-link-pagination">
               <a class="c-link-pagination--prev" href="#overview">Read Project Overview</a>
           </div>
+          <?php endif ?>
         </div>
       </li>
     </ul>
+    <?php endif ?>
     
     </div> <!-- end project body -->
 
