@@ -241,9 +241,13 @@
     @include font-size(13px, 18px);
     margin-top: $global-spacing-unit-sm;
     padding-bottom: $global-spacing-unit-sm;
-    // override for halkaBox including captions in image anchor
-    .hb-single > & {
-      color: $main-text-color;
-    }
+    // // override for halkaBox including captions in image anchor
+    // a.hb-single > & {
+    //   color: $main-text-color;
+    // }
+  }
+  // override for halkaBox including captions in image anchor
+  a.hb-single > figcaption {
+    color: $main-text-color;
   }
 }
