@@ -24,8 +24,7 @@
 
             <?php if ($image = $project->images()->findBy('template', 'cover')): ?> 
             <figure class="c-imagebox animate">
-            <!-- TODO: set data in $page and retrieve for data-reveal-id -->
-            <a href="#" <?= Html::attr('data-reveal-id', [$image->filename()]) ?> >
+            <a href="<?= $project->url() ?>">
             <img class="lazyload" src="<?= $image->url() ?>" srcset="<?= $image->srcset([800, 1024, 2048]) ?>" />
             </a>
             </figure>
