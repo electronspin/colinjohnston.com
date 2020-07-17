@@ -70,9 +70,9 @@ Most Rollbar users are developing products composed of numerous applications and
 
 Rollbar’s data model is built around the concept of a project, so any analysis of services composed of multiple projects is very cumbersome. Most users are opening up multiple Items views with custom filters and then tabbing between them. Some are opening up a few Items views and the Deploy view side-by-side.
 
-(lazysrcset: ald-items-view.jpg caption: Items View, the primary UI for viewing comprehensive project activity)
-    
-(lazysrcset: ald-project-dashboard.jpg caption: Project Dashboard, the summary view for a project that most customers never use)
+(lazysrcset: ald-items-view.jpg link: ald-items-view.jpg linkclass: hb-single caption: Items View, the primary UI for viewing comprehensive project activity)
+   
+(lazysrcset: ald-project-dashboard.jpg link: ald-project-dashboard.jpg linkclass: hb-single caption: Project Dashboard, the summary view for a project that most customers never use)
     
 ### What were customers saying?
 
@@ -141,7 +141,7 @@ We rapidly saw three groupings emerge:
 
 We used these use cases to guide our initial interaction model explorations.
     
-(lazysrcset: ald-research_affinity-mapping_master.jpg caption: Rollbar Account Dashboard - customer feedback ready for an affinity mapping exercise)
+(lazysrcset: ald-research_affinity-mapping_master.jpg link: ald-research_affinity-mapping_master.jpg linkclass: hb-single caption: Rollbar Account Dashboard - customer feedback ready for an affinity mapping exercise)
     
 ### Research Highlights
 
@@ -169,9 +169,9 @@ From pencil sketches to pen-and-ink wireframes, I generated over 100 rough ideas
 
 We had numerous review sessions where we covered the wall with rough ideas and then reassembled pieces to create new concepts. At this stage we were less concerned with feasibility but with generating as many completing ideas as possible.
     
-(lazysrcset: ald-ideation_early-UI-sketch.jpg caption: Rollbar Account Dashboard - early ideation sketch)
+(lazysrcset: ald-ideation_early-UI-sketch.jpg link: ald-ideation_early-UI-sketch.jpg linkclass: hb-single caption: Rollbar Account Dashboard - early ideation sketch)
     
-(lazysrcset: ald-ideation_lofi-wireframe.jpg caption: Rollbar Account Dashboard - early ideation low fidelity wireframe)
+(lazysrcset: ald-ideation_lofi-wireframe.jpg link: ald-ideation_lofi-wireframe.jpg linkclass: hb-single caption: Rollbar Account Dashboard - early ideation low fidelity wireframe)
 
 <a class="link--to-top" href="#">TOP</a>
     
@@ -181,11 +181,11 @@ We had numerous review sessions where we covered the wall with rough ideas and t
 
 We presented wireframes to customers we had previously interviewed to gather feedback. We also used these sessions to seek a commitment to extended testing once we released the initial beta version to a select group of customers.
     
-(lazysrcset: ald-ixd_wireframe-v01.jpg caption: Rollbar Account Dashboard - wireframe of finalized MVP design)
+(lazysrcset: ald-ixd_wireframe-v01.jpg link: ald-ixd_wireframe-v01.jpg linkclass: hb-single caption: Rollbar Account Dashboard - wireframe of finalized MVP design)
 
 We also started exploring how to expose the Account-level view in the global navigation.
     
-(lazysrcset: ald-ixd_appnav_wireframe-v01.jpg caption: Rollbar Account Dashboard - wireframe with beta dashboard nav)
+(lazysrcset: ald-ixd_appnav_wireframe-v01.jpg link: ald-ixd_appnav_wireframe-v01.jpg linkclass: hb-single caption: Rollbar Account Dashboard - wireframe with beta dashboard nav)
 
 <a class="link--to-top" href="#">TOP</a>
     
@@ -202,28 +202,21 @@ We also had an opportunity to improve the experience around the entry point afte
 ### Filtering controls
 
 Exploring two variations of the combobox component
-(lazysrcset: ald-ui_select-combobox-v01.jpg caption: Rollbar Account Dashboard - select combobox concept 1)
+(lazysrcset: ald-ui_select-combobox-v01.jpg link: ald-ui_select-combobox-v01.jpg linkclass: hb-single caption: Rollbar Account Dashboard - select combobox concept 1)
 
-Rollbar Account Dashboard - select combobox concept 1 / View Larger Image
-(lazysrcset: ald-ui_select-combobox-v01-alt.jpg caption: Rollbar Account Dashboard - select combobox concept 2)
-
-Rollbar Account Dashboard - select combobox concept 2 / View Larger Image
+(lazysrcset: ald-ui_select-combobox-v01-alt.jpg link: ald-ui_select-combobox-v01-alt.jpg linkclass: hb-single caption: Rollbar Account Dashboard - select combobox concept 2)
     
 ### Evolving the Global Design System
 
 Refining and documenting net-new components for use in global design system
 
-(lazysrcset: ald-ui_select-combobox-filter-component-spec.jpg caption: Rollbar Account Dashboard - combobox filter component documentation for front-end team and design system sprint)
-
-Rollbar Account Dashboard - combobox filter component documentation for front-end team and design system sprint / View Larger Image
+(lazysrcset: ald-ui_select-combobox-filter-component-spec.jpg link: ald-ui_select-combobox-filter-component-spec.jpg linkclass: hb-single caption: Rollbar Account Dashboard - combobox filter component documentation for front-end team and design system sprint)
     
 ### Committing to a New Entry-point
 
 Improving our global empty-state patterns for new users and onboarding
     
-(lazysrcset: ald-usecase_empty-state-v01.jpg caption: Rollbar Account Dashboard - empty state for users with no active projects)
-
-Rollbar Account Dashboard - empty state for users with no active projects / View Larger Image
+(lazysrcset: ald-usecase_empty-state-v01.jpg link: ald-usecase_empty-state-v01.jpg linkclass: hb-single caption: Rollbar Account Dashboard - empty state for users with no active projects)
 
 <a class="link--to-top" href="#">TOP</a>
     
