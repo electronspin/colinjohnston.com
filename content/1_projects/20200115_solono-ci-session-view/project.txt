@@ -71,7 +71,7 @@ Through research and user testing sessions, I helped the team better understand 
 
 During my research I captured input from users about the specific UI issues they had. I made notations on printouts of the existing session view.
 
-(lazysrcset: solanolabs-sessionview-research-notations.jpg caption: Solano CI Interface - Research Notes on v1.5 Layouts)
+(lazysrcset: solanolabs-sessionview-research-notations.jpg link: solanolabs-sessionview-research-notations.jpg linkclass: hb-single caption: Solano CI Interface - Research Notes on v1.5 Layouts)
 
 **Activities & Outputs:** User Research, Use Cases, Usability Testing, Interviews, Concept Maps.
 
@@ -87,13 +87,13 @@ I facilitated development of an internal prototype (running with live data) to v
 
 I had previously developed with the team a set of personas that profiled new and existing customers. These were hybrid marketing and design personas that gave us clear idea of our users goals and pain points. Reinforced by the deeper research done for this specific project, the picture that emerged helped me get buy-in on making broader changes to the product.
 
-(lazysrcset: solanolabs-sessionview-personas.jpg caption: Solano CI Interface - Personas)
+(lazysrcset: solanolabs-sessionview-personas.jpg link: solanolabs-sessionview-personas.jpg linkclass: hb-single caption: Solano CI Interface - Personas)
     
 ### Sketches
 
 One of the biggest challenges of this project was to figure out how to re-structure the presentation of session status. Most of these rough layouts were done with pencil and paper; many were done on whiteboards with the Product Manager, especially when design decisions might impact other views in the product.
 
-(lazysrcset: solanolabs-sessionview-sketches.jpg caption: Solano CI Interface - Sketches)
+(lazysrcset: solanolabs-sessionview-sketches.jpg link: solanolabs-sessionview-sketches.jpg linkclass: hb-single caption: Solano CI Interface - Sketches)
 
 **Activities & Outputs:** Personas, Use Cases, User Flows, Sketches, Lo-fi Wireframes.
 
@@ -107,7 +107,7 @@ One of the biggest challenges of this project was to figure out how to re-struct
 
 I iterated through a series of wireframes showing all possible configurations of a session view (there are twelve!). Previously, less common session types had inconsistent layouts; I refined the structure to present all sessions consistently.
 
-(lazysrcset: solanolabs-sessionview-wireframe1.jpg  caption: Solano CI Interface - Wireframe of Base Layout)
+(lazysrcset: solanolabs-sessionview-wireframe1.jpg link: solanolabs-sessionview-wireframe1.jpg  linkclass: hb-single caption: Solano CI Interface - Wireframe of Base Layout)
 
 ### UI Design
 
