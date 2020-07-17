@@ -139,11 +139,11 @@ It’s during this process that I start to converge on type and color choices. I
 
 I sketch lots of rough ideas. For this project, I went quickly to mobile layouts in pencil, working out various ways to present content and devise navigation. Pencil on paper is, for me, the most effective way of thinking through design ideas; I can sketch quickly and allow myself to make ‘mistakes’, and I don’t get too attached to refining a design pattern as I might in Sketch or Illustrator.
 
-(lazysrcset: saffo-website-sketches-1.jpg caption: Early sketches of mobile layouts - I didn't use most of these ideas, but by thinking them through on paper I could make better design choices in the next rounds)
+(lazysrcset: saffo-website-sketches-1.jpg link: saffo-website-sketches-1.jpg linkclass: hb-single caption: Early sketches of mobile layouts - I didn't use most of these ideas, but by thinking them through on paper I could make better design choices in the next rounds)
 
-(lazysrcset: saffo-website-sketches-2.jpg caption: Desktop landing page sketches - Evolution towards the final desktop layout. Through these sketches, I also revealed the idea for the final mobile layouts.)
+(lazysrcset: saffo-website-sketches-2.jpg link: saffo-website-sketches-2.jpg linkclass: hb-single caption: Desktop landing page sketches - Evolution towards the final desktop layout. Through these sketches, I also revealed the idea for the final mobile layouts.)
 
-(lazysrcset: saffo-website-sketches-3.jpg caption: Later sketches of mobile layouts - tightening up the layouts, with notes on things to leave out in the mock-ups.)
+(lazysrcset: saffo-website-sketches-3.jpg link: saffo-website-sketches-3.jpg linkclass: hb-single caption: Later sketches of mobile layouts - tightening up the layouts, with notes on things to leave out in the mock-ups.)
 
 One thing I’ve learned as a designer is the importance of setting aside these sketches for a few days and reviewing them with fresh eyes later. Sometimes what seemed like the best idea seems incomplete or too busy and can be improved (or completely rejected favoring a new idea). This is the time to figure this out, not once I’ve done hi-fidelity mock-ups or a prototype (although prototypes often lead to substantial revision, too).
 
@@ -153,7 +153,7 @@ At this stage of the project, I typically present the work done so far to get fe
 
 ### Style Boards
 
-(lazysrcset: saffo-styleboards.jpg caption: Style Board - TBD)
+(lazysrcset: saffo-styleboards.jpg link: saffo-styleboards.jpg linkclass: hb-single caption: Style Board)
 
 <a class="link--to-top" href="#">TOP</a>
 
@@ -169,9 +169,9 @@ Mock-ups are where I start to assemble conceptual choices and begin to merge con
 
 I get to dial in type styles for headings and body text and begin looking at type scale (ratio of sizes from body text up to main headers). I apply colors first to structural elements and then set up a consistent color pattern for links and other interactions.
 
-(lazysrcset: saffo-design-sketch-1.jpg caption: Mock-ups - designing the desktop and mobile views side-by-side in Sketch)
+(lazysrcset: saffo-design-sketch-1.jpg link: saffo-design-sketch-1.jpg linkclass: hb-single caption: Mock-ups - designing the desktop and mobile views side-by-side in Sketch)
 
-(lazysrcset: saffo-design-sketch-2.jpg caption: Mock-ups - Detail of mobile navigation in Sketch)
+(lazysrcset: saffo-design-sketch-2.jpg link: saffo-design-sketch-2.jpg linkclass: hb-single caption: Mock-ups - Detail of mobile navigation in Sketch)
 
 ### Presentation
 
@@ -185,7 +185,7 @@ I recommended that I move ahead building out the site, while we also collaborate
 
 I wanted images that reinforce the content of the corresponding section, so I picked those out first. Based on my type and color choices I was looking to create a specific feel through composition and tone. In Photoshop, I cropped each selection to bring out a single point of focus and then created adjustment filters to get the feel right for the overall design.
 
-(lazysrcset: saffo-art-direction.jpg caption: Final Designs - Photo art direction for page header images)
+(lazysrcset: saffo-art-direction.jpg link: saffo-art-direction.jpg linkclass: hb-single caption: Final Designs - Photo art direction for page header images)
 
 <a class="link--to-top" href="#">TOP</a>
 
@@ -201,9 +201,9 @@ I built the new website in (link: https://wordpress.org/ text: WordPress) and cr
 
 I love CSS, and I really love the Sass preprocessor; variables and mixins make my workflow so much more efficient. But one of the challenges of Sass is the discipline required to make sure my styles are easily maintainable, and that my CSS output is not a snarled mess.
 
-I use a methodology for my stylesheet architecture developed by Harry Roberts that combines BEM-like syntax with ITCSS (‘Inverted Triangle CSS’). ITCSS is based on the fact that the specificity of styles descend from least to most specific, and proposes that styles should be structured within this hierarchy in a modular way to allow for greater flexibility. The short pitch for this approach is that it keeps the stylesheets more readable, and allows for changes to be made to areas of the UI without fear of breaking another area.
+I use a methodology for my stylesheet architecture developed by Harry Roberts that combines BEM-like syntax with ITCSS (‘Inverted Triangle CSS’). ITCSS is because the specificity of styles descends from least to most specific, and proposes that styles should be structured within this hierarchy in a modular way to allow for greater flexibility. The short pitch for this approach is that it keeps the stylesheets more readable, and allows for changes to be made to areas of the UI without fear of breaking another area.
 
-(lazysrcset: saffo-styles-typography_full.jpg caption: Front End - I created a Sass mixin that works with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue)
+(lazysrcset: saffo-styles-typography_full.jpg link: saffo-styles-typography_full.jpg linkclass: hb-single caption: Front End - I created a Sass mixin that works with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue)
 
 ### Micro-interactions
 
@@ -211,7 +211,7 @@ My goal for interactions is to create them in pure CSS if possible; not using Ja
 
 The mobile menu toggle is an example of a UI animation that is CSS-only; the mobile menu itself is enabled using base jQuery to toggle visibility.
 
-(lazysrcset: saffo-menu-ixd-storyboard.jpg caption: Micro-interaction & animation Design - Detail of mobile menu animation created with pure CSS)
+(lazysrcset: saffo-menu-ixd-storyboard.jpg link: saffo-menu-ixd-storyboard.jpg linkclass: hb-single caption: Micro-interaction & animation Design - Detail of mobile menu animation created with pure CSS)
 
 ### Development Tools
 
@@ -242,14 +242,14 @@ Sketches and vector artwork for new site navigation icons.
 
 The new icons were based closely on tiny 16-pixel wide GIF files used in Paul's older website. I set out to re-design each icon to be optically balanced at a wide range of sizes.
 
-(lazysrcset: saffo-identity-icons-sketch.jpg caption: Icon Sketches - Exploring the geometry of the About Icon before going into Illustrator. Sketching like this in pencil helps me really think through the details.)
+(lazysrcset: saffo-identity-icons-sketch.jpg link: saffo-identity-icons-sketch.jpg  linkclass: hb-single caption: Icon Sketches - Exploring the geometry of the About Icon before going into Illustrator. Sketching like this in pencil helps me really think through the details.)
 
 ### Vectors
 
 I created Illustrator files and then exported to SVG.
 
-(lazysrcset: saffo-identity-icons.jpg caption: Icon Design - Constructing the About Icon in Illustrator.)
+(lazysrcset: saffo-identity-icons.jpg link: saffo-identity-icons.jpg linkclass: hb-single caption: Icon Design - Constructing the About Icon in Illustrator.)
 
-(lazysrcset: saffo-identity-icons-final.jpg caption: Icon Design - The final icons ready for SVG export.)
+(lazysrcset: saffo-identity-icons-final.jpg link: saffo-identity-icons-final.jpg linkclass: hb-single caption: Icon Design - The final icons ready for SVG export.)
 
 <a class="link--to-top" href="#">TOP</a>
