@@ -15,5 +15,14 @@
     </div>
 </div>
 
+<script>
+  window.onload = function () {
+    halkaBox.options({
+      theme: "dark",
+    });
+    halkaBox.run("hb-single");
+  };
+</script>
+
 </body>
 </html>

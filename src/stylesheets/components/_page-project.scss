@@ -239,9 +239,11 @@
   // WIP - Project image captions
   figcaption {
     @include font-size(13px, 18px);
-    // font-weight: 600;
     margin-top: $global-spacing-unit-sm;
     padding-bottom: $global-spacing-unit-sm;
-    // border-bottom: 1px solid #ececec;
+    // override for halkaBox including captions in image anchor
+    .hb-single > & {
+      color: $main-text-color;
+    }
   }
 }
