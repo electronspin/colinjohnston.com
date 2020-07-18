@@ -9,34 +9,20 @@ tabs:
     icon: preview
 
     columns:
-            - width: 1/2
-                sections:
-                  projects: sections/projects
- 
-                  pages:
-                    type: pages
-                    create: default
-                    image: false
-                    # -- pages shown by template
-                    template:
-                      - home
-                      - about
-                      - contact
-                      - default
-                    # -- available templates for new pages
-                    create:
-                      - default
+      - width: 1/2
+          sections:
+            projects: sections/projects
 
-            - width: 1/2
-                sections:
-                  notes: sections/notes
+      - width: 1/2
+          sections:
+            notes: sections/notes
 
-                  articles: sections/articles
+            articles: sections/articles
 
   # tab 2
-  siteinfo:
+  site:
 
-      label: Site Info
+      label: Site
       icon: globe
 
       columns:
@@ -51,15 +37,26 @@ tabs:
                 description:
                   label: Description
                   type:  textarea
-                  size:  medium
-        - width: 1/2
-          sections:
-            content2:
-              type: fields
-              fields:
+                  size:  small
                 keywords:
                   label: Keywords
                   type:  tags
                 copyright:
                   label: Copyright
                   type:  textarea
+
+        - width: 1/2
+          sections:
+            pages:
+              type: pages
+              create: default
+              image: false
+              # -- pages shown by template
+              template:
+                - home
+                - about
+                - contact
+                - default
+              # -- available templates for new pages
+              create:
+                - default

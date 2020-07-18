@@ -25,7 +25,7 @@ columns:
       meta:
         type: fields
         fields:
-          date:
+          published:
             type: date
             time: true
             default: now
@@ -38,12 +38,15 @@ columns:
             default: false
             help: Featured Posts appear in the main sidebar menu
           tags: true
-          gallery:
-            type: pages
-            query: site.find("photography").children
-            multiple: false
-            info: "{{ page.images.count }} image(s)"
-            empty: "No gallery selected"
-            image:
-              cover: true
-            help: Place the {{ gallery }} tag anywhere in your text to add the selected gallery
+      cover:
+        type: files
+        headline: Cover
+        layout: cards
+        info: '{{ file.dimensions }}'
+        template: cover
+        min: 1
+        max: 3
+      gallery:
+        type: files
+        headline: Images
+        template: image

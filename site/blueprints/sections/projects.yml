@@ -2,7 +2,7 @@ type: pages
 headline: Projects
 layout: default
 parent: kirby.page("projects")
-info: "{{ page.date.toDate('m.d.Y') }}"
+info: '{{ page.tags}}'
 template: project
 empty: No projects yet
 sortBy: date desc

@@ -3,7 +3,7 @@ headline: Notes
 icon: 🗒
 layout: default
 parent: site.find("notes")
-info: "{{ page.date.toDate('d.m.Y') }}"
+info: "{{ page.published.toDate('j F Y) }}"
 template: note
 empty: No notes yet
 sortBy: date desc

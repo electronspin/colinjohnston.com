@@ -5,6 +5,13 @@ label: Articles
 icon: document
 
 columns:
+
+  - width: 2/2
+      fields:
+        text:
+          label: Intro
+          type: textarea
+
   - width: 1/2
     sections:
       drafts:
@@ -24,5 +31,7 @@ columns:
         headline: Published
         status: listed
 
+  
+          
 
                 
