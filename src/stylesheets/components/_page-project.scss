@@ -15,7 +15,7 @@
   color: $dark-text-color;
   font-weight: 400;
   letter-spacing: -0.019em;
-  margin-top: 1.375em; // TODO move this to the imagebox or header to it's not locked to title
+  // margin-top: 1.375em; // TODO move spacing to the bottom of imagebox or header to it's not locked to top of title
 
   &.animate {
     transition: opacity 0.8s ease 0.3s; // nice feel!

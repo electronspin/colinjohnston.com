@@ -6,10 +6,16 @@
 * Standard page organism
 */
 
-// Duplicates `page-project.scss` instance 
+// Duplicates `page-project.scss` instance
 .c-page {
   @media screen and (min-width: 768px) {
     margin-bottom: $global-spacing-unit-lg;
+  }
+  .c-page__date,
+  .c-page__credit {
+    color: $dark-text-color;
+    @include font-size(12px);
+    font-weight: 500;
   }
 }
 
@@ -17,14 +23,15 @@
   @include hidden-visually;
 }
 
-// Duplicates `page-project.scss` instance 
+// Duplicates `page-project.scss` instance
 .c-page__title {
   color: $dark-text-color;
   font-weight: 400;
   letter-spacing: -0.019em;
+  // margin-top: 1.375em; // TODO move spacing to the bottom of imagebox or header to it's not locked to top of title
 
   &.animate {
-    transition: opacity .8s ease .3s; // nice feel!
+    transition: opacity 0.8s ease 0.3s; // nice feel!
     //transform: scale(.8);
     opacity: 0;
 
@@ -38,30 +45,29 @@
   }
 }
 
-// Duplicates `page-project.scss` instance 
+// Duplicates `page-project.scss` instance
 .c-page h2 {
   color: $dark-text-color;
   @include font-size(24px, 32px);
   font-weight: 600;
   letter-spacing: -0.017em; // 20px
-
 }
 
-// Duplicates `page-project.scss` instance 
+// Duplicates `page-project.scss` instance
 .c-page h3 {
   color: $dark-text-color;
   font-weight: 400;
   letter-spacing: -0.019em; // 24px
 }
 
-// Duplicates `page-project.scss` instance 
+// Duplicates `page-project.scss` instance
 .c-page h4 {
   color: $dark-text-color;
   font-weight: 600;
   letter-spacing: -0.017em; // 20px
 }
 
-// Duplicates `page-project.scss` instance 
+// Duplicates `page-project.scss` instance
 .c-page h5 {
   // WIP
   //color: $dark-text-color;
@@ -71,13 +77,12 @@
   letter-spacing: -0.014em; // 20px
 }
 
-// Duplicates `page-project.scss` instance 
+// Duplicates `page-project.scss` instance
 .c-page__body {
   max-width: 600px; // TODO
 }
 
-
-// Duplicates `page-project.scss` instance 
+// Duplicates `page-project.scss` instance
 .c-page p,
 .c-page ul,
 .c-page ol {
@@ -89,12 +94,12 @@
 
 .c-page p + ol,
 .c-page p + ul {
-    margin-top: -$global-spacing-unit;
+  margin-top: -$global-spacing-unit;
 }
 
 .c-page__intro {
   &.animate {
-    transition: opacity 1.5s ease .3s; // nice feel!
+    transition: opacity 1.5s ease 0.3s; // nice feel!
     opacity: 0;
 
     &.inview {
@@ -102,7 +107,6 @@
     }
   }
 }
-
 
 // Page-spcific Imagebox margins
 .c-page {
@@ -114,8 +118,7 @@
   }
 }
 
-
-// TEMP TODO 
+// TEMP TODO
 // .c-page__article--project ?
 .c-page article {
   margin: 0 0 $global-spacing-unit-lg;
