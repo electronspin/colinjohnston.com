@@ -7,6 +7,8 @@
 
     <main id="content" class="o-content o-layout__grid-item c-page">
 
+    <div class="c-page__body">
+
     <h1 class="c-page__title"><?= $page->title() ?></h1>
 
     <?= $page->text()->kirbytext() ?>
@@ -40,7 +42,7 @@
 
     <?php endforeach ?>
 
-    <!-- <?php snippet('menu-main') ?> -->
+    </div>
 
     </main>
 

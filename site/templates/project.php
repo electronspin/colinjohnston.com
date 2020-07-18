@@ -9,7 +9,7 @@
 
     <header>
     <?php if ($image = $page->images()->findBy('template', 'cover')): ?> 
-      <figure class="c-imagebox animate">
+      <figure class="c-imagebox c-imagebox--hero animate">
       <a href="<?= $image->url() ?>" class="hb-single">
         <img src="<?= $image->url() ?>" srcset="<?= $image->srcset([800, 1024, 2048]) ?>" />
       </a>
