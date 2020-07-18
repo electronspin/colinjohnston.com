@@ -48,9 +48,13 @@ In truth, I'm most afraid of being judged (because I for one judge myself too ha
 
 Until next time.
 
+—
+
+<p class="c-page__credit">Photo by (link: https://www.pexels.com/@lum3n-44775 text: Lum3n) from Pexels</p>
+
 ----
 
-Date: 2019-09-02 21:50
+Published: 2020-07-17 19:00
 
 ----
 
@@ -69,3 +73,78 @@ Tags:
 ----
 
 Gallery: 
+
+----
+
+Date: 2019-09-02 21:50
+
+----
+
+Cover:
+
+- 
+  filename: >
+    close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+  dragText: '(image: close-up-of-hand-holding-pencil-over-white-background-316466.jpg)'
+  icon:
+    type: file-image
+    ratio: 3/2
+    back: pattern
+    color: '#de935f'
+    cover: false
+    url: >
+      http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-352x.jpg
+        352w,
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-864x.jpg
+        864w,
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-38x38.jpg
+        1x,
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-76x76.jpg
+        2x
+  id: >
+    journal/fear-of-writing/close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+  image:
+    ratio: 3/2
+    back: pattern
+    cover: false
+    url: >
+      http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-352x.jpg
+        352w,
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-864x.jpg
+        864w,
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-38x38.jpg
+        1x,
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-76x76.jpg
+        2x
+  info: 1280 × 853
+  link: >
+    /pages/journal+fear-of-writing/files/close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+  text: >
+    close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+  type: image
+  url: >
+    http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+  uuid: >
+    close-up-of-hand-holding-pencil-over-white-background-316466.jpg
