@@ -10,7 +10,7 @@
         <div class="c-page__site-title"><?= $site->title() ?></div>
         <?php endif ?>
 
-        <a class="c-branding__logo animate" href="/"><img class="c-logo" src="/assets/colinjohnston-logo-DIN.png"
+        <a class="c-branding__logo animate" href="/"><img class="c-logo" src="/assets/colin-johnston-logo-2020.svg"
                 alt="Colin Johnston"></a>
         <a href="#" class="open-panel"><span class="svg-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
@@ -19,7 +19,9 @@
             </span>Menu</a>
     </div>
     <div>
+        <?php if ($page->isHomePage()): ?>
         <?php snippet('intro') ?>
+        <?php endif ?>
     </div>
     <nav>
         <a href="#" class="close-panel"><span class="svg-icon">
