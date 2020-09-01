@@ -13,7 +13,7 @@
 
     <h1 class="c-page__title"><?= $page->title() ?></h1>
 
-    <?= $page->text()->kirbytext() ?>
+    <!-- <?= $page->text()->kirbytext() ?> -->
 
     <?php foreach($page->children()->listed()->flip() as $article): ?>
 
