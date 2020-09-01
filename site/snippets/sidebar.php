@@ -19,9 +19,7 @@
             </span>Menu</a>
     </div>
     <div>
-        <?php if ($page->isHomePage()): ?>
         <?php snippet('intro') ?>
-        <?php endif ?>
     </div>
     <nav>
         <a href="#" class="close-panel"><span class="svg-icon">
