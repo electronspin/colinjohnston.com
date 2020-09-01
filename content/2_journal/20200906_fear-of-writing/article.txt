@@ -1,0 +1,136 @@
+Title: Fear of Writing
+
+----
+
+Text:
+
+*Reading time: five minutes* 
+
+I often have an interesting thought, the beginning of a story coming to mind, or an idea that starts to take shape, and I think it would be worth sharing. I’ll usually make a note somewhere, or, in passing, I’ll tell someone. They might even say it’s good, that I should do something with it. But that’s as far as it ever really goes. I have a fear of writing that has kept me from crafting any of these raw materials into a finished product I might share with the world. But the desire to overcome this fear has recently become stronger than the fear itself. What I realized I needed to do, ironically, is write my fears down and look at them in black and white. 
+
+I’ve bookmarked more articles and blog posts about overcoming the fear of writing and publishing than I can keep track of. I think a lot about what I might publish, I visualize finished posts complete with thoughtfully chosen or well designed graphics. Complete packages of my idealized output that I never create. I think to myself, “you aren’t going to produce the level of creativity, value, or polish you imagined, Colin.” 
+
+I am my own worst doubter, distractor, critic: perhaps my instincts are wrong and this is a terrible idea, I’ll think to myself; this has already been written about, and by a better writer; you just really aren’t that good of a writer so don’t bother. I set a standard for myself that is not realistic, especially for someone with so little experience writing and publishing articles of any kind.
+
+Is my motivation for writing and publishing things to impress people? That would be all about ego and little good comes of that. But it's true I want to be appreciated, maybe even admired—I have to be completely honest here—so perhaps that's where the images in my head of flawless blog posts come from. Like a well-curated Instagram feed, I want my work to appear to have been born fully formed and perfect. 
+
+But perfection is the enemy. As Shobha Rao, author of *Girls Burn Brighter*, said in an interview on Creative Mornings podcast: “You don't have to write something perfect. You don't have to write something timeless. You have to write something that befriends one reader." 
+
+That really resonates with me. The work I appreciate most is raw, vulnerable, and honest; it's the essence, the truth, the intentionality that's most important, not the style or surface. I don't need to dazzle with amazing use of language or present incredibly in-depth research to create a good piece of writing, just something that gets the idea across, something that starts a conversation, something that documents my thinking and interests at that time. Sure, I can *aspire* to produce works of elevated creative and intellectual quality or feats of superb technical writing or cultural journalism, but I don’t think the best writers set out with those aspirations. And I really shouldn't let all this perfectionism stop me from sharing what I have to share.
+
+I have so many ideas. Ideas for things to make, ideas for how to make things, ideas about what is good and bad in design specifically, and in the world around me in general.
+
+Sometimes I stop and wonder if I should narrow my focus down to a very specific subject or niche; other times I try to imagine the perfect balance of many different interests. Adjacent to design and typography, for instance, I find myself fascinated by maps and information design. Another topic that often comes to my mind while working on web development projects is the amount of energy it takes to power all the websites in the world, and if we could have a less negative impact on the environment by creating more performant web front-ends.
+
+Can I write about all these things? Are the people who care about maps and data visualization the same people who care about server farms killing the planet? I don’t know. I can't concern myself too much with pleasing everyone all the time. In fact, I probably shouldn't concern myself with what other people think too much at all. 
+
+Doing something for another person without consideration of what you might get in return is a very predictable way to relieve oneself of the burdens of self-awareness, of too much time thinking about ones own desires and fears. I like to think artists and poets are continuously practicing this; by giving themselves to others they are more free to keep creating. 
+
+"I see this book as my having learned, step by step, how to think and talk about poetry in ways that are my own..." — Mary Rueffle, Introduction to *Madness, Rack, and Honey*
+
+I really like this as a way to frame blogging about design on my website; it’s a clear statement of intent that allows for flexibility and experimentation. The point is to learn and grow, step by step, and in a more public way. And learning, growing, and sharing with others are essential parts of a healthy creative practice.
+
+I’m working hard to overcome my perfectionism, to not try and be everywhere at once, and to give more freely of myself to others. 
+
+But the truth is: I'm most afraid of putting myself out there and being judged because I judge myself much too harshly. I’m stifled by a fear of writing something that expresses who I really am, and holding it up for the world to see; I’m paralyzed by my own acute humanness. But if fear is, as someone once said, just False Evidence Appearing Real, then I mustn’t run away from some imaginary existential threat that is only in my head.   
+
+The reality is I want to connect, to learn, to grow. So, I’m sharing this with you in the hope you gained something from it, however small, and that it helped you somehow. Or, if nothing else, allowed you to get to know me better.
+
+Until next time.
+
+----
+
+Published: 2020-09-06 19:00
+
+----
+
+Author:
+
+- ZHFwwqKd
+
+----
+
+Featured: true
+
+----
+
+Tags: 
+
+----
+
+Gallery: 
+
+----
+
+Date: 2019-09-02 21:50
+
+----
+
+Cover:
+
+- 
+  filename: >
+    close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+  dragText: '(image: close-up-of-hand-holding-pencil-over-white-background-316466.jpg)'
+  icon:
+    type: file-image
+    ratio: 3/2
+    back: pattern
+    color: '#de935f'
+    cover: false
+    url: >
+      http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-352x.jpg
+        352w,
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-864x.jpg
+        864w,
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-38x38.jpg
+        1x,
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-76x76.jpg
+        2x
+  id: >
+    journal/fear-of-writing/close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+  image:
+    ratio: 3/2
+    back: pattern
+    cover: false
+    url: >
+      http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-352x.jpg
+        352w,
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-864x.jpg
+        864w,
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-38x38.jpg
+        1x,
+        http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466-76x76.jpg
+        2x
+  info: 1280 × 853
+  link: >
+    /pages/journal+fear-of-writing/files/close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+  text: >
+    close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+  type: image
+  url: >
+    http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+  uuid: >
+    close-up-of-hand-holding-pencil-over-white-background-316466.jpg
