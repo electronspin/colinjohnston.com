@@ -37,7 +37,7 @@
             $project->intro()
             ?></p>
 
-            <p><a href="<?= $project->url() ?>">Read more &rarr;</a></p>
+            <p><a href="<?= $project->url() ?>">View project &rarr;</a></p>
         </article>
 
     <?php endforeach ?>
