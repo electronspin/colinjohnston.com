@@ -19,7 +19,13 @@
   width: 1px !important;
 }
 
-// TODO Refactor Foundation 3 
+.hide-on-mobile {
+  @media screen and (max-width: 767px) {
+    @include hidden-visually();
+  }
+}
+
+// TODO Refactor Foundation 3
 
 /* Standard (large) display targeting */
 .show-for-small,
@@ -44,7 +50,6 @@
 
 /* Very large display targeting */
 @media only screen and (min-width: 1441px) {
-
   .hide-for-small,
   .hide-for-medium,
   .hide-for-medium-down,
@@ -66,7 +71,6 @@
 
 /* Medium display targeting */
 @media only screen and (max-width: 1279px) and (min-width: 768px) {
-
   .hide-for-small,
   .show-for-medium,
   .show-for-medium-down,
@@ -88,7 +92,6 @@
 
 /* Small display targeting */
 @media only screen and (max-width: 767px) {
-
   .show-for-small,
   .hide-for-medium,
   .show-for-medium-down,
@@ -120,7 +123,6 @@
 }
 
 @media screen and (orientation: landscape) {
-
   .show-for-landscape,
   .hide-for-portrait {
     display: inherit !important;
@@ -133,7 +135,6 @@
 }
 
 @media screen and (orientation: portrait) {
-
   .show-for-portrait,
   .hide-for-landscape {
     display: inherit !important;
