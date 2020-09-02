@@ -10,7 +10,7 @@
         Visual Studio Code and iTerm 2 on a Mac. Typeface is <a href="https://rsms.me/inter/" target="_blank" rel="noopener" title="Inter">Inter</a> by Rasmus
         Andersson. Hosting by MediaTemple, but not for long. 
         &copy; 2012&ndash;<?php echo date("Y"); ?> Colin Johnston. Updated
-        <?php echo date ('F d Y', filemtime($parentdir));  ?>
+        <?php echo date ('F d Y', filemtime($dir));  ?>
       </p>
     </div>
 </div>
