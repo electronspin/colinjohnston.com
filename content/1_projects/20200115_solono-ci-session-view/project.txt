@@ -131,7 +131,12 @@ I applied these styles to the clickable prototype that would serve as a final mo
 
 I constructed a clickable prototype in Middleman to present our current design direction and socialize a number of additional interaction concepts to stakeholders.
 
-Solano CI Interface - high-fidelity concept prototype
+<figure>
+<div style="padding:58.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/174725827?byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="autoplay; fullscreen" allowfullscreen="" frameborder="0"></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<figcaption>Solano CI Interface - high-fidelity concept prototype</figcaption>
+</figure>
 
 ### Prototype-as-mockup
 
@@ -144,10 +149,7 @@ The purpose of this prototype was two-fold:
 
 This proved to be a very effective step in the process. Engineers got a head start on implementation planning while we continued to refine the visual presentation.
 
-<div style="padding:58.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/174725827?byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="autoplay; fullscreen" allowfullscreen="" frameborder="0"></iframe></div>
-<script src="https://player.vimeo.com/api/player.js"></script>
-
-Solano CI Interface - Prototype in Codepen / View Larger Image - Open Codepen
+(lazysrcset: solanolabs-sessionview-prototype-codepen.jpg link: solanolabs-sessionview-prototype-codepen.jpg  linkclass: hb-single caption: Solano CI Interface - Prototype in Codepen)
 
 **Activities & Outputs: **Mock-ups, Clickable Prototypes, Heuristics, Interactions
 
