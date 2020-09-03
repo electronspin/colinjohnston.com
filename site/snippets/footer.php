@@ -1,7 +1,26 @@
 <?php $dir = ($_SERVER['DOCUMENT_ROOT'].'/'); ?>
+
+<?php
+
+$files = array();
+
+if ($handle = opendir($dir)) {
+    while (false !== ($file = readdir($handle))) {
+        if (is_file($file)) {
+            $modified = filemtime($file);
+            $files[$modified] = $file;
+        }
+    }
+    closedir($handle);
+}
+
+krsort($files);
+
+$last_modified_file = array_shift($files);
+
+?>
+
   <div class="o-footer o-layout__grid-item">
-    <?php 
-    $parentdir = dirname($_SERVER['PHP_SELF']); ?>
     
     <?= $page->is('contact') ? '' : '<p class="contact-button show-for-small"><a class="contact-email" href="/contact">Contact</a></p>' ?>
     
@@ -10,7 +29,7 @@
         Visual Studio Code and iTerm 2 on a Mac. Typeface is <a href="https://rsms.me/inter/" target="_blank" rel="noopener" title="Inter">Inter</a> by Rasmus
         Andersson. Hosting by MediaTemple, but not for long. 
         &copy; 2012&ndash;<?php echo date("Y"); ?> Colin Johnston. Updated
-        <?php echo date ('F d Y', filemtime($dir));  ?>
+        <?php echo date ('F d Y', filemtime($last_modified_file));  ?>
       </p>
     </div>
 </div>
