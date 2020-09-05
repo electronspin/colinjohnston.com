@@ -56,8 +56,6 @@ The first release of the Account Dashboard helped Rollbar customers achieve thei
 
 </div>
 
-You can view a limited demo of the Account Dashboard in the Rollbar Demo account here.
-
 ----
 
 Process:
