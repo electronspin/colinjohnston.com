@@ -14,7 +14,11 @@
   .c-page__date,
   .c-page__credit {
     color: $dark-text-color;
-    @include font-size(12px);
+    @include font-size(13px);
+    font-weight: 500;
+  }
+  .c-page_readtime {
+    @include font-size(13px);
     font-weight: 500;
   }
 }
