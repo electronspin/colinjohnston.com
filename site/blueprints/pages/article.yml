@@ -31,6 +31,11 @@ columns:
             default: now
           author:
             type: users
+          readtime:
+            label: Reading Time (Min)
+            type: number
+            min: 2
+            max: 30
           featured:
             label: Featured Post
             type: toggle
