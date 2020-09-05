@@ -10,7 +10,7 @@ if ($handle = opendir($dir)) {
             $modified = filemtime($file);
             $files[$modified] = $file;
         }
-    }
+    } 
     closedir($handle);
 }
 
