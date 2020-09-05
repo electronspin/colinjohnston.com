@@ -21,6 +21,8 @@
 
     <p class="c-page__date"><?= $page->published()->toDate('j F Y') ?></p>
 
+    <p class="c-page_readtime">Reading time: <?= $page->readtime()->toInt() ?> minutes</p>
+
     <?= $page->text()->kirbytext() ?>
 
     </div>
