@@ -2,6 +2,9 @@
 
 return [
   'debug' => true,
+  'bnomei.dotenv.dir' => function () {
+    return realpath(kirby()->roots()->index() . '/../');
+},
   // 'url' => 'http://colinjohnston.local',
   'markdown' => [
     'extra' => true
