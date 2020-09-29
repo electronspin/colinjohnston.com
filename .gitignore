@@ -67,3 +67,5 @@ vendor
 /storage/sessions/index.html
 
 /site/config/.license
+
+.env

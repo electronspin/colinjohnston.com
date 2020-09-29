@@ -6,4 +6,4 @@ exclude-list.txt
 */.DS_Store
 node_modules
 .htaccess
-
+.env
