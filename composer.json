@@ -23,7 +23,8 @@
   },
   "require": {
     "php": ">=7.1.0",
-    "getkirby/cms": "3.3.4"
+    "getkirby/cms": "3.3.4",
+    "bnomei/kirby3-dotenv": "^1.2"
   },
   "config": {
     "optimize-autoloader": true
