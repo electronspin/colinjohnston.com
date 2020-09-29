@@ -20,7 +20,7 @@
   <script src="/assets/js/halkaBox.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
   <script src="/assets/js/app.min.js"></script>
-  <script src="https://cdn.usefathom.com/script.js" site="XRUIYLTW" defer></script>
+  <?php snippet('fathom') ?>
 
 </head>
 <body>
