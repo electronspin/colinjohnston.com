@@ -44,13 +44,17 @@ node_modules/*
 # Compiled CSS
 public/assets/css/*.css
 public/assets/css/*.min.css
+!public/assets/css/halkaBox.min.css
 
 # Compiled JS
 public/assets/js/*.min.js
+!public/assets/js/halkaBox.min.js
+!public/assets/js/picturefill.min.js
 
 # Sourcemaps
 public/assets/js/*.js.map
 public/assets/css/*.css.map
+
 
 
 #
