@@ -7,4 +7,4 @@ exclude-list.txt
 node_modules
 .htaccess
 .env
-src/
+./src/
