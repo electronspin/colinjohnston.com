@@ -14,7 +14,7 @@ Tags: branding, marketing
 
 ----
 
-Intro:
+Text:
 
 Rollbar is a real-time error alerting and debugging tool for software developers.
 

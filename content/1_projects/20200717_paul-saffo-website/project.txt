@@ -14,7 +14,7 @@ Tags: identity, publishing
 
 ----
 
-Intro:
+Text:
 
 Website and identity design for forecaster Paul Saffo. The design presents his journal and a large collection of content in a clean, responsive interface.
 

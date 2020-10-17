@@ -14,7 +14,7 @@ Tags: product design
 
 ----
 
-Intro:
+Text:
 
 Solano CI is a continuous integration product for software development teams.
 
