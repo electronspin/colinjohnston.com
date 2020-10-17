@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="/favicon.ico" rel="icon" type="image/x-icon">
-  <meta name="description" content="<?= $site->description() ?>">
   
   <?php if ($page->isHomePage()): ?>
   <title>Colin Johnston - Product Design, Visual Design, UX Strategy, Brand Development - San Francisco Web Design</title>
   <?php else: ?>
   <title><?= $page->title() . ' – ' . $site->title() ?></title>
   <?php endif ?>
+
+  <?php echo $page->metaTags(['og', 'twitter']) ?>
 
   <link rel="stylesheet" href="/assets/css/halkaBox.min.css" >
   <link rel="stylesheet" href="/assets/css/main.min.css" >
