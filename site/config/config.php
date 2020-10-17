@@ -19,13 +19,30 @@ return [
           ? $site->title()
           : $page->title(),
         'type' => 'website',
-        'site_name' => $site->title(),
-        'url' => $page->url()
+        // 'site_name' => $site->title(),
+        'url' => $page->url(),
+        'description' => $page->isHomePage()
+          ? $site->description()
+          : $page->text()->excerpt(128),
+        'namespace:image' => function ($page) {
+          if ($image = $page->images()->findBy('template', 'cover'))
+            return [
+              'image' => $image->url(),
+              'alt' => $image->alt()
+            ];
+          else
+            return [
+              'image' => '',
+              'alt' => ''
+            ];
+        }
       ],
       'twitter' => [
         'card' => 'summary',
         'site' => $site->twitter(),
-        'title' => $page->title(),
+        'title' => $page->isHomePage()
+          ? $site->author()
+          : $page->title(),
         'description' => $page->isHomePage()
           ? $site->description()
           : $page->text()->excerpt(128),
