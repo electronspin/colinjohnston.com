@@ -25,6 +25,8 @@
 
     <?= $page->text()->kirbytext() ?>
 
+    <p class="c-page__image-credit">Image by <a href="<?= $image->link() ?>"> <?= $image->photographer() ?> </a></p>
+
     </div>
 
     </main>

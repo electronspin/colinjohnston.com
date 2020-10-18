@@ -21,6 +21,11 @@
     @include font-size(13px);
     font-weight: 500;
   }
+  .c-page__image-credit {
+    @include font-size(13px);
+    font-weight: 500;
+    text-align: right;
+  }
 }
 
 .c-page__site-title {
