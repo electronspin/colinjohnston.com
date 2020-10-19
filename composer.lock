@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "419c612564a85e2f712bd3d045bca23b",
+    "content-hash": "afac4a8403be2bc0cc2ba8158e495a6e",
     "packages": [
         {
             "name": "bnomei/kirby3-dotenv",
@@ -222,23 +222,23 @@
         },
         {
             "name": "getkirby/composer-installer",
-            "version": "1.1.4",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/composer-installer.git",
-                "reference": "2d6b8f5601a31caeeea45623e1643fbb437eb94e"
+                "reference": "240a8b2c275d61b66601feb58222b7d34bc6cf1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/composer-installer/zipball/2d6b8f5601a31caeeea45623e1643fbb437eb94e",
-                "reference": "2d6b8f5601a31caeeea45623e1643fbb437eb94e",
+                "url": "https://api.github.com/repos/getkirby/composer-installer/zipball/240a8b2c275d61b66601feb58222b7d34bc6cf1e",
+                "reference": "240a8b2c275d61b66601feb58222b7d34bc6cf1e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0"
+                "composer-plugin-api": "^1.0 || ^2.0"
             },
             "require-dev": {
-                "composer/composer": "^1.8",
+                "composer/composer": "^1.8 || 2.0.*@dev",
                 "phpunit/phpunit": "^7.0"
             },
             "type": "composer-plugin",
@@ -256,7 +256,7 @@
             ],
             "description": "Kirby's custom Composer installer for the Kirby CMS and for Kirby plugins",
             "homepage": "https://getkirby.com",
-            "time": "2019-02-11T20:27:36+00:00"
+            "time": "2020-09-13T14:43:34+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -512,6 +512,61 @@
                 "yml"
             ],
             "time": "2017-02-24T16:06:33+00:00"
+        },
+        {
+            "name": "omz13/kirby3-xmlsitemap",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/omz13/kirby3-xmlsitemap.git",
+                "reference": "905940bbc171130e545423da16ec475cb7494be7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/omz13/kirby3-xmlsitemap/zipball/905940bbc171130e545423da16ec475cb7494be7",
+                "reference": "905940bbc171130e545423da16ec475cb7494be7",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3.0.1",
+                "jakub-onderka/php-parallel-lint": "^1.0",
+                "localheinz/composer-normalize": "^1.0.0",
+                "omz13/omz13-coding-standard": "dev-master",
+                "phpcompatibility/php-compatibility": "^8.2",
+                "phpmd/phpmd": "^2.6",
+                "phpstan/phpstan": "^0.11",
+                "phpstan/phpstan-strict-rules": "^0.11",
+                "roave/security-advisories": "dev-master"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "omz13\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Somers",
+                    "email": "dsomers@omz13.com",
+                    "homepage": "https://meldingstuff.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "kirby3 plugin to generate an xml-based sitemap",
+            "keywords": [
+                "Sitemap",
+                "kirby3",
+                "plugin"
+            ],
+            "time": "2019-04-24T20:37:51+00:00"
         },
         {
             "name": "pedroborges/kirby-meta-tags",
