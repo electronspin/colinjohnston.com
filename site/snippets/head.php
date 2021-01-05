@@ -12,7 +12,7 @@
   <title><?= $page->title() . ' – ' . $site->title() ?></title>
   <?php endif ?>
 
-  <?php echo $page->metaTags(['og', 'twitter']) ?>
+  <?php echo $page->metaTags(['link', 'og', 'twitter']) ?>
 
   <link rel="stylesheet" href="/assets/css/halkaBox.min.css" >
   <link rel="stylesheet" href="/assets/css/main.min.css" >

@@ -12,7 +12,14 @@ return [
         'description' => $site->description()
       ],
       'link' => [
-        'canonical' => $page->url()
+        'canonical' => $page->url(),
+        'alternate' => [
+          [
+            'href' => site()->url() . '/feed',
+            'title' => 'Latest articles', // I don't think this gets picked up anywhere
+            'type' => 'application/rss+xml'
+          ]
+        ]
       ],
       'og' => [
         'title' => $page->isHomePage()
@@ -65,6 +72,21 @@ return [
   'markdown' => [
     'extra' => true
   ],
+  'routes' => [
+      [
+          'pattern' => 'feed',
+          'method' => 'GET',
+          'action'  => function () {
+              $options = [
+                  'title'       => 'Colin Johnston\'s Journal',
+                  'description' => 'Writing about design and technology since 2020',
+                  'link'        => 'journal'
+              ];
+              $feed = page('journal')->children()->listed()->flip()->limit(10)->feed($options);
+              return $feed;
+          }
+      ]
+        ],
   'thumbs' => [
     'srcsets' => [
       'default' => [400, 800, 1200, 1600],
