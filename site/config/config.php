@@ -74,7 +74,7 @@ return [
   ],
   'routes' => [
       [
-          'pattern' => 'feed',
+          'pattern' => 'feed', // requires bnomei/kirby3-feed plugin
           'method' => 'GET',
           'action'  => function () {
               $options = [
