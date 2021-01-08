@@ -14,14 +14,14 @@
     <?php foreach($page->children()->listed()->flip() as $note): ?>
 
       <article>
-          <h2><?= $note->title()->html() ?></h2>
-          <p><?= $note->text()->excerpt(100) ?></p>
-          <a href="<?= $note->url() ?>">Read more &rarr;</a>
+            <p class="c-page__date"><?= $note->published()->toDate('j F Y') ?></p>
+            <h2><a href="<?= $note->url() ?>"><?= $note->title()->html() ?></a></h2>
+            <p><?= $note->text()->excerpt(100) ?> <a href="<?= $note->url() ?>">read more</a></p>
       </article>
 
     <?php endforeach ?>
 
-    <!-- <?php snippet('menu-main') ?> -->
+
 
     </main>
 
