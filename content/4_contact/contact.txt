@@ -1,0 +1,31 @@
+Title: Contact
+
+----
+
+Text:
+
+Do you have a project you'd like to start? 
+Or an existing website you'd like to update? 
+Let's connect and see how I can help.
+
+Phone: +1 415 816-2477
+
+Email: <a id="contact"></a>
+
+LinkedIn: <a href="http://www.linkedin.com/in/colinleejohnston" target="_blank" rel="noopener noreferrer">colinleejohnston</a><br /> Twitter: <a href="https://twitter.com/colinjohnston" target="_blank" rel="noopener noreferrer">@colinjohnston</a><br /> Dribbble: <a href="https://dribbble.com/colinjohnston" target="_blank" rel="noopener noreferrer">colinjohnston</a>
+
+----
+
+Address: 
+
+----
+
+Email: 
+
+----
+
+Phone: 
+
+----
+
+Social: 
