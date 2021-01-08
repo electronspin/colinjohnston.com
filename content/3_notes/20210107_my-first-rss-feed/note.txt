@@ -1,0 +1,35 @@
+Title: My first RSS feed
+
+----
+
+Text:
+
+I created my first RSS feed this week. Actually, I've had RSS feeds in the distant past—in the earlier days of the web—but those we're built into the blogging platforms I used. They were just there, quietly pushing my random content out to whoever would find it with Google Reader or whichever RSS client they used at the time. This one, though, is on my own (link: https://getkirby.com text: Kirby)-based website using a (link: https://getkirby.com/plugins/bnomei/feed text: plugin) and some custom configurations. It's really basic, and I'll need to iterate on it to make it more polished, with preview images, etc. but it's a start.
+
+For those of you who don't know what an RSS feed is—RSS stands for Really Simple Syndication—it's a kind of content channel that broadcasts updates from a website to anyone who has the appropriate software for receiving them. These updates can be blog posts, podcasts, or any package of information that can be distributed in the RSS format. If you've ever used (link: https://feedly.com text: Feedly), for example, you've probably subscribed to someone's RSS feed.
+
+For those of you who build websites, publish online, and are worried that platforms like Facebook are destroying what is good about the Internet, an RSS feed represents an act of love for the open web. Although I'm not putting a large amount of content into the world (yet)—I have one post on my website so far—I'm pleased to finally be contributing positively to the World Wide Web I want to see survive and flourish. 
+
+If you like, you can subscribe to my Journal by plugging this address into the reader of your choice (link: http://colinjohnston.com/feed text: http://colinjohnston.com/feed)
+
+----
+
+Published: 2021-01-07 19:35
+
+----
+
+Author:
+
+- ZHFwwqKd
+
+----
+
+Featured: true
+
+----
+
+Tags: publlishing, rss
+
+----
+
+Gallery: 

@@ -1,0 +1,9 @@
+Title: Notes
+
+----
+
+Text: Random updates about the evolution of this website and commentary that doesn't become a (link: /journal text: Journal) entry.
+
+----
+
+Extendedmenu: false
