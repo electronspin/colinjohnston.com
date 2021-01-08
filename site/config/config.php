@@ -16,7 +16,7 @@ return [
         'alternate' => [
           [
             'href' => site()->url() . '/feed',
-            'title' => 'Latest articles', // I don't think this gets picked up anywhere
+            'title' => 'Colin Johnston\'s Journal', // This is title as it appears in Feedly
             'type' => 'application/rss+xml'
           ]
         ]
