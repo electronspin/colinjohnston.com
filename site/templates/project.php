@@ -17,51 +17,15 @@
       <?php endif ?>
     </header>
 
-    <div class="c-project__body"> <!-- TODO change to article -->
+    <article class="c-project__body"> <!-- TODO change to article -->
 
-    <h1 class="c-project__title animate"><?= $page->title() ?></h1>
+    <h1 class="c-project__title"><?= $page->title() ?></h1>
 
     <?= $page->intro()->kirbytext() ?>
-
-    <?php if ($page->process()->isNotEmpty()): ?>
-    <ul class="o-tabs" data-tab="">
-      <li class="o-tabs__tab-title active">
-        <a href="#overview">Project Overview </a>
-      </li>
-      <li class="o-tabs__tab-title">
-        <a href="#process">Process &amp; Artifacts </a>
-      </li>
-    </ul>
-    <?php else: ?>
-      <p style="padding-bottom: 1em;">&mdash;</p>
-    <?php endif ?>
-
-    <?php if ($page->overview()->isNotEmpty() || $page->process()->isNotEmpty()): ?>
-    <ul class="o-tabs__tab-content">
-      <li class="active" id="overviewTab">
-        <div class="overview-content">
-          <?= $page->overview()->kirbytext() ?>
-          <?php if ($page->process()->isNotEmpty()): ?>
-          <div class="c-link-pagination">
-              <a class="c-link-pagination--next" href="#process">See Process &amp; Artifacts</a>
-          </div>
-          <?php endif ?>
-        </div>
-      </li>
-      <li class="" id="processTab">
-        <div class="overview-content">
-          <?= $page->process()->kirbytext() ?>
-          <?php if ($page->overview()->isNotEmpty()): ?>
-          <div class="c-link-pagination">
-              <a class="c-link-pagination--prev" href="#overview">Read Project Overview</a>
-          </div>
-          <?php endif ?>
-        </div>
-      </li>
-    </ul>
-    <?php endif ?>
+    <?= $page->overview()->kirbytext() ?>
+    <?= $page->process()->kirbytext() ?>
     
-    </div> <!-- end project body -->
+    </article> <!-- end project body -->
 
     </main>
 
