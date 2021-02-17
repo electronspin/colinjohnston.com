@@ -14,21 +14,19 @@ Tags: product design
 
 ----
 
-Text:
-
-Solano CI is a continuous integration product for software development teams.
-
-As lead product designer at Solano Labs, I redesigned the ‘Session View’—the comprehensive report of build progress and test results—and solved major usability issues and increased user trust in the product.
+Text: **Test project text.** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ----
 
 Overview:
 
+## Overview
+
 The Session View shows every state of a session, from its initial creation, through to a complete collection of test results, build lifecycle timings, and build artifacts.
 
 Over time, as additional functionality and information was added to the view, the interface had become difficult to use.
 
-## Challenge
+### Challenge
 
 How can we simplify a very complex interface and increase user efficiency?
 
@@ -39,11 +37,11 @@ Our goals were:
 - Increase user trust in the system.
 - Present consistent views for a variety of session types.
 
-## Approach
+### Approach
 
 A holistic redesign based on user research and customer feedback, validated with live-data prototypes. We completely rebuilt how the system reports build status information, created a new real-time status report model, and I designed a set of visually consistent views for all session types.
 
-## Outcome
+### Outcome
 
 The new session view solves all the issues we set out to solve: we improved accuracy and depth of detail of status report, while making it more usable and easy to understand; we increased user confidence in the system, and are providing customers with a more efficient tool for a critical part of their software development workflow.
 
@@ -170,10 +168,6 @@ And by monitoring analytics we can uncover usage patterns that will help us impr
 **Activities & Outputs: **Usability Tests, Analytics, QA
 
 <a class="link--to-top" href="#">TOP</a>
-
-----
-
-Text: **Test project text.** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ----
 

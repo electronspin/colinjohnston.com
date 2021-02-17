@@ -24,9 +24,11 @@ I led the design effort to create a new view in the web app that provides users 
 
 Overview:
 
+## Overview 
+
 The Account Dashboard is a new view in the Rollbar web app specifically designed to give engineers and managers a complete picture of all active projects.
 
-## Challenge
+### Challenge
 
 Many Rollbar users are developing products composed of numerous applications and services, but without a comprehensive overview of these separate Rollbar projects it's difficult to see the overall health of an application.
 
@@ -36,7 +38,7 @@ Our goals for improving the Rollbar product:
 - Shorten the time it takes to solve complex issues.
 - Increase engineering team efficiency.
 
-## Approach
+### Approach
 
 Starting with a simple research-driven proof-of-concept that aggregated project data onto a single view, we tested the interface with a small number of customers. One of the most interesting outcomes of these early tests is that we discovered there were two distinct use cases: reporting, and triage. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve problems more efficiently. For the initial version of the view, we decided to provide a basic tool that would solve both problems. We mapped out plans for a deeper dive into each use case for future versions.
 
@@ -44,7 +46,7 @@ Starting with a simple research-driven proof-of-concept that aggregated project 
 - Present a clear visual representation of the health of selected projects.
 - Surface all filters available in the individual project view, making it easy for teams to drill down into issues across languages, environments, and error levels.
 
-## Outcome
+### Outcome
 
 The first release of the Account Dashboard helped Rollbar customers achieve their previously unmet goals immediately. By providing insight into individual trends alongside potential correlated patterns, engineering teams could now quickly see how the performance of various applications and services affects the health of their overall product. When a team can more efficiently triage and solve errors in complex systems they are more effective at maintaining high-quality experience for their users.
 
