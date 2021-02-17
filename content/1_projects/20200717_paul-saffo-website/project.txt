@@ -24,11 +24,13 @@ I developed the site with progressive enhancement techniques for compatibility f
 
 Overview:
 
+## Overview 
+
 Paul Saffo is a forecaster and futurist. He explores the dynamics of large-scale, long-term change; he teaches forecasting at Stanford University, chairs the Future Studies and Forecasting track at Singularity University, and serves on the Board of the Long Now Foundation.
 
 Paul has a rich collection of content—journal entries, essays, and interviews—and a well-known brand in Silicon Valley and internationally.
 
-## Challenge
+### Challenge
 
 Paul needed an updated brand identity and a complete refresh of his existing website.
 
@@ -36,7 +38,7 @@ For the redesign, the primary objective was to create a visual design that expre
 
 In addition to the identity and visual design, my goal was to provide a straightforward user experience that worked well on all screens—from a tiny Android 2.3 browser to a high-resolution desktop screen.
 
-## Approach
+### Approach
 
 Working from Paul’s previous website I refined it’s more complex user interface down to its essentials, enhancing usability and setting the stage for a more focused and prominent identity.
 
@@ -52,7 +54,7 @@ Typography and color are core design elements of the new design. I selected two 
 
 I built the website as a completely custom theme for WordPress, using a blank Sage starter theme; by not using even a small portion of a UI framework such as Bootstrap, or any prebuilt templates, I could keep the code very lean, and keep the ’page weight’ down for slower networks (and it’s been so much easier to maintain!)
 
-## Outcome
+### Outcome
 
 I created a website that presents a strong update to Paul’s identity, and frames his content with a graphical richness and elements of storytelling. It delivers a very pleasing and approachable user experience that’s highly performant and accessible across a wide array of devices.
 
