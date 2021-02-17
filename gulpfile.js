@@ -1,25 +1,24 @@
-// gulpfile for colinjohnston-v2 (aka kirby-merge)
+// --------------------------------- //
+// gulpfile for colinjohnston.com v2 //
+// --------------------------------- //
 
-var gulp = require('gulp');
+const gulp 				 = require('gulp');
 
-var connect      = require('gulp-connect-php');
-var autoprefixer = require('gulp-autoprefixer');
-var browserSync  = require('browser-sync').create();
-var concat       = require('gulp-concat');
-var filter       = require('gulp-filter');
-var jshint       = require('gulp-jshint');
-var sass         = require('gulp-sass');
-var nano         = require('gulp-cssnano');
-var plumber      = require('gulp-plumber');
-var rename       = require('gulp-rename');
-var uglify       = require('gulp-uglify');
-var sourcemaps   = require('gulp-sourcemaps');
-var gutil 			 = require('gulp-util');
-// var addsrc 			 = require('gulp-add-src');
-// var runSequence  = require('run-sequence');
-var order 			 = require("gulp-order");
+const connect      = require('gulp-connect-php');
+const autoprefixer = require('gulp-autoprefixer');
+const browsersync  = require('browser-sync').create();
+const concat       = require('gulp-concat');
+const sass         = require('gulp-sass');
+const nano         = require('gulp-cssnano');
+const plumber      = require('gulp-plumber');
+const rename       = require('gulp-rename');
+const uglify       = require('gulp-uglify');
+const sourcemaps   = require('gulp-sourcemaps');
+const gutil 			 = require('gulp-util');
 
-var reload = browserSync.reload;
+// CONFIGS
+
+// This can all be refactored to a config file in Gulp 4 style
 
 var configs = {
 	connect: { 
@@ -37,7 +36,7 @@ var configs = {
 			'> 1%',
 			'last 2 versions',
 			'Firefox ESR',
-			'Opera 12.1' // Update?
+			'Opera 12.1' // Update!
 		]
 	},
 	src: 'src/',
@@ -70,6 +69,8 @@ var scripts = {
 
 // Beep on error and display them in 'stylish' style
 
+// TODO: Reractor this to be um better
+
 var errorHandler = {
   sass: function () {
     gutil.beep();
@@ -88,14 +89,11 @@ var errorHandler = {
   }
 };
 
-// PHP
-
-gulp.task('php', reload);
-
 // STYLES
 
-gulp.task('sass', function() {
-	return gulp.src(paths.src.styles + "main.scss")
+function css(cb) {
+	// TODO: Refactor 
+	gulp.src(paths.src.styles + "main.scss")
 		.pipe(plumber({
         errorHandler: function (err) {
           console.log(err.message);
@@ -110,18 +108,19 @@ gulp.task('sass', function() {
 		.pipe(rename({suffix: '.min'}))
 		.pipe(sourcemaps.write('.'))
 		.pipe(gulp.dest(paths.dist.styles))
-		//.pipe(filter('**/*.css'))
-		.pipe(browserSync.stream());
-});
+		.pipe(browsersync.stream());
+		cb();
+}
 
 // SCRIPTS
 
-gulp.task('js', function(cb) {
+function js(cb) {
+	// TODO: Refactor 
 	for (var i in scripts) {
     if ({}.hasOwnProperty.call(scripts, i)) {
       var script = scripts[i];
       var fileName = i + '.js';
-			return gulp.src(script.src)
+			gulp.src(script.src)
 				.pipe(sourcemaps.init())
 				.pipe(plumber({errorHandler: errorHandler.js}))
 				.pipe(uglify())
@@ -132,40 +131,46 @@ gulp.task('js', function(cb) {
 			}
 		}
 	cb();
-});
+}
 
 // SERVE
 
-gulp.task('serve', ['sass', 'js'], function() {
+function serve(cb) {
+	// TODO: Refactor 
 	connect.server(configs.connect, function() {
-		 browserSync.init({
+		 browsersync.init({
 		 		injectChanges: true,
 				proxy: configs.connect.hostname + ':' + configs.connect.port,
-				browser: 'FirefoxDeveloperEdition',
+				browser: 'Firefox Developer Edition',
+				// browser: 'Safari',
 		 		snippetOptions: {
 		 			ignorePaths: ['panel/**', 'site/accounts/**']
 		 		},
 		 });
 	});
+	cb();
+}
 
-	
-	gulp.watch([
-    './**/*.php',
-    // paths.src.images + '**/*', // TODO
-		paths.src.styles + '**/*',
-		paths.src.scripts + '**/*'
-	]).on('change', reload);
+// WATCH
 
-  gulp.watch(paths.src.styles + "**/*.scss", ['sass']);
-	gulp.watch([paths.src.scripts + '**/*.js', '!**/*.min.js'], ['js']);
+function reload(cb){
+  browsersync.reload();
+  cb();
+}
 
-});
+const watchCSS = () => gulp.watch(paths.src.styles + '**/*.scss', gulp.series(css, reload));
+const watchJS = () => gulp.watch(paths.src.scripts + '**/*.js', gulp.series(js, reload));
+const watchPHP = () => gulp.watch('./**/*.php', reload);
+
+// DEV
+
+const dev = gulp.series(
+	serve,
+	gulp.parallel(css, js),
+	gulp.parallel(watchCSS, watchJS, watchPHP),
+);
+exports.default = dev;
 
 // BUILD
 
-gulp.task('build', ['sass', 'js']);
-
-
-// ALIASES
-
-gulp.task('default', ['serve']);
+// No need. Use default task for build and watch.
