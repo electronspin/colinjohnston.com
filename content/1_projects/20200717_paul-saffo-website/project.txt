@@ -14,11 +14,11 @@ Tags: identity, publishing
 
 ----
 
-Text:
+Intro:
 
-Website and identity design for forecaster Paul Saffo. The design presents his journal and a large collection of content in a clean, responsive interface.
+Paul Saffo is a forecaster and futurist. He explores the dynamics of large-scale, long-term change; he teaches forecasting at Stanford University, chairs the Future Studies and Forecasting track at Singularity University, and serves on the Board of the Long Now Foundation.
 
-I developed the site with progressive enhancement techniques for compatibility from Android 2.3 up to the latest desktop browsers.
+Paul has a rich collection of content—journal entries, essays, and interviews—and a well-known brand in Silicon Valley and internationally.
 
 ----
 
@@ -255,3 +255,4 @@ I created Illustrator files and then exported to SVG.
 (lazysrcset: saffo-identity-icons-final.jpg link: saffo-identity-icons-final.jpg linkclass: hb-single caption: Icon Design - The final icons ready for SVG export.)
 
 <a class="link--to-top" href="#">TOP</a>
+

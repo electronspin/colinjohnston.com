@@ -27,8 +27,7 @@ fields:
     width: 1/4
   tags:
     type: tags
-  text:
-    label: Intro
+  intro:
     type: textarea
     size: small
   overview:
