@@ -161,13 +161,14 @@ function reload(cb){
 const watchCSS = () => gulp.watch(paths.src.styles + '**/*.scss', gulp.series(css, reload));
 const watchJS = () => gulp.watch(paths.src.scripts + '**/*.js', gulp.series(js, reload));
 const watchPHP = () => gulp.watch('./**/*.php', reload);
+const watchTXT = () => gulp.watch('./**/*.txt', reload);
 
 // DEV
 
 const dev = gulp.series(
 	serve,
 	gulp.parallel(css, js),
-	gulp.parallel(watchCSS, watchJS, watchPHP),
+	gulp.parallel(watchCSS, watchJS, watchPHP, watchTXT),
 );
 exports.default = dev;
 
