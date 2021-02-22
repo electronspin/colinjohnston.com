@@ -14,7 +14,11 @@ Tags: product design
 
 ----
 
-Intro: The Account Dashboard is a new view in the Rollbar web app specifically designed to give engineers and managers a complete picture of all active projects.
+Intro:
+
+Rollbar is a real-time error alerting and debugging tool for software developers.
+
+I led the design effort to create a new view in the web app that provides users visibility into errors across multiple Rollbar projects.
 
 ----
 

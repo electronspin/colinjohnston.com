@@ -10,15 +10,21 @@ Year: 2016
 
 ----
 
+Date: 2020-07-17 21:50
+
+----
+
+Author:
+
+- ZHFwwqKd
+
+----
+
 Tags: identity, publishing
 
 ----
 
-Intro:
-
-Paul Saffo is a forecaster and futurist. He explores the dynamics of large-scale, long-term change; he teaches forecasting at Stanford University, chairs the Future Studies and Forecasting track at Singularity University, and serves on the Board of the Long Now Foundation.
-
-Paul has a rich collection of content—journal entries, essays, and interviews—and a well-known brand in Silicon Valley and internationally.
+Intro: Website and identity design for forecaster Paul Saffo. The design presents his journal and a large collection of content in a clean, responsive interface.
 
 ----
 
@@ -40,23 +46,23 @@ In addition to the identity and visual design, my goal was to provide a straight
 
 ### Approach
 
-Working from Paul’s previous website I refined it’s more complex user interface down to its essentials, enhancing usability and setting the stage for a more focused and prominent identity.
+I evelauted the website
 
-One of the biggest improvements over the previous design is a much more simplified landing page; now, instead of quotations and an unclear path to the main content, the first screen users see shows the most recent journal entry and a featured essay from his archives.
+Refine a complex user interface down to its essentials, enhancing usability and setting the stage for a more focused and prominent identity.
 
-I brought to the foreground graphical elements such as the unique navigation icons that had become a key part of his overall identity, and redrew them for hi-res displays.
+Simplified landing page to provide clear path to the main content.
 
-Along with this I redesigned his logo, simplifying the typography and selecting a color with more presence—a rich deep red that communicates urgency without being too forceful.
+Refine custom navigation icons, integrate them into brand identity, and make them more prominent.
+
+Redesign logo with improved typography and more confident color.
 
 My design strategy for the interface design was to frame the entire site in the updated identity, which is anchored by the new logo, but supported by the icons and updated color scheme. Then, for each section, I frame the content with a large header image that signals what is in that section. Some of these are very literal; others are ‘stories’ that become more clear once you acquire knowledge of Paul’s content.
 
-Typography and color are core design elements of the new design. I selected two typefaces, one for headers and one for the body text. I chose Aller for the headings for its unique and inventive visual rhythm; I chose Acumin Pro for the body text for its high legibility and impression of rationality and clarity. The color palette is built around the logo color. The background (on desktop) is a cool dark gray, which optically recedes behind the main content area; the sidebar is a warm light gray, with a slight green hue to provide subtle contrast to the red of the logo and the icons.
-
-I built the website as a completely custom theme for WordPress, using a blank Sage starter theme; by not using even a small portion of a UI framework such as Bootstrap, or any prebuilt templates, I could keep the code very lean, and keep the ’page weight’ down for slower networks (and it’s been so much easier to maintain!)
+I developed a custom theme to leverage WordPress, the popular open-source CMS.
 
 ### Outcome
 
-I created a website that presents a strong update to Paul’s identity, and frames his content with a graphical richness and elements of storytelling. It delivers a very pleasing and approachable user experience that’s highly performant and accessible across a wide array of devices.
+I created a website that presents a strong update to Paul’s identity, and frames his content with a graphical richness and elements of storytelling. It delivers a pleasing and intuitive user experience that’s highly performant and accessible across a wide array of devices.
 
 Paul is delighted with the results.
 
@@ -255,4 +261,3 @@ I created Illustrator files and then exported to SVG.
 (lazysrcset: saffo-identity-icons-final.jpg link: saffo-identity-icons-final.jpg linkclass: hb-single caption: Icon Design - The final icons ready for SVG export.)
 
 <a class="link--to-top" href="#">TOP</a>
-
