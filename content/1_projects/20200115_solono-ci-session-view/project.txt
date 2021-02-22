@@ -16,9 +16,9 @@ Tags: product design
 
 Intro:
 
-The Session View shows every state of a session, from its initial creation, through to a complete collection of test results, build lifecycle timings, and build artifacts.
+Solano CI is a continuous integration product for software development teams.
 
-Over time, as additional functionality and information was added to the view, the interface had become difficult to use.
+As lead product designer at Solano Labs, I redesigned the ‘Session View’—the comprehensive report of build progress and test results—and solved major usability issues and increased user trust in the product.
 
 ----
 
