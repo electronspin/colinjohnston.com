@@ -14,250 +14,108 @@ Date: 2020-07-17 21:50
 
 ----
 
-Author:
-
-- ZHFwwqKd
-
-----
-
 Tags: identity, publishing
 
 ----
 
-Intro: Website and identity design for forecaster Paul Saffo. The design presents his journal and a large collection of content in a clean, responsive interface.
+Intro: 
 
 ----
 
 Overview:
 
-## Overview 
+## Project Overview 
 
-Paul Saffo is a forecaster and futurist. He explores the dynamics of large-scale, long-term change; he teaches forecasting at Stanford University, chairs the Future Studies and Forecasting track at Singularity University, and serves on the Board of the Long Now Foundation.
+Website and identity design for forecaster Paul Saffo. 
 
-Paul has a rich collection of content—journal entries, essays, and interviews—and a well-known brand in Silicon Valley and internationally.
+### Context
 
-### Challenge
+Paul Saffo is a forecaster and futurist. He explores the dynamics of large-scale, long-term change; he teaches forecasting at Stanford University, chairs the Future Studies and Forecasting track at Singularity University, and serves on the board of the Long Now Foundation.
 
-Paul needed an updated brand identity and a complete refresh of his existing website.
+### Problem
 
-For the redesign, the primary objective was to create a visual design that expressed the rational, intellectual clarity of Paul’s writing, as well as the inventive, human qualities of Paul himself.
+Paul has a rich collection of content—journal entries, essays, and interviews—and is a well known brand in Silicon Valley and internationally.
 
-In addition to the identity and visual design, my goal was to provide a straightforward user experience that worked well on all screens—from a tiny Android 2.3 browser to a high-resolution desktop screen.
-
-### Approach
-
-I evelauted the website
-
-Refine a complex user interface down to its essentials, enhancing usability and setting the stage for a more focused and prominent identity.
-
-Simplified landing page to provide clear path to the main content.
-
-Refine custom navigation icons, integrate them into brand identity, and make them more prominent.
-
-Redesign logo with improved typography and more confident color.
-
-My design strategy for the interface design was to frame the entire site in the updated identity, which is anchored by the new logo, but supported by the icons and updated color scheme. Then, for each section, I frame the content with a large header image that signals what is in that section. Some of these are very literal; others are ‘stories’ that become more clear once you acquire knowledge of Paul’s content.
-
-I developed a custom theme to leverage WordPress, the popular open-source CMS.
+Paul’s existing website was no longer providing his current or potential clients with an experience that would enable him to sustain and grow his business.
 
 ### Outcome
 
-I created a website that presents a strong update to Paul’s identity, and frames his content with a graphical richness and elements of storytelling. It delivers a pleasing and intuitive user experience that’s highly performant and accessible across a wide array of devices.
+A refreshed visual and brand design that expresses the rational, intellectual clarity of Paul’s forecasting work and the inventiveness of Paul himself.
 
-Paul is delighted with the results.
-
-Visit the site: (link: https://saffo.com text: www.saffo.com)
+The new site delivers an improved user experience and makes Paul’s large collection of content accessible across a wide variety of devices; it has impressed many key clients and prospects, and helped him book a considerable number of new speaking engagements.
 
 ----
 
 Process:
 
-For this project my process was different from my standard product design process in that I functioned as an ‘agency of one’ and my client was an individual, not a group of stakeholders with varied involvement. But the basic sequence is very similar, rooted in a thorough Discovery process.
-
-As each project phase continues to the next it informs the overall process, i.e. Discovery is a large portion of a project done at the beginning, but discovery continues through planning, design, etc. This is essentially an ‘iterative waterfall’ process because it progresses very linearly, yet still allows for a productive feedback loop throughout the project.
-
-Discover > Planning > Concepts > Design > Build
-
-## Discover
-
-The discovery process was light on deliverables such as a creative brief; Paul had a general idea of what he wanted to change about his website and identity, and I guided us through requirements gathering and conceptual exploration in structured but informal way.
-
-### Research
-
-The original website was not tooled for analytics, so without this data we could not analyze user behaviors that might reveal user flow issues. What I did do, however, is show the existing site to a small group of people and ask them to give me feedback on the old design and overall usability. This was simple to do and gave me a good basis for making fundamental changes to the navigation and content presentation.
-
-The consensus supporting my observations:
-
-- The landing page with a multi-panel narrative revealed only by hovering small elements was not discoverable or impactful.
-- Users wanted to quickly look at recent journal entry, or get to his essays and interviews; the journal index link/view was more confusing than helpful.
-- The colors were washed out, the graphics were blurry, and the type was too small (we were acutely aware of this already).
-
-### Requirements & Creative Notes
-
-#### Branding
-    
-- Simplify logo geometry and apply more emphatic color
-- Re-create icons for larger sizing and hi-DPI displays
-- Develop a way to communicate intellect, rationality, inventiveness
-
-#### Experience
-    
-- Reading experience and navigation must be optimized for mobile
-- Reduce the complexity of content presentation - focus on Journal and Essays primarily, minimal quotations, etc.
-- Storytelling - maps and diagrams as a metaphor for forecasting
-
-#### Technical
-    
-- Fast on mobile - needs responsive images and async font loader, etc.
-- Support for older mobile browsers - SVG fallbacks, Modernizr, etc.
-- Set up Google Analytics! (And add views/filters for staging).
-
-
-With these notes and various thumbnail design ideas, I could begin the Concept phase. First I needed to organize all the input gathered so far, and create a plan.
-
-<a class="link--to-top" href="#">TOP</a>
-
-## Planning
-
-Since we had collaborated previously on website design for another venture, he knew I had a solid process, and we could keep things lean; he didn’t need a ton of documentation of our decisions, just iterative progress towards the final product.
-
-But even when I’m working on a complete project as a team of one, I still like to map out how I’m going to get from A to B. It looks something like this:
-
-A. Logo | B. Icons | C. Website
---- | --- | ---
-0 - Sketches (not presented) 	| 0 - Sketches (not presented) | 0 - Thumbnails (not presented)
-1 - Rough B&W Designs | 1 - Rough B&W Designs | 1 - Mobile Sketches
-2 - ‘Final’ B&W with Type | 2 - Desktop Sketches
-3 - Final Color version (present for approval) | 3 - Final Vectors (present for approval) | 3 - Color and Type explorations (not presented)
-4 - Generate SVG (to web assets) | 4 - Generate SVGs (to web assets) | 4 - Mock-ups (present for approval)
-| 5 - All formats for delivery at end of project | | 5 - Build page templates
-| | | 6 - Write stylesheets |
-
-As I worked through each piece in sequence, I present the work on a private client website. I like to keep the presentations available in one place throughout the entire project, so we can easily refer to decisions and their rationales.
-
-<a class="link--to-top" href="#">TOP</a>
-
-## Concepts
-
-At this stage, I’ve internalized the goals and objectives, both conceptual and technical, and mapped out a structured plan. Now I’m free to diverge out into different methods of creative exploration. This process involves lots of ‘visual gathering’ and recombining elements from designs other mediums, snapshots capturing the look and feel of products or publications I think match the patterns outlined in my conceptual notes. I also look at other content-heavy mobile sites to see which interactions and flows work (and which don’t).
-
-It’s during this process that I start to converge on type and color choices. I’ll narrow the field down in the design phase.
+## Ideation
 
 ### Sketches
 
-I sketch lots of rough ideas. For this project, I went quickly to mobile layouts in pencil, working out various ways to present content and devise navigation. Pencil on paper is, for me, the most effective way of thinking through design ideas; I can sketch quickly and allow myself to make ‘mistakes’, and I don’t get too attached to refining a design pattern as I might in Sketch or Illustrator.
+I created numerous sketches to find ways of simplifying a potentially complex interface down to its essentials.
 
-(lazysrcset: saffo-website-sketches-1.jpg link: saffo-website-sketches-1.jpg linkclass: hb-single caption: Early sketches of mobile layouts - I didn't use most of these ideas, but by thinking them through on paper I could make better design choices in the next rounds)
+For this project I was also particularly focused on setting the stage for a more integrated identity and prominent iconography.
 
-(lazysrcset: saffo-website-sketches-2.jpg link: saffo-website-sketches-2.jpg linkclass: hb-single caption: Desktop landing page sketches - Evolution towards the final desktop layout. Through these sketches, I also revealed the idea for the final mobile layouts.)
+(lazysrcset: saffo-website-sketches-1.jpg link: saffo-website-sketches-1.jpg linkclass: hb-single caption: An essential requirement of the design was to optimize all layout and navigation for mobile users)
 
-(lazysrcset: saffo-website-sketches-3.jpg link: saffo-website-sketches-3.jpg linkclass: hb-single caption: Later sketches of mobile layouts - tightening up the layouts, with notes on things to leave out in the mock-ups.)
+(lazysrcset: saffo-website-sketches-2.jpg link: saffo-website-sketches-2.jpg linkclass: hb-single caption: tk - what's going on in this sketch?)
 
-One thing I’ve learned as a designer is the importance of setting aside these sketches for a few days and reviewing them with fresh eyes later. Sometimes what seemed like the best idea seems incomplete or too busy and can be improved (or completely rejected favoring a new idea). This is the time to figure this out, not once I’ve done hi-fidelity mock-ups or a prototype (although prototypes often lead to substantial revision, too).
+(lazysrcset: saffo-website-sketches-3.jpg link: saffo-website-sketches-3.jpg linkclass: hb-single caption: tk - what's going on in this sketch?)
 
-While the sketches are out of sight and mind, I looked at my type and color ideas and gathered all my image resources to prepare for assembling complete designs.
+## Visual Design
 
-At this stage of the project, I typically present the work done so far to get feedback from my client. For this project, Paul requested that I develop and present a single recommended design. (Yikes! What if he hated it?). This method means fewer presentations, but we also run the risk of skipping important artifacts. Although I knew I wouldn’t be presenting them for feedback, I created style boards to explore and document the choices leading up to the recommended design. For me, it’s an essential part of developing early concepts because they show the proposed visual style, separate from content and structure. It also really helps to print them out and tape them up on the wall so I can stay focused while working on designs.
+### Branding & Aesthetics
 
-### Style Boards
+My visual design strategy was to frame the entire site in the updated brand, which is anchored by the new logo (which I previously redesigned) and supported by the icons and updated color scheme.
 
-(lazysrcset: saffo-styleboards.jpg link: saffo-styleboards.jpg linkclass: hb-single caption: Style Board)
+I framed the content in each section with a large header image that signals what is within it. Some of these headers are very literal; others are ‘stories’ that become clearer once you acquire more knowledge of Paul’s content.
+
+(lazysrcset: saffo-styleboards.jpg link: saffo-styleboards.jpg linkclass: hb-single caption: **Style Boards:** I explored a variety of aesthetic choices to best communicate Paul’s brand identity. Typography and color are core design elements of the new design. - TODO: replace with individual images from deck)
+
+(lazysrcset: saffo-art-direction.jpg link: saffo-art-direction.jpg linkclass: hb-single caption: **Photography:** I worked with Paul to produce original photography for certain sections. I experimented with treatments that would harmonize with the brand aesthetics.)
 
 <a class="link--to-top" href="#">TOP</a>
 
-## Design
+## Iconography
 
-### Why no Wireframes?
+### Custom Icon System
 
-Typically, at this stage, I would construct detailed wireframes that specify the structure of the interface, and, for more complex interfaces, show indications of how interactions might work. (For very complex interfaces this is an ideal stage to begin anticipating how the actual front-end will be structured, and mapping out data points, etc.). As a team of one, I didn’t need to present this level of detail for review, so I took the pencil sketches and began to frame out the base structures directly in Sketch.
+Paul is known for his love of maps. I designed a set of icons that evokes navigation and wayfinding.
 
-### Mock-ups
+The icons serve functionally in the site navigation component, but also serve as a bridge to Paul’s brand identity—in the final desktop site I feature them prominently.
 
-Mock-ups are where I start to assemble conceptual choices and begin to merge content, structure, and style to create a cohesive design for presentation.
+(lazysrcset: saffo-identity-icons-sketch.jpg link: saffo-identity-icons-sketch.jpg  linkclass: hb-single caption: **Hand-crafted symbols:** I drew each symbol in pencil to get a feel for its qualities before bringing the work in to my digital drawing tool.)
 
-I get to dial in type styles for headings and body text and begin looking at type scale (ratio of sizes from body text up to main headers). I apply colors first to structural elements and then set up a consistent color pattern for links and other interactions.
+(lazysrcset: saffo-identity-icons.jpg link: saffo-identity-icons.jpg linkclass: hb-single caption: **Icon Design:** constructing the About Icon.)
+
+(lazysrcset: saffo-identity-icons-final.jpg link: saffo-identity-icons-final.jpg linkclass: hb-single caption: **Final icon designs:** Scalable vector graphics—SVGs—are crisp and clear on any device at any size.)
+
+## Final Design
+
+### Multi-device Mockups
+
+With any adaptive experience, I design the desktop and mobile views side-by-side to ensure visual consistency.
 
 (lazysrcset: saffo-design-sketch-1.jpg link: saffo-design-sketch-1.jpg linkclass: hb-single caption: Mock-ups - designing the desktop and mobile views side-by-side in Sketch)
 
 (lazysrcset: saffo-design-sketch-2.jpg link: saffo-design-sketch-2.jpg linkclass: hb-single caption: Mock-ups - Detail of mobile navigation in Sketch)
 
-### Presentation
+[TODO: refactor images to present like in the deck]
 
-At this stage I have a set of initial mock-ups that tie everything together: the essential pieces—logo, icons, colors, type, structure—have been assembled into a cohesive design and are ready to present.
+### Heading TK [Launch? Delivery?]
 
-### Final Design
+[saffo.com – before
+While the old site had a certain 1990s-era visual appeal, it was hard to use and was practically inaccessible on mobile]
 
-Paul loved my proposed design, so we needed to add in the final piece of experience: the header images. Since I’d been using a stock image to represent the header image pattern, I started on the selection and art direction of images Paul and I gathered from his collection of maps and other elements of interest.
-
-I recommended that I move ahead building out the site, while we also collaborated on the header images. This worked out well because I could quickly swap in different images to live layouts and post screenshots of different ideas for review.
-
-I wanted images that reinforce the content of the corresponding section, so I picked those out first. Based on my type and color choices I was looking to create a specific feel through composition and tone. In Photoshop, I cropped each selection to bring out a single point of focus and then created adjustment filters to get the feel right for the overall design.
-
-(lazysrcset: saffo-art-direction.jpg link: saffo-art-direction.jpg linkclass: hb-single caption: Final Designs - Photo art direction for page header images)
+[saffo.com – after
+An accessible experience integrating enhanced branding, a strong aesthetic, and improved multi-device accessibility] [TODO: show hero image again? - need to show finished product vs old site]
 
 <a class="link--to-top" href="#">TOP</a>
 
-## Build
+[TODO: decide if I want to talk at all about the dev part of the project. What is value of adding that?]
 
-One of the things I love about ‘agency of one’ projects like this is that I get to do both design and implementation. I’m just as a comfortable in a code editor as I am in Photoshop.
+----
 
-### Platform
+Author:
 
-I built the new website in (link: https://wordpress.org/ text: WordPress) and created a custom theme from scratch using the awesome (link: https://roots.io/sage/ text: Sage) ’starter theme’ built by the team at Roots. I have lots of experience building with WordPress, but in recent years I’ve also worked a lot with Ruby on Rails developers, and so I’ve come to rely on things like partials and an asset pipeline. Sage brings a more modern front-end development workflow to WordPress. It doesn’t contain any design or templates, but it does ship with Bootstrap assets built-in. So I forked my own version of Sage that strips all this out; I developed my own custom styles and page templates to have complete control over the front-end.
-
-### Front-end
-
-I love CSS, and I really love the Sass preprocessor; variables and mixins make my workflow so much more efficient. But one of the challenges of Sass is the discipline required to make sure my styles are easily maintainable, and that my CSS output is not a snarled mess.
-
-I use a methodology for my stylesheet architecture developed by Harry Roberts that combines BEM-like syntax with ITCSS (‘Inverted Triangle CSS’). ITCSS is because the specificity of styles descends from least to most specific, and proposes that styles should be structured within this hierarchy in a modular way to allow for greater flexibility. The short pitch for this approach is that it keeps the stylesheets more readable, and allows for changes to be made to areas of the UI without fear of breaking another area.
-
-(lazysrcset: saffo-styles-typography_full.jpg link: saffo-styles-typography_full.jpg linkclass: hb-single caption: Front End - I created a Sass mixin that works with webfonts to ensure optimal display while font resources load. This eliminates the 'flash of invisible text' issue)
-
-### Micro-interactions
-
-My goal for interactions is to create them in pure CSS if possible; not using JavaScript for a menu dropdown means there’s just a little less code to send to the browser. But in some cases using JavaScript helps me avoid a more time-consuming process of creating CSS-only interactions the work in older browsers (which is often just not going to happen).
-
-The mobile menu toggle is an example of a UI animation that is CSS-only; the mobile menu itself is enabled using base jQuery to toggle visibility.
-
-(lazysrcset: saffo-menu-ixd-storyboard.jpg link: saffo-menu-ixd-storyboard.jpg linkclass: hb-single caption: Micro-interaction & animation Design - Detail of mobile menu animation created with pure CSS)
-
-### Development Tools
-
-Because I really like this aspect of any project, here are some notes on my workflow setup:
-
-- I run WordPress locally in a Docker container within a Vagrant box using the aptly named (link: https://wckr.github.io/ text: Wocker).
-- I write Sass and build the PHP templates in Sublime Text 2.
-- I handle asset, script, and stylesheet processing with the build tool Gulp, with the indispensable BrowserSync to display updates across different device screens.
-- I push often to a staging server using rsync, and I commit constantly to a git repo to keep work safe and versioned.
-
-### Testing
-
-I develop in the latest build of Chrome Canary, so what I see as I’m constructing the site will rarely have layout issues if I build it correctly. Well, it will have issues, but the Developer Tools are my friend, and I fix them!
-
-During the entire build, and again before releasing the final site to production on MediaTemple, I tested the site on real devices to make sure I was providing a consistent experience to as many people as possible.
-
-I had decided support for Android 2.3 stock browsers was essential, but I rejected the notion of supporting Internet Explorer 8 and below. Hard to believe the day is finally here, but there are fewer active IE8 users than Android 2.3 users!
-
-The main issues I tested for were layout issues, and making sure the PNG fallbacks for the SVG graphics were loading on the devices that can’t handle SVGs.
-
-<a class="link--to-top" href="#">TOP</a>
-
-## Icon Design
-
-Sketches and vector artwork for new site navigation icons.
-
-### Sketches
-
-The new icons were based closely on tiny 16-pixel wide GIF files used in Paul's older website. I set out to re-design each icon to be optically balanced at a wide range of sizes.
-
-(lazysrcset: saffo-identity-icons-sketch.jpg link: saffo-identity-icons-sketch.jpg  linkclass: hb-single caption: Icon Sketches - Exploring the geometry of the About Icon before going into Illustrator. Sketching like this in pencil helps me really think through the details.)
-
-### Vectors
-
-I created Illustrator files and then exported to SVG.
-
-(lazysrcset: saffo-identity-icons.jpg link: saffo-identity-icons.jpg linkclass: hb-single caption: Icon Design - Constructing the About Icon in Illustrator.)
-
-(lazysrcset: saffo-identity-icons-final.jpg link: saffo-identity-icons-final.jpg linkclass: hb-single caption: Icon Design - The final icons ready for SVG export.)
-
-<a class="link--to-top" href="#">TOP</a>
+- ZHFwwqKd
