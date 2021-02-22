@@ -20,13 +20,21 @@ fields:
     width: 3/4
     required: true
   year:
+    label: Project Year
     type: number
     min: 2000
     default: 2018
     required: true
     width: 1/4
+  date:
+    label: Posted Date
+    type: date
+    time: true
+    default: now
+    width: 1/4
   tags:
     type: tags
+    width: 3/4
   intro:
     type: textarea
     size: small
@@ -36,6 +44,9 @@ fields:
   process:
     type: textarea
     size: large
+  author:
+    type: users
+    width: 1/2
 
 sidebar:
   cover:
@@ -50,3 +61,4 @@ sidebar:
     type: files
     headline: Gallery
     template: image
+
