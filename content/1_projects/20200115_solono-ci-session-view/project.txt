@@ -10,15 +10,15 @@ Year: 2016
 
 ----
 
+Date: 2020-01-15 21:50
+
+----
+
 Tags: product design
 
 ----
 
-Intro:
-
-Solano CI is a continuous integration product for software development teams.
-
-As lead product designer at Solano Labs, I redesigned the ‘Session View’—the comprehensive report of build progress and test results—and solved major usability issues and increased user trust in the product.
+Intro: Solano CI is a continuous integration product for software development teams.
 
 ----
 
@@ -26,112 +26,97 @@ Overview:
 
 ## Overview
 
-The Session View shows every state of a session, from its initial creation, through to a complete collection of test results, build lifecycle timings, and build artifacts.
+### Context
 
-Over time, as additional functionality and information was added to the view, the interface had become difficult to use.
+Solano Labs’ Solano CI is a platform for engineers that provides a critical function called continuous integration. Solano CI enables Agile software teams to break down large monolithic applications into smaller projects and services which can be rebuilt, tested, and deployed more frequently.
 
-### Challenge
+The Session View—the core of Solano CI—is a comprehensive real-time report of build progress and test results for a single software project. Since its initial release incremental changes to the system cause increasing usability and technical issues, the most critical being diminished trust in reporting accuracy.
 
-How can we simplify a very complex interface and increase user efficiency?
+### Problem
 
-Our goals were:
-
-- Improve accuracy of reporting data.
-- Clarify presentation of build status.
-- Increase user trust in the system.
-- Present consistent views for a variety of session types.
-
-### Approach
-
-A holistic redesign based on user research and customer feedback, validated with live-data prototypes. We completely rebuilt how the system reports build status information, created a new real-time status report model, and I designed a set of visually consistent views for all session types.
+Engineering teams rely on continuous integration and testing tools to manage complex software development life-cycles. If these mission-critical tools introduce frictions or inaccuracies of any kind that result in delayed or broken software release, this can cause expensive missed go-to-market opportunities.
 
 ### Outcome
 
-The new session view solves all the issues we set out to solve: we improved accuracy and depth of detail of status report, while making it more usable and easy to understand; we increased user confidence in the system, and are providing customers with a more efficient tool for a critical part of their software development workflow.
-
-Solano Labs is currently beta testing it with a selected group of customers and the feedback is consistently positive. One of the founders and the lead Product Manager says that “everyone is loving” the update.
+The new Session View increases the value and accuracy of the status report with a simplified, intuitive interface and a clear, precise data visualization. We increased user confidence in the system and overall trust in Solano CI.
 
 ----
 
 Process:
 
-## Some Background
+## Discovery
 
-At Solano Labs I helped move the product development process to SCRUM and two week sprints. My goal was to restructure the product development process to allow for more design thinking to happen earlier in the cycle.
+### User Research
 
-To accomplish this, I adapted the Design Sprint process to run separate design sprints alongside engineering. This allowed for proper research and validation of hypotheses before diving into implementation; the output of a completed design sprint went directly into the engineering backlog, with the benefit of providing developers with a well-defined goal.
+We studied customer feedback from support channels, and our team of engineers using Solano CI provided valuable insights.
 
-Discover > Define > Ideate > Prototype > Validate
-    
-## Discover
-    
-*Research, analysis, exploration; the bedrock of subsequent design activities.*
+I led customer interviews and contextual inquiries with key customers to better understand the challenges they faced.
 
-Through research and user testing sessions, I helped the team better understand how the interface was solving problems for customers, and how it was falling short. Digging deeper below issues of cluttered visual presentation and confusing interactions, I got to the root of a critical issue users were having: they were not seeing a complete and accurate view into the state of their build.
-    
-### Use Cases
+(lazysrcset: solanolabs-sessionview-research-notations.jpg link: solanolabs-sessionview-research-notations.jpg linkclass: hb-single caption: **Documenting usability issues :** Heuristic analysis, user feedback, and contextual inquiry research was consolidated to provide a snapshot of key design challenges)
 
-During my research I captured input from users about the specific UI issues they had. I made notations on printouts of the existing session view.
+### Technology Research
 
-(lazysrcset: solanolabs-sessionview-research-notations.jpg link: solanolabs-sessionview-research-notations.jpg linkclass: hb-single caption: Solano CI Interface - Research Notes on v1.5 Layouts)
+I facilitated internal research to audit how a wide variety of software languages and test suites performed across our entire backend platform. The goal was to look for patterns—success, failure, accuracy—to find a solution to the critical customer trust issue.
 
-**Activities & Outputs:** User Research, Use Cases, Usability Testing, Interviews, Concept Maps.
+[TODO: insert build lifecycle diagram here. caption: **Mapping internal systems:**
+Analyzing data flows—deep dive into the technology behind parallel concurrent software build systems]
 
-<a class="link--to-top" href="#">TOP</a>
+### Approach
+My rationale was that if we radically simplify the session view to present only the most critical status and timing info, as well as ensure all data points are 100% accurate, we could improve both usability and customer trust.
 
-## Define
+## Ideation & Design
 
-*Clarity and focus; framing the problem to create a solution*
+### Early Concept Sketches & Wireframes
 
-I facilitated development of an internal prototype (running with live data) to validate new reporting outputs. I used this information later in the project to construct an improved real-time status report model.
-    
-### Personas
+Using research findings I set out to create a
+new interaction model for the session view that prioritized ease-of-use and increased trust in the data presentation.
 
-I had previously developed with the team a set of personas that profiled new and existing customers. These were hybrid marketing and design personas that gave us clear idea of our users goals and pain points. Reinforced by the deeper research done for this specific project, the picture that emerged helped me get buy-in on making broader changes to the product.
+(lazysrcset: solanolabs-sessionview-sketches.jpg link: solanolabs-sessionview-sketches.jpg linkclass: hb-single caption: **Pencil sketches:** Rapid, low-fidelity explorations of information architecture, interaction, and flows)
 
-(lazysrcset: solanolabs-sessionview-personas.jpg link: solanolabs-sessionview-personas.jpg linkclass: hb-single caption: Solano CI Interface - Personas)
-    
-### Sketches
+(lazysrcset: solanolabs-sessionview-wireframe1.jpg link: solanolabs-sessionview-wireframe1.jpg  linkclass: hb-single caption: **Wireframes:** Developing a consistent layout and component structure across multiple build configurations and test scenarios)
 
-One of the biggest challenges of this project was to figure out how to re-structure the presentation of session status. Most of these rough layouts were done with pencil and paper; many were done on whiteboards with the Product Manager, especially when design decisions might impact other views in the product.
+### Design Objectives for a Better Experience
 
-(lazysrcset: solanolabs-sessionview-sketches.jpg link: solanolabs-sessionview-sketches.jpg linkclass: hb-single caption: Solano CI Interface - Sketches)
-
-**Activities & Outputs:** Personas, Use Cases, User Flows, Sketches, Lo-fi Wireframes.
-
-<a class="link--to-top" href="#">TOP</a>
-    
-## Ideate
-    
-*Concepts for outcomes; combine understanding of the problem with imagination.*
-    
-### Wireframes
-
-I iterated through a series of wireframes showing all possible configurations of a session view (there are twelve!). Previously, less common session types had inconsistent layouts; I refined the structure to present all sessions consistently.
-
-(lazysrcset: solanolabs-sessionview-wireframe1.jpg link: solanolabs-sessionview-wireframe1.jpg  linkclass: hb-single caption: Solano CI Interface - Wireframe of Base Layout)
-
-### UI Design
-
-The visual and interface design came from my work-in-progress style guide and design system.
-
-Working with my Sketch mock-ups from the previous design update, I adapted these styles to new elements and components for a more consistent and cleaner interface.
-
-I also selected icons that would help communicate the detailed status of the build, and refined the color scheme for the build lifecycle stages.
-
-I applied these styles to the clickable prototype that would serve as a final mock-up of the UI design.
-
-**Activities & Outputs:** Wireframes, Paper Prototypes, Style Tiles, UI Design, Lo-fi Mock-ups, Art Direction, Content Strategy.
+Based on research and user analysis, I prioritized solutions to these problems:
+- Impossible - to get a complete overview of build status
+- Inconsistent views for different session types causes high cognitive load
+- Poor discoverability of important data that leads to expensive errors
+- Inaccurate or incomplete reporting data reduces overall trust in the system
 
 <a class="link--to-top" href="#">TOP</a>
 
-## Prototype
-    
-*If a picture is worth a thousand words, a prototype is worth a thousand pictures.*
+## Prototype & Test
 
-### Concept Prototype
+### Prototyping for User Testing
 
-I constructed a clickable prototype in Middleman to present our current design direction and socialize a number of additional interaction concepts to stakeholders.
+Through a process of moderated and unmoderated user testing we sought to reveal where we hit the mark with our solution, and where it might need improvement. I iterated on the designs multiple times informed by these user tests.
+
+[TODO: show 'build running' ci concept image. caption: **Browser-based prototype:**
+Proof-of-concept to gain alignment with stakeholders and get early feedback from key customers we had interviewed in the research phase]
+
+### Real-world Testing
+
+There was no practical way to deliver our initial prototype to customers using real-time data, so the engineering team built the new session view into the production app. We then allowed users to test it as an ‘alpha’ feature behind a feature flag.
+
+[TODO: show browser prototype caption: **Data-driven prototype:** 
+Early-stage prototype with live data for user testing. This allowed us to validate complex system feedback design patterns that changed in real time]
+
+
+## Final Design
+
+### High-fidelity Mockups & Brand Alignment
+
+The visual design was informed by my work-in- progress style guide and design system.
+
+[TODO: original design image caption:** Session View – before: **
+The original session view was hard to use and presented inconsistent and inaccurate data]
+
+[TODO: new design caption: **Session View –after: **
+The new session view design improved overall usability by showing the entire build and test session in an easy-to-scan timeline]
+
+--
+
+Keep? 
 
 <figure>
 <div style="padding:58.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/174725827?byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="autoplay; fullscreen" allowfullscreen="" frameborder="0"></iframe></div>
@@ -140,43 +125,13 @@ I constructed a clickable prototype in Middleman to present our current design d
 <figcaption>Solano CI Interface - high-fidelity concept prototype</figcaption>
 </figure>
 
-### Prototype-as-mockup
-
-Since we had very hi-fidelity wireframes and a defined set of styles for the UI components, it was more efficient to create a clickable prototype rather than static mock-ups.
-
-The purpose of this prototype was two-fold:
-
-- Simulate a build running in the new UI, showing all the visual feedback in action
-- Create front-end hooks for the engineers to begin wiring up the data to the view.
-
-This proved to be a very effective step in the process. Engineers got a head start on implementation planning while we continued to refine the visual presentation.
-
 (lazysrcset: solanolabs-sessionview-prototype-codepen.jpg link: solanolabs-sessionview-prototype-codepen.jpg  linkclass: hb-single caption: Solano CI Interface - Prototype in Codepen)
 
-**Activities & Outputs: **Mock-ups, Clickable Prototypes, Heuristics, Interactions
-
-<a class="link--to-top" href="#">TOP</a>
-    
-## Validate
-    
-*Prototype as if you know you’re right, but test as if you know you’re wrong*
-
-There was no practical way to deliver our initial prototype to customers using real-time data, so the engineering team built the new session view into the production app. We then allowed users to test it as an ‘alpha’ feature (behind a feature flag).
-
-Making full use of the Agile philosophy, we had working software. But in the spirit of Design Thinking, we were still in the design phase.
-
-Now the process of moderated and unmoderated user testing can reveal where we hit the mark with our solution, and where it might need improvement.
-
-And by monitoring analytics we can uncover usage patterns that will help us improve the user experience even more in future versions of the app.
-
-**Activities & Outputs: **Usability Tests, Analytics, QA
 
 <a class="link--to-top" href="#">TOP</a>
 
 ----
 
-Date: 2020-01-15 21:50
+Author:
 
-----
-
-Author: colin@colinjohnston.com
+- ZHFwwqKd
