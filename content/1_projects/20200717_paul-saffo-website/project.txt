@@ -18,7 +18,7 @@ Tags: identity, publishing
 
 ----
 
-Intro: 
+Intro: Website and identity design for forecaster Paul Saffo.
 
 ----
 
@@ -26,15 +26,13 @@ Overview:
 
 ## Project Overview 
 
-Website and identity design for forecaster Paul Saffo. 
-
 ### Context
 
 Paul Saffo is a forecaster and futurist. He explores the dynamics of large-scale, long-term change; he teaches forecasting at Stanford University, chairs the Future Studies and Forecasting track at Singularity University, and serves on the board of the Long Now Foundation.
 
 ### Problem
 
-Paul has a rich collection of content—journal entries, essays, and interviews—and is a well known brand in Silicon Valley and internationally.
+Paul has a rich collection of content—journal entries, essays, and interviews—and is a well-known brand in Silicon Valley and internationally.
 
 Paul’s existing website was no longer providing his current or potential clients with an experience that would enable him to sustain and grow his business.
 
