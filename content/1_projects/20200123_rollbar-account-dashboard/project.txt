@@ -40,6 +40,8 @@ Customers were becoming frustrated with this problem and switching to our compet
 
 The project was a major win for Rollbar. Customer commitment to the product strengthened and attrition numbers decreased, especially among enterprise customers.
 
+“The Account Dashboard makes it dead simple to know where our engineering time has the highest leverage regarding issues affecting our customers and shoppers.” — Jason Kozemczak, Tech Lead at Instacart
+
 ----
 
 Process:
@@ -54,21 +56,11 @@ I conducted numerous interviews with customers, specifically engineering team le
 
 Our research and testing revealed that customers typically had one of two distinct use cases: reporting or triage. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve issues more efficiently.
 
---
-Keep these somewhere?
-
-(lazysrcset: ald-items-view.jpg link: ald-items-view.jpg linkclass: hb-single caption: Items View, the primary UI for viewing comprehensive project activity)
-   
-(lazysrcset: ald-project-dashboard.jpg link: ald-project-dashboard.jpg linkclass: hb-single caption: Project Dashboard, the summary view for a project that most customers never use)
---
-
-[TODO: insert people at wall photo caption: **Affinity mapping exercise:**
-Inputs from our contextual inquiry sessions.]
+(lazysrcset: ALD-research_affinity-map-exercise_edit.jpg link: ALD-research_affinity-map-exercise_edit.jpg linkclass: hb-single caption: tk)
  
-[TODO: insert new cropped post it photo]
+(lazysrcset: ALD-research_affinity-mapping-metrics_edit.jpg link: ALD-research_affinity-mapping-metrics_edit.jpg linkclass: hb-single caption: **Affinity mapping exercise:** Inputs from our contextual inquiry sessions.)
 
-[TODO: insert diagram caption: **Diagramming user pain points:** 
-Documenting our research findings and developing our initial rationale.]
+(lazysrcset: ALD-ixd_before-and-after-flows.png link: ALD-ixd_before-and-after-flows.png linkclass: hb-single caption: **Diagramming user pain points:** Documenting our research findings and developing our initial rationale.)
     
 ## Ideation
 
@@ -85,7 +77,7 @@ From pencil sketches to pen-and-ink wireframes I generated over 100 ideas for va
 
 By bringing the Product team into the design process, we quickly connected product design and business strategy. Real-time group collaboration—when properly structured—yields better design decisions faster.
 
-[TODO: insert whiteboard photo caption: **Collaborative design process:** I facilitated extensive brainstorming sessions to explore different features and use cases.]
+(lazysrcset: ALD-ixd_brainstorming.jpg link: ALD-ixd_brainstorming.jpg linkclass: hb-single caption: **Collaborative design process:** I facilitated extensive brainstorming sessions to explore different features and use cases.)
 
 ## Design
 
@@ -108,8 +100,7 @@ To serve both the reporting and triage use cases we designed an experience to:
 
 For this project, we relied mostly on existing component patterns that we had previously built into our design system. For new components, I created comprehensive annotated documentation to describe to front-end developers how the component should function.
 
-[TODO: add combobox spec image caption: **Final ‘combobox’ design spec:**
-Developers use these functionality specifications to construct the working component. In most cases, styles are included as subcomponents already built into the design system]
+(lazysrcset: ALD-ixd_select-combobox-specs.png link: ALD-ixd_select-combobox-specs.png linkclass: hb-single  caption: **Final ‘combobox’ design spec:** Developers use these functionality specifications to construct the working component. In most cases, styles are included as subcomponents already built into the design system.)
     
 ## Final Design
 
@@ -119,18 +110,15 @@ The result was a simple yet powerful solution that aggregated project data onto 
 
 The positive impact on customer efficiency was immediate for early beta testers; what often took engineering teams hours now took as little as minutes, saving companies' money. 
 
-[TODO: insert before image caption: **Before – repetitive overload:**
-The Item View is rich in project data. But having to wade through many individual screens to find an issue is difficult]
+(lazysrcset: rollbar-items-view-old.png link: rollbar-items-view-old.png linkclass: hb-single caption: **Before – repetitive overload:** The Item View is rich in project data. But having to wade through many individual screens to find an issue is difficult.)
 
-[TODO: insert after image caption: **After – powerful simplicity:**
-High-level actionable data from all active projects in one view save time]
+(lazysrcset: rollbar-account-dashboard-cover.jpg link: rollbar-account-dashboard-cover.jpg linkclass: hb-single caption: **After – powerful simplicity:** High-level actionable data from all active projects in one view saves time.)
 
-### Customer Acclaim
-
-“The Account Dashboard makes it dead simple to know where our engineering time has the highest leverage regarding issues affecting our customers and shoppers.” — Jason Kozemczak, Tech Lead at Instacart
+### Video Demo
 
 <div style="padding:59.31% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/370113864?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script>
+<p>&nbsp;</p>
 
 <a class="link--to-top" href="#">TOP</a>
 
