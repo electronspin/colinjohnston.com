@@ -58,22 +58,21 @@ I led customer interviews and contextual inquiries with key customers to better 
 
 I facilitated internal research to audit how a wide variety of software languages and test suites performed across our entire backend platform. The goal was to look for patterns—success, failure, accuracy—to find a solution to the critical customer trust issue.
 
-[TODO: insert build lifecycle diagram here. caption: **Mapping internal systems:**
-Analyzing data flows—deep dive into the technology behind parallel concurrent software build systems]
+(lazysrcset: build-lifecycle-wholevm_edit.png link: build-lifecycle-wholevm_edit.png linkclass: hb-single caption: **Mapping internal systems:** Analyzing data flows—deep dive into the technology behind parallel concurrent software build systems.)
 
 ### Approach
+
 My rationale was that if we radically simplify the session view to present only the most critical status and timing info, as well as ensure all data points are 100% accurate, we could improve both usability and customer trust.
 
 ## Ideation & Design
 
 ### Early Concept Sketches & Wireframes
 
-Using research findings I set out to create a
-new interaction model for the session view that prioritized ease-of-use and increased trust in the data presentation.
+Using research findings I set out to create a new interaction model for the session view that prioritized ease-of-use and increased trust in the data presentation.
 
-(lazysrcset: solanolabs-sessionview-sketches.jpg link: solanolabs-sessionview-sketches.jpg linkclass: hb-single caption: **Pencil sketches:** Rapid, low-fidelity explorations of information architecture, interaction, and flows)
+(lazysrcset: solanolabs-sessionview-sketches.jpg link: solanolabs-sessionview-sketches.jpg linkclass: hb-single caption: **Pencil sketches:** Rapid, low-fidelity explorations of information architecture, interaction, and flows.)
 
-(lazysrcset: solanolabs-sessionview-wireframe1.jpg link: solanolabs-sessionview-wireframe1.jpg  linkclass: hb-single caption: **Wireframes:** Developing a consistent layout and component structure across multiple build configurations and test scenarios)
+(lazysrcset: solanolabs-sessionview-wireframe1.jpg link: solanolabs-sessionview-wireframe1.jpg  linkclass: hb-single caption: **Wireframes:** Developing a consistent layout and component structure across multiple build configurations and test scenarios.)
 
 ### Design Objectives for a Better Experience
 
@@ -89,30 +88,26 @@ Based on research and user analysis, I prioritized solutions to these problems:
 
 ### Prototyping for User Testing
 
-Through a process of moderated and unmoderated user testing we sought to reveal where we hit the mark with our solution, and where it might need improvement. I iterated on the designs multiple times informed by these user tests.
+Through a process of moderated and un-moderated user testing we sought to reveal where we hit the mark with our solution, and where it might need improvement. I iterated on the designs multiple times informed by these user tests.
 
-[TODO: show 'build running' ci concept image. caption: **Browser-based prototype:**
-Proof-of-concept to gain alignment with stakeholders and get early feedback from key customers we had interviewed in the research phase]
+(lazysrcset: solano-ci-prototype-1.jpg link: solano-ci-prototype-1.jpg linkclass: hb-single caption: **Browser-based prototype:** Proof-of-concept to gain alignment with stakeholders and get early feedback from key customers we had interviewed in the research phase.)
 
 ### Real-world Testing
 
 There was no practical way to deliver our initial prototype to customers using real-time data, so the engineering team built the new session view into the production app. We then allowed users to test it as an ‘alpha’ feature behind a feature flag.
 
-[TODO: show browser prototype caption: **Data-driven prototype:** 
-Early-stage prototype with live data for user testing. This allowed us to validate complex system feedback design patterns that changed in real time]
+(lazysrcset: solano-ci-prototype-data1.jpg link: solano-ci-prototype-data1.jpg linkclass: hb-single caption: **Data-driven prototype:** Early stage prototype with live data for user testing. This allowed us to validate complex system feedback design patterns that changed in real time.)
 
 
 ## Final Design
 
-### High-fidelity Mockups & Brand Alignment
+### High-fidelity Mock-ups & Brand Alignment
 
 The visual design was informed by my work-in- progress style guide and design system.
 
-[TODO: original design image caption:** Session View – before: **
-The original session view was hard to use and presented inconsistent and inaccurate data]
+(lazysrcset: solano-ci-session-view-before.jpg link: solano-ci-session-view-before.jpg linkclass: hb-single caption:** Session View – before: ** The original session view was hard to use and presented inconsistent and inaccurate data.)
 
-[TODO: new design caption: **Session View –after: **
-The new session view design improved overall usability by showing the entire build and test session in an easy-to-scan timeline]
+(lazysrcset: solano-ci-session-view-after.jpg link: solano-ci-session-view-after.jpg linkclass: hb-single caption:** Session View – after: ** The new session view design improved overall usability by showing the entire build and test session in an easy-to-scan timeline.)
 
 --
 
@@ -128,7 +123,7 @@ Keep?
 (lazysrcset: solanolabs-sessionview-prototype-codepen.jpg link: solanolabs-sessionview-prototype-codepen.jpg  linkclass: hb-single caption: Solano CI Interface - Prototype in Codepen)
 
 
-<a class="link--to-top" href="#">TOP</a>
+<a class="link--to-top" href="#">TOP</a>``
 
 ----
 
