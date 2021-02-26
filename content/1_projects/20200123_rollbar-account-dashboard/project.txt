@@ -55,8 +55,6 @@ I conducted numerous interviews with customers, specifically engineering team le
 ### Research-informed Design Decisions
 
 Our research and testing revealed that customers typically had one of two distinct use cases: reporting or triage. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve issues more efficiently.
-
-(lazysrcset: ALD-research_affinity-map-exercise_edit.jpg link: ALD-research_affinity-map-exercise_edit.jpg linkclass: hb-single caption: tk)
  
 (lazysrcset: ALD-research_affinity-mapping-metrics_edit.jpg link: ALD-research_affinity-mapping-metrics_edit.jpg linkclass: hb-single caption: **Affinity mapping exercise:** Inputs from our contextual inquiry sessions.)
 
@@ -69,7 +67,7 @@ Our research and testing revealed that customers typically had one of two distin
 From pencil sketches to pen-and-ink wireframes I generated over 100 ideas for various use cases. I encourage stakeholders at this early stage to keep an open mind when presented with a wide variety of concepts.
 
 
-(lazysrcset: ald-ideation_early-UI-sketch.jpg link: ald-ideation_early-UI-sketch.jpg linkclass: hb-single caption: tk)
+(lazysrcset: ald-ideation_early-UI-sketch.jpg class: no-caption link: ald-ideation_early-UI-sketch.jpg linkclass: hb-single caption: &nbsp;)
     
 (lazysrcset: ald-ideation_lofi-wireframe.jpg link: ald-ideation_lofi-wireframe.jpg linkclass: hb-single caption: ** Rough concepts:** Rapid sketches and low-fidelity wireframes to explore different structures)
 
