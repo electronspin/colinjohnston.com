@@ -19,6 +19,7 @@
 }
 
 figure { width: 100%; }
+.no-caption { margin-bottom: -$global-spacing-unit; }
 img[data-sizes="auto"] { display: block; width: 100%; }
 
 .lazysrcset-ratio {  
