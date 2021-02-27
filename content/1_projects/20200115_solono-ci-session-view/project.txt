@@ -30,11 +30,20 @@ Overview:
 
 Solano Labs’ Solano CI is a platform for engineers that provides a critical function called continuous integration. Solano CI enables Agile software teams to break down large monolithic applications into smaller projects and services which can be rebuilt, tested, and deployed more frequently.
 
-The Session View—the core of Solano CI—is a comprehensive real-time report of build progress and test results for a single software project. Since its initial release incremental changes to the system cause increasing usability and technical issues, the most critical being diminished trust in reporting accuracy.
+Engineering teams rely on continuous integration and testing tools to manage complex software development life-cycles. If these mission-critical tools introduce frictions or inaccuracies of any kind that result in delayed or broken software release, this can cause expensive missed go-to-market opportunities.
 
 ### Problem
 
-Engineering teams rely on continuous integration and testing tools to manage complex software development life-cycles. If these mission-critical tools introduce frictions or inaccuracies of any kind that result in delayed or broken software release, this can cause expensive missed go-to-market opportunities.
+The Session View—the core of Solano CI—is a comprehensive real-time report of build progress and test results for a single software project. Since its initial release incremental changes to the system cause increasing usability and technical issues, the most critical being diminished trust in reporting accuracy.
+
+(lazysrcset: solano-ci-session-view-before.jpg link: solano-ci-session-view-before.jpg linkclass: hb-single caption:** Session View – before: ** The original session view was hard to use and presented inconsistent and inaccurate data.)
+
+Through research and testing with customers we found there were four areas we needed to improve:
+
+- Unclear presentation of build status.
+- Poor accuracy of reporting data.
+- Low user trust in the build system.
+- Inconsistent views across different session types.
 
 ### Outcome
 
@@ -77,7 +86,7 @@ Using research findings I set out to create a new interaction model for the sess
 ### Design Objectives for a Better Experience
 
 Based on research and user analysis, I prioritized solutions to these problems:
-- Impossible - to get a complete overview of build status
+- Impossible to get a complete overview of build status
 - Inconsistent views for different session types causes high cognitive load
 - Poor discoverability of important data that leads to expensive errors
 - Inaccurate or incomplete reporting data reduces overall trust in the system
@@ -88,7 +97,7 @@ Based on research and user analysis, I prioritized solutions to these problems:
 
 ### Prototyping for User Testing
 
-Through a process of moderated and un-moderated user testing we sought to reveal where we hit the mark with our solution, and where it might need improvement. I iterated on the designs multiple times informed by these user tests.
+Through a process of moderated and unmoderated user testing we sought to reveal where we hit the mark with our solution, and where it might need improvement. I iterated on the designs multiple times informed by these user tests.
 
 (lazysrcset: solano-ci-prototype-1.jpg link: solano-ci-prototype-1.jpg linkclass: hb-single caption: **Browser-based prototype:** Proof-of-concept to gain alignment with stakeholders and get early feedback from key customers we had interviewed in the research phase.)
 
@@ -98,32 +107,23 @@ There was no practical way to deliver our initial prototype to customers using r
 
 (lazysrcset: solano-ci-prototype-data1.jpg link: solano-ci-prototype-data1.jpg linkclass: hb-single caption: **Data-driven prototype:** Early stage prototype with live data for user testing. This allowed us to validate complex system feedback design patterns that changed in real time.)
 
-
 ## Final Design
 
-### High-fidelity Mock-ups & Brand Alignment
+### Mock-ups in HTML & CSS
 
-The visual design was informed by my work-in- progress style guide and design system.
+The final visual design was crafted using our component and styles from  our work-in-progress design system.
 
-(lazysrcset: solano-ci-session-view-before.jpg link: solano-ci-session-view-before.jpg linkclass: hb-single caption:** Session View – before: ** The original session view was hard to use and presented inconsistent and inaccurate data.)
+Since we had very hi-fidelity wireframes and a well-defined set of styles for the UI, it was more efficient to create a browser-based prototype rather than static mock-ups. 
+
+(lazysrcset: solanolabs-sessionview-prototype-codepen.jpg link: solanolabs-sessionview-prototype-codepen.jpg linkclass: hb-single caption:** Mock-up in HTML & CSS:** Simulating a build session in the browser allowed me to refine the visual design and the system status animations at the same time. It also made it very efficient to deliver updated designs to our developers.)
+
+## Delivery
+
+The new session view solved all the issues we set out to solve: we improved accuracy and depth of detail of the status report, while making it more usable and easy to understand; we increased user confidence in the system, and are providing customers with a more efficient tool for a critical part of their software development workflow.
 
 (lazysrcset: solano-ci-session-view-after.jpg link: solano-ci-session-view-after.jpg linkclass: hb-single caption:** Session View – after: ** The new session view design improved overall usability by showing the entire build and test session in an easy-to-scan timeline.)
 
---
-
-Keep? 
-
-<figure>
-<div style="padding:58.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/174725827?byline=0&amp;portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="autoplay; fullscreen" allowfullscreen="" frameborder="0"></iframe></div>
-<script src="https://player.vimeo.com/api/player.js"></script>
-
-<figcaption>Solano CI Interface - high-fidelity concept prototype</figcaption>
-</figure>
-
-(lazysrcset: solanolabs-sessionview-prototype-codepen.jpg link: solanolabs-sessionview-prototype-codepen.jpg  linkclass: hb-single caption: Solano CI Interface - Prototype in Codepen)
-
-
-<a class="link--to-top" href="#">TOP</a>``
+<a class="link--to-top" href="#">TOP</a>
 
 ----
 
