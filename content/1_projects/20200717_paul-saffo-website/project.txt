@@ -32,7 +32,9 @@ Paul Saffo is a forecaster and futurist. He explores the dynamics of large-scale
 
 ### Problem
 
-Paul has a rich collection of content—journal entries, essays, and interviews—and is a well-known brand in Silicon Valley and internationally.
+Paul has a rich collection of content—journal entries, essays, and interviews—and is a well-known brand in Silicon Valley and internationally. 
+
+(lazysrcset: paul-saffo-website-original-2011.png link: paul-saffo-website-original-2011.png linkclass: hb-single caption: **saffo.com - before:** While the old site had a certain 1990s-era visual appeal, it was hard to use and was practically inaccessible on mobile.)
 
 Paul’s existing website was no longer providing his current or potential clients with an experience that would enable him to sustain and grow his business.
 
@@ -52,7 +54,7 @@ Process:
 
 I created numerous sketches to find ways of simplifying a potentially complex interface down to its essentials.
 
-For this project I was also particularly focused on setting the stage for a more integrated identity and prominent iconography.
+For this project, I was also particularly focused on setting the stage for a more integrated identity and prominent iconography.
 
 (lazysrcset: saffo-website-sketches-1.jpg link: saffo-website-sketches-1.jpg linkclass: hb-single caption: An essential requirement of the design was to optimize all layout and navigation for mobile users)
 
@@ -68,7 +70,7 @@ My visual design strategy was to frame the entire site in the updated brand, whi
 
 I framed the content in each section with a large header image that signals what is within it. Some of these headers are very literal; others are ‘stories’ that become clearer once you acquire more knowledge of Paul’s content.
 
-(lazysrcset: saffo-styleboards.jpg link: saffo-styleboards.jpg linkclass: hb-single caption: **Style Boards:** I explored a variety of aesthetic choices to best communicate Paul’s brand identity. Typography and color are core design elements of the new design. - TODO: replace with individual images from deck)
+(lazysrcset: saffo-styleboards.jpg link: saffo-styleboards.jpg linkclass: hb-single caption: **Style Boards:** I explored a variety of aesthetic choices to best communicate Paul’s brand identity. Typography and color choices are central to the new design.)
 
 (lazysrcset: saffo-art-direction.jpg link: saffo-art-direction.jpg linkclass: hb-single caption: **Photography:** I worked with Paul to produce original photography for certain sections. I experimented with treatments that would harmonize with the brand aesthetics.)
 
@@ -86,31 +88,20 @@ The icons serve functionally in the site navigation component, but also serve as
 
 (lazysrcset: saffo-identity-icons.jpg link: saffo-identity-icons.jpg linkclass: hb-single caption: **Icon Design:** constructing the About Icon.)
 
-(lazysrcset: saffo-identity-icons-final.jpg link: saffo-identity-icons-final.jpg linkclass: hb-single caption: **Final icon designs:** Scalable vector graphics—SVGs—are crisp and clear on any device at any size.)
+(lazysrcset: saffo-identity-icons-final-set.png link: saffo-identity-icons-final-set.png linkclass: hb-single caption: **Final icon designs:** Scalable vector graphics—SVGs—are crisp and clear on any device at any size.)
 
 ## Final Design
 
-### Multi-device Mockups
+### Multi-device Mock-ups
 
-With any adaptive experience, I design the desktop and mobile views side-by-side to ensure visual consistency.
+I design the desktop and mobile views side-by-side to ensure visual consistency.
 
-(lazysrcset: saffo-design-sketch-1.jpg link: saffo-design-sketch-1.jpg linkclass: hb-single caption: Mock-ups - designing the desktop and mobile views side-by-side in Sketch)
+(lazysrcset: saffo-mobile-first-mockups.jpg link: saffo-mobile-first-mockups.jpg linkclass: hb-single caption: Mock-ups - designing the desktop and mobile views side-by-side.)
 
-(lazysrcset: saffo-design-sketch-2.jpg link: saffo-design-sketch-2.jpg linkclass: hb-single caption: Mock-ups - Detail of mobile navigation in Sketch)
-
-[TODO: refactor images to present like in the deck]
-
-### Heading TK [Launch? Delivery?]
-
-[saffo.com – before
-While the old site had a certain 1990s-era visual appeal, it was hard to use and was practically inaccessible on mobile]
-
-[saffo.com – after
-An accessible experience integrating enhanced branding, a strong aesthetic, and improved multi-device accessibility] [TODO: show hero image again? - need to show finished product vs old site]
+## Delivery 
+(lazysrcset: saffo-final-design.jpg link: saffo-final-design.jpg linkclass: hb-single caption: **saffo.com – after** An accessible experience integrating enhanced branding, a strong aesthetic, and improved multi-device accessibility.)
 
 <a class="link--to-top" href="#">TOP</a>
-
-[TODO: decide if I want to talk at all about the dev part of the project. What is value of adding that?]
 
 ----
 
