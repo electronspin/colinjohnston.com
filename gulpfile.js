@@ -59,7 +59,8 @@ var scripts = {
     src: [
 			// 'bower_components/jquery/dist/jquery.js',
 			'node_modules/lazysizes/lazysizes.js',
-      paths.src.scripts + 'foundation.js',
+			paths.src.scripts + 'jquery-3.6.0.js',
+      // paths.src.scripts + 'foundation.js',
 			paths.src.scripts + 'custom.js',
     ]
   }
