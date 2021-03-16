@@ -7,17 +7,15 @@
 
     <main id="content" class="o-content o-layout__grid-item c-project">
 
-    <header>
     <?php if ($image = $page->images()->findBy('template', 'cover')): ?> 
       <figure class="c-imagebox c-imagebox--hero animate">
       <a href="<?= $image->url() ?>" class="hb-single">
-        <img src="<?= $image->url() ?>" srcset="<?= $image->srcset([800, 1024, 2048]) ?>" />
+        <img src="<?= $image->url() ?>" srcset="<?= $image->srcset([800, 1024, 2048]) ?>" alt="<?= $image->alt() ?>"/>
       </a>
       </figure>
-      <?php endif ?>
-    </header>
+    <?php endif ?>
 
-    <article class="c-project__body"> <!-- TODO change to article -->
+    <article class="c-project__body"> 
 
     <h1 class="c-project__title"><?= $page->title() ?></h1>
 
@@ -25,7 +23,7 @@
     <?= $page->overview()->kirbytext() ?>
     <?= $page->process()->kirbytext() ?>
     
-    </article> <!-- end project body -->
+    </article> 
 
     </main>
 

@@ -27,7 +27,7 @@
             <?php if ($image = $project->images()->findBy('template', 'cover')): ?> 
             <figure class="c-imagebox animate">
             <a href="<?= $project->url() ?>">
-            <img class="lazyload" src="<?= $image->url() ?>" srcset="<?= $image->srcset([800, 1024, 2048]) ?>" />
+            <img class="lazyload" src="<?= $image->url() ?>" srcset="<?= $image->srcset([800, 1024, 2048]) ?>" alt="<?= $image->alt() ?>"/>
             </a>
             </figure>
             <?php endif ?>

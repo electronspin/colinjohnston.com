@@ -19,7 +19,7 @@
         <a href="<?= $cover->parent()->url() ?>">
             <div class="c-imagebox animate inview animated">
             <figure>
-            <img src="<?= $cover->url() ?>" srcset="<?= $cover->srcset([320, 400, 640, 768, 1024, 1280, 1920]) ?>" sizes="(max-width: 25em) 25em, 30vw"/>    
+            <img src="<?= $cover->url() ?>" srcset="<?= $cover->srcset([320, 400, 640, 768, 1024, 1280, 1920]) ?>" sizes="(max-width: 25em) 25em, 30vw" alt="<?= $cover->alt() ?>"/>    
             <figcaption><?= $cover->parent()->title();?></figcaption>
             </figure>
             </div>
