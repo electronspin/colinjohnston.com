@@ -14,12 +14,10 @@
 
 .c-footer__body {
   @include font-size(12px, 18px);
-  color: #999;
-  color: tint($dark-text-color, 37.5);
+  color: tint($dark-text-color, 35);
   margin-bottom: 0;
   a {
-    color: #999;
-    color: tint($dark-text-color, 20);
+    color: tint($dark-text-color, 5);
     &:hover {
       color: $cjd-branding;
     }
