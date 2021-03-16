@@ -58,9 +58,9 @@ For this project, I was also particularly focused on setting the stage for a mor
 
 (lazysrcset: saffo-website-sketches-1.jpg link: saffo-website-sketches-1.jpg linkclass: hb-single caption: An essential requirement of the design was to optimize all layout and navigation for mobile users)
 
-(lazysrcset: saffo-website-sketches-2.jpg link: saffo-website-sketches-2.jpg linkclass: hb-single caption: tk - what's going on in this sketch?)
+(lazysrcset: saffo-website-sketches-2.jpg link: saffo-website-sketches-2.jpg linkclass: hb-single caption: Desktop sketches)
 
-(lazysrcset: saffo-website-sketches-3.jpg link: saffo-website-sketches-3.jpg linkclass: hb-single caption: tk - what's going on in this sketch?)
+(lazysrcset: saffo-website-sketches-3.jpg link: saffo-website-sketches-3.jpg linkclass: hb-single caption: Mobile sketches)
 
 ## Visual Design
 
