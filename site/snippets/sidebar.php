@@ -2,7 +2,8 @@
 
 <div class="o-sidebar o-layout__grid-item">
 
-    <div class="c-branding">
+    <header>
+        <div class="c-branding">
 
         <?php if ($page->isHomePage()): ?>
         <h1 class="c-page__site-title"><?= $site->title() ?></h1>
@@ -17,10 +18,11 @@
                     <path id="menu-icon" d="M0 119.5h128v-16H0v16zM0 72h128V56H0v16zm0-48h128V8H0v16z" />
                 </svg>
             </span>Menu</a>
-    </div>
-    <div>
-        <?php snippet('intro') ?>
-    </div>
+        </div>
+        <div>
+            <?php snippet('intro') ?>
+        </div>
+    </header>
     <nav>
         <a href="#" class="close-panel"><span class="svg-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">

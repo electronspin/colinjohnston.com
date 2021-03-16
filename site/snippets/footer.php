@@ -1,6 +1,6 @@
 <?php $dir = ($_SERVER['DOCUMENT_ROOT'].'/'); ?>
 
-  <div class="o-footer o-layout__grid-item">
+<footer class="o-footer o-layout__grid-item">
 
     <?= $page->is('contact') ? '' : '<p class="contact-button show-for-small"><a class="contact-email" href="/contact">Contact</a></p>' ?>
     
@@ -12,7 +12,8 @@
         <?php echo date ('F d Y', filemtime($dir));  ?>
       </p>
     </div>
-</div>
+
+</footer>
 
 <script>
   window.onload = function () {
