@@ -14,7 +14,7 @@
 
   <?php echo $page->metaTags(['link', 'og', 'twitter']) ?>
 
-  <link rel="stylesheet" href="/assets/css/halkaBox.min.css" >
+  <!-- <link rel="stylesheet" href="/assets/css/halkaBox.min.css" > -->
   <link rel="stylesheet" href="/assets/css/main.min.css" >
   <!-- <script src="/assets/js/modernizr.foundation.js"></script> -->
   <script defer src="/assets/js/picturefill.min.js"></script>
