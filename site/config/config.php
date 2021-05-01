@@ -94,4 +94,6 @@ return [
       'cover' => [320, 400, 640, 768, 1024, 1280, 1920],
     ],
   ],
+  's1syphos.highlight.languages' => ['html', 'php', 'bash'],
+  's1syphos.highlight.escaping' => true
 ];
