@@ -1,0 +1,47 @@
+Title: Setting up a Node v14 LTS Project on M1 Big Sur
+
+----
+
+Text:
+
+I recently set up a new M1 Mac Mini to be my primary workspace. One of the major challenges of this new Apple Silicon is that only the most recent version of Node runs on it, e.g. v15, but most current open-source projects only run on the latest LTS version, e.g. v14. So I need to set up a project to run Node v14 LTS to run in the Intel chip emulator environment, AKA Rosetta.
+
+1. Run iTerm in Rosetta
+2. Create project dir, e.g. `mkdir my-project && cd my-project`
+3. Create `.nvmrc` for Node v14.16.1, e.g. `echo '14.16.1' >> .nvmrc`
+4. Run `arch -x86_64 zsh` - this will get you into x86 emulation and trigger nvm to install Node v14.16.1
+5. You should see: 
+
+```bash
+Found 'my-project/.nvmrc' with version <14.16.1>
+Downloading and installing node v14.16.1...
+Downloading https://nodejs.org/dist/v14.16.1/node-v14.16.1-darwin-x64.tar.xz...
+######################################################################### 100.0%
+Computing checksum with shasum -a 256
+Checksums matched!
+Now using node v14.16.1 (npm v6.14.12)
+```
+
+Now you can do `yarn create strapi-app my-project --quickstart` etc. or any install that requires Node v14 LTS.
+
+----
+
+Published: 2021-04-27 19:55
+
+----
+
+Author:
+
+- ZHFwwqKd
+
+----
+
+Featured: false
+
+----
+
+Tags: 
+
+----
+
+Gallery: 
