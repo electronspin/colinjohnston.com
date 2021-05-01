@@ -24,5 +24,14 @@
   };
 </script>
 
+<?= js('assets/js/prism.js') ?>
+
+<!-- <script>
+window.onload = function () {
+  hljs.highlightAll();
+};
+</script> -->
+  
+
 </body>
 </html>

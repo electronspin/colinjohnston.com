@@ -13,16 +13,16 @@
   }
   .c-page__date,
   .c-page__credit {
-    color: $dark-text-color;
-    @include font-size(13px);
+    // color: $dark-text-color;
+    @include font-size(16px);
     font-weight: 500;
   }
   .c-page_readtime {
-    @include font-size(13px);
+    @include font-size(16px);
     font-weight: 500;
   }
   .c-page__image-credit {
-    @include font-size(13px);
+    @include font-size(16px);
     font-weight: 500;
     text-align: right;
   }
@@ -103,7 +103,8 @@
 
 .c-page p + ol,
 .c-page p + ul {
-  margin-top: -$global-spacing-unit;
+  // margin-top: -$global-spacing-unit;
+  // why did I do this again?
 }
 
 .c-page__intro {

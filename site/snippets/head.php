@@ -14,10 +14,13 @@
 
   <?php echo $page->metaTags(['meta', 'link', 'og', 'twitter']) ?>
 
-  <link rel="stylesheet" href="/assets/css/main.min.css" >
+  <?= css('assets/css/main.min.css') ?>
+  <?= css('assets/css/prism.css') ?>
+
   <script defer src="/assets/js/picturefill.min.js"></script>
   <script defer src="/assets/js/halkaBox.min.js"></script>
   <script async src="/assets/js/app.min.js"></script>
+
   <?php snippet('fathom') ?>
 
 </head>

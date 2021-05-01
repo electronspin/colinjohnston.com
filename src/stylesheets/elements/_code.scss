@@ -1,0 +1,35 @@
+/*----------------------------------*
+  #CODE
+ *----------------------------------*/
+
+.c-page__body code,
+.c-page__body code[class*='language-'] {
+  font-size: 0.9rem;
+  font-family: system-ui-monospaced, monospace;
+}
+
+.c-page__body code[class*='language-'] {
+  line-height: 2.2;
+}
+
+.c-page__body pre[class*='language-'] {
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5em 0 1.5em;
+}
+
+:not([class*='language-']) > code {
+  border-radius: 0.25rem;
+  border: 1px rgb(223, 225, 228) solid;
+  border: 1px solid lighten($dark-brand-bg, 42%);
+  background-color: rgb(248, 248, 255);
+  background-color: lighten($dark-brand-bg, 58%);
+  padding: 1px 4px;
+}
+
+:not(.hljs) > code,
+:not(.hljs) > code .hljs-keyword,
+:not(.hljs) > code .hljs-string,
+:not(.hljs) > code .hljs-built_in {
+  color: darken($main-text-color, 5%);
+}

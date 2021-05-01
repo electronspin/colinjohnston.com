@@ -122,3 +122,11 @@ $(document).ready(function () {
 // refresh window on resize
 
 // $(window).on('resize',function(){location.reload();});
+
+
+// adds tabindex to ll hljs code snippets
+$(document).ready(function () {
+  $('.hljs').each(function() {               
+    $(this).attr('tabindex', '0');
+  });
+});
