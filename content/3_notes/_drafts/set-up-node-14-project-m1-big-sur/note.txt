@@ -1,0 +1,58 @@
+Title: Setting up a Node v14 LTS Project on M1 Big Sur
+
+----
+
+Text:
+
+I recently set up a new M1 Mac Mini to be my primary workspace. I'm now in the process of learning what runs natively on Apple Silicon's new arm64 architecture, and what needs some tweaking to make it work. The Rosetta 2 emulator environment for running legacy i386 apps handles most of my "older" apps. 
+
+When it comes to writing code and building projects, though, one of the major challenges is (link: https://nodejs.dev text: Node). Only the most recent version of Node—v15 as of writing this—runs on Apple Silicon. But most current open-source projects run on the active LTS version, currently v14. My terminal app, iTerm, is M1-native, so it thinks Node v15 is just fine when I install Node (I typically use (link: https://formulae.brew.sh/formula/node text: Homebrew) for everything I can). 
+
+The project I'm working on is a demo connecting (link: https://getkirby.com/ text: Kirby) and (link: https://strapi.io/documentation/developer-docs/latest/getting-started/quick-start.html#_9-consume-the-content-type-s-api text: Strapi), so I need to get Node v14 up and running to install Strapi. 
+
+The trick I discovered is to create a copy of iTerm and set it to run under Rosetta. This way it runs in the i386 emulation environment and allows me to install Node v14. I've always used (link: https://github.com/nvm-sh/nvm text: NVM) to manage my Node versions, so I'll set up an `.nvmrc` to trigger the install.
+
+1. Run iTerm in Rosetta:
+   - Select app icon and type Command-I to 'Get Info' on the app
+   - Select 'Open using Rosetta' under General in the Info panel
+2. Create project dir, e.g. `mkdir my-project && cd my-project`
+3. Create `.nvmrc` for Node v14.16.1, e.g. `echo '14.16.1' >> .nvmrc`
+4. Run `arch -x86_64 zsh` (this gets me into i386 emulation and triggers nvm to install Node v14.16.1)
+
+The result: 
+
+```zsh
+Found 'my-project/.nvmrc' with version <14.16.1>
+Downloading and installing node v14.16.1...
+Downloading https://nodejs.org/dist/v14.16.1/node-v14.16.1-darwin-x64.tar.xz...
+######################################################################### 100.0%
+Computing checksum with shasum -a 256
+Checksums matched!
+Now using node v14.16.1 (npm v6.14.12)
+```
+
+Now I can run `yarn create strapi-app my-project --quickstart` to continue building my Kirby demo, or any install that requires Node v14 LTS.
+
+After many years, I'm still learning how to manage my workspace for building websites. If you are too, I hope you found this helpful.
+
+----
+
+Published: 2021-04-27 17:15
+
+----
+
+Author:
+
+- ZHFwwqKd
+
+----
+
+Featured: false
+
+----
+
+Tags: 
+
+----
+
+Gallery: 
