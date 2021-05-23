@@ -15,9 +15,10 @@
   <?php echo $page->metaTags(['meta', 'link', 'og', 'twitter']) ?>
 
   <link rel="stylesheet" href="/assets/css/main.min.css" >
-  <?= css('/media/plugins/s1syphos/highlight/css/a11y-dark.css') ?>
-  <!-- tomorrow-night.css ocean.css -->
+  <?= css('/assets/css/highlight/tomorrow-night.css') ?>
+  <!--  ocean.css a11y-dark.css-->
   <script defer src="/assets/js/picturefill.min.js"></script>
+  <script async src="/assets/js/highlight.pack.js"></script>
   <script defer src="/assets/js/halkaBox.min.js"></script>
   <script async src="/assets/js/app.min.js"></script>
   <?php snippet('fathom') ?>

@@ -64,18 +64,17 @@
   }
 }
 
-
 .c-link-pagination--prev::before {
-  content: "←";
-  margin-right: .25em;
+  content: '←';
+  margin-right: 0.25em;
 }
 
 .c-link-pagination--next::after {
-  content: "→";
-  margin-left: .25em;
+  content: '→';
+  margin-left: 0.25em;
 }
 
 .c-branding {
   margin-bottom: 36px;
+  margin-top: 4px;
 }
-
