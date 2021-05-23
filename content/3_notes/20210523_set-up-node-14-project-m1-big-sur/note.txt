@@ -1,10 +1,10 @@
-Title: Setting up a Node v14 LTS Project on M1 Big Sur
+Title: Setting up a Node 14 project on M1 Big Sur
 
 ----
 
 Text:
 
-I recently set up a new M1 Mac Mini to be my primary workspace. I'm now in the process of learning what runs natively on Apple Silicon's new arm64 architecture, and what needs some tweaking to make it work. The Rosetta 2 emulator environment for running legacy i386 apps handles most of my "older" apps. 
+I recently set up a new M1 Mac Mini to be my primary workspace. I'm now in the process of learning what runs natively on Apple Silicon's new arm64 architecture, and what needs some tweaking to make it work. The Rosetta 2 emulator environment for running legacy apps handles most of my "older" apps. 
 
 When it comes to writing code and building projects, though, one of the major challenges is (link: https://nodejs.dev text: Node). Only the most recent version of Node—v15 as of writing this—runs on Apple Silicon. But most current open-source projects run on the active LTS version, currently v14. My terminal app, iTerm, is M1-native, so it thinks Node v15 is just fine when I install Node (I typically use (link: https://formulae.brew.sh/formula/node text: Homebrew) for everything I can). 
 
