@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "lazysizes": "^5.2.1",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "npm-check-updates": "^3.2.2"
   }
 }
