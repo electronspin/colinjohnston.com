@@ -32,7 +32,7 @@ The Account Dashboard is a new view in the Rollbar web app specifically designed
 
 ### Problem
 
-Rollbar customers have software projects composed of numerous applications and micro-services, each of which is accessed as a separate project. The lack of a comprehensive projects overview makes i much harder to mitigate potentially expensive failures. Zeroing in on important issues across multiple projects is inefficient, time-consuming, and costly.
+Rollbar customers have software projects composed of numerous applications and micro-services, each of which is accessed as a separate project. The lack of a comprehensive projects overview makes it much harder to mitigate potentially expensive failures. Zeroing in on important issues across multiple projects is inefficient, time-consuming, and costly.
 
 (lazysrcset: rollbar-items-view-old.png alt: Original Rollbar Items View link: rollbar-items-view-old.png linkclass: hb-single caption: **Before – repetitive overload:** The Item View is rich in project data. But having to wade through many individual screens to find an issue is difficult.)
 
