@@ -1,8 +1,13 @@
 # Kirby 3 DotEnv
 
-![GitHub release](https://img.shields.io/github/release/bnomei/kirby3-dotenv.svg?maxAge=1800) ![License](https://img.shields.io/github/license/mashape/apistatus.svg) ![Kirby Version](https://img.shields.io/badge/Kirby-3%2B-black.svg) ![Kirby 3 Pluginkit](https://img.shields.io/badge/Pluginkit-YES-cca000.svg) [![Build Status](https://travis-ci.com/bnomei/kirby3-dotenv.svg?branch=master)](https://travis-ci.com/bnomei/kirby3-dotenv) [![Coverage Status](https://coveralls.io/repos/github/bnomei/kirby3-dotenv/badge.svg?branch=master)](https://coveralls.io/github/bnomei/kirby3-dotenv?branch=master) [![Gitter](https://badges.gitter.im/bnomei-kirby-3-plugins/community.svg)](https://gitter.im/bnomei-kirby-3-plugins/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+![Release](https://flat.badgen.net/packagist/v/bnomei/kirby3-dotenv?color=ae81ff)
+![Downloads](https://flat.badgen.net/packagist/dt/bnomei/kirby3-dotenv?color=272822)
+[![Build Status](https://flat.badgen.net/travis/bnomei/kirby3-dotenv)](https://travis-ci.com/bnomei/kirby3-dotenv)
+[![Coverage Status](https://flat.badgen.net/coveralls/c/github/bnomei/kirby3-dotenv)](https://coveralls.io/github/bnomei/kirby3-dotenv) 
+[![Maintainability](https://flat.badgen.net/codeclimate/maintainability/bnomei/kirby3-dotenv)](https://codeclimate.com/github/bnomei/kirby3-dotenv)  
+[![Twitter](https://flat.badgen.net/badge/twitter/bnomei?color=66d9ef)](https://twitter.com/bnomei)
 
-Kirby 3 Plugin for environment variables from .env using [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv).
+Kirby 3 Plugin for environment variables from .env
 
 ## Commercial Usage
 
@@ -39,26 +44,54 @@ echo $page->getenv('ALGOLIA_APIKEY'); // 12d7331a21d8a28b3069c49830f463e833e30f6
 ```php
 Bnomei\DotEnv::load();
 echo getenv('APP_DEBUG'); // true
+echo env('APP_DEBUG'); // true
 ```
 
-### Required Variables (optional)
+### Using getenv() in the Kirby config file
 
-You can define required variables in the Settings using an array. If any of these is missing a `RuntimeException` will be thrown.
+**site/config/config.php**
+```php
+return [
+    // ... other options
+    'bnomei.cloudconvert.apikey' => function() { 
+        return env('CLOUDCONVERT_APIKEY'); 
+    },
+    'bnomei.instagram.token' => function() { 
+        return env('INSTAGRAM_TOKEN'); 
+    },
+    'bnomei.thumbimageoptim.apikey' => function() { 
+        return env('IMAGEOPTIM_APIKEY'); 
+    },
+];
+```
+
+#### No callback - no luck? 3 line are enough!
+Unless you preload the `Bnomei\DotEnv` class using an `include_once` statement yourself the class will not be available in the kirby config files. But some options take a `callback` not just a `string` value. If your desired option does not then consider reporting a github issue at **their** repository. Adding a callback for an option is 3 lines of work.
+
+**code/in/another/plugin.php**
+```php
+public function thisIsWereAllConfigValuesAreLoaded()
+{
+    $fancyOption = option('another.plugin.fancy');
+    // add these 3 lines
+    if (is_callable($fancyOptions)) {
+        $fancyOption = $fancyOption();
+    }
+}
+```
+
 
 ## Settings
 
-All settings need to be prefixed with `bnomei.dotenv.`.
+| bnomei.dotenv.            | Default        | Description               |            
+|---------------------------|----------------|---------------------------|
+| dir | `callback` | returning `kirby()->roots()->index(). When installing Kirby 3 with Composer use a `function() { return realpath(kirby()->roots()->index() . '/../'); }` | 
+| filename | `.env` | |
+| required | `[]` | You can define required variables in the Settings using an array. If any of these is missing a `RuntimeException` will be thrown. |
 
-**dir**
-- default: a callback returning `kirby()->roots()->index()`
+## Dependencies
 
-> TIP: when installing Kirby 3 with Composer use a `function() { return realpath(kirby()->roots()->index() . '/../'); }`
-
-**filename**
-- default: `.env`
-
-**required**
-- default: `[]`
+- [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv)
 
 ## Disclaimer
 
