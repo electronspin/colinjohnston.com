@@ -236,7 +236,7 @@ return [
             return $item->searchHits > 0 ? true : false;
         });
 
-        return $results->sortBy('searchScore', 'desc');
+        return $results->sort('searchScore', 'desc');
     },
 
     /**
@@ -330,6 +330,8 @@ return [
      * @param Closure $originalHandler Deprecated: Callback function to the original URL handler with `$path` and `$options` as parameters
      *                                 Use `$kirby->nativeComponent('url')` inside your URL component instead.
      * @return string
+     *
+     * @todo Remove $originalHandler parameter in 3.6.0
      */
     'url' => function (App $kirby, string $path = null, $options = null, Closure $originalHandler = null): string {
         $language = null;

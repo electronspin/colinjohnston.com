@@ -175,18 +175,6 @@ trait HasChildren
     }
 
     /**
-     * @deprecated 3.0.0 Use `Page::hasUnlistedChildren()` instead
-     * @return bool
-     * @codeCoverageIgnore
-     */
-    public function hasInvisibleChildren(): bool
-    {
-        deprecated('$page->hasInvisibleChildren() is deprecated, use $page->hasUnlistedChildren() instead. $page->hasInvisibleChildren() will be removed in Kirby 3.5.0.');
-
-        return $this->hasUnlistedChildren();
-    }
-
-    /**
      * Checks if the page has any listed children
      *
      * @return bool
@@ -204,18 +192,6 @@ trait HasChildren
     public function hasUnlistedChildren(): bool
     {
         return $this->children()->unlisted()->count() > 0;
-    }
-
-    /**
-     * @deprecated 3.0.0 Use `Page::hasListedChildren()` instead
-     * @return bool
-     * @codeCoverageIgnore
-     */
-    public function hasVisibleChildren(): bool
-    {
-        deprecated('$page->hasVisibleChildren() is deprecated, use $page->hasListedChildren() instead. $page->hasVisibleChildren() will be removed in Kirby 3.5.0.');
-
-        return $this->hasListedChildren();
     }
 
     /**
@@ -237,7 +213,7 @@ trait HasChildren
      * Sets the Children collection
      *
      * @param array|null $children
-     * @return self
+     * @return $this
      */
     protected function setChildren(array $children = null)
     {
@@ -252,7 +228,7 @@ trait HasChildren
      * Sets the Drafts collection
      *
      * @param array|null $drafts
-     * @return self
+     * @return $this
      */
     protected function setDrafts(array $drafts = null)
     {

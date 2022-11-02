@@ -19,7 +19,7 @@ class Languages extends Collection
     /**
      * Creates a new collection with the given language objects
      *
-     * @param array $objects
+     * @param array $objects `Kirby\Cms\Language` objects
      * @param null $parent
      * @throws \Kirby\Exception\DuplicateException
      */
@@ -73,22 +73,10 @@ class Languages extends Collection
     }
 
     /**
-     * @deprecated 3.0.0  Use `Languages::default()` instead
-     * @return \Kirby\Cms\Language|null
-     * @codeCoverageIgnore
-     */
-    public function findDefault()
-    {
-        deprecated('$languages->findDefault() is deprecated, use $languages->default() instead. $languages->findDefault() will be removed in Kirby 3.5.0.');
-
-        return $this->default();
-    }
-
-    /**
      * Convert all defined languages to a collection
      *
      * @internal
-     * @return self
+     * @return static
      */
     public static function load()
     {

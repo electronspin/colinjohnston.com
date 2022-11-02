@@ -2,6 +2,7 @@
 
 use Kirby\Cms\Blueprint;
 use Kirby\Toolkit\A;
+use Kirby\Toolkit\Escape;
 use Kirby\Toolkit\I18n;
 
 return [
@@ -38,8 +39,8 @@ return [
         /**
          * Optional info text setup. Info text is shown on the right (lists) or below (cards) the page title.
          */
-        'info' => function (string $info = null) {
-            return $info;
+        'info' => function ($info = null) {
+            return I18n::translate($info, $info);
         },
         /**
          * The size option controls the size of cards. By default cards are auto-sized and the cards grid will always fill the full width. With a size you can disable auto-sizing. Available sizes: `tiny`, `small`, `medium`, `large`, `huge`
@@ -82,8 +83,8 @@ return [
         /**
          * Setup for the main text in the list or cards. By default this will display the page title.
          */
-        'text' => function (string $text = '{{ page.title }}') {
-            return $text;
+        'text' => function ($text = '{{ page.title }}') {
+            return I18n::translate($text, $text);
         }
     ],
     'computed' => [
@@ -126,7 +127,7 @@ return [
 
             // sort
             if ($this->sortBy) {
-                $pages = $pages->sortBy(...$pages::sortArgs($this->sortBy));
+                $pages = $pages->sort(...$pages::sortArgs($this->sortBy));
             }
 
             // flip
@@ -153,10 +154,17 @@ return [
                 $permissions = $item->permissions();
                 $image       = $item->panelImage($this->image);
 
+                // escape the default text
+                // TODO: no longer needed in 3.6
+                $text = $item->toString($this->text);
+                if ($this->text === '{{ page.title }}') {
+                    $text = Escape::html($text);
+                }
+
                 $data[] = [
                     'id'          => $item->id(),
                     'dragText'    => $item->dragText(),
-                    'text'        => $item->toString($this->text),
+                    'text'        => $text,
                     'info'        => $item->toString($this->info ?? false),
                     'parent'      => $item->parentId(),
                     'icon'        => $item->panelIcon($image),
@@ -165,7 +173,9 @@ return [
                     'status'      => $item->status(),
                     'permissions' => [
                         'sort'         => $permissions->can('sort'),
-                        'changeStatus' => $permissions->can('changeStatus')
+                        'changeSlug'   => $permissions->can('changeSlug'),
+                        'changeStatus' => $permissions->can('changeStatus'),
+                        'changeTitle'  => $permissions->can('changeTitle')
                     ]
                 ];
             }

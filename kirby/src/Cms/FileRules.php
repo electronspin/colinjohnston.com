@@ -85,6 +85,7 @@ class FileRules
         static::validFile($file, $upload->mime());
 
         $upload->match($file->blueprint()->accept());
+        $upload->validateContents(true);
 
         return true;
     }
@@ -133,6 +134,7 @@ class FileRules
         }
 
         $upload->match($file->blueprint()->accept());
+        $upload->validateContents(true);
 
         return true;
     }
@@ -202,15 +204,23 @@ class FileRules
      * Validates the extension, MIME type and filename
      *
      * @param \Kirby\Cms\File $file
-     * @param string|null $mime If not passed, the MIME type is detected from the file
+     * @param string|null|false $mime If not passed, the MIME type is detected from the file,
+     *                                if `false`, the MIME type is not validated for performance reasons
      * @return bool
      * @throws \Kirby\Exception\InvalidArgumentException If the extension, MIME type or filename is missing or forbidden
      */
-    public static function validFile(File $file, ?string $mime = null): bool
+    public static function validFile(File $file, $mime = null): bool
     {
+        if ($mime === false) {
+            // request to skip the MIME check for performance reasons
+            $validMime = true;
+        } else {
+            $validMime = static::validMime($file, $mime ?? $file->mime());
+        }
+
         return
+            $validMime &&
             static::validExtension($file, $file->extension()) &&
-            static::validMime($file, $mime ?? $file->mime()) &&
             static::validFilename($file, $file->filename());
     }
 

@@ -4,7 +4,9 @@ namespace Kirby\Cms;
 
 use Kirby\Image\Image;
 use Kirby\Toolkit\A;
+use Kirby\Toolkit\Escape;
 use Kirby\Toolkit\F;
+use Throwable;
 
 /**
  * The `$file` object provides a set
@@ -253,6 +255,8 @@ class File extends ModelWithContent
         } else {
             if ($this->type() === 'image') {
                 return '(image: ' . $url . ')';
+            } elseif ($this->type() === 'video') {
+                return '(video: ' . $url . ')';
             } else {
                 return '(file: ' . $url . ')';
             }
@@ -264,7 +268,7 @@ class File extends ModelWithContent
      *
      * @internal
      * @param mixed $props
-     * @return self
+     * @return static
      */
     public static function factory($props)
     {
@@ -383,19 +387,6 @@ class File extends ModelWithContent
     public function mediaUrl(): string
     {
         return $this->parent()->mediaUrl() . '/' . $this->mediaHash() . '/' . $this->filename();
-    }
-
-    /**
-     * @deprecated 3.0.0 Use `File::content()` instead
-     *
-     * @return \Kirby\Cms\Content
-     * @codeCoverageIgnore
-     */
-    public function meta()
-    {
-        deprecated('$file->meta() is deprecated, use $file->content() instead. $file->meta() will be removed in Kirby 3.5.0.');
-
-        return $this->content();
     }
 
     /**
@@ -518,6 +509,31 @@ class File extends ModelWithContent
     }
 
     /**
+     * Returns an array of all actions
+     * that can be performed in the Panel
+     *
+     * @since 3.3.0 This also checks for the lock status
+     * @since 3.5.1 This also checks for matching accept settings
+     *
+     * @param array $unlock An array of options that will be force-unlocked
+     * @return array
+     */
+    public function panelOptions(array $unlock = []): array
+    {
+        $options = parent::panelOptions($unlock);
+
+        try {
+            // check if the file type is allowed at all,
+            // otherwise it cannot be replaced
+            $this->match($this->blueprint()->accept());
+        } catch (Throwable $e) {
+            $options['replace'] = false;
+        }
+
+        return $options;
+    }
+
+    /**
      * Returns the full path without leading slash
      *
      * @internal
@@ -546,6 +562,14 @@ class File extends ModelWithContent
             $absolute = $this->parent() !== $params['model'];
         }
 
+        // escape the default text
+        // TODO: no longer needed in 3.6
+        $textQuery = $params['text'] ?? '{{ file.filename }}';
+        $text = $this->toString($textQuery);
+        if ($textQuery === '{{ file.filename }}') {
+            $text = Escape::html($text);
+        }
+
         return [
             'filename' => $this->filename(),
             'dragText' => $this->dragText('auto', $absolute ?? false),
@@ -554,7 +578,7 @@ class File extends ModelWithContent
             'image'    => $image,
             'info'     => $this->toString($params['info'] ?? false),
             'link'     => $this->panelUrl(true),
-            'text'     => $this->toString($params['text'] ?? '{{ file.filename }}'),
+            'text'     => $text,
             'type'     => $this->type(),
             'url'      => $this->url(),
             'uuid'     => $uuid,
@@ -648,7 +672,7 @@ class File extends ModelWithContent
      * Sets the Blueprint object
      *
      * @param array|null $blueprint
-     * @return self
+     * @return $this
      */
     protected function setBlueprint(array $blueprint = null)
     {
@@ -664,7 +688,7 @@ class File extends ModelWithContent
      * Sets the filename
      *
      * @param string $filename
-     * @return self
+     * @return $this
      */
     protected function setFilename(string $filename)
     {
@@ -676,7 +700,7 @@ class File extends ModelWithContent
      * Sets the parent model object
      *
      * @param \Kirby\Cms\Model|null $parent
-     * @return self
+     * @return $this
      */
     protected function setParent(Model $parent = null)
     {
@@ -689,7 +713,7 @@ class File extends ModelWithContent
      * auto root detection
      *
      * @param string|null $root
-     * @return self
+     * @return $this
      */
     protected function setRoot(string $root = null)
     {
@@ -699,7 +723,7 @@ class File extends ModelWithContent
 
     /**
      * @param string|null $template
-     * @return self
+     * @return $this
      */
     protected function setTemplate(string $template = null)
     {
@@ -711,7 +735,7 @@ class File extends ModelWithContent
      * Sets the url
      *
      * @param string|null $url
-     * @return self
+     * @return $this
      */
     protected function setUrl(string $url = null)
     {
@@ -758,7 +782,7 @@ class File extends ModelWithContent
      */
     public function templateSiblings(bool $self = true)
     {
-        return $this->siblings($self)->filterBy('template', $this->template());
+        return $this->siblings($self)->filter('template', $this->template());
     }
 
     /**
@@ -780,6 +804,6 @@ class File extends ModelWithContent
      */
     public function url(): string
     {
-        return $this->url ?? $this->url = $this->kirby()->component('file::url')($this->kirby(), $this);
+        return $this->url ?? $this->url = ($this->kirby()->component('file::url'))($this->kirby(), $this);
     }
 }

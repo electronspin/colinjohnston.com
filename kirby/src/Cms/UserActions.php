@@ -26,7 +26,7 @@ trait UserActions
      * Changes the user email address
      *
      * @param string $email
-     * @return self
+     * @return static
      */
     public function changeEmail(string $email)
     {
@@ -47,7 +47,7 @@ trait UserActions
      * Changes the user language
      *
      * @param string $language
-     * @return self
+     * @return static
      */
     public function changeLanguage(string $language)
     {
@@ -68,7 +68,7 @@ trait UserActions
      * Changes the screen name of the user
      *
      * @param string $name
-     * @return self
+     * @return static
      */
     public function changeName(string $name)
     {
@@ -89,7 +89,7 @@ trait UserActions
      * Changes the user password
      *
      * @param string $password
-     * @return self
+     * @return static
      */
     public function changePassword(string $password)
     {
@@ -108,7 +108,7 @@ trait UserActions
      * Changes the user role
      *
      * @param string $role
-     * @return self
+     * @return static
      */
     public function changeRole(string $role)
     {
@@ -140,7 +140,7 @@ trait UserActions
      * @return mixed
      * @throws \Kirby\Exception\PermissionException
      */
-    protected function commit(string $action, array $arguments = [], Closure $callback)
+    protected function commit(string $action, array $arguments, Closure $callback)
     {
         if ($this->isKirby() === true) {
             throw new PermissionException('The Kirby user cannot be changed');
@@ -172,7 +172,7 @@ trait UserActions
      * Creates a new User from the given props and returns a new User object
      *
      * @param array|null $props
-     * @return self
+     * @return static
      */
     public static function create(array $props = null)
     {
@@ -291,9 +291,9 @@ trait UserActions
     /**
      * Reads the user password from disk
      *
-     * @return string|null
+     * @return string|false
      */
-    protected function readPassword(): ?string
+    protected function readPassword()
     {
         return F::read($this->root() . '/.htpasswd');
     }
@@ -302,13 +302,13 @@ trait UserActions
      * Updates the user data
      *
      * @param array|null $input
-     * @param string|null $language
+     * @param string|null $languageCode
      * @param bool $validate
-     * @return self
+     * @return static
      */
-    public function update(array $input = null, string $language = null, bool $validate = false)
+    public function update(array $input = null, string $languageCode = null, bool $validate = false)
     {
-        $user = parent::update($input, $language, $validate);
+        $user = parent::update($input, $languageCode, $validate);
 
         // set auth user data only if the current user is this user
         if ($user->isLoggedIn() === true) {

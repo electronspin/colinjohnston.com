@@ -38,12 +38,12 @@ class Users extends Collection
      * current collection
      *
      * @param mixed $object
-     * @return self
+     * @return $this
      */
     public function add($object)
     {
         // add a page collection
-        if (is_a($object, static::class) === true) {
+        if (is_a($object, self::class) === true) {
             $this->data = array_merge($this->data, $object->data);
 
         // add a user by id
@@ -63,7 +63,7 @@ class Users extends Collection
      *
      * @param array $users
      * @param array $inject
-     * @return self
+     * @return static
      */
     public static function factory(array $users, array $inject = [])
     {
@@ -98,7 +98,7 @@ class Users extends Collection
      *
      * @param string $root
      * @param array $inject
-     * @return self
+     * @return static
      */
     public static function load(string $root, array $inject = [])
     {
@@ -128,13 +128,13 @@ class Users extends Collection
     }
 
     /**
-     * Shortcut for `$users->filterBy('role', 'admin')`
+     * Shortcut for `$users->filter('role', 'admin')`
      *
      * @param string $role
-     * @return self
+     * @return static
      */
     public function role(string $role)
     {
-        return $this->filterBy('role', $role);
+        return $this->filter('role', $role);
     }
 }

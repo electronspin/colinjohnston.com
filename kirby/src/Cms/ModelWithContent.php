@@ -231,7 +231,7 @@ abstract class ModelWithContent extends Model
      * @param string $field
      * @param int $by
      * @param int $min
-     * @return self
+     * @return static
      */
     public function decrement(string $field, int $by = 1, int $min = 0)
     {
@@ -294,9 +294,7 @@ abstract class ModelWithContent extends Model
         $errors = [];
 
         foreach ($this->blueprint()->sections() as $section) {
-            if (method_exists($section, 'errors') === true || isset($section->errors)) {
-                $errors = array_merge($errors, $section->errors());
-            }
+            $errors = array_merge($errors, $section->errors());
         }
 
         return $errors;
@@ -308,7 +306,7 @@ abstract class ModelWithContent extends Model
      * @param string $field
      * @param int $by
      * @param int|null $max
-     * @return self
+     * @return static
      */
     public function increment(string $field, int $by = 1, int $max = null)
     {
@@ -571,7 +569,7 @@ abstract class ModelWithContent extends Model
      * @param array|null $data
      * @param string|null $languageCode
      * @param bool $overwrite
-     * @return self
+     * @return static
      */
     public function save(array $data = null, string $languageCode = null, bool $overwrite = false)
     {
@@ -587,7 +585,7 @@ abstract class ModelWithContent extends Model
      *
      * @param array|null $data
      * @param bool $overwrite
-     * @return self
+     * @return static
      */
     protected function saveContent(array $data = null, bool $overwrite = false)
     {
@@ -609,7 +607,7 @@ abstract class ModelWithContent extends Model
      * @param array|null $data
      * @param string|null $languageCode
      * @param bool $overwrite
-     * @return self
+     * @return static
      * @throws \Kirby\Exception\InvalidArgumentException If the language for the given code does not exist
      */
     protected function saveTranslation(array $data = null, string $languageCode = null, bool $overwrite = false)
@@ -655,7 +653,7 @@ abstract class ModelWithContent extends Model
      * Sets the Content object
      *
      * @param array|null $content
-     * @return self
+     * @return $this
      */
     protected function setContent(array $content = null)
     {
@@ -671,7 +669,7 @@ abstract class ModelWithContent extends Model
      * Create the translations collection from an array
      *
      * @param array|null $translations
-     * @return self
+     * @return $this
      */
     protected function setTranslations(array $translations = null)
     {
@@ -754,7 +752,7 @@ abstract class ModelWithContent extends Model
      * @param array|null $input
      * @param string|null $languageCode
      * @param bool $validate
-     * @return self
+     * @return static
      * @throws \Kirby\Exception\InvalidArgumentException If the input array contains invalid values
      */
     public function update(array $input = null, string $languageCode = null, bool $validate = false)

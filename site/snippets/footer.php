@@ -13,7 +13,7 @@
       JavaScript, and Gulp in
       Visual Studio Code and iTerm 2 on a Mac. Typeface is <a href="https://rsms.me/inter/" target="_blank"
         rel="noopener" title="Inter">Inter</a> by Rasmus
-      Andersson. Hosting by MediaTemple, but not for long.
+      Andersson. Hosted on Dreamhost VPS. Kirby <?php echo $kirby->version(); ?></br>
       &copy; 2012&ndash;<?php echo date("Y"); ?> Colin Johnston.
 
       <?php //echo date ('F d Y', filemtime($dir));  ?>

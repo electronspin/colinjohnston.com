@@ -7,8 +7,6 @@ use Kirby\Exception\Exception;
 use Kirby\Exception\InvalidArgumentException;
 use Kirby\Exception\PermissionException;
 use Kirby\Http\Remote;
-use Kirby\Http\Uri;
-use Kirby\Http\Url;
 use Kirby\Toolkit\A;
 use Kirby\Toolkit\Dir;
 use Kirby\Toolkit\F;
@@ -115,19 +113,7 @@ class System
      */
     public function indexUrl(): string
     {
-        $url = $this->app->url('index');
-
-        if (Url::isAbsolute($url)) {
-            $uri = Url::toObject($url);
-        } else {
-            // index URL was configured without host, use the current host
-            $uri = Uri::current([
-                'path'   => $url,
-                'query'  => null
-            ]);
-        }
-
-        return $uri->setScheme(null)->setSlash(false)->toString();
+        return $this->app->url('index', true)->setScheme(null)->setSlash(false)->toString();
     }
 
     /**
@@ -341,6 +327,68 @@ class System
     }
 
     /**
+     * Returns the configured UI modes for the login form
+     * with their respective options
+     *
+     * @return array
+     *
+     * @throws \Kirby\Exception\InvalidArgumentException If the configuration is invalid
+     *                                                   (only in debug mode)
+     */
+    public function loginMethods(): array
+    {
+        $default = ['password' => []];
+        $methods = A::wrap($this->app->option('auth.methods', $default));
+
+        // normalize the syntax variants
+        $normalized = [];
+        $uses2fa = false;
+        foreach ($methods as $key => $value) {
+            if (is_int($key) === true) {
+                // ['password']
+                $normalized[$value] = [];
+            } elseif ($value === true) {
+                // ['password' => true]
+                $normalized[$key] = [];
+            } else {
+                // ['password' => [...]]
+                $normalized[$key] = $value;
+
+                if (isset($value['2fa']) === true && $value['2fa'] === true) {
+                    $uses2fa = true;
+                }
+            }
+        }
+
+        // 2FA must not be circumvented by code-based modes
+        foreach (['code', 'password-reset'] as $method) {
+            if ($uses2fa === true && isset($normalized[$method]) === true) {
+                unset($normalized[$method]);
+
+                if ($this->app->option('debug') === true) {
+                    $message = 'The "' . $method . '" login method cannot be enabled when 2FA is required';
+                    throw new InvalidArgumentException($message);
+                }
+            }
+        }
+
+        // only one code-based mode can be active at once
+        if (
+            isset($normalized['code']) === true &&
+            isset($normalized['password-reset']) === true
+        ) {
+            unset($normalized['code']);
+
+            if ($this->app->option('debug') === true) {
+                $message = 'The "code" and "password-reset" login methods cannot be enabled together';
+                throw new InvalidArgumentException($message);
+            }
+        }
+
+        return $normalized;
+    }
+
+    /**
      * Check for an existing mbstring extension
      *
      * @return bool
@@ -367,7 +415,9 @@ class System
      */
     public function php(): bool
     {
-        return version_compare(phpversion(), '7.1.0', '>=');
+        return
+            version_compare(PHP_VERSION, '7.3.0', '>=') === true &&
+            version_compare(PHP_VERSION, '8.1.0', '<')  === true;
     }
 
     /**

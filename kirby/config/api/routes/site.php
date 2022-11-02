@@ -49,7 +49,10 @@ return [
     [
         'pattern' => [
             'site/blueprints',
-            // Deprecated: remove in 3.6.0
+            /**
+             * @deprecated
+             * @todo remove in 3.6.0
+             */
             'site/children/blueprints',
         ],
         'method'  => 'GET',
@@ -78,7 +81,7 @@ return [
             $pages = $this
                 ->site()
                 ->index(true)
-                ->filterBy('isReadable', true);
+                ->filter('isReadable', true);
 
             if ($this->requestMethod() === 'GET') {
                 return $pages->search($this->requestQuery('q'));

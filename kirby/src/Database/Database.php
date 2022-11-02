@@ -3,7 +3,6 @@
 namespace Kirby\Database;
 
 use Closure;
-use Exception;
 use Kirby\Exception\InvalidArgumentException;
 use Kirby\Toolkit\A;
 use Kirby\Toolkit\Str;
@@ -158,7 +157,7 @@ class Database
      * Returns one of the started instances
      *
      * @param string|null $id
-     * @return self|null
+     * @return static|null
      */
     public static function instance(string $id = null)
     {

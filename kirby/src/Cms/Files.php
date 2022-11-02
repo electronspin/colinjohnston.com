@@ -31,12 +31,12 @@ class Files extends Collection
      * current collection
      *
      * @param mixed $object
-     * @return self
+     * @return $this
      */
     public function add($object)
     {
         // add a page collection
-        if (is_a($object, static::class) === true) {
+        if (is_a($object, self::class) === true) {
             $this->data = array_merge($this->data, $object->data);
 
         // add a file by id
@@ -57,7 +57,7 @@ class Files extends Collection
      *
      * @param array $files List of file ids
      * @param int $offset Sorting offset
-     * @return self
+     * @return $this
      */
     public function changeSort(array $files, int $offset = 0)
     {
@@ -76,7 +76,7 @@ class Files extends Collection
      *
      * @param array $files
      * @param \Kirby\Cms\Model $parent
-     * @return self
+     * @return static
      */
     public static function factory(array $files, Model $parent)
     {
@@ -124,7 +124,7 @@ class Files extends Collection
      * Filter all files by the given template
      *
      * @param null|string|array $template
-     * @return self
+     * @return $this|static
      */
     public function template($template)
     {
@@ -132,6 +132,14 @@ class Files extends Collection
             return $this;
         }
 
-        return $this->filterBy('template', is_array($template) ? 'in' : '==', $template);
+        if ($template === 'default') {
+            $template = ['default', ''];
+        }
+
+        return $this->filter(
+            'template',
+            is_array($template) ? 'in' : '==',
+            $template
+        );
     }
 }

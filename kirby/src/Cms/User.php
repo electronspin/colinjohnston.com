@@ -5,6 +5,7 @@ namespace Kirby\Cms;
 use Exception;
 use Kirby\Exception\InvalidArgumentException;
 use Kirby\Exception\NotFoundException;
+use Kirby\Toolkit\Escape;
 use Kirby\Toolkit\F;
 use Kirby\Toolkit\Str;
 
@@ -254,7 +255,7 @@ class User extends ModelWithContent
      *
      * @internal
      * @param mixed $props
-     * @return self
+     * @return static
      */
     public static function factory($props)
     {
@@ -368,7 +369,8 @@ class User extends ModelWithContent
      */
     public function isLastAdmin(): bool
     {
-        return $this->role()->isAdmin() === true && $this->kirby()->users()->filterBy('role', 'admin')->count() <= 1;
+        return $this->role()->isAdmin() === true &&
+               $this->kirby()->users()->filter('role', 'admin')->count() <= 1;
     }
 
     /**
@@ -382,13 +384,24 @@ class User extends ModelWithContent
     }
 
     /**
+     * Checks if the current user is the virtual
+     * Nobody user
+     *
+     * @return bool
+     */
+    public function isNobody(): bool
+    {
+        return $this->email() === 'nobody@getkirby.com';
+    }
+
+    /**
      * Returns the user language
      *
      * @return string
      */
     public function language(): string
     {
-        return $this->language ?? $this->language = $this->credentials()['language'] ?? $this->kirby()->option('panel.language', 'en');
+        return $this->language ?? $this->language = $this->credentials()['language'] ?? $this->kirby()->panelLanguage();
     }
 
     /**
@@ -421,7 +434,7 @@ class User extends ModelWithContent
         $kirby->trigger('user.login:before', ['user' => $this, 'session' => $session]);
 
         $session->regenerateToken(); // privilege change
-        $session->data()->set('user.id', $this->id());
+        $session->data()->set('kirby.userId', $this->id());
         $this->kirby()->auth()->setUser($this);
 
         $kirby->trigger('user.login:after', ['user' => $this, 'session' => $session]);
@@ -441,7 +454,7 @@ class User extends ModelWithContent
         $kirby->trigger('user.logout:before', ['user' => $this, 'session' => $session]);
 
         // remove the user from the session for future requests
-        $session->data()->remove('user.id');
+        $session->data()->remove('kirby.userId');
 
         // clear the cached user object from the app state of the current request
         $this->kirby()->auth()->flush();
@@ -539,10 +552,22 @@ class User extends ModelWithContent
     }
 
     /**
+     * Returns the user's name or,
+     * if empty, the email address
+     *
+     * @return \Kirby\Cms\Field
+     */
+    public function nameOrEmail()
+    {
+        $name = $this->name();
+        return $name->isNotEmpty() ? $name : new Field($this, 'email', $this->email());
+    }
+
+    /**
      * Create a dummy nobody
      *
      * @internal
-     * @return self
+     * @return static
      */
     public static function nobody()
     {
@@ -604,6 +629,14 @@ class User extends ModelWithContent
         $image = $this->panelImage($params['image'] ?? []);
         $icon  = $this->panelIcon($image);
 
+        // escape the default text
+        // TODO: no longer needed in 3.6
+        $textQuery = $params['text'] ?? '{{ user.username }}';
+        $text = $this->toString($textQuery);
+        if ($textQuery === '{{ user.username }}') {
+            $text = Escape::html($text);
+        }
+
         return [
             'icon'     => $icon,
             'id'       => $this->id(),
@@ -611,7 +644,7 @@ class User extends ModelWithContent
             'email'    => $this->email(),
             'info'     => $this->toString($params['info'] ?? false),
             'link'     => $this->panelUrl(true),
-            'text'     => $this->toString($params['text'] ?? '{{ user.username }}'),
+            'text'     => $text,
             'username' => $this->username(),
         ];
     }
@@ -688,7 +721,7 @@ class User extends ModelWithContent
         $roles = $kirby->roles();
 
         // a collection with just the one role of the user
-        $myRole = $roles->filterBy('id', $this->role()->id());
+        $myRole = $roles->filter('id', $this->role()->id());
 
         // if there's an authenticated user …
         if ($user = $kirby->user()) {
@@ -735,7 +768,7 @@ class User extends ModelWithContent
      * Sets the Blueprint object
      *
      * @param array|null $blueprint
-     * @return self
+     * @return $this
      */
     protected function setBlueprint(array $blueprint = null)
     {
@@ -751,7 +784,7 @@ class User extends ModelWithContent
      * Sets the user email
      *
      * @param string $email|null
-     * @return self
+     * @return $this
      */
     protected function setEmail(string $email = null)
     {
@@ -765,7 +798,7 @@ class User extends ModelWithContent
      * Sets the user id
      *
      * @param string $id|null
-     * @return self
+     * @return $this
      */
     protected function setId(string $id = null)
     {
@@ -777,7 +810,7 @@ class User extends ModelWithContent
      * Sets the user language
      *
      * @param string $language|null
-     * @return self
+     * @return $this
      */
     protected function setLanguage(string $language = null)
     {
@@ -789,7 +822,7 @@ class User extends ModelWithContent
      * Sets the user name
      *
      * @param string $name|null
-     * @return self
+     * @return $this
      */
     protected function setName(string $name = null)
     {
@@ -801,7 +834,7 @@ class User extends ModelWithContent
      * Sets the user's password hash
      *
      * @param string $password|null
-     * @return self
+     * @return $this
      */
     protected function setPassword(string $password = null)
     {
@@ -813,7 +846,7 @@ class User extends ModelWithContent
      * Sets the user role
      *
      * @param string $role|null
-     * @return self
+     * @return $this
      */
     protected function setRole(string $role = null)
     {
@@ -918,7 +951,7 @@ class User extends ModelWithContent
         }
 
         if (password_verify($password, $this->password()) !== true) {
-            throw new InvalidArgumentException(['key' => 'user.password.notSame']);
+            throw new InvalidArgumentException(['key' => 'user.password.wrong']);
         }
 
         return true;
