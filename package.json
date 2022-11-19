@@ -5,12 +5,10 @@
   "description": "Colin Johnston's Personal Website and Professional Portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "staging": "rsync -azv --exclude-from 'exclude-list.txt' ./ colinjohnston:/home/25789/domains/staging.colinjohnston.com/",
-    "staging-dry": "rsync -azvn --exclude-from 'exclude-list.txt' ./ colinjohnston:/home/25789/domains/staging.colinjohnston.com/",
-    "staging2": "rsync -azv --exclude-from 'exclude-list.txt' ./ colinjohnston:/home/25789/domains/staging2.colinjohnston.com/",
-    "staging2-dry": "rsync -azvn --exclude-from 'exclude-list.txt' ./ colinjohnston:/home/25789/domains/staging2.colinjohnston.com/",
-    "deploy": "rsync -azv --exclude-from 'exclude-list.txt' ./ colinjohnston:/home/25789/domains/colinjohnston.com/",
-    "deploy-dry": "rsync -azvn --exclude-from 'exclude-list.txt' ./ colinjohnston:/home/25789/domains/colinjohnston.com/"
+    "staging": "rsync -azv --exclude-from 'exclude-list.txt' ./ colinjohnston-staging:/home/dh_8yb3sq/staging.colinjohnston.com",
+    "staging-dry": "rsync -azvn --exclude-from 'exclude-list.txt' ./ colinjohnston-staging:/home/dh_8yb3sq/staging.colinjohnston.com",
+    "deploy": "rsync -azv --exclude-from 'exclude-list.txt' ./ colinjohnston:/home/coljoh47/colinjohnston.com",
+    "deploy-dry": "rsync -azvn --exclude-from 'exclude-list.txt' ./ colinjohnston:/home/coljoh47/colinjohnston.com"
   },
   "repository": {
     "type": "git",
