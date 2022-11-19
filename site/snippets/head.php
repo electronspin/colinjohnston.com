@@ -22,7 +22,7 @@
     <script async src="/assets/js/app.min.js"></script>
     <script defer src="/assets/js/picturefill.min.js"></script>
     <script defer src="/assets/js/halkaBox.min.js"></script>
-    <script src="/assets/js/highlight.pack.js"></script>
+    <!-- <script src="/assets/js/highlight.pack.js"></script> -->
     <?php snippet('fathom') ?>
 
   </head>

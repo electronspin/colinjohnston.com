@@ -32,6 +32,8 @@ window.onload = function() {
 };
 </script>
 
+<script src="/assets/js/highlight.pack.js"></script>
+
 <script>
 hljs.highlightAll();
 </script>
