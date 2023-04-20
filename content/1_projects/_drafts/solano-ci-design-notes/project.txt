@@ -31,7 +31,7 @@ Overview:
 <figcaption>Solano CI Interface - high-fidelity concept prototype</figcaption>
 </figure>
 
-(lazysrcset: solanolabs-sessionview-prototype-codepen.jpg link: solanolabs-sessionview-prototype-codepen.jpg  linkclass: hb-single caption: Solano CI Interface - Prototype in Codepen)
+(image: solanolabs-sessionview-prototype-codepen.jpg link: solanolabs-sessionview-prototype-codepen.jpg  linkclass: hb-single caption: Solano CI Interface - Prototype in Codepen)
 
 ----
 

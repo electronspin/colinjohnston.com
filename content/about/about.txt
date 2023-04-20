@@ -6,7 +6,7 @@ Text:
 
 Test
 
-(lazysrcset: colin-connect-2018.jpg class: test)
+(image: colin-connect-2018.jpg class: test)
 
 ### Subhead markdown-extra test {.test}
 
