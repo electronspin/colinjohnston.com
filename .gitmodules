@@ -1,6 +1,3 @@
-[submodule "site/plugins/kirby3-srcset"]
-	path = site/plugins/kirby3-srcset
-	url = https://github.com/colin-johnston/kirby3-srcset.git
 [submodule "site/plugins/kirby3-xmlsitemap"]
 	path = site/plugins/kirby3-xmlsitemap
 	url = git@github.com:colin-johnston/kirby3-xmlsitemap.git
