@@ -6,6 +6,8 @@ namespace Bnomei;
 
 use Dotenv\Exception\InvalidPathException;
 use Kirby\Toolkit\A;
+use Kirby\Toolkit\F;
+
 use function getenv;
 use function option;
 
@@ -16,29 +18,51 @@ final class DotEnv
      */
     private $dotenv;
 
-    public function __construct(array $options = [])
+    public function __construct(array $options = [], bool $useKirbyOptions = true)
     {
         $defaults = [
-            'dir' => option('bnomei.dotenv.dir', kirby()->roots()->index()),
-            'required' => option('bnomei.dotenv.required'),
+            'dir' => $useKirbyOptions ?
+                option('bnomei.dotenv.dir') :
+                realpath(__DIR__ . '/../../../../') // try plugin > site > index
+            ,
+            'file' =>  $useKirbyOptions ?
+                option('bnomei.dotenv.file') :
+                '.env'
+            ,
+            'required' => $useKirbyOptions ?
+                option('bnomei.dotenv.required') :
+                []
+            ,
+            'setup' => $useKirbyOptions ?
+                option('bnomei.dotenv.setup') :
+                function ($dotenv) {
+                    return $dotenv;
+                },
         ];
         $options = array_merge($defaults, $options);
 
-        $this->loadFromDir(A::get($options, 'dir'));
+        foreach (['dir', 'file'] as $key) {
+            $value = A::get($options, $key);
+            if ($value && is_callable($value) && ! is_string($value)) {
+                $options[$key] = $value();
+            }
+        }
+
+        $this->dotenv = null;
+        $this->loadFromDir(A::get($options, 'dir'), A::get($options, 'file'));
         $this->addRequired(A::get($options, 'required'));
+        $this->dotenv = A::get($options, 'setup')($this->dotenv);
     }
 
-    private function loadFromDir($dir): bool
+    private function loadFromDir(string $dir, string $file): bool
     {
-        if (! $dir) {
+        $dir = realpath($dir);
+        if (! $dir || ! $file) {
             return false;
         }
-        if (is_callable($dir)) {
-            $dir = $dir();
-        }
-        $this->dotenv = new \Dotenv\Dotenv($dir);
 
         try {
+            $this->dotenv = \Dotenv\Dotenv::createMutable($dir, $file);
             $this->dotenv->load();
         } catch (InvalidPathException $exc) {
             $this->dotenv = null;
@@ -63,15 +87,16 @@ final class DotEnv
     private static $singleton;
     public static function load(array $options = []): bool
     {
-        if (! self::$singleton) {
-            self::$singleton = new self($options);
-        }
+        // always load anew
+        self::$singleton = new self($options, count($options) === 0);
         return self::$singleton->isLoaded();
     }
 
-    public static function getenv(string $env)
+    public static function getenv(string $env, mixed $default = null)
     {
-        self::load();
-        return getenv($env);
+        if (! self::$singleton) {
+            self::load();
+        }
+        return A::get($_ENV, $env, $default);
     }
 }
