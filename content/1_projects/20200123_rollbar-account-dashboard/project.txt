@@ -34,7 +34,7 @@ The Account Dashboard is a new view in the Rollbar web app specifically designed
 
 Rollbar customers have software projects composed of numerous applications and micro-services, each of which is accessed as a separate project. The lack of a comprehensive projects overview makes it much harder to mitigate potentially expensive failures. Zeroing in on important issues across multiple projects is inefficient, time-consuming, and costly.
 
-(image: rollbar-items-view-old.png alt: Original Rollbar Items View link: rollbar-items-view-old.png linkclass: hb-single caption: **Before – repetitive overload:** The Item View is rich in project data. But having to wade through many individual screens to find an issue is difficult.)
+(webp: rollbar-items-view-old.webp alt: Original Rollbar Items View link: rollbar-items-view-old.webp linkclass: hb-single caption: **Before – repetitive overload:** The Item View is rich in project data. But having to wade through many individual screens to find an issue is difficult.)
 
 Customers were becoming frustrated with this problem and switching to our competitors.
 
@@ -58,9 +58,9 @@ I conducted numerous interviews with customers, specifically engineering team le
 
 Our research and testing revealed that customers typically had one of two distinct use cases: reporting or triage. One group of users wanted to see easily configurable reports of overall status, the other group wanted a way to quickly locate problem areas to solve issues more efficiently.
  
-(image: ALD-research_affinity-mapping-metrics_edit.jpg alt: Affinity Mapping Metrics link: ALD-research_affinity-mapping-metrics_edit.jpg linkclass: hb-single caption: **Affinity mapping exercise:** Inputs from our contextual inquiry sessions.)
+(webp: ALD-research_affinity-mapping-metrics_edit.webp alt: Affinity Mapping Metrics link: ALD-research_affinity-mapping-metrics_edit.webp linkclass: hb-single caption: **Affinity mapping exercise:** Inputs from our contextual inquiry sessions.)
 
-(image: ALD-ixd_before-and-after-flows.png alt: Before and After Flows link: ALD-ixd_before-and-after-flows.png linkclass: hb-single caption: **Diagramming user pain points:** Documenting our research findings and developing our initial rationale.)
+(webp: ALD-ixd_before-and-after-flows.webp alt: Before and After Flows link: ALD-ixd_before-and-after-flows.webp linkclass: hb-single caption: **Diagramming user pain points:** Documenting our research findings and developing our initial rationale.)
     
 ## Ideation
 
@@ -69,15 +69,15 @@ Our research and testing revealed that customers typically had one of two distin
 From pencil sketches to pen-and-ink wireframes I generated over 100 ideas for various use cases. I encourage stakeholders at this early stage to keep an open mind when presented with a wide variety of concepts.
 
 
-(image: ald-ideation_early-UI-sketch_crop.jpg alt: Early UI Sketch class: no-caption link: ald-ideation_early-UI-sketch_crop.jpg linkclass: hb-single caption: &nbsp;)
+(webp: ald-ideation_early-UI-sketch_crop.webp alt: Early UI Sketch class: no-caption link: ald-ideation_early-UI-sketch_crop.webp linkclass: hb-single caption: &nbsp;)
     
-(image: ald-ideation_lofi-wireframe.jpg alt: Low Fidelity Wireframe link: ald-ideation_lofi-wireframe.jpg linkclass: hb-single caption: ** Rough concepts:** Rapid sketches and low-fidelity wireframes to explore different structures)
+(webp: ald-ideation_lofi-wireframe.webp alt: Low Fidelity Wireframe link: ald-ideation_lofi-wireframe.webp linkclass: hb-single caption: ** Rough concepts:** Rapid sketches and low-fidelity wireframes to explore different structures)
 
 ### Design Charettes
 
 By bringing the Product team into the design process, we quickly connected product design and business strategy. Real-time group collaboration—when properly structured—yields better design decisions faster.
 
-(image: ALD-ixd_brainstorming.jpg alt: Interaction Design Brainstorming link: ALD-ixd_brainstorming.jpg linkclass: hb-single caption: **Collaborative design process:** I facilitated extensive brainstorming sessions to explore different features and use cases.)
+(webp: ALD-ixd_brainstorming.webp alt: Interaction Design Brainstorming link: ALD-ixd_brainstorming.webp linkclass: hb-single caption: **Collaborative design process:** I facilitated extensive brainstorming sessions to explore different features and use cases.)
 
 ## Design
 
@@ -88,11 +88,11 @@ To serve both the reporting and triage use cases we designed an experience to:
 - Present a clear visual representation of the health of selected projects
 - Surface all filters available in the individual project view, making it easy for teams to drill down into issues across languages, environments, and error levels
   
-(image: ald-ixd_wireframe-v01.jpg alt: Wireframe link: ald-ixd_wireframe-v01.jpg linkclass: hb-single caption: **High-fidelity wireframes:** Taking outputs from ideation sessions, I produced all wireframes in grayscale to avoid distracting focus from structure and interaction.)
+(webp: ald-ixd_wireframe-v01.webp alt: Wireframe link: ald-ixd_wireframe-v01.webp linkclass: hb-single caption: **High-fidelity wireframes:** Taking outputs from ideation sessions, I produced all wireframes in grayscale to avoid distracting focus from structure and interaction.)
 
-(image: ald-ui_select-combobox-v01.jpg alt: Combobox Component UI link: ald-ui_select-combobox-v01.jpg linkclass: hb-single caption:  **First version of the 'combobox':** Filtering controls are a key component in the new session view experience.)
+(webp: ald-ui_select-combobox-v01.webp alt: Combobox Component UI link: ald-ui_select-combobox-v01.webp linkclass: hb-single caption:  **First version of the 'combobox':** Filtering controls are a key component in the new session view experience.)
 
-(image: ald-ui_select-combobox-v01-alt.jpg alt: Combobox Component UI Variant link: ald-ui_select-combobox-v01-alt.jpg linkclass: hb-single caption: **Evolving the ‘combobox’:** We opted for a control that shows selection count even when active because it's much easier to use.)
+(webp: ald-ui_select-combobox-v01-alt.webp alt: Combobox Component UI Variant link: ald-ui_select-combobox-v01-alt.webp linkclass: hb-single caption: **Evolving the ‘combobox’:** We opted for a control that shows selection count even when active because it's much easier to use.)
 
 ## Delivery
 
@@ -100,7 +100,7 @@ To serve both the reporting and triage use cases we designed an experience to:
 
 For this project, we relied mostly on existing component patterns that we had previously built into our design system. For new components, I created comprehensive annotated documentation to describe to front-end developers how the component should function.
 
-(image: ALD-ixd_select-combobox-specs.png alt: Combobox Component Specs for Developer link: ALD-ixd_select-combobox-specs.png linkclass: hb-single  caption: **Final ‘combobox’ design spec:** Developers use these functionality specifications to construct the working component. In most cases, styles are included as subcomponents already built into the design system.)
+(webp: ALD-ixd_select-combobox-specs.webp alt: Combobox Component Specs for Developer link: ALD-ixd_select-combobox-specs.webp linkclass: hb-single  caption: **Final ‘combobox’ design spec:** Developers use these functionality specifications to construct the working component. In most cases, styles are included as subcomponents already built into the design system.)
     
 ## Final Design
 
@@ -110,7 +110,7 @@ The result was a simple yet powerful solution that aggregated project data onto 
 
 The positive impact on customer efficiency was immediate for early beta testers; what often took engineering teams hours now took as little as minutes, saving companies' money. 
 
-(image: rollbar-account-dashboard-cover.jpg link: rollbar-account-dashboard-cover.jpg linkclass: hb-single caption: **After – powerful simplicity:** High-level actionable data from all active projects in one view saves time.)
+(webp: rollbar-account-dashboard-cover.webp link: rollbar-account-dashboard-cover.webp linkclass: hb-single caption: **After – powerful simplicity:** High-level actionable data from all active projects in one view saves time.)
 
 <a class="link--to-top" href="#">TOP</a>
 
