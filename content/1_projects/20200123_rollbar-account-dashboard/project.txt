@@ -10,7 +10,7 @@ Year: 2018
 
 ----
 
-Date: 2020-01-23 21:50
+Date: 2020-01-23 21:50:00
 
 ----
 
@@ -116,9 +116,7 @@ The positive impact on customer efficiency was immediate for early beta testers;
 
 ----
 
-Author:
-
-- ZHFwwqKd
+Author: - ZHFwwqKd
 
 ----
 
