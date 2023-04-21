@@ -155,13 +155,16 @@ Kirby::plugin('hashandsalt/kirby-webp', [
                 'imgclass',
                 'alt',
                 'width',
-                'height'
+                'height',
+                'link',
+                'caption'
             ],
             'html' => function($tag) {
 
               if ($tag->file = $tag->file($tag->value)) {
                   $tag->src       = $tag->file($tag->value);
                   $tag->alt       = $tag->alt ?? $tag->file->alt()->or(' ')->value();
+                  $tag->caption   = $tag->caption ?? $tag->file->caption()->value();
                   $tag->fallback  = $tag->fallback ?? 'jpg';
                   $tag->width     = $tag->width ?? $tag->file($tag->value)->width();
                   $tag->height    = $tag->height ?? $tag->file($tag->value)->height();
@@ -171,8 +174,53 @@ Kirby::plugin('hashandsalt/kirby-webp', [
                   $tag->src = Url::to($tag->value);
               }
 
+            $link = function ($img) use ($tag) {
+				if (empty($tag->link) === true) {
+					return $img;
+				}
+
+				$link   = $tag->file($tag->link)?->url();
+				$link ??= $tag->link === 'self' ? $tag->src : $tag->link;
+
+				return Html::a($link, [$img], [
+					'rel'    => $tag->rel,
+					'class'  => $tag->linkclass,
+					'target' => $tag->target
+				]);
+			};
+
+            // START stuff from https://github.com/getkirby/kirby/blob/3.9.3/config/tags.php#L92
+
+            // Let the hackiness begin
+            
+			// $image = Html::img($tag->src, [
+			// 	'width'  => $tag->width,
+			// 	'height' => $tag->height,
+			// 	'class'  => $tag->imgclass,
+			// 	'title'  => $tag->title,
+			// 	'alt'    => $tag->alt ?? ' '
+			// ]);
+
+			// if ($tag->kirby()->option('kirbytext.image.figure', true) === false) {
+			// 	return $link($image);
+			// }
+
+			// render KirbyText in caption
+			if ($tag->caption) {
+				$options = ['markdown' => ['inline' => true]];
+				$caption = $tag->kirby()->kirbytext($tag->caption, $options);
+				$tag->caption = $caption;
+                // caption for my purposes is not an array so not [$caption] as in tags.php
+			}
+
+			// return Html::figure([ $link($image) ], $tag->caption, [
+			// 	'class' => $tag->class
+			// ]);
+
+            // END stuff from https://github.com/getkirby/kirby/blob/3.9.3/config/tags.php#L92
+
               // Build up tag
-              return snippet('webp', ['sizes' => $tag->sizes, 'src' => $tag->src, 'type' => $tag->fallback, 'class' => $tag->class, 'width' => $tag->width, 'height' => $tag->height], false);
+              return snippet('webp', ['sizes' => $tag->sizes, 'src' => $tag->src, 'type' => $tag->fallback, 'class' => $tag->class, 'link' => $tag->link, 'caption' => $tag->caption, 'width' => $tag->width, 'height' => $tag->height], false);
 
 
             },
