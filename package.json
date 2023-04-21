@@ -26,14 +26,14 @@
     "gulp-filter": "^5.1.0",
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^1.12.1",
     "gulp-uglify": "^3.0.2",
-    "gulp-util": "^3.0.8"
+    "gulp-util": "^3.0.8",
+    "sass": "^1.62.0"
   },
   "dependencies": {
     "lazysizes": "^5.2.1",
-    "node-sass": "^5.0.0",
     "npm-check-updates": "^3.2.2"
   }
 }
