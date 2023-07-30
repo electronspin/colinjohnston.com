@@ -169,6 +169,8 @@ Kirby::plugin('hashandsalt/kirby-webp', [
                   $tag->width     = $tag->width ?? $tag->file($tag->value)->width();
                   $tag->height    = $tag->height ?? $tag->file($tag->value)->height();
                   $tag->sizes     = $tag->sizes ? $tag->sizes : option('hashandsalt.kirby-webp.range');
+                  $tag->imgclass  = $tag->imgclass;
+                  $tag->linkclass  = $tag->linkclass;
 
               } else {
                   $tag->src = Url::to($tag->value);
@@ -220,7 +222,7 @@ Kirby::plugin('hashandsalt/kirby-webp', [
             // END stuff from https://github.com/getkirby/kirby/blob/3.9.3/config/tags.php#L92
 
               // Build up tag
-              return snippet('webp', ['sizes' => $tag->sizes, 'src' => $tag->src, 'type' => $tag->fallback, 'class' => $tag->class, 'link' => $tag->link, 'caption' => $tag->caption, 'width' => $tag->width, 'height' => $tag->height], false);
+              return snippet('webp', ['sizes' => $tag->sizes, 'src' => $tag->src, 'type' => $tag->fallback, 'class' => $tag->class, 'link' => $tag->link,  'linkclass' => $tag->linkclass, 'caption' => $tag->caption, 'width' => $tag->width, 'height' => $tag->height], false);
 
 
             },
