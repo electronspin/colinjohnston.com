@@ -10,7 +10,7 @@ Year: 2016
 
 ----
 
-Date: 2020-01-15 21:50
+Date: 2020-01-15 21:50:00
 
 ----
 
@@ -36,7 +36,7 @@ Engineering teams rely on continuous integration and testing tools to manage com
 
 The Session View—the core of Solano CI—is a comprehensive real-time report of build progress and test results for a single software project. Since its initial release incremental changes to the system cause increasing usability and technical issues, the most critical being diminished trust in reporting accuracy.
 
-(image: solano-ci-session-view-before.jpg link: solano-ci-session-view-before.jpg linkclass: hb-single caption:** Session View – before: ** The original session view was hard to use and presented inconsistent and inaccurate data.)
+(webp: solano-ci-session-view-before.webp link: solano-ci-session-view-before.webp class: project-image linkclass: hb-single caption:** Session View – before: ** The original session view was hard to use and presented inconsistent and inaccurate data.)
 
 Through research and testing with customers we found there were four areas we needed to improve:
 
@@ -61,13 +61,13 @@ We studied customer feedback from support channels, and our team of engineers us
 
 I led customer interviews and contextual inquiries with key customers to better understand the challenges they faced.
 
-(image: solanolabs-sessionview-research-notations.jpg link: solanolabs-sessionview-research-notations.jpg linkclass: hb-single caption: **Documenting usability issues :** Heuristic analysis, user feedback, and contextual inquiry research was consolidated to provide a snapshot of key design challenges)
+(webp: solanolabs-sessionview-research-notations.webp link: solanolabs-sessionview-research-notations.webp linkclass: hb-single caption: **Documenting usability issues :** Heuristic analysis, user feedback, and contextual inquiry research was consolidated to provide a snapshot of key design challenges)
 
 ### Technology Research
 
 I facilitated internal research to audit how a wide variety of software languages and test suites performed across our entire backend platform. The goal was to look for patterns—success, failure, accuracy—to find a solution to the critical customer trust issue.
 
-(image: build-lifecycle-wholevm_edit.png link: build-lifecycle-wholevm_edit.png linkclass: hb-single caption: **Mapping internal systems:** Analyzing data flows—deep dive into the technology behind parallel concurrent software build systems.)
+(webp: build-lifecycle-wholevm_edit.webp link: build-lifecycle-wholevm_edit.webp linkclass: hb-single caption: **Mapping internal systems:** Analyzing data flows—deep dive into the technology behind parallel concurrent software build systems.)
 
 ### Approach
 
@@ -79,9 +79,9 @@ My rationale was that if we radically simplify the session view to present only 
 
 Using research findings I set out to create a new interaction model for the session view that prioritized ease-of-use and increased trust in the data presentation.
 
-(image: solanolabs-sessionview-sketches.jpg link: solanolabs-sessionview-sketches.jpg linkclass: hb-single caption: **Pencil sketches:** Rapid, low-fidelity explorations of information architecture, interaction, and flows.)
+(webp: solanolabs-sessionview-sketches.webp link: solanolabs-sessionview-sketches.webp linkclass: hb-single caption: **Pencil sketches:** Rapid, low-fidelity explorations of information architecture, interaction, and flows.)
 
-(image: solanolabs-sessionview-wireframe1.jpg link: solanolabs-sessionview-wireframe1.jpg  linkclass: hb-single caption: **Wireframes:** Developing a consistent layout and component structure across multiple build configurations and test scenarios.)
+(webp: solanolabs-sessionview-wireframe1.webp link: solanolabs-sessionview-wireframe1.webp  linkclass: hb-single caption: **Wireframes:** Developing a consistent layout and component structure across multiple build configurations and test scenarios.)
 
 ### Design Objectives for a Better Experience
 
@@ -99,13 +99,13 @@ Based on research and user analysis, I prioritized solutions to these problems:
 
 Through a process of moderated and unmoderated user testing we sought to reveal where we hit the mark with our solution, and where it might need improvement. I iterated on the designs multiple times informed by these user tests.
 
-(image: solano-ci-prototype-1.jpg link: solano-ci-prototype-1.jpg linkclass: hb-single caption: **Browser-based prototype:** Proof-of-concept to gain alignment with stakeholders and get early feedback from key customers we had interviewed in the research phase.)
+(webp: solano-ci-prototype-1.webp link: solano-ci-prototype-1.webp linkclass: hb-single caption: **Browser-based prototype:** Proof-of-concept to gain alignment with stakeholders and get early feedback from key customers we had interviewed in the research phase.)
 
 ### Real-world Testing
 
 There was no practical way to deliver our initial prototype to customers using real-time data, so the engineering team built the new session view into the production app. We then allowed users to test it as an ‘alpha’ feature behind a feature flag.
 
-(image: solano-ci-prototype-data1.jpg link: solano-ci-prototype-data1.jpg linkclass: hb-single caption: **Data-driven prototype:** Early stage prototype with live data for user testing. This allowed us to validate complex system feedback design patterns that changed in real time.)
+(webp: solano-ci-prototype-data1.webp link: solano-ci-prototype-data1.webp linkclass: hb-single caption: **Data-driven prototype:** Early stage prototype with live data for user testing. This allowed us to validate complex system feedback design patterns that changed in real time.)
 
 ## Final Design
 
@@ -115,18 +115,16 @@ The final visual design was crafted using our component and styles from  our wor
 
 Since we had very hi-fidelity wireframes and a well-defined set of styles for the UI, it was more efficient to create a browser-based prototype rather than static mock-ups. 
 
-(image: solanolabs-sessionview-prototype-codepen.jpg link: solanolabs-sessionview-prototype-codepen.jpg linkclass: hb-single caption:** Mock-up in HTML & CSS:** Simulating a build session in the browser allowed me to refine the visual design and the system status animations at the same time. It also made it very efficient to deliver updated designs to our developers.)
+(webp: solanolabs-sessionview-prototype-codepen.webp link: solanolabs-sessionview-prototype-codepen.webp linkclass: hb-single caption:** Mock-up in HTML & CSS:** Simulating a build session in the browser allowed me to refine the visual design and the system status animations at the same time. It also made it very efficient to deliver updated designs to our developers.)
 
 ## Delivery
 
 The new session view solved all the issues we set out to solve: we improved accuracy and depth of detail of the status report, while making it more usable and easy to understand; we increased user confidence in the system, and are providing customers with a more efficient tool for a critical part of their software development workflow.
 
-(image: solano-ci-session-view-after.jpg link: solano-ci-session-view-after.jpg linkclass: hb-single caption:** Session View – after: ** The new session view design improved overall usability by showing the entire build and test session in an easy-to-scan timeline.)
+(webp: solano-ci-session-view-after.webp link: solano-ci-session-view-after.webp linkclass: hb-single caption:** Session View – after: ** The new session view design improved overall usability by showing the entire build and test session in an easy-to-scan timeline.)
 
 <a class="link--to-top" href="#">TOP</a>
 
 ----
 
-Author:
-
-- ZHFwwqKd
+Author: - ZHFwwqKd
