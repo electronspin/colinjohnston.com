@@ -1,32 +1,29 @@
 <?php snippet('head') ?>
 
-    <div id="pagetop"></div>
-    <div class="o-wrapper o-wrapper-grid o-wrapper--no-header">
+<div id="pagetop"></div>
+<div class="o-wrapper o-wrapper-grid o-wrapper--no-header">
 
-    <?php snippet('sidebar') ?>
+  <?php snippet('sidebar') ?>
 
-    <main id="content" class="o-content o-layout__grid-item c-project">
+  <main id="content" class="o-content o-layout__grid-item c-project">
 
-    <?php if ($image = $page->images()->findBy('template', 'cover')): ?> 
-      <figure class="c-imagebox c-imagebox--hero animate">
-      <a href="<?= $image->url() ?>" class="hb-single">
-        <img src="<?= $image->url() ?>" srcset="<?= $image->srcset([800, 1024, 2048]) ?>" alt="<?= $image->alt() ?>"/>
-      </a>
-      </figure>
+    <?php //new block for cover iamge using kirby-webp plugin snippet ?>
+    <?php if ($image = $page->images()->findBy('template', 'cover')): ?>
+    <?php snippet('webp', ['sizes' => [2048, 1024, 800], 'src' => $image, 'linkclass' => 'hb-single', 'class' => 'c-imagebox c-imagebox--hero animate', 'link' => $image->url(), 'width' => $image->width(), 'height' => $image->height(), 'caption' => $image->caption()]) ?>
     <?php endif ?>
 
-    <article class="c-project__body"> 
+    <article class="c-project__body">
 
-    <h1 class="c-project__title"><?= $page->title() ?></h1>
+      <h1 class="c-project__title"><?= $page->title() ?></h1>
 
-    <?= $page->intro()->kirbytext() ?>
-    <?= $page->overview()->kirbytext() ?>
-    <?= $page->process()->kirbytext() ?>
-    
-    </article> 
+      <?= $page->intro()->kirbytext() ?>
+      <?= $page->overview()->kirbytext() ?>
+      <?= $page->process()->kirbytext() ?>
 
-    </main>
+    </article>
 
-    <?php snippet('footer') ?>
+  </main>
 
-    </div>
+  <?php snippet('footer') ?>
+
+</div>
