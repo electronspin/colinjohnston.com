@@ -3,6 +3,7 @@ $webp = $src->toWebp();
 $variants = $src->toVariants()->filterBy('extension', '!=', 'webp');
 $source = $src->toSource();
 ?>
+
 <figure<?=e($class, attr(['class' => $class], ' '))?>>
 
   <a<?=e($linkclass, attr(['class' => $linkclass], ' '))?><?=e($link, attr(['href' => $webp->url()], ' '))?>>
@@ -26,7 +27,9 @@ $source = $src->toSource();
     </picture>
 
     </a>
+
     <figcaption>
       <?=e($caption, ($caption))?>
     </figcaption>
+
     </figure>

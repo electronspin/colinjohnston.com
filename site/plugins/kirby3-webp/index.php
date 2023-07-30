@@ -153,6 +153,7 @@ Kirby::plugin('hashandsalt/kirby-webp', [
                 'fallback',
                 'class',
                 'imgclass',
+                'linkclass',
                 'alt',
                 'width',
                 'height',
@@ -169,7 +170,7 @@ Kirby::plugin('hashandsalt/kirby-webp', [
                   $tag->width     = $tag->width ?? $tag->file($tag->value)->width();
                   $tag->height    = $tag->height ?? $tag->file($tag->value)->height();
                   $tag->sizes     = $tag->sizes ? $tag->sizes : option('hashandsalt.kirby-webp.range');
-                  $tag->imgclass  = $tag->imgclass;
+                //   $tag->imgclass  = $tag->imgclass;
                   $tag->linkclass  = $tag->linkclass;
 
               } else {
