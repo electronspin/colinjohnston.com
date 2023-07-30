@@ -95,5 +95,8 @@ return [
     ],
   ],
   's1syphos.highlight.languages' => ['html', 'php', 'bash'],
-  's1syphos.highlight.escaping' => true
+  's1syphos.highlight.escaping' => true,
+
+  'hashandsalt.kirby-webp.range' => [2048, 1024, 800],
+  'hashandsalt.kirby-webp.template' => 'images'
 ];
