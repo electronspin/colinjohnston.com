@@ -9,7 +9,7 @@
 
     <?php //new block for cover iamge using kirby-webp plugin snippet ?>
     <?php if ($image = $page->images()->findBy('template', 'cover')): ?>
-    <?php snippet('webp', ['sizes' => [2048, 1024, 800], 'src' => $image, 'linkclass' => 'hb-single', 'class' => 'c-imagebox c-imagebox--hero animate', 'link' => $image->url(), 'width' => $image->width(), 'height' => $image->height(), 'caption' => $image->caption()]) ?>
+    <?php snippet('webp', ['sizes' => [2048, 1024, 800], 'src' => $image, 'class' => 'c-imagebox c-imagebox--hero', 'link' => $image->url(), 'linkclass' => 'hb-single', 'width' => $image->width(), 'height' => $image->height(), 'caption' => $image->caption()]) ?>
     <?php endif ?>
 
     <article class="c-project__body">
