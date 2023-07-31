@@ -5,7 +5,7 @@ return [
   'bnomei.dotenv.dir' => function () {
     return realpath(kirby()->roots()->index() . '/../');
   },
-  'pedroborges.meta-tags.default' => function ($page, $site) {
+  'wearejust.meta-tags.default' => function ($page, $site) {
     return [
       // 'title' => $site->title(),
       'meta' => [
