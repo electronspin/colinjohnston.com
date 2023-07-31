@@ -11,10 +11,22 @@ Kirby 3 Plugin for environment variables from .env
 
 ## Commercial Usage
 
-This plugin is free but if you use it in a commercial project please consider to
-- [make a donation 🍻](https://www.paypal.me/bnomei/1) or
-- [buy me ☕](https://buymeacoff.ee/bnomei) or
-- [buy a Kirby license using this affiliate link](https://a.paddle.com/v2/click/1129/35731?link=1170)
+> <br>
+> <b>Support open source!</b><br><br>
+> This plugin is free but if you use it in a commercial project please consider to sponsor me or make a donation.<br>
+> If my work helped you to make some cash it seems fair to me that I might get a little reward as well, right?<br><br>
+> Be kind. Share a little. Thanks.<br><br>
+> &dash; Bruno<br>
+> &nbsp; 
+
+| M | O | N | E | Y |
+|---|----|---|---|---|
+| [Github sponsor](https://github.com/sponsors/bnomei) | [Patreon](https://patreon.com/bnomei) | [Buy Me a Coffee](https://buymeacoff.ee/bnomei) | [Paypal dontation](https://www.paypal.me/bnomei/15) | [Hire me](mailto:b@bnomei.com?subject=Kirby) |
+
+## Similar Plugins
+
+- [beebmx/kirby-env](https://github.com/beebmx/kirby-env)
+- [johannschopplich/kirby-extended](https://github.com/johannschopplich/kirby-extended)
 
 ## Installation
 
@@ -24,70 +36,77 @@ This plugin is free but if you use it in a commercial project please consider to
 
 ## Setup
 
-**.env file**
-```
+### .env file Examples
+**/.env**
+```dotenv
 APP_MODE=production
-APP_DEBUG=true
+APP_DEBUG=false
 ALGOLIA_APIKEY=12d7331a21d8a28b3069c49830f463e833e30f6d
 KIRBY_API_USER=bnomei
 KIRBY_API_PW=52d3a0edcc78be6c5645fdb7568f94d3d83d1c2a
 ```
 
-**plugin helper methods**
+**/.env.staging**
+```dotenv
+APP_MODE=staging
+APP_DEBUG=true
+ALGOLIA_APIKEY=950306d052ec893b467f2ca088daf2964b9f9530
+KIRBY_API_USER=notBnomei
+KIRBY_API_PW=37e30ad867ff3a427317dcd1852abbd692b39ffc
+```
+
+## Usage everywhere but in Config files
+
+> ⚠️ ATTENTION: The global PHP functions `getenv()` or `putenv()` are NOT supported by this plugin since v2. What will work...
+> - use super globals `$_ENV[]`, `$_SERVER[]` or 
+> - the plugins global helper function `env()` or
+> - `->getenv()`, `->env()` page and site methods
+
+**on server**
 ```php
-echo env('APP_MODE'); // production
+echo $_ENV['APP_MODE']; // production
+echo env('APP_DEBUG'); // false
 // or
 echo $page->getenv('ALGOLIA_APIKEY'); // 12d7331a21d8a28b3069c49830f463e833e30f6d
+echo $page->env('ALGOLIA_APIKEY'); // 12d7331a21d8a28b3069c49830f463e833e30f6d
+echo site()->getenv('ALGOLIA_APIKEY'); // 12d7331a21d8a28b3069c49830f463e833e30f6d
+echo site()->env('ALGOLIA_APIKEY'); // 12d7331a21d8a28b3069c49830f463e833e30f6d
 ```
 
-**plain php**
+**on staging server**
 ```php
-Bnomei\DotEnv::load();
-echo getenv('APP_DEBUG'); // true
+echo $_ENV['APP_MODE']; // staging
 echo env('APP_DEBUG'); // true
+// or
+echo $page->getenv('ALGOLIA_APIKEY'); // 37e30ad867ff3a427317dcd1852abbd692b39ffc
+echo $page->env('ALGOLIA_APIKEY'); // 37e30ad867ff3a427317dcd1852abbd692b39ffc
+echo site()->getenv('ALGOLIA_APIKEY'); // 37e30ad867ff3a427317dcd1852abbd692b39ffc
+echo site()->env('ALGOLIA_APIKEY'); // 37e30ad867ff3a427317dcd1852abbd692b39ffc
 ```
 
-### Using getenv() in the Kirby config file
+## Usage in Config files
 
-**site/config/config.php**
+See [config examples](https://github.com/bnomei/kirby3-dotenv/tree/master/tests/site/config) on how to use this plugin in combination with kirbys config files. Since v2 this plugin support Kirbys [Multi-environment setup](https://getkirby.com/docs/guide/configuration#multi-environment-setup) used to merging multiple config files.
+
+## Default values
+
+In case you want to provide a default value as fallback in case the environment variable is not set you can do that with the 2nd parameter in each helper function.
+
 ```php
-return [
-    // ... other options
-    'bnomei.cloudconvert.apikey' => function() { 
-        return env('CLOUDCONVERT_APIKEY'); 
-    },
-    'bnomei.instagram.token' => function() { 
-        return env('INSTAGRAM_TOKEN'); 
-    },
-    'bnomei.thumbimageoptim.apikey' => function() { 
-        return env('IMAGEOPTIM_APIKEY'); 
-    },
-];
+ // `true` as default value
+echo env('ALGOLIA_ENABLED', true);
 ```
 
-#### No callback - no luck? 3 line are enough!
-Unless you preload the `Bnomei\DotEnv` class using an `include_once` statement yourself the class will not be available in the kirby config files. But some options take a `callback` not just a `string` value. If your desired option does not then consider reporting a github issue at **their** repository. Adding a callback for an option is 3 lines of work.
-
-**code/in/another/plugin.php**
-```php
-public function thisIsWereAllConfigValuesAreLoaded()
-{
-    $fancyOption = option('another.plugin.fancy');
-    // add these 3 lines
-    if (is_callable($fancyOptions)) {
-        $fancyOption = $fancyOption();
-    }
-}
-```
-
+> Thanks for your PR @teichsta
 
 ## Settings
 
 | bnomei.dotenv.            | Default        | Description               |            
 |---------------------------|----------------|---------------------------|
-| dir | `callback` | returning `kirby()->roots()->index(). When installing Kirby 3 with Composer use a `function() { return realpath(kirby()->roots()->index() . '/../'); }` | 
-| filename | `.env` | |
+| dir | `callback` | returning `kirby()->roots()->index().` When installing Kirby 3 with Composer use a `function() { return realpath(kirby()->roots()->index() . '/../'); }` | 
+| file | `.env` | |
 | required | `[]` | You can define required variables in the Settings using an array. If any of these is missing a `RuntimeException` will be thrown. |
+| setup | `callback` | perform additional tasks on raw dotenv class instance |
 
 ## Dependencies
 
