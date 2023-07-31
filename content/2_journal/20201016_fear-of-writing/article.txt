@@ -42,9 +42,7 @@ Published: 2020-10-16 21:00
 
 ----
 
-Author:
-
-- ZHFwwqKd
+Author: - ZHFwwqKd
 
 ----
 
@@ -136,3 +134,7 @@ Cover:
     http://colinjohnston.local/media/pages/journal/fear-of-writing/2837186568-1595042484/close-up-of-hand-holding-pencil-over-white-background-316466.jpg
   uuid: >
     close-up-of-hand-holding-pencil-over-white-background-316466.jpg
+
+----
+
+Uuid: wyWuSL1UXwe8Z29h
