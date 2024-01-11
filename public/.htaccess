@@ -63,3 +63,6 @@ AddOutputFilterByType DEFLATE application/x-javascript
 
 # 301 REDIRECTS
 Redirect 301 /resume/Colin-Johnston-UX-Product-Design-Resume.pdf http://colinjohnston.com/resume/Colin-Johnston-Product-Design-Resume-2020.pdf
+
+# 3.8 Migration Update https://getkirby.com/releases/3.8/migration-sites#update-the-htaccess-file
+SetEnvIf Authorization "(.+)" HTTP_AUTHORIZATION=$1
