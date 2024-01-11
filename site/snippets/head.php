@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="/favicon.ico" rel="icon" type="image/x-icon">
-    <?php if ($page->isHomePage()): ?>
+    <?php if ($page->isHomePage()) : ?>
     <title>Colin Johnston - Product Design, Visual Design, UX Strategy, Brand Development - San Francisco Web Design
     </title>
-    <?php else: ?>
+    <?php else : ?>
     <title><?= $page->title() . ' – ' . $site->title() ?></title>
     <?php endif ?>
 
@@ -23,6 +23,13 @@
     <script defer src="/assets/js/picturefill.min.js"></script>
     <script defer src="/assets/js/halkaBox.min.js"></script>
     <!-- <script src="/assets/js/highlight.pack.js"></script> -->
+    <noscript>
+      <style>
+      img.lazyload {
+        opacity: 1;
+      }
+      </style>
+    </noscript>
     <?php snippet('fathom') ?>
 
   </head>

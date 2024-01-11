@@ -4,7 +4,7 @@ $originalTag = Kirby\Text\KirbyTag::$types['image'];
 
 Kirby::plugin('colin-johnston/respimg', [
   'tags' => [
-    'respimg' => [
+    'image' => [
       'attr' => array_merge(
         $originalTag['attr'],
         [
@@ -20,12 +20,15 @@ Kirby::plugin('colin-johnston/respimg', [
         $presets = option('thumbs.srcsets.default');
 
         // sets srcset as kirbytag array with fallback to config array
-        $srcset = $tag->srcset ? explode(',', $tag->srcset) : $presets;
-
+        // $srcset = $tag->srcset ? explode(',', $tag->srcset) : $presets;
+      
         // casts kirbytext array strings to ints
-        $srcset = array_map(function ($item) {
-          return (int) $item;
-        }, $srcset);
+        // $srcset = array_map(function ($item) {
+        //   return (int) $item;
+        // }, $srcset);
+      
+        // texnixe replacement of two sections above
+        $srcset = $tag->srcset ? array_map(fn($item) => (int) $item, explode(',', $tag->srcset)) : $presets;
 
 
         $result = $originalTag['html']($tag);
@@ -40,23 +43,27 @@ Kirby::plugin('colin-johnston/respimg', [
         $image = Html::img($tag->src, [
           'width' => $tag->width,
           'height' => $tag->height,
-          'class' => $tag->imgclass,
           'title' => $tag->title,
           'alt' => $tag->alt ?? ' ',
-          'srcset' => $tag->srcset($srcset),
+          'class' => $tag->imgclass,
+          //remove src and srcset to let lazysizes data-src and data-srcset handle it
+//'src' => $tag->src,
+//'srcset' => $file->srcset($srcset),
+          'src' => null,
+          'srcset' => null,
+          // for lazysizes
+          'data-sizes' => 'auto',
+          'data-src' => $tag->src,
+          'data-srcset' => $file->srcset($srcset),
         ]);
 
         // replace the old image tag
         $result = preg_replace($pattern, $image, $result);
 
         // print_r($srcset);
-
+      
         return $result;
       }
     ]
   ]
 ]);
-
-// 2023-09-30
-// this is not really doing anything
-// how to get actual scrset in output?
